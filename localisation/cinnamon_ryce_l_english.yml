@@ -143,3 +143,18 @@
  maj_muslim_trading_ports_desc:0 "最近大量穆斯林商人涌入爪哇北部，这对我们来说是一个机遇。通过允许他们使用我们的北部港口，我们可以确保来自努山塔拉各地的穆斯林商人直接来到马六甲，从而确保我们对该地区贸易的控制。"
  kejawen:0 "爪哇教"
  kejawen_desc:0 "爪哇教是我们人民的一种宗教传统，它将各种宗教信仰和习俗结合在一起。爪哇人民对新宗教持包容和开放的态度，总是乐于接受不同的传统和文化。"
+ ###########################
+ #Random? Labelled as Majapahit Countries
+ ###########################
+ JAV: "爪哇"
+ JAV_ADJ: "爪哇的"
+ kadipaten: "卡迪帕滕（行政区）"
+ kerajaan: "王国"
+ panembahan: "帕南巴汉（统治者头衔）"
+ adipati: "阿迪帕提（地方统治者）"
+ RATU: "女王；王后"
+ sri_sultan: "斯里苏丹（苏丹尊称）"
+ nyai: "夫人；女士"
+ indonesia_states: "印度尼西亚国家"
+ PANGERAN: "王子；贵族"
+ PUTRI: "公主"

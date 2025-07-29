@@ -141,17 +141,6 @@
  lte_latin_imperial_authority_tooltip:0 "拉丁帝国权威"
  desc_lte_latin_imperial_authority_tooltip:0 "此修正显示您的拉丁帝国权威。拉丁帝国权威代表着您帝国的封建化程度。拉丁帝国权威较低意味着您的臣民认为您过于强大，从而增加他们的自由欲望。另一方面，拉丁帝国权威较高意味着您的臣民保持忠诚，愿意为您的事业贡献更多个人力量。
 
-拉丁帝国权威通过建立骑士团、维持高合法性以及高专制主义来提升。每直接拥有一个省份，以及骑士团拥有的每个省份（尽管比您直接拥有的省份减少的幅度小得多），都会降低拉丁帝国权威。
-
-当前 [LTE.latinImperialAuthorityVariable.GetName] 为 §Y[LTE.latinImperialAuthorityVariable.GetValue]§!。
-上个月的变化为 §Y[LTE.latinImperialAuthorityVariablePulser.GetValue]§!。 
-
-每月变化：
-每个非首都的直接拥有省份：§R-0.02§!
-骑士团拥有的每个省份：§R-0.0025§!
-每个现存且忠诚的骑士团封臣：§G+0.1§!
-每点合法性：§G+0.001§!
-每点专制主义：§G+0.01§!"
  lte_latin_imperial_authority_ld_modifier_1:0 "拉丁帝国权威等级"
  lte_latin_imperial_authority_ld_modifier_1_tooltip:0 "[LTE.latinImperialAuthorityVariable.GetName] 在 0 到 5 之间（当前为 §Y[LTE.latinImperialAuthorityVariable.GetValue]§!）。"
  lte_latin_imperial_authority_ld_modifier_2:0 "拉丁帝国权威等级"
