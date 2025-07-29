@@ -1,0 +1,333 @@
+﻿l_english:
+
+ ### Institution Localization
+ BIRTHPLACE_OF_INSTITUTION:0 "$PROV$ 是 §Y$NAME$§! 的发源地！"
+ #Writing
+
+ writing:0 "文字"
+ desc_writing:0 "文字系统通常被认为是区分‘文明’与之前人类社会发展形式的基石之一，它通过视觉符号或象形文字来表示口语的结构。文字起源于更简单的助记符和表意文字系统，真正的文字最早出现在公元前4千年末期的古代美索不达米亚南部。从那时起，文字逐渐传播到已知世界，在古埃及、中国和遥远的南墨西哥分别被独立发明。\n话虽如此，现在再出现另一种独立的文字起源几乎是不可能的。对于那些全球范围内仍然缺乏适当实物记录和文献系统的复杂文明来说，随着时间的推移，繁荣和帝国的负担将变得越来越沉重。除非采用或适应文字系统，否则这些民族将很快发现自己被时代抛弃了。"
+ writing_date:0 "公元前3000年"
+
+ AN_tooltip_embraced_writing:0 "拥有者已拥抱§Y文字§!"
+
+ AN_tooltip_friendly_neighbor_or_coast_has_writing:0 "附近的友好省份拥有§Y文字§!"
+ AN_tooltip_neighbor_has_writing:0 "相邻省份拥有§Y文字§!"
+
+ AN_tooltip_non_tribal_capital_writing:0 "旧世界首都且拥有者是神权制、君主制或共和国"
+ AN_tooltip_colonial_capital_writing:0 "殖民地首都且宗主国已拥抱§Y文字§!"
+
+
+ #Bureaucracy
+ bureaucracy:0 "官僚制度"
+ desc_bureaucracy:0 "尽管现代术语中的官僚制度和文官制度更加具体，但广义上的概念是指由受过培训的专业人员按照固定规则进行的行政管理系统。最早的持久性官僚文官制度是在653年唐朝建立的，同时建立了一套成文法律。一个拥有永久性、从属的治理阶层的存在，部分通过才能选拔并提供必要的资源、等级制度和成功所需的权威……这才是建立持久国家的关键。"
+ bureaucracy_date:0 "公元652年"
+
+ AN_tooltip_embraced_bureaucracy:0 "拥有者已拥抱§Y官僚制度§!"
+
+ AN_tooltip_friendly_neighbor_or_coast_has_bureaucracy:0 "附近的友好省份拥有§Y官僚制度§!"
+ AN_tooltip_neighbor_has_bureaucracy:0 "相邻省份拥有§Y官僚制度§!"
+
+ AN_tooltip_govt_rank_bureaucracy:0 "拥有者是§Y帝国§!"
+
+ AN_tooltip_non_tribal_capital_20_dev_bureaucracy:0 "§Y20§!发展度的旧世界首都且拥有者是神权制、君主制或共和国"
+ AN_tooltip_non_tribal_capital_40_dev_bureaucracy:0 "§Y40§!发展度的旧世界首都且拥有者是神权制、君主制或共和国"
+ AN_tooltip_colonial_capital_bureaucracy:0 "殖民地首都且宗主国已拥抱§Y官僚制度§!"
+
+
+ #Landed Estates
+ feudalism:0 "封建地产"
+ desc_feudalism:0 "随着时间推移，具有足够社会分层水平、人口增长和制度化治理的文明发展出了不同的社会秩序形式，因为社会角色变得更加明确分化。强大的庄园围绕着宗教、战争、商业、生产、贵族和学术等支柱发展起来。通常，多个支柱会归于同一个大类，例如在基督教世界中学术归于神职人员，在受中国影响的东方商业和手工艺归于封建制度。这些有影响力的社交圈子和组织追求自己的财产利益，增加影响力，成为社会发展的重要基石，它们与君主和中央政府的相互关系对胜任管理以及保持与邻近政治实体的竞争力至关重要。"
+ feudalism_date:0 "公元936年"
+
+ AN_tooltip_embraced_landed_estates:0 "非贸易公司且拥有者已拥抱§Y封建地产§!"
+
+ AN_tooltip_friendly_neighbor_or_coast_has_landed_estates:0 "附近的友好省份拥有§Y封建地产§!"
+ AN_tooltip_neighbor_has_landed_estates:0 "相邻省份拥有§Y封建地产§!"
+
+ AN_tooltip_crownland_low_landed_estates:0 "拥有者拥有少于§Y20%§!的王室领地"
+ AN_tooltip_nobles_landed_estates:0 "拥有者拥有忠诚度(§Y40%§!)和影响力(§Y30%§!)的贵族庄园"
+
+ AN_tooltip_non_tribal_capital_30_dev_landed_estates:0 "§Y30§!发展度的旧世界首都且拥有者是神权制、君主制或共和国"
+ AN_tooltip_colonial_capital_landed_estates:0 "殖民地首都且宗主国已拥抱§Y封建地产§!"
+
+
+ #Scholasticism
+ scholasticism:0 "经院哲学"
+ desc_scholasticism:0 "从12世纪早期开始，第一批真正的专业大学开始在欧洲兴起，以培养神学、法学和医学等各个学科的专业人才。因此，人们对自西罗马帝国衰落以来在拉丁欧洲失传的信息获取兴趣大增。在意大利和西班牙的翻译学校建立的推动下，学者们复兴了古希腊哲学在欧洲的研究，同时也从阿拉伯语世界引入了许多思想。\n柏拉图、亚里士多德等人的思想涌入对传统基督教教义构成了新的威胁，激发了一个辩论和思想综合的时代。因此，经院哲学与其说是一种哲学或神学，不如说是一种学习方法，因为它强调通过辩证推理来扩展知识并通过推理解决矛盾。这种推理形式将成为现代西方法律体系的基石数个世纪之久。"
+ scholasticism_date:0 "公元1118年"
+
+ AN_tooltip_embraced_scholasticism:0 "非贸易公司且拥有者已拥抱§Y经院哲学§!"
+
+ AN_tooltip_friendly_neighbor_or_coast_has_scholasticism:0 "附近的友好省份拥有§Y经院哲学§!"
+ AN_tooltip_neighbor_has_scholasticism:0 "相邻省份拥有§Y经院哲学§!"
+
+ AN_tooltip_catholic_town:0 "是天主教且至少拥有一个§Y城镇§!"
+ AN_tooltip_catholic_university:0 "是天主教且至少拥有一个§Y大学§!"
+ AN_tooltip_catholic_books:0 "是天主教且生产§Y书籍§!"
+
+ AN_tooltip_non_tribal_capital_30_dev_landed_estates:0 "§Y30§!发展度的旧世界首都且拥有者是神权制、君主制或共和国"
+ AN_tooltip_colonial_capital_scholasticism:0 "殖民地首都且宗主国已拥抱§Y经院哲学§!"
+
+
+ #Commercialism
+ commercialism:0 "商业主义"
+ desc_commercialism:0 "随着西罗马帝国衰落以来欧洲人口和财富的恢复，一种新兴的商业经济首先在意大利-拜占庭亚得里亚海地区蓬勃发展，然后在整个地中海地区兴起。对丝绸和香料等有价值的东方商品的重新发现促使贸易复兴，银行业务重新兴起，现代金银和货币经济的时代开始。自给自足的地方封建领地现在让位于延伸到中国泉州港的互联区域贸易网络。对高利贷的漏洞使第一批现代金融工具成为可能，商人开始崛起。"
+ commercialism_date:0 "公元1300年"
+
+ AN_tooltip_embraced_commercialism:0 "拥有者已拥抱§Y商业主义§!"
+
+ AN_tooltip_friendly_neighbor_or_coast_has_commercialism:0 "附近的友好省份拥有§Y商业主义§!"
+ AN_tooltip_neighbor_has_commercialism:0 "相邻省份拥有§Y商业主义§!"
+
+ AN_tooltip_italy_capital_20_dev_commercialism:0 "§Y20§!发展度的意大利首都"
+ AN_tooltip_colonial_capital_commercialism:0 "殖民地首都且宗主国已拥抱§Y商业主义§!"
+
+ AN_tooltip_free_city:0 "拥有者是一个自由市"
+ AN_tooltip_old_world_trade_league:0 "拥有者是贸易联盟的成员"
+ AN_tooltip_old_world_trade_post:0 "拥有一个贸易站"
+ AN_tooltip_quanzhou:0 "是[1829.GetName] - 1350年后"
+
+ AN_tooltip_set_a_level_1:0 "在伊比利亚、意大利、法国、英国、爱尔兰、低地国家、北德意志、南德意志、伊利里亚、鲁梅利亚、安纳托利亚、黎凡特、埃及或马格里布地区且拥有§Y1§!级沿海贸易中心"
+ AN_tooltip_set_a_level_2:0 "在伊比利亚、意大利、法国、英国、爱尔兰、低地国家、北德意志、南德意志、伊利里亚、鲁梅利亚、安纳托利亚、黎凡特、埃及或马格里布地区且拥有§Y2§!级沿海贸易中心"
+ AN_tooltip_set_a_level_3:0 "在伊比利亚、意大利、法国、英国、爱尔兰、低地国家、北德意志、南德意志、伊利里亚、鲁梅利亚、安纳托利亚、黎凡特、埃及或马格里布地区且拥有§Y3§!级沿海贸易中心"
+ AN_tooltip_set_a_level_4:0 "在伊比利亚、意大利、法国、英国、爱尔兰、低地国家、北德意志、南德意志、伊利里亚、鲁梅利亚、安纳托利亚、黎凡特、埃及或马格里布地区且拥有§Y4§!级沿海贸易中心"
+ AN_tooltip_set_a_level_5:0 "在伊比利亚、意大利、法国、英国、爱尔兰、低地国家、北德意志、南德意志、伊利里亚、鲁梅利亚、安纳托利亚、黎凡特、埃及或马格里布地区且拥有§Y5§!级沿海贸易中心"
+
+ AN_tooltip_set_b_level_1:0 "在斯堪的纳维亚、波罗的海、波兰、喀尔巴阡、鲁塞尼亚、黑海草原、俄罗斯、乌拉尔、高加索、伊朗、霍拉桑、图兰、美索不达米亚、阿拉伯、撒哈拉、非洲之角或东非地区且拥有§Y1§!级沿海贸易中心 - 1400年后"
+ AN_tooltip_set_b_level_2:0 "在斯堪的纳维亚、波罗的海、波兰、喀尔巴阡、鲁塞尼亚、黑海草原、俄罗斯、乌拉尔、高加索、伊朗、霍拉桑、图兰、美索不达米亚、阿拉伯、撒哈拉、非洲之角或东非地区且拥有§Y2§!级沿海贸易中心 - 1400年后"
+ AN_tooltip_set_b_level_3:0 "在斯堪的纳维亚、波罗的海、波兰、喀尔巴阡、鲁塞尼亚、黑海草原、俄罗斯、乌拉尔、高加索、伊朗、霍拉桑、图兰、美索不达米亚、阿拉伯、撒哈拉、非洲之角或东非地区且拥有§Y3§!级沿海贸易中心 - 1400年后"
+ AN_tooltip_set_b_level_4:0 "在斯堪的纳维亚、波罗的海、波兰、喀尔巴阡、鲁塞尼亚、黑海草原、俄罗斯、乌拉尔、高加索、伊朗、霍拉桑、图兰、美索不达米亚、阿拉伯、撒哈拉、非洲之角或东非地区且拥有§Y4§!级沿海贸易中心 - 1400年后"
+ AN_tooltip_set_b_level_5:0 "在斯堪的纳维亚、波罗的海、波兰、喀尔巴阡、鲁塞尼亚、黑海草原、俄罗斯、乌拉尔、高加索、伊朗、霍拉桑、图兰、美索不达米亚、阿拉伯、撒哈拉、非洲之角或东非地区且拥有§Y5§!级沿海贸易中心 - 1400年后"
+
+ AN_tooltip_set_c_level_1:0 "在印度斯坦、印度河、古吉拉特、德干、科罗曼德尔、孟加拉、西藏、四川、华北、华南、日本、朝鲜、满洲、蒙古、缅甸、暹罗、中南半岛、马来亚、苏门答腊、婆罗洲、爪哇、努沙登加拉、苏拉威西、马鲁古、菲律宾、巴布亚、萨赫勒、尼日尔、几内亚、刚果或中非地区且拥有§Y1§!级沿海贸易中心 - 1500年后"
+ AN_tooltip_set_c_level_2:0 "在印度斯坦、印度河、古吉拉特、德干、科罗曼德尔、孟加拉、西藏、四川、华北、华南、日本、朝鲜、满洲、蒙古、缅甸、暹罗、中南半岛、马来亚、苏门答腊、婆罗洲、爪哇、努沙登加拉、苏拉威西、马鲁古、菲律宾、巴布亚、萨赫勒、尼日尔、几内亚、刚果或中非地区且拥有§Y2§!级沿海贸易中心 - 1500年后"
+ AN_tooltip_set_c_level_3:0 "在印度斯坦、印度河、古吉拉特、德干、科罗曼德尔、孟加拉、西藏、四川、华北、华南、日本、朝鲜、满洲、蒙古、缅甸、暹罗、中南半岛、马来亚、苏门答腊、婆罗洲、爪哇、努沙登加拉、苏拉威西、马鲁古、菲律宾、巴布亚、萨赫勒、尼日尔、几内亚、刚果或中非地区且拥有§Y3§!级沿海贸易中心 - 1500年后"
+ AN_tooltip_set_c_level_4:0 "在印度斯坦、印度河、古吉拉特、德干、科罗曼德尔、孟加拉、西藏、四川、华北、华南、日本、朝鲜、满洲、蒙古、缅甸、暹罗、中南半岛、马来亚、苏门答腊、婆罗洲、爪哇、努沙登加拉、苏拉威西、马鲁古、菲律宾、巴布亚、萨赫勒、尼日尔、几内亚、刚果或中非地区且拥有§Y4§!级沿海贸易中心 - 1500年后"
+ AN_tooltip_set_c_level_5:0 "在印度斯坦、印度河、古吉拉特、德干、科罗曼德尔、孟加拉、西藏、四川、华北、华南、日本、朝鲜、满洲、蒙古、缅甸、暹罗、中南半岛、马来亚、苏门答腊、婆罗洲、爪哇、努沙登加拉、苏拉威西、马鲁古、菲律宾、巴布亚、萨赫勒、尼日尔、几内亚、刚果或中非地区且拥有§Y5§!级沿海贸易中心 - 1500年后"
+
+
+ # Finance
+ finance:0 "金融"
+ desc_finance:0 "随着黑死病的灾难及其对欧洲社会政治秩序的影响，劳动力短缺推动了工资上涨，农业生产现在能够轻松维持较低的人口。民众购买力的提高推动了商人-工匠阶层的不断上升。来自商人银行的贷款和投资已成为各地领导人财务规划的核心。\n对金银的重新信任允许进行稳定、普遍接受的铸币，用于进行日益复杂的交易。银行和经纪行为承担风险的长途和高准入成本的海外贸易提供了所需的安全保障。现代金融最终将创造出欧洲主导地位的最强大引擎——中央银行、证券交易所和公司主权。无论未来如何，它都将需要金融机构。"
+ finance_date:0 "公元1347年" #1345
+
+ AN_tooltip_embraced_finance:0 "拥有者已拥抱§Y金融§!"
+
+ AN_tooltip_friendly_neighbor_or_coast_has_finance:0 "附近的友好省份拥有§Y金融§!"
+ AN_tooltip_neighbor_has_finance:0 "相邻省份拥有§Y金融§!"
+
+ AN_tooltip_europe_capital_finance:0 "地中海、西欧、中欧或北欧的王国首都"
+ AN_tooltip_colonial_capital_finance:0 "殖民地首都且宗主国已拥抱§Y金融§!"
+
+ AN_tooltip_set_a_finance:0 "在利古里亚、斯图拉、皮埃蒙特、朱瓦尔、伦巴第、威尼托、罗马涅、艾米利亚、阿尔诺或翁布罗内地区"
+ AN_tooltip_europe_advisor_finance:0 "在欧洲且拥有者有§Y财务主管§!或§Y铸币大师§!顾问"
+ AN_tooltip_europe_ruler_personality_finance:0 "在欧洲且拥有者有§Y点石成金§!或§Y企业家§!统治者个性"
+ AN_tooltip_brugge:0 "是[90.GetName]"
+
+
+ #Renaissance
+ renaissance:0 "文艺复兴"
+ desc_renaissance:0 "起源于14世纪中叶的佛罗伦萨，文艺复兴描述了一个在哲学、治国术、学习和表达方面的过渡时期，标志着近代早期的黎明。文艺复兴的智力基础是其版本的人文主义，源自罗马的humanitas概念，以及对古典希腊哲学的重新发现——比如普罗泰戈拉所说的'人是万物的尺度'。这种新思维在艺术、建筑、政治、科学和文学中得到了体现。\n文艺复兴思想的传播特别缓慢且不均衡，在意大利发展尤其迅速，但它在整个欧洲的普及需要在活字印刷术发明后才能加速。文艺复兴人文主义将花费大半个世纪的时间成长为更成熟的运动，渗透到社会的各个方面。"
+ renaissance_date:0 "公元1399年" #1395
+
+ AN_tooltip_embraced_renaissance:0 "非贸易公司且拥有者已拥抱§Y文艺复兴§!"
+
+ AN_tooltip_friendly_neighbor_or_coast_has_renaissance:0 "附近的友好省份拥有§Y文艺复兴§! - 1500年前"
+ AN_tooltip_neighbor_has_renaissance:0 "相邻省份拥有§Y文艺复兴§! - 1500年前"
+ AN_tooltip_friendly_neighbor_or_coast_has_renaissance_post_1500:0 "附近的友好省份拥有§Y文艺复兴§! - 1500年后"
+ AN_tooltip_neighbor_has_renaissance_post_1500:0 "相邻省份拥有§Y文艺复兴§! - 1500年后"
+
+ AN_tooltip_colonial_capital_renaissance:0 "殖民地首都且宗主国已拥抱§Y文艺复兴§!"
+
+ AN_tooltip_set_a_renaissance:0 "在利古里亚、斯图拉、皮埃蒙特、朱瓦尔、伦巴第、威尼托、罗马涅、艾米利亚、阿尔诺或翁布罗内地区"
+ AN_tooltip_catholic_italy_low_countries_renaissance:0 "是天主教且在意大利或低地国家地区 - 1450年后"
+ AN_tooltip_judeo_christian_countries_renaissance:0 "是天主教、新教、改革宗、胡斯派、安立甘宗或犹太教且在地中海、巴尔干、西欧、中欧或北欧次大陆 - 1500年后"
+ AN_tooltip_europe_countries_renaissance:0 "在地中海、巴尔干、西欧、中欧或北欧次大陆 - 1550年后"
+ AN_tooltip_catholic_scholar_leader_renaissance:0 "是天主教且拥有者已拥抱§Y经院哲学§!且有§Y自由思想家§!、§Y人脉广泛§!或§Y天真热情§!统治者个性"
+ AN_tooltip_catholic_scholar_advisor_early_renaissance:0 "是天主教且拥有者已拥抱§Y经院哲学§!且有§Y自然科学家§!、§Y艺术家§!、§Y神学家§!或§Y哲学家§!顾问 - 1450年前"
+ AN_tooltip_catholic_scholar_advisor_late_renaissance:0 "是天主教且拥有者已拥抱§Y经院哲学§!且有§Y自然科学家§!、§Y艺术家§!、§Y神学家§!或§Y哲学家§!顾问 - 1450年后"
+ AN_tooltip_catholic_city_renaissance:0 "是天主教且至少拥有一个§Y城市§! - 1450年前"
+ AN_tooltip_catholic_city_1450_renaissance:0 "是天主教且至少拥有一个§Y城市§! - 1450年后"
+ AN_tooltip_christian_city_1500_renaissance:0 "是天主教、新教、改革宗、胡斯派、安立甘宗或犹太教且拥有一个§Y城市§!或§Y大都市§! - 1500年后"
+ AN_tooltip_catholic_university_renaissance:0 "是天主教且拥有一个§Y大学§! - 1450年前"
+ AN_tooltip_catholic_university_1450_renaissance:0 "是天主教且至少拥有一个§Y大学§! - 1450年后"
+ AN_tooltip_catholic_university_1500_renaissance:0 "是天主教且至少拥有一个§Y大学§! - 1500年后"
+ AN_tooltip_catholic_books_renaissance:0 "是天主教且生产§Y书籍§! - 1450年前"
+ AN_tooltip_catholic_books_1450_renaissance:0 "是天主教且生产§Y书籍§! - 1450年后"
+ AN_tooltip_judeo_christian_books_renaissance:0 "是天主教、新教、改革宗、胡斯派、安立甘宗或犹太教且生产§Y书籍§! - 1500年后"
+
+ # Mass Media
+ printing_press:0 "大众媒体"
+ desc_printing_press:0 "大规模生产书面文字的能力将彻底改变信息传播，并在许多方面彻底改变近代早期社会。相对不受限制的信息和革命思想的流通超越了国界，在宗教改革中抓住了群众，威胁到了政治和宗教权威的力量。识字率的急剧提高打破了识字精英对教育和学习的垄断，增强了新兴的中产阶级。在整个欧洲，其人民日益增长的文化自觉导致了原始民族主义的兴起，并加速了欧洲方言的发展，这对拉丁语造成了损害。\n印刷术使更广泛的读者群体能够获取知识，并使后代能够直接在前人智力成就的基础上构建，而不会因口头传统的变化而产生改变。印刷术确保了文艺复兴的成果能够延续，确保了所写的内容能够被所有人获取，确保了像中世纪那样知识和思想的隐匿不会再次发生，确保了不会有任何思想会丢失。"
+ printing_press_date:0 "公元1455年" #1450
+
+ AN_tooltip_embraced_mass_media:0 "非贸易公司且拥有者已拥抱§Y大众媒体§!"
+ AN_tooltip_TC_embraced_mass_media:0 "是贸易公司且拥有者已拥抱§Y大众媒体§!"
+
+ AN_tooltip_friendly_non_judeo_christian_neighbor_or_coast_has_mass_media:0 "附近的友好省份拥有§Y大众媒体§!"
+ AN_tooltip_friendly_judeo_christian_neighbor_or_coast_has_mass_media:0 "附近的友好省份是天主教、新教、改革宗、胡斯派、安立甘宗或犹太教且拥有§Y大众媒体§!"
+ AN_tooltip_non_judeo_christian_neighbor_has_mass_media:0 "相邻省份拥有§Y大众媒体§!"
+ AN_tooltip_judeo_christian_neighbor_has_mass_media:0 "是天主教、新教、改革宗、胡斯派、安立甘宗或犹太教且相邻省份拥有§Y大众媒体§!"
+
+ AN_tooltip_colonial_capital_mass_media:0 "殖民地首都且宗主国已拥抱§Y大众媒体§!"
+
+ AN_tooltip_judeo_christian_town_mass_media:0 "是天主教、新教、改革宗、胡斯派、安立甘宗或犹太教且至少拥有一个§Y城镇§!"
+ AN_tooltip_judeo_christian_university_mass_media:0 "是天主教、新教、改革宗、胡斯派、安立甘宗或犹太教且至少拥有一个§Y大学§!"
+ AN_tooltip_judeo_christian_books_mass_media:0 "是天主教、新教、改革宗、胡斯派、安立甘宗或犹太教且生产§Y书籍§!"
+ AN_tooltip_judeo_christian_30_dev_mass_media:0 "§Y30§!发展度且是天主教、新教、改革宗、胡斯派、安立甘宗或犹太教且在欧洲、欧亚大陆、中东或北非"
+ AN_tooltip_judeo_christian_45_dev_1470_mass_media:0 "§Y45§!发展度且是天主教、新教、改革宗、胡斯派、安立甘宗或犹太教且在欧洲、欧亚大陆、中东或北非 - 1470年后"
+ AN_tooltip_reformationist_1515_mass_media:0 "是新教、改革宗、胡斯派、安立甘宗且在欧洲、欧亚大陆、中东或北非 - 1515年后"
+ AN_tooltip_catholic_1530_mass_media:0 "是天主教且在欧洲、欧亚大陆、中东或北非 - 1515年后"
+ AN_tooltip_non_muslim_armenia_1550_mass_media:0 "在亚美尼亚文化组且不是穆斯林 - 1550年后"
+ AN_tooltip_non_muslim_greece_1550_mass_media:0 "在希腊文化组且不是穆斯林 - 1550年后"
+ AN_tooltip_east_orthodox_1550_mass_media:0 "是东正教且在欧洲、欧亚大陆、中东或北非 - 1550年后"
+
+ # Colonialism
+ new_world_i:0 "殖民主义"
+ desc_new_world_i:0 "随着新世界的发现和成功绕过好望角进入印度洋，欧洲的视野迅速扩大。地球的真正广阔和多样性已经被认识到，当时的海上强国正在迅速利用各大洲的海洋机遇。在当地政治实体薄弱且可以相互分裂的地区，富有冒险精神的征服者将宣称帝国并为新边疆的定居铺平道路。在主要地方势力仍然强大的土地上，外交和顺从将赢得重大利润和跨越全球的机会。\n发现和殖民的时代已经成熟；愿最精明的帝国征服海洋！"
+ new_world_i_date:0 "公元1492年" #1492
+
+ AN_tooltip_embraced_colonialism:0 "非贸易公司且拥有者已拥抱§Y殖民主义§!"
+
+ AN_tooltip_friendly_neighbor_or_coast_has_colonialism:0 "附近的友好省份拥有§Y殖民主义§!"
+ AN_tooltip_neighbor_has_colonialism:0 "是内陆且相邻省份拥有§Y殖民主义§!"
+ AN_tooltip_port_neighbor_has_colonialism:0 "是沿海且相邻省份拥有§Y殖民主义§!"
+
+ AN_tooltip_colonial_capital_colonialism:0 "殖民地首都且宗主国已拥抱§Y殖民主义§!"
+
+
+ # Empiricism
+ empiricism:0 "经验主义"
+ desc_empiricism:0 "从文艺复兴时期学者如马基雅维利和达芬奇开始，他们对早期中世纪确定真理的方法越来越怀疑，质疑世俗假设的趋势日益增长。随着《天体运行论》的出版，哥白尼通过提出地球在天空中的传统中心位置并不符合证据的最佳解释，打开了闸门。对诸如我们在宇宙中的位置等基本思想的基本挑战逐渐开始引入一种看待世界和确定答案的新方式。确定什么是真什么是假的正式过程的开端已经开始成形，一个知识快速积累的新时代开始了。\n科学现在已经释放，一切都将不再相同。"
+ empiricism_date:0 "公元1543年" #1540
+
+ AN_tooltip_embraced_empiricism:0 "非贸易公司且拥有者已拥抱§Y经验主义§!"
+
+ AN_tooltip_friendly_neighbor_or_coast_has_empiricism:0 "附近的友好省份拥有§Y经验主义§!"
+ AN_tooltip_neighbor_has_empiricism:0 "相邻省份拥有§Y经验主义§!"
+
+ AN_tooltip_colonial_capital_empiricism:0 "殖民地首都且宗主国已拥抱§Y经验主义§!"
+
+ AN_tooltip_has_scholasticism_empiricism:0 "§Y经院哲学§!存在"
+ AN_tooltip_has_reniassance_empiricism:0 "§Y文艺复兴§!存在"
+ AN_tooltip_has_mass_media_empiricism:0 "§Y大众媒体§!存在"
+ AN_tooltip_europe_university_empiricism:0 "在欧洲且至少拥有一个§Y大学§!"
+ AN_tooltip_owner_10_innovativeness_empiricism:0 "拥有者至少有§Y10§!创新性"
+ AN_tooltip_owner_natl_scientist_empiricism:0 "拥有者有§Y自然科学家§!顾问"
+ AN_tooltip_british_isles_empiricism:0 "在英国地区 - 1615年后"
+
+ # Global Trade
+ global_trade:0 "全球贸易"
+ desc_global_trade:0 "随着从新世界征服中运回的大量金银和其他战利品，以及绕过好望角在印度洋和大西洋之间建立的贸易，世界开始发生变化。新作物和牲畜在新旧世界之间交换，随着时间的推移将彻底改变全世界的饮食和营养。流行病摧毁了美洲的土著人口，促使三角贸易获取非洲奴隶来替代本土劳动力。玻利维亚的白银现在在中国有需求，欧洲的铁在西非销售，摩鹿加的香料在亚历山大港和里斯本大量交易；在世界各地的港口，货币和文化以前所未有的方式进行交换。全球贸易风险降低和规律性增加催生了一类新的'投资者'的呼声，他们渴望能让金钱为自己工作的财政创新。全球的统治者都注意到了这一点，并开始利用这些好处。\n这是历史上第一次，几乎每个人都连接在一起。"
+ global_trade_date:0 "公元1602年" #1590
+
+ AN_tooltip_embraced_global_trade:0 "非贸易公司且拥有者已拥抱§Y全球贸易§!"
+
+ AN_tooltip_friendly_neighbor_or_coast_has_global_trade:0 "附近的友好省份拥有§Y全球贸易§!"
+ AN_tooltip_neighbor_has_global_trade:0 "是内陆且相邻省份拥有§Y全球贸易§!"
+ AN_tooltip_port_neighbor_has_global_trade:0 "是沿海且相邻省份拥有§Y全球贸易§!"
+
+ AN_tooltip_colonial_capital_global_trade:0 "殖民地首都且宗主国已拥抱§Y全球贸易§!"
+
+ AN_tooltip_25_trade_power_port_global_trade:0 "是沿海且拥有§Y25§!贸易力量"
+ AN_tooltip_port_5_overseas_global_trade:0 "是沿海且拥有者至少有§Y5§!个海外省份"
+ AN_tooltip_has_commercialism_global_trade:0 "§Y商业主义§!存在"
+ AN_tooltip_has_finance_global_trade:0 "§Y金融§!存在"
+ AN_tooltip_has_mass_media_global_trade:0 "§Y大众媒体§!存在"
+
+ # State Sovereignty
+ state_sovereignty:0 "国家主权"
+ desc_state_sovereignty:0 "随着近代早期战争成本、频率和破坏性的不断增加，组织和筹款的沉重负担迫使主要参与者发展更大的国家机构。然而，日益加深的中央集权与城镇、贵族和神职人员的传统特权、例外和对国境外忠诚的冲突不断。随着17世纪早期到中期的血腥冲突，旧秩序终于开始让步，因为疲惫不堪的参与者在整个大陆寻求确保内部异议不再赋予其他国家干涉其事务的权利。从现在开始，每个被承认的国家将只对自己的国内政策负责。国家在对外关系中的首要地位日益增强，并最终将主导现代世界。"
+ state_sovereignty_date:0 "公元1648年" #1645
+
+ AN_tooltip_embraced_state_sovereignty:0 "非贸易公司且拥有者已拥抱§Y国家主权§!"
+
+ AN_tooltip_friendly_neighbor_or_coast_has_state_sovereignty:0 "附近的友好省份拥有§Y国家主权§!"
+ AN_tooltip_neighbor_has_state_sovereignty:0 "相邻省份拥有§Y国家主权§!"
+
+ AN_tooltip_colonial_capital_state_sovereignty:0 "殖民地首都且宗主国已拥抱§Y国家主权§!"
+
+ AN_tooltip_germany_lowlands_state_sovereignty:0 "在低地国家、北德意志或南德意志地区"
+ AN_tooltip_has_empiricism_europe_capital_state_sovereignty:0 "欧洲首都且§Y经验主义§!存在"
+ AN_tooltip_government_rank_4_state_sovereignty:0 "在欧洲且拥有者是§Y王国§!"
+ AN_tooltip_great_power_state_sovereignty:0 "在欧洲且拥有者是强国"
+ AN_tooltip_war_exhaustion_8_state_sovereignty:0 "在地中海、西欧、北欧和中欧超区域且拥有者战争疲劳度大于§Y8§! - 1655年前"
+ AN_tooltip_1700_legit_state_sovereignty:0 "在欧洲且拥有者有§Y95§!虔诚度、合法性或共和传统 - 1700年后"
+
+ # Enlightenment
+ enlightenment:0 "启蒙运动"
+ desc_enlightenment:0 "过去一个世纪以来，理性主义和个人自由在时代的伟大思想家中越来越受欢迎。在书信、出版物和咖啡馆中，国王、科学家、哲学家和文人正在讨论宽容、科学方法的价值以及将启蒙运动的理想传播给全人类。从大学或开明君主的宫廷出发，探险队被派遣去测量、编目、称重和绘制世界地图，以便我们更好地理解支配周围事物的法则。其他人讨论管理社会的法则，并试图理解人的权利。从这种繁荣中产生了许多以人类幸福价值、通过理性手段和感官证据获得的知识追求，以及自由、进步、宽容、博爱、宪政政府和政教分离等理想为中心的思想。\nSapere aude - 敢于求知。"
+ enlightenment_date:0 "公元1688年" #1685
+
+ AN_tooltip_embraced_enlightenment:0 "非贸易公司且拥有者已拥抱§Y启蒙运动§!"
+
+ AN_tooltip_friendly_neighbor_or_coast_has_enlightenment:0 "附近的友好省份拥有§Y启蒙运动§!"
+ AN_tooltip_neighbor_has_enlightenment:0 "相邻省份拥有§Y启蒙运动§!"
+
+ AN_tooltip_colonial_capital_enlightenment:0 "殖民地首都且宗主国已拥抱§Y启蒙运动§!"
+
+ AN_tooltip_parliament_monarchy_enlightenment:0 "有§Y议会君主制§!、§Y立宪君主制§!或§Y议会制§!改革"
+ AN_tooltip_colonial_republic_enlightenment:0 "是新世界共和国"
+ AN_tooltip_university_enlightenment:0 "至少拥有一个§Y大学§!"
+ AN_tooltip_has_empiricism_enlightenment:0 "§Y启蒙运动§!存在"
+ AN_tooltip_city_enlightenment:0 "至少拥有一个§Y城市§!"
+ AN_tooltip_goods_enlightenment:0 "生产§Y珠宝§!、§Y家具§!或§Y书籍§!"
+
+
+ # Capitalism
+ manufactories:0 "资本主义"
+ desc_manufactories:0 "虽然16和17世纪的一些技术革新在一定程度上提高了铁或布料等产品的产量，但生产领域最大的改进来自于新的组织形式。通过创建工厂，通常在城市边界之外，商人资本家既可以绕过抑制大规模生产的古老行会法律，也可以开创通过在一个地方组织和专业化劳动来提高生产的方法。在18世纪中期，以大卫和亚当·斯密为首的一组经济理论家挑战了基本的重商主义教条——比如相信世界财富是恒定的，一个国家只能通过牺牲另一个国家来增加财富。富豪已经开始取代商人成为资本主义体系的主导因素，并成为传统手工艺技能、行会和熟练工人衰落的新推动力。这些后来工业化的先驱能够通过促进原材料获取和劳动的大规模组织来增加产出，而不是通过昂贵的新机器。这本身就是对旧的、通常受到严格监管的方法的巨大改变，然而，随着后来的技术进步，这种新的生产模式将彻底改变社会。"
+ manufactories_date:0 "公元1776年" #1760
+
+ AN_tooltip_embraced_capitalism:0 "非贸易公司且拥有者已拥抱§Y资本主义§!"
+ AN_tooltip_TC_embraced_capitalism:0 "贸易公司且拥有者已拥抱§Y资本主义§!"
+
+ AN_tooltip_friendly_neighbor_or_coast_has_capitalism:0 "附近的友好省份拥有§Y资本主义§!"
+ AN_tooltip_neighbor_has_capitalism:0 "相邻省份拥有§Y资本主义§!"
+
+ AN_tooltip_colonial_capital_capitalism:0 "殖民地首都且宗主国已拥抱§Y资本主义§!"
+
+ AN_tooltip_colonial_republic_capitalism:0 "是新世界共和国"
+ AN_tooltip_european_manufactories_capitalism:0 "拥有一个§Y工厂§!且拥有者是欧洲人"
+ AN_tooltip_european_manufactories_cot_capitalism:0 "拥有一个§Y工厂§!和贸易中心且拥有者是欧洲人"
+ AN_tooltip_has_enlightenment_capitalism:0 "§Y启蒙运动§!存在"
+ AN_tooltip_city_capitalism:0 "至少拥有一个§Y城市§!"
+ AN_tooltip_merchant_influence_capitalism:0 "拥有者有影响力的(§Y50%§!)商人庄园"
+ AN_tooltip_1850_cot_3_capitalism:0 "至少拥有§Y3§!级贸易中心 - 1850年后"
+
+
+ # Nationalism
+ nationalism_i:0 "民族主义"
+ desc_nationalism_i:0 "从革命的烈火中诞生了一种新的政治惯例——'民族'的概念以及个人在其中的位置。虽然没有君主或神圣授权，但民族主义乐于在这些权力结构内工作，它拥抱了一种将单一人民和文化指定为'民族'的长期历史传统。民族主义认为每个民族应该自治，不受外部干涉，民族是政体的自然和理想基础，民族是政治权力的唯一合法来源。它进一步旨在建立和维护一个基于文化、种族、地理位置、语言、政治、宗教、传统和对共同单一历史信念等共享社会特征的单一民族认同，并促进民族团结或凝聚力。结合自由主义在世界舞台上的兴起，这一运动激励激进分子呼吁统一分裂的人民，渴望自治或从现在认为自己与遥远统治者不同的人民那里获得解放，并重新为新世界殖民地从海外控制中争取自由而战。启蒙运动创造的公共话语现在达到了顶峰，因为人民自己开始掌控定义自己身份的权力。"
+ nationalism_i_date:0 "公元1798年" #1795
+
+ AN_tooltip_embraced_nationalism:0 "非贸易公司且拥有者已拥抱§Y民族主义§!"
+
+ AN_tooltip_friendly_neighbor_or_coast_has_nationalism:0 "附近的友好省份拥有§Y民族主义§!"
+ AN_tooltip_neighbor_has_nationalism:0 "相邻省份拥有§Y民族主义§!"
+
+ AN_tooltip_colonial_capital_capitalism:0 "殖民地首都且宗主国已拥抱§Y民族主义§!"
+ AN_tooltip_colonial_capital_b_nationalism:0 "殖民地首都且拥有者有§Y200§!发展度且启蒙运动存在"
+
+ AN_tooltip_non_accepted_culture_nationalism:0 "在欧洲且有非接受文化"
+ AN_tooltip_non_accepted_religion_nationalism:0 "在欧洲且有异教宗教"
+ AN_tooltip_european_subject_nationalism:0 "拥有者有欧洲宗主"
+ AN_tooltip_europe_full_culture_control_nationalism:0 "在欧洲且拥有者已在欧洲吞并了整个文化组"
+ AN_tooltip_europe_prime_culture_nationalism:0 "在欧洲且有主要文化"
+ AN_tooltip_colonial_subject_nationalism:0 "是殖民地附属国"
+
+ # Industrialism
+ industrialization:0 "工业化"
+ desc_industrialization:0 "全球化的更广泛进程将资本主义传播到世界各地。到19世纪初，一系列松散连接的市场系统已经结合成一个相对一体化的全球系统，反过来加剧了经济和其他方面的全球化进程。工业化允许使用规模经济廉价生产家庭用品，而快速的人口增长创造了对商品的持续需求。越来越多的人涌入城市，因为家庭手工业转向工厂工作，而地主贵族的最后喘息已被中产阶级商业的胜利欢呼所淹没。随着大规模生产和城市化带来了巨大的社会变化，消费者选择大大增加。曾经劳动者用金属盘子和木制器具吃饭，现在普通工人用韦奇伍德瓷器用餐。消费者开始要求各种新的家庭用品和家具——例如金属刀叉，以及地毯、镜子、炉灶、锅、钟表和令人眼花缭乱的家具阵列。大众消费时代已经到来。"
+ industrialization_date:0 "公元1830年" #?
+
+ AN_tooltip_embraced_industrialism:0 "非贸易公司且拥有者已拥抱§Y工业化§!"
+ AN_tooltip_TC_embraced_industrialism:0 "贸易公司且有工厂且拥有者已拥抱§Y工业化§!"
+
+ AN_tooltip_friendly_neighbor_or_coast_has_industrialism:0 "附近的友好省份拥有§Y工业化§!"
+ AN_tooltip_neighbor_has_industrialism:0 "相邻省份拥有§Y工业化§!"
+
+ AN_tooltip_colonial_capital_industrialism:0 "殖民地首都且宗主国已拥抱§Y工业化§!"
+
+ AN_tooltip_factory_capitalism_industrialism:0 "有工厂且§Y资本主义§!存在"
+ AN_tooltip_goods_capitalism_industrialism:0 "生产且§Y资本主义§!存在"

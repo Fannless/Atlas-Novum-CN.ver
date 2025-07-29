@@ -1,0 +1,263 @@
+﻿l_english:
+
+ #Scripted Triggers#
+ ###################
+ province_has_no_religious_center_modifier:0 "该省份并非宗教中心。"
+
+ #Triggered Modifiers#
+ #####################
+ br_byz_subject_controlled_rome:0 "征服罗马"
+ desc_br_byz_subject_controlled_rome:1 "古老的罗马城，天主教教会领袖的驻地，是一个绝佳的征服目标。"
+ br_byz_subject_controlled_jerusalem:0 "征服耶路撒冷"
+ desc_br_byz_subject_controlled_jerusalem:0 "我们控制了圣城耶路撒冷，这座城市被穆斯林、犹太人和基督徒共同奉为圣地。"
+ br_byz_subject_controlled_mecca:0 "征服麦加"
+ desc_br_byz_subject_controlled_mecca:0 "我们以基督之名征服了伊斯兰教的圣地——圣城麦加。"
+ #Estates#
+ #########
+
+ #Dynatoi
+ estate_dynatoi:0 "狄纳图伊"
+ EST_VAL_ESTABLISHED_PRONOIAR:0 "普罗诺亚尔改革：§Y$VAL$%§!"
+ EST_VAL_PRONOIAR:0 "普罗诺亚尔改革：$VAL|Y$"
+
+
+ #Syntechnioi
+ estate_syntekhnioi:0 "辛泰克尼奥伊"
+
+ #Klerikoi
+ estate_klerikoi:0 "克莱里科伊"
+ #Strategoi have been moved to a separate localization file due to their extreme scope.
+ #Same with Exarches.
+ #Knightly Orders are in LatinEmpire.
+ #Maybe I'll end up with a separate estates localization file.
+
+ #Ideas#
+ #######
+
+ #Byzantium
+ #The dirty way of adjusting byzantine ideas without toying with 00_country_ideas.txt:
+ new_BYZ_ideas:0 "拜占庭理念"
+ new_BYZ_ideas_start:0 "拜占庭传统"
+ new_BYZ_ideas_bonus:0 "拜占庭野心"
+ #Ottoman adjustment
+ new_TUR_ideas:0 "奥斯曼理念"
+ new_TUR_ideas_start:0 "奥斯曼传统"
+ new_TUR_ideas_bonus:0 "奥斯曼野心"
+
+
+ #New Byzantine Resurgence ideas:
+ reinstitute_the_pronoia:0 "恢复普罗诺亚制度"
+ reinstitute_the_pronoia_desc:0 "普罗诺亚制度是一种小型的可征税土地授予制度，帕拉奥洛格斯王朝借此招募自给自足的军队。该制度继承自科穆宁王朝，在帕拉奥洛格斯王朝时期才变为世袭制。随着帝国不断向奥斯曼人丧失更多土地，普罗诺亚尔也相应减少。重新建立这一制度将再次使我们能够组建自给自足的部队，为帝国军队提供兵源。"
+ byzantine_renaissance:0 "拜占庭文艺复兴"
+ byzantine_renaissance_desc:0 "过去几个世纪以来，我们的土地上孕育了大量自由思想家。君士坦丁堡，乃至我们的帝国，位于东西方交界之处，历史上我们一直能够融合双方的精华，带来巅峰的创新，在当今时代，这只会带来积极影响。"
+ basilics_law:0 "巴西利卡法典"
+ basilics_law_desc:0 "据说影响了几乎每个国家至今法律的法典是《查士丁尼法典》。基于这部法典，智者利奥及其兄弟们在10世纪制定了《巴西利卡法典》，纠正了其中的矛盾并将其翻译成希腊语，至少在帝国内为罗马法树立了新的标准。"
+ byz_formalize_succession_laws:0 "规范继承法则"
+ byz_formalize_succession_laws_desc:0 "自罗马建立以来，罗马皇帝和独裁者的继承一直基于共和国的理念——每位继任者都被选举为共治皇帝，并至少在名义上得到元老院的支持。这在不止一个场合导致众多觊觎王位者宣称自己有权登上王位。鉴于帕拉奥洛格斯家族自1261年收复君士坦丁堡以来一直稳坐王位，当我们再次从废墟中崛起时，由我们来确立明确的继承法则是再合适不过的了。"
+ byzantine_resurgence:0 "紫色凤凰"
+ byzantine_resurgence_desc:0 "我们历经艰难困苦和不懈努力，终于从废墟中崛起。身披最尊贵的紫色，我们决心重拾作为西方文明祖先的荣耀。帝国的旗帜将在风中飘扬，我们将以正义之威击败敌人。让世人知晓，这是一个新时代的黎明。一个复兴的时代。一个胜利和崛起的时代。一个将永远载入史册的紫色凤凰重生的时代。"
+ #From Renovatio Imperii
+ bureau_of_barbarians:0 "重建蛮族事务局"
+ bureau_of_barbarians_desc:0 "蛮族事务局是一个旨在促进拜占庭帝国与其邻国关系的机构。通过重建这个机构，我们可以恢复加强帝国所需的外交能力。"
+
+ #Latin Empire
+ LTE_ideas:0 "拉丁理念"
+ LTE_ideas_start:0 "拉丁传统"
+ LTE_ideas_bonus:0 "拉丁野心"
+ lte_adapt_greek_administrators:0 "吸纳希腊行政官员"
+ lte_adapt_greek_administrators_desc:0 "在第一个拉丁帝国建立时，鲍德温一世皇帝因不信任希腊行政官员而解散了希腊帝国现有的官僚体系。虽然初衷是好的，但这给经济和公共服务带来了严重破坏。我们务必不要重蹈前人的覆辙，而是要融入当地的行政体系。"
+ lte_the_city_of_cities:0 "万城之城"
+ lte_the_city_of_cities_desc:0 "君士坦丁堡在历史上一直是一座伟大的城市。虽然第一个帝国在很大程度上导致了它的衰落，但我们要确保这种情况不再发生，并将这座城市重建至昔日的辉煌。只有这样，我们才能被视为真正的罗马帝国。"
+ lte_invite_italian_merchants:0 "邀请意大利商人"
+ lte_invite_italian_merchants_desc:0 "意大利人以其卓越的贸易手段而闻名，这是我们不得不承认自己欠缺的领域。如果我们邀请他们在万城之城君士坦丁堡定居，或许我们可以利用他们的技能促进帝国的发展。"
+ lte_induct_knightly_orders:0 "引入骑士团"
+ lte_induct_knightly_orders_desc:0 "宗教是战争的主要原因之一；一个相信自己血腥行为是受上帝旨意的士兵会摆脱罪恶感。随着帝国的复兴，许多骑士团都以我们为中心。将他们引入我们的军队，将增强我们军队的战斗热情。"
+ lte_bastion_of_christendom:0 "基督教的堡垒"
+ lte_bastion_of_christendom_desc:0 "我们西方人很少认可希腊帝国在抵御来自东方的异教徒、保护欧洲方面所做出的巨大贡献。然而，现在他们已不复存在，我们有责任接替他们的位置，宣称自己是基督教的堡垒！"
+ lte_reform_east_latin_rites:0 "改革东方拉丁礼仪"
+ lte_reform_east_latin_rites_desc:0 "东方的教会一直有着自己的传统和神学特点，各个牧首区和大主教区之间存在差异。通过将它们改革为统一的组织，我们将能够更好地引导人们信仰唯一真正的教会。"
+ lte_eternal_crusade:0 "永恒的十字军东征"
+ lte_eternal_crusade_desc:0 "如果我们的帝国想要在这次生存下来，不被敌人击败，我们不能仅仅依赖教皇和意大利的支持。事实证明，没有人为我们的事业而战，我们就注定失败。因此，我们必须宣布要清除这些土地上的异教徒，激励我们的士兵信仰上帝，并热忱地向圣地及更远的地方进军。"
+
+
+ #Decisions#
+ ###########
+ byz_move_capital_to_rome_title:0 "迁都罗马"
+ byz_move_capital_to_rome_desc:0 "罗马城无疑是一座享有盛誉且具有重要历史意义的城市，不仅对帝国来说，它是帝国的诞生地和首都，对整个欧洲和中世纪而言，它也是那个落后、贪婪权力且分裂出去的主教的驻地。话虽如此，自君士坦丁堡建立以来，帝国的野心一直转向东方，针对其主要对手波斯。如今，我们在欧洲面临着更大的威胁，将野心重新转向西方，让这座曾经伟大繁荣的城市再次成为合适的首都，再合适不过了！"
+ byz_rival:0 "至少有一个首都位于欧洲且正在与[Root.GetName]竞争的对手。"
+
+ byzantine_empire_provinces:0 "在§Y希腊§!和§Y安纳托利亚§!至少拥有§Y30§!个省份。"
+ byzantine_claims_tooltip:0 "获得对§Y希腊§!和§Y安纳托利亚§!的宣称。"
+ byz_themata_tooltip:0 "启用[Root.GetGeneralsName]阶层"
+ #New Theme System
+ br_theme_system:0 "军区制度"
+ desc_br_theme_system:0 "一种民事和军事行政制度，以授予土地换取军事服役承诺。这意味着我们不必诉诸征兵，在需要时能够组建更庞大的军队。"
+
+
+ restore_roman_empire_byzantium_title:0 "帝国复兴"
+ restore_roman_empire_byzantium_desc:0 "伟大的查士丁尼一世与他的朋友兼将军贝利撒留曾证明，罗马帝国可以再次崛起，击败那些推翻我们西方兄弟的渺小蛮族。虽然他的继任者未能守住他征服的广袤土地，但我们现在通过弥合教会分裂、收复旧土并摧毁那个既不神圣、也非罗马、更不是帝国的可怕存在，证明了我们作为真正继任者的合法性。因此，我们最终将重拾作为唯一真正罗马的称号，或者如我们一直自称的那样——罗马帝国！"
+ restore_roman_empire_byzantium_pentarchy_tooltip:0 "已恢复五牧首制"
+ restore_roman_empire_byzantium_dismantle_hre_tooltip:0 "已解散神圣罗马帝国"
+
+ establish_the_patriarch_of_mecca_medina_title:0 "设立麦加和麦地那牧首"
+ establish_the_patriarch_of_mecca_medina_desc:0 "我们已经将穆斯林击退，甚至征服了他们的圣城，此时在此设立牧首驻地再合适不过了。"
+ patriarch_mecca_medina:0 "麦加牧首"
+ desc_patriarch_mecca_medina:0 "穆斯林圣城麦加已以基督之名被征服，现在是一位东正教牧首的驻地。"
+
+ mending_east_oriental_schism_title:0 "弥合东方教会分裂"
+ mending_east_oriental_schism_desc:0 "在451年的卡尔西顿公会议上，当宣布基督确实是一个位格，但具有“完全的神人二性”时，安条克和亚历山大的牧首认为该会议是对聂斯脱利派的让步，而20年前在以弗所公会议上，聂斯脱利派已被否定。他们自称一性论者，相信基督具有神人合一的单一本质，逐渐与当时的卡尔西顿信仰分离，形成了自己的基督教分支。通过我们的征服行动，我们现在有机会通过弥合东方教会分裂，消除他们与唯一真信仰的分裂。"
+
+ convert_to_orthodox_title:0 "改信东正教"
+ convert_to_orthodox_desc:0 "东正教徒已经展现了他们的权威，并弥合了使我们的信仰与他们分裂的创伤。此时，我们的教会领袖已不复存在，我们的宗教被他们视为纯粹的异端。为了维护我们信仰的合法性，和平改信可能是我们的最佳选择。"
+
+ #Latin Empire
+ restore_latin_empire_title:0 "恢复拉丁帝国"
+ restore_latin_empire_desc:0 "曾有一段时间，拉丁人统治着君士坦丁堡。尽管许多人认为这个国家从建立之初就注定失败，但其影响至今仍在东方徘徊。如果我们努力重建这个帝国，并将天主教带到世界渴望之城，我们或许可以宣称自己是真正的罗马帝国继承国。"
+ LTE:0 "拉丁统治"
+ LTE_ADJ:0 "拉丁的"
+
+ #From Renovatio Imperii:
+ reform_varangian_guard_title:0 "改革瓦兰吉卫队"
+ reform_varangian_guard_desc:0 "瓦兰吉卫队是帝国军队中的一支精锐部队，担任皇帝的贴身护卫。瓦兰吉卫队由来自斯堪的纳维亚和俄罗斯地区的雇佣兵组成，后来也有英国人加入，他们都以强大的战斗力而闻名。如果我们能够改革这支雇佣兵部队，我们将拥有一支忠诚的核心士兵队伍，他们既能在战场上摧毁敌人，又能保护我们的皇帝免受君士坦丁堡的政治阴谋的威胁。顺便说一句，这也是雇佣兵获得拜占庭公民身份的好方法，能让他们与帝国的联系更加紧密。"
+ varangian_guard:0 "瓦兰吉卫队"
+ desc_varangian_guard:0 "瓦兰吉卫队是帝国军队中一支令人畏惧的精锐雇佣兵部队。"
+ varangians:0 "瓦兰吉营地"
+ desc_varangians:0 "瓦兰吉卫队驻扎在帝国首都军区。不幸的是，他们往往相当吵闹，当地居民因此对瓦兰吉人和政府感到不满。"
+
+ sole_autocrat_of_romans_title:0 "罗马的独裁者和唯一皇帝"
+ sole_autocrat_of_romans_desc:0 "我们伟大的[Root.GetBasileusHimHer]是罗马的[Root.GetAutokratorHimHer]，这个头衔可以追溯到我们帝国的建立。不幸的是，西方牧首的傲慢和德意志帝国夺走了我们的合法性。现在我们再次控制了罗马和西方牧首，让我们提醒那些德意志蛮族谁才是真正的罗马皇帝。与此同时，也让我们提醒我们帝国中那些野心勃勃的公民。"
+
+ #Factions taken from Renovatio Imperii:
+ logothete_military:0 "都督派"
+ logothete_military_influence:0 "都督派影响力"
+ logothete_military_FACTION_DESC:0 "都督是帝国的高级将领。这个派系负责指挥帝国军队，主张对所有威胁君士坦丁堡的势力采取强硬的军事政策。"
+ logothete_postal:0 "大臣派"
+ logothete_postal_influence:0 "大臣派影响力"
+ logothete_postal_FACTION_DESC:0 "大臣是帝国的外交官和政治家。这个派系负责维护帝国与邻国的关系，认为外交在解决当前问题上与武力同样有效。"
+ logothete_general:0 "书记官派"
+ logothete_general_influence:0 "书记官派影响力"
+ logothete_general_FACTION_DESC:0 "书记官是帝国的官僚。这个派系负责维护和扩大帝国的官僚体系，认为稳定的帝国是实现强大帝国的必要条件。"
+
+ #Roman monarchy
+ roman_autocracy_legacy:0 "罗马独裁统治"
+ roman_autocracy_legacy_desc:0 "一种君主以绝对权力统治的政府形式，同时实行可征税的土地授予制度，并结合有效的行政管理和罗马理念。"
+ CUROPALATE:0 "库罗帕拉提斯"
+ KOUROPALATES:0 "库罗帕拉提斯"
+ KOUROPALATISSA:0 "库罗帕拉提萨"
+ CONSULATE:0 "执政官职位"
+ HYPATOS:0 "执政官"
+ HYPATISSA:0 "女执政官"
+ BASILEUSAUTOKRATOR:0 "皇帝"
+ BASILISSAAUTOKRATEIRA:0 "女皇"
+ DESPOINA:0 "女主人"
+ SYMBASILEUS:0 "共治皇帝"
+ SYMBASILISSA:0 "共治女皇"
+
+ #Government reforms
+ exarchate_reform:0 "总督区改革"
+ exarchate_reform_desc:0 "作为皇帝的保护者，上帝赋予我们在这片地区作为唯一权威进行统治的权利。"
+ pronoiar_reform:0 "普罗诺亚尔改革"
+ pronoiar_reform_desc:0 "建立可征税的土地授予制度，废除土地贵族的世袭继承权。"
+ roman_bureaucracy_reform:0 "罗马官僚体系改革"
+ roman_bureaucracy_reform_desc:0 "回归传统，重建罗马帝国复杂的行政体系，在这个体系中，众多官员和宫廷官员在皇帝一人的领导下工作。"
+ theme_system_reform:0 "军区制度改革"
+ theme_system_reform_desc:0 "重建军区制度，通过该制度，士兵和他们的将军将在乡村定居，大大增强我们的军事能力。\n\n§Y政府机制：§!\n启用将军阶层。"
+ basileus_protostrategos_reform:0 "皇帝兼最高统帅改革"
+ basileus_protostrategos_reform_desc:0 "皇帝不仅要成为万王之王——他还要成为万将之将。我们的皇帝将与他的士兵一同冲锋陷阵，极大地增强我们军队的战斗力。 \n\n§Y政府机制：§!\n迫使统治者在继承王位时成为将军。"
+
+ #Senate
+ BYZ_parliament_name:0 "元老院"
+
+ #Customizable localization (Not sure how many of these are actually used any more.)
+ string_symbasileus:0 "共治皇帝"
+ string_symbasilissa:0 "共治女皇"
+ string_porphyrogennetos:0 "紫室出生者"
+ string_porphyrogennete:0 "紫室出生的女性"
+
+ #New CBs
+ cb_recover_balkans:0 "拜占庭复兴"
+ cb_recover_balkans_desc:0 "我们必须将巴尔干半岛从土耳其人手中解放出来！"
+ cb_recover_anatolia:0 "拜占庭复兴"
+ cb_recover_anatolia_desc:0 "我们必须将我们的安纳托利亚心脏地带从土耳其人手中解放出来！"
+ cb_war_of_two_romes:0 "双罗马之战"
+ cb_war_of_two_romes_desc:0 "只有一个罗马——让我们消灭那个既不神圣、也非罗马、更不是帝国的存在！"
+
+ ALL_BALKAN_CARPARTHIA_PROV:0 "土耳其人在巴尔干半岛拥有的所有省份"
+ BALKAN_WAR_NAME:0 "$ORDER$$FIRST$ 收复土耳其统治的鲁梅利亚"
+ ALL_ANATOLIAN_PROV:0 "土耳其人在安纳托利亚拥有的所有省份"
+ ANATOLIAN_WAR_NAME:0 "$ORDER$$FIRST$ 收复土耳其统治的安纳托利亚"
+ WAR_OF_TWO_ROMES_NAME:0 "$ORDER$ 双罗马之战"
+ WAR_OF_TWO_ROMES_DESC:0 "神圣罗马帝国的所有省份"
+
+ #Validator claimed these needed to be localized, so here ya go.
+ take_balkan_provinces:0 "夺取土耳其在巴尔干半岛的省份"
+ take_balkan_provinces_desc:0 ""
+ take_anatolia_provinces:0 "夺取土耳其在安纳托利亚的省份"
+ take_anatolia_provinces_desc:0 ""
+ byz_war_of_two_romes:0 "夺取神圣罗马帝国皇帝的首都"
+ byz_war_of_two_romes_desc:0 ""
+
+ #New peace options
+ CB_ALLOWED_po_dismantle_hre:0 "解散神圣罗马帝国"
+ po_dismantle_hre_desc:0 "神圣罗马帝国将被解散。"
+ PEACE_po_dismantle_hre:0 "解散神圣罗马帝国"
+
+ #Triggered Province Modifiers#
+ ##############################
+
+ #Byz Resurgence version of Religious Center, as to not have to edit vanilla's.
+ orthodox_religious_center:0 "宗教中心"
+ desc_orthodox_religious_center:0 "该省份作为宗教中心的重要性将使其极难改信其他宗教。"
+ mount_athos_modifier_muslim:0 "阿索斯山"
+ desc_mount_athos_modifier_muslim:0 "1430年塞萨洛尼基被征服后，阿索斯山的修道士们为了维持良好关系，前往拜见当时的奥斯曼苏丹穆拉德二世。穆拉德二世保证了修道士们的自治权，并允许他们自行管理，后来他的儿子 Mehmet II 在征服君士坦丁堡后也批准了这一决定。"
+ mount_athos_modifier_orthodox:0 "阿索斯山"
+ desc_mount_athos_modifier_orthodox:0 "阿索斯山的修道士们，这座圣山，历史上一直享有很大的自治权，这座山本身也是东正教的重要圣地，容纳了来自希腊、塞尔维亚和俄罗斯等许多东正教地区的修道士。成为它的保护者将为我们带来教会方面的利益。"
+ ecumenical_patriarch_modifier_muslim:0 "君士坦丁堡普世牧首"
+ desc_ecumenical_patriarch_modifier_muslim:0 ""
+ ecumenical_patriarch_modifier_orthodox:0 "君士坦丁堡普世牧首"
+ desc_ecumenical_patriarch_modifier_orthodox:0 "作为平等者中的首位，君士坦丁堡普世牧首是东正教的领袖。"
+ orthodox_catholic_relations:0 "教会分裂关系"
+ desc_orthodox_catholic_relations:0 "该省份有大量东正教人口，却由天主教徒统治。第四次十字军东征的事件在东西方基督教之间造成了深深的创伤，至今似乎仍未愈合，尤其是在希腊周边地区。因此，当地居民目前抵制任何改信的尝试，地方长官暂时也只能接受这一情况。"
+
+
+ #Renovatio Imperii incorporated units for Eastern tech, only slightly altered certain text to remove some present tense, as well as slightly altering the description of Themata Infantry as the Theme System is re-established differently in this mod.
+ #Three units were skipped: Preobrazhensky Infantry, Eastern Jaegers and Russian Reformed Mass Infantry. The reason being that the mod makes it so that Eastern units are on par with Western, giving the Russian Mass Infantry at tech 28 instead of 30, which I don't necessarily agree with.
+ #The Jaeger is skipped because all Eastern units adapted from Western usually appear a tier later than they do in Western. Since Jaegers are the final tier, I argue there is no way they can appear at the same time, unless you add another unit tier after tech 30, which I'm not ready to do. If I would, then the Reformed Mass Infantry could exist as well.
+ #The Preobrazhensky is skipped because this is already represented in the Petrine infantry, which is both the Preobrazhensky and the Semyonovsky, meaning it should've been a tier earlier.
+ #Besides, the mod also introduces the reformed Petrine to work beside the Green Coat as a more defensive alternative. Giving 3 different Russian infantry is a bit too much in my opinion. Since I also moved Reformed Varangians to this spot, I think that's fair.
+ eastern_guard:0 "东方卫队"
+ eastern_guardDESCR:0 "东方卫队是接受长枪训练的士兵，在东欧被用作重要贵族的护卫。"
+ eastern_raiders:0 "东方突袭者"
+ eastern_raidersDESCR:0 "这些是强大的进攻型步兵，旨在在敌人完全组织起来之前突袭其防线。"
+ varangian_infantry:0 "瓦兰吉步兵"
+ varangian_infantryDESCR:0 "在马其顿王朝到帕拉奥洛格斯王朝早期，瓦兰吉卫队是拜占庭帝国的一支精锐部队。他们从斯堪的纳维亚人、俄罗斯人以及后来的英国人中招募，以强大的战斗力而令人畏惧。由于他们在帝国中是外国人，很大程度上避免了卷入众多政治阴谋，从而不会被用来反对皇帝。14世纪，由于帝国的衰落，瓦兰吉卫队被解散，但在15世纪中叶，皇帝君士坦丁十一世·帕拉奥洛格斯又重新组建了这支部队。重组后的瓦兰吉卫队不仅包括来自俄罗斯地区的雇佣兵，还从巴尔干半岛和安纳托利亚招募。在瓦兰吉卫队服役不仅报酬丰厚，对这些雇佣兵来说也是获得拜占庭公民身份的机会，这使得新的瓦兰吉人比文艺复兴时期其他国家的雇佣兵公司与帝国的联系更加紧密。"
+ balanced_eastern_musketeers:0 "均衡的东方火枪手"
+ balanced_eastern_musketeersDESCR:0 "随着火药在近代早期成为战争的核心，人们创造了新的战术和阵型来利用这些新武器。在拜占庭，一种新的思想流派兴起，认为火枪手应该适应任何情况，无论是发起进攻还是进行防御。"
+ reformed_eastern_tercio:0 "改良的东方西班牙方阵"
+ reformed_eastern_tercioDESCR:0 "就像西欧的西班牙方阵随着战争的发展不断演变一样，东欧国家的西班牙方阵也在不断发展。"
+ themata_infantry:0 "军区步兵"
+ themata_infantryDESCR:0 "拜占庭帝国在抵御了奥斯曼人的进攻并收复了失地后，皇帝德米特里奥斯三世恢复了被称为军区制度的帝国省级行政体系。就像过去几个时代的军区制度一样，帝国军队的士兵会获得土地作为服役的奖励。这些土地并非永久授予，因为土地在名义上属于皇帝。只要家族继续耕种土地，他们及其亲属就需要在帝国军队中服役。这为帝国军队提供了兵员，而无需诉诸征兵，征兵在帝国公民中非常不受欢迎。在恢复的制度下招募的部队有一个明显的不同之处，即这些步兵不是当地的防御民兵，而是经过严格训练和纪律严明的职业部队。每个军区都被重组为一个独立的军队，并很快开始体现出早期军团制度的相同特征。只有拜占庭公民被允许加入军区，每个军区都与帝国中的一个特定地区相关联。这在军区和招募它的地区之间建立了联系，并促进了军队中的传统。在近代早期为帝国服务的一些最著名的军区包括色雷斯军区，它于1573年最终终结了奥斯曼苏丹国；最优秀者军区，它在收复安条克和耶路撒冷以及领导围攻麦加的行动中发挥了重要作用；以及马其顿军区，它与瓦兰吉卫队和宫廷卫队一起，在1661年击败了教皇联盟。"
+ palatine_cavalry:0 "宫廷骑兵"
+ palatine_cavalryDESCR:0 "宫廷卫队是拜占庭帝国军队中的一支精锐骑兵部队。他们骑行在帝国军队的前方，进行突袭和非常规战争，旨在在主力部队进入该地区之前破坏敌人的组织能力和基础设施。宫廷卫队是近代早期特种作战部队的早期范例之一。以在敌后作战而闻名，宫廷卫队有一种不可思议的能力，能够组成一支突击力量，在敌人最意想不到的时候从背后发动攻击。最典型的例子是1661年对教皇联盟的击败，当时西班牙人、法国人、奥地利人和各种意大利城邦组成的联盟在罗马郊外与帝国作战。从安科纳突袭归来的宫廷卫队偶然发现了联盟在图斯库卢姆的主要补给站。他们抓住机会烧毁了补给站，导致联盟陷入混乱。瓦兰吉卫队和希腊军区及时增援，彻底击溃了联盟的抵抗，联盟最终被击败。"
+ hajduk_infantry:0 "哈伊杜克步兵"
+ hajduk_infantryDESCR:0 "受巴尔干和喀尔巴阡军事力量启发的步兵，从16世纪70年代到17世纪30年代左右构成了波兰步兵的中坚力量。在这个时期不同寻常的是，波兰 - 立陶宛的哈伊杜克人穿着制服，通常是灰蓝色羊毛布制成，配有红色衣领和袖口。他们的主要武器是火绳枪。在近战中，他们还携带各种重型马刀。"
+ scholarian_infantry:0 "学者步兵"
+ scholarian_infantryDESCR:0 "学者军是拜占庭帝国在17世纪中叶由君士坦丁十二世·帕拉奥洛格斯进行军事改革时建立的步兵部队。此前，军区步兵已经开始采用军团的做法，包括组建一支由纪律严明的士兵支持的职业战斗部队。军事改革不仅增加了对帝国军队职业化的支持，皇帝还颁布了《军事教育法》。加入军队的公民不仅需要具备读写能力，还需要学习战术、操练、技巧和阵型。这通常需要三年时间才能完成。一旦士兵从军事学校毕业，他就会成为帝国军队的正式成员。这种不仅注重军官教育，也注重普通士兵教育的做法，使得其他国家开始称这些士兵为学者军。对质量的强调意味着帝国军队无法维持庞大的军队，因为许多潜在的新兵无法通过学校教育。然而，毕业生的质量远远超过了因没有大量新兵来源而带来的弊端。经常可以看到一支学者军区部队击退三倍于自己数量的敌人，17世纪60年代的教皇战争就证明了这一点。学者军的制服非常强调东方风格，戴着红色的费兹帽，穿着红色夹克、黄色衬衫和红色的布拉卡（一种轻便马裤）。学者军不携带西方风格的武器，而是选择中东的武器，因为他们更喜欢这些武器的简单性。"
+ #preobrazhensky_infantry:0 "普列奥布拉任斯基步兵"
+ #preobrazhensky_infantryDESCR:0 "从贵族及其家臣中招募的俄罗斯精锐步兵部队，对俄罗斯帝国极为忠诚。"
+ reformed_petrine_infantry:0 "改良的彼得步兵"
+ reformed_petrine_infantryDESCR:0 "早期彼得步兵部队的演变，拥有更好的装备和战术，为进攻性的绿衣军提供了一种替代选择。"
+ reformed_palatine_cavalry:0 "改良的宫廷骑兵"
+ reformed_palatine_cavalryDESCR:0 "鉴于宫廷骑兵的受欢迎程度以及军事领域的持续发展，对宫廷骑兵部队进行改革是非常必要的。宫廷骑兵不仅用于非常规战争，还更频繁地用于对敌人阵型的突击攻击。因此，他们必须适应成为一支重骑兵部队。"
+ reformed_varangian_infantry:0 "改良的瓦兰吉步兵"
+ reformed_varangian_infantryDESCR:0 "拜占庭帝国军队的演变，尤其是主题制度的建立和学者军的创建，意味着瓦兰吉卫队逐渐失去了帝国冲击部队的地位。此外，欧洲军队的职业化导致军事公司逐渐衰退，因为越来越少的国家愿意雇佣雇佣兵，而是依赖自己更忠诚的军队。这促使军事改革解决了瓦兰吉卫队效用下降的问题。"
+ eastern_square_infantry:0 "东方方阵步兵"
+ eastern_square_infantryDESCR:0 "西欧方阵步兵编队的成功意味着东欧国家也不可避免地会采用这些编队。"
+ palatine_lancers:0 "宫廷枪骑兵"
+ palatine_lancersDESCR:0 "随着宫廷骑兵在拜占庭军队中的能力多样化，创建了一个特殊的枪骑兵单位。这些宫廷骑兵对皇帝忠诚狂热，被敌人甚至帝国军队的其他士兵视为自杀式的。他们配备了长枪，被用作冲击部队，旨在破坏和摧毁敌军编队。宫廷枪骑兵可以被视为帝国最后的重骑兵之一。"
+ #eastern_jaeger_infantry:0 "东方猎兵步兵"
+ #eastern_jaeger_infantryDESCR:0 "随着奥地利帝国在其步兵中有效使用猎兵步兵，东欧国家也采用了这些轻步兵。拜占庭帝国以经典罗马风格，与学者军一起采用了猎兵步兵，并在罗马皇冠战争中对抗奥地利人。"
+ reformed_scholarian_infantry:0 "改革后的学者步兵"
+ reformed_scholarian_infantryDESCR:0 "学者军继续学习并采用他们所战斗的敌人的新技术和编队，并将其用于对抗这些敌人。拿破仑·波拿巴，盟军最高指挥官，曾评论道，与其仅仅伤害一个学者军士兵，不如直接杀死他，因为学者军士兵会回来用你的能力对付你。"
+ #russian_reformed_mass:0 "改革后的集群步兵"
+ #russian_reformed_massDESCR:0 "与拜占庭帝国的盟友一样，俄罗斯人继续发展他们的军事能力和步兵战术。一位希腊旅行者在观察俄罗斯集群冲锋时评论道，它看起来像一波蚂蚁覆盖了整个地景，将敌人剥得干干净净。"

@@ -1,0 +1,406 @@
+﻿l_english:
+ #GOVT RANKS
+ RANK_1: "男爵领" #local
+ RANK_2: "伯爵领" #minor
+ RANK_3: "公爵领" #major
+ RANK_4: "王国" #regional
+ RANK_5: "帝国" #imperial
+ CURRENT_GOVERNMENT_RANK_DESC: "五种政府等级为§Y男爵领§!、§Y伯爵领§!、§Y公爵领§!、§Y王国§! 和 §Y帝国§!。更高等级的政府拥有更强的加成、更多的州数，并减少更改国家重心的等待年限。"
+
+ BISHOPRIC: "主教领"
+
+
+ #####STATE EDICTS INTO GOVERNORS
+ STATE_EDICT_TRIG_NOT:0 "没有任命'$NAME|Y$'总督。\n"
+ STATE_EDICT_TRIG:0 "已任命'$NAME|Y$'总督。\n"
+ STATE_EDICT_NOT_REMOVE:0 "$ACTIVE|Y$ 在 $WHEN|Y$ 之前无法被替换或移除。"
+ CLICK_TO_REMOVE_EDICT:0 "点击移除此总督。"
+ CLICK_TO_ENACT_EDICT:0 "任命 $EDICT$ 直到至少 $UNTIL|Y$，将增加 $COST$ 的州维护费用。"
+ VIEW_STATE_EDICTS:0 "查看总督"
+ NO_CURRRENT_EDICT:0 "无总督"
+ CONFIRSTATEEDICT:0 "确认总督任命"
+ CONFIRSTATEEDICT_TEXT:0 "任命 $EDICT|Y$ 为 $STATE$ 的总督，将在至少 $DURATION$ 个月内产生 $EFFECT$，并增加 $INCREASE$ 的州维护费用。\n您确定吗？"
+ EFFECT_ARE_YOU_SURE:0 "$EFFECT$\n您确定吗？"
+ NO_EDICT:0 "无总督！"
+ LEDGER_EDICT:0 "总督"
+ NO_EDICT_PLAIN:0 "无总督"
+ NO_EDICT_TO_REMOVE:0 "当前§Y没有§!总督可移除！"
+ NO_EDICT_IN_STATE:0 "$NAME$ 当前没有总督。"
+ NO_EDICT_IN_TERRITORY:0 "$NAME$ 是领地，因此无法任命总督。"
+ CONFIRSTATEEDICT_TEXT_N:0 "移除当前总督，您确定吗？"
+ EDICTS_TAB_TOOLTIP:0 "总督"
+ MACRO_STATES_EDICT_ENACTED_DATE:1 "于 $DATE|Y$ 任命"
+ MACRO_STATES_EDICT_ENACTED_DATE_LOCKED:0 "于 $DATE|Y$ 任命，且直到 $ALLOWED|Y$ 才可替换或移除"
+ MAPMODE_STATES_EDICTS:0 "总督"
+ MAPMODE_STATES_EDICTS_DESC:0 "根据当前总督类型对区域进行着色。"
+ MACRO_STATES_EDICT_ENACTED_DATE:1 "于 $DATE|Y$ 任命"
+ MACRO_STATES_EDICT_ENACTED_DATE_LOCKED:0 "于 $DATE|Y$ 任命，且可在 $ALLOWED|Y$ 再次更改"
+ EDICTS_TAB_TOOLTIP:0 "州总督"
+ PICK_EDICT:0 "任命总督"
+ EDICT:0 "总督"
+ TOGGLE_EDICTS_OFF:0 "点击关闭总督任命。"
+ TOGGLE_EDICTS_ON:0 "点击打开总督任命。"
+
+ SM_BASE_DEV_COST_EDICT:0 "来自发展度：§Y$VAL$¤§!\n$Governor$：§R+$ED_VAL$¤§!"
+
+
+ edict_religious_unity:0 "神权总督"
+ edict_protect_trade:0 "财阀总督"
+ edict_promote_military_recruitment:1 "军国主义总督"
+ edict_encourage_development:0 "后勤总督"
+ edict_defensive_edict:0 "建筑总督"
+ edict_advancement_effort:0 "学者总督"
+ edict_centralization_effort:0 "官僚总督"
+
+ edict_feudal_de_jure_law:0 "贵族总督"
+ edict_feudal_de_jure_law_tooltip:0 "需要来自发现时代的‘§Y贵族总督§!’。"
+ edict_religion_enforced:0 "神职总督"
+ edict_religion_enforced_tooltip:0 "需要来自宗教改革时代的‘§Y教会总督§!’。"
+ edict_of_absolutism:0 "行政总督"
+ edict_of_absolutism_tooltip:0 "需要来自专制时代的‘§Y行政总督§!’。"
+ feudal_de_jure_law:1 "允许州总督‘§Y贵族总督§!’\n（不安度：§G-5§!）\n"
+ religion_enforced_edict:1 "允许州总督‘§Y神职总督§!’\n（抵制宗教改革：§G+90%§!）\n"
+ edict_of_absolutism_tt:1 "允许州总督‘§Y行政总督§!’\n（每月荒废度：§G-0.25§!）\n"
+
+
+
+ #####Parliaments
+ POR_parliament_name:0 "总议会"
+ CAS_parliament_name:0 "议会"
+ SPA_parliament_name:0 "议会"
+ ARA_parliament_name:0 "贵族议会"
+ A7D_parliament_name:0 "地方议会"
+
+
+ #####GOVT TYPE
+ NATIVE:1 "氏族"
+ native_name:1 "氏族"
+ native_desc:1 "氏族是由血缘关系联合起来的人群。氏族领袖通常由议会决定，但也可能出现多种替代制度。氏族先于所有集中化的政府形式。"
+ tribal_desc:1 "部落是一个具有显著等级结构的发展政治实体。部落领袖通过其文化规范决定。部落缺乏国家形式和正式的制度。"
+ theocracy_desc:1 "神权制是一种国家元首同时为宗教权威的政府形式。神权领袖通过宗教仪式和神职遴选决定。"
+ monarchy_desc:1 "君主制是一种由单一君主担任国家元首的政府形式。君主通常由王朝继承决定，但有时也可能由统治阶级根据需要选出。"
+ republic_desc:1 "共和制是一种国家元首通过选举产生的政府形式。领袖通过选举决定，尽管投票标准可能有所不同。"
+ commercial_name:1 "商业"
+ dictatorial_name:1 "独裁"
+
+ #####GOVT MECHANICAL RELOCALIZE
+ #States-General
+ STATISTS_DRO:1 "当 $NAME$ 掌权时，将定期举行选举。"
+ MONARCHISTS_DRO:0 "当 $NAME$ 掌权时，当前统治者将统治至其去世。"
+
+ #cut
+ #RUSSIAN MECHANICS TURNED INTO FEUDAL GENERALIZED
+ #RUSABIL_SUDEBNIK:0 "改革法律"
+ #RUSABIL_OPRICHNINA:0 "流放异见者"
+ #RUSABIL_STRELTSY:0 "征召民兵"
+ #russian_adm_power:0 "改革进度"
+ #russian_dip_power:0 "流放进度"
+ #russian_mil_power:0 "民兵训练进度"
+ #RUSABIL_SUDEBNIK_Q:0 "这将使我们所有省份的自治度变化 $CHANGE|G$。"
+ #RUSABIL_OPRICHNINA_Q:0 "这将使所有叛乱派系的进度变化 $CHANGE$。"
+ #RUSABIL_STRELTSY_Q:0 "这将使战争疲劳度变化 $CHANGE$，并在我们的首都征召 $UNITS|Y$ 民兵团。"
+ #RUSABIL_NOT_AUTONOMY:0 "没有省份的自治度至少为 $VAL|Y$，可以被'$NAME|Y$'降低。\n"
+ #RUSABIL_DO_IT_SUDEBNIK:0 "通过使用 $VAL|Y$ 积累的力量进行'$NAME|Y$'，我们将使所有省份的自治度变化 $CHANGE|G$。\n将有 $PROV|Y$ 个省份受到影响。"
+ #RUSABIL_NO_REBELS:0 "没有叛乱派系的进度至少为 $VAL|R$，因此无需执行'$NAME|Y$'。\n"
+ #RUSABIL_DO_IT_OPRI:0 "通过使用 $VAL|Y$ 积累的力量进行'$NAME|Y$'，我们将使所有叛乱派系的进度变化 $CHANGE$。"
+ #GOV_INTERACT_NO_CAPITAL:0 "您的首都必须在您的控制下，才能执行'$NAME|Y$'。\n"
+ #RUSABIL_DO_IT_STRELTSY:0 "通过使用 $VAL|Y$ 积累的力量进行'$NAME|Y$'，我们将使战争疲劳度变化 $CHANGE$，并在我们的首都征召 $UNITS|Y$ 民兵团。"
+ #RUSABIL_STRELTSY_MODIFIER:0 "这将通过依赖这些民兵团，使我们的稳定成本增加到 $MODIFIER$。"
+ #ability_russian_mechanic:0 "封建政府"
+
+
+ #REGCAT_streltsy:0 "民兵"
+ #STRELTSY_NAME:0 "$HOME$的$NUM$$ORDER$民兵团"
+ #STRELTSY_REGIMENT:0 "民兵团\n火力伤害加成：$VAL$"
+ #streltsy_modifier:0 "依赖民兵"
+ #STRELTSY_REGIMENT_TYPE:0 "民兵"
+ #ADD_STRELTSY_SUB_UNIT_EFFECT:0 "在§Y$WHERE$§!获得‘§G民兵§!’ $UNIT$。"
+ #HAVE_LESS_STRELTSY_THAN:1 "民兵数量少于§Y$VALUE$§!。\n"
+ #HAVE_AT_LEAST_STRELTSY_THAN:1 "民兵数量至少为§Y$VALUE$§!。\n"
+
+ #streltsy_concessions:0 "民兵特权"
+ #desc_streltsy_concessions:0 "民兵获得了额外的特权，这对我们的军队管理造成了额外的财政压力。"
+ #streltsy_angered:0 "民兵不满"
+ #desc_streltsy_angered:0 "我们拒绝了民兵回家的权利，同时也拒绝了支持他们家庭的特权。这让他们感到不满，并使他们容易受到国内颠覆性因素的影响。"
+ #streltsy_revolted:0 "民兵叛乱"
+ #desc_streltsy_revolted:0 "不满的民兵发动了叛乱，脱离了他们的队伍，使军队清除了颠覆性因素。"
+ #streltsy_inspection:0 "民兵检查"
+ #desc_streltsy_inspection:0 "我们增加了对民兵的定期检查和装备更换的资金。"
+ #streltsy_garrison:0 "加强要塞"
+ #desc_streltsy_garrison:0 "我们招募的民兵为全国各地的人提供了就业机会。通常这意味着我们的地方要塞可以更好地配备人员和装备，使我们的国家比以往任何时候都更加安全。"
+ #streltsy_events.1.t:0 "民兵抗议"
+ #streltsy_events.1.d:0 "我们的长期战争使民兵疲惫不堪。作为终身士兵，他们在和平时期有家庭和生意需要照顾，长期战争使他们难以维持这种生活。今天，一支民兵代表团抵达[Root.Capital.GetCapitalName]，要求允许他们返回家乡或获得更高的薪酬。"
+ #streltsy_events.1.a:0 "我们可以做出一些让步。"
+ #streltsy_events.1.b:0 "他们必须返回他们的团，否则将面临逃兵指控！"
+ #streltsy_events.1.b.tt:0 "这可能会引发民兵叛乱。\n如果您有战争疲劳，叛乱的可能性将增加。"
+ #streltsy_events.1.c:0 "让我们以逃兵罪处决他们！"
+ #streltsy_events.1.c.tt:0 "这将引发民兵叛乱。叛乱的规模取决于您当前雇佣的民兵数量。"
+ #streltsy_events.2.t:0 "民兵叛乱"
+ #streltsy_events.2.d:0 "我们收到消息，[streltsy_revolt.GetName]的民兵数量日益增加。他们罢免了他们的队长并选举了新领袖。由于对我们和他们家庭的待遇不满，他们现在正向[Root.Capital.GetCapitalName]进军，以惩罚贵族并推举新统治者。"
+ #streltsy_events.2.a:0 "处决所有逃兵和叛徒！"
+ #streltsy_events.3.t:0 "民兵的日常生活"
+ #streltsy_events.3.d:0 "虽然对许多人来说做民兵不是自愿的选择，但这意味着在战时放弃之前的职业。我们的许多民兵在城镇或周边定居，在和平时期过着农民、店主、工匠或其他非军事职业的普通生活。虽然他们随时待命有一定的薪水，但这不足以养家糊口，国家往往容忍甚至鼓励士兵有其他收入来源。\n然而，一些人担心我们的民兵装备不足以作为职业士兵作战，他们对保持装备更新或良好状态缺乏兴趣。"
+ #streltsy_events.3.a:0 "拨款训练民兵。"
+ #streltsy_events.3.b:0 "无需惊慌。"
+ #streltsy_events.4.t:0 "检查民兵"
+ #streltsy_events.4.d:0 "虽然民兵需要自己维护大部分装备，但不能指望他们跟上火器技术的发展。随着时间推移，他们的许多武器变得越来越过时，有些甚至磨损且效率低下。定期检查本应让我们了解所有民兵的训练和装备情况，但众所周知这些检查成本高昂。"
+ #streltsy_events.4.a:0 "是时候投资更好的装备和重新检查了。"
+ #streltsy_events.4.b:0 "没有理由浪费政府资金。"
+ #streltsy_events.5.t:0 "装备精良的要塞"
+ #streltsy_events.5.d:0 "民兵通常以微薄的薪水或一小块土地的承诺换取对国家的军事服务。由于王国的封建性质，这种地位往往不可避免。由于民兵在和平时期有时从事普通城市工作，在附近建造要塞可以更轻松地在需要时为要塞配备人员。"
+ #streltsy_events.5.a:0 "太好了。"
+ #streltsy_events.6.t:0 "扩大民兵"
+ #streltsy_events.6.d:0 "在民兵中，国家获得了一个可靠的步兵来源。为了确保未来战争的胜利，我们应该制定计划，以快速高效地组织、训练和供应更多非职业人员。然而，一些人警告说，强调速度是有成本的。"
+ #streltsy_events.6.a:0 "让我们加大努力。"
+ #streltsy_events.6.b:0 "我们必须增加开支。"
+ #streltsy_events.6.c:0 "目前没有这个需要。"
+
+
+ #Russian FRONTIER INTO GENERALIZED FRONTIER
+ establish_new_siberian_frontier:0 "扩展边疆"
+ SIBERIAN_FRONTIER_LACKS_IDEA:0 "没有国家理念，无法建立边疆。"
+ CONFIRSIBERIANFRONTIER:0 "确认建立边疆"
+ CONFIRSIBERIANFRONTIER_TEXT:0 "$EFFECT$\n您确定吗？"
+ NOT_SIB_TO_BE_SEI:0 "边疆不能像普通殖民地那样被夺取。"
+ SIB_FRONTIER_TOOLTIP:0 "该殖民地每月获得 $MIN|Y$ 至 $MAX|Y$ 名移民。"
+ SIB_FRONT_TXT:0 "边疆"
+ NOSF_NO_POINTS:0 "您需要 §Y$COST$§!£dip£ 来建立边疆，而您只有 §Y$VAL$§!。"
+ NOSF_HAS_OWNER:1 "您无法在一个正在被殖民的省份建立新边疆。"
+ NOSF_ALREADY_COLONISED:0 "无法在一个已有某种殖民进程的省份建立边疆。"
+ NOSF_NO_TRACE_HOME:0 "边疆只能在与我们首都可追溯路线的我们拥有的城市旁建立。"
+ ESTABLISH_SIBFRO_IRO:0 "建立边疆将花费 §Y$COST$§!£dip£。这将创建一个无需殖民者或殖民维护费用即可缓慢增长的殖民地。"
+
+ #IQTA TAXATION GENERALIZED
+ IQTA_TAXATION_POLICY_PERIOD:1 "在此期间，您无法颁布另一项税收政策。"
+ ability_iqta_mechanic:1 "税收"
+ AN_IQTA_T bfsAXATION_POLICY:1 "税收政策"
+
+
+ #####GOVT REFORMS
+ ###Primitive
+ native_council:1 "美洲议会"
+ #native_council_desc:1 "MISSING_LOCALIZATION"
+ native_council_legacy:1 "美洲议会"
+ #native_council_legacy_desc:1 "MISSING_LOCALIZATION"
+ siberian_tribe:1 "西伯利亚议会"
+ #siberian_tribe_desc:1 "MISSING_LOCALIZATION"
+ siberian_native_council:1 "西伯利亚议会"
+ #siberian_native_council_desc:1 "MISSING_LOCALIZATION"
+
+
+ #Tribal
+ tribal_kingdom_legacy:1 "部落君主制"
+ #tribal_kingdom_legacy_desc:1 ""
+ tribal_kingdom:1 "部落君主制"
+ #tribal_kingdom_desc:1 ""
+
+ great_mongol_state_reform:1 "汗国"
+ #great_mongol_state_reform_desc:1 ""
+ gond_kingdom:1 "拉杰贡德"
+ #gond_kingdom_desc:1 ""
+
+
+ ###Theocracy
+ feudal_theocracy_legacy:1 "伊玛目国"
+ #feudal_theocracy_legacy_desc:1 ""
+ feudal_theocracy:1 "伊玛目国"
+ #feudal_theocracy_desc:1 ""
+
+ #Theocracy
+ monastic_order_reform:1 "修道院国家"
+ monastic_order_reform_desc:1 "该国家由修道院成员统治，其等级制度和规则取代了大部分法律和行政的需要。"
+ holy_state_reform:1 "神圣国家"
+ holy_state_reform_desc:1 "该国家由十字军征服者统治，并通过宗教仪式和传统进行管理。上帝的旨意！"
+
+
+ ###Monarchy
+ despotic_monarchy:1 "专制君主制"
+ despotic_monarchy_desc:1 "专制君主制是一种权力集中在统治者手中的君主制。国家是统治者个人形象的延伸；虽然有部长和朝臣并不罕见，但他们只是皇室的附属品。最终权威无疑归于统治者。"
+ autocracy_reform:1 "专制君主制"
+ autocracy_reform_desc:1 "专制君主制是一种权力集中在统治者手中的君主制。国家是统治者个人形象的延伸；虽然有部长和朝臣并不罕见，但他们只是皇室的附属品。最终权威无疑归于统治者。"
+
+ feudal_monarchy:1 "贵族君主制"
+ feudal_monarchy_desc:1 "贵族君主制是一种由效忠于统治者的贵族阶级来执行统治者权威的君主制。这些贵族通常本身就是地主，在全国拥有相当大的影响力。"
+ feudalism_reform:1 "贵族君主制"
+ feudalism_reform_desc:1 "贵族君主制是一种由效忠于统治者的贵族阶级来执行统治者权威的君主制。这些贵族通常本身就是地主，在全国拥有相当大的影响力。"
+
+ plutocratic_monarchy_legacy:1 "财阀君主制"
+ plutocratic_monarchy_legacy_desc:1 "财阀君主制是一种统治者的权力得到富裕商人支持的君主制。统治者的首要任务是为商人阶层和整个国家带来更大的繁荣。"
+ plutocratic_reform:1 "财阀君主制"
+ plutocratic_reform_desc:1 "财阀君主制是一种统治者的权力得到富裕商人支持的君主制。统治者的首要任务是为商人阶层和整个国家带来更大的繁荣。"
+
+ principality_legacy:1 "公国"
+ #principality_legacy_desc:1 ""
+ principality:1 "公国"
+ #principality_desc:1 ""
+
+ pirate_king_reform:1 "海盗君主制"
+ #pirate_king_reform_desc:1 ""
+
+ iberian_reino_legacy:1 "王国"
+ #iberian_reino_legacy_desc:1 ""
+ iberian_reino:1 "王国"
+ #iberian_reino_desc:1 ""
+ english_monarchy_legacy:1 "议会君主制"
+ #english_monarchy_legacy_desc:1 ""
+ english_monarchy:1 "议会君主制"
+ #english_monarchy_desc:1 ""
+
+ prussian_monarchy:1 "王国"
+ #prussian_monarchy_desc:1 ""
+ austrian_archduchy_reform:1 "大公国"
+ #austrian_archduchy_reform_desc:1 ""
+ austrian_dual_monarchy:1 "双重君主制"
+ #austrian_dual_monarchy_desc:1 ""
+
+ ottoman_government_legacy:1 "土耳其苏丹国"
+ #ottoman_government_legacy_desc:1 ""
+ ottoman_government:1 "土耳其苏丹国"
+ #ottoman_government_desc:1 ""
+ mamluk_government_legacy:1 "马穆鲁克苏丹国"
+ #mamluk_government Legacy_desc:1 ""
+ mamluk_government:1 "马穆鲁克苏丹国"
+ #mamluk_government_desc:1 ""
+
+ misl_confederacy_reform:1 "米斯尔"
+ #misl_confederacy_reform_desc:1 ""
+ rajput_kingdom:1 "拉杰普特"
+ #rajput_kingdom_desc:1 ""
+
+ #Tier 2
+ #Theocracy
+ divine_guidance_reform:1 "教皇制"
+ divine_guidance_reform_desc:1 "国家统治者保持与神圣的唯一联系，因此是所有国家和宗教事务的最高权威。宗教仪式与行政法律之间没有区别，由忠诚于领袖意志的中介者执行。"
+
+ #Monarchy
+ enforce_privileges_reform:1 "分封制度"
+ enforce_privileges_reform_desc:1 "贵族传统上允许租户将其租地分割成新的子租地。"
+ quash_noble_power_reform:1 "封建租地"
+ quash_noble_power_reform_desc:1 "尽管国家所有土地传统上为君主的所有权财产，但大部分土地由忠诚和有用的首席租户暂时持有和管理。"
+ enforce_trader_privileges_reform:1 "贸易事业"
+ #enforce_trader_privileges_reform_desc:1 ""
+
+ ###Republic
+ oligarchic_republic:1 "寡头共和国"
+ oligarchic_republic_desc:1 "寡头共和国是一种投票权仅限于有影响力上层阶级的共和国。尽管虔诚、头衔、财富或军事成就可能足以赢得选民的支持，但无疑最终权力掌握在精英手中。"
+ oligarchy_reform:1 "寡头共和国"
+ oligarchy_reform_desc:1 "寡头共和国是一种投票权仅限于有影响力上层阶级的共和国。尽管虔诚、头衔、财富或军事成就可能足以赢得选民的支持，但无疑最终权力掌握在精英手中。"
+
+ noble_elite_reform:1 "贵族共和国"
+ noble_elite_reform_desc:1 "贵族共和国是一种由贵族家族成员选举统治者的共和国。投票和竞选的权利是贵族的世袭权利，因此他们在国家中拥有巨大的影响力。"
+
+ merchant_republic:1 "财阀共和国"
+ merchant_republic_desc:1 "财阀共和国是一种以财富和贸易为主导的共和国。统治者从最富有的商人家族中选举产生，选票往往通过贿赂或政治交易获得。商人和国家的繁荣是任何寻求连任者的成功关键。"
+ merchants_reform:1 "财阀共和国"
+ merchants_reform_desc:1 "财阀共和国是一种以财富和贸易为主导的共和国。统治者从最富有的商人家族中选举产生，选票往往通过贿赂或政治交易获得。商人和国家的繁荣是任何寻求连任者的成功关键。"
+
+ colonial_government_legacy:1 "殖民议会"
+ #colonial_government_legacy_desc:1 ""
+ colonial_government:1 "殖民议会"
+ #colonial_government_desc:1 ""
+
+ american_republic_legacy:1 "民主共和国"
+ #american_republic_legacy_desc:1 ""
+ american_republic:1 "民主共和国"
+ #american_republic_desc:1 ""
+ federal_republic_legacy:1 "联邦共和国"
+ #federal_republic_legacy_desc:1 ""
+ federal_republic:1 "联邦共和国"
+ #federal_republic_desc:1 ""
+ confederal_republic_reform:0 "邦联共和国"
+ confederal_republic_reform_desc:0 ""
+ confederal_republic_legacy:0 "邦联共和国"
+ confederal_republic_legacy_desc:0 ""
+
+ #Regional
+ signoria:1 "意大利领主制"
+ #signoria_desc:1 ""
+ signoria_reform:1 "意大利领主制"
+ #signoria_reform_desc:1 ""
+
+ #Unique
+ venetian_merchant_republic:1 "最宁静共和国"
+ #venetian_merchant_republic_desc:1 ""
+ venice_merchants_reform:1 "最宁静共和国"
+ #venice_merchants_reform_desc:1 ""
+
+ dutch_republic_legacy:1 "总督共和国"
+ #dutch_republic_legacy_desc:1 ""
+ dutch_republic:1 "总督共和国"
+ #dutch_republic_desc:1 ""
+
+ military_electorate_reform:0 "军事委员会"
+ military_electorate_reform_desc:0 ""
+ admiralty_reform:0 "海军部"
+ admiralty_reform_desc:0 ""
+ three_classes_reform:0 "三阶级制"
+ three_classes_reform_desc:0 ""
+ equal_electorate_reform:0 "普选制"
+ equal_electorate_reform_desc:0 ""
+
+ #TIER 3
+ #Theocracy
+ internal_mission_reform:1 "祭司制度"
+ internal_mission_reform_desc:1 ""
+ external_mission_reform:1 "军国主义"
+ external_mission_reform_desc:1 ""
+ mission_to_civilize_reform:1 "传道主义"
+ mission_to_civilize_reform_desc:1 ""
+ mission_to_kill_pirates_reform:1 "废奴主义"
+ mission_to_kill_pirates_reform_desc:1 ""
+ #Monarchy
+ #Republic
+ nepotism_reform:0 "裙带主义"
+ #nepotism_reform_desc:0 ""
+ lottery_reform:0 "抽签制"
+ lottery_reform_desc:0 "多数票选举容易导致腐败或更糟的民粹主义。通过采用复杂的随机分配系统来决定领导权，我们可以在共和国内各阶级之间维持权力的微妙平衡。"
+
+ council_of_captains_reform:0 "船长法典"
+ #council_of_captains_reform_desc:0 ""
+ articles_of_agreement_reform:0 "协议条款"
+ #articles_of_agreement_reform_desc:0 ""
+ smugglers_haven_reform:0 "走私权利"
+ #smugglers_haven_reform_desc:0 ""
+
+ #TIER 4
+ #Theocracy
+ #Monarchy
+ #Republic
+ #legislative_cabinet_reform #立法内阁
+ #legislature_cortes_reform #议会 - 伊比利亚
+ #maggior_consiglio_reform #大议会 - 威尼斯
+ national_constituent_reform:0 "任命议会"
+ national_constituent_reform_desc:0 ""
+ #rump_parliament_reform #残余议会 - 克伦威尔
+ legislative_assembly_reform:0 "选举议会"
+ legislative_assembly_reform_desc:0 ""
+
+ #TIER 5
+ #Theocracy
+ #Monarchy
+ #Republic
+
+ #TIER 6
+ #Theocracy
+ #Monarchy
+ #Republic
+
+ #TIER 7
+ #Theocracy
+ #Monarchy
+ #Republic
+
+ #TIER 8
+ #Theocracy
+ #Monarchy
+ #Republic
+
+ #TIER 9
+ #Theocracy
+ #Monarchy
+ #Republic
+
+ #TIER 10
+ #Theocracy
+ #Monarchy
+ #Republic

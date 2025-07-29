@@ -1,0 +1,51 @@
+﻿l_english:
+ ###############################################
+ #           TAG RENAME REPOSITORY             #
+ ###############################################
+
+ ### EUROPE
+ # IBERIA
+ ALGARVES: "阿尔加维"
+ ALGARVES_ADJ: "阿尔加维"
+
+ # HRE
+ SCHLESIEN: "西里西亚"
+ SCHLESIEN_ADJ: "西里西亚"
+
+ # HABSBURGS
+ INNER_AUSTRIA: "内奥地利"
+ INNER_AUSTRIA_ADJ: "内奥地利"
+ FURTHER_AUSTRIA: "远奥地利"
+ FURTHER_AUSTRIA_ADJ: "远奥地利"
+
+ # CRIMEA
+ TAURICIA: "陶里卡"
+ TAURICIA_ADJ: "陶里卡"
+
+ #Tatars
+ KAZAN: "喀山"
+ KAZAN_ADJ: "喀山"
+
+ #Caucasus
+ AVR: "胡恩扎赫"
+ AVR_ADJ: "胡恩扎赫"
+ CIR: "阿迪盖"
+ AVR_ADJ: "阿迪盖"
+
+ ### ASIA
+ # BORNEO
+ NEGARA_DAHA: "达哈" #Hindu Banjar
+ NEGARA_DAHA_ADJ: "达哈"
+
+ # MALUKU
+ GAPI: "加皮" #Animist Ternate
+ GAPI_ADJ: "加皮"
+
+ # India
+ RAPRI: "拉普里" #1444 start Agra rename
+ RAPRI_ADJ: "拉普里"
+ BHOGAON: "博格昂" #1444 start Kannauj rename
+ BHOGAON_ADJ: "博格昂"
+ SAMBHAL: "桑巴尔" #1444 start Rohilkhand rename
+ SAMBHAL_ADJ: "桑巴尔"
+

@@ -1,0 +1,79 @@
+﻿l_english:
+
+ #LEFT
+ #加那利群岛 1
+ AN_CAS_canaries_1:0 "加那利群岛 1"
+ CAS_benahoare_title:0 "占领贝纳霍雷"
+ CAS_benahoare_desc:0 ""
+ CAS_montana_quemada_title:0 "焚烧之山"
+ CAS_montana_quemada_desc:0 ""
+ CAS_montana_quemada.tooltip:0 "事件§Y焚烧之山§!已发生或现在是§Y1475年§!。"
+
+ CAS_taoro_title:0 "攻占塔奥罗"
+ CAS_taoro_desc:0 ""
+ CAS_crush_guanches_title:0 "粉碎瓜切斯"
+ CAS_crush_guanches_desc:0 ""
+ CAS_tenerife_sugar_title:0 "特内里费的糖业繁荣"
+ CAS_tenerife_sugar_desc:0 ""
+ CAS_canarias_resolved_title:0 "§l加那利群岛已解决§!"
+ CAS_canarias_resolved_desc:0 ""
+
+ CAS_galdar_title:0 "夺取加尔达尔"
+ CAS_galdar_desc:0 ""
+ CAS_gran_canario_title:0 "大加那利岛"
+ CAS_gran_canario_desc:0 ""
+
+ CAS_forte_fortuna_title:0 "幸运堡垒"
+ CAS_forte_fortuna_desc:0 ""
+ CAS_betancuria_interpretacao_title:0 "贝坦库里亚解读"
+ CAS_betancuria_interpretacao_desc:0 ""
+ CAS_adapt_encomiendas_title:0 "§l调整恩科米恩达制§!"
+ CAS_adapt_encomiendas_desc:0 ""
+
+ CAS_canary_kingdom_title:0 "加那利王国"
+ CAS_canary_kingdom_desc:0 ""
+ CAS_orchil_orseille_title:0 "奥奇尔与奥塞耶"
+ CAS_orchil_orseille_desc:0 ""
+ CAS_reconcile_castile_title:0 "与卡斯蒂利亚和解"
+ CAS_reconcile_castile_desc:0 ""
+
+ #RIGHT
+ #伊比利亚 1
+ AN_CAS_iberia_1:0 "伊比利亚 1"
+ CAS_cuellar_convention_title:0 "库埃利亚尔协定"
+ CAS_cuellar_convention_desc:0 ""
+ CAS_gibraltar_title:0 "夺取直布罗陀"
+ CAS_gibraltar_desc:0 ""
+ CAS_granada_title:0 "收复安达卢西亚"
+ CAS_granada_desc:0 ""
+ CAS_reconquista_title:0 "§l完成收复失地运动§!"
+ CAS_reconquista_desc:0 ""
+
+ CAS_hermandad_title:0 "沼泽兄弟会"
+ CAS_hermandad_desc:0 ""
+ CAS_fortify_rock_title:0 "加固岩石"
+ CAS_fortify_rock_desc:0 ""
+
+ CAS_juans_will_title:0 "王位之争"
+ CAS_juans_will_desc:0 ""
+ CAS_farce_avila_title:0 "阿维拉闹剧"
+ CAS_farce_avila_desc:0 ""
+ CAS_defeat_beltraneja_title:0 "击败贝尔特拉内哈"
+ CAS_defeat_beltraneja_desc:0 ""
+ CAS_iberian_peace_title:0 "§l伊比利亚和平§!"
+ CAS_iberian_peace_desc:0 ""
+
+ CAS_iberian_wedding_title:0 "伊比利亚联姻"
+ CAS_iberian_wedding_desc:0 ""
+ CAS_catholic_monarchs_title:0 "天主教君主"
+ CAS_catholic_monarchs_desc:0 ""
+
+ CAS_defeat_infante_title:0 "击败英凡特"
+ CAS_defeat_infante_desc:0 ""
+ CAS_eleanor_navarra_title:0 "纳瓦拉的埃莉诺"
+ CAS_eleanor_navarra_desc:0 ""
+ CAS_vassalize_navarra_title:0 "纳瓦拉干预"
+ CAS_vassalize_navarra_desc:0 ""
+ CAS_basque_integrate_title:0 "§l巴斯克整合§!"
+ CAS_basque_integrate_desc:0 ""
+

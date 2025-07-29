@@ -1,0 +1,154 @@
+﻿l_chinese:
+
+ #LEFT
+ #巴尔干 1
+ AN_TUR_balkans_1:0 "鲁米利亚 1"
+ TUR_fortify_the_dardanelles_title:0 "加固达达尼尔海峡"
+ TUR_fortify_the_dardanelles_desc:0 ""
+ TUR_develop_edirne_title:0 "第三首都"
+ TUR_develop_edirne_desc:0 ""
+ TUR_develop_maritsa_title:0 "灌溉马里查河"
+ TUR_develop_maritsa_desc:0 ""
+
+ TUR_eliminate_bulgaria_title:0 "巩固保加利亚地区"
+ TUR_eliminate_bulgaria_desc:0 ""
+ TUR_rhodope_bastion_title:0 "罗多彼的堡垒"
+ TUR_rhodope_bastion_desc:0 ""
+ TUR_settle_thrace_title:0 "§l定居色雷斯§!"
+ TUR_settle_thrace_desc:0 ""
+
+ TUR_develop_hudavendigar_title:0 "崇敬胡达文迪加尔"
+ TUR_develop_hudavendigar_desc:0 ""
+ TUR_tax_bosporus_title:0 "征税博斯普鲁斯海峡"
+ TUR_tax_bosporus_desc:0 ""
+ TUR_marmara_shipyards_title:0 "马尔马拉造船厂"
+ TUR_marmara_shipyards_desc:0 ""
+
+ TUR_euxine_port_title:0 "黑海港口"
+ TUR_euxine_port_desc:0 ""
+ TUR_mediterranean_hub_title:0 "§l地中海枢纽§!"
+ TUR_mediterranean_hub_desc:0 ""
+
+ TUR_city_worlds_desire_title:0 "世界之欲之城"
+ TUR_city_worlds_desire_desc:0 ""
+ TUR_restore_golden_horn_title:0 "恢复金角湾"
+ TUR_restore_golden_horn_desc:0 ""
+ TUR_convert_hagia_sofia_title:0 "改建圣索菲亚大教堂"
+ TUR_convert_hagia_sofia_desc:0 ""
+
+ #
+ AN_TUR_balkans_2:0 "Rumelia 2"
+ TUR_south_albania_title:0 "征服托斯克里亚"
+ TUR_south_albania_desc:0 ""
+ TUR_gorice_title:0 "建立戈里采"
+ TUR_gorice_desc:0 ""
+ TUR_skanderbeg_end_title:0 "斯坎德培的终结"
+ TUR_skanderbeg_end_desc:0 ""
+ TUR_montenegro_title:0 "§l征服卡拉达格§!"
+ TUR_montenegro_desc:0 ""
+
+ TUR_rascia_title:0 "夺取拉斯恰"
+ TUR_rascia_desc:0 ""
+ TUR_serbia_title:0 "兼并塞尔维亚"
+ TUR_serbia_desc:0 ""
+ TUR_belgrade_title:0 "§l贝尔格莱德之战§!"
+ TUR_belgrade_desc:0 "" 
+
+ TUR_revenge_for_varna_title:0 "为瓦尔纳复仇"
+ TUR_revenge_for_varna_desc:0 ""
+ TUR_retake_giurgiu_title:0 "收复耶尔戈居"
+ TUR_retake_giurgiu_desc:0 ""
+ TUR_wallachia_title:0 "击败德拉库拉"
+ TUR_wallachia_desc:0 ""
+ TUR_budjak_title:0 "§l布尤贾克的堡垒§!"
+ TUR_budjak_desc:0 ""
+
+ TUR_athens_title:0 "吞并雅典"
+ TUR_athens_desc:0 ""
+ TUR_pantheon_fort_title:0 "万神殿堡垒"
+ TUR_pantheon_fort_desc:0 ""
+ TUR_negroponte_title:0 "征服泽西"
+ TUR_negroponte_desc:0 ""
+ TUR_aegea_title:0 "§l巩固爱琴海地区§!"
+ TUR_aegea_desc:0 ""
+
+ TUR_epirus_title:0 "驱逐拉丁埃皮鲁斯人"
+ TUR_epirus_desc:0 ""
+ TUR_morea_title:0 "征服摩拉维亚"
+ TUR_morea_desc:0 ""
+ TUR_crete_title:0 "§l占领克里特岛§!"
+ TUR_crete_desc:0 ""
+
+ #
+
+ #RIGHT
+ #安纳托利亚 1
+ AN_TUR_anatolia_1:0 "安纳托利亚 1"
+ TUR_karaman_title:0 "击退卡拉曼"
+ TUR_karaman_desc:0 ""
+ TUR_annex_karaman_title:0 "卡拉曼征服"
+ TUR_annex_karaman_desc:0 ""
+ TUR_past_the_taurus_title:0 "§l穿越陶鲁斯山§!"
+ TUR_past_the_taurus_desc:0 ""
+
+ TUR_alaiye_title:0 "吞并阿拉伊耶"
+ TUR_alaiye_desc:0 ""
+ TUR_dulkadir_title:0 "击败杜尔卡迪尔"
+ TUR_dulkadir_desc:0 ""
+ 
+ TUR_beylik_betrayal_title:0 "贝伊背叛"
+ TUR_beylik_betrayal_desc:0 ""
+ TUR_candar_title:0 "吸收坎达尔"
+ TUR_candar_desc:0 ""
+ TUR_refurbish_sinope_title:0 "§l修复锡诺普§!"
+ TUR_refurbish_sinope_desc:0 ""
+ 
+ TUR_pontus_title:0 "平息波斯普鲁斯"
+ TUR_pontus_desc:0 ""
+
+ TUR_secure_rum_title:0 "确保鲁姆的安全"
+ TUR_secure_rum_desc:0 ""
+ TUR_end_roman_legacy_title:0 "结束罗马遗产"
+ TUR_end_roman_legacy_desc:0 ""
+ TUR_restore_trabzon_title:0 "驻军特拉布宗"
+ TUR_restore_trabzon_desc:0 ""
+ TUR_pontic_trade_title:0 "§l确保黑海贸易§!"
+ TUR_pontic_trade_desc:0 ""
+ #
+ AN_TUR_anatolia_2:0 "安纳托利亚 2"
+ TUR_amastris_title:0 "吞并阿马斯特里斯"
+ TUR_amastris_desc:0 ""
+ TUR_sakiz_title:0 "确保萨基兹的安全"
+ TUR_sakiz_desc:0 ""
+ TUR_izmir_title:0 "§l伊兹密尔港§!"
+ TUR_izmir_desc:0 ""
+
+ TUR_sea_rivals_title:0 "海上对手"
+ TUR_sea_rivals_desc:0 ""
+ TUR_bodrum_title:0 "博德鲁姆的堡垒"
+ TUR_bodrum_desc:0 ""
+ TUR_rodos_title:0 "罗德斯的桑贾克"
+ TUR_rodos_desc:0 ""
+
+ TUR_rivierasi_ports_title:0 "里维埃拉的港口"
+ TUR_rivierasi_ports_desc:0 ""
+ TUR_cyprus_title:0 "§l占领塞浦路斯§!"
+ TUR_cyprus_desc:0 ""
+
+ TUR_crimea_title:0 "克里米亚的继承"
+ TUR_crimea_desc:0 ""
+ TUR_gazaria_title:0 "加兹里亚的收益"
+ TUR_gazaria_desc:0 ""
+ TUR_kefir_in_kefe_title:0 "§l在凯费品尝开菲尔§!"
+ TUR_kefir_in_kefe_desc:0 ""
+
+ TUR_erzurum_title:0 "埃尔祖鲁姆的省份"
+ TUR_erzurum_desc:0 ""
+ TUR_erzurum_baruthane_title:0 "埃尔祖鲁姆火药厂"
+ TUR_erzurum_baruthane_desc:0 ""
+ TUR_harberd_title:0 "东部达尔戈斯山"
+ TUR_harberd_desc:0 ""
+ TUR_diyarbakir_title:0 "§l来自迪亚巴克尔的危险§!"
+ TUR_diyarbakir_desc:0 ""
+
+

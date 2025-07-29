@@ -1,0 +1,145 @@
+﻿l_chinese:
+
+ # Cinnamon Ryce 为东南亚所做的工作
+
+ ###########################
+ #事件
+ ###########################
+ BtPLegacyCRsSEAFlavour.1.t:0 "葡萄牙使节访问大城"
+ BtPLegacyCRsSEAFlavour.1.d:0 "1511年被占领后，马六甲落入葡萄牙控制之下，他们将其作为在东南亚的基地。在得知邻近的暹罗声称对马六甲拥有权利后，葡萄牙印度总督阿方索·德·阿尔布克尔克派遣三名使节前往大城，试图建立友好关系。这些使节中的第三位，由杜阿尔特·德·科埃略领导，与葡萄牙和暹罗签署了一项条约。作为交换，暹罗保证宗教自由，并同意协助葡萄牙建立当地定居点和贸易网络。后来多达三百名葡萄牙国民定居在大城，其中包括许多商人和军事专家。"
+ BtPLegacyCRsSEAFlavour.1.a:0 "向我们的新朋友致敬！"
+ BtPLegacyCRsSEAFlavour.1.b:0 "葡萄牙人在马六甲没有立足之地！"
+
+ BtPLegacyCRsSEAFlavour.2.t:0 "乌通家族的回归"
+ BtPLegacyCRsSEAFlavour.2.d:0 "1546年，国王柴拉查去世后，他的儿子凯奥法王子在十一岁时继位。他的母亲西苏达琼夫人担任摄政。在此期间，西苏达琼夫人与一名政府官员发生了不正当关系，该官员以其贵族头衔潘布特·西·帖普而闻名，并以昆·钦纳拉特的新头衔崭露头角。1548年，年轻的凯奥法国王在科普拉亚寺被处决，西苏达琼夫人宣布昆·钦纳拉特为国王，称他为沃拉翁萨国王。这两人都是被废黜的乌通家族成员，遭到其他贵族家族的全国性反对，他们憎恶乌通的不道德和残暴回归。在素攀纳普家族的旗帜下，素可泰、素攀纳普和西塔玛拉特家族的成员联合起来反对乌通，并暗杀了篡位者及其情妇，将王位交给提安王子，他被宣布为玛哈·查克拉帕特国王。"
+ BtPLegacyCRsSEAFlavour.2.a:0 "乌通再次统治！"
+ BtPLegacyCRsSEAFlavour.2.b:0 "召集家族，乌通不能统治！"
+
+ BtPLegacyCRsSEAFlavour.4.t:0 "马六甲的占领"
+ BtPLegacyCRsSEAFlavour.4.d:0 "葡萄牙首次提到马六甲是在瓦斯科·达·伽马从卡利卡特的探险中返回后。该城市被描述为距离印度四十天的旅程，在那里丁香、肉豆蔻、瓷器和丝绸大量出售。据称，该城市由一位基督教君主统治，他可以召集一支一万人的军队参战，这促使曼努埃尔国王寻找该城市。1509年发起了第一次探险，但最终失败，大部分士兵被苏丹俘虏。1511年，印度总督阿方索·德·阿尔布克尔克发起了第二次探险以夺取马六甲。7月，在拒绝释放1509年探险的所有囚犯的最后通牒后，苏丹加强了防御以准备不可避免的入侵。在两次袭击中，阿尔布克尔克的士兵征服了该城市，掠夺了那些未与葡萄牙结盟的人的房屋。马六甲苏丹多次试图夺回该城市，但所有尝试均失败，最终导致苏丹国的灭亡。"
+ BtPLegacyCRsSEAFlavour.4.a:0 "洗劫城市！"
+ BtPLegacyCRsSEAFlavour.4.b:0 "只要求归还我们的士兵"
+
+ BtPLegacyCRsSEAFlavour.5.t:0 "马六甲的失落"
+ BtPLegacyCRsSEAFlavour.5.d:0 "马六甲已经沦陷。随着时间的推移，我们不得不面对残酷的现实：我们永远失去了马六甲。随着我们绝望地试图夺回城市的努力继续失败，当地统治者宣布独立，我们的贵族担心没有马六甲，我们不能再称自己为马六甲苏丹国。"
+ BtPLegacyCRsSEAFlavour.5.a:0 "这是黑暗的时代"
+ BtPLegacyCRsSEAFlavour.5.b:0 "我们将坚持我们的帝国！"
+
+ BtPLegacyCRsSEAFlavour.6.t:0 "麓川-平缅战役"
+ BtPLegacyCRsSEAFlavour.6.d:0 "从明朝的崛起开始，中国对云南地区的影响一直很弱。来自云贵边境的各种土匪派系不断袭击和入侵云南，其中大国孟卯是这些袭击的主要来源。明朝发起了各种军事行动以惩罚孟卯的侵略，但大多数这些惩罚性战役使孟卯相对完整，而明朝则遭受了重大伤亡。"
+ BtPLegacyCRsSEAFlavour.6.a:0 "他们的土匪行为现在结束！"
+ BtPLegacyCRsSEAFlavour.6.b:0 "我们无法承受更多的伤亡"
+
+ BtPLegacyCRsSEAFlavour.7.t:0 "孟卯的沦陷"
+ BtPLegacyCRsSEAFlavour.7.d:0 "在我们试图找到并处决孟卯的[MMA.Monarch.GetName]时，我们的部队占领了孟卯的首都。然而，我们对孟卯[MMA.Monarch.GetTitle]的搜寻未果，据认为[MMA.Monarch.GetName]已经逃离了城市。现在他们已经投降，我们可以削弱他们的力量，或者继续战争以捕获[MMA.Monarch.GetName]。"
+ BtPLegacyCRsSEAFlavour.7.a:0 "我们取得了胜利！"
+ BtPLegacyCRsSEAFlavour.7.b:0 "我们还没有结束这场战争！"
+
+ BtPLegacyCRsSEAFlavour.8.t:0 "谢赫·赛义德的提议"
+ BtPLegacyCRsSEAFlavour.8.d:0 "最近，[Root.Monarch.GetTitle][Root.Monarch.GetName]患上了一种可怕的疾病，由于[Root.Monarch.GetHerHis]的病情，[Root.Monarch.GetTitle]的皮肤开始全面开裂。到目前为止，没有人能够治疗[Root.Monarch.GetHerHis]的疾病，但一位名叫谢赫·赛义德的穆斯林商人接受了治愈[Root.Monarch.GetName]的挑战，条件是如果[Root.Monarch.GetName]康复，[Root.Monarch.GetTitle]及其宫廷必须改信伊斯兰教。"
+ BtPLegacyCRsSEAFlavour.8.a:0 "我们接受他的提议"
+ BtPLegacyCRsSEAFlavour.8.b:0 "[Root.Monarch.GetTitle]宁愿死去！"
+
+ ###########################
+ #任务
+ ###########################
+ maj_survive_civil_war:0 "稳定国家"
+ maj_survive_civil_war_title:0 "稳定国家"
+ maj_survive_civil_war_desc:0 "自从Paregreg战争以来，我们的国家一直在缓慢崩溃，我们的权威岌岌可危。几乎任何事情都可能导致我们的覆灭。如果我们要重新崛起，我们必须活过敌人，稳定我们的国家。"
+
+ maj_conquer_sunda:0 "征服巽他"
+ maj_conquer_sunda_title:0 "征服巽他"
+ maj_conquer_sunda_desc:0 "在国家更加完整之后，我们现在可以着手恢复我们的帝国。巽他王国长期以来一直抵制我们统一爪哇的尝试，为此，他们将付出沉重的代价。"
+
+ maj_settle_lesser_sunda_islands:0 "定居小巽他群岛"
+ maj_settle_lesser_sunda_islands_title:0 "定居小巽他群岛"
+ maj_settle_lesser_sunda_islands_desc:0 "小巽他群岛长期以来一直是努山塔拉的一个孤立地区。是时候让有人将他们纳入版图了。"
+
+ maj_convert_java:0 "改信爪哇"
+ maj_convert_java_title:0 "改信爪哇"
+ maj_convert_java_desc:0 "尽管爪哇岛在我们的统治下统一，但各种宗教少数派仍然威胁着和平。我们必须为爪哇带来宗教统一！"
+
+ maj_survive_civil_war.tooltip:0 "完成Majapahit内战灾难，或在不触发灾难的情况下进入宗教改革时代。"
+
+ ###########################
+ #内战灾难
+ ###########################
+ majapahit_civil_war:0 "Majapahit内战"
+ maj_civil_war.1.t:0 "Majapahit内战"
+ maj_civil_war.1.d:0 "自从Paregreg战争以来，Majapahit帝国一直处于不断衰退之中。随着海外领土的丧失，国库的空虚，以及北方穆斯林商人日益强大的势力，Majapahit国家不太可能再维持下去了。"
+ maj_civil_war.1.a:0 "我们的敌人无法打败我们！"
+
+ maj_civil_war.100.t:0 "内战的结束"
+ maj_civil_war.100.d:0 "尽管世界的压力都在对抗我们，但我们的国家在这场持续的内战中勉强生存下来。尽管国家已经平静下来，但我们仍需采取行动恢复秩序与和平。"
+ maj_civil_war.100.a:0 "团结使我们更强大"
+
+ maj_civil_war.2.t:0 "穆斯林商人支持叛乱者"
+ maj_civil_war.2.d:0 "众所周知，穆斯林商人是该地区最有权势的人之一，有时甚至比我们的国王还要强大。根据一些消息来源，这些权势滔天的人可能是支持我们国家分裂主义者和叛乱者的幕后黑手。我们必须对这些叛国者采取行动。"
+ maj_civil_war.2.a:0 "我们无能为力！"
+ maj_civil_war.2.b:0 "公开谴责这些商人"
+
+ maj_civil_war.3.t:0 "穆斯林威胁要与王室决裂"
+ maj_civil_war.3.d:0 "由于对地区代表性的不满，我国一些大型穆斯林少数民族开始与我们决裂，成立自己的国家。随着在Majapahit各地的叛乱加剧，我们面临着继续与这些叛乱者冲突，还是屈服于他们的要求的问题。"
+ maj_civil_war.3.a:0 "消灭他们！"
+ maj_civil_war.3.b:0 "给予他们自治权"
+
+ maj_civil_war.4.t:0 "德马克宣布独立"
+ maj_civil_war.4.d:0 "由于我们国家在当前内战中的破碎，穆斯林港口城市德马克宣布独立。我们对该市的控制权已不复存在，德马克人民完全摆脱了我们的统治。"
+ maj_civil_war.4.a:0 "我们无能为力！"
+ maj_civil_war.4.b:0 "德马克是我们的！"
+
+ maj_civil_war.5.t:0 "地方阿迪帕提脱离统治"
+ maj_civil_war.5.d:0 "阿迪帕提是由王室任命的地方统治者，负责管理地方行政区。然而，由于内战的持续，我们的权威被一省所忽视，他们的阿迪帕提宣布脱离，支持一个新的穆斯林国家。"
+ maj_civil_war.5.a:0 "我们无能为力！"
+ maj_civil_war.5.b:0 "他们的叛逆行为是不可容忍的"
+
+ maj_civil_war.6.t:0 "省份脱离统治"
+ maj_civil_war.6.d:0 "我们的一省几乎完全脱离了王室的控制。虽然地方统治者仍然名义上承认Majapahit的统治，但贡品已停止，我们的政府实际上对他们的政治格局没有任何影响。"
+ maj_civil_war.6.a:0 "我们会回来的"
+ maj_civil_war.6.b:0 "将他们重新纳入版图！"
+
+ maj_civil_war.7.t:0 "Majapahit失去国王"
+ maj_civil_war.7.d:0 "在最后一位国王去世后，Majapahit陷入了完全的动荡之中。没有一个适当的中央政府，它的命运完全掌握在神灵的手中。"
+ maj_civil_war.7.a:0 "末日即将来临！"
+
+ maj_civil_war.8.t:0 "冒名顶替者夺取王位"
+ maj_civil_war.8.d:0 "王室的一个远亲试图利用这段动荡时期来争夺Majapahit的王位。他不惜一切代价聚集了一支军队，并在他的家乡省份建立了根据地。"
+ maj_civil_war.8.a:0 "杀了他！"
+
+ ###########################
+ #国家理念
+ ###########################
+ MAJ_ideas: "Majapahit理念"
+ MAJ_ideas_start: "Majapahit传统"
+ MAJ_ideas_bonus: "Majapahit抱负"
+ maj_imperialism: "附属国的帝国"
+ maj_imperialism_desc: "我们曾经伟大的帝国并不是简单地吞并其征服的领土。相反，我们的祖先是使当地的王子屈服，并通过有组织的朝贡体系确保源源不断的贡品流入我们的故乡。"
+ maj_naval: "Majapahit海军霸权"
+ maj_naval_desc: "我们一直是，也是一个海洋国家。随着我们帝国的海上扩张，维护一支在海上令人畏惧的海军力量是必要的，这种力量将始终在海上令人畏惧。"
+ restored_empire_maj: "Majapahit的复兴"
+ restored_empire_maj_desc: "我们在多大程度上将我们的帝国从崩溃的边缘带回，朝着恢复往日辉煌的方向迈出了重要的一步。尽管经历了各种危机，但我们在复兴这个曾经濒临灭绝的帝国方面做得很好。"
+ SUN_ideas: "巽他族群的理念"
+ SUN_ideas_start: "巽他族群的传统"
+ SUN_ideas_bonus: "巽他族群的抱负"
+ sunda_galuh: "巽他与伽卢合并"
+ sunda_galuh_desc: "多年来，现今的巽他王国曾分为两个国家，即巽他和伽卢。这些国家以一种奇特而复杂的制度联合在一起，实际上并没有真正实现统一。然而，随着时间的推移，这些国家最终统一为巽他王国，给我们的人民留下了持久的团结遗产，他们的历史也因这种统一的历史而团结在一起。"
+ defensive_moats: "防御壕沟"
+ defensive_moats_desc: "从历史上看，我们的防御工事无数次成功地抵御了入侵者。我们一直可以依靠这些防御工事，因为它们在未来的许多年里仍将继续有效。"
+ wooden_architecture: "精美的木质建筑"
+ wooden_architecture_desc: "巽他建筑传统强调木结构的美观。除了有效且便宜外，这些木制寺庙和宫殿还是马来世界的羡慕对象。"
+ seren_taun: "丰收祭"
+ seren_taun_desc: "丰收祭是巽他农业生活方式的体现。每年在传统村庄举行的庆典上，庆祝丰收的村民们感谢他们丰盛的稻米收成，并祈求来年再获丰收。"
+ sun_parahyangan:0 "帕拉扬干"
+ sun_parahyangan_desc:0 "我们的国家位于帕拉扬干的山区。若有人想要伤害我们，他们必须先穿越广袤的山脉、丛林和河流，这些自然屏障保护着我们的国家"
+ sun_javanese_resistance:0 "抵御爪哇人的侵略"
+ sun_javanese_resistance_desc:0 "爪哇人和其他敌对国家对我们人民的不断征服尝试都以失败告终。巽他及其人民永远不会屈服于任何外来威胁。"
+ sun_european_treaties:0 "与欧洲的条约"
+ sun_european_treaties_desc:0 "西方国家最近抵达努山塔拉，为贸易开辟了新机遇。通过与这些欧洲商人和探险家签订条约，我们可以在海外结交新朋友，并在爪哇的敌人面前获得优势。"
+ jawanisasi:0 "爪哇化"
+ jawanisasi_desc:0 "随着我们国家的不断壮大，我们必须加强文化统一，同化非爪哇文化。此外，许多外国文化可能拥有某些对我们有利的习俗。通过同化外国文化，并吸收其文化精髓，我们可以将爪哇的影响力广泛传播到整个群岛。"
+ javanese_migration:0 "爪哇人的迁徙"
+ javanese_migration_desc:0 "随着伊斯兰教在爪哇的兴起，许多爪哇人开始迁移到爪哇以外的许多外岛。我们可以利用这种迁徙来扩展我们的影响力，通过殖民和帝国主义的方式。"
+ maj_muslim_trading_ports:0 "穆斯林贸易港口"
+ maj_muslim_trading_ports_desc:0 "最近大量穆斯林商人涌入爪哇北部，这对我们来说是一个机遇。通过允许他们使用我们的北部港口，我们可以确保来自努山塔拉各地的穆斯林商人直接来到马六甲，从而确保我们对该地区贸易的控制。"
+ kejawen:0 "爪哇教"
+ kejawen_desc:0 "爪哇教是我们人民的一种宗教传统，它将各种宗教信仰和习俗结合在一起。爪哇人民对新宗教持包容和开放的态度，总是乐于接受不同的传统和文化。"

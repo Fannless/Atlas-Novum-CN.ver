@@ -1,0 +1,272 @@
+﻿l_english:
+ 
+ ##### 危机 #####
+ #
+ 
+ #葡萄牙内战
+ AN_POR_civil_war:0 "阿尔法罗贝拉冲突"
+ AN_POR_civil_war_complete:0 "已完成§Y阿尔法罗贝拉冲突§!危机。"
+ 
+ AN_disaster_POR_civil_war.1.t:0 "阿尔法罗贝拉冲突"
+ AN_disaster_POR_civil_war.1.d:0 "阿方索五世国王年仅6岁便登基成为葡萄牙国王。由于王后莱奥诺尔的不受欢迎的操控，民众开始抗议她对王权的管理，内战似乎一触即发。然而，通过他的叔叔佩德罗公爵（科英布拉公爵）和恩里克航海家（维塞乌公爵）的努力，通过政治承诺和妥协建立了一个和平的摄政制度。\n为了安抚被忽视的年长的阿方索伯爵（国王胡安一世的长子），他被授予布拉干萨公爵领地。此外，他的儿子们被承诺授予军事头衔，女儿则与即将登基的阿方索五世国王联姻。然而，佩德罗并没有遵守这些承诺，而是将已故兄弟的头衔授予了自己的儿子，而不是布拉干萨公爵的儿子们。\n作为回应，布拉干萨公爵煽动了几项阴谋，将佩德罗和恩里克描绘成篡位者，以迷惑年轻的国王阿方索五世。现在，随着年轻的国王登上王位并获得应有的权力和头衔，他已解雇佩德罗的摄政职务，并将他的亲信从职位上撤下。在布拉干萨公爵的敦促下，国王阿方索开始召集军队，以消除由他的叔叔们（科英布拉公爵和维塞乌公爵）构成的所谓威胁。为了最后一次避免冲突，佩德罗带着他的随从们打着和平的旗帜到来，希望能澄清自己的名声，并揭露布拉干萨公爵的操纵..."
+ AN_disaster_POR_civil_war.1.a:0 "这一切都必须是真的！我们必须镇压这些篡位者！"
+ AN_disaster_POR_civil_war.1.b:0 "布拉干萨公爵的欺骗行为将不会被容忍！"
+ 
+ AN_disaster_POR_civil_war.2.t:0 "叛军抓住机会"
+ AN_disaster_POR_civil_war.2.d:0 "随着王室与其贵族影响力之间的冲突爆发，各种叛军都拿起武器对抗合法的国王。毫无疑问，这些民兵得到了我们内部敌人的支持，他们正在集结起来对抗王室，并希望在我们自身命运的毁灭中获得财富和荣耀。"
+ AN_disaster_POR_civil_war.2.a:0 "篡位者叛军将不会得到任何宽恕！"
+ AN_disaster_POR_civil_war.2.b:0 "这是布拉干萨阴谋的更多证据！"
+ 
+ AN_disaster_POR_civil_war.100.t:0 "继承权得到保障"
+ AN_disaster_POR_civil_war.100.d:0 "随着阿尔法罗贝拉冲突的结束，很明显自治公国的工作量超过了它们的价值。虽然贵族们将保留他们的祖传特权，但现在是时候将他们的领土直接置于葡萄牙国王的统治之下。尽管如此，那些在危难时刻支持王室和支持反对派的人将不会被遗忘..."
+ AN_disaster_POR_civil_war.100.a:0 "阿方索将不再受到爱管闲事的贵族的困扰。"
+
+ #卡斯蒂利亚王位继承战争
+ AN_CAS_succession_complete:0 "已完成§Y卡斯蒂利亚王位继承战争§!危机。"
+
+ #土库曼继承
+ AN_turcoman_succession:0 "土库曼继承"
+ AN_turcoman_succession_complete:0 "已完成§Y土库曼继承§!危机。"
+ 
+ AN_disaster_turcoman_succession.1.t:0 "土库曼继承"
+ AN_disaster_turcoman_succession.1.d:0 ""
+ AN_disaster_turcoman_succession.1.a:0 "只能有一个！"
+ 
+ AN_disaster_turcoman_succession.2.t:0 "伊拉克决定其命运"
+ AN_disaster_turcoman_succession.2.d:0 ""
+ AN_disaster_turcoman_succession.2.a:0 "支持白羊王朝。"
+ AN_disaster_turcoman_succession.2.b:0 "支持黑羊王朝。"
+ 
+ AN_disaster_turcoman_succession.5.t:0 "一个土库曼的机会"
+ AN_disaster_turcoman_succession.5.d:0 ""
+ AN_disaster_turcoman_succession.5.a:0 "支持白羊王朝。"
+ AN_disaster_turcoman_succession.5.b:0 "支持黑羊王朝。
+ 
+ AN_disaster_turcoman_succession.3.t:0 "忠诚的问题"
+ AN_disaster_turcoman_succession.3.d:0 ""
+ AN_disaster_turcoman_succession.3.a:0 "让我们希望他们仍然与我们在一起！"
+ 
+ AN_disaster_turcoman_succession.4.t:0 "一个土库曼的机会"
+ AN_disaster_turcoman_succession.4.d:0 ""
+ AN_disaster_turcoman_succession.4.a:0 "支持白羊王朝。"
+ AN_disaster_turcoman_succession.4.b:0 "支持黑羊王朝。"
+ 
+ AN_disaster_turcoman_succession.100.t:0 "[Root.GetName] 获胜"
+ AN_disaster_turcoman_succession.100.d:0 ""
+ AN_disaster_turcoman_succession.100.a:0 ""
+ AN_disaster_turcoman_succession.100.b:0 ""
+ 
+ #失去首都的灾难
+ #失去君士坦丁堡
+ AN_loss_of_constantinople:0 "失去君士坦丁堡"
+ AN_loss_of_constantinople.1.t:0 "失去君士坦丁堡"
+ AN_loss_of_constantinople.1.d:0 "自从君士坦丁堡被[151.Owner.GetName]占领以来，我们的王国陷入了突然的动荡。没有了我们祖先的权力中心和主要行政中心，我们作为一个独立国家的合法性可能正在走向终结。如果我们希望继续作为一个独立的国家，我们必须夺回君士坦丁堡。"
+ AN_loss_of_constantinople.1.a:0 "托马斯将夺回君士坦丁堡！"
+ AN_loss_of_constantinople.1.b:0 "德米特里奥斯将夺回君士坦丁堡！"
+ 
+ AN_loss_of_constantinople.20.t:0 "艾诺斯的吞并"
+ AN_loss_of_constantinople.20.d:0 "在土耳其人的围攻下，艾诺斯的加蒂卢西奥家族陷入困境，爱琴海领土的命运变得不确定。虽然法律上应该归属艾诺斯的加蒂卢西奥亲属，但还有许多其他人的前景可能更适合我们。虽然有些人可能会哭诉，但他们是谁，竟然为了法律目的而让我们所有人都陷入不幸的命运？"
+ AN_loss_of_constantinople.20.a:0 "归属莱斯博斯岛的加蒂卢西奥亲属"
+ AN_loss_of_constantinople.20.b:0 "归属威尼斯商人的金币。"
+ AN_loss_of_constantinople.20.c:0 "归属遥远的热那亚企业家。"
+ AN_loss_of_constantinople.20.d1:0 "归属奥斯曼帝国的压倒性力量。"
+ AN_loss_of_constantinople.20.e:0 "归属阿索斯山的神职人员和修道院。"
+
+
+ AN_loss_of_constantinople.21.t:0 "爱琴海的继承"
+ AN_loss_of_constantinople.21.d:0 "从他们在艾诺斯的小港口飞地，加蒂卢西奥家族的一个分支统治着利姆诺斯岛、色雷斯岛和萨莫色雷斯岛。随着艾诺斯的吞并和拜占庭的崩溃，这些岛屿的头衔通过与加蒂卢西奥家族的某种模糊关系传递给了我们。因此，这些爱琴海领地的命运现在交由我们管理。"
+ AN_loss_of_constantinople.21.a:0 "将加蒂卢西奥王朝在莱斯博斯岛的领地联合起来"
+ AN_loss_of_constantinople.21.b:0 "这是至高无上的威尼斯共和国通往博斯普鲁斯海峡大门的意外扩张！"
+ AN_loss_of_constantinople.21.c:0 "通往博斯普鲁斯海峡的航道现在对航运来说更加安全了！"
+ AN_loss_of_constantinople.21.d1:0 "没有人能抵挡我们！"
+ AN_loss_of_constantinople.21.e:0 "凭借上帝的恩典！"
+
+ AN_loss_of_constantinople.10.t:0 "罗马人的终结"
+ AN_loss_of_constantinople.10.d:0 "随着拜占庭的毁灭，其数百年来的传统在短短一代人的时间里就消失了。曾经广泛分布的罗马人，由于缺乏一个能够将其团结在一起的国家，已经分裂成地区方言，进一步区分了地区希腊身份。"
+ AN_loss_of_constantinople.10.a:0 "这是希腊人自己的事情，与他人无关"
+
+ AN_loss_of_constantinople.100.t:0 "君士坦丁堡收复了吗？"
+ AN_loss_of_constantinople.100.d1:0 "唉，尽管世界的赔率对我们不利，但我们已经夺回了我们失去的首都君士坦丁堡。随着我们的国家再次从其真正的国家法庭领导，和平与秩序可以恢复。"
+ AN_loss_of_constantinople.100.d2:0 "尽管我们尽了最大的努力从[151.Owner.GetName]手中夺回我们的首都，但我们未能做到这一点。对于当地统治者来说，越来越明显的是，他们最好作为独立的政治实体自我治理，而不是继续效忠于我们这个虚假的国家。也许有一天，会有人夺回我们的拜占庭领土和遗产..."
+ AN_loss_of_constantinople.100.a:0 "拜占庭再次强大起来！"
+ AN_loss_of_constantinople.100.b:0 "拜占庭已经死了——我们的未来在于威尼斯的商人！"
+ AN_loss_of_constantinople.100.c:0 "拜占庭已经死了——我们别无选择，只能向土耳其人屈服..."
+
+ AN_loss_of_constantinople.101.t:0 "摩里亚向[Root.GetAdjective]权威屈服"
+ AN_loss_of_constantinople.101.d:0 "随着君士坦丁堡的失陷和拜占庭权威的崩溃，希腊世界已经四分五裂。有一段时间，摩里亚试图重拾罗马的遗产，但现在这个梦想已经破灭，他们寻求与我们建立新的未来。"
+ AN_loss_of_constantinople.101.a:0 "接受他们的臣服誓言。"
+
+ AN_loss_of_constantinople.2.t:0 "朝臣抵达新首都"
+ AN_loss_of_constantinople.2.d:0 "我们国家的大部分行政管理都来自首都法庭，因此当我们被迫将其迁至[145.GetName]时，来自全国各地的人们都蜂拥而至。确实，虽然这座城市以前可能是一个相对的穷乡僻壤，但它正在迅速发展成为一个重要的城镇。"
+ AN_loss_of_constantinople.2.a:0 "建造它，他们就会来。"
+ AN_loss_of_constantinople.2.b:0 "他们现在在那里的状况更好.."
+
+ AN_loss_of_constantinople.3.t:0 "马尼奥特人叛乱！"
+ AN_loss_of_constantinople.3.d:0 "当我们控制博斯普鲁斯海峡时，我们能够使许多麻烦的当地人服从我们的意志。没有拜占庭国家的合法性和昔日的力量来约束他们，马尼奥特人已经掌控了自己的命运。现在他们正准备正式宣布脱离我们的事业...我们该怎么办？"
+ AN_loss_of_constantinople.3.a:0 "让他们走吧。我们有更重要的优先事项。"
+ AN_loss_of_constantinople.3.b:0 "我们必须维护我们王国的完整！"
+
+ AN_loss_of_constantinople.4.t:0 "阿尔瓦尼特人叛乱！"
+ AN_loss_of_constantinople.4.d:0 "当我们控制博斯普鲁斯海峡时，我们能够使许多麻烦的当地人服从我们的意志。没有拜占庭国家的合法性和昔日的力量来约束他们，阿尔瓦尼特人已经掌控了自己的命运。现在他们正准备正式宣布脱离我们的事业...我们该怎么办？"
+ AN_loss_of_constantinople.4.a:0 "让他们走吧。我们有更重要的优先事项。"
+ AN_loss_of_constantinople.4.b:0 "我们必须维护我们王国的完整！"
+
+ AN_loss_of_constantinople.200.t:0 "君士坦丁堡收复！"
+ AN_loss_of_constantinople.200.d:0 "这个月，我们终于重新占领了[151.GetName]首都。尽管许多人怀疑我们夺回它的能力，但我们已经证明他们都是傻瓜。此外，我们从死亡的边缘为我们的国家夺回了新的生命。拜占庭万岁！"
+ AN_loss_of_constantinople.200.a:0 "胜利终于来临！"
+
+ #马六甲
+ AN_loss_of_malacca:0 "失去马六甲"
+ AN_loss_of_malacca.1.t:0 "失去马六甲"
+ AN_loss_of_malacca.1.d:0 "自从马六甲被[596.Owner.GetName]占领以来，我们的王国陷入了突然的动荡。Without our ancestral center of power and primary administrative center, our legitimacy as an independent state is perhaps on a terminal decline. Should we wish to the continue as an independent nation, we must reclaim Malacca."
+ AN_loss_of_malacca.1.a:0 "我们必须不惜一切代价夺回马六甲！"
+
+ AN_loss_of_malacca.100.t:0 "马六甲收复了吗？"
+ AN_loss_of_malacca.100.d1:0 "唉，尽管世界的赔率对我们不利，但我们已经夺回了我们失去的首都马六甲。随着我们的国家再次从其真正的国家法庭领导，和平与秩序可以恢复。"
+ AN_loss_of_malacca.100.d2:0 "尽管我们尽了最大的努力从[596.Owner.GetName]手中夺回我们的首都，但我们未能做到这一点。对于当地统治者来说，越来越明显的是，他们最好作为独立的苏丹国自我治理，而不是继续效忠于我们这个虚假的国家。也许有一天，会有人夺回马六甲的领土和遗产..."
+ AN_loss_of_malacca.100.a:0 "马六甲再次强大起来！"
+ AN_loss_of_malacca.100.b:0 "马六甲已经死了。它现在是其他马来苏丹国的..."
+
+ AN_loss_of_malacca.2.t:0 "朝臣抵达新首都"
+ AN_loss_of_malacca.2.d:0 "我们国家的大部分行政管理都来自首都法庭，因此当我们被迫将其迁至[2686.GetName]时，来自全国各地的人们都蜂拥而至。确实，虽然这座城市以前可能是一个相对的穷乡僻壤，但它正在迅速发展成为一个重要的城镇。"
+ AN_loss_of_malacca.2.a:0 "建造它，他们就会来。"
+ AN_loss_of_malacca.2.b:0 "他们现在在那里的状况更好.."
+
+ AN_loss_of_malacca.3.t:0 "彭亨夺回边境地区"
+ AN_loss_of_malacca.3.d:0 "当我们从名义上的城市马六甲控制马六甲海峡时，以及我们的首都和法庭，我们能够资助许多对彭亨土地的军事远征。如今，彭亨正在边境地区发起冲突。确实，它似乎准备一举夺回所有失去的东西，甚至更多。"
+ AN_loss_of_malacca.3.a:0 "我们别无选择，只能让这些领土离去..."
+ AN_loss_of_malacca.3.b:0 "我们为这些战果流过血！"
+
+ AN_loss_of_malacca.4.t:0 "西亚克宣布独立苏丹国！"
+ AN_loss_of_malacca.4.d:0 "随着我们王国的不稳定，长期被压制的苏丹国正在重新确立自己作为一个独立的力量。虽然我们可以通过巨大的代价正式维持统治，但未能认识到其相对力量和与我们国家的分离无疑会引发与抵抗战士的冲突..."
+ AN_loss_of_malacca.4.a:0 "我们什么都做不了..."
+ AN_loss_of_malacca.4.b:0 "西亚克是我们的！"
+
+ AN_loss_of_malacca.200.t:0 "马六甲收复！"
+ AN_loss_of_malacca.200.d:0 "这个月，我们终于重新占领了[596.GetName]首都。尽管许多人怀疑我们夺回它的能力，但我们已经证明他们都是傻瓜。此外，我们从死亡的边缘为我们的国家夺回了新的生命。马六甲苏丹国万岁！"
+ AN_loss_of_malacca.200.a:0 "胜利终于来临！"
+ 
+ #旧的
+ #为瓦尔纳复仇
+ revenge_for_varna:0 "为瓦尔纳复仇"
+ revenge_for_varna.1.t: "为瓦尔纳复仇"
+ revenge_for_varna.1.d1: "自从瓦尔纳十字军失败以来，匈牙利一直处于政治不确定状态。在摄政候任者亚诺什·匈雅提的领导下，匈牙利迅速改革了军队，并开始全力应对南方酝酿的生存威胁。如果匈牙利要维持其长期战略未来，就必须击退奥斯曼人，并为瓦尔纳报仇！"
+ revenge_for_varna.1.d2: "自从瓦尔纳十字军失败以来，塞尔维亚根据塞格德和平条约成为奥斯曼帝国的名义附庸。尽管塞尔维亚当时的地位是无法防御的——需要如此屈辱的和平协议——然而亚诺什·匈雅提为我们提供了一个重新夺回王国并打击我们家门口的奥斯曼威胁的机会！另一方面，奥斯曼人可能会以数倍的回报来报答我们保持忠诚..."
+ revenge_for_varna.1.d3: "自从瓦尔纳十字军失败以来，瓦拉几亚一直受制于压倒性的土耳其军队。随着河流堡垒如久尔久的失陷，瓦拉几亚对抗奥斯曼人入侵的唯一自然防御——多瑙河——已经被削弱。然而，亚诺什·匈雅提提出，如果我们正式交出奥尔特尼亚的封建领土，他将包括我们在他试图击退土耳其人的行动中。在冲突中保持中立可能意味着保住这些领土并获得关键的土耳其善意..."
+ revenge_for_varna.1.d4: "自从瓦尔纳十字军失败以来，阿尔巴尼亚一直承受着奥斯曼前进的冲击。尽管许多奥斯曼军队忙于在安纳托利亚处理卡拉曼尼德人，但仍然只有通过斯坎德培的杰出领导才能确保阿尔巴尼亚的生存。现在，在反复请求基督教帮助后，亚诺什·匈雅提终于加入了战斗。 Though, the peace we have achieved with the Ottomans was costly and hard fought for. Though it is appreciated that Hunyadi now seeks our aid, perhaps a chance to rebuild is more valuable than yet another devastating war with the Turks..."
+ revenge_for_varna.1.d5: "自从瓦尔纳十字军失败以来，阿尔巴尼亚一直承受着奥斯曼前进的冲击。 Though now may not be directly vulnerable now, the eventual Ottoman threat looms clearly. If we are to maintain any sort of independent sovereignty, we must consider our future carefully. Supporting Albania and halting the Ottoman armies in the Illyric mountains seems the obvious choice. Still, there are some in our court that advocate betrayal of our Christian allies in lieu of a guarantee of independence from the Ottomans."
+ revenge_for_varna.1.d6: "早在瓦尔纳十字军失败之前，保加利亚就已经沦为昔日辉煌的影子。分裂成三个部分，并减少到一个单一的微不足道的领土，保加利亚的未来似乎注定是土耳其统治。然而，随着亚诺什·匈雅提在巴尔干基督徒中传播的呼吁，也许是时候最终夺回我们失去的领土了！另一方面，奥斯曼人的力量是不可置疑的，亲眼目睹了这一点。也许更谨慎的做法是协助奥斯曼人以换取当地的让步？"
+ revenge_for_varna.1.d7: "由于在瓦尔纳进行的不明智的战役中遭受了毁灭性的失败，基督徒们对我们日益增长的欧洲影响力变得更加激愤。亚诺什·匈雅提，一位强大的对手和匈牙利的摄政候任者，正试图联合巴尔干地区对抗我们，以反击我们的前进。我们应该动员我们的附庸和军队，再次击败这些愚蠢的基督教入侵者！"
+ #
+ revenge_for_varna.1.1a: "为瓦尔纳复仇并保护巴尔干！"
+ revenge_for_varna.1.1b: "也许另一次失败会教会他们！"
+ revenge_for_varna.1.2a: "夺回马其顿！这次我们不会从基督教事业中退缩！"
+ revenge_for_varna.1.2b: "等待奥斯曼的回应..."
+ revenge_for_varna.1.3a: "我们永远不会真正安全地免受奥斯曼人的威胁。让我们夺回多瑙河并援助匈雅提！"
+ revenge_for_varna.1.3b: "阻止土耳其人吞并瓦拉几亚是我们的首要任务，而不是军事冒险主义..."
+ revenge_for_varna.1.4a: "终于，骑兵到了！"
+ revenge_for_varna.1.4b: "我们必须专注于重建阿尔巴尼亚。匈雅提将得到我们的祈祷。"
+ revenge_for_varna.1.5a: "通过援助匈雅提来抵御土耳其人！"
+ revenge_for_varna.1.5b: "奥斯曼的保护比吞并更可取..."
+ revenge_for_varna.1.6a: "匈雅提为我们提供了重新确立保加利亚的机会！"
+ revenge_for_varna.1.6b: "只有通过巧妙地操纵土耳其人，我们才能生存。"
+
+ revenge_for_varna.2.t: "[From.GetAdjective] 支持！"
+ revenge_for_varna.2.d: ""
+ revenge_for_varna.2.a: "权力向胜利者倾斜。"
+
+ revenge_for_varna.100.t: "复仇的后果"
+ revenge_for_varna.100.d1: "匈牙利获胜"
+ revenge_for_varna.100.d2: "奥斯曼获胜"
+ revenge_for_varna.100.a: "匈牙利获胜"
+ revenge_for_varna.100.b: "奥斯曼获胜"
+
+ #埃及省
+ collapse_spice_trade:0 "香料贸易封锁"
+
+ #埃及省
+ eyalet_of_egypt:0 "埃及省"
+ eyalet_of_egypt.1.t: ""
+ eyalet_of_egypt.1.d1: ""
+ eyalet_of_egypt.1.1a: ""
+
+ eyalet_of_egypt.2.t: ""
+ eyalet_of_egypt.2.d: ""
+ eyalet_of_egypt.2.a: "."
+
+ eyalet_of_egypt.100.t: ""
+ eyalet_of_egypt.100.d1: "奥斯曼获胜"
+ eyalet_of_egypt.100.d2: "马木路克获胜"
+ eyalet_of_egypt.100.a: " 获胜"
+ eyalet_of_egypt.100.b: " 获胜"
+
+
+ #满者伯夷
+ majapahit_civil_war:0 "满者伯夷内战"
+ maj_civil_war.1.t:0 "满者伯夷内战"
+ maj_civil_war.1.d:0 "自从帕雷格雷格战争以来，满者伯夷帝国一直处于不断的衰落之中。随着海外属地的丧失、国库的空虚以及北方日益强大的穆斯林商人，满者伯夷国家很可能不会维持太久的完整。"
+ maj_civil_war.1.a:0 "我们的敌人不会击垮我们！"
+
+ maj_civil_war.100.t:0 "内战结束"
+ maj_civil_war.100.d:0 "唉，尽管世界的赔率对我们不利，我们的国家还是在一定程度上度过了正在进行的内战。尽管我们的国家仍然处于和平状态，但我们应该采取行动恢复秩序和和平。"
+ maj_civil_war.100.a:0 "我们在一起更强大！"
+ maj_civil_war.100.b:0 "满者伯夷已经沦陷！"
+
+ maj_civil_war.200.t:0 "满者伯夷的继承者"
+ maj_civil_war.200.d:0 "推翻了印度教的满者伯夷，整个有利可图的海上贸易现在都敞开了大门。满者伯夷，尽管有其缺点，有效地管理了一个以爪哇为中心的贸易帝国。作为自然的逊尼派继承者，我们有权重新建立这个体系，带来爪哇贸易主导的新时代！"
+ maj_civil_war.200.a:0 "向各个方向派遣使者，宣布[Root.GetName]的崛起！"
+
+ maj_civil_war.201.t:0 "一个新的[From.GetAdjective]海上霸权？"
+ maj_civil_war.201.d:0 "通过一系列混乱的冲突，[From.GetName]推翻了我们祖先的宗主，并试图继承他们的贸易统治权。然而，在满者伯夷崩溃期间，我们已经习惯了管理自己的事务，牺牲我们的自我决定可能会带来灾难性的后果。另一方面，拒绝这个上升的力量可能会激起它的愤怒..."
+ maj_civil_war.201.a:0 "我们将向满者伯夷的继承者进贡。"
+ maj_civil_war.201.b:0 "哈，他们一定认为我们太虚弱了，无法抵抗！"
+
+ maj_civil_war.2.t:0 "穆斯林商人支持叛军"
+ maj_civil_war.2.d:0 "在我们的国家，众所周知，穆斯林商人是该地区最有权势的人，有时甚至比我们的国王更有权势，据一些消息来源称，这些有权势的人可能是我们国家分离主义者和叛军的幕后支持者。我们必须对这些叛徒采取行动。"
+ maj_civil_war.2.a:0 "我们什么都做不了！"
+ maj_civil_war.2.b:0 "公开谴责这些商人。"
+
+ maj_civil_war.3.t:0 "穆斯林威胁与王室决裂"
+ maj_civil_war.3.d:0 "对地区代表权的不满，我国一些大型Muslim少数群体开始脱离我们，形成自己的国家。随着叛乱在整个满者伯夷加剧，问题是继续与这些叛军对抗，还是屈服于他们的要求。"
+ maj_civil_war.3.a:0 "粉碎他们！"
+ maj_civil_war.3.b:0 "授予他们自治权。"
+
+ maj_civil_war.4.t:0 "德马克宣布独立"
+ maj_civil_war.4.d:0 "随着我们国家在当前内战中的混乱，穆斯林港口城市德马克宣布独立。我们对该城市的控制权现在已经失效，德马克人民完全摆脱了我们的统治。"
+ maj_civil_war.4.a:0 "我们什么都做不了..."
+ maj_civil_war.4.b:0 "德马克是我们的！"
+
+ maj_civil_war.5.t:0 "杰帕拉脱离"
+ maj_civil_war.5.d:0 "我们在杰帕拉任命了一位阿迪帕蒂来管理当地领地，但随着正在进行的内战，我们的权威一直被忽视。现在，他们的阿迪帕蒂认为自己是新成立的杰帕拉苏丹国的统治者，并宣布成立新的杰帕拉苏丹国。"
+ maj_civil_war.5.a:0 "我们什么都做不了..."
+ maj_civil_war.5.b:0 "杰帕拉的不服从将不会被容忍！"
+
+ maj_civil_war.6.t:0 "布拉姆巴甘脱离"
+ maj_civil_war.6.d:0 "坚定的印度教徒布拉姆巴甘人一直在以越来越大的恐惧关注内战。虽然当地统治者仍然名义上承认满者伯夷的统治，但贡品已经停止，我们的政府实际上对他们的政治格局没有任何影响。虽然他们还没有积极地反对我们的利益，但失去这些内陆地区预示着不祥。"
+ maj_civil_war.6.a:0 "我们会回来的。"
+ maj_civil_war.6.b:0 "他们没有权威！"
+
+ maj_civil_war.7.t:0 "朝臣争夺控制权"
+ maj_civil_war.7.d:0 "在上一位国王去世后，满者伯夷陷入完全的混乱状态，朝廷成为暴力阴谋的空间。虽然理论上存在继承顺序，但这些朝臣为了推进自己的利益而暗杀了我们的王子。我们的命运现在完全掌握在神的手中。"
+ maj_civil_war.7.a:0 "末日降临我们！"
+
+ maj_civil_war.8.t:0 "篡位者声称王位"
+ maj_civil_war.8.d:0 "王室的一个远亲试图利用这段动荡时期为自己争取满者伯夷王位。他动用了所有的力量，召集了一支军队，并在他的家乡省份建立了基地。"
+ maj_civil_war.8.a:0 "砍掉他的头！"
+
+ #分区标签灾难
+ #格鲁吉亚的分割
+ partition_georgia:0 "格鲁吉亚的分割"
+ partition_georgia.1.t: "瓦赫坦四世之死"
+ partition_georgia.1.d: "由于没有自己的儿子，格鲁吉亚王位的继承通常会传给最年长的兄弟，因为实行男性长子继承制。然而，瓦赫坦的两个兄弟都急于推翻这种情况。最小的兄弟乔治，卡赫季的统治者，增加了他在第比利斯朝臣中的影响力，并说服许多人支持他作为继承人。另一方面，长兄德米特里，伊梅列季的共王，面临着富有而分裂的贵族的不懈困难，但他不愿意放弃自己合法的主张。\n随着瓦赫坦的去世——王国陷入了对立，处于冲突的边缘..."
+ partition_georgia.1.a: "支持乔治成为才华横溢的国王。"
+ partition_georgia.1.b: "支持德米特里作为合法的国王。"
+
+ partition_georgia.2.t: "格鲁吉亚内战"
+ partition_georgia.2.d: "随着瓦赫坦继承人的加冕，两兄弟都没有放弃他们对合法继承人的主张。贵族们在两人之间分裂，这场竞争必须通过鲜血和战争来决定！"
+ partition_georgia.2.a: "悲剧才刚刚开始。"
+
+ partition_georgia.3.t: "不忠诚的[IME.GetAdjective]贵族"
+ partition_georgia.3.d: "伊梅列季王国充满了强大的贵族，他们对格鲁吉亚王位继承问题感到困扰。事实上，他们已经脱离并开始召集军队支持他们声称的合法继承人。"
+ partition_georgia.3.a: "试图说服贵族支持伊梅列季的主张。"
+ partition_georgia.3.b: "忽视贵族。"

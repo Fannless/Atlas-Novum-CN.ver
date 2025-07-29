@@ -1,0 +1,36 @@
+﻿l_english:
+
+ AN_module_load_title:0 "任务模块加载器"
+ AN_module_load_desc:0 ""
+
+ AN_module_load.1.t: "任务模块加载器"
+ AN_module_load.1.d: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque id sem non rhoncus. Aliquam ac leo sit amet turpis blandit laoreet quis in diam. Aenean consequat sagittis pellentesque. Suspendisse nec metus ex. Donec pharetra elit molestie enim interdum, sit amet auctor tellus lobortis. Sed in venenatis risus. Vivamus ac viverra ante, vel scelerisque risus. Morbi a feugiat elit. Cras vitae pretium tellus.（此段为占位拉丁文，需替换为实际译文）"
+ AN_module_load.1.a: "左侧"
+ AN_module_load.1.b: "右侧"
+
+
+ AN_module_load.2.t: "左侧模块"
+ AN_module_load.2.d: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque id sem non rhoncus. Aliquam ac leo sit amet turpis blandit laoreet quis in diam. Aenean consequat sagittis pellentesque. Suspendisse nec metus ex. Donec pharetra elit molestie enim interdum, sit amet auctor tellus lobortis. Sed in venenatis risus. Vivamus ac viverra ante, vel scelerisque risus. Morbi a feugiat elit. Cras vitae pretium tellus.（此段为占位拉丁文，需替换为实际译文）"
+
+
+ AN_module_load_POR_iberia_1: "伊比利亚 1"
+ AN_module_load_POR_macaronesia_1: "马卡罗尼西亚 1"
+
+ AN_module_load_CAS_iberia_1: "伊比利亚 1"
+ AN_module_load_CAS_iberia_2: "伊比利亚 2"
+
+ AN_module_load_TUR_left_1: "左侧 1"
+
+
+
+ AN_module_load.3.t: "右侧模块"
+ AN_module_load.3.d: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque id sem non rhoncus. Aliquam ac leo sit amet turpis blandit laoreet quis in diam. Aenean consequat sagittis pellentesque. Suspendisse nec metus ex. Donec pharetra elit molestie enim interdum, sit amet auctor tellus lobortis. Sed in venenatis risus. Vivamus ac viverra ante, vel scelerisque risus. Morbi a feugiat elit. Cras vitae pretium tellus.（此段为占位拉丁文，需替换为实际译文）"
+
+
+ AN_module_load_POR_exploration_1: "探索 1"
+ AN_module_load_POR_exploration_2: "探索 2"
+
+ AN_module_load_CAS_canaries_1: "扩张 1"
+ AN_module_load_CAS_canaries_2: "扩张 1"
+
+ AN_module_load_TUR_right_1: "右侧 1"

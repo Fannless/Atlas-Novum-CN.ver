@@ -1,0 +1,324 @@
+﻿l_english:
+ ### variables
+ AN_civ_stat:0 "文明程度"
+
+ ###SUPER REGION
+ indochina_superregion:0 "印度支那"
+ indochina_superregion_adj:0 "印度支那的"
+ indochina_superregion_name:0 "印度支那"
+ eurasia_superregion:0 "欧亚大陆"
+ eurasia_superregion_adj:0 "欧亚大陆的"
+ eurasia_superregion_name:0 "欧亚大陆"
+ west_africa_superregion:0 "几内亚"
+ west_africa_superregion_adj:0 "几内亚的"
+ west_africa_superregion_name:0 "几内亚"
+ east_africa_superregion:0 "阿扎尼亚"
+ east_africa_superregion_adj:0 "阿扎尼亚的"
+ east_africa_superregion_name:0 "阿扎尼亚"
+ south_africa_superregion:0 "姆赞西"
+ south_africa_superregion_adj:0 "姆赞西的"
+ south_africa_superregion_name:0 "姆赞西"
+ england:0 "英格兰"
+ albion:0 "阿尔比恩"
+
+ ########################
+ # CROWN LAND REWORK
+ IR_crown_land_level_0:0 "无权威 (§R0%§!)"
+ IR_crown_land_level_1:0 "极差权威 (§R1-5%§!)"
+ IR_crown_land_level_2:0 "很差权威 (§R5-10%§!)"
+ IR_crown_land_level_3:0 "差权威 (§R10-15%§!)"
+ IR_crown_land_level_4:0 "较差权威 (§R15-20%§!)"
+ IR_crown_land_level_5:0 "次等权威 (§R20-25%§!)"
+ IR_crown_land_level_6:0 "不足权威 (§R25-30%§!)"
+ IR_crown_land_level_7:0 "弱权威 (§R30-35%§!)"
+ IR_crown_land_level_8:0 "有限权威 (§Y35-40%§!)"
+ IR_crown_land_level_9:0 "中等权威 (§Y40-45%§!)"
+ IR_crown_land_level_A:0 "公平权威 (§Y45-50%§!)"
+ IR_crown_land_level_B:0 "良好权威 (§Y50-55%§!)"
+ IR_crown_land_level_C:0 "优良权威 (§Y55-60%§!)"
+ IR_crown_land_level_D:0 "好权威 (§Y60-65%§!)"
+ IR_crown_land_level_E:0 "great authority (§G65-70%§!)"
+ IR_crown_land_level_F:0 "excellent authority (§G70-75%§!)"
+ IR_crown_land_level_10:0 "superior authority (§G75-80%§!)"
+ IR_crown_land_level_11:0 "amazing authority (§G80-85%§!)"
+ IR_crown_land_level_12:0 "exceptional authority (§G85-90%§!)"
+ IR_crown_land_level_13:0 "incredible authority (§G90-95%§!)"
+ IR_crown_land_level_14:0 "phenomenal authority (§G95-100%§!)"
+ IR_crown_land_level_X:0 "centralized authority (§G100%§!)"
+
+
+ #######################
+ # Disease Tooltips
+ AN_disease_chance_10:0 "§Y10%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_15:0 "§Y15%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_20:0 "§Y20%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_25:0 "§Y25%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_30:0 "§Y30%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_35:0 "§Y35%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_40:0 "§Y40%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_45:0 "§Y45%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_50:0 "§Y50%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_55:0 "§Y55%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_60:0 "§Y60%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_65:0 "§Y65%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_70:0 "§Y70%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_75:0 "§Y75%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_80:0 "§Y80%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_85:0 "§Y85%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_90:0 "§Y90%§! chance of the disease immediately spreading to all neighboring provinces."
+ AN_disease_chance_95:0 "§Y95%§! chance of the disease immediately spreading to all neighboring provinces."
+
+
+ ########################
+ #BUILDINGS
+ URBAN:0 "城市基础设施"
+ RELIGIOUS:0 "宗教"
+ COMMERCE:0 "商业"
+ AREA_ADMINISTRATION:0 "行政管理"
+ INFRASTRUCTURE:0 "基础设施"
+
+ #
+ AN_NEVER_COLONIZE_DUMMY:0 "§R永远无法被殖民。§!"
+
+ #AN TOOLTIPS for Scripted Effects
+ AN_upgrade_to_kingdom: "升级到王国政府等级"
+ AN_upgrade_to_empire: "升级到帝国政府等级"
+
+ ####################
+ AN_province_has_slaves.tooltip:0 "拥有奴隶人口"
+ #ESTATES
+ #PEASANTS_LEVY_RECRUITMENT: "征召农民军队"
+ #DEMAND_SUPPORT_PEASANTS: "要求支持"
+ #GRANT_CONSESSIONS: "减轻负担"
+ #EST_PEASANTS_CONCESSIONS: "减轻农民的负担"
+ #RECRUIT_PEASANT_ADVISOR: "招募熟练农民"
+ #EST_PEASANTS_ADVISOR: "来自农民的顾问"
+ #EST_PEASANTS_PRODUCTION: "鼓励生产"
+ #INVEST_PRODUCTION: "投资生产"
+ #ARMY_SUPPLY: "供应军队"
+ #levy_peasant_army_tooltip: "征召农民军队"
+ estate_peasants: "农民阶层"
+ estate_peasants_desc: "农民阶层代表了第三等级的一部分，通常并不富裕。在许多国家，他们没有特权，并且受到农奴制的束缚。"
+ peasants_loyalty_modifier:0 "农民阶层忠诚度均衡"
+ peasants_influence_modifier:0 "农民阶层影响力"
+
+ IR_14P_EST_LOW_DEVELOPMENT_PROVINCE: "发展度低于 §Y5§! 的城市: §Y$VAL$%§!"
+ IR_freed_peasantry_influence: "农民阶层不再被束缚: §Y$VAL$%§!"
+ IR_Peasant_Republic_Lowered_Burghers: "降低市民阶层的影响力: §Y$VAL$%§!"
+ #ALT NAMES
+ estate_serfdom: "农奴制"
+ estate_serfdom_desc: "在封建社会中，大多数农民都处于农奴制之下。这是一种他们被束缚在土地上并为领主工作的制度。"
+
+ #Privileges
+
+ estate_nobles_distribute_land: "授予王室土地"
+ estate_nobles_distribute_land_desc: "我们可以直接授予贵族土地，以换取‘redacted’。"
+
+ #peasant
+ estate_peasants_land_rights: "农民土地权利"
+ estate_peasants_land_rights_desc: "农民阶层一直在请求王室授予他们土地以耕种并养家糊口。"
+ estate_peasants_statutory_rights: "农民法定权利"
+ estate_peasants_statutory_rights_desc: "为了回报他们在关键时刻的支持，[Root.Monarch.GetTitle] 同意授予各阶层相当大的权利，这些权利对 [Root.Monarch.GetHerHis] 权威施加了严格的限制。"
+ estate_peasants_lowered_taxes: "降低税收"
+ estate_peasants_lowered_taxes_desc: "随着农民经济压力的增加，他们一直在请求降低税收。"
+ estate_peasants_peasant_army: "农民军队"
+ estate_peasants_peasant_army_desc: "当地居民一直在保卫国家，并且在运行武装防御方面积累了经验。"
+ estate_peasants_homeland_defense: "保卫家园"
+ estate_peasants_homeland_defense_desc: "由于最近对我们家园的入侵，农民阶层要求获得更大的自治权，以便他们能够适当地保卫自己的土地。"
+ estate_peasants_serfdom: "农奴制"
+ estate_peasants_serfdom_desc: "在封建社会中，大多数农民都处于农奴制之下。这是一种他们被束缚在土地上并为领主工作的制度。"
+ #UNIQUES
+ estate_peasants_frisian_karelsprivilege: "卡雷尔特权"
+ estate_peasants_frisian_karelsprivilege_desc: "卡雷尔特权据说是查理曼大帝授予弗里斯兰人的一项传奇特权，使他们免于封建义务。"
+ estate_peasants_autonomous_villagers: "自治村民"
+ estate_peasants_autonomous_villagers_desc: "我们的土地上居住着许多自主行动的村民。"
+
+ #OTHER
+ IR_western_serfdom_revoke: "已接受文艺复兴制度"
+ IR_eastern_serfdom_revoke: "已达到1800年"
+
+ #AGENDA EVENT STUFF:
+ estate_privileges_and_agendas_events.3.IR.a:1 "[Root.GetPeasantsName] 的提议"
+ estate_peasants_hire_advisor:0 "雇佣军事顾问"
+ estate_peasants_hire_advisor_desc:0 "[Root.GetPeasantsName] 希望 [Root.Monarch.GetTitle] 雇佣一名新的军事顾问。"
+ estate_peasants_fire_advisor:0 "解雇我们的军事顾问"
+ estate_peasants_fire_advisor_desc:0 "[Root.Mil_Advisor.GetTitle] [Root.Mil_Advisor.GetName] 侮辱了 [Root.GetPeasantsName]。他们要求我们解雇 [Root.Mil_Advisor.GetHerHim]！" #稍后重新措辞
+ estate_peasants_support_independence:0 "支持 [agenda_country.GetAdjective] 独立"
+ estate_peasants_support_independence_desc:0 "[Root.GetPeasantsName] 提请关注 [agenda_country.GetUsableName] 的困境，这是一个被我们的对手 [agenda_rival_country.GetUsableName] 残酷压迫的国家。他们敦促我们主持正义，支持 [agenda_country.GetAdjective] 独立。"
+ estate_peasants_retake_core:0 "收复 [agenda_province.GetName]"
+ estate_peasants_retake_core_desc:0 "[Root.GetPeasantsName] 对 [agenda_province.GetName] 这个我们国家不可分割的一部分不在我们控制之下的事实感到痛心。他们要求我们收回这片理应属于我们的土地！" #稍后重新措辞
+ estate_nobles_regain_liberty:0 "恢复我们的自由"
+ estate_nobles_regain_liberty_desc:0 "[Root.GetPeasantsName] 对我们 [agenda_country.GetAdjective] 领主的统治感到不满。他们要求采取行动恢复 [Root.GetAdjective] 自由！" #稍后重新措辞
+ estate_nobles_protect_our_culture:0 "保护 [agenda_province.GetName] 的 [Root.GetAdjective] 人民"
+ estate_nobles_protect_our_culture_desc:0 "[Root.GetPeasantsName] 声称我们在 [agenda_province.GetName] 的 [Root.Culture.GetName] 兄弟们正受到他们的 [agenda_country.GetAdjective] 主人的严重压迫。他们要求我们夺取该省并将他们纳入我们的国家！" #稍后重新措辞
+ estate_nobles_build_up_manpower_reserves:0 "建立我们的人力储备"
+ estate_nobles_build_up_manpower_reserves_desc:0 "[Root.GetPeasantsName] 对我们人力储备的枯竭感到担忧，他们警告说，如果我们的敌人试图利用这种情况，[Root.GetUsableName] 将会毫无防备。他们主张我们暂时巩固并让我们的储备恢复。" #稍后重新措辞
+
+ #Custom Loc
+
+ string_peasants: "农民"
+ string_serfdom: "农奴"
+
+ #
+ peasant_lesser_nobility: "降低贵族阶层的影响力: §Y$VAL$%§!"
+ estate_lesser_nobility: "次级贵族"
+
+
+ #Startdates/BOOKMARKS
+
+ #HOLY_ROMAN_EMPIRE: "神圣罗马帝国"
+ #HOLY_ROMAN_EMPIRE_DESC: "神圣罗马帝国由法兰克国王查理曼建立，但很快就落入了由德国人统治的东法兰克公国手中。这些德国人拥有强大的领地，并建立了一个拥有选举国王头衔的邦联。在奥托一世统治下，德国邦联征服了意大利并为自己夺取了罗马皇帝的头衔。从那时起，神圣罗马帝国就在相继争夺控制权和皇位的王朝之间挣扎。随着叛乱和起义摧毁了大片领地。帝国中的小角色选举了几位较弱国家的统治者作为皇帝，进一步削弱了帝国。自14世纪以来，争夺王位的剩余王朝是哈布斯堡王朝、维特尔斯巴赫王朝和卢森堡王朝。随着维特尔斯巴赫的土地四分五裂，卢森堡王朝正在消亡，哈布斯堡王朝仍然存在。统治着奥地利的土地。你将挑战哈布斯堡皇帝，还是将他们带向辉煌？"
+ #"神圣罗马帝国是一群由皇帝保护的小国，皇帝这个选举职位很快就落入了哈布斯堡家族手中。在帝国中崛起并争夺皇位，或者挑战皇帝并拆散这个骗局。"
+ #AMERICAN_TRIBES: "美洲部落"
+ #AMERICAN_TRIBES_DESC: "美洲腹地由原住民部落定居，他们不知道即将到来的崩溃。你能够统一一个王国并保护自己免受未来入侵者的侵害吗？"
+ #AFTERMATH_OF_VARNA: "瓦尔纳的后果"
+ #AFTERMATH_OF_VARNA_DESC: "随着最近瓦尔纳十字军的失败，巴尔干地区的信仰变得黯淡。土耳其人正在向欧洲扩张，抵抗正在减弱。阿尔巴尼亚军事领袖斯坎德培正在抵抗奥斯曼人的抵抗，而拜占庭帝国正处于最后阶段。"
+ #STRUGGLEBRITAIN: "不列颠群岛的斗争"
+ #STRUGGLEBRITAIN_DESC: "几个世纪以来，不列颠群岛一直处于动荡之中。维京入侵。英格兰的诺曼征服和其他行动长期以来一直使该地区不稳定。但随着英国力量的增强，他们正在成为该地区的明确主导力量。受到英国威胁的苏格兰已经与法国王国签署了几个联盟，而爱尔兰人仍然在彼此争斗。你能统一该地区并统治它吗？"
+ #KALMAR_UNION: "卡尔马联盟"
+ #KALMAR_UNION_DESC: "随着丹麦君主被选为瑞典和挪威的君主，卡尔马联盟成立了。旨在加强他们的内政和外交事务。汉萨同盟主导了波罗的海的贸易，而这个新联盟的斯堪的纳维亚人试图重新控制这片海域的贸易。但紧张局势仍然存在。汉萨同盟仍然强大，而诺夫哥罗德共和国在东方威胁着他们。瑞典贵族对卡尔马联盟也不满意，并且可能会试图摆脱束缚。你能设法确保和平，还是崛起统治其他斯堪的纳维亚国家？"
+ #STRUGGLEBRITAIN: "不列颠群岛的斗争"
+ #STRUGGLEBRITAIN_DESC: "几个世纪以来，不列颠群岛一直处于动荡之中。从撒克逊人的入侵、维京人的袭击到诺曼人的入侵和内战，群岛经历了考验。然而，通过这个熔炉，一股上升的英国风出现了，在欧洲大陆拥有广阔的领土。受到英国力量增长威胁的苏格兰人一直保持着与法国的老同盟；尽管高地氏族继续抵制中央权威。在西部，爱尔兰氏族仍然在争夺现已空缺的至高王头衔。尽管如此，不列颠群岛仍然是北大西洋的门户，因此也是整个欧洲的杠杆。你会再次屈服于海峡对岸的外国征服者，还是会建立人类历史上最大的帝国？"
+ #KALMAR_UNION: "卡尔马联盟"
+ #KALMAR_UNION_DESC: "随着丹麦君主被选为瑞典和挪威的王位——卡尔马联盟成立了——试图像过去一样加强他们对北海的控制。尽管汉萨同盟主导了波罗的海的贸易，但斯堪的纳维亚人试图重新控制当地的贸易以利于自己，增加了北方的紧张局势。随着汉萨同盟的精明商人和诺夫哥罗德的维彻共和国争夺联盟的边缘，瑞典贵族对他们的丹麦领主越来越不满，并渴望摆脱束缚。你能维持斯堪的纳维亚的统一，还是会点燃寒冷的北方？"
+ #HOLY_ROMAN_EMPIRE: "神圣罗马帝国"
+ #HOLY_ROMAN_EMPIRE_DESC: "神圣罗马帝国的王位几个世纪以来一直在相继争夺控制权的王朝之间被争夺。随着叛乱和起义摧毁了曾经庞大的公爵领地。帝国中的小角色决定选举几位较弱国家的统治者作为皇帝，进一步削弱了帝国。自14世纪以来，争夺王位的主要王朝是哈布斯堡王朝、维特尔斯巴赫王朝和卢森堡王朝。随着维特尔斯巴赫的土地四分五裂，卢森堡王朝正在消亡，哈布斯堡王朝仍然存在。统治着奥地利的领地。你能挑战日益增长的哈布斯堡影响力，为自己夺取王位，还是会寻求一个没有帝国的未来？"
+ AFTERMATH_OF_VARNA: "   瓦尔纳的修复 £reparatavarna£"
+ AFTERMATH_OF_VARNA_DESC: "随着瓦尔纳十字军的灾难性失败，奥斯曼帝国对欧洲的侵略变得无法控制。尽管匈牙利可能有能力成为基督教的堡垒，但如果得不到支持，它也会倒下。团结巴尔干地区崎岖多样的人民并非易事。斯坎德培——莱泽联盟的领袖——继续在阿尔巴尼亚的山麓和山口进行抵抗。瓦拉几亚已被征服，塞尔维亚处于谨慎的土耳其怀抱中，而第聂伯河是分隔领导不善的摩尔达维亚的唯一屏障。在世界欲望之城中，拜占庭帝国正在衰落，而奥斯曼帝国从各个角度逼近。在瓦尔纳之后的混乱中，历史的道路留给了你。"
+ 
+ AMERICAN_TRIBES: "   更广阔的状态 £satuslatius£"
+ AMERICAN_TRIBES_DESC: "几千年来，美洲的广阔土地一直是复杂多样的社会的家园。从阿兹特克三重联盟到玛雅城邦，从印加山地国家到休伦和易洛魁联盟，美洲的国家证明了自己是强大、聪明和适应性强的。随着外国人民到达美洲海岸，带来了新的冲突、疾病、技术和思想，每一种美洲生活方式都面临风险。你能找到一条摆脱外国帝国主义者的道路吗？还是美洲将成为远隔重洋的列强的殖民地？"
+
+ EXPANDED_TRIBAL: "   更进一步 £plusultra£"
+ EXPANDED_TRIBAL_DESC: "对于那些拥有超级计算机并对尽可能多的部落和历史细节有受虐狂般渴望的人。\n\n会崩溃土豆。可能会崩溃超级计算机。你已被警告。"
+
+ MAJOR_POWERS: "   更伟大的帝国 £maioraimperia£"
+ MAJOR_POWERS_DESC: "欧洲拥有漫长的海岸线和可通航的河流，肥沃且易守难攻的土地，多样的人民和宗教，长期以来一直在与自己冲突。在整个中世纪，许多地方势力能够积累日益集中的权威，导致了早期现代时期适合冲突的新地缘政治格局。掌舵主要大国，规划历史的道路，或者偏离并开创一个新的道路。\n\n性能启动。\n适合多人游戏。"
+
+ #HOLY_ROMAN_EMPIRE_DESC: "神圣罗马帝国由法兰克国王查理曼建立，但很快就落入了由本土日耳曼民族统治的东法兰克公国的统治之下。这些日耳曼公爵拥有强大的领地，在脱离法兰克帝国后，建立了一个由选举产生的国王领导的邦联。在奥托一世统治下，这个德国邦联征服了意大利，并为自己夺取了罗马皇帝的头衔，声称女性不能成为凯撒，因此他们是罗马帝国的真正继承人。从那时起，神圣罗马帝国的王位就在相继争夺控制权和皇位的王朝之间被争夺。随着叛乱和起义摧毁了曾经庞大的公爵领地。帝国中的小角色决定选举几位较弱国家的统治者作为皇帝，进一步削弱了帝国。自14世纪以来，争夺王位的主要王朝是哈布斯堡王朝、维特尔斯巴赫王朝和卢森堡王朝。随着维特尔斯巴赫的土地四分五裂，卢森堡王朝正在消亡，哈布斯堡王朝仍然存在。统治着他们在奥地利的领地。你能挑战哈布斯堡的霸权，挑战皇帝并拆散这个怪物，还是会加入到将哈布斯堡传播到整个欧洲的行列中？"
+ #"神圣罗马帝国是一群由皇帝保护的小国，皇帝这个选举职位很快就落入了哈布斯堡家族手中。在帝国中崛起并争夺帝国王位，或者挑战皇帝并拆散这个怪物。"
+
+ ##################
+ #DISASTERS
+
+ georgian_fracturing:0 "格鲁吉亚的分裂"
+ desc_georgian_fracturing:0 "格鲁吉亚的分裂"
+ georgian_civil_war:0 "格鲁吉亚内战"
+ desc_georgian_civil_war:0 "随着最近事件的发展，两个巴格拉季昂兄弟彼此非常敌对。"
+ #"由于贵族权力的增加，前国王亚历山大一世决定让他的三个儿子成为各自地区的共治国王。虽然试图限制贵族的影响力，但这使格鲁吉亚国家比以往任何时候都更加分裂。随着亚历山大在1442年退位，他的长子瓦赫坦格四世继位，但他的兄弟们仍在各自的地区拥有相当大的权力。"
+
+ ned_greater_frisia_provinces_highlighted:0 "至少拥有7个突出显示的省份"
+
+
+ ####################
+
+ AN_BUREAUCRACY_AUTONOMY:0 "在改变自治权之前必须接受官僚制度。"
+ AN_BUREAUCRACY_FOCUS:0 "在改变国家重点之前必须接受官僚制度。"
+ AN_FINANCE_INFLATION:0 "在减少通货膨胀之前必须接受金融制度。"
+
+
+ ####################
+
+
+ AN_NO_COLONIZE_ARID:0 "§R在没有§Y干旱荒野适应§!或§Y永久宣称§!的情况下无法被殖民。§!"
+ AN_NO_COLONIZE_ARCTIC:0 "§R在没有§Y严寒荒野适应§!或§Y永久宣称§!的情况下无法被殖民。§!"
+ AN_NO_COLONIZE_TROPICAL:0 "§R在没有§Y翠绿荒野适应§!或§Y永久宣称§!的情况下无法被殖民。§!"
+ AN_NO_COLONIZE_WILDLANDS:0 "§R在没有拥有当地首都或相邻省份的情况下无法被殖民。§!"
+
+ AN_NO_FRONTIER_ARID:0 "§R在没有§Y干旱荒野适应§!或§Y永久宣称§!的情况下无法成为边疆。§!"
+ AN_NO_FRONTIER_ARCTIC:0 "§R在没有§Y严寒荒野适应§!或§Y永久宣称§!的情况下无法成为边疆。§!"
+ AN_NO_FRONTIER_TROPICAL:0 "§R在没有§Y翠绿荒野适应§!或§Y永久宣称§!的情况下无法成为边疆。§!"
+ AN_NO_FRONTIER_WILDLANDS:0 "§R在没有拥有当地首都或相邻省份的情况下无法被殖民。§!"
+
+
+
+ ####################
+ #TESTS
+
+ #Custom LOC
+
+ #string_further_austria: "进一步的奥地利" #尝试基于SUD标签是否是HAB的封臣来自定义命名
+ #string_sundgau: "测试案例"
+ #string_sundgau: "松高"
+ #confederate_is_canton: "州"
+ #confederate_is_not_canton: "测试案例"
+ #confederate_is_not_canton: "邦联"
+
+ confederate_title:1 "[Culture.CantonNaming]"
+ confederate_title_plural:1 "邦联成员"
+ is_confederate:1 "是邦联成员"
+ confederate_is_our:1 "$NAME|Y$ 是我们的邦联成员。"
+ confederate_long_desc:1 "邦联成员是联盟中的平等部分，有时有名义上的中央控制来将各州团结在一起。虽然邦联成员不能通过正常手段被整合，但他们比普通附庸更加忠诚，并积极支持邦联领袖。"
+ #SUD:1 "[Root.SundgauNaming]"
+ #SUD_ADJ:1 "松高人"
+
+ string_is_papal_controller: "教皇控制者"
+ string_is_not_papal_controller: "非教皇控制者"
+
+ TESTNOTSWISS: "瑞士测试否"
+ TESTSWISS: "瑞士测试"
+
+ returnchoice.tooltip: "§Y目标§! 将被提供以下提议："
+ wip.tooltip: "§Y正在进行中§!"
+ HIGHLIGHTED_PROVINCES_OWNED_AND_SUBJECT.tooltip: "§Y突出显示§! 的省份由 §Y[Root.GetName]§! 或其非朝贡附庸拥有"
+ OR.tooltip: "§R或§!"
+
+ ###
+ guelders_minimal_prov: "海尔德兰"
+ netherlands_core_provinces: "荷兰低地国家"
+
+ ############
+ OMMELANDEN: "奥姆兰登"
+ OMMELANDEN_ADJ: "奥姆兰登人"
+ MARCH_BARCELONA: "巴塞罗那边疆区"
+ MARCH_BARCELONA_ADJ: "巴塞罗那人"
+ ANGEVIN_EMPIRE: "安茹帝国"
+ ANGEVIN_EMPIRE_ADJ: "安茹人"
+ GREATER_NORMANDY: "大诺曼底"
+ GREATER_NORMANDY_ADJ: "诺曼底人"
+ ANGLOFRANCE_UNION: "英法联盟"
+ ANGLOFRANCE_UNION_ADJ: "英法"
+ DOMAINANGEVIN: "安茹领地"
+ DOMAINANGEVIN_ADJ: "安茹人"
+
+ #DISASTER
+
+ league_public_weal: "公益联盟"
+ desc_league_public_weal: "公益联盟"
+ italian_wars: "意大利战争"
+ desc_italian_wars: "意大利战争"
+ dutch_center_of_trade: "荷兰贸易中心"
+ desc_dutch_center_of_trade: "荷兰贸易中心"
+ flanders.golden_inlet.maintained: "已维持黄金入口"
+
+ #Mercenaries
+
+ hussite_forces_saxony: "波希米亚胡斯派"
+ bearnese_forces_navarre: "贝阿内斯弓箭手"
+ tuscan_knights_of_saint_stephen: "圣斯蒂芬骑士"
+
+ #TEST
+ tax_income_val: "税收收入"
+ IRtest.7.a: "[Root.tax_income_val.GetName] [Root.tax_income_val.GetValue]"
+
+ #Vassal Release Event Test
+
+ IRtest.5.t: "[Root.eventtitleReleaseVassalMissionReward]"
+ IRtest.5.desc: "[Root.eventdescReleaseVassalMissionReward]"
+ IRtest.5.fief: "[Root.eventoptaReleaseVassalMissionReward]"
+ IRtest.5.march: "[Root.eventoptbReleaseVassalMissionReward]"
+ IRtest.5.b: "我们将自己保留这些省份"
+ createvassal.title.A7D.NAV: "纳瓦拉问题"
+ #createvassal.desc.A7D.NAV: "纳瓦拉与安道尔一起属于ayy lmao。我需要更多文本来正确测试这个。如果你不测试，你就得不到结果。"
+ createvassal.opta.A7D.NAV: "释放纳瓦拉作为封地。"
+ createvassal.optb.A7D.NAV: "释放纳瓦拉作为边疆区。"
+ createvassal.title.A7D.ARA: "阿拉贡问题"
+ createvassal.desc.A7D.ARA: "随着我们对阿拉贡的征服完成，我们现在必须决定是将其作为附庸释放还是将领土保留在自己手中。"
+ createvassal.opta.A7D.ARA: "阿拉贡将成为一个封地"
+ createvassal.optb.A7D.ARA: "边疆将由阿拉贡边疆区保护。"
+ error.description: "你未能提供描述"
+ titledebug.description: "测试事件5"
+ createvassal.title.defaulttext: "[RELEASEDSUBJECT_TAG.GetName] 问题"
+ createvassal.desc.defaulttext: "随着我们最近对 [RELEASEDSUBJECT_TAG.GetName] 的控制。我们需要决定如何管理该地区。"
+ createvassal.opta.defaulttext: "[RELEASEDSUBJECT_TAG.GetName] 将成为 [Root.GetName] 的封地"
+ createvassal.optb.defaulttext: "用 [RELEASEDSUBJECT_TAG.GetName] 边疆区保卫边疆"

@@ -1,0 +1,937 @@
+﻿l_english:
+
+ #Reorganized format as of 11.5 -
+ # Note main folder contains all NEW localizations. Entries which replace vanilla content are found in the replace subfolder.
+ #
+ #bt_core_content - contains all Draiocht's core content, including everything not otherwise listed.
+ #bt_countries - contains all Draiocht's tags and national ideas, including - 1) Tags   2) National Ideas
+ #bt_provinces - contains all province names, including adjectives (which are still incomplete)
+ #bt_regional_names - contains all Draiocht's regional localizations, including - 1) Regions   2) Trade Nodes   3) Colonial Regions   4) Areas   5) Colonial Nation Names
+ #(THIS FILE) others_work_in_bt - contains all localizations NOT written by Draiocht, including HR's work from BT, all of Dub's work, and many contributors' work
+
+ #This file contains localization work not done by Draiocht, organized by contributor.
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ #HR's work (Original BtP dev)
+ #################################################################################
+ #################################################################################
+ #################################################################################
+
+##############################
+#btp_areas_regions_l_english
+##############################
+ #leinster_area:0 "Leinster"
+ #leinster_area_name:0 "Leinster"
+ #leinster_area_adj:0 "Leinster"
+ #ulster_area:0 "Ulster"
+ #ulster_area_name:0 "Ulster"
+ #ulster_area_adj:0 "Ulster"
+ #munster_area:0 "Munster"
+ #munster_area_name:0 "Munster"
+ #munster_area_adj:0 "Munster"
+ #connacht_area:0 "Connacht"
+ #connacht_area_name:0 "Connacht"
+ #connacht_area_adj:0 "Connacht"
+
+ ##############################
+ #btp_bookmarks_l_english
+ ##############################
+ BTP_BOOKMARK:0 "Beyond the Pale"
+ BTP_BOOKMARK_DESC:0 "Over 270 years have passed since the Norman invasion and conquest of Ireland. The English Kings, distracted by their designs on France, have allowed their authority in Ireland to collapse to a small strip of coastline centered on Dublin, the Pale. Beyond the Pale, Gaelic Irish clanns and Hiberno-Norman lords vie for power."
+
+ ##############################
+ #btp_colonialregions_l_english
+ ##############################
+ colonial_greenland:0 "Colonial Greenland"
+ COLONIAL_GREENLAND_Greenland:0 "Greenland"
+ COLONIAL_GREENLAND_Greenland_ADJ:0 "Greenlandic"
+
+ ##############################
+ #btp_countries_l_english
+ ##############################
+ #IOM:0 "Mann"          #Defunct, added in 1.25 to vanilla
+ #IOM_ADJ:0 "Manx"
+ CEL:0 "Tír na gCeilteach"           #Was TnCeltigh in BtP, but that was quite the grammatical eyesore. I talked to HR about this and he said it was to make the name more accessible to people who don't speak Irish, but screw them =p! I'm going for the proper (standard fir1 gi. sonrach) spelling. Note this is a made up 18th century word from English anyway, so other than basic grammar, I'm not too worried about spelling here.
+ CEL_ADJ:0 "Celtic"
+ #TYC:0 "Tyrconnell"         #Defunct, added in 1.25 to vanilla
+ #TYC_ADJ:0 "Tyrconnell"
+ ANR:0 "Antrim"
+ ANR_ADJ:0 "Antrim"
+ LAG:0 "Laigin"
+ LAG_ADJ:0 "Laigin"
+ #URM:0 "Ormond"         #Defunct, added in 1.25 to vanilla
+ #URM_ADJ:0 "Ormond"
+ #DSM:0 "Deas Mhumain"         #Defunct, added in 1.25 to vanilla
+ #DSM_ADJ:0 "Deas Mhumain"
+ THO:0 "Thomond"
+ THO_ADJ:0 "Thomond"
+ GLW:0 "Galway"
+ GLW_ADJ:0 "Galway"
+ MYO:0 "Mayo"
+ MYO_ADJ:0 "Mayo"
+ ANI:0 "Ireland"
+ ANI_ADJ:0 "Hiberno-Norman"
+ BLG:0 "Bologna"
+ BLG_ADJ:0 "Bolognesi"
+ SZO:0 "Saluzzo"
+ SZO_ADJ:0 "Saluzzesi"
+ TRN:0 "Trent"
+ TRN_ADJ:0 "Trentini"
+ ARE:0 "Arezzo"
+ ARE_ADJ:0 "Aretini"
+ PIO:0 "Piombino"
+ PIO_ADJ:0 "Piombinesi"
+ MSS:0 "Massa"
+ MSS_ADJ:0 "Massesi"
+ RMG:0 "Romagna"
+ RMG_ADJ:0 "Romagnolo"
+ GRZ:0 "Gorizia"
+ GRZ_ADJ:0 "Goriziani"
+ PGI:0 "Perugia"
+ PGI_ADJ:0 "Perugini"
+ ITL:0 "Italy"
+ ITL_ADJ:0 "Italian"
+ LMV:0 "Lombardy-Venetia"
+ LMV_ADJ:0 "Veneto-Lombard"
+ EMR:0 "Emilia-Romagna"
+ EMR_ADJ:0 "Emilian"
+ IBE:0 "Iberia"
+ IBE_ADJ:0 "Iberian"
+ BEL:0 "Belgium"
+ BEL_ADJ:0 "Belgian"
+ #ILE:0 "The Isles"         #Defunct, added in 1.25 to vanilla
+ #ILE_ADJ:0 "Albannach"
+ BSL:0 "Basel"
+ BSL_ADJ:0 "Basler"
+ Z2D:0 "Sieben Zenden"
+ Z2D_ADJ:0 "Valaisian"
+ MTZ:0 "Metz"
+ MTZ_ADJ:0 "Messin"
+ VDN:0 "Verdun"
+ VDN_ADJ:0 "Verdunois"
+ CMB:0 "Cambrai"
+ CMB_ADJ:0 "Cambrésien"
+ GRN:0 "Groningen"
+ GRN_ADJ:0 "Groninger"
+ DUR:0 "Durham"
+ DUR_ADJ:0 "Durhamite"
+ MNT:0 "Montfort"
+ MNT_ADJ:0 "Montforter"
+ ILY:0 "Illyria"
+ ILY_ADJ:0 "Illyrian"
+ ICE:0 "Iceland"
+ ICE_ADJ:0 "Icelandic"
+ CNL:0 "Carniola"
+ CNL_ADJ:0 "Carniolan"
+ LUS:0 "Lusatia"
+ LUS_ADJ:0 "Lusatian"
+ MRV:0 "Moravia"
+ MRV_ADJ:0 "Moravian"
+ GMV:0 "Great Moravia"
+ GMV_ADJ:0 "Moravian"
+ LES:0 "Lesbos"
+ LES_ADJ:0 "Lesbian"
+ DIT:0 "Dithmarschen"
+ DIT_ADJ:0 "Ditmarsian"
+ LNC:0 "Lancaster"
+ LNC_ADJ:0 "Lancastrian"
+ JUL:0 "Jülich"
+ JUL_ADJ:0 "Jülian"
+ SAA:0 "Saarbrücken"
+ SAA_ADJ:0 "Saarlander"
+ ESN:0 "Essen"
+ ESN_ADJ:0 "Essener"
+ DRT:0 "Dortmund"
+ DRT_ADJ:0 "Dortmunder"
+ MND:0 "Minden"
+ MND_ADJ:0 "Mindener"
+ LPP:0 "Lippe"
+ LPP_ADJ:0 "Lippener"
+ HOH:0 "Hohenzollern"
+ HOH_ADJ:0 "Hohenzollern"
+ KNS:0 "Konstanz"
+ KNS_ADJ:0 "Konstanzian"
+ HEL:0 "Heilbronn"
+ HEL_ADJ:0 "Heilbronner"
+ DRM:0 "Darmstadt"
+ DRM_ADJ:0 "Darmstadter"
+ FLD:0 "Fulda"
+ FLD_ADJ:0 "Fuldaner"
+ RGN:0 "Regensburg"
+ RGN_ADJ:0 "Regensburger"
+ BMB:0 "Bamberg"
+ BMB_ADJ:0 "Bamberger"
+ BYR:0 "Bayreuth"
+ BYR_ADJ:0 "Bayreuther"
+ KMI:0 "Kammin"
+ KMI_ADJ:0 "Kamminer"
+ RPN:0 "Ruppin"
+ RPN_ADJ:0 "Ruppiner"
+ STR:0 "Stargard"
+ STR_ADJ:0 "Stargarder"
+ OSL:0 "Ösel–Wiek"
+ OSL_ADJ:0 "Öselian"
+ DRP:0 "Dorpat"
+ DRP_ADJ:0 "Dorpatian"
+ YLT:0 "Yelets"
+ YLT_ADJ:0 "Yeletsky"
+ OKA:0 "Oka"
+ OKA_ADJ:0 "Okan"
+ RST:0 "Rostov"
+ RST_ADJ:0 "Rostovian"
+ FRE:0 "Magna Frisia"
+ FRE_ADJ:0 "Frisian"
+ LTH:0 "Lotharingia"
+ LTH_ADJ:0 "Lotharingian"
+ FNC:0 "Franconia"
+ FNC_ADJ:0 "Franconian"
+ SWB:0 "Swabia"
+ SWB_ADJ:0 "Swabian"
+ OSN:0 "Osnabrück"
+ OSN_ADJ:0 "Osnabrücker"
+ PDB:0 "Paderborn"
+ PDB_ADJ:0 "Paderborner"
+ KCH:0 "Khachen"
+ KCH_ADJ:0 "Khacheni"
+ SHE:0 "Sheki"
+ SHE_ADJ:0 "Sheki"
+ HOY:0 "Hoya"
+ HOY_ADJ:0 "Hoyan"
+
+ ##############################
+ #btp_cultures_l_english
+ ##############################
+ anglo_irish:0 "Old English"            #Changed from BtP's Hiberno-Norman
+ aquitanian:0 "Aquitanian"
+ arpitan:0 "Arpitan"
+ bosnian:0 "Bosnian"
+ cornish:0 "Cornish"
+ dacian:0 "Dacian"
+ frisian:0 "Frisian"
+ icelandic:0 "Icelandic"
+ illyrian:0 "Illyrian"
+ manx:0 "Manx"
+ northumbrian:0 "Northumbrian"
+ slovak:0 "Slovak"
+ slovene:0 "Slovenian"
+ sorbian:0 "Sorbian"
+
+ ##############################
+ #btp_decisions_l_english
+ ##############################
+ celtic_nation_title:0 "统一凯尔特人"
+ celtic_nation_desc:0 "凯尔特人民族被推向灭绝边缘已经太久了。如果我们要击退好战的邻居并让凯尔特人重获荣耀，我们必须统一我们的国家。"
+ reform_irish_government_title:0 "改革我们的政府"
+ reform_irish_government_desc:0 "很明显，我们目前的政府形式已不再适合目的，我们必须改革才能生存。"
+ irish_nation_title:0 "宣称至高王权"
+ irish_nation_desc:0 "至高王权，我们最神圣的头衔，自撒克逊人和诺曼人入侵以来实际上已经失效。我们追随我们最伟大的至高王布赖恩·博鲁的脚步，通过统一爱尔兰来驱逐他们，这个头衔无可争议地属于我们。我们现在必须实现连他都无法实现的目标，巩固我们的权力，这样我们就永远不会再遭受外国统治。"            #从BtP更改。事件文本现在用英语而不是爱尔兰语，只是为了保持一致性
+ move_capital_dublin_title:0 "在都柏林建立伟大首都"
+ move_capital_dublin_desc:0 "都柏林几个世纪以来一直是爱尔兰最大和最富有的城市。如果我们要在欧洲被认真对待，我们必须在那里建立我们的首都，并将其发展成为与欧洲最伟大的城市相媲美的城市。"
+ move_capital_dublin_anglo_irish_title:0 "在都柏林建立伟大首都"
+ move_capital_dublin_anglo_irish_desc:0 "都柏林几个世纪以来一直是爱尔兰最大和最富有的城市。如果我们要在欧洲被认真对待，我们必须在那里建立我们的首都，并将其发展成为与欧洲最伟大的城市相媲美的城市。"
+ anglo_irish_culture_shift_title:0 "比爱尔兰人更爱尔兰"
+ anglo_irish_culture_shift_desc:0 "几个世纪以来，我们的习俗和传统已经与盖尔爱尔兰人的习俗和传统无法区分。我们的外国血统已经成为我们权力野心的障碍。我们应该让人们知道我们与爱尔兰同胞的血缘关系。"
+ form_ulster_title:0 "恢复阿尔斯特"            #从BtP更改以消除与宗教改革的歧义。
+ form_ulster_desc:0 "我们已经在省内取得了统治地位，现在是阿尔斯特的实际国王。我们必须抓住这个机会，通过遏制我们领域内无数小国王的权力来巩固。这将在省内引起严重的动荡，但必要性迫使我们这样做。"
+ form_leinster_title:0 "恢复莱因斯特"            #从BtP更改以消除与宗教改革的歧义。
+ form_leinster_desc:0 "我们已经在省内取得了统治地位，现在是莱因斯特的实际国王。我们必须抓住这个机会，通过遏制我们领域内无数小国王的权力来巩固。这将在省内引起严重的动荡，但必要性迫使我们这样做。"
+ form_munster_title:0 "恢复芒斯特"            #从BtP更改以消除与宗教改革的歧义。
+ form_munster_desc:0 "我们已经在省内取得了统治地位，现在是芒斯特的实际国王。我们必须抓住这个机会，通过遏制我们领域内无数小国王的权力来巩固。这将在省内引起严重的动荡，但必要性迫使我们这样做。"
+ form_connacht_title:0 "恢复康诺特"            #从BtP更改以消除与宗教改革的歧义。
+ form_connacht_desc:0 "我们已经在省内取得了统治地位，现在是康诺特的实际国王。我们必须抓住这个机会，通过遏制我们领域内无数小国王的权力来巩固。这将在省内引起严重的动荡，但必要性迫使我们这样做。"
+ form_duchy_connacht_title:0 "建立康诺特公国"
+ form_duchy_connacht_desc:0 "为了确保我们对新土地的掌控，我们应该扩大我们的治理，将古老的康诺特省改革为现代公国。然而，我们的臣民会对这种既定秩序的破坏感到愤怒。"
+ form_duchy_munster_title:0 "建立芒斯特公国"
+ form_duchy_munster_desc:0 "为了确保我们对新土地的掌控，我们应该扩大我们的治理，将古老的芒斯特省改革为现代公国。然而，我们的臣民会对这种既定秩序的破坏感到愤怒。"
+ form_duchy_leinster_title:0 "建立莱因斯特公国"
+ form_duchy_leinster_desc:0 "为了确保我们对新土地的掌控，我们应该扩大我们的治理，将古老的莱因斯特省改革为现代公国。然而，我们的臣民会对这种既定秩序的破坏感到愤怒。"
+ form_duchy_ulster_title:0 "建立阿尔斯特公国"
+ form_duchy_ulster_desc:0 "为了确保我们对新土地的掌控，我们应该扩大我们的治理，将古老的阿尔斯特省改革为现代公国。然而，我们的臣民会对这种既定秩序的破坏感到愤怒。"
+ anglo_irish_nation_title:0 "建立爱尔兰王国"
+ anglo_irish_nation_desc:0 "我们已经成为爱尔兰无可争议的统治者。我们应该通过切断与英格兰的封建联系，并宣布一个新的中央集权、统一的爱尔兰王国，来明确表示我们以自己的名义统治。"
+ england_demand_fealty_of_ireland_title:0 "要求爱尔兰效忠"
+ england_demand_fealty_of_ireland_desc:0 "根据教皇阿德里安四世在1155年发布的《劳达比利特》，爱尔兰在法律上是英格兰王座的财产。多年来我们的注意力一直集中在其他地方，我们一直满足于给予我们在爱尔兰的附庸前所未有的自治权，但现在似乎是重申和确认我们对爱尔兰的主张，并要求我们一个任性的附庸正式宣誓效忠的适当时机。"            #从BtP更改，在BT中重新措辞以配合一些平衡性更改
+ emilian_nation_title:0 "艾米利亚-罗马涅大公国"
+ emilian_nation_desc:0 "整个艾米利亚现在都在我们的控制之下。通过建立新的大公国，我们将巩固对该地区的控制并确立我们的统治权。"
+ lombardy_venetia_monarchy_nation_title:0 "伦巴第-威尼西亚王国"
+ lombardy_venetia_monarchy_nation_desc:0 "我们已经在北意大利取得了统治地位。为了巩固对该地区的控制，我们应该在一个新王国下统一它，并确保米兰公国和威尼斯共和国的名字将从我们臣民的记忆中消失。"
+ lombardy_venetia_republic_nation_title:0 "伦巴第-威尼西亚共和国"
+ lombardy_venetia_republic_nation_desc:0 "我们已经在北意大利取得了统治地位。为了巩固对该地区的控制，我们应该在一个新共和国下统一它，并确保米兰公国和威尼斯共和国的名字将从我们公民的记忆中消失。"
+ iberian_nation_title:0 "统一伊比利亚王冠"
+ iberian_nation_desc:0 "对罗马人来说是西班牙，对希腊人来说是伊比利亚；比利牛斯山以南的土地，长期以来被认为被摩尔人占领，终于获得解放。为了确保我们的王国，我们必须宣布它不可分割，并将我们的各种王冠统一为一个伊比利亚王国。"
+ belgian_nation_title:0 "@BEL 宣布比利时王国"
+ belgian_nation_desc:0 "没有统一的头衔，我们的王国容易受到强大邻居的掠夺。我们已经在古罗马的比利时省取得了统治地位，现在可以宣布在我们的统治下恢复它。"
+ illyrian_nation_title:0 "复活伊利里亚"
+ illyrian_nation_desc:0 "随着古罗马的伊利里库姆省在我们的控制之下，现在是巩固对该地区控制的时候了。被对我们王国的真实和潜在威胁包围，我们必须明确表示我们是这些土地唯一真正和合法的统治者，并宣布古伊利里亚在一个新王国下恢复。"
+ moravian_nation_title:0 "恢复摩拉维亚帝国"
+ moravian_nation_desc:0 "当东部的斯拉夫人争夺罗斯的遗产时，在西部我们以大摩拉维亚为我们的祖先。这是西斯拉夫世界第一个，也是迄今为止最伟大的国家。当我们进入我们国家的新黄金时代时，我们必须继承它的衣钵。"
+
+ ##############################
+ #btp_events_l_english
+ ##############################
+ btpIRE.EVTNAME1:0 "英格兰要求效忠！"
+ btpIRE.EVTDESC1:0 "看来我们的发展没有逃过英格兰君主的注意。他们的代表，爱尔兰总督，已经到达我们的宫廷，要求我们前往英格兰屈膝，引用了他们宠爱的教皇阿德里安四世发布的令人愤怒的《劳达比利特》。我们可以宣布我们在爱尔兰独立统治的合法性，这可能会给爱尔兰带来迅速而可怕的战争。如果我们希望避免战争，我们可以暂时接受他们的要求，等待更合适的时机。"           #从BtP更改，调整措辞
+ btpIRE.EVTOPTA1:0 "宣布独立"
+ btpIRE.EVTOPTB1:0 "暂时接受他们的要求"
+ btpSCO.EVTNAME1:0 "玛格丽特的嫁妆"
+ btpSCO.EVTDESC1:0 "1460年，丹麦和挪威的克里斯蒂安一世的独女玛格丽特与苏格兰的詹姆斯三世订婚。这次订婚是由法国国王推荐安排的，目的是结束丹麦和苏格兰之间关于赫布里底群岛征税的争端，这场冲突从1426年持续到1460年。克里斯蒂安一世国王同意提供可观的嫁妆，以挪威王冠的财产奥克尼群岛和设得兰群岛作为担保。嫁妆从未支付，因此这些岛屿仍归苏格兰所有。玛格丽特后来成为苏格兰非常受欢迎的王后，被描述为美丽、温柔、明智，有些人认为她比她丈夫更适合统治。"
+ btpSCO.EVTOPTA1:0 "提出建议"
+ btpSCO.EVTOPTB1:0 "把她送到修道院，这些岛屿太珍贵了！"
+ btpSCO.EVTNAME2:0 "丹麦的玛格丽特，苏格兰王后？"
+ btpSCO.EVTDESC2:0 "1460年，丹麦和挪威的克里斯蒂安一世的独女玛格丽特与苏格兰的詹姆斯三世订婚。这次订婚是由法国国王推荐安排的，目的是结束丹麦和苏格兰之间关于赫布里底群岛征税的争端，这场冲突从1426年持续到1460年。克里斯蒂安一世国王同意提供可观的嫁妆，以挪威王冠的财产奥克尼群岛和设得兰群岛作为担保。嫁妆从未支付，因此这些岛屿仍归苏格兰所有。玛格丽特后来成为苏格兰非常受欢迎的王后，被描述为美丽、温柔、明智，有些人认为她比她丈夫更适合统治。"
+ btpSCO.EVTOPTA2:0 "在他们改变主意之前接受！"
+ btpSCO.EVTOPTB2:0 "我们可以做得更好"
+ btpSCO.EVTNAME3:0 "没有真正的苏格兰人"
+ btpSCO.EVTDESC3:0 "$PROVINCENAME$的盖尔苏格兰人，在苏格兰王国统治下被容忍，已经开始看到他们与低地兄弟的差异毕竟不是那么大。无论是高地人还是低地人，苏格兰人就是苏格兰人。"
+ btpSCO.EVTOPTA3:0 "我们别无选择，只能接受这个"
+
+ ##############################
+ #btp_government_names_l_english
+ ##############################
+ ALDERMAN:0 "市长大人"
+ ALDERWOMAN:0 "女市长大人"
+ COUNTYPALATINE:0 "伯爵领地"
+ WARDEN:0 "守护者"
+ WARDENESS:0 "女守护者"
+ ICEGOVERNR:0 "总督"
+ PRINCEABBACY:0 "亲王修道院"
+ PRINCEABBOT:0 "亲王修道院长"
+ PRINCEABBOT_fem:0 "公主修道院长"
+ HEIRESSBTP:0 "女继承人"
+ PREFERATUSBTP:0 "优先者"
+ PREFERATABTP:0 "女优先者"
+
+#爱尔兰名称，添加了一些调整和翻译注释，以防有人感兴趣
+ CLANN:0 "氏族"            #字面意思是'家族'，但通常扩展含义包括整个亲属群体
+ RI:0 "国王"            #字面意思是'国王'
+ BANRION:0 "王后"            #字面意思是'王后'
+ PROVKINGDOM:0 "省王国"
+ RIRUIR:0 "至高国王"            #字面意思类似于'国王之王'...翻译不好。注意'Rí Cúige'（省王）可能在这里是更字面的选择，但暂时保留。
+ BANRIONRUIR:0 "至高王后"            #字面意思类似于'王后之王后'...翻译不好。注意'Banrion Cúige'可能在这里是更字面的选择，但暂时保留。
+ ARDRI:0 "至高王"            #字面意思是'至高王'
+ ARDBANRION:0 "至高王后"            #字面意思是'至高王后'
+ #新的1.18政府系统补充，由Driaocht用爱尔兰语命名
+ FEARNABANRION:0 "王后的配偶"            #字面意思是'王后的男性配偶'
+ BANANRI:0 "国王的女人"            #字面意思是'国王的女人'
+ TANAISTE:0 "塔奈斯特"            #不翻译，独特的爱尔兰概念，但基本上是选定的继承人
+ BANTANAISTE:0 "女塔奈斯特"            #不翻译，独特的爱尔兰概念，但基本上是选定的继承人，这是一个不存在的女性形式
+ FEARNAARDBANRION:0 "至高王后的配偶"            #字面意思是'至高王后的男性配偶'
+ BANANARDRI:0 "至高王的女人"            #字面意思是'至高王的女人'
+
+ ##############################
+ #btp_governments_l_english
+ ##############################
+ #Draiocht在这里做了一些更改，以标准化爱尔兰拼写，纠正一些小的历史疏忽，通常只是过于讲究。
+ irish_clann_legacy:0 "氏族"
+ irish_clann_legacy_ruler:0 "国王"
+ irish_clann_legacy_ruler_female:0 "王后"
+ irish_clann_legacy_desc:0 "氏族是盖尔爱尔兰的主要政治和社会单位。这个系统非常稳定，但其权力结构在15世纪的欧洲异常薄弱，其主要是农村人口无法在现代化的欧洲中竞争。"
+ provincial_kingdom_legacy:0 "省王国"
+ provincial_kingdom_legacy_ruler:0 "至高国王"
+ provincial_kingdom_legacy_ruler_female:0 "至高王后"
+ provincial_kingdom_legacy_desc:0 "Ríthe Ruireach，或至高王（也常被称为Ríthe Cúige，或省王），是有影响力的地方国王，在爱尔兰的古代省份之一行使权力。历史上仅次于至高王，实际上是大多数至高王从中选出的候选人，这些地方国王是盖尔爱尔兰最有权势的人之一。然而，尽管他们有影响力，但他们往往缺乏更大欧洲国家的权力结构和中央集权，尽管不像地方氏族首领那样严重。"
+ high_kingship_legacy:0 "至高王权"
+ high_kingship_legacy_ruler:0 "至高王"
+ high_kingship_legacy_ruler_female:0 "至高王后"
+ high_kingship_legacy_desc:0 "盖尔爱尔兰最高级别的王权。至高王在塔拉的王座山举行的奥纳赫（盖尔爱尔兰社会领袖的集会）上加冕。尽管至高王权威的确切范围和完整性随时间而变化，但爱尔兰的所有其他国王至少名义上从属于至高王，如果不是直接服从的话。至高王权还恢复了传统的塔奈斯特继承制度，使王朝很难失去权力或被另一个王国继承。"
+ norman_lordship_legacy:0 "诺曼领主制"
+ norman_lordship_legacy_ruler:0 "伯爵"
+ norman_lordship_legacy_ruler_female:0 "夫人"
+ norman_lordship_legacy_desc:0 "诺曼领主制是盎格鲁-诺曼势力在1172年诺曼征服爱尔兰后创建的职位，他们任命忠诚的盎格鲁-诺曼领主作为军事服务的奖励，并确保对爱尔兰的持续控制。名义上是英格兰君主的附庸，这些领主制到15世纪实际上已经独立，与他们的盖尔邻居比与遥远的英格兰表亲有更多的共同点。"
+ norman_duchy_legacy:0 "希伯诺-诺曼公国"
+ norman_duchy_legacy_ruler:0 "公爵"
+ norman_duchy_legacy_ruler_female:0 "女公爵"
+ norman_duchy_legacy_desc:0 "由英格兰君主授予的头衔，使持有者能够以他们的名义统治爱尔兰的古代省份之一。历史上是本土省王国的替代品，这个头衔代表了英格兰在爱尔兰的普遍和侵略性影响，但他们在从臣民那里榨取每一分钱方面也非常有效。"
+ anglo_irish_monarchy_legacy:0 "盎格鲁-爱尔兰君主制"
+ anglo_irish_monarchy_legacy_ruler:0 "国王"
+ anglo_irish_monarchy_legacy_ruler_female:0 "王后"
+ anglo_irish_monarchy_legacy_desc:0 "基于威斯敏斯特英格兰议会传统的宪政或代议制君主制形式，由统治君主定期召集议会。它基于《大宪章》中定义的特权，并适应当地经济。"
+ florence_republic_legacy:0 "佛罗伦萨共和国"
+ florence_republic_legacy_ruler:0 "旗手"
+ florence_republic_legacy_ruler_female:0 "女旗手"
+ florence_republic_legacy_desc:0 "美第奇家族统治下的佛罗伦萨共和国政府形式。美第奇家族没有担任官方职位，但他们是佛罗伦萨无可争议的统治者。"
+ regnum_dei_legacy:0 "神国"
+ regnum_dei_legacy_ruler:0 "教皇"
+ regnum_dei_legacy_ruler_female:0 "女教皇"
+ regnum_dei_legacy_desc:0 "地上的神国，由圣父直接统治。"
+ IRE_parliament_name:0 "议会"           #在BtP中是'Ardfheis'，但我（Driaocht）将其改为更历史性（实际上也是现代的）的词，通常被接受为'集会'的意思，用于现代爱尔兰议会以及（可能）作为至高王的贵族顾问团。
+ CEL_parliament_name:0 "议会"           #在BtP中是'Ardfheis'，但我（Driaocht）将其改为更历史性（实际上也是现代的）的词，通常被接受为'集会'的意思，用于现代爱尔兰议会以及（可能）作为至高王的贵族顾问团。
+
+ ##############################
+ #btp_modifers_l_english
+ ##############################
+ mersey_estuary_modifier:0 "默西河口"
+ desc_mersey_estuary_modifier:0 "控制默西河的重要河口加强了我们在该地区贸易的控制。"
+ clyde_estuary_modifier:0 "克莱德河口"
+ desc_clyde_estuary_modifier:0 "控制克莱德河的重要河口加强了我们在该地区贸易的控制。"
+ tribes_of_galway_modifier:0 "戈尔韦部落"
+ desc_tribes_of_galway_modifier:0 "被称为'戈尔韦部落'的十四个商人家庭的努力加强了我们在该地区的贸易。"
+ btp_kingdom_of_god:0 "神国"
+ desc_btp_kingdom_of_god:0 "教皇已宣布统一的意大利为地上的神国。"
+ btp_dano_scottish_wedding:0 "丹麦-苏格兰婚礼"
+ desc_btp_dano_scottish_wedding:0 "丹麦和苏格兰已经解决了赫布里底群岛争端，并通过王室婚姻将其确定下来。"
+
+ ##############################
+ #btp_opinions_l_english
+ ##############################
+ btp_opinion_accepted_proposal:0 "丹麦的玛格丽特"
+ btp_opinion_rejected_proposal:0 "被拒绝的丹麦玛格丽特"
+
+ ##############################
+ #btp_powers_and_ideas_l_english
+ ##############################
+ ANI_ideas:0 "盎格鲁-爱尔兰理念"
+ ANI_ideas_start:0 "盎格鲁-爱尔兰传统"
+ ANI_ideas_bonus:0 "盎格鲁-爱尔兰野心"
+ koi_baptism_by_fire:0 "火的洗礼"
+ koi_baptism_by_fire_desc:0 "我们对盖尔氏族的征服和为确保我们王国独立而进行的战斗使我们的士兵变得坚强。这将使他们在未来的战斗中更加有效。"
+ koi_mixed_heritage:0 "天主教解放"
+ koi_mixed_heritage_desc:0 "宗教改革的暴力在我们美丽的王国中肆虐了太久，我们已经艰难地认识到，无论如何，统治爱尔兰的最佳方式是与本土盖尔人合作，而不是对抗他们。给予国内所有异端教派解放将使我们团结起来，这样我们就可以将注意力转向更紧迫的问题。"
+ koi_parliament_ireland:0 "爱尔兰议会"
+ koi_parliament_ireland_desc:0 "成立于1297年的爱尔兰议会是为了代表盎格鲁-爱尔兰人的利益而建立的。虽然其权力在最近时期严重减少，但它为我们的人民提供了有效治理的经验，可以适应我们的需求。"
+ koi_trim_castle:0 "诺曼城堡"
+ koi_trim_castle_desc:0 "爱尔兰最大的防御工事特林姆城堡是由盎格鲁-诺曼领主休·德·拉西在12世纪建造的。为了确保我们的王国安全，我们应该改进并在整个爱尔兰复制其设计。"
+ koi_urban_culture:0 "城市文化"
+ koi_urban_culture_desc:0 "我们的人民有强烈的城市传统，是爱尔兰最大城镇的主要居民。相比之下，盖尔爱尔兰人主要是农村人口，国家的大部分地区都未开发。通过在王国各地建设新城镇，我们可以增加我们国家的繁荣。"
+ koi_bill_of_rights:0 "爱尔兰权利法案"
+ koi_bill_of_rights_desc:0 "虽然我们与盖尔爱尔兰人有很多共同点，但我们的人民之间也有很多分歧。为了向他们保证我们的差异是可以克服的，从而防止任何叛乱的谣言，我们应该从我们的英格兰表亲那里获得灵感，宣布我们自己的爱尔兰权利法案。"
+ koi_anglo_rapprochement:0 "盎格鲁和解"
+ koi_anglo_rapprochement_desc:0 "为了更好地保护我们的边界免受英格兰的掠夺，我们应该诉诸外交。通过试图在我们共同遗产的共同基础上建立关系，可能使我们的前敌人成为盟友。这将确保我们的东翼安全，使我们能够将注意力转向世界上更有前途的地区。"
+ CEL_ideas:0 "凯尔特理念"
+ CEL_ideas_start:0 "凯尔特传统"
+ CEL_ideas_bonus:0 "凯尔特野心"
+ celts_survival:0 "为生存而战"
+ celts_survival_desc:0 "我们已经将我们的人民从边缘拉回来，但为生存而战的斗争仍在继续。我们被觊觎我们土地的敌人包围，他们梦想着让我们重新回到压迫之下。我们的战争事业是最正义的，我们的人民给予我们坚定不移的支持。"
+ celts_six_nations:0 "六国"
+ celts_six_nations_desc:0 "我们的王国由六个核心民族组成：爱尔兰人、苏格兰人、布列塔尼人、威尔士人、康沃尔人和马恩岛人。通过借鉴所有六个民族的独特经验、传统和习俗，我们将点燃一个新的凯尔特文艺复兴。"
+ celts_monastic_schools:0 "修道院渗透性"
+ celts_monastic_schools_desc:0 "在过去，我们的修道院不仅是宗教中心，也是学术中心。在基督教世界中独一无二，我们的修道院制度是可渗透的。儿童可以自由进入修道院，接受教育，并在成年后离开。我们必须恢复这种做法，使我们的王国成为学习的灯塔。"
+ celts_soldiers:0 "身经百战的士兵"
+ celts_soldiers_desc:0 "我们的人在欧洲以凶猛战士而闻名。我们在解放凯尔特人民运动中的最近胜利只是重申了这种声誉的真实性。"
+ celts_memory:0 "凯尔特的记忆"
+ celts_memory_desc:0 "我们的文化可能被推到了欧洲的边缘，但情况并非总是如此。凯尔特文化曾经在整个欧洲繁荣发展，凯尔特人有长久的记忆。"
+ celts_illuminated_manuscripts:0 "彩绘手稿"
+ celts_illuminated_manuscripts_desc:0 "我们的艺术传统与任何其他文化都不同。在欧洲其他地方追求数量而非质量的地方，我们努力创作出令人眼花缭乱的个人完美作品。我们的人民制作的彩绘手稿，如《凯尔经》，就是最好的证明。"
+ celts_resettle:0 "重新定居凯尔特土地"
+ celts_resettle_desc:0 "拉丁、日耳曼和斯拉夫文化已经遍布欧洲。我们现在已经确保了人民的自由，但为了永远确保它，我们必须重新夺回和重新定居以前的凯尔特土地。"
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ #JP's work
+ #################################################################################
+ #################################################################################
+ #################################################################################
+
+ #JP的东弗里斯兰神圣罗马帝国理念，感谢JP，Draiocht做了一些更改。
+ BtPLegacyMisc.EVTNAME9:0 "来自腓特烈三世的信"
+ BtPLegacyMisc.EVTDESC9:0 "到15世纪中叶，乌尔里希一世·西尔克塞纳已经通过直接统治或婚姻联合了东弗里斯兰几乎所有领主领地，但荷兰伯爵仍然基于1381年的帝国授权声称拥有其部分领土。乌尔里希领主因此将注意力转向神圣罗马皇帝，希望腓特烈三世能够确认他的地位。作为回应，腓特烈三世在1464年将乌尔里希一世提升为帝国伯爵地位，授予他在东弗里斯兰的诺登、埃姆登和埃米斯戈宁的帝国伯爵头衔，并将乌尔里希一世伯爵纳入神圣罗马帝国的保护之下。"
+ BtPLegacyMisc.EVTOPTA9:0 "让我们加入帝国以确保我们的领土！"
+ BtPLegacyMisc.EVTOPTB9:0 "我们将独立自主！"
+ #波美拉尼亚工作
+ bt_sole_pomeranian_duchy_tooltip:0 "是波美拉尼亚公国在§Y斯德丁§!、§Y沃尔加斯特§!和§Y斯托尔普§!之间最后剩余的分割。"
+ bt_pomeranian_nation_title:0 "统一波美拉尼亚公国"
+ bt_pomeranian_nation_desc:0 "通过我们强大的军事和有影响力的外交，我们已经将分裂的波美拉尼亚公国统一在我们的控制之下。我们的祖先在继承时分割了我们的土地，创造了无数领地，但我们的王朝将不再分裂我们的土地。我们控制的领土有如此多的机会，拥有众多汉萨同盟城镇，以及所有德国都羡慕的波罗的海重要通道。"         #感谢JP
+
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ #Dub's work (all but missions. Missions are in the next group)
+ #################################################################################
+ #################################################################################
+ #################################################################################
+
+ #来自Dub的普鲁士蓝工作
+ BT_reinheitsgebot:0 "纯净法"
+ BT_lager_beer:0 "拉格啤酒的传播"
+ BT_PRUSSIAN_BLUE:0 "普鲁士蓝的传播"
+ PriceChanges_BeyondTypus.EVTNAME1:0 "纯净法"
+ PriceChanges_BeyondTypus.EVTDESC1:0 "1487年，在巴伐利亚-慕尼黑公国，阿尔伯特四世公爵与王国的下属颁布了巴伐利亚啤酒的纯净法。法律规定，在巴伐利亚生产的啤酒只能包含水、大麦和啤酒花。任何偏离这个配方的行为都会使其失去使用该名称的权利，并导致其被没收。法律还标准化了啤酒价格，巴伐利亚升的最大价格在冬季为一芬尼，夏季为两芬尼。然而，客栈老板被允许在销售价格上每升额外增加半芬尼，但前提是他们从生产商那里购买了足够的120升。这项法律后来被威廉四世扩展到包括1516年重新统一后的整个巴伐利亚。虽然这项法律不是啤酒法律中的第一个，但它是最著名的，将在整个公国的历史中得到维护，直到1871年德国统一，将其应用于整个德国是该条约的条件之一。"
+ PriceChanges_BeyondTypus.EVTOPTA1:0 "为了更好的啤酒！"
+ PriceChanges_BeyondTypus.EVTNAME2:0 "顶部或底部发酵"
+ PriceChanges_BeyondTypus.EVTDESC2:0 "通常，19世纪之前生产的大多数啤酒都是在室温下生产和酿造的，因为制冷的可能性有限。如果温度太高，比如在夏天，啤酒就会变质。巴伐利亚人随后试图使用阿尔卑斯山周围的较冷洞穴来酿造啤酒。在15-16世纪的某个时候，当巴伐利亚人在冬季将这些啤酒储存在这些洞穴中时，他们意外地发现酿造的味道不同——相反，味道更加醇厚和顺滑。这发展成为一种新的酿造工艺，在此期间他们还发现啤酒的麦芽汁表现不同，沉到底部而不是上升到顶部，从而创造了顶部和底部发酵的术语。由于这个过程需要数周而不是数天，因此需要延长储存期，啤酒被昵称为\"拉格\"。"
+ PriceChanges_BeyondTypus.EVTOPTA2:0 "给我留一些！"
+ PriceChanges_BeyondTypus.EVTNAME3:0 "新世界蒸馏厂"
+ PriceChanges_BeyondTypus.EVTDESC3:0 "随着欧洲人发现新世界作物，从旧世界进口酒精变得越来越不可行，殖民地居民开始探索蒸馏该地区种植作物的选择。第一个这样做的是西班牙征服者，他们在1666年白兰地用完后从龙舌兰植物中蒸馏出第一批龙舌兰酒。后来，波旁威士忌从美国玉米中蒸馏出来，虽然在新世界并不独特，但朗姆酒是由种植园奴隶在加勒比海和巴西从糖蜜中蒸馏出来的。"
+ PriceChanges_BeyondTypus.EVTOPTA3:0 "最自然的文化交流！"
+ PriceChanges_BeyondTypus.EVTNAME4:0 "普鲁士蓝"
+ PriceChanges_BeyondTypus.EVTDESC4:0 "1706年，一位名叫约翰·雅各布·迪斯巴赫的瑞士画家定居柏林，成功合成了一种新的蓝色染料。这种蓝色染料在1709年被其第一位商人命名为\"普鲁士蓝\"，并在前一年就已经在欧洲推广和销售。其成分直到1750年代才被发现，当时一位法国化学家成功将染料分解为铁盐和一种新酸，30年后被瑞典化学家卡尔·威廉·舍勒分离并命名为\"蓝酸\"。普鲁士蓝在欧洲变得非常重要，因为它淘汰了之前用于蓝色染色的非常昂贵的青金石，并成为普鲁士军服的主要颜色，一直用于仪式目的直到20世纪。"
+ PriceChanges_BeyondTypus.EVTOPTA4:0 "多么有趣的发展。"
+ bt_birthplace_lager:0 "拉格啤酒的发源地"
+ desc_bt_birthplace_lager:0 "这个省份是拉格啤酒的发源地，这是一种在低温下酿造的啤酒。与该贸易相关的长期传统和当地经验允许更大的生产量。"
+ bt_prussian_blue:0 "普鲁士蓝工业"
+ desc_bt_prussian_blue:0 "如果柏林在18世纪有什么著名的话，那就是普鲁士蓝的发源地城市。在欧洲各地生产和销售，一直到日本被艺术家使用，配方被保密了整整20年，直到1724年才公布，有效地创造了染料的垄断，从而形成了一个伟大的工业。"
+
+ #Dub的国家理念
+ BEL_ideas:0 "比利时理念"
+ BEL_ideas_start:0 "比利时传统"
+ BEL_ideas_bonus:0 "比利时野心"
+ bel_trappist_orders:0 "特拉普派修会"
+ bel_trappist_orders_desc:0 "比利时的土地以其特拉普派修会而闻名。他们作为宗教修会的目的主要是团结该地区的人民，但也通过酿造啤酒为人民提供生计。这使我们能够适当地部署忠于我们事业的军队。"
+ bel_divided_peoples:0 "分裂的人民"
+ bel_divided_peoples_desc:0 "比利时是一个多元化的地区，有许多文化和语言联系。南部的瓦隆人有拉丁联系，北部的佛兰芒人是日耳曼人，两个群体都有几种方言和文化差异。然而，团结我们的一件事是我们的信仰，如果我们想稳定我们的国家，我们必须利用这一点。"
+ bel_flemish_scientists:0 "佛兰芒科学家"
+ bel_flemish_scientists_desc:0 "佛兰德斯地区历史上培养了许多著名的科学家和制图师，如解剖学家和医生维萨里乌斯、植物学家多登斯和数学家斯特文。此外，制图师杰拉杜斯·墨卡托也是佛兰芒人。墨卡托还有一个非常著名的布拉班特学徒亚伯拉罕·奥特利乌斯，他后来创作了《世界地图》。我们必须承认，当然，奥特利乌斯投影最终是最好的投影。"
+ bel_constitutionalism:0 "比利时宪政主义"
+ bel_constitutionalism_desc:0 "自比利时国家创建以来，比利时一直有强大的议会君主制传统。这种宪政主义确保其非常多元化的人民感到被代表，保持我们国家的稳定和免受篡位者的侵害。"
+ bel_redevelop_brugge:0 "重新开发布鲁日"
+ bel_redevelop_brugge_desc:0 "布鲁日市是一个有着丰富历史的辉煌城市，由于汉萨同盟贸易，在12至15世纪达到了黄金时代，也是勃艮第公爵好人菲利普的宫廷所在地。然而，问题出现在16世纪：它所在的黄金水道开始淤积，汉萨同盟衰落，城市落入哈布斯堡统治之下，导致急剧衰落。随着新世界的发现吸引了许多海员到海外寻求财富，在这个辉煌的时代，有必要让布鲁日重新成为一个伟大的贸易中心和主要的殖民港口。"
+ bel_scramble_for_new_world:0 "争夺新世界"
+ bel_scramble_for_new_world_desc:0 "随着新世界广泛开放供开发，我们的邻居试图为自己夺取大片土地，毫无疑问，我们必须加入这场竞赛并在美洲建立我们的存在！"
+ bel_independence:0 "脱离法国独立"
+ bel_independence_desc:0 "法国国王一直将我们的土地视为他们自己的财产，在试图夺取其他帝国土地时付出了巨大努力。他们的野心是将我们置于他们的统治之下，连同莱茵河以南的其余地区。如果我们要抵抗他们的影响，毫无疑问我们不能独自做到这一点。我们必须为我们的独立寻求强有力的支持者，以免我们最终成为法国人而不是比利时人。"
+
+
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ #Dub's work (specifically missions, all others above)
+ #################################################################################
+ #################################################################################
+ #################################################################################
+
+ country_holds_or_non_sovereign_subject_holds_highlighted:0 "高亮省份由§Y[Root.GetName]§!或其非朝贡附庸国拥有。"
+ country_holds_highlighted:0 "高亮省份由§Y[Root.GetName]§!拥有。"
+
+ #Aq Qoyunlu
+ defeat_black_sheep_claims:0 "获得对§Y击败黑羊王朝§!任务所需省份的永久宣称！"
+ conquer_the_caucasus_akk_claims:0 "获得对§Y征服高加索§!任务所需省份的永久宣称！"
+ conquer_iraq_akk_claims:0 "获得对§Y征服伊拉克§!任务所需省份的永久宣称！"
+ invade_persia_akk_claims_1:0 "获得对§Y入侵波斯§!任务所需省份北半部分的永久宣称！"
+ invade_persia_akk_claims_2:0 "获得对§Y入侵波斯§!任务所需省份南半部分的永久宣称！"
+
+ #Yemeni tribes
+ yem_gen_recon_one_claims:0 "获得对§Y征服下也门§!任务所需省份的永久宣称！"
+ yem_gen_recon_two_claims:0 "获得对§Y征服上也门§!任务所需省份的永久宣称！"
+
+ #Aragon
+ ara_crowns_of_iberia_claims:0 "获得对§Y伊比利亚王冠§!任务所需省份的永久宣称！"
+ conquer_athens_claims:0 "获得对§Y征服雅典§!任务所需省份的永久宣称！"
+
+ #Austria
+ subjugate_bohemia_claims:0 "获得对§Y控制波希米亚§!任务所需省份的永久宣称！"
+ recover_silesia_claims:0 "获得对§Y收复西里西亚§!任务所需省份的永久宣称！"
+ partition_poland_claims:0 "获得对§Y征服加利西亚§!任务所需省份的永久宣称！"
+ austrian_hungary_claims:0 "获得对§Y匈牙利王国§!任务所需省份的永久宣称！"
+ austrian_croatia_claims:0 "获得对§Y确保克罗地亚§!任务所需省份的永久宣称！"
+ conquer_transylvania_claims:0 "获得对§Y征服特兰西瓦尼亚§!任务所需省份的永久宣称！"
+ austrian_italian_ambition_claims:0 "获得对§Y意大利野心§!任务所需省份的永久宣称！"
+
+ #Brandenburg-Prussia
+ pru_conquer_pomerania_claims:0 "获得对§Y波美拉尼亚继承§!任务所需省份的永久宣称！"
+ connect_the_prussian_lands_claims:0 "获得对§Y普鲁士扩张§!任务所需省份的永久宣称！"
+ pru_conquer_silesia_claims:0 "获得对§Y征服西里西亚§!任务所需省份的永久宣称！"
+ prussia_partitions_poland_claims:0 "获得对§Y征服大波兰§!任务所需省份的永久宣称！"
+ pru_duchy_of_cleves_claims:0 "获得对§Y克莱沃公国§!任务所需省份的永久宣称！"
+ #Lithuania
+ defeat_the_livonian_order_claims:0 "获得对§Y征服利沃尼亚§!任务所需省份的永久宣称！"
+
+ #Ottomans
+ conquer_southern_greece_claims:0 "获得对§Y征服希腊南部§!任务所需省份的永久宣称！"
+ conquer_serbia_claims:0 "获得对§Y征服塞尔维亚§!任务所需省份的永久宣称！"
+ conquer_bosnia_claims:0 "获得对§Y征服波斯尼亚§!任务所需省份的永久宣称！"
+ conquer_hungary_claims:0 "获得对§Y控制多瑙河§!任务所需省份的永久宣称！"
+ vassalize_wallachia_claims:0 "获得对§Y征服瓦拉几亚§!任务所需省份的永久宣称！"
+ vassalize_transylvania_claims:0 "获得对§Y附庸特兰西瓦尼亚§!任务所需省份的永久宣称！"
+ consolidate_asia_minor_claims:0 "获得对§Y巩固小亚细亚§!任务所需省份的永久宣称！"
+ safeguard_eastern_anatolia_claims:0 "获得对§Y保卫安纳托利亚东部§!任务所需省份的永久宣称！"
+ conquer_mesopotamia_claims:0 "获得对§Y征服美索不达米亚§!任务所需省份的永久宣称！"
+ conquer_haasa_claims:0 "获得对§Y征服哈萨§!任务所需省份的永久宣称！"
+ conquer_trebizond_claims:0 "获得对§Y征服特拉布宗§!任务所需省份的永久宣称！"
+ take_kaffa_claims:0 "获得对§Y征服卡法§!任务所需省份的永久宣称！"
+ conquer_levant_claims:0 "获得对§Y征服黎凡特§!任务所需省份的永久宣称！"
+ conquer_egypt_claims:0 "获得对§Y征服埃及§!任务所需省份的永久宣称！"
+ defeat_the_knights_claims:0 "获得对§Y击败骑士团§!任务所需省份的永久宣称！"
+ take_crete_from_venice_claims:0 "获得对§Y从威尼斯手中夺取克里特岛§!任务所需省份的永久宣称！"
+ conquer_tripolitania_claims:0 "获得对§Y征服的黎波里塔尼亚§!任务所需省份的永久宣称！"
+ conquer_tunisia_claims:0 "获得对§Y征服突尼斯§!任务所需省份的永久宣称！"
+ subjugate_algiers_claims:0 "获得对§Y征服阿尔及尔§!任务所需省份的永久宣称！"
+ conquer_hedjaz_claims:0 "获得对§Y征服汉志§!任务所需省份的永久宣称！"
+ conquer_mocha_claims:0 "获得对§Y征服摩卡§!任务所需省份的永久宣称！"
+
+ #Poland-Commonwealth
+ conquer_warmia_claims:0 "获得对§Y收复普鲁士§!任务所需省份的永久宣称！"
+ annex_mazovia_claims:0 "获得对§Y重新并入马佐夫舍§!任务所需省份的永久宣称！"
+ vassalize_the_teutonic_order_claims:0 "获得对§Y击败条顿骑士团§!任务所需省份的永久宣称！"
+ vassalize_lithuania_claims:0 "获得对§Y整合立陶宛§!任务所需省份的永久宣称！"
+ conquer_silesia_claims:0 "获得对§Y征服西里西亚§!任务所需省份的永久宣称！"
+
+ #Sweden
+ control_scania_claims:0 "获得对§Y征服斯科讷§!任务所需省份的永久宣称！"
+ vassalize_norway_swe_claims:0 "获得对§Y保护挪威§!任务所需省份的永久宣称！"
+ control_latvia_claims:0 "获得对§Y征服拉脱维亚§!任务所需省份的永久宣称！"
+ swedish_pommerania_claims:0 "获得对§Y瑞典波美拉尼亚§!任务所需省份的永久宣称！"
+
+ #Scandinavian Events
+ BtPLegacyScandinavianFlavour.1.t:0 "克里斯托弗三世·冯·维特尔斯巴赫之死"
+ BtPLegacyScandinavianFlavour.1.d:0 "维特尔斯巴赫家族的克里斯托弗因波美拉尼亚的埃里克被废黜而登上丹麦王位和卡尔马联盟的宝座。然而，克里斯托弗只是丹麦贵族的傀儡，尽管他成功地维持了一些个人控制权，但三个王国的贵族最终获得了自维京时代以来君主们所拥有的多项特权和决策权力。瑞典贵族尤其不喜欢这位国王，他们给他起了个绰号“树皮国王”就证明了这一点。\n\n1448年，克里斯托弗突然去世，年仅32岁，留下了权力真空。这导致瑞典御前大臣里克马尔什·卡尔·克努特松·邦德在瑞典当选为国王，奥尔登堡的克里斯蒂安在丹麦当选为国王，从而引发了卡尔马联盟内的权力斗争，这场斗争一直持续到1457年，奥尔登堡的克里斯蒂安最终当选为瑞典国王。"
+ BtPLegacyScandinavianFlavour.1.a:0 "我们必须夺回瑞典王位！"
+ BtPLegacyScandinavianFlavour.1.b:0 "我们无力争夺瑞典王位..."
+ BtPLegacyScandinavianFlavour.2.t:0 "挪威王位"
+ BtPLegacyScandinavianFlavour.2.d:0 "瑞典贵族和枢密院在选举卡尔·克努特松·邦德为瑞典国王后，试图让卡尔马联盟统一在一位瑞典国王而非丹麦国王之下。由于克里斯托弗在挪威的支持寥寥无几，他们试图说服挪威贵族及其王国议会选举瑞典的卡尔·克努特松为新统治者。他们的努力取得了成功，最终于1449年11月在尼达罗斯大教堂为卡尔·克努特松加冕为挪威国王。然而，瑞典贵族，主要是瑞典教会以及奥克森斯蒂尔纳和瓦萨家族，极不情愿支持瑞典对丹麦发动战争，因此，仅仅一年后，卡尔·克努特松就放弃了挪威王位，支持奥尔登堡的克里斯蒂安。后来，大主教容斯·本特松·奥克森斯蒂尔纳和贵族埃里克·阿克塞尔松·托特反叛卡尔·克努特松，将他流放至但泽，并选举克里斯蒂安为瑞典国王。"
+ BtPLegacyScandinavianFlavour.2.a:0 "向丹麦国王发起战斗！"
+ BtPLegacyScandinavianFlavour.2.b:0 "过早放弃挪威王位。"
+ BtPLegacyScandinavianFlavour.2.a_tooltip:0 "如果任由叛军蹂躏我们的国家，他们可能会倒向敌人一方。"
+ BtPLegacyScandinavianFlavour.2.b_tooltip:0 "丹麦国王将毫无阻碍地继续统治挪威。"
+ BtPLegacyScandinavianFlavour.3.t:0 "挪威的命运"
+ BtPLegacyScandinavianFlavour.3.d:0 "随着克里斯托弗·冯·维特尔斯巴赫的突然去世，挪威没有了统治者！挪威王国议会有几个候选人可供选择：我们要么继续处于丹麦统治之下，选举新的丹麦国王奥尔登堡的克里斯蒂安；要么统一在新的瑞典国王卡尔·克努特松·邦德之下；要么走自己的路，选举现任挪威王国守护者、哈康五世的直系后裔西居尔·约恩松。"
+ BtPLegacyScandinavianFlavour.3.a:0 "选举卡尔·克努特松·邦德"
+ BtPLegacyScandinavianFlavour.3.b:0 "选举奥尔登堡的克里斯蒂安"
+ BtPLegacyScandinavianFlavour.3.c:0 "选举西居尔·约恩松·斯韦勒"
+ BtPLegacyScandinavianFlavour.4.t:0 "卡尔·克努特松·邦德被废黜"
+ BtPLegacyScandinavianFlavour.4.d:0 "最终在1457年，瑞典贵族受够了瑞典和丹麦之间的战争。由大主教容斯·本特松·奥克森斯蒂尔纳和贵族埃里克·阿克塞尔松·托特领导的叛乱势头渐盛，导致卡尔·克努特松·邦德被流放至但泽市。他们担任联合摄政，最终选举丹麦国王奥尔登堡的克里斯蒂安为新的瑞典国王，再次统一了卡尔马联盟。"
+ BtPLegacyScandinavianFlavour.4.a:0 "时机一到，我们将重获独立！"
+ BtPLegacyScandinavianFlavour.5.a:0 "挪威王位是我们的！"
+
+ #Swedish Missions
+ swe_turns_have_tabled_claims:0 "获得对§Y扭转局势§!任务所需省份的永久宣称！"
+ swe_turns_have_tabled_title:0 "扭转局势"
+ swe_turns_have_tabled_desc:0 "我们现在已将挪威纳入麾下。现在是时候一劳永逸地统一斯堪的纳维亚了。这次，要在瑞典的统治之下！"
+
+ swe_expand_kopparberget_title:0 "扩建科帕尔贝里耶特"
+ swe_expand_kopparberget_desc:0 "瑞典一直以自然资源丰富而闻名。特别是大铜矿，提斯卡舍贝里耶格矿就位于其中，它不仅有巨大的潜力为军队提供资金，还能让我国崛起成为欧洲大国之一。如果我们希望走向强大，就必须投资大铜矿！"
+ swe_found_sala_silver_mine_title:0 "建立萨拉银矿"
+ swe_found_sala_silver_mine_desc:0 "在韦斯特罗斯以北的山丘中蕴藏着大量的银矿。不仅如此，这座山还蕴藏着大量的铅和锌。山上还有一种颇为奇特的绿色大理石，有可能被开发利用。这样的地方只会让我们这样的伟大国家受益，这表明我们应该迅速在该地区开展采矿作业。"
+ swe_control_baltic_trade_title:0 "控制波罗的海贸易"
+ swe_control_baltic_trade_desc:0 "瑞典帝国因波罗的海而统一。这就需要一支强大的舰队来保护它，并完全掌控通过它的贸易。"
+ swe_control_baltic_trade_tooltip:0 "控制至少§Y3§!个位于§Y波罗的海§!且等级至少为§Y2§!的贸易中心！"
+ swe_dominium_maris_baltici_title:0 "波罗的海统治权"
+ swe_dominium_maris_baltici_desc:0 "为了最终完全掌控波罗的海，我们需要确保控制从斯卡格拉克海峡和卡特加特海峡到芬兰湾的所有土地。这些土地都必须归瑞典所有。"
+
+ swe_expand_finland_claims:0 "获得对§Y扩张芬兰§!任务所需省份的永久宣称！"
+ swe_expand_finland_title:0 "扩张芬兰"
+ swe_expand_finland_desc:0 "自北方十字军东征以来，芬兰一直是瑞典不可分割的一部分。在13 - 15世纪，瑞典与俄罗斯的诺夫哥罗德公国为争夺芬兰湾的土地展开对抗，由此确立了现在的边界。如今，罗斯人的土地因蒙古人的入侵而四分五裂，但他们正开始统一为一个国家。他们实行专制统治，引发了严重的内战，国力因此被削弱。如果他们成功解决内部冲突，我国将面临巨大危险。我们必须在他们行动之前采取行动，将边界扩张到罗斯人的土地上。"
+ control_estonia_claims:0 "获得对§Y控制爱沙尼亚§!任务所需省份的永久宣称！"
+
+ swe_golden_age:0 "瑞典黄金时代"
+ desc_swe_golden_age:0 ""
+
+ swe_found_helsinki_title:0 "建立赫尔辛基"
+ swe_found_helsinki_desc:0 "芬兰湾一直是控制波罗的海贸易的重要海域。拉塞堡城堡到目前为止一直履行这一职责，但最近海平面急剧下降。如果我们要维持波罗的海贸易，这是不可接受的。因此，宫廷顾问建议在附近的赫尔辛基河上建立一个新的定居点。"
+ swe_settle_finland_title:0 "定居芬兰"
+ swe_settle_finland_desc:0 "虽然芬兰是一个贫穷和落后的地方，但它一直是我们军队的重要征兵地，特别是哈卡佩利塔骑兵部队。随着我们国家其他地区在我们走向伟大时得到改善，芬兰当然也会如此！"
+ swe_settle_finland_tooltip:0 "将芬兰城市名称重命名为瑞典语。"
+ swe_settled_finland:0 "已定居芬兰"
+ desc_swe_settled_finland:0 ""
+
+ swe_universities_title:0 "瑞典创新精神"
+ swe_universities_desc:0 "大学主要用于神学目的，然而我们作为新兴大国的抱负需要一种不同的学习。随着我们扩大边界和改革行政，需要更多官僚来填补职位。这需要向创新迈进，在我们帝国的每个角落建立这些学习中心！"
+
+ swe_participate_league_war_title:0 "三十年战争"
+ swe_participate_league_war_desc:0 "神圣罗马帝国内部出现了巨大的分裂。一种新宗教正在传播，各种诸侯要求宗教自由。皇帝正在镇压这些异端，造成巨大的动荡，最终将导致全面战争。当这种情况发生时，我们将确保采取立场，因为这将允许我们扩大影响力到原本基本统一的土地上。"
+ swe_bremen_verden_claims:0 "获得对§Y瑞典不来梅-费尔登§!任务所需省份的永久宣称！"
+ swe_bremen_verden_title:0 "瑞典不来梅-费尔登"
+ swe_bremen_verden_desc:0 "不来梅-费尔登的主教区正受到丹麦人的压力。随着帝国权力在三十年战争后削弱，我们必须采取行动，在他们之前夺取这些土地！"
+ swe_imperial_influence:0 "帝国影响力"
+ desc_swe_imperial_influence:0 ""
+
+ swedish_prussia_claims:0 "获得对§Y瑞典普鲁士§!任务所需省份的永久宣称！"
+ swedish_prussia_title:0 "瑞典普鲁士"
+ swedish_prussia_desc:0 "波美拉尼亚以东的土地已被霍亨索伦家族继承，他们仍留在神圣罗马帝国内。这些土地必须从他们和他们的继承权中夺取，就像波美拉尼亚的土地一样！"
+ swe_conquered_prussia:0 "征服普鲁士"
+ desc_swe_conquered_prussia:0 ""
+
+
+ swedish_gold_coast_title:0 "瑞典黄金海岸"
+ swedish_gold_coast_desc:0 "随着新瑞典在新世界建立，我们将通过在非洲建立贸易站来参与三角贸易。值得注意的是，黄金海岸周围的地区似乎适合开发。"
+ swedish_caribbean_title:0 "瑞典加勒比"
+ swedish_caribbean_desc:0 "随着越来越多的国家在加勒比海建立糖和咖啡的热带种植园，现在我们有了奴隶贸易的渠道，我们也应该这样做！"
+
+ #Batch 2
+ dan_slesvig_holstein_inheritance_title:0 "石勒苏益格问题"
+ dan_slesvig_holstein_inheritance_desc:0 "1439年，克里斯托弗·冯·维特尔斯巴赫通过授予荷尔斯泰因伯爵阿道夫八世·冯·荷尔斯泰因-兰茨堡整个石勒苏益格公国作为丹麦王冠下的世袭封地，成功获得了他的忠诚，从而使荷尔斯泰因成为丹麦的附庸。幸运的是，阿道夫还没有孩子，因此没有合适的继承人。如果他去世，他目前控制的两个公国有分离的风险，石勒苏益格和荷尔斯泰因贵族都不认为这是有益的。我们必须说服两个地区的贵族选举我们作为两个公国的继承人。"
+ denmark_norway_integration_claims:0 "获得对§Y整合挪威§!任务所需省份的永久宣称！"
+ denmark_sweden_integration_claims:0 "获得对§Y统一斯堪的纳维亚§!任务所需省份的永久宣称！"
+
+ dan_strengthen_sound_toll_title:0 "加强海峡通行费"
+ dan_strengthen_sound_toll_desc:0 "厄勒海峡通行费是我们国家的主要收入，是我们国家能够繁荣发展的最大原因。虽然我们的邻居因为它的引入而鄙视我们，但它是一个强大的外交工具，我们可以通过免除他们商人的通行费来获得联盟。因此，加强对敌人的通行费应该对我们极其有益。"
+ dan_sound_toll_strengthened:0 "海峡通行费已加强"
+ dan_sound_toll_strengthened_desc:0 ""
+ danish_controlled_cot_title:1 "丹麦波罗的海贸易"
+
+ dan_curtail_hanseatic_trade_title:0 "遏制汉萨同盟"
+ dan_curtail_hanseatic_trade_desc:0 "汉萨同盟已被证明是我们身边的持续刺，由于他们的傲慢和认为他们将控制该地区贸易的信念而引发了几次冲突。如果我们的国家要繁荣，我们必须不惜一切代价遏制他们。让我们从扩大我们在该地区的贸易开始，这样我们就能获得优势。"
+ dan_curtailed_hansa:0 "已遏制汉萨同盟"
+ dan_curtailed_hansa_desc:0 ""
+ dan_seize_lubeck_hamburg_title:0 "夺取汉萨同盟"
+ dan_seize_lubeck_hamburg_desc:0 "现在是消灭汉萨同盟的吕贝克和汉堡邦国并将它们置于我们统治之下的时候了，最终为该地区的贸易带来和平。"
+ dan_dominance_asserted:0 "丹麦统治地位已确立"
+ dan_dominance_asserted_desc:0 ""
+
+ denmark_iceland_integration_title:0 "整合冰岛"
+ denmark_iceland_integration_desc:0 "冰岛是很久以前在这些土地上进行的伟大远征的见证。随着卡尔马联盟的出现，这些土地现在属于丹麦国王。如果我们要追求海外野心，冰岛将证明是一个关键的垫脚石。"
+ danish_greenland_title:0 "丹麦格陵兰"
+ danish_greenland_desc:0 "虽然北欧远征的故事在几个世纪前就已经失传，但在北方仍然有关于冰岛以外土地的故事。要到达印度，毫无疑问探索冰岛以外的地方必须是方法。虽然海上覆盖着危险的冰山，但如果我们能穿过它们，我们就能通过发现新的贸易路线使我们的国家变得极其富有。我们必须立即派遣我们的远征队！"
+ danish_gold_coast_title:0 "丹麦黄金海岸"
+ danish_gold_coast_desc:0 "随着新世界的出现，许多探险家正在寻找富饶肥沃的土地来开发。然而，要做到这一点，我们需要廉价劳动力，这在非洲的土地上有很多，特别是在黄金海岸周围。我们必须在该地区建立自己的前哨站，以便为我们的利益获得奴隶贸易。特别是因为我们的间谍告诉我们，讨厌的瑞典人也对这个地区有既得利益！"
+ danish_caribbean_title:0 "丹麦加勒比"
+ danish_caribbean_desc:0 "加勒比海的土地郁郁葱葱，非常适合糖种植园。由于我们现在有了廉价的农场工人，我们应该在加勒比海建立我们的存在，使自己变得极其富有。"
+ danish_east_indian_trade_company_title:0 "丹麦印度"
+ danish_east_indian_trade_company_desc:0 "随着葡萄牙探险家找到了绕过非洲的路线并绘制了东印度贸易路线，很明显，如果我们要竞争印度的巨大财富，我们也必须加入这场竞赛。"
+
+ dan_retake_gotland_title:0 "夺回哥特兰"
+ dan_retake_gotland_desc:0 "卡尔马联盟的前国王波美拉尼亚的埃里克在维斯比的哥特兰建立了一个流氓海盗国家。这个岛屿属于丹麦，不属于其他任何人。我们必须将篡位者赶出哥特兰，并将岛屿归还我们的统治！"
+
+ danish_curonia_title:0 "丹麦库尔兰"
+ danish_curonia_desc:0 "通过狡猾和出色的外交，我们设法获得了库尔兰公国的继承权。如果我们要建立对波罗的海贸易的适当控制，我们需要为自己确保这些土地！"
+ danish_curonia_claims:0 "获得对§Y丹麦库尔兰§!任务所需省份的永久宣称！"
+
+ dan_found_kongsberg_silver_mine_title:0 "孔斯贝格银矿"
+ dan_found_kongsberg_silver_mine_desc:0 "由于我们现在已经获得了挪威贵族的信任，努力应该集中在开发挪威土地上。探矿者已被派出，报告在德拉门周围地区有大量银矿。开发这个矿床将意味着巨大的财富，可以用来资助我们的军事行动。"
+ dan_found_roros_copper_mine_title:0 "勒罗斯铜矿"
+ dan_found_roros_copper_mine_desc:0 "我们的探矿者还报告在特隆赫姆东南部的小村庄勒罗斯有大量铜矿。随着大炮的出现，铜已成为制造青铜的主要金属，这是我们目前边界内很少有的。我们必须立即建立采矿作业！"
+ dan_invest_in_norway_title:0 "投资挪威"
+ dan_invest_in_norway_desc:0 "最后，随着在挪威建立了大型采矿作业，这些土地已成为我们王国的重要和不可或缺的资产，但我们可以做得更多。让我们在该地区建立几个新城市，进一步增加我们的财富。"
+
+ dan_restore_danevirke_title:0 "恢复丹麦墙"
+ dan_restore_danevirke_desc:0 "随着百年战争的结束，德国北部出现了新的威胁。在石勒苏益格附近存在古老的防御工事，称为丹麦墙，过去用于击退德国入侵者。我们必须重建这个边境，保护我们的石勒苏益格土地免受进一步的德国化，并创建我们可以依赖的强大防御工事。"
+ danish_pommerania_title:0 "丹麦波美拉尼亚"
+ danish_pommerania_desc:0 "由于我们的南部边界现在已经得到改善以防御这种新威胁，我们必须向他们的腹地推进。波美拉尼亚的土地不仅将提供进入腹地的垫脚石，而且将进一步巩固我们对波罗的海的统治。"
+ danish_pommerania_claims:0 "获得对§Y丹麦波美拉尼亚§!任务所需省份的永久宣称！"
+ dan_prussian_subjugation_title:0 "征服普鲁士"
+ dan_prussian_subjugation_desc:0 "现在是时候征服北德威胁并最终确定我们对波罗的海的统治了。让我们证明丹麦是波罗的海之主的真正拥有者！"
+ dan_prussian_subjugation_claims:0 "获得对§Y征服普鲁士§!任务所需省份的永久宣称！"
+
+ dan_north_sea_navy_title:0 "北海海军"
+ dan_north_sea_navy_desc:0 "几个世纪前，丹麦国王控制了比丹麦-挪威更广阔的土地，现在被称为不列颠群岛。为了重获我们以前的遗产，我们需要建立一支能够航行到不列颠群岛并与英国海军竞争的舰队。"
+ dan_enforce_danelaw_title:0 "实施丹麦法"
+ dan_enforce_danelaw_desc:0 "英国人享受独立的时间太长了。现在是时候恢复我们对不列颠群岛的统治并对他们的领地实施丹麦法律了。"
+ dan_enforce_danelaw_claims:0 "获得对§Y实施丹麦法§!任务所需省份的永久宣称！"
+
+ #Swedish stuff
+ swedish_east_indian_trade_company_title:0 "瑞典印度"
+ swedish_east_indian_trade_company_desc:0 "随着葡萄牙探险家找到了绕过非洲之角的路线并绘制了东印度贸易路线，很明显我们必须加入争夺印度财富的竞赛。特别是因为我们的间谍告诉我们，邻近的肮脏丹麦人也这样做了！"
+
+ #Sacking events
+ bt_sacking_events.1.t:0 "[45.GetName]的洗劫"
+ bt_sacking_events.1.d:0 "当丹麦军队进入[45.GetName]时，恐慌在街道上蔓延，士兵们将他们追赶到建筑物内。当丹麦将军下达命令时，士兵们进入汉萨同盟的商馆，夺取他们的金库并屠杀里面的市民。他们进入市政厅，当当地贵族请求宽恕时，很少有人幸免。城市被彻底洗劫，人口几乎减半。由于犯下的所有暴行，毫无疑问这座城市需要几十年，甚至几个世纪才能恢复。也就是说，如果它还能恢复的话。然而，有一件事是确定的：一旦其他汉萨城市听说这次袭击，他们会对我们和我们的军队怀有极大的仇恨，但也会恐惧。"
+ bt_sacking_events.1.a:0 "汉萨同盟将不复存在！"
+ bt_sacking_events.2.t:0 "[12.GetName]的洗劫"
+ bt_sacking_events.2.d:0 "当瑞典军队进入[12.GetName]时，恐慌在街道上蔓延，士兵们将他们追赶到建筑物内。瑞典将军下达命令，任何丹麦人都不应幸免。瑞典军队在洗劫哥本哈根城堡和耗尽丹麦金库时犯下了可怕的暴行。无论剩余的丹麦人口如何，他们肯定会对我们怀有极大的仇恨，但没有强大的地位，他们除了屈服于我们的统治外几乎无能为力。然而，哥本哈根本身在几十年内都不会恢复。"
+ bt_sacking_events.2.a:0 "这就是给他们的教训。丹麦混蛋！"
+
+ #Batch 3 - which I understand was done with some input from deserk, as well.
+ nor_win_independence_title:0 "独立挪威"
+ nor_win_independence_desc:0 "挪威贵族在1397年选举丹麦女王玛格丽特，相信她会尽其所能恢复我们的遗产。然而，过去的几十年表明，丹麦人只对他们与汉萨同盟的小争吵感兴趣。特别是最近被废黜的波美拉尼亚的埃里克完全忽视了我们。因此，继续这个联盟已被证明是不合理的。我们必须争取独立，以免我们冒着失去遗产的风险，成为丹麦贵族的受害者。"
+ nor_king_of_sweden_title:0 "瑞典国王"
+ nor_king_of_sweden_desc:0 "由于我们现在已经获得独立，我们的瑞典邻居威胁要征服我们。时间表明，一个生存时另一个就无法生存。因此，瑞典人必须被迫接受我们的统治。"
+ nor_king_of_sweden_claims:0 "获得对§Y瑞典国王§!任务所需省份的永久宣称！"
+ nor_reverse_kalmar_union_title:0 "逆转卡尔马联盟"
+ nor_reverse_kalmar_union_desc:0 "随着瑞典人被征服，只有我们以前的领主丹麦人站在我们和统一的斯堪的纳维亚之间。现在是时候让他们接受[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName]作为他们的[Root.Monarch.GetTitle]了！"
+ nor_reverse_kalmar_union_claims:0 "获得对§Y逆转卡尔马联盟§!任务所需省份的永久宣称！"
+
+ nor_retake_iceland_title:0 "收复冰岛"
+ nor_retake_iceland_desc:0 "冰岛是很久以前在这些土地上进行的伟大远征的见证。随着卡尔马联盟的出现，这些土地现在属于丹麦国王。如果我们要追求海外野心，冰岛将证明是一个关键的垫脚石，因此需要被重新夺回！"
+ nor_retake_iceland_claims:0 "获得对§Y收复冰岛§!任务所需省份的永久宣称！"
+ nor_colonize_greenland_title:0 "殖民格陵兰"
+ nor_colonize_greenland_desc:0 "虽然北欧远征的故事在几个世纪前就已经失传，但在冰岛仍然有关于远方土地的故事。我们必须追随祖先的脚步，找到这些很久以前失落的土地，并重新建立与这些土地的联系。我们必须立即派遣我们的远征队！"
+ nor_colonize_markland_title:0 "殖民马克兰"
+ nor_colonize_markland_desc:0 "被称为格陵兰的土地似乎一点也不绿，完全缺乏建造坚固定居点的木材来源。我们的探险家报告西南部有林地，他们称之为"马克兰"。我们必须派遣我们的探险家到这个地区来推进我们的殖民扩张。"
+ nor_markland_timber:0 "马克兰木材"
+ nor_markland_timber_desc:0 ""
+ nor_colonize_vinland_title:0 "殖民文兰"
+ nor_colonize_vinland_desc:0 "随着马克兰殖民地的建立，我们可以进一步推进到这个新大陆。向南冒险的探险家带回了关于富饶土地和大量可耕地的报告。他们称之为"文兰"的这片土地，田野之地，必须由我们自己来定居。"
+
+ nor_colonize_helluland_title:0 "殖民赫卢兰"
+ nor_colonize_helluland_desc:0 "我们的探险家报告西北部有更多土地，这些土地似乎贫瘠且全年被冰覆盖。受传奇故事的启发，这个岩石露头因此被命名为"赫卢兰"。他们还报告说海洋继续向西延伸。为了为向西进一步探索提供前哨站，这个赫卢兰上有一个海湾应该很适合我们。"
+
+ nor_colonize_greater_ireland_title:0 "殖民大爱尔兰"
+ nor_colonize_greater_ireland_desc:0 "来自冰岛和挪威的传奇故事讲述了一个白人土地的故事。传说维京探险家发现了在马克兰海岸定居的爱尔兰人，因此将其命名为"大爱尔兰"。随着爱尔兰被征服和部落在我们的统治下统一，我们必须重新定居这些土地并写一个新的传奇！"
+
+ nor_found_kongsberg_silver_mine_title:0 "孔斯贝格银矿"
+ nor_found_kongsberg_silver_mine_desc:0 "挪威经济主要通过渔业维持，但我们的土地也非常多山，因此必须富含矿物！探矿者已被派出，报告在德拉门周围地区有大量银矿。开发这个矿床将意味着巨大的财富，可以用来资助我们的战役。"
+ nor_found_roros_copper_mine_title:0 "勒罗斯铜矿"
+ nor_found_roros_copper_mine_desc:0 "我们的探矿者还报告在特隆赫姆东南部的小村庄勒罗斯有大量铜矿。随着大炮的出现，铜已成为制造青铜的主要金属，这是我们目前边界内很少有的。我们必须立即建立采矿作业！"
+ nor_kaupstadar_of_norway_title:0 "挪威市场城镇"
+ nor_kaupstadar_of_norway_desc:0 "自卡尔马联盟以来，挪威土地一直被视为贫穷和落后。如果我们要承担北欧大国的地位，这是不可接受的。我们必须将大量资源用于发展我们的土地并建立挪威市场城镇！"
+
+ nor_control_orkney_title:0 "控制奥克尼"
+ nor_control_orkney_desc:0 "我们的王国曾经控制的不仅仅是挪威土地。事实上，现在被称为不列颠群岛的土地大多在伟大的哈康·哈康松统治下向我们宣誓效忠。为了为我们重新征服这些土地并建立对北海的牢固控制，我们必须确保我们保持对奥克尼群岛这个桥头堡的控制。"
+ nor_conquer_the_isles_title:0 "征服诸岛"
+ nor_conquer_the_isles_desc:0 "既然我们已经建立了桥头堡，对不列颠群岛的入侵可以开始了！首先，我们必须夺回该地区的岛屿。"
+ nor_conquer_the_isles_claims:0 "对任务§Y征服诸岛§!所需的省份获得永久宣称！"
+ nor_haakons_legacy:0 "哈康的遗产"
+ nor_haakons_legacy_desc:0 ""
+ nor_conquer_scotland_title:0 "征服高地"
+ nor_conquer_scotland_desc:0 "诸岛已在我们的控制之下，现在我们可以着手从苏格兰人手中夺取高地的控制权了。"
+ nor_conquer_scotland_claims:0 "对任务§Y征服高地§!所需的省份获得永久宣称！"
+ nor_conquer_ireland_title:0 "征服爱尔兰"
+ nor_conquer_ireland_desc:0 "既然我们已经控制了高地，我们必须进一步向诸岛推进，在爱尔兰建立挪威的统治，将相互争斗的氏族团结在我们的旗帜下！"
+ nor_conquer_ireland_claims:0 "对任务§Y征服爱尔兰§!所需的省份获得永久宣称！"
+ nor_conquer_england_title:0 "比哈拉尔·哈德拉达更勇猛"
+ nor_conquer_england_desc:0 "哈拉尔·哈德拉达，这位强硬的统治者，在1066年宣称拥有英格兰王位，最终引发了历史上著名的斯坦福桥战役，他最终被当时的国王哈罗德·戈德温森所杀。他的死对挪威王国来说是一场真正的悲剧，但这次，传说将讲述[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName]如何击败英格兰国王，在激烈的战斗中将其斩杀，一劳永逸地将诸岛统一在挪威的统治之下！"
+ nor_conquer_england_claims:0 "对任务§Y比哈拉尔·哈德拉达更勇猛§!所需的省份获得永久宣称！"
+ nor_harder_than_hardrade:0 "比哈拉尔·哈德拉达更勇猛"
+ nor_harder_than_hardrade_desc:0 "我们成功征服了整个不列颠群岛，将其统一在我们的王冠之下。这超越了以往任何一位挪威统治者，赋予我们永恒的荣耀。"
+
+ GER_parliament_name:0 "帝国议会"
+ #Batch 3
+ pom_gen_recon_wlg_title:0 "收复沃尔加斯特"
+ pom_gen_recon_wlg_desc:0 "在1295年首次划分后，沃尔加斯特获得了较大的一部分，位于佩内河、伊纳河和施泰佩尼茨河以北。我们必须夺回沃尔加斯特，以及富裕的汉萨城市格赖夫斯瓦尔德和施特拉尔松德，以保护波美拉尼亚免受嫉妒我们土地的邻国的攻击。"
+ pom_gen_recon_wlg_claims:0 "对§Y[WLG.GetName]§!拥有的§Y每个省份§!获得永久宣称！"
+ pom_gen_recon_stt_title:0 "收复斯德丁"
+ pom_gen_recon_stt_desc:0 "斯德丁分支以波美拉尼亚的真正首都为基地，必须重新并入我们的国家，以保护它免受勃兰登堡的窥探。我们应该征服斯德丁，统一波美拉尼亚，以抵御嫉妒我们土地的邻国的攻击。"
+ pom_gen_recon_stt_claims:0 "对§Y[STT.GetName]§!拥有的§Y每个省份§!获得永久宣称！"
+ pom_gen_recon_stp_title:0 "收复施托尔普"
+ pom_gen_recon_stp_desc:0 "波美拉尼亚-沃尔加斯特主要由施托尔普和施拉韦地区组成，于1372年划分，施托尔普最终在1390年还获得了贝尔加德和新斯德丁。如果我们要抵御嫉妒我们土地的邻国的攻击，就必须将波美拉尼亚的各个分支统一起来。"
+ pom_gen_recon_stp_claims:0 "对§Y[STP.GetName]§!拥有的§Y每个省份§!获得永久宣称！"
+
+ rmn_heir_of_rome_claims:0 "对任务§Y罗马的继承人§!所需的省份授予永久宣称！"
+ rmn_conquer_transylvania_claims:0 "对任务§Y征服特兰西瓦尼亚§!所需的省份授予永久宣称！"
+ conquer_ferrara_claims:0 "对任务§Y收复费拉拉§!所需的省份授予永久宣称！"
+
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ #Nikicaga's Work
+ #################################################################################
+ #################################################################################
+ #################################################################################
+
+ #Nikicaga, Dub和JP的意大利理念，全部归功于Nikicaga、Dub和JP（据我所知，Nikicaga编写，Dub平衡，JP进行了一些编辑？）
+ #拉文纳
+ RAV_ideas:0 "拉文纳理念"
+ RAV_ideas_start:0 "拉文纳传统"
+ RAV_ideas_bonus:0 "拉文纳野心"
+ rav_vassal_holy_see:0 "教皇国的附庸"
+ rav_vassal_holy_see_desc:0 "尽管在中世纪的大部分时间里，拉文纳名义上是一个独立的公社，但教皇们一直拥有巨大的影响力，拉文纳是一个归尔甫派城市。即使是强大的达·波伦塔家族也知道要向教皇低头。然而，由于我们的角色，我们总是得到丰厚的回报。"
+ rav_dante_dalighieri:0 "但丁·阿利吉耶里"
+ rav_dante_dalighieri_desc:0 "但丁·阿利吉耶里是有史以来最有影响力的作家之一，在归尔甫派的阴谋迫使他离开心爱的佛罗伦萨后，他来到了拉文纳。这样一位有地位的人的存在肯定能帮助我们度过不确定的时期，甚至是地狱般的时光。"
+ rav_monster_of_ravenna:0 "拉文纳的怪物"
+ rav_monster_of_ravenna_desc:0 "1512年，一个严重畸形的孩子出生于一段最不圣洁的结合——一名修女和一名修士！对它的描述各不相同，但都提到了角、翅膀和膝盖上的一只眼睛。虽然这样一个怪诞的怪物出生在我们的城市是一件不幸的事，但它引发了一场激烈的争论，即这是对天主教徒还是新教徒的惩罚。我们的神学家肯定能扭转这场争论，使其对我们有利，并削弱异教事业。"
+ rav_venetian_ties:0 "与威尼斯的联系"
+ rav_venetian_ties_desc:0 "拉文纳一直与它的北方邻国、亚得里亚海的霸主威尼斯进行贸易。在获得伊斯特拉的丰富盐矿之前，威尼斯需要拉文纳周边土地生产的盐。达·波伦塔家族自己也常常是威尼斯的盟友，这导致了他们的衰落——因为最后一任领主奥塔西奥三世背叛了他们，转而与米兰人结盟。尽管他后来又重新加入了威尼斯，但他再也没有得到原谅，波伦塔家族一个半世纪的统治就此结束。因此，我们必须利用威尼斯商人的财富，但不要被他们的关系网束缚得太紧……"
+ rav_city_of_churches:0 "教堂之城"
+ rav_city_of_churches_desc:0 "宗教在拉文纳的历史中扮演着重要角色，即使按照半岛的高标准来看，城内众多的教堂也体现了这一点。有八座教堂可以追溯到这座城市作为西方基督教世界首都的辉煌时期，到19世纪又至少新建了十座教堂。教堂越多，城市的神职人员收入就越多，他们因此总是非常满足，而修复旧教堂和建造新教堂也为我们技艺精湛的工匠提供了稳定的工作。"
+ EST_VAL_RAV_CITY_OF_CHURCHES:0 "教堂之城：$VAL|Y$"
+ rav_papal_legates:0 "教皇使节"
+ rav_papal_legates_desc:0 "特拉韦尔萨里家族和达·波伦塔家族拥有教皇使节的头衔，这使他们在统治这片土地时具有很高的合法性。虽然在教皇从威尼斯人手中重新夺回这片土地时，这些家族已经不复存在，但这个头衔及其威望仍然保留着。使节们自己治理得相当出色，拉文纳并没有因为不再是一个独立国家的首都而衰落。"
+ rav_reclaim_lost_heritage:0 "收复失落的遗产"
+ rav_reclaim_lost_heritage_desc:0 "当查理曼大帝征服伦巴第王国时，他将拉文纳置于当时我们最大的竞争对手——罗马教皇的直接统治之下！更过分的是，背信弃义的教皇阿德里安一世让这位蛮族国王可以随意从这座城市拿走东西——无数罗马圆柱、马赛克和雕像被运往北方，用来装点他的首都亚琛。现在，拉文纳再次获得自由和强大，如果我们声称只是为了夺回被不公正夺走的文物，那么我们向北征服的行动就更容易找到正当理由了。"
+ #阿雷佐
+ ARE_ideas:0 "阿雷蒂诺理念"
+ ARE_ideas_start:0 "阿雷蒂诺传统"
+ ARE_ideas_bonus:0 "阿雷蒂诺野心"
+ are_studium:0 "阿雷佐学院"
+ are_studium_desc:0 "阿雷佐学院成立于1252年，是意大利和欧洲最古老的大学之一。虽然它随着城市的衰落而没落，但现在阿雷佐再次获得自由，我们必须恢复它昔日的辉煌，以促进新思想在我们土地上的传播。"
+ are_ghibelline_tendencies:0 "吉伯林派倾向"
+ are_ghibelline_tendencies_desc:0 "在中世纪以及漫长的归尔甫派和吉伯林派战争中，阿雷佐和许多其他意大利城市一样，支持以神圣罗马帝国皇帝为核心的吉伯林派。这肯定会有助于任何外交努力，特别是在帝国内部。"
+ are_legend_of_the_true_crossv:0 "真十字架的传说"
+ are_legend_of_the_true_cross_desc:0 "《真十字架的传说》是由著名艺术家、数学家和几何学家皮耶罗·德拉·弗朗切斯卡绘制在阿雷佐圣方济各教堂墙壁上的一系列壁画。其风格以宁静的人文主义以及对几何形状和透视法的运用而著称。"
+ are_giorgio_vasari:0 "乔治·瓦萨里"
+ are_giorgio_vasari_desc:0 "乔治·瓦萨里于1511年出生在阿雷佐，是一位著名的画家、建筑师、作家和历史学家，他最著名的作品是《艺苑名人传》，这本书被认为是第一部重要的艺术史著作，因此瓦萨里也成为了这一学科的创始人。这样一位有威望的人吸引了许多渴望成名的有抱负的艺术家来到我们的城市，他们每个人都带来了新的想法。"
+ are_saracen_joust:0 "撒拉逊骑士比武"
+ are_saracen_joust_desc:0 "阿雷佐最著名的传统——撒拉逊骑士比武从16世纪一直持续到1810年，但其起源可以追溯到中世纪。比武通常在贵宾来访、狂欢节和贵族婚礼期间举行，为贵族们提供了一场令人印象深刻的表演和娱乐。这有助于让他们安分守己，同时也为我们的士兵在和平时期提供了实战经验。"
+ EST_VAL_ARE_SARACEN_JOUST:0 "撒拉逊骑士比武：$VAL|Y$"
+ are_resist_de_medici:0 "抵抗美第奇家族"
+ are_resist_de_medici_desc:0 "阿雷佐一直受到其更大、更强大的邻国佛罗伦萨的威胁。佛罗伦萨人嫉妒我们的文化成就，总是试图用武力打压我们，而美第奇家族在那里掌权后，这种压力更是与日俱增。然而，阿雷佐的主教和塔尔拉蒂家族为独立进行了艰苦的斗争，最终在1384年沦陷。现在阿雷佐再次获得自由，我们必须确保再也不会落入佛罗伦萨的统治之下！"
+ are_etruscan_artifacts:0 "伊特鲁里亚文物"
+ are_etruscan_artifacts_desc:0 "18世纪，历史学家开始发现阿雷佐辉煌的过去，它曾是屋大维统治下意大利的第三大城市，也是伊特鲁里亚文明的首都之一。伊特鲁里亚人尤其在这座城市留下了深刻的印记，以著名的红釉陶器生产和许多青铜雕像而闻名，其中最著名的是阿雷佐的奇美拉，这是伊特鲁里亚艺术的杰作，也是希腊神话中最可怕的怪物之一的典型代表。"
+ #安科纳
+ ANC_ideas:0 "安科纳理念"
+ ANC_ideas_start:0 "安科纳传统"
+ ANC_ideas_bonus:0 "安科纳野心"
+ anc_cathedral:0 "安科纳大教堂"
+ anc_cathedral_desc:0 "安科纳大教堂是为了纪念城市的守护神西里亚库斯而建，他是安科纳的一位主教，在360年前往圣地朝圣期间，在罗马帝国最后一波反基督教暴力事件中遇害，据说他也是发现真十字架的人之一。这座大教堂是中世纪建筑的杰作，融合了罗马式、拜占庭式和哥特式元素，在千禧年之交用了20年时间建成。它由附近科内罗山的白色石头建成，是我们城市财富和威望的象征。"
+ anc_not_a_seignory:0 "并非领主统治"
+ anc_not_a_seignory_desc:0 "与许多其他意大利城市不同，安科纳坚持共和制，从未被城市中的众多贵族家族统治过，是一个共和国而非领主国。我们可以自豪地说，除了里米尼的马拉泰斯塔家族短暂统治过之外，只有教皇——上帝在人间的代表——自称过安科纳的领主！"
+ anc_maritime_republic:0 "海上共和国"
+ anc_maritime_republic_desc:0 "虽然安科纳海上共和国不如威尼斯和热那亚等伟大的共和国强大或知名，但它的存在时间远远超过了阿马尔菲、加埃塔，甚至是强大的比萨共和国，直到1532年才灭亡。它成功的原因之一是与亚得里亚海对岸的拉古萨长期合作，共同对抗威尼斯的影响。"
+ anc_staunch_guelphs:0 "坚定的归尔甫派"
+ anc_staunch_guelphs_desc:0 "安科纳既不喜欢领主，也不喜欢皇帝。这座城市一直支持教皇，并因得到教皇保护而免受野心勃勃的邻国的侵扰。"
+ EST_VAL_ANC_STAUNCH_GUELPHS:0 "坚定的归尔甫派：$VAL|Y$"
+ anc_cosmopolitan_city:0 "国际化都市"
+ anc_cosmopolitan_city_desc:0 "自公元前387年希腊殖民者从锡拉库萨来到皮切尼人的土地上建立安科纳以来，这座城市一直是一个多元化的城市。一个希腊社区一直存在于这座城市中，在16世纪时多达200个家庭。它也是奥斯曼商人在意大利的重要目的地之一。安科纳还是教皇国除罗马和阿维尼翁之外唯一允许在城内保留犹太社区的城市。"
+ anc_trade_metropol:0 "贸易大都会"
+ anc_trade_metropol_desc:0 "城市中的众多社区以及与拉古萨的联盟都极大地促进了它成为一个贸易大都会，也是威尼斯以南亚得里亚海最大的港口。作为海上共和国的悠久历史也有助于我们的商人在世界各地开展贸易。"
+ anc_constructions_clement_xii:0 "克莱门特十二世的建设"
+ anc_constructions_clement_xii_desc:0 "在18世纪教皇克莱门特十二世任职期间，安科纳成为了大规模建设的目标，城市的码头得到了扩建，为纪念公元155年罗马元老院和人民向皇帝致敬而建造了一座图拉真拱门的仿制品，还建造了一座拉扎雷托——一个供海上旅行者使用的检疫站。"
+ #马拉泰斯塔/里米尼
+ MTS_ideas:0 "里米尼理念"
+ MTS_ideas_start:0 "里米尼传统"
+ MTS_ideas_bonus:0 "里米尼野心"
+ mts_imperial_vicar_romagna:0 "罗马涅帝国使节"
+ mts_imperial_vicar_romagna_desc:0 "潘多尔福一世·马拉泰斯塔是里米尼的第二任领主，于1317年继承了他已故的兄弟马拉泰斯蒂诺的职位，被神圣罗马帝国皇帝路易四世任命为罗马涅帝国使节，这是帝国中最受尊敬的头衔之一。这标志着他是皇帝在该地区的代表和合法统治者。借助这个头衔，我们更容易为征服邻国找到正当理由。"
+ mts_malatesta_seignory:0 "马拉泰斯塔领主统治"
+ mts_malatesta_seignory_desc:0 "里米尼漫长历史中最辉煌的时期无疑是马拉泰斯塔家族统治的时期，从1239年持续到1528年，在这三个世纪里，这座城市作为艺术中心繁荣发展。在13世纪，他们不得不与安西德伊和甘巴卡里等其他家族的执政官竞争，但从1312年起，他们作为领主统治着这座城市。他们在里米尼沦陷后幸存下来，并有许多著名的雇佣兵队长和牧师，直到1757年主系绝嗣。"
+ mts_gambalunghiana_library:0 "甘巴伦贾纳图书馆"
+ mts_gambalunghiana_library_desc:0 "甘巴伦贾纳图书馆由法学家亚历山德罗·甘巴伦贾于1617年创立，是城市文化生活的中心，收藏了超过28万本书籍，其中6万本是古籍，最著名的有福雷斯蒂的《名媛传》、瓦尔图里奥的原版《军事论》，以及真正的珍宝——圣奥古斯丁本人的《上帝之城》。"
+ mts_all_ages_architecture:0 "各个时代的建筑"
+ mts_all_ages_architecture_desc:0 "里米尼的悠久历史可以从其多样的建筑风格中看出。来自阿里米努姆时期的罗马建筑尤其令人印象深刻——竞技场、外科医生之屋、仍然屹立的提比略桥和奥古斯都拱门。中世纪带来了阿雷戈宫和西吉斯蒙多城堡，而马拉泰斯塔神庙则是莱昂·巴蒂斯塔·阿尔贝蒂在文艺复兴时期为马拉泰斯塔统治者建造的杰作。众多的建筑和风格肯定会帮助我们的人民接受新思想。"
+ mts_roberto_valturio:0 "罗伯托·瓦尔图里奥"
+ mts_roberto_valturio_desc:0 "罗伯托·瓦尔图里奥是一位来自里米尼的工程师和作家，也是著名军事论著《军事论》的作者。这本书献给了西吉斯蒙多·潘多尔福·马拉泰斯塔，它对古代著作进行了分类，并介绍了战争史，特别关注攻城武器和方法。这本书在当时非常著名，路易九世、马蒂亚斯·科维努斯和洛伦佐·德·美第奇都拥有一本。这样一位军事智者肯定会帮助我们的军队，尤其是在攻城战中。"
+ mts_gate_to_orient:0 "东方之门"
+ mts_gate_to_orient_desc:0 "里米尼常被称为“东方之门”，这是因为它位于意大利北部和南部地区与文化之间的地理位置、港口的重要性，以及它是许多十字军前往圣地的起点。我们处于十字路口的位置肯定会帮助我们的商人在国外市场竞争。"
+ mts_renovation_of_rimini:0 "里米尼的重建"
+ mts_renovation_of_rimini_desc:0 "这座城市的罗马建筑结构至今仍然可见，但几个世纪以来，由于战争破坏和地震，需要进行许多重建工作，特别是在马拉泰斯塔家族统治时期。进行我们自己的重建工作将使我们能够在里米尼的悠久历史中留下印记，并让它恢复到阿里米努姆时期的应有地位，当时恺撒在渡过卢比孔河后就在这里向他的军团发表讲话。"
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ #Eris's work
+ #################################################################################
+ #################################################################################
+ #################################################################################
+
+ #Eris的顾问
+ BtPLegacyMisc.EVTNAME5:0 "帕尔·加祖利"
+ BtPLegacyMisc.EVTDESC5:0 "帕尔·加祖利是一位阿尔巴尼亚天主教牧师、学者和外交官，曾是斯坎德培的顾问。1463年乔治乌斯·佩利诺去世后，他成为了斯坎德培的私人大使。他的兄弟琼也是莱什联盟的外交官。"
+ BtPLegacyMisc.EVTNAME6:0 "安东尼·库克"
+ BtPLegacyMisc.EVTDESC6:0 "安东尼·库克是一位英国人文主义者和学者，曾担任爱德华六世的同伴和导师。在爱德华加冕时，他成为了巴斯骑士，并在刘易斯议会任职。1553年，他因涉嫌参与简·格雷夫人的行动而最终被关进伦敦塔。"
+
+ #Eris的作品
+ #波莫族（可能也适用于几乎所有非丘马什族？至少暂时如此。）
+ PMO_ideas:0 "波莫族理念"
+ PMO_ideas_start:0 "波莫族传统"
+ PMO_ideas_bonus:0 "波莫族野心"
+ pmo_tradition_of_dance:0 "舞蹈传统"
+ pmo_tradition_of_dance_desc:0 "我们的人民有着悠久的舞蹈历史，从可以让我们缅怀逝者的鬼舞，到作为成年仪式的古老传统——南方之旅。这些庆祝活动让我们的人民更加团结。"
+ pmo_kuksu_spirit:0 "库库苏神灵"
+ pmo_kuksu_spirit_desc:0 "库库苏是我们精神信仰中不可或缺的一部分，在我们需要的时候，它会降临到我们身边，治愈我们村庄的疾病。"
+ pmo_coyote_trickery:0 "郊狼的诡计"
+ pmo_coyote_trickery:0 "郊狼在所有动物中占有特殊的地位。它狡猾无比，是诡计大师。我们的将军们向这种神圣的动物学习，难道不是明智之举吗？"
+ pmo_strength_of_the_lizard:0 "蜥蜴的力量"
+ pmo_strength_of_the_lizard_desc:0 "虽然郊狼可能很聪明，但我们不能总是依靠聪明才智来保卫家园。我们必须向哈塔努塔尔——蜥蜴学习，它曾与郊狼搏斗并取得了胜利。力量是保卫我们人民的关键，我们必须像蜥蜴一样，确保我们做对。"
+ pmo_directional_spirits:0 "方位神灵"
+ pmo_directional_spirits:0 "我们的世界居住着占据各个方位的伟大神灵。库库苏、卡尔尼斯、苏帕达克斯和沙-马图西。在战争时期，我们必须寻求这些神灵的指引，以取得胜利。毕竟，如果敌人在每一个回合都被我们智取，他就无法获胜。"
+ pmo_kuksu_ceremony:0 "库库苏仪式"
+ pmo_kuksu_ceremony_dsec:0 "库库苏仪式是我们孩子古老的成年仪式。身着盛装的舞者对我们的孩子进行精神考验，让他们为未来的生活做好准备。从小战胜恐惧，他们在以后的生活中就不会那么容易动摇。"
+ pmo_our_lands:0 "文明的灯塔"
+ pmo_our_lands_desc:0 "我们的人民世世代代在这片土地上狩猎和捕鱼。我们比任何人都更了解这片土地，因此能够比任何外国人都更快地在这片土地上行动。我们可以利用这一点来增加敌人的损耗。"
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ #Other modders' work
+ #################################################################################
+ #################################################################################
+ #################################################################################
+
+ #莫卧儿政府奖励，大部分工作由英佩拉特里克斯·海伦娜完成，除了布立吞和凯尔特相关的，以及原版的。翻译人员注意，这是非常低优先级的内容，除非在以莫卧儿进行世界征服游戏时，否则很少会看到。
+ mughal_government_turkish_g_assimilated:0 "奥斯曼巨炮"
+ mughal_government_turkish_g_assimilated_desc:0 "自15世纪以来，超大型巨炮就在西欧广泛使用，特别是1464年穆尼尔·阿里铸造的青铜巨炮——伟大的土耳其巨炮，被证明比其他任何巨炮都更强大，能够发射直径达0.63米的石球。学习这样的设计和样式将极大地改进我们的火炮。"
+ mughal_government_miao_g_assimilated:0 "农业专长"
+ mughal_government_miao_g_assimilated_desc:0 "苗族有着悠久而自豪的农业历史。这种传统和专长可以很容易地为我们所用。"
+ mughal_government_brythonic_assimilated:0 "骄傲独立"
+ mughal_government_brythonic_assimilated_desc:0 "布立吞人代表着曾经覆盖欧洲大片土地的古老文化的最后残余。虽然他们大部分肥沃的土地后来被日耳曼部落和罗马人夺走，但剩下的不列颠人已经锤炼成了坚韧而独立的民族，准备面对任何挑战，保卫他们最后的堡垒。我们可以利用这种骄傲的决心。"
+ mughal_government_unified_celtic_group_assimilated:0 "骄傲独立"
+ mughal_government_unified_celtic_group_assimilated_desc:0 "凯尔特人代表着曾经覆盖欧洲大片土地的古老文化的最后残余。虽然他们大部分肥沃的土地后来被日耳曼部落和罗马人夺走，但剩下的凯尔特人已经锤炼成了坚韧而独立的民族，准备面对任何挑战，保卫他们最后的堡垒。我们可以利用这种骄傲的决心。"
+ mughal_government_illyrian_assimilated:0 "卓越领导"
+ mughal_government_illyrian_assimilated_desc:0 "尽管阿尔巴尼亚人数量不多，但他们在历史上产生了一些最著名的指挥官。像埃及的穆罕默德·阿里或斯坎德培这样杰出的军事领袖，在许多困难的情况下都取得了非凡的成就。有这样的人来领导我们的军队，即使在处于劣势时，我们也能在战术上胜过对手。 "
+ mughal_government_aquitanian_assimilated:0 "游击战术"
+ mughal_government_aquitanian_assimilated_desc:0 "巴斯克人通常是伊比利亚最后被征服的民族，如果他们被征服的话。许多帝国和王国来到这个半岛，但巴斯克人总能坚持下来。如果我们学习他们在复杂地形中的知识和游击战术，我们将确保我们的敌人感受到我们征服巴斯克人时的感受。"
+ mughal_government_dacian_assimilated:0 "德拉库莱斯蒂的遗产"
+ mughal_government_dacian_assimilated_desc:0 "\"...土耳其使者来到[弗拉德]这里表示敬意，但拒绝按照他们的古老习俗摘下头巾，于是他用三根钉子将他们的头巾钉在头上，使他们无法摘下。\"\n— 安东尼奥·邦菲尼。\n\n这是弗拉德·刺穿者广泛传播的遗产之一。让我们的敌人知道，我们绝不会犹豫对那些敢于反对我们统治的人施以同样的命运。"
+ mughal_government_egyptian_assimilated:0 "民族宗教人民"
+ mughal_government_egyptian_assimilated_desc:0 "科普特人是东北非洲的基督教土著民族，曾经是埃及的多数群体。在阿拉伯征服后，他们的命运迅速改变，但令他们惊讶的是，在马穆鲁克苏丹国统治下，他们发现对他们的态度更加宽容。科普特人在几个世纪里相对和平和稳定地生活。当穆罕默德·阿里统治埃及时，这种情况进一步改善。他废除了科普特人的特别税，允许他们服兵役，并引入了许多其他的融合政策。"
+ mughal_government_saharan_group_assimilated:0 "简单的生活"
+ mughal_government_saharan_group_assimilated_desc:0 "富尔人是一个相对较小的群体，主要由半游牧的牧牛家庭和小型农业城镇组成。作为一个相当简单的社会，由村庄长老管理，并以穆斯林虔诚著称，我们可以从他们那里学习如何更好地在地方层面管理我们的土地。"
+ mughal_government_berber_group_assimilated:0 "巴巴里海盗"
+ mughal_government_berber_group_assimilated_desc:0 "马格里布人覆盖了非洲北部海岸。他们长期以来一直有劫掠意大利城邦带来的丰富贸易的经验。我们应该通过让他们成为私掠者来将他们纳入我们的海军。"
+
+

@@ -1,0 +1,224 @@
+﻿l_english:
+
+ #行政区庄园#
+ #################
+ #行政区
+ estate_exarches:0 "行政区长"
+ estate_exarches_desc:0 "行政区长的角色起源于皇帝莫里斯试图缓解自查士丁尼一世征服以来帝国的过度扩张。建立了意大利和非洲两个行政区，其中前者更常以其首府拉文纳而闻名，这两个行政区是其控制区域的最高民事和军事指挥官。他们享有很大的自治权，被认为是该地区的唯一权威。有时行政区长甚至会在君士坦丁堡争夺权力，其中一个例子是非洲行政区长领导了一场针对篡位者福卡斯的叛乱，据说福卡斯杀害了莫里斯。随着帝国受到各方攻击，行政区的存在时间很短，意大利的伦巴第人、非洲的穆斯林、东部边界的波斯人以及巴尔干的阿瓦尔人和斯拉夫人都对其构成威胁。拉文纳行政区在意大利的凯特帕纳特中得以复兴，但即使是这个行政单位也被征服，标志着拜占庭在巴尔干和安纳托利亚以外的领土的终结。\n\n随着行政区长角色的重新确立，他们在被分配的区域内担任民事和行政职务。一个区域只能有一个省分配给行政区长，该区域内所有省份将有一个§R33%§!的自治底线。作为回报，每个分配给行政区长的省份将为帝国提供额外的州，允许在这些地区建立主题。"
+ estate_exarches_province_trigger:0 "该区域内没有省份之前被分配给行政区长"
+ estate_exarches_string:0 "行政区长"
+
+ reestablish_the_exarch_system_title:0 "重新建立行政区制度"
+ reestablish_the_exarch_system_desc:0 "我们的帝国幅员辽阔，已经达到行政能力无法正确管理远方省份的地步。如果我们重新引入旧时的行政区制度，我们可以为各地区指定总督，以扩大我们的官僚影响力。"
+ byzantine_exarches_tooltip:0 "允许在您的领域内指定行政区长，大幅提高行政能力，但以较高的自治为代价。"
+ the_exarch_system:0 "行政区制度"
+ desc_the_exarch_system:0 "我们已经重新建立了行政区制度，允许我们为各地区指定行政区长。"
+ exarch_system_tooltip:0 "允许通过决策建立行政区长"
+ reduce_exarch_autonomy_title:0 "减少行政区自治"
+ reduce_exarch_autonomy_desc:0 "随着我们的政府日益中央集权，现在要求我们的行政区长成为我们帝国更重要的一部分是理所当然的。"
+ byz_revoke_exarch_autonomy_tooltip:0 "撤销我们当前行政区的特权，继承它们并启用行政区庄园，在其前首都创建行政区席位。"
+
+
+ exarch_territory_modifier:0 "行政区统治"
+ desc_exarch_territory_modifier:0 "该省目前由行政区长管理，这在很大程度上限制了我们对该省的影响力，以换取更强大的行政能力。"
+ exarches_territory_modifier_trigger:0 "该地区有一个省份属于行政区长"
+ exarch_seat_modifier_med_dev:0 "次要行政区席位国家奖励"
+ desc_exarch_seat_modifier_med_dev:0 ""
+ exarch_seat_modifier_high_dev:0 "主要行政区席位国家奖励"
+ desc_exarch_seat_modifier_high_dev:0 ""
+ exarch_seat_modifier_very_high_dev:0 "首都行政区席位国家奖励"
+ desc_exarch_seat_modifier_very_high_dev:0 ""
+ any_exarch_tag_under_root_exists_trigger:0 "任何作为我们附属国的行政区标签存在"
+
+ estate_exarches_disaster:0 "行政区独立"
+
+
+ #影响力修正
+ EST_VAL_HAS_EXARCH_SYSTEM:0 "建立了行政区: $VAL$"
+ EST_VAL_HIGH_DEVELOPMENT_EXARH_SEAT:0 "高开发行政区席位: §Y$VAL$%§!"
+ EST_VAL_VERY_HIGH_DEVELOPMENT_EXARH_SEAT:0 "非常高开发行政区席位: §Y$VAL$%§!"
+
+ #互动及其各自的修正
+ GRANT_EXARCH_AUTONOMY:0 "授予行政区自治"
+ add_local_autonomy_tooltip:0 "为每个有行政区长的省份增加§R10%§!地方自治。"
+ DRAFT_EXARCH_EPARCH:0 "征召行政区长的教区"
+ EST_VAL_DRAFTED_EXARCH_EPARCH:0 "征召的行政区长的教区: §Y$VAL$%§!"
+ DRAFT_EXARCH_TROOPS:0 "征召行政区军队"
+ EST_VAL_DRAFTED_EXARCH_TROOPS:0 "征召的行政区军队: §Y$VAL$%§!"
+ NAME_EXARCH_HEIR:0 "命名行政区长继承人"
+ EST_VAL_NAMED_EXARCH_HEIR:0 "已命名的行政区长继承人: §Y$VAL$%§!"
+ APPOINT_RELATIVE_EXARCH:0 "任命亲属为行政区长"
+ EST_VAL_APPOINTED_RELATIVE_EXARCH:0 "已任命亲属为行政区长: §Y$VAL$%§!"
+ exarches_appointed_relative_tooltip:0 "已任命亲属为行政区长"
+
+ #行政区国家#
+ ##################
+
+ #行政区理念
+ exarchate_ideas:0 "行政区理念"
+ exarchate_ideas_start:0 "行政区传统"
+ exarchate_ideas_bonus:0 "行政区雄心"
+
+ protector_of_the_emperor:0 "皇帝的保护者"
+ protector_of_the_emperor_desc:0 "皇帝指定我们为该地区皇帝利益的保护者。这个有声望的任务毫无疑问地表明了我们的合法性和统治权。"
+ byz_incorporate_far_lands:0 "纳入远方土地"
+ byz_incorporate_far_lands_desc:0 "作为皇帝的臣属，我们的职责是将远离君士坦丁堡的土地纳入帝国。为此，我们建立了高效的行政管理，以统治这些土地，并为最终并入罗马帝国做好准备。"
+ byz_ruler_of_barbarians:0 "野蛮人的统治者"
+ byz_ruler_of_barbarians_desc:0 "与我们优越民族相比，这些土地上的人们被视为未开化的野蛮人，但不要告诉他们。更明智的做法是承认他们的差异，使其仅略低于我们，同时推广我们的语言和宗教。"
+ byz_exarchate_governor:0 "行政区长"
+ byz_exarchate_governor_desc:0 "作为皇帝之下的统治者，既要管理我们自己的权力钥匙，又要确保皇帝的利益与我们一致。这项任务我们已经掌握。"
+ the_exarchs_standing_army:0 "行政区长的常备军"
+ the_exarchs_standing_army_desc:0 "一个希望控制民众并保护他们免受外部威胁的统治者需要一支常备军。我们将激励当地人自愿征兵，以保护他们自己。这样，他们的一部分工资可以用于其他改善我们伟大行政区的事务。"
+ byz_spread_the_word:0 "传播思想"
+ byz_spread_the_word_desc:0 "正如之前所述，这些土地上的人民是未开化的野蛮人。如果这些土地要被纳入帝国，这种情况是不可接受的。因此，教导他们以正确的罗马方式进行哲学思考对我们是有利的。"
+ byz_exarch_themata:0 "行政区主题"
+ byz_exarch_themata_desc:0 "随着我们尊敬的塞巴斯托斯·巴西流斯·奥托克拉托尔建立了保护帝国边界的野战军，我们理应如此。通过这些军队，我们的边界将永远扩张，绝不会缩小……除非我们的继任者认为它们不再必要。"
+
+
+ #行政区政府名称
+ EXARCHATE:0 "行政区"
+ EXARCH:0 "行政区长"
+ EXARCHISSA:0 "女行政区长"
+
+ #行政区国家及其文化
+ KCD:0 "卡尔基冬"
+ KCD_ADJ:0 "卡尔基冬的"
+ karchidoniac:0 "卡尔基冬的"
+ HSP:0 "赫斯佩里亚"
+ HSP_ADJ:0 "赫斯佩里亚的"
+ hesperic:0 "赫斯佩里亚的"
+ GLT:0 "加拉提亚"
+ GLT_ADJ:0 "加拉提亚的"
+ galatian:0 "加拉提亚的"
+ PSI:0 "波斯"
+ PSI_ADJ:0 "波斯的"
+ persic:0 "波斯的"
+ ABN:0 "阿尔比恩"
+ ABN_ADJ:0 "阿尔比恩的"
+ albian:0 "阿尔比恩的"
+ #曾经是安纳托利亚
+ ATL:0 "安提阿"
+ ATL_ADJ:0 "安提阿的"
+ #安纳托利亚听起来很奇怪。
+ anatolian:0 "安提阿的"
+ RVN:0 "拉文纳"
+ RVN_ADJ:0 "拉文纳的"
+ AEG:0 "亚历山大"
+ AEG_ADJ:0 "亚历山大的"
+ alexandrian:0 "亚历山大的"
+
+ BYZ_NO_EXARCH_IN_REGION:0 "该地区已建立行政区，最高权威使我们无法将该地区完全纳入为一个州。"
+
+
+ #行政区政府
+ exarchate_legacy:0 "行政区"
+ exarchate_legacy_desc:0 "由巴西流斯任命的总督，负责治理和管理远离首都的土地。"
+
+
+ #行政区附属类型
+ byz_exarch_title:0 "行政区长"
+ byz_exarch_title_plural:0 "行政区长们"
+ byz_exarch_is_our:0 "$NAME|Y$ 是我们的行政区长。"
+ byz_exarch_long_desc:0 "行政区长是被任命来统治遥远土地的总督。他们是其控制地区的唯一和最高权威，仅次于皇帝，他们被期望为之而奋战。"
+
+
+ #达契亚
+ establish_march_of_dacia_title:0 "建立达契亚边疆区"
+ establish_march_of_dacia_desc:0 "达契亚地区自罗马时代以来因其丰富的自然资源而重要，如铁矿和肥沃的农田。我们必须确保该地区及其居民对我们服从！"
+ DAC:0 "达契亚"
+ DAC_ADJ:0 "达契亚的"
+ DAC_ideas:0 "达契亚理念"
+ DAC_ideas_start:0 "达契亚传统"
+ DAC_ideas_bonus:0 "达契亚雄心"
+ establish_march_of_dacia_tooltip:0 "拥有瓦拉几亚、摩尔达维亚或特兰西瓦尼亚作为附属国或边疆区，或这三者中的两个"
+
+ #阿兰尼亚
+ establish_march_of_alania_title:0 "建立阿兰尼亚边疆区"
+ establish_march_of_alania_desc:0 "在高加索山脉以外的土地没有自然防御屏障，因此我们在该地区控制的任何土地都应由边疆区控制。让我们将古老的阿兰人重新纳入我们的统治之下！"
+ ALN: "阿兰尼亚"
+ ALN_ADJ: "阿兰的"
+ alan:0 "阿兰的"
+ ALN_ideas:0 "阿兰尼亚理念"
+ ALN_ideas_start:0 "阿兰尼亚传统"
+ ALN_ideas_bonus:0 "阿兰尼亚雄心"
+
+
+ #行政区建立决策
+ establish_exarch_of_karchidon_title:0 "建立卡尔基冬行政区"
+ establish_exarch_of_karchidon_desc:0 "随着行政区的重新建立，将卡尔基冬市指定为行政区长的驻地，正如莫里斯一世皇帝在7世纪所做的那样，对于一个像我们这样幅员辽阔的帝国来说，可能会带来好处。"
+ establish_exarch_of_hesperia_title:0 "建立赫斯佩里亚行政区"
+ establish_exarch_of_hesperia_desc:0 "在尤斯提尼亚努斯一世统治时期，他征服了广袤的土地。他的军队到达了伊比利亚半岛，在希腊语中被称为赫斯佩里亚，并建立了西班牙的一个省份。由于该地区主要作为对抗当时的西哥特人的保护，且尤斯提尼亚努斯未能完成其恢复帝国的计划，因此该地区在624年之前并未受到太多关注。然而，我们的野心远不止于此。我们将在该地区建立一个行政区。让我们在埃姆佩罗斯市建立它，作为该地区的历史首都。"
+ establish_exarch_of_galatia_title:0 "建立加拉提亚行政区"
+ establish_exarch_of_galatia_desc:0 "我们成功做到了自西罗马灭亡以来没有任何皇帝做到的事情——我们将影响力扩展到了高卢地区，希腊语中称为加拉提亚。随着我们对远方土地的行政管理依赖于行政区的建立，我们应该迅速行动，将一个行政区设在特雷贝隆市——其历史首都。"
+ establish_exarch_of_albion_title:0 "建立阿尔比恩行政区"
+ establish_exarch_of_albion_desc:0 "阿尔比恩是古罗马不列颠尼亚的希腊名称，几个世纪以来一直如此。如今我们已成功地将这些遥远的土地纳入我们的统治之下，我们将在该地区建立一个行政区，以实现更有效的治理。"
+ establish_exarch_of_persis_title:0 "建立波斯行政区"
+ establish_exarch_of_persis_desc:0 "历史上，位于安纳托利亚的任何国家都与居住在波斯的势力发生冲突。然而，我们已经成功地战胜了他们。让我们以伟大的亚历山大为榜样，在前罗马时代建立波斯行政区。"
+ establish_exarch_of_ravenna_title:0 "建立拉文纳行政区"
+ establish_exarch_of_ravenna_desc:0 "莫里斯一世皇帝在即位初期发现帝国过度扩张。为了解决这个问题，他建立了两个行政区，由被任命的行政区长掌握该地区的民事和军事权力。其中一个就是拉文纳行政区。在我们以罗马的名义征服这座城市后，我们将再次建立其行政区！"
+ establish_exarch_of_anatolia_title:0 "建立东方行政区"
+ establish_exarch_of_anatolia_desc:0 "随着我们的欧洲中心政策将目光投向西方，帝国首都迁至意大利，东方的土地离我们的行政中心变得不再那么接近。因此，建立一个东方行政区（希腊语中的安纳托利亚）可能有助于实现有效治理。"
+ establish_exarch_of_aegyptus_title:0 "建立埃及行政区"
+ establish_exarch_of_aegyptus_desc:0 "考虑到我们的行政中心已迁至意大利，埃及地区离我们首都的距离也随之增加。尽管该地区在历史上一直很容易控制，但自阿拉伯人和穆斯林崛起以来，该地区变得越来越动荡。因此，如果我们希望该地区得到有效治理，就有必要在该地区建立一个行政区。"
+
+
+ ai_cede_lands_karchidon_title:0 "授予卡尔基冬土地"
+ ai_cede_lands_karchidon_desc:0 "此决策允许您自动将卡尔基冬应由模组作者提供的任何省份授予他们。如果您不喜欢这项决策所形成的边界，请勿使用此决策，而是通过附属国互动授予土地，或者修改模组文件中确定应属于行政区的土地的脚本触发器。"
+ ai_cede_lands_hesperia_title:0 "授予赫斯佩里亚土地"
+ ai_cede_lands_hesperia_desc:0 "此决策允许您自动将赫斯佩里亚应由模组作者提供的任何省份授予他们。如果您不喜欢这项决策所形成的边界，请勿使用此决策，而是通过附属国互动授予土地，或者修改模组文件中确定应属于行政区的土地的脚本触发器。"
+ ai_cede_lands_galatia_title:0 "授予加拉提亚土地"
+ ai_cede_lands_galatia_desc:0 "此决策允许您自动将加拉提亚应由模组作者提供的任何省份授予他们。如果您不喜欢这项决策所形成的边界，请勿使用此决策，而是通过附属国互动授予土地，或者修改模组文件中确定应属于行政区的土地的脚本触发器。"
+ ai_cede_lands_albion_title:0 "授予阿尔比恩土地"
+ ai_cede_lands_albion_desc:0 "此决策允许您自动将阿尔比恩应由模组作者提供的任何省份授予他们。如果您不喜欢这项决策所形成的边界，请勿使用此决策，而是通过附属国互动授予土地，或者修改模组文件中确定应属于行政区的土地的脚本触发器。"
+ ai_cede_lands_persis_title:0 "授予波斯土地"
+ ai_cede_lands_persis_desc:0 "此决策允许您自动将波斯应由模组作者提供的任何省份授予他们。如果您不喜欢这项决策所形成的边界，请勿使用此决策，而是通过附属国互动授予土地，或者修改模组文件中确定应属于行政区的土地的脚本触发器。"
+ ai_cede_lands_ravenna_title:0 "授予拉文纳土地"
+ ai_cede_lands_ravenna_desc:0 "此决策允许您自动将拉文纳应由模组作者提供的任何省份授予他们。如果您不喜欢这项决策所形成的边界，请勿使用此决策，而是通过附属国互动授予土地，或者修改模组文件中确定应属于行政区的土地的脚本触发器。"
+ ai_cede_lands_anatolia_title:0 "授予安提阿土地"
+ ai_cede_lands_anatolia_desc:0 "此决策允许您自动将安提阿应由模组作者提供的任何省份授予他们。如果您不喜欢这项决策所形成的边界，请勿使用此决策，而是通过附属国互动授予土地，或者修改模组文件中确定应属于行政区的土地的脚本触发器。"
+ ai_cede_lands_aegyptus_title:0 "授予亚历山大土地"
+ ai_cede_lands_aegyptus_desc:0 "此决策允许您自动将亚历山大应由模组作者提供的任何省份授予他们。如果您不喜欢这项决策所形成的边界，请勿使用此决策，而是通过附属国互动授予土地，或者修改模组文件中确定应属于行政区的土地的脚本触发器。"
+
+
+ #克里奥尔事件
+ culture_creoles.1.t:0 "希腊语在[Root.GetName]扎根"
+ culture_creoles.1.d:0 "在[Root.GetName]对土著居民的多年稳定统治导致了同化。他们现在说我们的语言！"
+ culture_creoles.1.a:0 "太好了！"
+ culture_creoles.2.t:0 "[Root.GetName]的人民抵制我们的统治！"
+ culture_creoles.2.d:0 "最近在[Root.GetName]发生的事件导致了对我们同化尝试的强烈反对。他们希望脱离我们的统治。"
+ culture_creoles.2.a:0 "我们会让他们见识的。"
+
+ #行政区事件
+ exarches_estate_events.1.t:0 "破碎的[Root.GetExarchesName]"
+ exarches_estate_events.1.d:0 "我们高昂的重商主义政策让[Root.GetExarchesName]开始担心他们从外国获得的商品供应。前几天，一位外交官来到我们宫廷，请求我们调整政策，以允许进口对他们来说原本无法获得的商品。接受此请求无疑会改善我们之间的关系。"
+ exarches_estate_events.1.a:0 "降低重商主义"
+ exarches_estate_events.1.b:0 "不"
+ EST_VAL_EXARCH_LOWERED_MERCANTILISM:0 "降低重商主义: §Y$VAL$%§!"
+ EST_VAL_EXARCH_NOT_LOWERED_MERCANTILISM:0 "未降低重商主义: §Y$VAL$%§!"
+
+ exarches_estate_events.2.t:0 "[Root.GetExarchesName]与勇气"
+ exarches_estate_events.2.d:0 "由于我们的兵员储备濒临枯竭，[Root.GetExarchesName]担心他们自己的部队会被征召。为了避免失去自己的卫队，他们派了一位外交官到[Root.Capital.GetName]询问我们的行动方针。"
+ exarches_estate_events.2.a:0 "承诺不征召[Root.GetExarchesName]部队"
+ exarches_estate_events.2.b:0 "无视他们的意见"
+ EST_VAL_EXARCH_AGREED_TO_DECREASE_RECRUITMENT:0 "避免征召行政区部队: §Y$VAL$%§!"
+ EST_VAL_EXARCH_DISAGREED_TO_DECREASE_RECRUITMENT:0 "征召了行政区部队: §Y$VAL$%§!"
+
+ exarches_estate_events.3.t:0 "[Root.GetExarchesName]与税收"
+ exarches_estate_events.3.d:0 "我们国家在填补国库方面特别困难。由于我们的顾问建议在这些艰难时期进一步榨取我们的行政区土地，来自[Root.GetExarchesName]的外交官表示，这种行为是不可接受的。他们所做的一切完全是我们的决定，他们只能试图阻止我们，但也许听取[Root.GetExarchesName]的意见会是明智的做法。"
+ exarches_estate_events.3.a:0 "承诺对[Root.GetExarchesName]减税"
+ exarches_estate_events.3.b:0 "加大对他们的税收！"
+ EST_VAL_EXARCH_LENIENT_TAXATION:0 "未对行政区征税: §Y$VAL$%§!"
+ EST_VAL_EXARCH_NO_LENIENT_TAXATION:0 "对行政区征税: §Y$VAL$%§!"
+
+ exarches_estate_events.4.t:0 "[Root.GetExarchesName]与[Root.Monarch.GetName][Root.Dynasty.GetName]"
+ exarches_estate_events.4.d:0 "目前与我们无能的[Root.Monarch.GetTitle]的局势已经失控，[Root.GetExarchesName]打算对此采取行动。他们自称为[Root.GetName]的真正继承人，计划篡夺王位！"
+ exarches_estate_events.4.a:0 "他们会为此付出代价！"
+
+ exarches_estate_events.42.t:0 "[Root.GetName][Root.GetExarchesName]的崛起"
+ exarches_estate_events.42.d:0 "[Root.Owner.Monarch.GetName]对[Root.GetName]的削权行为引发了[Root.GetExarchesName]的强烈反对，并因此爆发了叛乱！"
+ exarches_estate_events.42.a:0 "好的。"
+
+ exarches_estate_events.69.t:0 "[Root.GetExarchesName]宣布独立！"
+ exarches_estate_events.69.d:0 "[Root.GetExarchesName]的巨大影响力使他们对当前局势感到厌倦。他们宣布自己为一个独立国家，摆脱我们的统治！"
+ exarches_estate_events.69.a:0 "我们本该在还能做些什么的时候采取行动。"
+ exarches_estate_events.69.b:0 "去他的，我要换边！"

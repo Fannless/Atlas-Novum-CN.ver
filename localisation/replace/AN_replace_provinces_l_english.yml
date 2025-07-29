@@ -1,0 +1,3961 @@
+﻿l_english:
+ PROV271:0 "凯代尼艾"
+ PROV279:0 "弗拉基米尔"
+ PROV1055:0 "杜德安加尔"
+ PROV1795:0 "大沙海"
+ PROV1850:0 "安居"
+ PROV1033:0 "塔拉伊卡"
+ PROV2111:0 "静安"
+ PROV2211:0 "萨南达季"
+ PROV416:0 "大不里士"
+ PROV425:0 "库巴"
+ PROV618:0 "棉兰"
+ PROV730:0 "吉林乌拉"
+ PROV884:0 "卡兰卡瓦"
+ PROV889:0 "凯伊特·伊里拉基库哈特"
+ PROV890:0 "威奇托"
+ PROV891:0 "塔阿克奇萨"
+ PROV892:0 "沃阿里卡"
+ PROV896:0 "库鲁克斯卡蒂特基库"
+ PROV901:0 "基普伊拉哈图斯"
+ PROV903:0 "尼布拉特卡"
+ PROV906:0 "马塔索赫"
+ PROV907:0 "瓦萨瓦克帕拉"
+ #PROV909:0 "纳特卡马塔赫"
+ PROV2006:0 "凯塔奥格瓦"
+ PROV2007:0 "萨尼什胡萨哈努"
+ #PROV2008:0 "梅西亚希什"
+ PROV2009:0 "基卡图斯"
+ PROV2502:0 "比利基亚沙什"
+ PROV2503:0 "迪沙什"
+ PROV2504:0 "瓦萨皮奥格瓦"
+ PROV2505:0 "瓦索韦扬"
+ PROV2508:0 "乌鲁克塔里乌斯"
+ PROV2509:0 "尼奥肖"
+ PROV2510:0 "梅西亚希什"
+ PROV2672:0 "基图库斯基库'"
+ PROV2707:0 "文托"
+ PROV4270:0 "艾兹赖格"
+ PROV4299:0 "莱桑"
+ PROV5614:0 "比舒沙什"
+ PROV5615:0 "伊奇利卡沙什"
+ PROV5616:0 "巴沙拉帕切"
+ PROV5617:0 "阿韦基亚卡特·阿什"
+ PROV5618:0 "茨瓦尔乌克蒂胡卡哈努"
+ PROV5619:0 "卡尔廷德"
+ PROV5620:0 "胡纳赫塔瓦克塔卡"
+ PROV5626:0 "马塔索赫"
+ PROV5633:0 "比利基亚沙什"
+ PROV5638:0 "马埃奥梅诺塔梅"
+ PROV7192:0 "巴格恰拉伊"
+ PROV381:0 "拉贾特"
+ PROV1051:0 "恰格达"
+ PROV1052:0 "乌斯季米尔"
+ PROV1781:0 "普托拉纳"
+ PROV1782:0 "斯塔诺沃伊"
+ PROV2336:0 "莫达姆"
+ PROV4201:0 "鸭绿江"
+ PROV4665:0 "扎兰屯"
+ PROV4699:0 "埃托利亚" #阿尔塔
+ PROV4701:0 "亚该亚" #科林斯，文件名是帕特雷
+ PROV4703:0 "皮林" #科斯蒂迪尔
+ PROV4704:0 "普列文"  #特尔诺沃
+ PROV4710:0 "福拉尔贝格" #布雷根茨
+ PROV4711:0 "厄廷根" #多瑙沃尔特
+ PROV4732:0 "维泰博" #泰拉奇纳 <
+ PROV4740:0 "卢加诺" #科莫 <
+ PROV4741:0 "梅尔瑟堡" #哈雷-萨勒
+ PROV4744:0 "开姆尼茨" #茨维考 <
+ PROV4749:0 "新勃兰登堡" #施塔加德-梅克伦堡
+ PROV4750:0 "发罗拉" #克鲁亚 德尔维纳
+ PROV4755:0 "马奇瓦" #波德里涅
+ PROV4756:0 "波热加" #别洛瓦尔
+ PROV4757:0 "瓦尔耶沃" #科卢巴拉
+ PROV4758:0 "南蒂罗尔" #埃施河谷
+ PROV4759:0 "菲拉赫" #上克恩顿
+ PROV4761:0 "施泰尔" #特劳恩高
+ PROV4762:3 "皮滕" #维也纳森林
+ PROV4763:0 "多洛米蒂山脉" #阿尔卑斯山脉
+ PROV4764:0 "韦苏尔" #萨兰 <
+ PROV4765:0 "科尔马" #米卢斯
+ PROV4780:0 "比托拉" #奥赫里德
+ PROV1129:0 "阿劳万"
+ PROV2244:0 "坎科萨"
+ PROV2247:0 "塔萨拉赫拉"
+ PROV1066:0 "乌拉拉"
+ PROV_ADJ1252:0 "伊卡鲁米克卢安"
+ PROV_ADJ2211:0 "萨南达伊吉"
+ PROV_ADJ416:0 "大不里士的"
+ PROV_ADJ425:0 "库巴的"
+ PROV_ADJ4270:0 "艾兹赖格的"
+ PROV_ADJ4299:0 "莱桑的"
+ PROV_ADJ7192:0 "巴格恰拉伊的"
+ PROV_ADJ618:0 "棉兰的"
+ PROV_ADJ2707:0 "文托的"
+ PROV_ADJ381:0 "拉贾特的"
+ PROV_ADJ2336:0 "莫达姆的"
+ PROV_ADJ4699:0 "埃托利亚的"
+ PROV_ADJ4701:0 "亚该亚的"
+ PROV_ADJ4703:0 "皮林的"
+ PROV_ADJ4704:0 "普列文的"
+ PROV_ADJ4710:0 "福拉尔贝格人的"
+ PROV_ADJ4711:0 "厄廷根人的" #
+ PROV_ADJ4732:0 "维泰博的"
+ PROV_ADJ4740:0 "卢加诺的"
+ PROV_ADJ4741:0 "梅尔瑟堡人的"
+ PROV_ADJ4744:0 "开姆尼茨人的"
+ PROV_ADJ4749:0 "新勃兰登堡人的" #
+ PROV_ADJ4750:0 "发罗拉的"
+ PROV_ADJ4755:0 "马奇瓦的"
+ PROV_ADJ4756:0 "波热加的"
+ PROV_ADJ4757:0 "瓦尔耶沃的"  #科卢巴拉
+ PROV_ADJ4758:0 "南蒂罗尔人的"
+ PROV_ADJ4759:0 "菲拉赫人的"
+ PROV_ADJ4761:0 "施泰尔人的"
+ PROV_ADJ4762:0 "皮滕人的"
+ PROV_ADJ4764:0 "韦苏尔的"
+ PROV_ADJ4765:0 "科尔马人的"
+ PROV_ADJ4780:0 "比托拉的"
+ PROV_ADJ1129:0 "阿劳万的"
+ PROV_ADJ2244:0 "坎科萨的"
+ PROV_ADJ2247:0 "塔萨拉赫拉的"
+ #Amyzonis
+ PROV1139:0 "阿克拉"
+ PROV2258:0 "大巴萨姆"
+ PROV4179:0 "哈卡里山脉"
+ #1.27 changes
+ PROV4535:0 "乌捷纳"         #Repurposed new province added in my own GDL overhaul in the same update
+ PROV250:0 "珀斯"
+ PROV3137:0 "东罗斯"
+
+ PROV2449:0 "瓦丹"
+ PROV4235:0 "特斯科科湖"
+
+ #China
+ #West Africa
+ PROV1114:0 "坎萨拉"
+ PROV1116:0 "瓦尔霍克斯"
+ PROV2238:0 "加布"
+ PROV2240:0 "本杜"
+ PROV2237:0 "卡内尔"
+
+ #America BTARG & BT
+ PROV859:0 "锡那罗亚"            #Actually the same as vanilla, but adding here anyway to prevent changes with vanilla
+ PROV862:0 "奥帕塔"
+ PROV865:0 "科奇米"
+ PROV867:0 "萨利奇多姆"         #Actually the Maricopa name for them, which they currently use, but presumably they also once had an autonym. Might look for it one of these days.
+ PROV868:0 "萨马拉"
+ PROV869:0 "特波塔尔"
+ PROV870:0 "亚奇库姆内"
+ PROV872:0 "拉克马尤特"           #Is this anglicized?
+ PROV873:0 "克拉索普"           #Clatsop
+ PROV874:0 "哈库阿布什"
+ PROV875:0 "霍皮"
+ PROV876:0 "翁克阿基梅尔奥德姆"
+ PROV877:0 "奥德姆"
+ PROV878:0 "托塔赫"
+ PROV879:0 "齐尔利盖西恩恩迪"
+ PROV880:0 "特瓦"
+ PROV881:0 "纳塔亨德"
+ PROV882:0 "古尔加亨德"            #Formerly Tahuundé
+ PROV883:0 "库伊托阿"          #Formerly Lipan
+ PROV885:0 "特雷门蒂纳"          #Formerly Comanche
+ PROV888:0 "希基克"          #Formerly Atakapa
+ PROV894:0 "纳维迪什"          #Formerly Caddo
+ PROV895:0 "科利瓜"          #Formerly Arkansas
+ PROV897:0 "阿肯色"          #Formerly Quapaw
+ PROV899:0 "帕哈齐"
+ PROV900:0 "皮卡米基翁基"
+ PROV902:0 "纽塔奇"
+ PROV904:0 "温尼谢克"
+ PROV905:0 "明克尼伊"
+ PROV908:0 "坎迪约希"
+ PROV909:0 "努马卡基"
+ PROV910:0 "吉奇奥尼加米辛辛"            #Ojibwe name Onigamiinsing (Duluth)
+
+ PROV911:0 "梅诺米尼"     #Mamaceqtaw
+ PROV912:0 "尼诺夸"
+ PROV913:0 "威斯康星"      #Meskonsing
+ PROV914:0 "霍Chunk"      #Hochungra
+ PROV915:0 "皮奥里亚"      #Peewaalia
+ PROV916:0 "卡斯卡斯基亚"
+ PROV917:0 "卡霍基亚"
+
+ PROV939:0 "德吉哈"
+ PROV940:0 "梅科切"
+ PROV941:0 "埃斯基帕基蒂基"
+ PROV942:0 "韦阿"   #Waayaahtanwa
+ PROV943:0 "凯基翁加"
+ PROV944:0 "米希利迈基纳克"
+ PROV945:0 "奥齐克塔"
+ PROV946:0 "桑达斯基"       #Ptookichki or Saandusti
+ PROV947:0 "凯霍加"
+ PROV948:0 "奥希约"
+ 
+ PROV2251:0 "阿扎瓦德"
+ PROV2271:0 "梅纳卡"
+ PROV2274:0 "阿索德"
+ PROV2272:0 "因加尔"
+ PROV2273:0 "塔胡阿"
+ PROV1148:0 "比尔宁拉莱"
+ PROV1131:0 "马西纳"
+ PROV1123:0 "塞古"
+ PROV2250:0 "桑"
+ PROV2249:0 "巴马科"
+ PROV1122:0 "巴吉内达"
+ PROV1124:0 "尼亚尼"
+ PROV1121:0 "蒂里罗"
+ PROV1117:0 "廷博"
+ PROV1118:0 "奈姆巴纳"
+ PROV1157:0 "多罗戈翁"
+ PROV2253:0 "迪乌拉索"
+ PROV2246:0 "巴莱"
+ PROV1158:0 "恩吉米"
+ PROV2248:0 "卡蒂"
+ PROV2263:0 "杜安察"
+ PROV1153:0 "拉菲亚"
+ PROV1160:0 "万达拉"
+ PROV1163:0 "阿塔克帕"
+ PROV2292:0 "帕拉库"
+ PROV2285:0 "吉梅塔"
+ 
+ PROV5470:0 "卡菲亚金吉"
+ 
+ PROV5472:0 "卡杜格利"
+ PROV5473:0 "迪林"
+ PROV5474:0 "朱拜哈"
+ PROV5475:0 "阿巴斯耶"
+ PROV5476:0 "凯拉克"
+ 
+ PROV5479:0 "瓦乌"
+ PROV5480:0 "阿韦尔"
+ PROV5481:0 "瓦拉布"
+ PROV5482:0 "延比奥"
+ PROV5483:0 "莱尔"
+ PROV5484:0 "伊罗尔"
+ PROV5485:0 "朱巴"
+ PROV5486:0 "托里特"
+
+ PROV5493:0 "博尔"
+ PROV5494:0 "埃莱古"
+ PROV5495:0 "科因洛"
+ PROV1374:0 "Tchollire"
+ PROV1375:0 "Touboro"
+ PROV1376:0 "Lagdo"
+ PROV1377:0 "Tibati"
+ PROV1378:0 "Ngaoundal"
+ PROV1379:0 "Meiganga"
+ PROV1380:0 "Kumbo"
+ PROV1381:0 "Katarko"
+ PROV1382:0 "Mayo Baleo"
+ PROV1383:0 "Tignere"
+ PROV1384:0 "Madingrin"
+ PROV1385:0 "Sakdje"
+ PROV1386:0 "Touruoa"
+ PROV1387:0 "Tchamba"
+ PROV1388:0 "Foumban"
+ PROV1389:0 "Edea"
+ PROV1390:0 "Nkongsamba"
+ PROV1391:0 "Ndom"
+ PROV1392:0 "Bafia"
+ PROV1393:0 "Mamfe"
+ PROV1394:0 "Kumba"
+ PROV1395:0 "Mundemba"
+ PROV1396:0 "Ngambe Tikar"
+ PROV1397:0 "Yoko"
+ PROV1398:0 "Cameroon"
+ PROV1399:0 "Ebolowa"
+ PROV1400:0 "Ambam"
+ PROV1401:0 "Eseka"
+ PROV1402:0 "Mbalmayo"
+ PROV1403:0 "Akonolinga"
+ PROV1404:0 "Eboko"
+ PROV1405:0 "Ntui"
+ PROV1406:0 "Belabo"
+ PROV1407:0 "Batouri"
+ PROV1408:0 "Mboulai"
+ PROV1409:0 "Bongor"
+ PROV1410:0 "Massakory"
+ PROV1411:0 "Bokoro"
+ PROV1412:0 "Moussoro"
+ PROV1413:0 "Abeche"
+ PROV1414:0 "Biltine"
+ PROV1415:0 "Goz Beida"
+ PROV1416:0 "Deleima"
+ PROV1417:0 "Mao"
+ PROV1418:0 "Mongo"
+ PROV1419:0 "Pala"
+ PROV1420:0 "Gounou Gaya"
+ PROV1421:0 "Kelo"
+ PROV1422:0 "Lai"
+ PROV1423:0 "Mondou"
+ PROV1424:0 "Doba"
+ PROV1425:0 "Sarh"
+ PROV1426:0 "Korbol"
+ PROV1427:0 "Kyabe"
+ PROV1428:0 "Moissala"
+ PROV1429:0 "Baibokoum"
+ PROV1430:0 "Ngama"
+ PROV1431:0 "Ati"
+ PROV1432:0 "Koundjourou"
+ PROV1433:0 "Oum Hadjer"
+ PROV1434:0 "Forchana"
+ PROV1435:0 "Guereda"
+ PROV1436:0 "Iriba"
+ PROV1437:0 "Cheddra"
+ PROV1438:0 "Dourbali"
+ PROV1439:0 "Chekna"
+ PROV1440:0 "Ba Ili"
+ PROV1441:0 "Kalambari"
+ PROV1442:0 "Loumia"
+ PROV1443:0 "Mangalme"
+ PROV1444:0 "Bitkine"
+ PROV1445:0 "Melfi"
+ PROV1446:0 "Chinguil"
+ PROV1447:0 "Abou Deia"
+ PROV1448:0 "Kache"
+ PROV1449:0 "Haraze"
+ PROV1450:0 "Bandala"
+ PROV1451:0 "Mogororo"
+ PROV1452:0 "Karfi"
+ 
+ PROV1454:0 "Darfur"
+ PROV1455:0 "Bardai"
+ PROV1456:0 "Zouar"
+ PROV1457:0 "Faya"
+ PROV1458:0 "Fada"
+ PROV1459:0 "El Qasr"
+ PROV1460:0 "Mut"
+ PROV1461:0 "Zalingei"
+ PROV1462:0 "Murnei"
+ PROV1463:0 "Forbrenga"
+ PROV1464:0 "Abyei"
+ PROV1465:0 "Deleig"
+ PROV1466:0 "Buronga"
+ PROV1467:0 "Um Dukhun"
+ 
+ PROV1530:0 "Maradi"
+ PROV1531:0 "Mayahi"
+ PROV1532:0 "Goure"
+ PROV1533:0 "Magria"
+ PROV1534:0 "Tanout"
+ PROV1535:0 "Kelle"
+ PROV1536:0 "Diffa"
+ PROV1537:0 "N'Guigmi"
+ PROV1538:0 "Boutti"
+ PROV1539:0 "Kelakam"
+ PROV1540:0 "Mauritania"
+ PROV1541:0 "Matameye"
+ PROV1542:0 "Aguelhok"
+ PROV1543:0 "Telabit"
+ PROV1544:0 "Abeibara"
+ PROV1545:0 "Anefis"
+ PROV1546:0 "Tarkint"
+ PROV1547:0 "Boughessa"
+ PROV1548:0 "Timaouine"
+ PROV1549:0 "Zaoutine"
+ PROV1550:0 "Buea"
+ PROV1551:0 "Douala"
+ PROV1552:0 "Yaounde"
+ PROV1553:0 "Bertoua"
+ PROV1554:0 "Ngaoundere"
+ PROV1555:0 "Bamenda"
+ PROV1556:0 "Bafoussam"
+ PROV1557:0 "Djourab"
+ PROV1558:0 "Mokolo"
+ PROV1559:0 "Maroua"
+ PROV1560:0 "Yagoua"
+ PROV1561:0 "Pouss"
+ PROV1562:0 "Kaele"
+ PROV1794:0 "Algeria" #needs dividing
+ 
+ PROV1584:0 "Jebba"
+ PROV1585:0 "Ilorin"
+ PROV1586:0 "Omu Aran"
+ PROV1587:0 "Pategi"
+ PROV1588:0 "Kabba"
+ PROV1589:0 "Okene"
+ PROV1590:0 "Ajaokuta"
+ PROV1591:0 "Lokoja"
+ PROV1592:0 "Obajana"
+ PROV1593:0 "Abuja"
+ PROV1594:0 "Adoka"
+ PROV1595:0 "Makurdi"
+ PROV1596:0 "Dauda"
+ PROV1597:0 "Aliade"
+ PROV1598:0 "Adikpo"
+ PROV1599:0 "Gboko"
+ PROV1600:0 "Ankpa"
+ PROV1601:0 "Ejule"
+ PROV1602:0 "Bida"
+ PROV1603:0 "Minna"
+ PROV1604:0 "Zungeru"
+ PROV1605:0 "Mokwa"
+ PROV1606:0 "Rijau"
+ PROV1607:0 "Kagara"
+ PROV1608:0 "Yelwa"
+ PROV1609:0 "Babana"
+ PROV1610:0 "Bussa"
+ PROV1611:0 "Agwarra"
+ PROV1612:0 "Shagwa"
+ PROV1613:0 "Kontagora"
+ PROV1614:0 "Mariga"
+ PROV1615:0 "Pizhi"
+ PROV1616:0 "Nasarawa"
+ PROV1617:0 "Keffi"
+ PROV1618:0 "Akwanga"
+ PROV1619:0 "Doma"
+ PROV1620:0 "Koko"
+ PROV1621:0 "Dakingari"
+ PROV1622:0 "Jega"
+ PROV1623:0 "Bunza"
+ PROV1624:0 "Tambawel"
+ PROV1625:0 "Sokoto"
+ PROV1626:0 "Argungu"
+ PROV1627:0 "Bodinga"
+ PROV1628:0 "Goronyo"
+ PROV1629:0 "Kware"
+ PROV1630:0 "Binji"
+ PROV1631:0 "Shinkafi"
+ PROV1632:0 "Gusau"
+ PROV1633:0 "Zinder"
+ PROV1634:0 "Cheranchi"
+ PROV1635:0 "Malumfashi"
+ PROV1636:0 "Funtua"
+ PROV1637:0 "Kaura Namoda"
+ PROV1638:0 "Gummi"
+ PROV1639:0 "Magami"
+ PROV1640:0 "Mafara"
+ PROV1641:0 "Tsafe"
+ PROV1642:0 "Azare"
+ PROV1643:0 "Dutse"
+ PROV1644:0 "Likoula"
+ PROV1645:0 "Gumel"
+ PROV1646:0 "Nguru"
+ PROV1647:0 "Babura"
+ PROV2278:0 "Birnin Kebbi"
+ PROV1652:0 "Tegouma"
+ PROV2261:0 "Sevare"
+ PROV4082:0 "Muanda"
+ PROV4083:0 "Carumbo"
+ PROV4089:0 "Mayaya"
+ PROV4085:0 "Bindu"
+ PROV4106:0 "Mosioa Tunya"
+ PROV4104:0 "Lubumbashi"
+ PROV4102:0 "Kasama"
+ PROV4100:0 "Dubie"
+ PROV2948:0 "Quirima"
+ PROV4101:0 "Kundelungu"
+ PROV4105:0 "Lusumba"
+ PROV4109:0 "Lengwe"
+ PROV4068:0 "Bunyakiri"
+ PROV4096:0 "Kabinda"
+ PROV4097:0 "Muninga"
+ PROV4099:0 "Nyunzu"
+
+ PROV1666:0 "Misau"
+ PROV1667:0 "Katagum"
+ PROV1668:0 "Ningi"
+ PROV1669:0 "Bogoro"
+ PROV1670:0 "Alkaleri"
+ PROV1671:0 "Darazo"
+ PROV1672:0 "Jos"
+ PROV1673:0 "Birnin Gwari"
+ PROV1674:0 "Wudil"
+ PROV1675:0 "Bichi"
+ PROV1676:0 "Karaye"
+ PROV1677:0 "Wase"
+ PROV1678:0 "Mangu"
+ PROV1679:0 "Kwande"
+ PROV1680:0 "Gembu"
+ PROV1681:0 "Takum"
+ PROV1682:0 "Ugba"
+ PROV1683:0 "Mararaba"
+ PROV1684:0 "Tella"
+ PROV1685:0 "Bali"
+ PROV1686:0 "Iware"
+ PROV1687:0 "Mubi"
+ PROV1688:0 "Numan"
+ PROV1689:0 "Gombi"
+ PROV1690:0 "Girei"
+ PROV1691:0 "Tungo"
+ PROV1692:0 "Jada"
+ PROV1693:0 "Bajoga"
+ PROV1694:0 "Kaltungo"
+ PROV1695:0 "Biu"
+ PROV1696:0 "Kaduna"
+ PROV1697:0 "Zaria"
+ PROV1698:0 "Kachia"
+ PROV1699:0 "Ikara"
+ PROV1700:0 "Gashua"
+ PROV1701:0 "Geidem"
+ PROV1702:0 "Yusufari"
+ PROV1703:0 "Potiskum"
+ PROV1704:0 "Damaturu"
+ PROV1705:0 "Fika"
+ PROV1706:0 "Damboa"
+ PROV1707:0 "Askira"
+ PROV1708:0 "Maiduguri"
+ PROV1709:0 "Gambaru"
+ PROV1710:0 "Damasak"
+ PROV1711:0 "Monguno"
+ PROV1712:0 "Ngamdu"
+ PROV1713:0 "Tamou"
+ PROV1714:0 "Malgorou"
+ PROV1715:0 "Falmey"
+ PROV1716:0 "Dosso"
+ PROV1717:0 "Dogondoutchi"
+ PROV1718:0 "Guecheme"
+ PROV1719:0 "Makalondi"
+ PROV1720:0 "Filingue"
+ PROV1721:0 "Ayorou"
+ PROV1722:0 "Tillaberi"
+ PROV1723:0 "Bankilare"
+ PROV1724:0 "Dargol"
+ PROV1725:0 "Kollo"
+ PROV1726:0 "Baleyara"
+ PROV1727:0 "Mangaize"
+ PROV1728:0 "Abala"
+ PROV1729:0 "Bani Bangou"
+ PROV1730:0 "Talataye"
+ PROV1731:0 "Tidermene"
+ PROV1732:0 "Anderamboukane"
+ PROV1733:0 "Birnin Konni"
+ PROV1734:0 "Illela"
+ PROV1735:0 "Nakoni"
+ PROV1736:0 "Tillia"
+ PROV1737:0 "Telemses"
+ PROV1738:0 "Affala"
+ PROV1739:0 "Abalak"
+ PROV1740:0 "Karofane"
+ PROV1741:0 "Kornaka"
+ PROV1119:0 "Juazohn"
+ PROV1126:0 "Tabou"
+ PROV2268:0 "Kokorou"
+ PROV2269:0 "Oullam"
+ PROV2265:0 "Dori"
+ PROV1136:0 "N'Gurma"
+ PROV1135:0 "Gourcy"
+ PROV2254:0 "Wa"
+ PROV2255:0 "Amanvi"
+ PROV2256:0 "Dapaong"
+ PROV2277:0 "Bilma"
+ PROV2275:0 "Aney"
+ PROV2295:0 "Djougou"
+ PROV2293:0 "Birnin Yawuri"
+ PROV5280:0 "Sinkat"
+ PROV1220:0 "Torti"
+ PROV1150:0 "Kurfi"
+ PROV1154:0 "Lere"
+
+ PROV918:0 "Okeena"          #Formerly Tennessee
+ PROV922:0 "Mobile"          #Originally Mobile before Leviathan
+ PROV924:0 "Atahachi"          #Formerly Tawasa
+ PROV925:0 "Coweta"          #Formerly Tuskegee
+ PROV927:0 "Mocama"             #Formerly Timucua
+ PROV930:0 "Cusseta"          #Formerly Muscogee
+ PROV934:0 "Sequatchie"          #Formerly Shawnee
+ PROV935:0 "Tanasi"          #Formerly Cherokee
+ PROV950:0 "Powhatan"           #Formerly Chesapeake
+ PROV951:0 "Kanuwara"
+ PROV952:0 "Manahoac"           #Formerly Powhatan
+ PROV953:0 "Anaquashtank"               #Formely Nacotchtank,Formely Formerly Conoy
+ PROV954:0 "Onenge"               #Formerly Allegheny and later Erielhronon
+ PROV955:0 "Gaschguchsa"
+ PROV957:0 "Maaxwaas Unk"               #Formerly Delaware
+ PROV958:0 "Ganundagwa"
+ PROV959:0 "Goiogouen"
+ PROV960:0 "Onondagaono"
+ PROV961:0 "Ganowalohale"
+ PROV962:0 "Scheyichbi"           #Formerly Unami
+ PROV963:0 "Mahicannituck"
+ PROV964:0 "Ossemenon"
+ PROV965:0 "Manahátaan"
+ PROV966:0 "Nippenet"             Formely Nipmuc
+ PROV967:0 "Pautokot"
+ PROV968:0 "Neponset"           #Formerly Massachussetts
+ PROV969:0 "Wantastiquet"                 #Formerly Pocumtuk
+ PROV970:0 "Piscataqua"                 #Formerly whatever it was
+ PROV971:0 "Pemetic"
+ PROV972:0 "Mowichat"
+ PROV973:0 "S'ólh Téméxw"
+ PROV974:0 "Kwakwaka'wakw"
+ PROV975:0 "Nuxalk"
+ PROV976:0 "Shtax'héen"
+ PROV977:0 "Yaakwdáat"
+ PROV978:0 "Tikahtnu"
+ PROV979:0 "Atan"
+ PROV980:0 "Shannoc"
+ PROV981:0 "Aguathoonet"
+ PROV982:0 "Unama'kik"
+ PROV983:0 "Epexiwitk"
+ PROV984:0 "Sipekne'katik"
+ PROV985:0 "Elsipogtog"
+ PROV986:0 "Mowebaktabaak"
+ PROV987:0 "Onguiaahra"
+ PROV988:0 "Escunnisepe"
+ PROV989:0 "Katarokwi"
+ PROV990:0 "Metapeckeka"
+ PROV991:0 "Biidaawewe"
+ PROV992:0 "Wawackecirinisipi"
+ PROV993:0 "Capitachouane"
+ PROV994:0 "Stadacona"
+ PROV995:0 "Totouskak"
+ PROV996:0 "Pakuashipi"
+ PROV997:0 "Nunatu Kavut"
+ PROV998:0 "Inujjuaq"
+ PROV999:0 "Cisâsîpî"
+ PROV1000:0 "Wâskâhîkaniš"
+ PROV1001:0 "Baawitigong"
+ PROV1002:0 "Abitahnipi"
+ PROV1003:0 "Attawapiskat"
+ PROV1004:0 "Môsonihk"
+ PROV1005:0 "Mushkegowuk"
+ PROV1006:0 "Missinipi"
+ PROV1007:0 "Gaa-ministigweyaa"
+ PROV1008:0 "Minísatonwanbi"
+ PROV1009:0 "Wanipigow"      #Vanilla Atikaki could have also worked
+ PROV1010:0 "Manitou Wapow"         #Straits of Manitou, Ojibwa 'Manidoobaa'
+ PROV1011:0 "Wiinibigosis"          #Little Muddy Waters, I'd prefer to find a better native etymolgy and spelling for this, but for now this will have to do
+ PROV2003:0 "'aq'amni'k"
+ PROV2004:0 "Káínawa"
+ PROV2005:0 "Oscana"
+ #PROV2006:0 "Ashalaho"
+ #PROV2008:0 "Hunkpapha"            #Northern Lakota name in Crow/Hidatsa land... shame on me. Fix it later.
+ #PROV2009:0 "Oglála"            #Southern Lakota name in Arikara land... shame on me. Fix it later.
+ #PROV2010:0 "Suckiaug"          #Formerly Connecticut
+ PROV2013:0 "Machigonne"          #Formely Pigwacket, Formely Formerly Kennebec
+ PROV2012:0 "Wôlinaktekw"
+ PROV2015:0 "Mishipikwadina"
+ PROV2016:0 "Miskwaagamiiwi"
+ PROV2017:0 "Amiskwaciwiyiniwak"
+ PROV2018:0 "Tsa Nidzá"
+ PROV2019:0 "Pikhininmu"         #Nez Perces of the Snake River
+ PROV2020:0 "Boho'inee"
+ PROV2021:0 "Ramai"
+ PROV2022:0 "Xaayda"
+ PROV2023:0 "Lèlxaoluwèk Unk"
+ PROV2476:0 "Tipai"
+ PROV2477:0 "Natinixwe"
+ PROV2478:0 "Nüwa"
+ PROV2480:0 "Kahosadi"
+ PROV2481:0 "Hanis"         #One of the two main tribes, the other being Miluk
+ PROV2482:0 "Mollala"
+ PROV2483:0 "Waluulapam"            #Walla Walla
+ PROV2484:0 "Nexwslayem"            #Klallam, 'Strong People'
+ PROV2485:0 "Susqually'absh"            #Nisqually, was Spuyalepabsh (Puyallup), but decided to go with Nisqually because of their prominence with the British
+ PROV2486:0 "Sdukalbixw"
+ PROV2487:0 "Sqeliz"
+ PROV2488:0 "Mamachatpam"           #Yakama autonym
+ PROV2489:0 "Koa'aga'itöka"
+ PROV2490:0 "Gutsipupiutsi"
+ PROV2491:0 "Hwálpai"
+ PROV2492:0 "Ch'uuk'anén"
+ PROV2493:0 "Shiwinnaqin"
+ PROV2494:0 "Chííhénee"
+ PROV2495:0 "Haak'u"
+ PROV2496:0 "Haisndayin"
+ PROV2497:0 "Puguahiane"          #Formerly Lipiyanes
+ PROV2498:0 "Julime"          #Formerly Jumao
+ PROV2499:0 "Perpepug"          #Formerly Coahuilteco
+ PROV2500:0 "Sana"          #Formerly Querecho
+ PROV2501:0 "Inuk'sik"
+# PROV2502:0 "Cáuiqop"           #Kiowa Mountain. The Gros Ventre didn't make it here for some time (18th century), so Haaninin is more than a bit odd in 1444.
+ #PROV2503:0 "Binnéessiippeele"         #Vanilla Ashshipite is a modern formation, going with the older one instead
+ #PROV2503:0 "Eelalapito"
+ #PROV2505:0 "Iinawaakatiitúhat"         #He Sápa in Lakota
+ #PROV2510:0 "Awatixa"
+ PROV2511:0 "Mni Wakang"
+ PROV2512:0 "Ozaagiiziibii"
+ PROV2513:0 "Keosauqua"
+ PROV2514:0 "Noohsasiipionki"
+ PROV2515:0 "Cahinnio"          #Formerly Satsukhdin
+ PROV2517:0 "Bdé Wakhán"
+ PROV2518:0 "Chequamegon"   #Zhaagawaamikong
+ PROV2519:0 "Kilatika"  #Kineepikwameekwonki
+ PROV2520:0 "Mengkonkia" #Waapkaminkionki
+ PROV2521:0 "Saginawe"  #Zaagiinong
+ PROV2522:0 "Mascouten"     #Muckitawoggome
+ PROV2523:0 "Piankeshaw"    #Peeyankihsionki
+ PROV2524:0 "Wabash"    #Waapaashikionki
+ PROV2525:0 "Chillicothe"  #Miichiyichki
+ PROV2526:0 "Millewakame"
+ PROV2527:1 "Chickamauga"       #formerly Atali
+ PROV2531:0 "Napissa"             #Formerly Napochi
+ PROV2532:0 "Tohome"             #Originally Tohome until Leviathan
+ PROV2537:0 "Thlonoteeska"          #Formerly Ichisi
+ PROV2538:0 "Altamaha"          #Formerly Yamassee
+ PROV2539:0 "Yamassee"          #Formerly Mocama
+ PROV2540:0 "Ogeechee"          #Formerly Coweta
+ PROV2546:0 "Dawhee"          #Formerly Chicora
+ PROV2547:0 "Machapunga"           #Formerly Roanoke
+ PROV2548:0 "Yesan"           #Formerly Tutelo
+ PROV2549:0 "Occaneechi"          #Formerly Moratok
+ PROV2550:0 "Doeg"          #Formerly Rappahannock
+ PROV2551:0 "Achsinhanac"
+ PROV2552:0 "Cacapehon"               #Formerly Manahoac
+ PROV2553:0 "Kitokton"               #Formerly Potomac
+ PROV2554:0 "Tshapetank"               #Formerly Nanticoke
+ PROV2555:0 "Wissameking"
+ PROV2556:0 "Mishimayagat"
+ PROV2557:0 "Atrakwaye"
+ PROV2558:0 "Upukuipising"               #Formerly Espachomy
+ PROV2559:0 "Kaniatarakwà'ronte"               #
+ PROV2560:0 "Quinnehtukqut"
+ PROV2561:0 "Nauset"           #Formerly Wampanoag
+ PROV2562:0 "Nashawiy"
+ PROV2563:0 "Mazipskoit"                 #Formerly Missaquoi
+ PROV2564:0 "Ammonoosuc"                 #Formerly Sokoki
+ PROV2565:0 "Kinipek"
+ PROV2566:0 "Sipayik"
+ PROV2567:0 "Meduxnekeag"
+ PROV2568:0 "Gespogoitnag"
+ PROV2569:0 "Kuowa'qamikt"
+ PROV2570:0 "Wolastoq"
+ PROV2571:0 "Mehtawtik"
+ PROV2572:0 "Eskinuopitijk"
+ PROV2573:0 "Qalipu"
+ PROV2574:0 "Natuashish"
+ PROV2575:0 "Mishtashipu"
+ PROV2576:0 "Ekuanitshit"
+ PROV2577:0 "Uashat"
+ PROV2578:0 "Notiskuan"
+ PROV2579:0 "Pekuakami"
+ PROV2580:0 "Nitaskinan"
+ PROV2581:0 "Apittipi"
+ PROV2582:0 "Arimoski"
+ PROV2583:0 "Shewenegan"
+ PROV2584:0 "Hochelaga"
+ PROV2585:0 "Kawehno'ke"
+ PROV2586:0 "Bkejwanong"
+ PROV2587:0 "Nottawasaga"
+ PROV2588:0 "Nibiissing"
+ PROV2589:0 "Maadaagami"
+ PROV2590:0 "n'Daki Menan"
+ PROV2591:0 "Missinaibi"
+ PROV2592:0 "Wasahohk"
+ PROV2593:0 "Keewatin"
+ PROV2594:0 "Powinigow"
+ PROV2595:0 "Sakittawak"
+ PROV2596:0 "Hohe"
+ PROV2597:0 "Paskokopawiyiniwak"
+ PROV2598:0 "Moose Gaw"
+ PROV2599:0 "Kaithelikehotinne"
+ PROV2600:0 "Athapaskaw"
+ PROV2601:0 "Wapuskau"
+ PROV2602:0 "Siksikáwa"
+ PROV2603:0 "Omenica"
+ PROV2606:0 "Tsilhqot'in"
+ PROV2607:0 "Syilx"
+ PROV2608:0 "Sawup"
+ PROV2609:0 "Ts’msyan"
+ PROV2610:0 "Tla'amin"
+ PROV2611:0 "Qik’rtaq"
+ PROV2613:0 "Sheet'ká X'áat'l"
+ PROV2616:0 "Kawulk"
+ PROV2620:0 "Kumeyaay"
+ PROV2639:0 "Wawitan"
+ PROV2658:0 "Azua"
+ PROV2659:0 "Cibao"
+ PROV2665:0 "Ayish"          #Formerly Ais
+ PROV2666:0 "Cibola"          #Formerly Tuintsunde
+ PROV2667:0 "Yemé"          #Formerly Cacaxtes
+ PROV2668:0 "Cotoname"          #Formerly Borrado
+ PROV2669:0 "Hasinai"
+ PROV2670:0 "Teiaiagon"
+ PROV2671:0 "Obajewanung"
+
+ PROV230:0 "Portimão"
+ PROV1096:0 "Santiago"
+
+ PROV6799:0 "Lake Weishan"
+ PROV18:0 "Bihtám"
+ PROV19:0 "Korsholm"
+ PROV4114:0 "Duortnus"
+ PROV2740:0 "Bornean Highlands"
+
+ PROV61:1 "Dresden"
+ PROV63:0 "Erfurt"
+ PROV89:0 "Amiens"
+ PROV91:0 "Mons"
+ PROV99:0 "Arnhem"
+ PROV100:0 "Westergo"
+ PROV128:1 "Klagenfurt"
+ PROV132:0 "Judenburg"
+ PROV174:0 "Bordeaux"
+ PROV189:0 "Nancy"
+ PROV199:0 "Montpensier"
+ PROV201:0 "Marseille"
+ PROV210:1 "Pamplona"
+ PROV1742:1 "Limburg"
+ PROV1761:1 "Mannheim"
+ PROV1772:0 "Pressburg"
+ PROV1931:0 "Emden"
+ PROV1932:0 "Dömitz"
+ PROV2963:0 "Walcz"
+ PROV3063:1 "Opper-Gelre"
+ PROV3223:1 "Bialystok"
+ PROV3241:0 "Kalnik"
+ PROV4381:1 "Salland"
+ PROV4382:0 "Hunsingo"
+ PROV4383:1 "Den Haag"
+ PROV3110:1 "Jersey"
+
+ PROV4410:0 "Sutherland"
+ PROV1798:0 "Nyilual"
+ #RENAMES FROM BEYOND TYPUS
+ PROV7778:0 "Oldesloe"
+ PROV1229:0 "Gwineb"
+ PROV1226:0 "Salala"
+ PROV1796:0 "Gabon"
+ PROV2323:0 "Quban"
+ PROV5286:0 "El Obeid"
+ PROV1221:0 "En Nahud"
+ PROV1216:0 "El Fula"
+ PROV2801:0 "Al Fashir"
+ PROV1219:0 "Nyala"
+ PROV774:0 "Al Junaynah"
+ PROV1797:0 "Congo"
+ PROV1142:0 "Niamey"
+ PROV2284:0 "Bosso"
+
+ #1.28 changes
+ PROV4546:0 "Málaga"         #Formerly 3097
+ PROV4547:0 "Albacete"         #Formerly 3096
+ PROV4548:0 "Huelva"         #Formerly 3098
+ PROV4549:0 "Guadalajara"         #Formerly 3300
+ PROV4550:0 "Castellón"         #Formerly 3094
+ PROV4551:0 "Ávila"         #Formerly 3298
+ #PROV4552:0 "Segovia"         #Formerly 3299
+ PROV4553:0 "Zamora"         #Formerly 3101
+ PROV4554:0 "Lugo"         #Formerly 3102
+ PROV4555:0 "Pontevedra"         #Formerly 3103
+ PROV4556:0 "Covilhã"         #Formerly 3105
+ PROV4557:0 "Calatayú"         #Formerly 3095
+ #4558 unchanged
+ PROV4559:0 "Menorca"         #Formerly 5098
+ PROV4560:0 "Pityuses"         #Formerly 5095
+
+ PROV4562:0 "Nedroma"         #Formerly 5319
+ PROV4565:0 "Achinet"
+ PROV4566:0 "Hbira"
+ PROV4567:0 "Ghadames"         #Formerly 5308
+
+ PROV4618:0 "Gonaibo"         #Formerly 5564
+ PROV4619:0 "Xarama"         #Formerly 5562
+ PROV4620:0 "Maguá"         #Formerly 5566
+ PROV4621:0 "Hosama"         #Formerly 5568
+ PROV4622:0 "Siwanea"         #Formerly 5570
+ PROV4623:0 "Cubanacan"         #Formerly 5571
+ PROV4624:0 "Guanahatabey"         #Formerly 5569
+
+ PROV4630:0 "Tompiro"         #Formerly 5831
+ PROV4631:0 "Tiwa"         #Formerly 5829
+ PROV4632:0 "Zia"         #Formerly 5828
+ PROV4634:0 "Dilzhé"     #Formerly 5842
+
+
+ #Atlas Novum
+
+ PROV58:0 "Dessau"
+ PROV58_ADJ:0 "Dessauer"
+
+ #BTARG
+ PROV4625:0 "Mayaca" #1.28 replacement
+ PROV4626:0 "Potano" #1.28 replacement
+ PROV4627:0 "Payaya" #1.28 replacement
+ PROV4628:0 "Jediondo" #1.28 replacement
+ PROV4629:0 "Caynaaya" #1.28 replacement
+
+ #Duplicate
+ #PROV4618:0 "Gonaibo"        1.28 replacement Formerly 5564
+ #PROV4619:0 "Xarama"        1.28 replacement Formerly 5562
+ #PROV4620:0 "Maguá"        1.28 replacement Formerly 5566 Alternate would be 'Xamaná', the native name of the Samana peninsula
+ #PROV4621:0 "Hosama"        1.28 replacement Formerly 5568 The river whose estuary later houses Santo Domingo, couldn't find any settlement names and 'Macorix' is problematic
+
+ PROV4623:0 "Jagua"  #1.28 replacement BT has Cubanacan
+ #PROV4624:0 "Guanahatabey"  1.28 replacement
+ PROV4620:0 "Ciguayo"
+ PROV487:0 "Yama"
+ PROV1102:0 "Arobi"
+ PROV1103:0 "Morgabin"
+
+ PROV4140:0 "Príncipe"
+ PROV_ADJ4140:0 "Príncipean"
+ 
+ PROV4023:0 "Mandritsara"
+ PROV4030:0 "Ihosy"
+ PROV4021:0 "Ambilobe"
+ PROV4022:0 "Majunga"
+ PROV4032:0 "Toliara"
+ PROV1193:0 "Morondava"
+ PROV4025:0 "Mananjary"
+ PROV4026:0 "Vohipeno"
+ PROV4027:0 "Moramanga"
+ PROV1792:0 "Antananarivo"
+ 
+ PROV4084:0 "Luando"
+ PROV4098:0 "Kamina"
+ PROV4092:0 "Musumba"
+ PROV4094:0 "Lutuai"
+ PROV4095:0 "Cazombo"
+ PROV1168:0 "Mbanza Mbamba"
+ PROV1170:0 "Mbanza Kongo"
+ PROV1801:0 "Cameia"
+ PROV1901:0 "Nsundi"
+ PROV1171:0 "Kabasa"
+ PROV798:0 "Nsoyo"
+
+ #BT China
+ PROV661:0 "Dali"
+ PROV662:0 "Yunnan"
+ PROV663:0 "Lin'an"
+ PROV664:0 "Zhen'an"
+ PROV665:0 "Shiuhing"
+ PROV666:0 "Qiongzhou"
+ PROV667:0 "Guangzhou"
+ PROV668:0 "Heungsan"
+ PROV669:0 "Fuzhou"
+ PROV670:0 "Ganzhou"
+ PROV671:0 "Changsha"
+ PROV672:0 "Lixian"
+ PROV673:0 "Zhenyuan"
+ PROV674:0 "Guiyang"
+ PROV675:0 "Zhaotong"
+ PROV679:0 "Chengdu"
+ PROV680:0 "Chongqing"
+ PROV681:0 "Yichang"
+ PROV682:0 "Wuchang"
+ PROV683:0 "Nanchang"
+ PROV684:0 "Hangzhou"
+ PROV685:0 "Yangzhou"
+ PROV686:0 "Anqing"
+ PROV687:0 "Nanyang"
+ PROV688:0 "Kaifeng"
+ PROV689:0 "Hanzhong"
+ PROV690:0 "Qingzhou"
+ PROV691:0 "Jinan"
+ PROV692:0 "Zhangde"
+ PROV693:0 "Taiyuan"
+ PROV694:0 "Pingyang"
+ PROV695:0 "Hejian"
+ PROV696:0 "Baoding"
+ PROV697:0 "Datong"
+ PROV698:0 "Ningxia"
+ PROV699:0 "Lanzhou"
+ PROV700:0 "Xi'an"
+ PROV704:0 "Ningyuan"
+ PROV708:0 "Suzhou"
+ PROV726:0 "Shenyang"
+ PROV1012:0 "Kagoshima"
+ PROV1015:0 "Nanzan"
+ PROV1016:0 "Nghe An"
+ PROV1020:0 "Yamashiro"
+ PROV1021:0 "Izumi"
+ PROV1025:0 "Yamagata"
+ PROV1026:0 "Sendai"
+ PROV1816:0 "Shuntian"
+ PROV1821:0 "Yingtian"
+ PROV1822:0 "Suzhou"
+ PROV1824:0 "Wenzhou"
+ PROV1829:0 "Quanzhou"
+ PROV1830:0 "Inaba"
+ PROV1833:0 "Ji'an"
+ PROV1836:0 "Henan"
+ PROV1838:0 "Hefei"
+ PROV1840:0 "Guilin"
+ PROV2112:0 "Dandong"
+ PROV2139:0 "Laizhou"
+ PROV2136:0 "Xuan"
+ PROV2137:0 "Daming"
+ PROV2138:0 "Wudi"
+ PROV2139:0 "Laizhou"
+ PROV2140:0 "Zaozhuang"
+ PROV2141:0 "Xuzhou"
+ PROV2142:0 "Huai'an"
+ PROV2143:0 "Fengyang"
+ PROV2144:0 "Yingzhou"
+ PROV2145:0 "Zhenjiang"
+ PROV2146:0 "Ningguo"
+ PROV2147:0 "Huizhou"
+ PROV2148:0 "Shaoxin"
+ PROV2149:0 "Ningbo"
+ PROV2150:0 "Jinhua"
+ PROV2151:0 "Raozhou"
+ PROV2152:0 "Jianning"
+ PROV2153:0 "Tingzhou"
+ PROV2156:0 "Chaozhou"
+ PROV2157:0 "Huizhou"
+ PROV2158:0 "Shiuzhou"
+ PROV2159:0 "Leizhou"
+ PROV2160:0 "Yazhou"
+ PROV2161:0 "Beihai"
+ PROV2162:0 "Wuzhou"
+ PROV2163:0 "Liuzhou"
+ PROV2164:0 "Namning"
+ PROV2165:0 "Shiping"
+ PROV2166:0 "Nandian"
+ PROV2167:0 "Lijiang"
+ PROV2168:0 "Zunyi"
+ PROV2169:0 "Langzhong"
+ PROV2170:0 "Songqu"
+ PROV2171:0 "Xiangyang"
+ PROV2172:0 "Jingzhou"
+ PROV2173:0 "Chenzhou"
+ PROV2174:0 "Hengyang"
+ PROV2175:0 "Runing"
+ PROV2176:0 "Shangqiu"
+ PROV2177:0 "Daizhou"
+ PROV2178:0 "Lu'an"
+ PROV2179:0 "Yan'an"
+ PROV2180:0 "Qinzhou"
+ PROV2181:0 "Pingliang"
+ PROV2182:0 "Liangzhou"
+ PROV2183:0 "Taozhou"
+ PROV2184:0 "Xining"
+ PROV2748:0 "Jianchang"
+ PROV4180:0 "Koyu"
+ PROV4181:0 "Akita"
+ PROV4190:0 "Shimosa"
+ PROV4194:0 "Yongping"
+ PROV4195:0 "Zhengding"
+ PROV4196:0 "Haizhou"
+ PROV4197:0 "Huangzhou"
+ PROV4198:0 "Fengxiang"
+ PROV4199:0 "Tongren"
+ PROV4211:0 "Dazhou"
+ PROV4212:0 "Jiading"
+ PROV4213:0 "Luzhou"
+ PROV4188:0 "Tomioka"
+ PROV4191:0 "Utsunomiya"
+ PROV4192:0 "Akita"
+
+ #Korea
+ PROV736:0 "Jecheon"
+
+ #BRITISH ISLES
+ #Scotland
+ PROV251:0 "Buchan"
+ PROV3139:0 "Angus"
+ PROV250:0 "Strathearn"
+ PROV3137:0 "Easter Ross"
+ PROV3138:0 "Atholl"
+ PROV4110:0 "Sutherland"
+
+ #ENGLAND
+ PROV233:0 "West Cornwall"
+ PROV234:0 "Winchester"
+ PROV235:0 "Canterbury"
+ PROV238:0 "Chelmsford"
+ PROV246:0 "Northumberland"
+ PROV247:0 "Carlisle"
+ PROV1860:0 "Norwich"
+ PROV3028:0 "Ipswich"
+ PROV4130:0 "Taunton"
+ PROV4371:0 "West Sussex"
+ PROV4372:0 "Coventry"
+ PROV4373:0 "Exeter"
+
+
+ #Oceania/SEA
+ PROV638:0 "Kutai Barat"
+ PROV2712:0 "Kutai Lama"
+ PROV6527:0 "Muana Kaman"
+ PROV1238:0 "Isatabu"
+ PROV1242:0 "Kubuna"
+ PROV1244:0 "Aitutaki"
+ PROV1993:0 "Majuro"
+ PROV2723:0 "Merauke"
+ PROV2724:0 "Mimika"
+ PROV1995:0 "Chuuk"
+ PROV1987:0 "Rangiroa"
+ PROV1991:0 "Bikenibeu"
+ PROV5025:0 "Pepane"
+ PROV1239:0 "Tanna"
+ PROV1240:0 "Hilo"
+ PROV1241:0 "Kiritmati"
+ PROV1789:0 "Foja"
+ PROV1986:0 "Djubea"
+ PROV2700:0 "Iloio"
+ PROV574:0 "Great Andaman"
+ PROV649:0 "Sofifi"
+ PROV650:0 "Bacan"
+ PROV639:0 "Banjarmasin"
+ PROV656:0 "Tangway"
+ PROV738:0 "Tainan"
+ PROV2155:0 "Taichung"
+ PROV2697:0 "Bulacan"
+ PROV2701:0 "Davah"
+ PROV4349:0 "Kalilayan"
+ PROV4355:0 "Mansaka"
+ PROV6610:0 "Ilagan"
+ PROV6611:0 "Kasiguran"
+ PROV6612:0 "Daet"
+ PROV6614:0 "Tulwanan"
+ PROV6920:0 "Huadong"
+ PROV6921:0 "Takau"
+ PROV434:0 "Bampur"
+ PROV2214:0 "Astarabad"
+ PROV427:0 "Damghan"
+ PROV2223:0 "Lar"
+ PROV439:0 "Qaraghan"
+ PROV2349:0 "Uly Balkhan"
+ PROV2370:0 "Qongirat"
+ PROV440:0 "Chimbay"
+ PROV437:0 "Nesa"
+ PROV438:0 "Uzboy"
+ PROV2362:0 "Karakizit"
+ PROV2225:0 "Dai Kundi"
+ PROV2226:0 "Adinapur"
+ PROV452:0 "Kishim"
+ PROV2127:0 "Sariqol"
+ PROV449:0 "Chakhcheran"
+ PROV455:0 "Efsijab"
+ PROV2363:0 "Chinaz"
+ PROV456:0 "Ashchykol"
+ PROV2367:0 "Kushum"
+ PROV469:0 "Kurmangazy"
+ PROV4686:0 "Novosibirsk"
+
+ #PROV3013:0 "Bombay"
+ PROV3016:0 "Rushan"
+ PROV3017:0 "Barting"
+ PROV3018:0 "Wakhan"
+ PROV3020:0 "Murghob"
+ PROV3021:0 "Yamchun"
+ PROV3022:0 "Kargilik"
+ PROV3023:0 "Tashkurgan"
+ PROV3024:0 "Makit-Bazar"
+ PROV3025:0 "Akto"
+ PROV3026:0 "Kizilsu"
+ PROV3027:0 "Kongun Tagh"
+ PROV3029:0 "Muztagh Ata"
+ PROV3030:0 "Artuz"
+ PROV3031:0 "Chust"
+ PROV3032:0 "Akhsi"
+ PROV3033:0 "Shahimardan"
+ PROV3035:0 "Arslanbob"
+ PROV3037:0 "Manakeldy"
+ PROV3038:0 "Fargana Tau"
+ PROV3041:0 "Kasansay"
+ PROV3043:0 "Tash-Rabat"
+ PROV3044:0 "Atbash"
+ PROV3046:0 "Naryn"
+ PROV3047:0 "Kazarman"
+ PROV3048:0 "Chekir"
+ PROV3049:0 "Bishkek"
+ PROV3050:0 "Koshoy-Korgan"
+ PROV3052:0 "Balasagun"
+ PROV3053:0 "Shu"
+ PROV3054:0 "Cholpan Ata"
+ PROV3055:0 "Yar"
+ PROV3056:0 "Ton"
+ PROV3057:0 "Barskhan"
+ PROV3059:0 "Qulja"
+ PROV3061:0 "Aksayskoe"
+ PROV3062:0 "Nevaket"
+ PROV3065:0 "Chatkal"
+ PROV3067:0 "Ush Turfan"
+ PROV3069:0 "Merke"
+ PROV3072:0 "Shatyrtobe"
+ PROV3074:0 "Moiynkum"
+ PROV3075:0 "Ketman-Tube"
+ PROV3076:0 "Betpak-Dala"
+ PROV3078:0 "Tumxuk"
+ PROV3079:0 "Kastek"
+ PROV3080:0 "Oburdan"
+ PROV3082:0 "Kulan"
+ PROV3084:0 "Shahristan"
+ PROV3086:0 "Pskem"
+ PROV3088:0 "Tunket"
+ PROV3090:0 "Kazygurt"
+ PROV3091:0 "Otrar"
+ PROV3092:0 "Kyzyl Korgan"
+ PROV3093:0 "Uzgend"
+ PROV3094:0 "Atlakh"
+ PROV3095:0 "Sawran"
+ PROV3096:0 "Yasi"
+ PROV3097:0 "Zarnuk"
+ PROV3098:0 "Qaratau"
+ PROV3100:0 "Chychkan"
+ PROV3101:0 "Sozaq"
+ PROV3102:0 "Kendakhoir"
+ PROV3103:0 "Bay"
+ PROV3105:0 "Karashahr"
+ PROV3106:0 "Niya"
+ PROV3107:0 "Qocho"
+ PROV3109:0 "Cherchen"
+ PROV3116:0 "Burqin"
+ PROV3125:0 "Alaqol"
+ PROV3126:0 "Ayaguz"
+ PROV3127:0 "Kalba Zhotasy"
+ PROV3129:0 "Qayaliq"
+ PROV3130:0 "Dungane"
+ PROV3131:0 "Bortala"
+ PROV3132:0 "Almaliq"
+ PROV3133:0 "Sarkand"
+ PROV3136:0 "Ilynbaliq"
+ PROV3140:0 "Chu Ili"
+ PROV3141:0 "Ilibaliq"
+ PROV3143:0 "Usek"
+ PROV3144:0 "Charyn"
+ PROV3145:0 "Tekes"
+ PROV3147:0 "Beket"
+ PROV3149:0 "Karkaraly"
+ PROV3150:0 "Talgar"
+ PROV3153:0 "Tamgaly"
+ PROV3155:0 "Zhaiyk"
+ PROV3158:0 "Kulsary"
+ PROV3161:0 "Sagyz"
+ PROV3162:0 "Emba"
+ PROV3163:0 "Qirghiz Dala"
+ PROV3166:0 "Zhetiru"
+ PROV3167:0 "Qarabutak"
+ PROV3171:0 "Torghay"
+ PROV3172:0 "Qostanay"
+ PROV3173:0 "Ubagan"
+ PROV3175:0 "Yangikent"
+ PROV3176:0 "Jend"
+ PROV3178:0 "Aq Masjid"
+ PROV3173:0 "Ubagan"
+ PROV3175:0 "Yangikent"
+ PROV3176:0 "Jend"
+ PROV3178:0 "AqMasjid"
+ PROV3181:0 "Akmola"
+ PROV3183:0 "Kyzylzhar"
+ PROV3184:0 "Karasuk"
+ PROV3186:0 "Yerementau"
+
+ #TUNIS
+ PROV3187:0 "Kelibia"
+ PROV3188:0 "Tebourba"
+ PROV3189:0 "Hammamet"
+ PROV3190:0 "Monastir"
+ PROV3192:0 "Zaghouan"
+ PROV3196:0 "Medjez Al-Bab"
+ PROV3197:0 "Souk Al-Arba"
+ PROV3198:0 "Sbeitla"
+
+ PROV3202:0 "Zarzis"
+ PROV3205:0 "Tataouine"
+ PROV3206:0 "Sabratha"
+ PROV3208:0 "El Hamma"
+ PROV3210:0 "Chott el Djerid"
+ PROV3211:0 "Salakta"
+ PROV3212:0 "El Djem"
+ PROV3213:0 "Ras Jebel"
+
+ PROV3214:0 "Sakhira"
+ PROV3215:0 "Qibili"
+ PROV3216:0 "Nefta"
+ PROV3217:0 "Douz"
+ PROV3218:0 "Mides"
+ PROV3219:0 "Sabibah"
+ PROV3222:0 "Jebil"
+ PROV3228:0 "Qamuda"
+
+ PROV2450:0 "Remada" # RENAME
+
+ PROV3232:0 "Ghilane"
+ PROV3233:0 "Tamacine"
+ PROV3234:0 "Badis"
+ PROV3235:0 "Tebessa"
+ PROV3236:0 "Souk Ahras"
+ PROV3237:0 "Collo"
+
+ PROV3240:0 "El Kala"
+
+ PROV3249:0 "Azila"
+ PROV3252:0 "Ghomara"
+ PROV3255:0 "Benguerir"
+ PROV3257:0 "Al-Mamura"
+ PROV3258:0 "Ouazzane"
+ PROV3259:0 "El Jebha"
+ PROV3260:0 "Nador"
+ PROV3269:0 "Guercif"
+ PROV3272:0 "Sefrou"
+ PROV3274:0 "Azrou"
+ PROV3275:0 "Rabat"
+ PROV3283:0 "Mrira"
+ PROV3286:0 "Chaouia"
+ PROV3287:0 "Azemmour"
+ PROV3288:0 "Souira Kedima"
+ PROV3289:0 "Ribat Shakir"
+ PROV3295:0 "Naffis"
+ PROV3296:0 "Aghmat"
+ PROV3297:0 "Boulemane"
+ PROV3298:0 "Taourit"
+ PROV3299:0 "Masa"
+ PROV3300:0 "Tarfaya"
+
+ PROV3304:0 "Tizourgane"
+ PROV3305:0 "Nul"
+ PROV3306:0 "Tinjdad"
+ PROV3308:0 "Assa"
+ PROV3309:0 "Zag"
+ PROV3310:0 "Tissint"
+ PROV3311:0 "Taghjijt"
+ PROV3312:0 "Bouarfa"
+ PROV3313:0 "Sijilmasa" #Rissani
+ PROV3314:0 "Semara"
+ PROV3315:0 "El Aaiun"
+ PROV3316:0 "Tinmel"
+ PROV3317:0 "Aoulouz"
+ PROV3318:0 "Yerada"
+ PROV3319:0 "Rif"
+
+ PROV3320:0 "Igilliz"
+ PROV3321:0 "Ain Sefra"
+ PROV3322:0 "Ksar ibn Senar"
+ PROV3323:0 "Tafraoua" #Sebdou
+ PROV3324:0 "Mecheria"
+ PROV3325:0 "Aflou"
+ PROV3326:0 "Maghnia"
+ PROV3327:0 "Bou Saada"
+ PROV3328:0 "Frenda"
+ PROV3329:0 "Blida"
+ PROV3330:0 "Sarsal"
+ PROV3331:0 "Mascara"
+ PROV3332:0 "Ain Fekan"
+ PROV3333:0 "Zenina"
+ PROV3334:0 "Messaad"
+
+ PROV3335:0 "Chlef"
+ PROV3336:0 "Miliana"
+ PROV3337:0 "N'gaous"
+ PROV3338:0 "Awras"
+ PROV3339:0 "Guelma"
+ PROV3340:0 "Tissemsilt"
+ PROV3341:0 "Bouira"
+ PROV3342:0 "Ain Oussera"
+ PROV3343:0 "Auzia"
+ PROV3344:0 "El Kasdir"
+
+ PROV3345:0 "Dellys"
+ PROV3346:0 "Ksar Boukhari"
+ PROV3347:0 "Tizi Ouzou"
+ PROV3348:0 "Kerkennah"
+ PROV3349:0 "El Guerrara"
+ PROV3350:0 "N'Goussa"
+ PROV3351:0 "Melika"
+ PROV3352:0 "Rouissat"
+ PROV3353:0 "El Ateuf"
+ PROV3354:0 "Berriane"
+ PROV3355:0 "Hassi Messaoud"
+ PROV3356:0 "Bonoura"
+ PROV3357:0 "Beni Isguen"
+ PROV3358:0 "El Mania"
+ PROV3359:0 "Timimoun"
+ PROV3360:0 "Taghouzi"
+ PROV3361:0 "Bouda"
+ PROV3362:0 "Reggane"
+ PROV3363:0 "Ain Salah"
+ PROV3364:0 "Aoulef"
+ PROV3365:0 "Tamantit"
+ PROV3366:0 "In Amguel"
+ PROV3367:0 "Tamanrasset"
+ PROV3368:0 "Abalessa"
+ PROV3369:0 "Taghaza"
+ PROV3370:0 "Bir Um Grein"
+ PROV3371:0 "Fderik"
+ PROV3372:0 "Atar"
+ PROV3373:0 "Tidra"
+ PROV3374:0 "Ouadane"
+ PROV3375:0 "Nouakchott"
+ PROV3376:0 "Akjoujt"
+ PROV3377:0 "Chinguetti"
+ PROV3378:0 "Tidjikja"
+ PROV3379:0 "Walata"
+ PROV3380:0 "Tichit"
+ PROV3381:0 "Aoudaghost"
+ PROV3382:0 "Ksarel Barka"
+ PROV3383:0 "Terkit"
+ PROV3384:0 "Bir Kunduz"
+ PROV3385:0 "Chegga"
+ PROV3386:0 "Tifariti"
+ PROV3387:0 "Tessalit"
+ PROV3388:0 "Timmissao"
+ PROV3389:0 "Guelta Zemmur"
+ PROV3390:0 "Gozo"
+ PROV3391:0 "Ain Madhi"
+ PROV3392:0 "Serghine"
+ PROV3393:0 "Amoura"
+ PROV3394:0 "Ouled Djellal"
+ PROV3395:0 "Djamaa"
+ PROV3396:0 "Sidi Okba"
+ PROV3397:0 "Negrine"
+ PROV3398:0 "Rosso"
+ PROV3399:0 "Tit"
+ PROV3400:0 "Ideles"
+ PROV3401:0 "Kidal"
+ PROV3402:0 "Charouine"
+ PROV3403:0 "Beni Abbes"
+ PROV3404:0 "Tolga"
+ PROV3405:0 "Darmankur"
+ PROV3406:0 "Boutilimit"
+ PROV3407:0 "Bogue"
+ PROV3408:0 "Kaedi"
+ PROV3409:0 "Bababe"
+ PROV3410:0 "R'Kiz"
+ PROV3411:0 "M'Bout"
+ PROV3412:0 "Aftout"
+ PROV3413:0 "Gidimaka"
+ PROV3414:0 "Kayes"
+ PROV3415:0 "Ayoun"
+ PROV3416:0 "Moudjeria"
+ PROV3417:0 "Kundi"
+ PROV3418:0 "Bojador"
+ PROV3419:0 "Nioro"
+ PROV3420:0 "Zafunu"
+ PROV3421:0 "Kaniaga"
+ PROV3422:0 "Nema"
+ PROV3423:0 "Mederdra"
+ PROV3424:0 "Kiffa"
+ PROV3425:0 "Zoumane"
+ PROV3426:0 "Raz El Ma"
+ PROV3427:0 "Mal"
+ PROV3428:0 "Sive"
+ PROV3429:0 "Jomboxo"
+ PROV3430:0 "Afolle"
+ PROV3431:0 "Bassikounou"
+ PROV3432:0 "Jara"
+ PROV3433:0 "Maghana"
+ PROV3434:0 "Assaba"
+ PROV3435:0 "Guerou"
+ PROV3436:0 "Koniakari"
+ PROV3437:0 "Tiringa"
+ PROV3438:0 "Soroma"
+ PROV3439:0 "Koumbi Saleh"
+ PROV3440:0 "Fuladugu"
+ PROV3441:0 "Beledugu"
+ PROV3442:0 "Metlili"
+ PROV3443:0 "Boumdeit"
+ PROV3444:0 "Bargatanni"
+ PROV3445:0 "Noudria"
+ PROV3446:0 "Agouenit"
+ PROV3447:0 "Bou Dhib"
+ PROV3448:0 "Pirineus"
+
+ PROV2276:0 "Mendefera"
+ PROV2270:0 "Say"
+ PROV2932:0 "Koumra"
+ PROV1164:0 "Kribi"
+ PROV1165:0 "Akanda"
+ PROV1159:0 "N'Djamena"
+ ##### LIBYA #####
+ PROV3470:0 "Dirj"
+ PROV3471:0 "Al-Quriyah"
+ PROV3472:0 "Rabyanah"
+ PROV3473:0 "Zanzur"
+ PROV3474:0 "Al-Jawf"
+ PROV3475:0 "Tazirbu"
+ PROV3476:0 "Jalu"
+ PROV3477:0 "Yefren"
+ PROV3478:0 "Cyrenaica"
+ PROV3479:0 "Libya"
+ PROV3480:0 "Tripolitania"
+ PROV3481:0 "Fezzan"
+ PROV3482:0 "Awbari"
+ PROV3483:0 "Germa"
+ PROV3484:0 "Gaberoun"
+ PROV3485:0 "Traghan"
+ PROV3486:0 "Zawila"
+ PROV3487:0 "Sokna"
+ PROV3488:0 "Zella"
+ PROV3489:0 "Tajura"
+ PROV3490:0 "Tiji"
+ PROV3491:0 "Al-Qasabat"
+ PROV3492:0 "El Agheila"
+ PROV3493:0 "Tawargha"
+ PROV3494:0 "Awjila"
+ PROV3495:0 "Bardiya"
+ PROV3496:0 "Susa"
+ PROV3497:0 "Qaminis"
+ PROV3498:0 "Al-Bayda"
+ PROV3499:0 "Al-Tamimi"
+
+ # BRASIL
+
+ PROV3500:0 "Quaresma" #Ilha de São João #### BRASIL START ##### WAS RNW
+
+ PROV3501:0 "Ryo Seara" # Extremoz   ### RIO GRANDE DO NORTE
+ PROV3502:0 "Pataxó" #BaixaVerde
+ PROV3503:0 "Inharés" #BorboremaNorte
+ PROV3504:0 "Ka'aysá" #Caicar
+ PROV3505:0 "Monxoró" # Mossoro
+ PROV3506:0 "Janduís" # PauFerros
+ PROV3507:0 "Itá Aja" #ValedoAcu
+ PROV3508:0 "Queicuó" #  Serido
+ #
+ PROV753:0 "Paranã-mirim"
+
+ PROV3509:0 "Parahyba" # NossaSenhora   ### PARAIBA
+ PROV3510:0 "Gûaraembira" #
+ PROV3511:0 "Banabuyê" # CampinaGrande
+ PROV3512:0 "Sucuru" #Sume
+ PROV3513:0 "Coremas" # Itatiunga
+ PROV3514:0 "Coyacus" #CatoleRocha
+ PROV3515:0 "Degas" #Pianco
+ PROV3516:0 "Peixe"  #
+ #
+
+ PROV3517:0 "Tamandaré" #RioFormoso ### Pernambuco
+ PROV3518:0 "Caruaru" #
+ PROV3519:0 "Guirá-nhum" #Garanhuns
+ PROV3520:0 "Araripina"  #Sertão do Araripe
+ PROV3521:0 "Ipanema" #Buique
+ PROV3522:0 "Moxotó" #
+ PROV3523:0 "Ibimirim" #Mirim
+ PROV3524:0 "Cabrobó"  # Sertão dos Rodelas
+ PROV3525:0 "Pajeú" #Serra Talhada
+ PROV3526:0 "Coripós" # CaminhoGado
+ #
+ PROV754:0 "Igarassu"
+ PROV755:0 "Beberibe"
+ PROV2922:0 "Ororubá"
+
+ PROV3527:0 "Paripueira" #PortoCalvo ### ALAGOAS
+ PROV3528:0 "Maçayó" # VilaMadalena
+ PROV3529:0 "Pira Aî" #Tapera
+ #
+ PROV2921:0 "Corurygip"
+
+ PROV3530:0 "Gararu" # UrubuBaixo ### SERGIPE
+ #
+ PROV2912:0 "Arákaîu"
+
+ PROV3531:0 "Aracati" #FortimSaoLourenco ### CEARA
+ PROV3532:0 "Itapipoca" #SerraCorvos
+ PROV3533:0 "Tabaina" #Macaboqueira
+ PROV3534:0 "Acaraú" #Sobral
+ PROV3535:0 "Guaraciaba" #SerraIbiapaba
+ PROV3536:0 "Kanindé" #Caninde
+ PROV3537:0 "Jaguaribana" #RibeiraJaguaribe
+ PROV3538:0 "Ibu" #RiachoQuixara
+ PROV3539:0 "Cará-teú" #Crateus
+ PROV3540:0 "Iguatu" #RibeiraQuixelos
+ #
+ PROV750:0 "Kariri"
+ PROV751:0 "Aquiraz"
+
+ PROV3541:0 "Poti" #AldeiasAtlas ### PIAUI
+ PROV3542:0 "Piripiri" #
+ PROV3543:0 "Gurguéia-kwara" #Nazare
+ PROV3544:0 "Urussuhy" #Urucui
+ PROV3545:0 "Itaueira" #RioGrandePiaui
+ PROV3546:0 "Gurguéia-yaci" #RiachoGrotao
+ PROV3547:0 "Paraim" #Corrente
+ PROV3548:0 "Jatobá" #SerraCapivara
+ PROV3549:0 "Ibiapaba" #
+ PROV3550:0 "Ararype" #Acaua
+ PROV3551:0 "Jenipapo" #ValeRioPiaui
+ #
+ PROV752:0 "Buriti"
+ PROV2886:0 "Parnaíba"
+ PROV2925:0 "Parnaguá"
+
+ PROV3552:0 "Itapecuru" ### MARANHAO
+ PROV3553:0 "Tutoia"
+ PROV3554:0 "Mbara'ká'çu-mé" #Carutapera
+ PROV3555:0 "Arari"
+ PROV3556:0 "Anapurus" #Brejo
+ PROV3557:0 "Iwa-kawa" #SaoLuiGonzagaMaranhao
+ PROV3558:0 "Pindaré"
+ PROV3559:0 "Mucuíba" #SantaTeresa
+ PROV3560:0 "Sambaiba" #Balsas
+ PROV3561:0 "Chapada Balsas" #AltoParnaiba
+ #
+ PROV749:0 "Bacanga"
+ PROV2923:0 "Amanajó"
+ PROV2924:0 "Guanaré"
+ PROV2926:0 "Karaîá'y"
+ PROV2927:0 "Tapuitapera"
+
+ PROV3562:0 "Paraguaçu" #Nazare ### BAHIA
+ PROV3563:0 "Îaku'ype" #Jacuipe
+ PROV3564:0 "Tucano" #RibieraPombal
+ PROV3565:0 "Tinharé" #NossaSenhoraRosario
+ PROV3566:0 "Poxim" #
+ PROV3567:0 "Beruri" # MISSED A PROV IN AMAZONAS
+ PROV3568:0 "Itanhém" #Alcobaca
+ PROV3569:0 "Mongoiós" #SertaoRessaca
+ PROV3570:0 "Itambé" #VitoriaConquista
+ PROV3571:0 "Jequié" #BocaMato
+ PROV3572:0 "Ipirá" #Camisao
+ PROV3573:0 "Massacará" #EuclidesCunha
+ PROV3574:0 "Sahy" #SenhorBonfim
+ PROV3575:0 "Payayas" #Jacobina
+ PROV3576:0 "Mucugê" #Lencois
+ PROV3577:0 "Ituaçu" #SerraGeral
+ PROV3578:0 "Guanambi" #Caetite
+ PROV3579:0 "Centoce" #Umbuzeiro
+ PROV3580:0 "Xacriabá" #Remanso
+ PROV3581:0 "Acroás" #PilaoArcado
+ PROV3582:0 "Kayapó" #Carinhanha
+ PROV3583:0 "Itajuí" #RioPreto
+ PROV3584:0 "Xavantes" #PortoBarrerias
+ PROV3585:0 "Coribe" #SaoJoaoGerais
+ #
+ PROV756:0 "Itápirika"
+ PROV757:0 "Ilhéus"
+ PROV760:0 "Nhoesembé"
+ PROV2885:0 "Xiquexique"
+ PROV2913:0 "Iguaba"
+ PROV2914:0 "Inhambupe"
+ PROV2915:0 "Pambú"
+ PROV2917:0 "Paratinga"
+ PROV2916:0 "Pataíba"
+ PROV2918:0 "Cotegipe"
+
+ PROV3586:0 "Marerike" #SaoMateus ### ESPIRITO SANTO
+ PROV3587:0 "Itapemirim" #Marataizes
+ #
+ PROV761:0 "Guaîtaká"
+
+ PROV3588:0 "Gecay" #CaboFrio ### RIO DE JANEIRO
+ PROV3589:0 "Itaguaí" #AngraReis
+ #
+ PROV762:0 "Y-kûabapûana"
+ PROV763:0 "Guanabara"
+ #
+
+ PROV3590:0 "Gûyrátinga-etá" #Guaratingueta ### SAO PAULO
+ PROV3591:0 "Caraguatyba" #Caraguatatuba
+ PROV3592:0 "Pariquera-Açu" #Cananeia
+ PROV3593:0 "Jundiaí" #
+ PROV3594:0 "Araçoiaba" #SaoFelipe
+ PROV3595:0 "Mogi-mirim" #Mococa
+ PROV3596:0 "Capão" #CapaoBonito
+ PROV3597:0 "Ybytukatu" #Botucatu
+ PROV3598:0 "Paranapanema" #
+ PROV3599:0 "Upaú-ru" #Agudos
+ PROV3600:0 "Catanduva" #
+ PROV3601:0 "Guapiaçu" #SaoJose
+ PROV3602:0 "Macuco" #MonteAlegre
+ PROV3603:0 "Aguapeí" #Tupi
+ PROV3604:0 "Araçatuba" #
+ PROV3605:0 "Yande-jara" #Nhandeara
+ PROV3606:0 "Gohayó" #SaoVincente
+ PROV3607:0 "Caingangues" #PlanaltoOcidentalPaulista
+ #
+ PROV764:0 "Jacareí"
+ PROV766:0 "Paranapiacaba"
+ PROV2896:0 "Jaguariúna"
+ PROV2897:0 "Piracicaba"
+
+ PROV3608:0 "Komandákaîa" #SertaoManducaia ### MINAS GERAIS
+ PROV3609:0 "Picu" #SaoJosePicu
+ PROV3610:0 "Itatiaia" #SantoAntonioParaibuna
+ PROV3611:0 "Cuiethé" #Caratinga
+ PROV3612:0 "Mucuri" #ValeMucuri
+ PROV3613:0 "Jequitinhonha" #Almenara
+ PROV3614:0 "Ibitipoca" #Barbacena
+ PROV3615:0 "Îaku'y" #Jacui
+ PROV3616:0 "Watu" #RioDoceSertoes
+ PROV3617:0 "Ini'yá" #SantoAntonioSalinas
+ PROV3618:0 "Itákarãî'y" #BoaVistaTremedal
+ PROV3619:0 "Jequitaí" #MontesClaros
+ PROV3620:0 "Icaraí" #PortoSalgado
+ PROV3621:0 "Unaí" #CapimBranco
+ PROV3622:0 "Paracatu" #MinasParacatu
+ PROV3623:0 "Araguá-ry" #BrejoAlegre
+ PROV3624:0 "Uberaba" #FarinhaPodre
+ PROV3625:0 "Ytyîukataba" #RioTijuco
+ #
+ PROV759:0 "Bocaiuva"
+ PROV765:0 "Itákunumi"
+ PROV2891:0 "Itapecerica"
+ PROV2892:0 "Araxá"
+ PROV2894:0 "Mbóaba"
+ PROV2898:0 "Ybyty'ro'y"
+ PROV2899:0 "Amynyîûasu"
+
+ PROV3626:0 "Paranaiguara" #AdabiaParanaiba ### GOIAS
+ PROV3627:0 "Ytupiara" #PortoSantaRita
+ PROV3628:0 "Ypameri" #CampoLimpo
+ PROV3629:0 "Uruaçu" #SaoJoseTocantins
+ PROV3630:0 "Yaraguá" #MeiaPonte
+ PROV3631:0 "Jandaia" #RioVerde
+ PROV3632:0 "Aruanã" #Bandeirantes
+ #
+ PROV758:0 "Yporang"
+ PROV2906:0 "Îate'i"
+ PROV2907:0 "Yara'wa"
+ PROV2908:0 "Araí"
+ PROV2919:0 "Ingá"
+
+ PROV3633:0 "Krahô" # Kraholandia  ### TOCANTINS
+ PROV3634:0 "Tupirama" #RioAraguaia
+ PROV3635:0 "Araguacema" #PortoFranco
+ PROV3636:0 "Jalapa" #Jalapao
+ PROV3637:0 "Gurupi" #SerraTrairas
+ #
+ PROV2909:0 "Ta'wa'tinga"
+ PROV2910:0 "Mucuja"
+ PROV2911:0 "Akwe"
+
+ PROV3638:0 "Ytykyra" #Cabeceira ### MATO GROSSO
+ PROV3639:0 "Kurâ" #PimentelBarbosa
+ PROV3640:0 "Xingu" #
+ #
+ PROV2888:0 "Ikuiapá"
+ PROV2902:0 "Baixo Guaporé"
+ PROV2903:0 "Itaúba"
+ PROV2904:0 "Paranatinga"
+ PROV2905:0 "Parabubure"
+
+
+ PROV3641:0 "Sucuriú" #PortoTaboado ### MATO GROSSO DO SUL
+ PROV3642:0 "Ivinhema" #RiachoQuiteroizinho
+ PROV3643:0 "Kaiguá" #
+ PROV3644:0 "Ygatim'y" #Iguatemi
+ PROV3645:0 "Itáhera'y" #AmambaiSul
+ PROV3646:0 "Porã" #PontaPora
+ PROV3647:0 "Apa" #FazendaJardim
+ PROV3648:0 "Piquirí" #DoisCorregos
+ PROV3649:0 "Amambaí" #PlanaltoAmambai
+ PROV3650:0 "Terenos" #SerraMaracaju
+ PROV3651:0 "Jaraguari" #RioVerde
+ #
+ PROV2881:0 "Curiba"
+ PROV2893:0 "Ofaié"
+ PROV2920:0 "Taquari"
+
+
+ PROV3652:0 "Jacaria" #RioAbuna ### RONDONIA
+ PROV3653:0 "Jamari" #SantoAntonio
+ #
+ PROV2900:0 "Alto Guaporé"
+ PROV2901:0 "Guajará"
+
+ PROV3654:0 "Kanamari" #Acre ### ACRE
+
+
+ PROV3655:0 "Arapeua" #ViseuGurupi ### PARA
+ PROV3656:0 "Tomé-Açu" #
+ PROV3657:0 "Cumarú" #
+ PROV3658:0 "Samaúma" #
+ PROV3659:0 "Muanás" #PontaPedras
+ PROV3660:0 "Ytuparang" #LagoVermelho
+ PROV3661:0 "Gurupá" #SantoAntonioGurupa
+ PROV3662:0 "Tavaquara" #
+ PROV3663:0 "Paru" #RioParu
+ PROV3664:0 "Urubuquara" #Outeiro
+ PROV3665:0 "Surubiú" #Alenquer
+ PROV3666:0 "Tukumã" #BaixoXingu
+ PROV3667:0 "Iriri" #RioViri
+ PROV3668:0 "Itá'imtyba" #Itaituba
+ PROV3669:0 "Îakaréakanga" #Jacareacanga
+ #
+ PROV748:0 "Mairi"
+ PROV2890:0 "Muruanazes"
+ PROV2928:0 "Tucuruí"
+ PROV2929:0 "Caámutá"
+ PROV2930:0 "Tupuliçus"
+ PROV2935:0 "Maturu"
+
+
+ PROV3670:0 "Tupinambara" #SaoMiguel ### AMAZONAS
+ PROV3671:0 "Itápyranga" #Saraca
+ PROV3672:0 "Itácoatiara" #IlhaAibi
+ PROV3673:0 "Tapaiuna" #NovoAirao
+ PROV3674:0 "Mura" #Moura
+ PROV3675:0 "Manacá" #Manacapuru
+ PROV3676:0 "Cudaiá" #Codajas
+ PROV3677:0 "Coaya Cory" #Coari
+ PROV3678:0 "Tefé" #
+ PROV3679:0 "Uarini" #
+ PROV3680:0 "Tamaniquá" #PortoColombiano
+ PROV3681:0 "Arumanduba" #FonteBoa
+ PROV3682:0 "Jutaí" #
+ PROV3683:0 "Tonantins" #SantoAntonioIca
+ PROV3684:0 "Aturá" #
+ PROV3685:0 "Tabatinga" #XavierTabatinga
+ PROV3686:0 "Autaz-Açú" #Autazes
+ PROV3687:0 "Sapucaia" #Trocano
+ PROV3688:0 "Matupiri" #Cachoeirinha
+ PROV3689:0 "Mbaitá" #Crato
+ PROV3690:0 "Daraá" #RioDaraa
+ PROV3691:0 "Marauiá" #SantaIsabel
+ PROV3692:0 "Camanaús" #SaoGabriel
+ PROV3693:0 "Içana" #RioIcana
+ PROV3694:0 "Iauareté" #Uaupes
+ PROV3695:0 "Japurá" #SantoAntonioMapiri
+ PROV3696:0 "Apaporis" #RioCaqueta
+ PROV3697:0 "Içá" #Ipiranga
+ PROV3698:0 "Iuruá" #Jurua
+ PROV3699:0 "Itámirimty" #SeringalSaoSebastiao
+ PROV3700:0 "Eirunepé" #
+ PROV3701:0 "Ipixuna" #
+ PROV3702:0 "Abufari" #BaixoPurus
+ PROV3703:0 "Ituxi" #Labrea
+ PROV3704:0 "Arapixi" #AltoPurus
+ #
+ PROV2933:0 "Mariuá"
+ PROV2934:0 "Manaó"
+
+ PROV3705:0 "Caracaraí" # Cidade-Porto### RORAIMA
+ PROV3706:0 "Roro-imam" #SaoJoaquim
+ #
+ PROV2889:0 "Caicubi"
+
+ PROV3707:0 "Mutuacá" #NovoMazagao ### AMAPA
+ PROV3708:0 "Macapaba" #Macapa
+ #
+ PROV747:0 "Amapá"
+ PROV2938:0 "Oiapoque"
+
+ PROV3709:0 "Paranãgûá" ### PARANA
+ PROV3710:0 "Mbocaya-üb" #Queimado
+ PROV3711:0 "Imbétyba" #Cupim
+ PROV3712:0 "Tibagi" #AltoTibagi
+ PROV3713:0 "Jacaré" #Plantina
+ PROV3714:0 "Jataí" #
+ PROV3715:0 "Apócaarã" #BoaBonifacio
+ PROV3716:0 "Agûarápuaba" #CamposGuarapuava
+ PROV3717:0 "Anahy" #Cascavel
+ PROV3718:0 "Peabiru" #CamposMourao
+ PROV3719:0 "Ivaí" #GuairenhoSertao
+ PROV3720:0 "Icaraíma" #AltoPiquiri
+ PROV3721:0 "Yguazú" #FozIguacu
+ PROV3722:0 "Kreie-bang-rê" #CamposPalmas
+ PROV3723:0 "Laklãnõ" #BaixoIguacu
+ #
+ PROV768:0 "Guaíra"
+ PROV769:0 "Kuri'yndy"
+ PROV2895:0 "Yapó"
+
+ PROV3724:0 "Babitonga" #GracaRioSaoFrancisco ### SANTA CATARINA
+ PROV3725:0 "Garoupas" #NovaEriceira
+ PROV3726:0 "Y-Jurerê-Mirim" #SaoJose
+ PROV3727:0 "Imbétuba" #Laguna
+ PROV3728:0 "Araranguá" #ValeAraras
+ PROV3729:0 "Corupá" #RioSaoBento
+ PROV3730:0 "Guabirupé" #Itajai-Acu
+ PROV3731:0 "Y'tuparanga" #ValeItajai
+ PROV3732:0 "Urubysy" #PrazeresLajes
+ PROV3733:0 "Itaió" #EstradaMata
+ PROV3734:0 "Timbó" #VauPalmas
+ PROV3735:0 "Îoasaba" #Curitibanos
+ PROV3736:0 "Echaapécó" #Xapeco
+ PROV3737:0 "Kûarasyaba" #RioMacacoBranco
+ #
+ PROV2887:0 "Meiembipe"
+
+ PROV3738:0 "M'Bororé" #SaoFranciscoXavier ### RIO GRANDE DO SUL
+ PROV3739:0 "Yapeyú" #Uruguaiana
+ PROV3740:0 "Chuí" #
+ PROV3741:0 "Bacupari" #PenisulaPernambuco
+ PROV3742:0 "Ka'apu'ã" #Patrulha
+ PROV3743:0 "Cambará" #
+ PROV3744:0 "Juá" #CampoBugres
+ PROV3745:0 "Cotiporã" #Cruzinha
+ PROV3746:0 "Guaíba" #ArroioRibeiro
+ PROV3747:0 "Camaquã" #BarraVelhaco
+ PROV3748:0 "Piratinin" #Boqueirao
+ PROV3749:0 "Mirim" #Jaguarao
+ PROV3750:0 "Mbaié" #SantoAndre
+ PROV3751:0 "Ka'asababa" #Cassapava
+ PROV3752:0 "Itaara" #SantaMaria
+ PROV3753:0 "Sinimbu" #RioPardo
+ PROV3754:0 "Tabaûera" #Carazinho
+ PROV3755:0 "Ituim" #Vacaria
+ PROV3756:0 "Rêmbâgn" #Erebango
+ PROV3757:0 "Iraí" #PalmeiraMissoes
+ PROV3758:0 "Ijuí" #SantoAngeloCustodio
+ PROV3759:0 "Pejuçara" #CruzAlta
+ PROV3760:0 "Itu-curuçu" #SaoTiago
+ PROV3761:0 "Ibicuí" #Sant'AnaLivramento
+ PROV3762:0 "Quarahy" #Quarai
+ #
+ PROV2857:0 "Gravataí"
+ PROV2879:0 "Taim"
+ PROV2884:0 "Maçambará"
+
+ ##### GUYANA  #####
+
+ PROV3763:0 "Guyana" # Waste
+ PROV3764:0 "Guiana" # Waste
+ #
+ PROV2936:0 "Suriname" #Waste
+
+ PROV3765:0 "Oyapok" #       ### Guiana
+ PROV3766:0 "Kurou" #
+ PROV3767:0 "Pripri" # #Sinnamary
+ PROV3768:0 "Kamalakuli" # #Maroni
+ PROV3769:0 "Kirikiri" # #Moutende
+ #
+ PROV746:0 "Kyynha"
+
+ PROV3770:0 "Abrina" # #Marowijne    ### Suriname
+ PROV3771:0 "Surama" # #FortGroningen
+ PROV3772:0 "Kuppneima" # #Coronie
+ PROV3773:0 "Neekeari" # #NieuwRotterdam
+ #
+ PROV745:0 "Paramaribo"
+ PROV2937:0 "Sipaliwini"
+
+ PROV3774:0 "Berbice" #     ### Guyana
+ PROV3775:0 "Mazaruni" # #Pomeroon
+ #
+ PROV743:0 "Kaituma"
+ PROV744:0 "Immenary"
+ PROV2931:0 "Kwakwani"
+
+
+ PROV3776:0 "Elahe" ### (French) Guiana Revisions
+ PROV3777:0 "Alikoto Tapele"
+ PROV3778:0 "Dotsi" ### Suriname Revisions
+ PROV3779:0 "Kawemhakan"
+ PROV3780:0 "Asidonhopo"
+ PROV3781:0 "Makatau" ### (British) Guyana Revisions
+ PROV3782:0 "Siparuni"
+
+ PROV3783:0 "Curiapo" ### (Spanish) Guyana
+ PROV3784:0 "Kaikara"
+ PROV3785:0 "Caripo"
+ #
+ PROV742:0 "Aracaicu"
+ PROV2803:0 "Uyapari"
+ PROV2804:0 "Caroní"
+ PROV2811:0 "Maracoa"
+ PROV4617:0 "Guainía"
+
+ PROV3786:0 "Guayana"
+ PROV3787:0 "Orinoco Delta"
+
+
+ ##### VENEZUELA #####
+
+ PROV3788:0 "Pampán"
+ PROV3789:0 "Buría"
+ PROV3790:0 "Yurubí"
+ PROV3791:0 "Khapaykuy"
+ PROV3792:0 "Socopó"
+ PROV3793:0 "Tirgua"
+ PROV3794:0 "Guasdua"
+ PROV3795:0 "Guayoyo"
+ PROV3796:0 "Otocuao"
+ PROV3797:0 "Tucupido"
+ PROV3798:0 "Guayuco"
+ PROV3799:0 "Guarapiche"
+ PROV3800:0 "Tigre"
+ PROV3801:0 "Cumarebo"
+ PROV3802:0 "Carirubana"
+ #
+ PROV741:0 "Guacarapo"
+ PROV830:0 "Maracaibo"
+ PROV831:0 "Caraca"
+ PROV843:0 "Moromoy"
+ PROV2805:0 "Karúpana"
+ PROV2807:0 "Cabima"
+ PROV2808:0 "Coro"
+ PROV2809:0 "Guarguapo"
+ PROV2810:0 "Apure"
+ PROV2813:0 "Mucuchíes"
+ PROV2939:0 "Ceiba"
+ PROV4609:0 "Tocuyo"
+ PROV4610:0 "Catatumbo"
+ PROV4611:0 "Itotes"
+ PROV4612:0 "Tacarigua"
+ PROV4613:0 "Hacarygua"
+ PROV4614:0 "Táchira"
+ PROV4615:0 "Guanipa"
+ PROV4616:0 "Neverí"
+
+ ##### URUGUAY #####
+ PROV3803:0 "Uruguaí"
+ PROV3804:0 "Kiyú"
+ PROV3805:0 "Arachana"
+ PROV3806:0 "Sarandí"
+ PROV3807:0 "Aiguá"
+ PROV3808:0 "Casupá"
+ PROV3809:0 "Yí"
+ PROV3810:0 "Ayí"
+ PROV3811:0 "Tupambae"
+ PROV3812:0 "Ombú"
+ PROV3813:0 "Caraguatá"
+ PROV3814:0 "Iporá"
+ PROV3815:0 "Guaviyú"
+ PROV3816:0 "Itapebí"
+ #
+ PROV772:0 "Ypauzandó"
+ PROV773:0 "Yakare"
+ PROV2850:0 "Chaná"
+ PROV2851:0 "Cuaró"
+ PROV2852:0 "Cuareim"
+
+ ##### REVISIONS RIVERS AND WASTES #####
+ PROV3817:0 "Itatiaia"
+ PROV3818:0 "Taubate"
+ PROV3819:0 "Irituia"
+ PROV3820:0 "Caxiuanã" #Portel
+ PROV3821:0 "Marajó"
+ PROV3822:0 "Tumucumaque"
+ PROV3823:0 "Amazon Delta"
+
+ PROV3824:0 "Guaporé"
+ PROV3825:0 "Aquiri"
+ PROV3826:0 "Roraima"
+ PROV3827:0 "Trombetas"
+ PROV3828:0 "Pará"
+ PROV3829:0 "Uatumã"
+ PROV3830:0 "Mato Grosso"
+ PROV3831:0 "Araguaia"
+ PROV3832:0 "Pantanal"
+ PROV3833:0 "Tacatu"
+ PROV3834:0 "Uraricoera"
+ PROV3835:0 "Ituquara"
+ PROV3836:0 "Nhamundá"
+ PROV3837:0 "Eruzu-M'Na"
+ PROV3838:0 "Náuas"
+ PROV3839:0 "Tarauacá"
+
+ PROV3843:0 "Ueneyá"
+ PROV3844:0 "Cahuinarí" #### COLOMBIA WASTE
+ PROV3845:0 "Mucajaí"
+ PROV3846:0 "Guamá"
+ PROV3847:0 "Maranhão"
+ PROV3848:0 "Piauí"
+ #
+ PROV1802:0 "Amazonas"
+ PROV1803:0 "Cuyari"
+
+
+ PROV3861:0 "Turiaçu"
+ PROV3862:0 "Arariboia"
+ PROV3863:0 "Serra da Capivara"
+ PROV3864:0 "Babaçu"
+ PROV3865:0 "Raso da Catarina"
+ PROV3866:0 "Espigão Mestre" #?
+ PROV3867:0 "Serra do Boqueirão"
+ PROV3868:0 "Iberá"
+ PROV3869:0 "Serra da Bocaina"
+ PROV3871:0 "Palomo"
+ PROV3872:0 "Guenguel"
+ PROV3873:0 "Cercada"
+ PROV3874:0 "Deseado"
+ PROV3875:0 "Cono"
+ PROV3876:0 "Famatina"
+ PROV3877:0 "Jaaukanigas"
+ PROV3878:0 "Paraná Delta"
+ PROV3879:0 "Chiapa"
+ PROV3880:0 "Ucayali"
+ PROV3881:0 "Ecuador"
+ PROV3882:0 "Auatí-Paraná"
+ PROV3883:0 "Cotopaxi"
+ PROV3884:0 "Peru"
+ PROV3885:0 "Manú"
+ PROV3886:0 "Beni"
+ PROV3887:0 "Chiquitano"
+ PROV3888:0 "Gran Chaco"
+ PROV3889:0 "Bajo Chaco"
+ PROV3890:0 "Sierra Nevada de Santa Marta" #
+ PROV3891:0 "Ampiyacu"
+ PROV3892:0 "Sierra de Perijá"
+ PROV3893:0 "Capanaparo"
+ PROV3894:0 "Sierra de Saroche"
+ PROV3895:0 "Cordillera Merida"
+ PROV3896:0 "Pucacuro"
+ PROV3897:0 "Tuparro"
+ PROV3898:0 "Uapés"
+
+ ##### COLOMBIA #####
+ PROV832:0 "Hunza"
+ PROV_ADJ832:0 "Hunza"
+
+ PROV3900:0 "Süchiimma"
+ PROV3901:0 "Tayrona"
+ PROV3902:0 "Pocabuy"
+ PROV3903:0 "Malibú"
+ PROV3904:0 "Thamara"
+ PROV3905:0 "Tulú"
+ PROV3906:0 "Panzenú"
+ PROV3907:0 "Zenúfana"
+ PROV3908:0 "Chisel"
+ PROV3909:0 "Orica"
+ PROV3910:0 "Urabá"
+ PROV3911:0 "Betanci"
+ PROV3912:0 "Tahamí"
+ PROV3913:0 "Sompallón"
+ PROV3914:0 "Kuku-ta"
+ PROV3915:0 "Chinácota"
+ PROV3916:0 "U'wa"
+ PROV3917:0 "Guantiva"
+ PROV3918:0 "Latora"
+ PROV3919:0 "Suamox"
+ PROV3920:0 "Tundama"
+ PROV3921:0 "Suatá"
+ PROV3922:0 "Guanes"
+ PROV3923:0 "Chiquinquihicha"
+ PROV3924:0 "Chie"
+ PROV3925:0 "Chicaquihicha"
+ PROV3926:0 "Ybaty"
+ PROV3927:0 "Guatavita"
+ PROV3928:0 "Uacatátyba"
+ PROV3929:0 "Fusagasugá"
+ #
+ PROV6080:0 "Calarcá"
+ PROV6081:0 "Otún"
+ PROV6082:0 "Pimarucua"
+ PROV6083:0 "Kimba"
+ PROV6084:0 "Yurimangüí"
+ PROV6085:0 "Cualamana"
+ PROV6086:0 "Chequera"
+ PROV6087:0 "Lilí"
+ PROV6088:0 "Yotoco"
+ PROV6089:0 "Goakarí"
+ PROV6090:0 "Tulue"
+ PROV6091:0 "Timbiquí"
+ PROV6092:0 "Latolita"
+ PROV6093:0 "Magüí Payán"
+ PROV6094:0 "Tucurris"
+ PROV6095:0 "Timaná"
+ PROV6096:0 "Bolombolo"
+ PROV6097:0 "Ebéjico"
+ PROV6098:0 "Tarazá"
+ PROV6099:0 "Mayaba"
+ PROV6100:0 "Dabeibe"
+ PROV6101:0 "Citará"
+ PROV6102:0 "Cémaco"
+ PROV6103:0 "Baudó"
+ PROV6104:0 "Bojayá"
+ PROV6105:0 "Caucayá"
+ PROV6106:0 "Assisi"
+ PROV6107:0 "Caquetá"
+ PROV6108:0 "Caguán"
+ PROV6109:0 "Ariari"
+ PROV6110:0 "Guayabero"
+ PROV6111:0 "Mirití-Paraná"
+ PROV6112:0 "Cara-Paraná"
+ PROV6113:0 "Igara-Paraná"
+ PROV6114:0 "Mecaya"
+ PROV6115:0 "Putumayo"
+ PROV6116:0 "Vaupés"
+ PROV6117:0 "Mitú"
+ PROV6118:0 "Inírida"
+ PROV6119:0 "Puinawai"
+ PROV6120:0 "Arauca"
+ PROV6121:0 "Cutufi"
+ PROV6122:0 "Orocué"
+ #
+ PROV822:0 "Orteguaza"
+ PROV823:0 "Cauca"
+ PROV824:0 "Guarinó"
+ PROV825:0 "Muyquytá"
+ PROV826:0 "Cucurrupí"
+ PROV827:0 "Aburrá"
+ PROV828:0 "Kalamari"
+ PROV829:0 "Galapa"
+ PROV832:0 "Chunsua"
+ PROV2806:0 "Jepirra"
+ PROV2812:0 "Guachiria"
+ PROV2814:0 "Guayabetal"
+ PROV2815:0 "Bita"
+ PROV2817:0 "Neyba"
+ PROV2818:0 "Pampayán"
+ PROV4596:0 "Quiparadó"
+ PROV4599:0 "Finzenú"
+ PROV4600:0 "Mompós"
+ PROV4601:0 "Eupari"
+ PROV4602:0 "Argutacaca"
+ PROV4603:0 "Chitaraque"
+ PROV4604:0 "Chachagüí"
+ PROV4605:0 "Mocoa"
+ PROV4607:0 "Ibagué"
+ PROV4608:0 "Yopal"
+
+ ##### MISIONES ####
+ PROV3930:0 "Yriapu"
+ PROV3931:0 "Igua Pora"
+ PROV3932:0 "Overa"
+ #
+ PROV2885:0 "Yanemi"
+
+ ##### PARAGUAY #####
+ PROV3933:0 "Ñe'embyky"
+ PROV3934:0 "Yarigua'a"
+ PROV3935:0 "Ybytyruzú"
+ PROV3936:0 "Takuapí"
+ PROV3937:0 "Tacurú Pucú"
+ PROV3938:0 "Pirapó"
+ PROV3939:0 "Tobatíry"
+ PROV3940:0 "Ytambeý"
+ PROV3941:0 "Canindeyú"
+ PROV3942:0 "Curuguaty"
+ PROV3943:0 "Itacurubí"
+ PROV3944:0 "Ykuamandyju"
+ PROV3945:0 "Guasú"
+ PROV3946:0 "Tarumá"
+ PROV3947:0 "Itatí"
+ PROV3948:0 "Curupayty"
+ PROV3949:0 "Cué"
+ PROV3950:0 "Aquidabán"
+ PROV3951:0 "Panambí"
+ PROV3952:0 "Guayacán"
+ #
+ PROV775:0 "Pitum"
+ PROV776:0 "Ypané"
+ PROV799:0 "Xarayes"
+ PROV2858:0 "Ca'a Po'i"
+ PROV2859:0 "Itá Púa"
+ PROV2883:0 "Ysyry Araguaý"
+
+ ##### BOLIVIA #####
+ PROV3953:0 "Conwarapa"
+ PROV3954:0 "Samaipata"
+ PROV3955:0 "Yapacaní"
+ PROV3956:0 "Caámyri"
+ PROV3957:0 "Yotaú"
+ PROV3958:0 "Palconeca"
+ #
+ PROV800:0 "Quijaro"
+ PROV2834:0 "Grigotá"
+ PROV2882:0 "Mutún"
+
+ PROV3959:0 "Casaraóe"
+ PROV3960:0 "Mamoré"
+ PROV3961:0 "Bococo"
+ PROV3962:0 "Moré"
+ PROV3963:0 "Mateguá"
+ PROV3964:0 "Pacaguara"
+ PROV3965:0 "Ingavi"
+ #
+ PROV803:0 "Moxos"
+ PROV2832:0 "Machupo"
+
+ PROV3966:0 "Machua"
+ #
+ PROV2833:0 "Sena"
+
+ PROV3967:0 "Humanata"
+ PROV3968:0 "Ulla Ulla"
+ PROV3969:0 "Yungas"
+ PROV3970:0 "Siqa Siqa"
+ PROV3971:0 "Axawiri"
+ PROV3972:0 "Inquisivi"
+ PROV3973:0 "Chulumani"
+ PROV3974:0 "Caranavi"
+ PROV3975:0 "Kori Kori"
+ PROV3976:0 "Yucumaj"
+ PROV3977:0 "Madidi"
+ PROV3978:0 "Tumupasa"
+ PROV3979:0 "Cavina"
+ PROV3980:0 "Chivé"
+ #
+ PROV802:0 "Chuqiyapu"
+ PROV2831:0 "Tiwanaku"
+
+ PROV3981:0 "Thapa Qhari"
+ PROV3982:0 "Ayopaya"
+ PROV3983:0 "Mizque"
+ PROV3984:0 "Omereque"
+ PROV3985:0 "Isinuta"
+ PROV3986:0 "Chimoré"
+ PROV3987:0 "Yurujare"
+ #
+ PROV801:0 "Kanata"
+ PROV2941:0 "T'utura"
+
+ PROV3988:0 "Tigüipa"
+ PROV3989:0 "Huaqareta"
+ PROV3990:0 "Pazpaya"
+ PROV3991:0 "Ipaguasú"
+ #
+ PROV2935:0 "Chuq'i-chaka"
+
+ PROV3992:0 "Poopó"
+ PROV3993:0 "Huaylloco"
+ PROV3994:0 "Pocorcollo"
+ PROV3995:0 "Kori Bara"
+ PROV3996:0 "Huachacalla"
+ #
+ PROV797:0 "Paria"
+ PROV2946:0 "Quillacas"
+
+ PROV3997:0 "Llipi"
+ PROV3998:0 "Llica"
+ PROV3999:0 "UyuNi"
+ PROV4000:0 "Huacoma"
+ PROV4001:0 "Pocoj Wata"
+ #
+ PROV795:0 "Tarabuco"
+ PROV2940:0 "Ttojpisan"
+ PROV2942:0 "Saqaqa"
+
+ PROV4002:0 "Yuqui"
+ PROV4003:0 "Nupucu"
+ #
+ PROV2838:0 "Tariquía"
+
+
+ ##### NORTH CHILE #####
+ PROV4004:0 "Millapel"
+ PROV4005:0 "Kokambala"
+ PROV4006:0 "Patanas"
+ PROV4007:0 "Filgasta"
+ PROV4008:0 "Kumbaruhao"
+ PROV4009:0 "Thalthal"
+ PROV4010:0 "Llullallaco"
+ PROV4011:0 "Choroa"
+ PROV4012:0 "Qui'llahao"
+ PROV4013:0 "Piqai"
+ PROV4014:0 "Tarapacá"
+ PROV4015:0 "Toconao"
+ #
+ PROV792:0 "Ckopayapu"
+ PROV793:0 "Iki Iki"
+ PROV796:0 "Ariqui"
+ PROV2839:0 "Quitor"
+ PROV2840:0 "Ckara-ama"
+ PROV2841:0 "Antofayagasta"
+ PROV2862:0 "Paihuano"
+
+ ##### Formosa #####
+ PROV4016:0 "Yemu"
+ PROV4017:0 "Pilagá"
+ PROV4018:0 "Tacaaglé"
+ #
+ PROV2854:0 "Puganagay"
+ #
+ PROV4019:0 "Ansenuza"
+ ###
+
+ ##### CHILE PROPER #####
+ PROV4790:0 "Trürun-we"
+ PROV4791:0 "Peguko"
+ PROV4792:0 "Kofkekura"
+ PROV4793:0 "Cauquenes"
+ PROV4794:0 "Marchigüe"
+ PROV4795:0 "Aliamapu"
+ PROV4796:0 "Q'illu Uta"
+ PROV4797:0 "Molchen"
+ PROV4798:0 "Chillán"
+ PROV4799:0 "Longaví"
+ PROV4800:0 "Mau Leuvu"
+ PROV4801:0 "Kurü Ko"
+ PROV4802:0 "Rongo"
+ PROV4803:0 "Cachapual"
+ PROV4804:0 "Kongka-we"
+ #
+ PROV787:0 "Mapu Chuco"
+
+ ##### ARAUCANIA #####
+ PROV4805:0 "Pangi Pulli"
+ PROV4806:0 "Ainilebu"
+ PROV4807:0 "Mallolafquen"
+ PROV4808:0 "Temuko"
+ PROV4809:0 "Angol"
+ PROV4810:0 "Kura Kawin"
+ #
+ PROV4835:0 "Paillaco" ### Araucania revision
+ #
+
+ ##### LOS LAGOS #####
+ PROV4811:0 "Chaitun"
+ PROV4812:0 "Hualaihué"
+ PROV4813:0 "Kochamo"
+ PROV4814:0 "Külon"
+ PROV4815:0 "Queilén"
+ PROV4816:0 "Dalkawe"
+ PROV4817:0 "Ancud"
+ PROV4818:0 "Maulliuñ"
+ PROV4819:0 "Kallvüko"
+ #
+ PROV784:0 "Fütawillimapu"
+ PROV2873:0 "Quiquilhue"
+
+ ##### AYSEN #####
+ PROV4820:0 "Campana"
+ PROV4821:0 "Tortel"
+ PROV4822:0 "Taitao"
+ PROV4823:0 "Qojajke"
+ PROV4824:0 "Puyuhuapi"
+ PROV4825:0 "Chonos"
+ PROV4826:0 "Guayaneco"
+ #
+ PROV783:0 "Qoj"
+ PROV2874:0 "Aíchirn"
+
+ ##### MAGELLANES #####
+ PROV4827:0 "Kalén"
+ PROV4828:0 "Kempe"
+ PROV4829:0 "Jetarktétqal"
+ PROV4830:0 "Kawésqa"
+
+ ##### TIERRA DEL FUEGO #####
+ PROV4831:0 "Karkamke"
+ PROV4832:0 "Hersk"
+ PROV4833:0 "Wakimaala"
+ PROV4834:0 "Onashaga"
+ #
+ PROV4836:0 "Akwalisnan" #Yámana
+ PROV4837:0 "Alacaluf"
+ PROV4838:0 "Pali Aike"
+ #
+ PROV782:0 "Parik"
+
+ ###
+ PROV1095:0 "East Falkland"
+ PROV4839:0 "West Falkland" ### Falklands revision
+ ###
+
+ ##### SANTA CRUZ / PATAGONIA #####
+ PROV4840:0 "Koluel Kayke"
+ PROV4841:0 "Güer Aike"
+ PROV4842:0 "Tamel Aike"
+ PROV4843:0 "Kehek Aike"
+ PROV4844:0 "Rospentek Aike"
+ PROV4845:0 "Kelt Aike"
+ PROV4846:0 "Chelenko"
+ #
+ PROV781:0 "Chon Aike"
+ PROV2869:0 "Corpen Aike"
+ PROV2876:0 "Charkamak"
+
+ ##### CHUBUT #####
+ PROV4847:0 "Jamakan"
+ PROV4848:0 "Tülshün"
+ PROV4849:0 "Payahilé"
+ PROV4850:0 "Kashtrük"
+ PROV4851:0 "Cushamen"
+ PROV4852:0 "Tecka"
+ PROV4853:0 "Sengel"
+ PROV4854:0 "Chulilaw"
+ #
+ PROV780:0 "Kaüas a Süen"
+ PROV2875:0 "Chupat"
+
+ ##### RIO NEGRO Y NEUQUEN #####
+ PROV4855:0 "Cari Lauquen"
+ PROV4856:0 "Huayque Nelo"
+ PROV4857:0 "Buta Ranquil"
+ PROV4858:0 "Choele Choel"
+ PROV4859:0 "Neuquén"
+ PROV4860:0 "Yamnago"
+ PROV4861:0 "Maguinchao"
+ PROV4862:0 "Chos Malal"
+ PROV4863:0 "Aluminé"
+ #
+ PROV785:0 "Naupa Huen"
+ PROV2863:0 "Curú Leufvú"
+ PROV2868:0 "Walichu"
+ PROV2870:0 "Nahuel Huapi"
+ PROV2871:0 "Pucaulhué"
+
+ ##### Buenos Aires #####
+ PROV4864:0 "Paraná Miní"
+ PROV4865:0 "Suyan"
+ PROV4866:0 "Chascomus"
+ PROV4867:0 "Itahí"
+ PROV4868:0 "Areco"
+ PROV4869:0 "Carpincho"
+ PROV4870:0 "Tuyú"
+ PROV4871:0 "Ken Ken"
+ PROV4872:0 "K'la-Rome-Ko"
+ PROV4873:0 "Quetru Queyu"
+ PROV4874:0 "Chasicó"
+ PROV4875:0 "Tubichá"
+ PROV4876:0 "Cla Lauquen"
+ PROV4877:0 "Tenemiquen"
+ PROV4878:0 "Trenquelauquén"
+ PROV4879:0 "Carhué"
+ #
+ PROV778:0 "Wenusay" #Buenos Aires
+ PROV779:0 "Tandil"
+ PROV786:0 "Anegada" #carmen de patagones
+ PROV2860:0 "Querandí" #lobos
+ PROV2866:0 "Tapalquen"
+
+ ##### SANTA FE #####
+ PROV4880:0 "Melincué"
+ PROV4881:0 "Caracara"
+ PROV4882:0 "Timbú"
+ PROV4883:0 "Cululú"
+ PROV4884:0 "Cayastá"
+ PROV4885:0 "Ituzaingó"
+ PROV4886:0 "Tapenagá"
+ PROV4887:0 "Isoati"
+ #
+ PROV2848:0 "Quiloaza"
+ PROV2849:0 "Mbeguá"
+
+ ##### ENTRE RIOS #####
+ PROV4888:0 "Ytú"
+ PROV4889:0 "Urú'gua'e"
+ PROV4890:0 "Yaguarí Guazú"
+ PROV4891:0 "Yvy Ku'i"
+ PROV4892:0 "Pairindi"
+ PROV4893:0 "Ibiyá Cuay"
+ PROV4894:0 "Cabayú Cuatiá"
+ PROV4895:0 "Para Rehe Onáva"
+ PROV4896:0 "Nogoyá"
+
+ ##### CORRIENTES #####
+ PROV4897:0 "Aguapey"
+ PROV4898:0 "Curuzú Cuatiá"
+ PROV4899:0 "Paiubre"
+ PROV4900:0 "Guayquiraró"
+ PROV4901:0 "Ka'a Guasú"
+ PROV4902:0 "Ka'a Katí"
+ PROV4903:0 "Yaguareté Corá"
+ #
+ PROV777:0 "Taragüí"
+ PROV2853:0 "Yapeyú"
+
+ ##### JUJUY #####
+ PROV4904:0 "Teuco"
+ PROV4905:0 "Tuyunti"
+ PROV4906:0 "Pichay"
+ PROV4907:0 "Anta"
+ PROV4908:0 "Mepao"
+ PROV4909:0 "Salta"
+ PROV4910:0 "Cafayate"
+ PROV4911:0 "Kakchi"
+ PROV4912:0 "Jujuy"
+ PROV4913:0 "Cochinoca"
+ PROV4914:0 "Susquis"
+ PROV4915:0 "Tola"
+ #
+ PROV794:0 "Churumata"
+ PROV2837:0 "Quisca"
+
+ ##### CHACO #####
+ PROV4916:0 "Aviauck Tadaek"
+ PROV4917:0 "Charadai"
+ PROV4918:0 "Cangaye"
+ PROV4919:0 "Sacha Rupaj"
+ #
+ PROV790:0 "Ychimaye"
+ PROV2878:0 "Machagai"
+
+ ###
+ ###
+ ###
+
+ ##### CORDOBA #####
+ PROV5920:0 "Xanaes"
+ PROV5921:0 "Litín"
+ PROV5922:0 "Ctalamochita"
+ PROV5923:0 "Nabosacat"
+ PROV5924:0 "Tulumba"
+ PROV5925:0 "Ischilin"
+ PROV5926:0 "Chocancharava"
+ PROV5927:0 "Salsacat"
+ #
+ PROV2846:0 "Suquía"
+ PROV2861:0 "Huinca Renancó"
+
+ ##### SANTIAGO DEL ESTERO #####
+ PROV5928:0 "Quimilí"
+ PROV5929:0 "Vitiaca"
+ PROV5930:0 "Icaño"
+ PROV5931:0 "Salavina"
+ PROV5932:0 "Guasayán"
+ #
+ PROV2842:0 "Atamisqui"
+ PROV3899:0 "Añatuya"
+
+ ##### CATAMARCA Y TUCUMAN #####
+ PROV5933:0 "Ancasti"
+ PROV5934:0 "Saujil"
+ PROV5935:0 "Yocavil"
+ PROV5936:0 "Tinogasta"
+ PROV5937:0 "Fiambalá"
+ PROV5938:0 "Antofayakasta"
+ #
+ PROV791:0 "Catamarca"
+ PROV2836:0 "Tucma"
+
+ ##### LA RIOJA #####
+ PROV5939:0 "Aimogasta"
+ PROV5940:0 "Holta"
+ PROV5941:0 "Patquia"
+ PROV5942:0 "Vinchina"
+ #
+ PROV2843:0 "Talamuyuna"
+ PROV2844:0 "Chepes"
+
+ ##### SAN JUAN #####
+ PROV5943:0 "Chaj-Paj-Nai"
+ PROV5944:0 "Caucete"
+ PROV5945:0 "Jachal"
+ PROV5946:0 "Talacasto"
+ PROV5947:0 "Pivn-Man-Antu"
+ PROV5948:0 "Catalve"
+ #
+ PROV2845:0 "Angaco"
+
+ ##### LA PAMPA #####
+ PROV5949:0 "Ragkül Mapu"
+ PROV5950:0 "Vuta Chadihue"
+ PROV5951:0 "Pichi Mahuida"
+ PROV5952:0 "Thanan-Tue"
+ PROV5953:0 "Lihuel Cahel"
+ PROV5954:0 "Limay Mahuida"
+ PROV5955:0 "Kura Ko"
+ PROV5956:0 "Puelen"
+ #
+ PROV2865:0 "Toay"
+
+ ##### SAN LUIS #####
+ PROV5957:0 "Popopis"
+ PROV5958:0 "Conlara"
+ PROV5959:0 "Nogolí"
+ #
+ PROV2847:0 "Akasapa"
+ PROV2867:0 "Nahuel Mapá"
+
+
+ ##### MENDOZA #####
+ PROV5960:0 "Huanacache"
+ PROV5961:0 "Latuel"
+ PROV5962:0 "Uspallata"
+ PROV5963:0 "Malal Hue"
+ PROV5964:0 "Payún Matrú"
+ PROV5965:0 "Tholov"
+ #
+ PROV2872:0 "Chiquiyami"
+ PROV2877:0 "Güentota"
+
+
+ ##### TACNA Y MOQUEGUA #####
+ PROV5966:0 "Taqna"
+ PROV5967:0 "Tarata"
+ PROV5968:0 "Pacocha"
+ PROV5969:0 "Mukiwaa"
+ PROV5970:0 "Ansi"
+
+ ##### PUNO #####
+ PROV5971:0 "Titikaka"
+ PROV5972:0 "Illawi"
+ PROV5973:0 "Wanq'uri"
+ PROV5974:0 "Hatun Kolla"
+ PROV5975:0 "Warachuyo"
+ PROV5976:0 "Vilavila"
+ PROV5977:0 "Muju"
+ PROV5978:0 "Wankani"
+ PROV5979:0 "Andean Lakes" ###
+ PROV5980:0 "Cuyocuyo"
+ PROV5981:0 "Kallawayas"
+ #
+ PROV804:0 "Chucuito"
+ PROV2829:0 "Pucará"
+ PROV2947:0 "Macarí"
+
+ ##### AREQUIPA #####
+ PROV5982:0 "Cocachacra"
+ PROV5983:0 "Cjara Hualli"
+ PROV5984:0 "Acari"
+ PROV5985:0 "Chuway"
+ PROV5986:0 "Yuraqaqa"
+ PROV5987:0 "Qutuwasi"
+ #
+ PROV805:0 "Ariqipay"
+ PROV2828:0 "Camana"
+
+ ##### ICA #####
+ PROV5988:0 "Ika"
+ PROV5989:0 "Chincha"
+ #
+ PROV806:0 "Nazca"
+
+ ##### CUSCO  #####
+ PROV5990:0 "Yauri"
+ PROV5991:0 "Canchis"
+ PROV5992:0 "Pichigua"
+ PROV5993:0 "Chumpiwilcas"
+ PROV5994:0 "Acomayo"
+ PROV5995:0 "Urcos"
+ PROV5996:0 "Pawqartampu"
+ PROV5997:0 "Urupampa"
+ PROV5998:0 "Wilcapampa"
+ PROV5999:0 "Quillapampa"
+ PROV6000:0 "Malanquiato"
+ #
+ PROV808:0 "Qosqo"
+ PROV2830:0 "Ausangate"
+
+ ##### AYACUCHO Y AYPURIMAC #####
+ PROV6001:0 "Upawacho"
+ PROV6002:0 "Cachichayoc"
+ PROV6003:0 "Pukyu"
+ PROV6004:0 "Willkawaman"
+ PROV6005:0 "Antapampa"
+ PROV6006:0 "Tampopampa"
+ PROV6007:0 "Antawaylla"
+ PROV6008:0 "Huamanga"
+ #
+ PROV807:0 "Apu Rimaq"
+
+ ##### HUANCAVELICA #####
+ PROV6009:0 "Chuqlluqucha"
+ PROV6010:0 "Aqupampa"
+ #
+ PROV810:0 "Wanka Willka"
+
+ ##### CENTRAL PERU #####
+ PROV6011:0 "Ungará"
+ PROV6012:0 "Lachay"
+ PROV6013:0 "Wankayuq"
+ PROV6014:0 "Chinchayqocha"
+ PROV6015:0 "Wariaca"
+ PROV6016:0 "Urcupampa"
+ PROV6017:0 "Mon Konma"
+ PROV6018:0 "Aisatipoki"
+ PROV6019:0 "Tambo"
+ PROV6020:0 "Yawyuq"
+ PROV6021:0 "Kananka"
+ PROV6022:0 "Kasha Tampu"
+ #
+ PROV809:0 "Rimaq"
+ PROV811:0 "Shawsha"
+
+ ##### NORTHERN PERU #####
+ PROV6023:0 "Guaxme"
+ PROV6024:0 "Mesjepeque"
+ PROV6025:0 "Colhué Huapi"
+ PROV6026:0 "Curumuy"
+ PROV6027:0 "Chulucanas"
+ PROV6028:0 "Yuramarka"
+ PROV6029:0 "Chota"
+ PROV6030:0 "Wamachuko"
+ PROV6031:0 "Wayllaq"
+ PROV6032:0 "Wari"
+ PROV6033:0 "Tayapampa"
+ PROV6034:0 "Chilindrín"
+ PROV6035:0 "Condorcanqui"
+ PROV6036:0 "Utcupampa"
+ PROV6037:0 "Pozuzo"
+ PROV6038:0 "Tocachi"
+ PROV6039:0 "Wallaga"
+ PROV6040:0 "Cumbaza"
+ PROV6041:0 "Konchucu"
+ #
+ PROV812:0 "Chan-Chan"
+ PROV813:0 "Kuismanko"
+ PROV814:0 "Yarowilka"
+ PROV816:0 "Tumi"
+ PROV2821:0 "Tayta"
+ PROV2822:0 "Túcume"
+ PROV2823:0 "Muyupampa"
+ PROV2824:0 "Wankapampa"
+ PROV2825:0 "Waqaypampa"
+ PROV2826:0 "Chimbote"
+ PROV2827:0 "Waraq"
+ PROV2943:0 "Chachapuyos"
+
+ ##### MADRE DE DIOS, UCAYALI, Y LORETO #####
+ PROV6042:0 "Tahuamanu"
+ PROV6043:0 "Tambopata"
+ PROV6044:0 "Purús"
+ PROV6045:0 "Xapuri"
+ PROV6046:0 "Vehitiaricuy"
+ PROV6047:0 "Iparía"
+ PROV6048:0 "May Ushin"
+ PROV6049:0 "Ahuyia"
+ PROV6050:0 "Tapiche"
+ PROV6051:0 "Marañón"
+ PROV6052:0 "Parinari"
+ PROV6053:0 "Mauta"
+ PROV6054:0 "Ullpayacu"
+ PROV6055:0 "Andoas"
+ PROV6056:0 "Napo"
+ PROV6057:0 "Güepí"
+ PROV6058:0 "Pebas"
+ PROV6059:0 "Yaraná"
+ #
+ PROV815:0 "I'kitos"
+ PROV2944:0 "Kunta Mana"
+ PROV2945:0 "Yurimaguas"
+
+ ##### ECUADOR ####
+ PROV6060:0 "Catacocha"
+ PROV6061:0 "Machala"
+ PROV6062:0 "Cumbinamá"
+ PROV6063:0 "Chirijos"
+ PROV6064:0 "Colonche"
+ PROV6065:0 "Kumbaratza"
+ PROV6066:0 "Waakis"
+ PROV6067:0 "Liripampa"
+ PROV6068:0 "Babahuyu"
+ PROV6069:0 "Cancebí"
+ PROV6070:0 "Quevedo"
+ PROV6071:0 "Ambato"
+ PROV6072:0 "Tiputini"
+ PROV6073:0 "Secoya"
+ PROV6074:0 "Lumbaquí"
+ PROV6075:0 "Imbaguarbak"
+ PROV6076:0 "Yambe"
+ PROV6077:0 "Chone"
+ PROV6078:0 "Sangay"
+ #
+ PROV817:0 "Peleusí"
+ PROV818:0 "Maca"
+ PROV819:0 "Guayas"
+ PROV820:0 "Quitu"
+ PROV821:0 "Kiyos"
+ PROV2820:0 "Atacames"
+
+ PROV6079:0 "Beni Lakes" ###
+
+ ##### #####
+
+ ### ADDED TO REPLACE AS VANILLA ADDED NEW LOCAL ###
+ PROV4920:0 "Aleut"
+ PROV4921:0 "Naugeik"
+ PROV4922:0 "Curyuk"
+ PROV4923:0 "Mamterilleq"
+ PROV4924:0 "Unalaqliq"
+ PROV4925:0 "Chinik"
+ PROV4926:0 "Kena"
+ PROV4927:0 "Suacit"
+ PROV4928:0 "Koyukuk"
+ PROV4929:0 "Nuchalawoyyet"
+ PROV4930:0 "Allakaket"
+ PROV4931:0 "Chena"
+ PROV4932:0 "Denyeet"
+ PROV4933:0 "Gwich'in"
+ PROV4934:0 "Hän Hwëch'in"
+ PROV4935:0 "Taats’altey"
+ PROV4936:0 "Tate'ahwt'aene"
+ PROV4937:0 "Tr'ochëk Hwëch'in"
+ PROV4938:0 "Dän"
+ PROV4939:0 "Waskasoo Seepee"
+ PROV4940:0 "Lekwungen"
+ PROV4941:0 "Xa’islak’ala"
+
+ #MISC
+
+ PROV7897:0 "Varde"
+ PROV7900:0 "Silkeborg"
+ PROV7902:0 "Svendborg"
+ PROV7903:0 "Falster"
+ PROV7904:0 "Naestved"
+ PROV7912:0 "Maghrebi Lakes"
+
+ #KUTCH
+ PROV503:0 "Koteshwar"
+ PROV2197:0 "Anjar"
+ PROV3004:0 "Mandvi"
+ PROV3007:0 "Karachi"
+ PROV3010:0 "Rapar"
+ PROV3011:0 "Bhuj"
+ PROV3012:0 "Mundra"
+
+ #ALBANIA
+ PROV4175:0 "Kruja"
+
+
+ #Scandinavia
+ PROV11:0 "Umeå"
+ PROV7799:0 "Luleå"
+ PROV7802:0 "Kuusamo"
+ PROV7805:0 "Hollola"
+ PROV7864:0 "Kemijärvi"
+ PROV4114:0 "Rounala"
+ PROV4114_ADJ:0 "Rounala"
+
+ #Mediterranean
+ PROV127:0 "Alghero"
+ PROV5091:0 "Sassari" #different from BT files?
+ PROV4549:0 "Xativa"
+
+#Ruthenia and the Wild Fields
+ PROV282:0 "Kotsyubiyiv"
+ PROV282_ADJ:0 "Kotsyubiyiv"
+ PROV283:0 "Kuchugur"
+ PROV283_ADJ:0 "Kuchugur"
+ PROV287:0 "Levy"
+ PROV287_ADJ:0 "Levy"
+ PROV463:0 "Sagvasa"
+ PROV463_ADJ:0 "Sagvasa"
+ PROV2365:0 "Maly Uzen"
+ PROV2365_ADJ:0 "Maly Uzen"
+ PROV2417:0 "Kyzyl Kyja"
+ PROV2417_ADJ:0 "Kyzyl Kyja"
+ PROV2418:0 "Krivoy Yar"
+ PROV2418_ADJ:0 "Krivoy Yar"
+ PROV3266:0 "Tikhaya Sosna"
+ PROV3266_ADJ:0 "Tikhaya Sosna"
+ PROV4136:0 "Tumnev"
+ PROV4136_ADJ:0 "Tumnev"
+ PROV4328:0 "Hatukay"
+ PROV4328_ADJ:0 "Hatukay"
+ PROV4347:0 "Lebaba"
+ PROV4347_ADJ:0 "Lebaba"
+ PROV1856:0 "Sukhumi"
+ PROV_ADJ1856:0 "Sukhumi"
+
+ #Near East
+ PROV432:0 "Khabis"
+ PROV_ADJ432:0 "Khabis"
+ PROV2235:0 "Bayhaq"
+ PROV2211:0 "Sanandaj"
+ PROV416:0 "Tabriz"
+ PROV425:0 "Quba"
+ PROV4270:0 "Azraq"
+ PROV4299:0 "Layzan"
+ PROV381:0 "Lajat"
+ PROV365:0 "Raithu"
+ PROV5062:0 "Bandar Khamir"
+ PROV_ADJ5062:0 "Bandar Khamir"
+ PROV5098:0 "Kerman"
+ PROV_ADJ5098:0 "Kermani"
+ PROV5099:0 "Kahnuj"
+ PROV_ADJ5099:0 "Kahnuj"
+ PROV5113:0 "Fin"
+ PROV_ADJ5113:0 "Fin"
+ PROV5114:0 "Anbarabad"
+ PROV_ADJ5114:0 "Anbarabad"
+ PROV5115:0 "Hashtbandi"
+ PROV_ADJ5115:0 "Hashtbandi"
+ PROV5122:0 "Rodan"
+ PROV_ADJ5122:0 "Rodan"
+ PROV5128:0 "Angohran"
+ PROV_ADJ5128:0 "Angohran"
+ PROV5132:0 "Rudbar"
+ PROV_ADJ5132:0 "Rudbari" #Jaz Murian
+ PROV5133:0 "Gabrik"
+ PROV_ADJ5133:0 "Gabrik"
+ PROV5136:0 "Geh"
+ PROV_ADJ5136:0 "Geh"
+ PROV5140:0 "Zarabad"
+ PROV_ADJ5140:0 "Zarabad"
+ PROV5141:0 "Dalgan"
+ PROV_ADJ5141:0 "Dalgan"
+ PROV5142:0 "Dahstiari"
+ PROV_ADJ5142:0 "Dashtiari"
+ PROV5143:0 "Pehra" #Iranshahr
+ PROV_ADJ5143:0 "Pehrani"
+ PROV5144:0 "Sarbaz"
+ PROV_ADJ5144:0 "Sarbaz"
+ PROV5148:0 "Rameshk"
+ PROV_ADJ5148:0 "Rameshk"
+ PROV5149:0 "Paskuh"
+ PROV_ADJ5149:0 "Paskuh"
+ PROV5153:0 "Jaz Murian"
+ PROV_ADJ5153:0 "Jaz Murian"
+ PROV5159:0 "Bent"
+ PROV_ADJ5159:0 "Bent"
+ PROV5160:0 "Maghwa"
+ PROV_ADJ5160:0 "Maghwa"
+ PROV5166:0 "Tangestan"
+ PROV_ADJ5166:0 "Tangestani"
+ PROV5169:0 "Khor"
+ PROV_ADJ5169:0 "Khor"
+ PROV5173:0 "Taftan"
+ PROV_ADJ5173:0 "Taftan"
+ PROV5174:0 "Jalek"
+ PROV_ADJ5174:0 "Jalek"
+ PROV5175:0 "Sib"
+ PROV_ADJ5175:0 "Sib"
+ PROV5176:0 "Urayarah"
+ PROV_ADJ5176:0 "Urayarah"
+ PROV5177:0 "Khatam"
+ PROV_ADJ5177:0 "Khatam"
+ PROV397:0 "Maleih"
+ PROV_ADJ397:0 "Maleih"
+
+
+ PROV5178:0 "Zabadani"
+ PROV_ADJ5178:0 "Zabadani"
+ PROV5179:0 "Tabariyya"
+ PROV_ADJ5179:0 "Tabariyya"
+ PROV5182:0 "Batanaea"
+ PROV_ADJ5182:0 "Batanaean"
+ PROV5183:0 "Zarqa"
+ PROV_ADJ5183:0 "Zarqa"
+ PROV5184:0 "Shephelah"
+ PROV_ADJ5184:0 "Shephelah"
+ PROV5185:0 "Qadisha"
+ PROV_ADJ5185:0 "Qadisha"
+ PROV5186:0 "Jilu"
+ PROV_ADJ5186:0 "Jilu"
+ PROV5187:0 "Sirvan"
+ PROV_ADJ5187:0 "Sirvani"
+ PROV5188:0 "Gop"
+ PROV_ADJ5188:0 "Gop"
+ PROV5189:0 "Viransehir"
+ PROV_ADJ5189:0 "Viransehiri"
+ PROV5190:0 "Abu Rujmayn"
+ PROV_ADJ5190:0 "Abu Rujaymn"
+ PROV5191:0 "Egirdir"
+ PROV_ADJ5191:0 "Egirdir"
+ PROV5192:0 "Arak"
+ PROV_ADJ5192:0 "Arak"
+ PROV5193:0 "Jal al-Liyah"
+ PROV_ADJ5193:0 "Jal al-Liyah"
+ PROV5194:0 "Ash Sharat"
+ PROV_ADJ5194:0 "Ash Sharat"
+
+ PROV2314:0 "Deir Al-Rumman"
+ PROV_ADJ2314:0 "Deir Al-Rumman"
+ PROV2334:0 "Bishri"
+ PROV_ADJ2334:0 "Bishri"
+ PROV3307:0 "Danakil"
+ PROV3451:0 "Valensa"
+ PROV3452:0 "Mendebo"
+ PROV3453:0 "Ahmar"
+ PROV3454:0 "Ras Dashen"
+ PROV3455:0 "Sheh Umer"
+ PROV3456:0 "Arsi"
+ PROV3457:0 "Chillelu"
+ PROV3458:0 "Uorra"
+ PROV3459:0 "Saco"
+ PROV3460:0 "Mallahle"
+ PROV3461:0 "Buuraha"
+ PROV3462:0 "Dendi"
+ PROV3463:0 "Haraua"
+ PROV3464:0 "Dulla"
+ PROV3465:0 "Argun"
+ PROV3466:0 "Kopetdag"
+ PROV3467:0 "Shavar"
+ PROV3468:0 "Binalud"
+ PROV3469:0 "Safed"
+
+ #Siberia
+ PROV480:0 "Chumysh"
+ PROV1042:0 "Memeli"
+ PROV1045:0 "Beldet"
+ PROV1059:0 "Chemdal"
+ PROV1061:0 "Chapogir"
+ PROV1062:0 "Lapagir"
+ PROV1063:0 "Kangat"
+ PROV1065:0 "Aba"
+ PROV1780:0 "Kharp"
+ PROV2427:0 "Konda"
+ PROV2428:0 "Yugan"
+ PROV2429:0 "Vasyugan"
+ PROV2431:0 "Goragir"
+ PROV2436:0 "Dogochagir"
+ PROV2437:0 "Nyuril"
+ PROV2438:0 "Kangalas"
+
+ #New Subcontinent
+
+ #Baloch/Sindh
+ PROV2072:0 "Bakkur"
+ PROV4504:0 "Khairpur"
+ PROV4503:0 "Sakrand"
+ PROV4504:0 "Nasirpur"
+ PROV505:0 "Sehwan"
+ PROV504:0 "Thatta"
+ PROV2088:0 "Umarkot"
+ PROV2068:0 "Sui"
+ PROV9652:0 "Bolan"
+ PROV9579:0 "Bannajbur"
+ PROV9582:0 "Kech"
+
+ #Punjab
+ PROV4510:0 "Shahpur"
+ PROV4509:0 "Layyah"
+ PROV2077:0 "Fatehpur Baori"
+ PROV2079:0 "Jampur"
+ PROV2086:0 "Uch Sharif"
+ PROV4508:0 "Kot-Marot"
+
+ #Khyber
+ PROV578:0 "Peshawar"
+ PROV9658:0 "Kaniguram"
+ PROV9457:0 "Kalasha"
+
+ #Kashmir
+ PROV4521:0 "Skardu"
+ PROV508:0 "Anantag"
+ PROV2074:0 "Leh"
+ PROV1785:0 "Karakoram"
+
+ #Gujarat
+ PROV4480:0 "Idar"
+ PROV2054:0 "Ahmedabad"
+ PROV4456:0 "Halvad"
+ PROV2052:0 "Nagnath"
+ PROV2051:0 "Bhavnagar"
+ PROV515:0 "Junagadh"
+ PROV2056:0 "Champaner"
+
+ #Rajasthan
+ PROV4462:0 "Dungarpur"
+ PROV518:0 "Chittorgarh"
+ PROV528:0 "Kota"
+ PROV4465:0 "Aravalli"
+ PROV520:0 "Alwar"
+ PROV4463:0 "Bhatner"
+ PROV4507:0 "Rathore"
+ PROV2064:0 "Shekawati"
+ PROV2058:0 "Kothariya"
+ PROV2067:0 "Jalor"
+ PROV514:0 "Mandore"
+ PROV2066:0 "Naguar"
+
+ #Tamil Nadu + Kerala + Sri Lanka
+ PROV537:0 "Quilon"
+ PROV534:0 "Kozhikode"
+ PROV4410:0 "Kanyakumari"
+ PROV538:0 "Karur"
+ PROV2026:0 "Thanjavur"
+ PROV540:0 "Kuddalur"
+ PROV2027:0 "Vellore"
+ PROV1947:0 "Tiruvannamalai"
+ PROV4416:0 "Tharangambad"
+ PROV4415:0 "Nagapatnam"
+ PROV535:0 "Kochi"
+ PROV4413:0 "Kannur"
+ PROV4407:0 "Hambantota"
+ PROV539:0 "Pulicat"
+
+ #Andhra
+ PROV4419:0 "Ongole"
+ PROV2084:0 "Rajamahendravaram"
+ PROV4425:0 "Amaravathi"
+ PROV549:0 "Vijayaram"
+ PROV2080:0 "Srikakulam"
+ PROV543:0 "Masulipatnam"
+ PROV2083:0 "Udayagiri"
+ PROV1949:0 "Penukonda"
+ PROV4423:0 "Gooty"
+ PROV4424:0 "Adoni"
+ PROV2090:0 "Kurnool"
+
+ #Karnataka
+ PROV2030:0 "Panaji"
+ PROV2029:0 "Mangaluru"
+ PROV531:0 "Bhaktal"
+ PROV4427:0 "Hosapattana"
+ PROV2032:0 "Keladi"
+ PROV4421:0 "Srirangapatna"
+ PROV2031:0 "Bangaluru"
+ PROV4422:0 "Tumkur"
+ PROV4426:0 "Kallinakote"
+ PROV2033:0 "Dharwad"
+ PROV4428:0 "Kopana"
+ PROV2035:0 "Kalaburagi"
+ PROV533:0 "Puragere"
+
+ #Maharashtra
+ PROV2089:0 "Revdanda"
+ PROV3013:0 "Mumbai"
+ PROV1946:0 "Wai"
+ PROV4432:0 "Junnar"
+ PROV544:0 "Bhingar"
+ PROV4433:0 "Nashik"
+ PROV2036:0 "Nandanagri"
+ PROV4434:0 "Rasika"
+ PROV545:0 "Devagiri"
+ PROV4437:0 "Pathri"
+ PROV4444:0 "Ghatanji"
+ PROV2050:0 "Chanda"
+ PROV546:0 "Wairagarh"
+ PROV4435:0 "Sonalipur"
+
+ #Madhya
+ PROV527:0 "Bhuranpur"
+ PROV2093:0 "Apara"
+ PROV526:0 "Indrapura"
+ PROV4460:0 "Handia"
+ PROV2092:0 "Betul"
+ PROV4458:0 "Chauragarh"
+ PROV4468:0 "Singrauli"
+ PROV4467:0 "Kalinjar"
+ PROV2097:0 "Rewa"
+ PROV550:0 "Garha"
+ PROV4459:0 "Sagar"
+ PROV525:0 "Gwalior"
+ PROV2057:0 "Bhelsa"
+
+ #Telangana
+ PROV542:0 "Golkonda"
+ PROV4439:0 "Khammam"
+
+ #Odisha + Chhattisgarh
+ PROV4450:0 "Haripur Gada"
+ PROV2043:0 "Baleswara"
+ PROV552:0 "Kataka"
+ PROV2049:0 "Bhubaneswara"
+ PROV4441:0 "Dharakot"
+ PROV4448:0 "Khemundi"
+ PROV4451:0 "Subarnapur"
+ PROV553:0 "Sumbulpur"
+ PROV4447:0 "Patnagarh"
+ PROV2048:0 "Nandapur"
+ PROV4452:0 "Ratnapur"
+
+ #Haryana
+ PROV2075:0 "Jalandhar"
+ PROV2065:0 "Hisar"
+
+ #Uttar Pradesh
+ PROV524:0 "Mathura"
+ PROV1320:0 "Bhogaon"
+ PROV_ADJ1320:0 "Bhogaon"
+ PROV2059:0 "Hamirpur"
+ PROV2060:0 "Meerut"
+ PROV556:0 "Kara"
+ PROV_ADJ556:0 "Kara"
+ PROV2061:0 "Budayun"
+ PROV4499:0 "Ramnagar"
+ PROV_ADJ4499:0 "Ramnagar"
+ PROV2095:0 "Benares"
+ PROV4495:0 "Ayodhya"
+
+ #Bihar + Jharkhand
+ PROV4487:0 "Sarangaranya"
+ PROV558:0 "Patna"
+ PROV4470:0 "Kaisalpur"
+ PROV4472:0 "Munger"
+ PROV4489:0 "Vaishali"
+ PROV2047:0 "Darbhanga"
+ PROV560:0 "Palamu"
+ PROV2096:0 "Deoghar"
+
+ #Bengal
+ PROV4477:0 "Shyampur"
+ PROV2038:0 "Tamluk"
+ PROV4476:0 "Khrisnanagar"
+ PROV2081:0 "Bordhoman"
+ PROV561:0 "Gangasagar"
+ PROV2039:0 "Barguna"
+ PROV4475:0 "Foridpur"
+ PROV4474:0 "Noakhalli"
+ PROV568:0 "Chattogram"
+ PROV4479:0 "Pabna"
+ PROV563:0 "Maldaha"
+ PROV2045:0 "Rongpur"
+ PROV562:0 "Koch Bihar"
+ PROV2046:0 "Jamalpur"
+ PROV4478:0 "Hossainpur"
+ PROV567:0 "Shilhot"
+
+ #Himachal + Uttarakhand + Nepal
+ PROV4485:0 "Palpa"
+ PROV2069:0 "Champavati"
+ PROV4493:0 "Malaun"
+ PROV511:0 "Tehri"
+ PROV554:0 "Jumla"
+ PROV2070:0 "Gorkha"
+ PROV557:0 "Kathmandu"
+ PROV4484:0 "Simraon"
+ PROV4483:0 "Morang"
+
+ #Assam
+ PROV2042:0 "Hajo"
+ PROV573:0 "Maibong"
+ PROV566:0 "Jorhat"
+
+ #Tripura and co
+ PROV570:0 "Dimapur"
+ PROV2091:0 "Udaipur"
+ PROV4473:0 "Agartala"
+ PROV2041:0 "Imphal"
+
+ #Tibet, Bhutan, Sikkim
+ PROV2128:0 "Tsaparang"
+ PROV2130:0 "Nyingchi"
+ PROV677:0 "Lhasa"
+ PROV4205:0 "Nagchu"
+ PROV678:0 "Kangding"
+ PROV2135:0 "Beri"
+ PROV705:0 "Gyegu"
+ PROV565:0 "Thimbu"
+ PROV6851:0 "Mao"
+ PROV6850:0 "Wenchuan"
+ PROV6831:0 "Labrang"
+ PROV6938:0 "Dulan"
+ PROV6937:0 "Tianjun"
+ PROV4204:0 "Delingha"
+
+ #Manchuria
+ PROV4657:0 "Lake Khanka"
+
+ #Germany
+ PROV1758:0 "Hannover" #proper name
+
+ #BT Rename
+ PROV8118:0 "Groningen"
+ PROV8119:0 "Oostergo"
+ PROV1756:0 "Izmail"
+
+ ###############
+ #rename
+ ###############
+
+ PROV61:1 "Dresden"
+ PROV63:0 "Erfurt"
+ PROV70:1 "Stuttgart"
+ PROV81:0 "Marburg"
+ PROV89:0 "Amiens"
+ PROV91:0 "Mons"
+ PROV99:0 "Arnhem"
+ PROV189:0 "Nancy"
+ PROV207:0 "Oviedo"
+ PROV211:0 "Jacetania"
+ PROV1742:1 "Limburg"
+ PROV1745:0 "Reinosa"
+ PROV2989:0 "Logroño"
+ PROV3063:1 "Opper-Gelre"
+ PROV3223:1 "Bialystok"
+ PROV3241:0 "Kalnik"
+ PROV4383:1 "Den Haag"
+ PROV4381:1 "Salland"
+ PROV128:1 "Klagenfurt"
+ #PROV5319:1 "Nedroma"
+ #PROV5661:1 "Velizh"
+ PROV210:1 "Pamplona"
+ PROV129:0 "Unterkrain" #lower carniola
+ PROV132:0 "Judenburg"
+ PROV1772:0 "Pressburg"
+ PROV1952:0 "Baia Mare"
+ PROV483:0 "Abawana"
+ PROV1783:0 "Siberia" ###NEEDS REPLACEMENT - TEMP FOR NOW
+
+ #South East Asia
+ PROV604:0 "Longvek"
+ PROV_ADJ604:0 "Longvekian"
+ PROV634:0 "Waingapu"
+ PROV_ADJ634:0 "Waingapuan"
+ PROV2378:0 "Kracheh"
+ PROV_ADJ2378:0 "Kracheh"
+ PROV6454:0 "Mong Lem"
+ PROV_ADJ6454:0 "Monglemer"
+ PROV6552:0 "Malithit"
+ PROV_ADJ6553:0 "Malithiter"
+ PROV6553:0 "Simhapura"
+ PROV_ADJ6553:0 "Simhapuran"
+ PROV6585:0 "Ou Reang"
+ PROV_ADJ6585:0 "Oureanger"
+ PROV11742:0 "Krabi"
+ PROV_ADJ11742:0 "Krabian"
+ PROV11747:0 "Kadan"
+ PROV_ADJ11747:0 "Kadanese"
+
+ #Levant/Middle East
+
+ PROV4169:0 "Ramian"
+ PROV_ADJ4169:0 "Ramian"
+ PROV4177:0 "Hadjin"
+ PROV_ADJ4177:0 "Hadjin"
+ PROV4178:0 "Zeitun"
+ PROV_ADJ4178:0 "Zeitun"
+ PROV5203:0 "Bi'r as-Sab"
+ PROV_ADJ5203:0 "Bi'r as-Sab"
+ PROV8014:0 "Negev"
+ PROV_ADJ8014:0 "Negev"
+ PROV8015:0 "El Tih"
+ PROV_ADJ8015:0 "El Tih"
+ PROV8016:0 "Wadi Musa"
+ PROV_ADJ8016:0 "Wadi Musa"
+ PROV8024:0 "Hisban"
+ PROV_ADJ8024:0 "Hisbani"
+ PROV8026:0 "Hamad"
+ PROV_ADJ8026:0 "Hamad"
+ PROV8031:0 "El Thamad"
+ PROV_ADJ8031:0 "El Thamad"
+ PROV8033:0 "Shuwaihtiya"
+ PROV_ADJ8033:0 "Shuwaihtiya"
+ PROV2195: "Susaco"
+ PROV_ADJ2195: "Susaco"
+ PROV5090: "Limen"
+ PROV_ADJ5090: "Limen"
+ PROV5095: "Arabat"
+ PROV_ADJ5095: "Arabat"
+ PROV5096: "Zagaglia"
+ PROV_ADJ5096: "Zagaglia"
+ PROV7192: "Kirk-Or"
+ PROV_ADJ7192: "Kirk-Or"
+ PROV7937: "Kvemo Kartli"
+ PROV_ADJ7937: "Kvemo Kartli"
+ PROV2201: "Tagauria"
+ PROV_ADJ2201: "Tagaurian"
+
+ #Africa
+ PROV4051:0 "Dabaab"
+ PROV_ADJ4051:0 "Dabaab"
+ PROV4052:0 "Buna"
+ PROV_ADJ4052:0 "Buna"
+ PROV4053:0 "Lodwar"
+ PROV_ADJ4053:0 "Lodwar"
+ PROV4062:0 "Mayuge"
+ PROV_ADJ4062:0 "Mayuge"
+ PROV4075:0 "Lira"
+ PROV_ADJ4075:0 "Lira"
+ PROV1227:0 "Aksum"
+ PROV_ADJ1227:0 "Aksumite"
+ PROV2787:0 "Karan"
+ PROV_ADJ2787:0 "Karan"
+ PROV5297:0 "Kunama"
+ PROV_ADJ5297:0 "Kunama"
+ PROV1224:0 "Gondar"
+ PROV_ADJ1224:0 "Gondar"
+ PROV2769:0 "Lalibela"
+ PROV_ADJ2769:0 "Lalibela"
+ PROV2768:0 "Motta"
+ PROV_ADJ2768:0 "Motta"
+ PROV2792:0 "Bohotle"
+ PROV_ADJ2792:0 "Bohotle"
+ PROV1208:0 "Degeh Bur"
+ PROV_ADJ1208:0 "Degeh Bur"
+ PROV1207:0 "Segag"
+ PROV_ADJ1207:0 "Segag"
+ PROV4060:0 "Loikop"
+ PROV_ADJ4060:0 "Loikop"
+ PROV5288:0 "Afabat"
+ PROV_ADJ5288:0 "Afabat"
+ PROV2770:0 "Dangila"
+ PROV_ADJ2770:0 "Dangila"
+ PROV2766:0 "Serae"
+ PROV_ADJ2766:0 "Serae"
+ PROV1213:0 "Dabra Birhan"
+ PROV_ADJ1213:0 "Dabra Birhan"
+ PROV1218:0 "Irgalem"
+ PROV_ADJ1218:0 "Irgalem"
+ PROV1223:0 "Dembecha"
+ PROV_ADJ1223:0 "Dembecha"
+ PROV2758:0 "Bedele"
+ PROV_ADJ2758:0 "Bedele"
+ PROV2762:0 "Nekemte"
+ PROV_ADJ2762:0 "Nekemte"
+ PROV2759:0 "Itaung"
+ PROV_ADJ2759:0 "Itaung"
+ PROV2757:0 "Bonga"
+ PROV_ADJ2757:0 "Bonga"
+ PROV2761:0 "Asella"
+ PROV_ADJ2761:0 "Asella"
+ PROV2762:0 "Nekemte"
+ PROV_ADJ2762:0 "Nekemte"
+ PROV4064:0 "Kitala"
+ PROV_ADJ4064:0 "Kitala"
+ PROV1899:0 "Lake Tana"
+ PROV_ADJ1899:0 "Lake Tana"
+ #PROV:0 ""
+ #PROV_ADJ:0 ""
+
+ PROV2011:0 "Senantoa"
+ PROV_ADJ2011:0 "Senantoan"
+ PROV375:0 "Coshmaing"
+ PROV_ADJ375:0 "Coshmaingan"
+
+#West Africa
+ PROV1321:0 "Eko"
+ PROV_ADJ1321:0 "Eko"
+ PROV1322:0 "Ota"
+ PROV_ADJ1322:0 "Ota"
+ PROV1323:0 "Gbagli"
+ PROV_ADJ1323:0 "Gbagli"
+ PROV1324:0 "Lekki"
+ PROV_ADJ1324:0 "Lekki"
+ PROV1326:0 "Ikale"
+ PROV_ADJ1326:0 "Ikale"
+ PROV1328:0 "Owo"
+ PROV_ADJ1328:0 "Owo"
+ PROV1329:0 "Ikorodu"
+ PROV_ADJ1329:0 "Ikorodu"
+ PROV1330:0 "Udo"
+ PROV_ADJ1330:0 "Udo"
+ PROV1331:0 "Ughelli"
+ PROV_ADJ1331:0 "Ughelli"
+ PROV1332:0 "Akure"
+ PROV_ADJ1332:0 "Akure"
+ PROV1333:0 "Esan"
+ PROV_ADJ1333:0 "Esan"
+ PROV1334:0 "Afenmai"
+ PROV_ADJ1334:0 "Afenmai"
+ PROV1335:0 "Akassa"
+ PROV_ADJ1335:0 "Akassa"
+ PROV1336:0 "Brass"
+ PROV_ADJ1336:0 "Brass"
+ PROV1337:0 "Bassan"
+ PROV_ADJ1337:0 "Bassan"
+ PROV1338:0 "Ilaje"
+ PROV_ADJ1338:0 "Ilaje"
+ PROV1339:0 "Ughoton"
+ PROV_ADJ1339:0 "Ughoton"
+ PROV1340:0 "Iduwini"
+ PROV_ADJ1340:0 "Iduwini"
+ PROV1341:0 "Itsekiri"
+ PROV_ADJ1341:0 "Itsekiri"
+ PROV1342:0 "Aboh"
+ PROV_ADJ1342:0 "Aboh"
+ PROV1343:0 "Anioma"
+ PROV_ADJ1343:0 "Anioma"
+ PROV1344:0 "Agbor"
+ PROV_ADJ1344:0 "Agbor"
+ PROV1345:0 "Isoko"
+ PROV_ADJ1345:0 "Isoko"
+ PROV1346:0 "Ikwerre"
+ PROV_ADJ1346:0 "Ikwerre"
+ PROV1347:0 "Nembe"
+ PROV_ADJ1347:0 "Nembe"
+ PROV1348:0 "Elem Kalabari"
+ PROV_ADJ1348:0 "Elem Kalabari"
+ PROV1349:0 "Okrika"
+ PROV_ADJ1349:0 "Okrika"
+ PROV1350:0 "Opobo"
+ PROV_ADJ1350:0 "Opobo"
+ PROV1351:0 "Oron"
+ PROV_ADJ1351:0 "Oron"
+ PROV1352:0 "Igbo-Ukwu"
+ PROV_ADJ1352:0 "Igbo-Ukwu"
+ PROV1353:0 "Owerri"
+ PROV_ADJ1353:0 "Owerri"
+ PROV1354:0 "Onitsha"
+ PROV_ADJ1354:0 "Onitsha"
+ PROV1355:0 "Nsukka"
+ PROV_ADJ1355:0 "Nsukka"
+ PROV1356:0 "Otukpo"
+ PROV_ADJ1356:0 "Otukpo"
+ PROV1357:0 "Dekina"
+ PROV_ADJ1357:0 "Dekina"
+ PROV1358:0 "Afor Ibeji"
+ PROV_ADJ1358:0 "Afor Ibeji"
+ PROV1359:0 "Bakassi"
+ PROV_ADJ1359:0 "Bakassi"
+ PROV1360:0 "Akwa Ibom"
+ PROV_ADJ1360:0 "Akwa Ibom"
+ PROV1361:0 "Ubibira"
+ PROV_ADJ1361:0 "Ubibira"
+ PROV1362:0 "Ejagham"
+ PROV_ADJ1362:0 "Ejagham"
+ PROV1363:0 "Ikom"
+ PROV_ADJ1363:0 "Ikom"
+ PROV1364:0 "Abakaliki"
+ PROV_ADJ1364:0 "Abakaliki"
+ PROV1365:0 "Abi"
+ PROV_ADJ1365:0 "Abi"
+ PROV1366:0 "Nike"
+ PROV_ADJ1366:0 "Nike"
+ PROV1367:0 "Iyekorhiomwo"
+ PROV_ADJ1367:0 "Iyekorhiomwo"
+ PROV1368:0 "Hanish"
+ PROV_ADJ1368:0 "Hanish"
+ PROV1369:0 "Khuriya Muriya"
+ PROV_ADJ1369:0 "Khuriya Muriya"
+ PROV1370:0 "Bajuni"
+ PROV_ADJ1370:0 "Bajuni"
+ PROV1371:0 "Medhu"
+ PROV_ADJ1371:0 "Medhu"
+ PROV1372:0 "Foar"
+ PROV_ADJ1372:0 "Foar"
+ PROV1373:0 "Nosy Be"
+ PROV_ADJ1373:0 "Nosy Be"
+
+# NEW NA NEED SORTING
+ PROV1248:0 "Uthuru"
+ PROV_ADJ1248:0 "Uthuru"
+ PROV1252:0 "Ikkarumiklua"
+
+ PROV1254:0 "Wappatomaka"
+ PROV1255:0 "Mehmannauwinggehla"
+ PROV1256:0 "Cohongarooton"
+ PROV1257:0 "Beyansoss"
+ PROV1258:0 "Naurakamig"
+ PROV1259:0 "Amesokanti"
+ PROV1260:0 "Sagadahoc"
+ PROV1261:0 "Motahkomikuk"
+
+ PROV1276:0 "Welamoktuk"
+ PROV1277:0 "Ugpiganjig"
+ PROV1278:0 "Oktibbeha"
+ PROV1279:0 "Oahahasipi"
+ PROV1280:0 "Nihkuahe"
+ PROV1281:0 "Myaalameekwonki"
+ PROV1282:0 "Cholohollay"
+ PROV1283:0 "Nyatawe"
+ PROV1284:0 "Niukonsa"
+ PROV1285:0 "Nikdhitanwan"
+ PROV1286:0 "Ozark"
+ PROV1287:0 "Niangua"
+ PROV1288:0 "Nishuje"
+ PROV1289:0 "Eaneahwaudepon"
+ PROV1290:0 "Nishnabotna"
+ PROV1291:0 "Eashawapata"
+ PROV1292:0 "Mungke Nyi"
+ PROV1293:0 "Wapsipinicon"
+ PROV1294:0 "Moskwahwakwa"
+ PROV1295:0 "Waupekasipi"
+ PROV1296:0 "Mniska"
+ PROV1297:0 "Namekaagong"
+ PROV1298:0 "Hogán Wankákin"
+ PROV1299:0 "Bemijigamaag"
+ PROV1300:0 "Phezíhutazizi"
+ PROV1301:0 "Makhátho"
+ PROV1302:0 "Gimoodakiwiziibii"
+ PROV1303:0 "Nigigwaanoweziibii"
+ PROV1304:0 "Chandúhupa"
+ PROV1305:0 "Wicomiss"
+
+ PROV1468:0 "Neqotkuk"
+ PROV1469:0 "Sigsôg"
+ PROV1470:0 "M'tctan"
+ PROV1471:0 "Pohenegamook"
+ PROV1472:0 "Kanata"
+ PROV1473:0 "Namesokântsik"
+ PROV1474:0 "Wigwâmadenik"
+ PROV1475:0 "Kahnawá'kye"
+ PROV1476:0 "Skidijn"
+ PROV1477:0 "Menagoesenog"
+ PROV1478:0 "Outaoukotwemiwek"
+ PROV1479:0 "Tiowéro'ton"
+ PROV1480:0 "Temiskaming"
+ PROV1481:0 "Tapiskwan Sipi"
+ PROV1482:0 "Opikopau"
+ PROV1483:0 "Muakuatshipi"
+ PROV1484:0 "Nitassinan"
+ PROV1485:0 "Kanaaupscow"
+ PROV1486:0 "Khioetoa"
+ PROV1487:0 "Jonquakamik"
+ PROV1488:0 "Kandoucho"
+ PROV1489:0 "Menesetung"
+ PROV1490:0 "Kenhiohata'tie"
+ PROV1491:0 "Macassa"
+ PROV1492:0 "Zaageeng"
+ PROV1493:0 "Nochemoweniing"
+ PROV1494:0 "Gandatsetiagon"
+ PROV1495:0 "Ganaraske"
+ PROV1496:0 "Pukasu"
+ PROV1497:0 "Animbiigoong"
+ PROV1498:0 "Pasapkedjinawong"
+ PROV1499:0 "Mazinaabikinigan"
+ PROV1500:0 "Kashagawigamog"
+ PROV1501:0 "Opeauwingauk"
+ PROV1502:0 "Misi-zaagi"
+ PROV1503:0 "Kabinakagami"
+ PROV1504:0 "Ojiji-ziibi"
+ PROV1505:0 "Ministik"
+ PROV1506:0 "Waubishkaugimi"
+ PROV1507:0 "Bigaanjigamiing"
+ PROV1508:0 "Nanrantsouak"
+ PROV1509:0 "Pannawambskek"
+ PROV1510:0 "Katahdin"
+ PROV1511:0 "Walakésk'ihtek"
+ PROV1512:0 "Winnipiseogee"
+ PROV1513:0 "Ossipee"
+ PROV1514:0 "Passumpsic"
+ PROV1515:0 "Onegigwizibok"
+ PROV1516:0 "Squakheag"
+ PROV1517:0 "Nashoba"
+ PROV1518:0 "Waoraneck"
+ PROV1519:0 "Pishgachtigok"
+ PROV1520:0 "Tekontaró'ken"
+ PROV1521:0 "Zalônák'tégw"
+ PROV1522:0 "Haderonda"
+ PROV1523:0 "Nehasane"
+ PROV1524:0 "Kahuahgo"
+ PROV1525:0 "Kanawasaga"
+ PROV1526:0 "Cunehstiyu"
+ PROV1527:0 "Westecunk"
+ PROV1528:0 "Chikohoki"
+ PROV1529:0 "Lechewuekink"
+
+ PROV1563:0 "Gohontoto"
+ PROV1564:0 "Carantouan"
+ PROV1565:0 "Ok'chaxk'hanna"
+ PROV1566:0 "Attaock"
+ PROV1567:0 "Onayutta"
+ PROV1568:0 "Tioxinossongochto"
+ PROV1569:0 "Mos'hanna'unk"
+ PROV1570:0 "Kwenemuxkw"
+ PROV1571:0 "Tayunckoneyu"
+ PROV1572:0 "Ahiopihele"
+ PROV1573:0 "Kuwektepehele"
+ PROV1574:0 "Shenango"
+ PROV1575:0 "Moyaone"
+ PROV1576:0 "Siskëwahane"
+ PROV1577:0 "Conowingo"
+ PROV1578:0 "Senedo"
+ PROV1579:0 "Meipontske"
+ PROV1580:0 "Hocomawananck"
+ PROV1581:0 "Okahok Amai"
+ PROV1582:0 "Kaihnawha"
+ PROV1583:0 "Athawominee"
+ 
+ PROV1924:0 "Laurentides"
+ PROV1926:0 "Kikuntekw"
+ PROV1927:0 "Arthabaska"
+ PROV1928:0 "Manatawny"
+
+ PROV_ADJ1252:0 "Ikkarumikluan"
+
+ PROV_ADJ1468:0 "Neqotkukan"
+ PROV_ADJ1469:0 "Sigsôgan"
+ PROV_ADJ1470:0 "M'tctani"
+ PROV_ADJ1471:0 "Pohenegamookan"
+ PROV_ADJ1472:0 "Kanatan"
+ PROV_ADJ1473:0 "Namesokântsikan"
+ PROV_ADJ1474:0 "Wigwâmadenikan"
+ PROV_ADJ1475:0 "Kahnawá'kyen"
+ PROV_ADJ1476:0 "Skidijni"
+ PROV_ADJ1477:0 "Menagoesenogan"
+ PROV_ADJ1478:0 "Outaoukotwemiwekan"
+ PROV_ADJ1479:0 "Tiowéro'toni"
+ PROV_ADJ1480:0 "Temiskaming"
+ PROV_ADJ1481:0 "Tapiskwan Sipin"
+ PROV_ADJ1482:0 "Opikopauin"
+ PROV_ADJ1483:0 "Muakuatshipin"
+ PROV_ADJ1484:0 "Nitassinani"
+ PROV_ADJ1485:0 "Kanaaupscowan"
+ PROV_ADJ1486:0 "Khioetoan"
+ PROV_ADJ1487:0 "Jonquakamikan"
+ PROV_ADJ1488:0 "Kandouchon"
+ PROV_ADJ1489:0 "Menesetungan"
+ PROV_ADJ1490:0 "Kenhiohata'tieni"
+ PROV_ADJ1491:0 "Macassan"
+ PROV_ADJ1492:0 "Zaageengan"
+ PROV_ADJ1493:0 "Nochemoweniingan"
+ PROV_ADJ1494:0 "Gandatsetiagonan"
+ PROV_ADJ1495:0 "Ganarasken"
+ PROV_ADJ1496:0 "Pukasuni"
+ PROV_ADJ1497:0 "Animbiigoongan"
+ PROV_ADJ1498:0 "Pasapkedjinawong"
+ PROV_ADJ1499:0 "Mazinaabikinigani"
+ PROV_ADJ1500:0 "Kashagawigamogan"
+ PROV_ADJ1501:0 "Opeauwingaukan"
+ PROV_ADJ1502:0 "Misi-zaagin"
+ PROV_ADJ1503:0 "Kabinakagamin"
+ PROV_ADJ1504:0 "Ojiji-ziibin"
+ PROV_ADJ1505:0 "Ministikan"
+ PROV_ADJ1506:0 "Waubishkaugimin"
+ PROV_ADJ1507:0 "Bigaanjigamiingan"
+ PROV_ADJ1508:0 "Nanrantsouakan"
+ PROV_ADJ1509:0 "Pannawambskekan"
+ PROV_ADJ1510:0 "Katahdini"
+ PROV_ADJ1511:0 "Walakésk'ihtekan"
+ PROV_ADJ1512:0 "Winnipiseogeen"
+ PROV_ADJ1513:0 "Ossipeen"
+ PROV_ADJ1514:0 "Passumpsican"
+ PROV_ADJ1515:0 "Onegigwizibokan"
+ PROV_ADJ1516:0 "Squakheagan"
+ PROV_ADJ1517:0 "Nashoban"
+ PROV_ADJ1518:0 "Waoranecker"
+ PROV_ADJ1519:0 "Pishgachtigokan"
+ PROV_ADJ1520:0 "Tekontaró'keni"
+ PROV_ADJ1521:0 "Zalônák'tégwan"
+ PROV_ADJ1522:0 "Haderondan"
+ PROV_ADJ1523:0 "Nehasaneni"
+ PROV_ADJ1524:0 "Kahuahgon"
+ PROV_ADJ1525:0 "Kanawasagan"
+ PROV_ADJ1526:0 "Cunehstiyuni"
+ PROV_ADJ1527:0 "Westecunkan"
+ PROV_ADJ1528:0 "Chikohokini"
+ PROV_ADJ1529:0 "Lechewuekinkan"
+
+ PROV_ADJ1563:0 "Gohontoton"
+ PROV_ADJ1564:0 "Carantouani"
+ PROV_ADJ1565:0 "Ok'chaxk'hannan"
+ PROV_ADJ1566:0 "Attaockan"
+ PROV_ADJ1567:0 "Onayuttan"
+ PROV_ADJ1568:0 "Tioxinossongochton"
+ PROV_ADJ1569:0 "Mos'hanna'unkan"
+ PROV_ADJ1570:0 "Kwenemuxkwan"
+ PROV_ADJ1571:0 "Tayunckoneyuni"
+ PROV_ADJ1572:0 "Ahiopiheleni"
+ PROV_ADJ1573:0 "Kuwektepeheleni"
+ PROV_ADJ1574:0 "Shenangoni"
+ PROV_ADJ1575:0 "Moyaoneni"
+ PROV_ADJ1576:0 "Siskëwahaneni"
+ PROV_ADJ1577:0 "Conowingoni"
+ PROV_ADJ1578:0 "Senedoni"
+ PROV_ADJ1579:0 "Meipontsken"
+ PROV_ADJ1580:0 "Hocomawananckan"
+ PROV_ADJ1581:0 "Okahok Amaini"
+ PROV_ADJ1582:0 "Kaihnawhan"
+ PROV_ADJ1583:0 "Athawomineeni"
+
+ PROV_ADJ1254:0 "Wappatomakan"
+ PROV_ADJ1255:0 "Mehmannauwinggehlan"
+ PROV_ADJ1256:0 "Cohongarootoni"
+ PROV_ADJ1257:0 "Beyansossan"
+ PROV_ADJ1258:0 "Naurakamigan"
+ PROV_ADJ1259:0 "Amesokantian"
+ PROV_ADJ1260:0 "Sagadahocan"
+ PROV_ADJ1261:0 "Motahkomikukan"
+
+ PROV_ADJ1276:0 "Welamoktukan"
+ PROV_ADJ1277:0 "Ugpiganjigan"
+ PROV_ADJ1278:0 "Oktibbehan"
+ PROV_ADJ1279:0 "Oahahasipian"
+ PROV_ADJ1280:0 "Nihkuahean"
+ PROV_ADJ1281:0 "Myaalameekwonkian"
+ PROV_ADJ1282:0 "Cholohollayan"
+ PROV_ADJ1283:0 "Nyatawean"
+ PROV_ADJ1284:0 "Niukonsan"
+ PROV_ADJ1285:0 "Nikdhitanwan"
+ PROV_ADJ1286:0 "Ozark"
+ PROV_ADJ1287:0 "Nianguan"
+ PROV_ADJ1288:0 "Nishujean"
+ PROV_ADJ1289:0 "Eaneahwaudepon"
+ PROV_ADJ1290:0 "Nishnabotnan"
+ PROV_ADJ1291:0 "Eashawapatan"
+ PROV_ADJ1292:0 "Mungke Nyi"
+ PROV_ADJ1293:0 "Tapouaran"
+ PROV_ADJ1294:0 "Moskwahwakwan"
+ PROV_ADJ1295:0 "Waupekasipian"
+ PROV_ADJ1296:0 "Mniskan"
+ PROV_ADJ1297:0 "Namekaagong"
+ PROV_ADJ1298:0 "Hogán Wankákin"
+ PROV_ADJ1299:0 "Bemijigamaag"
+ PROV_ADJ1300:0 "Phezíhutazizian"
+ PROV_ADJ1301:0 "Makháthoan"
+ PROV_ADJ1302:0 "Gimoodakiwiziibiian"
+ PROV_ADJ1303:0 "Nigigwaanoweziibiian"
+ PROV_ADJ1304:0 "Chandúhupan"
+ PROV_ADJ1305:0 "Wicomiss"
+  
+ PROV_ADJ1926:0 "Kikuntekwan"
+ PROV_ADJ1927:0 "Arthabaskan"
+ PROV_ADJ1928:0 "Manatawny"
+ 
+ #New Isthmoamerica, Mesoamerica, Aridoamerica
+ PROV835:0 "Panamá"
+ PROV2664:0 "Esquegua"
+ PROV2819:0 "Wargandi" #Wargandi/Yaviza
+ PROV4595:0 "Buabiti" #Llano Tugrí
+ PROV836:0 "Pacaca" #San Jose
+ PROV4597:0 "Tariaca" #Guápiles
+ PROV2660:0 "Nequecheri" #Santiago de Granada
+ PROV837:0 "Managua"
+ PROV2661:0 "Xiotenko" #Jinotega 
+ PROV4592:0 "Kukra" #Bluefields
+ PROV838:0 "Bilwi" #Puerto Cabezas
+ PROV840:0 "Ahuya Yari" #Puerto Lempira
+ PROV2662:0 "Xoktikalpan" #Jutiapa 
+ PROV2640:0 "Yuscarán"
+ PROV4593:0 "Lamani" #NuevaValladolid
+ PROV2637:0 "Sollan" #San Pedro Sula
+ PROV839:0 "Usulután" #San Miguel
+ PROV2636:0 "Nito" #San Gil
+ PROV2653:0 "Iximché" #Chimaltenango
+ PROV4587:0 "Uspantán" #SantaCruzdelQuiché
+ PROV4594:0 "Lacandon" #
+ PROV842:0 "Yax Mutal" #Tikal
+ PROV2635:0 "Mocho" #
+ PROV843:0 "Holzuz" #Belize
+ PROV4589:0 "Campin" #Dagriga
+ PROV2652:0 "Ekab" #Cancún
+ PROV4591:0 "Chauacá" #Chikinchel
+ PROV846:0 "Zaci" #ValladoliddeYucatan
+ PROV845:0 "Can Pech" #Campeche
+ PROV2650:0 "Chákan Putum" #Champoton
+ PROV2651:0 "Calkini" #
+ PROV2633:0 "Motul" #Motul
+ PROV4590:0 "Mani" #
+ PROV4588:0 "Tzuktok" #
+ PROV4586:0 "Napiniacá" #Chiapa
+ PROV2631:0 "Mixistlán" #Cimatán /Cunduacán
+ PROV2632:0 "Potonchán" #Villahermosa
+ PROV4598:0 "Xalapa" #Cuauhtochco/Xalapa
+ PROV4585:0 "Pichucalco" #
+ PROV841:0 "Tapachula" #
+ PROV848:0 "Misantla" #
+ PROV2641:0 "Tetzapotitlán" #
+ PROV858:0 "Chila" #Tampico
+ PROV4584:0 "Mitla" #
+ PROV844:0 "Coatlicamac" #
+ PROV2629:0 "Coyoloapan" #
+ PROV2646:0 "Coixtlahuaca" #
+ PROV849:0 "Tlapan" #
+ PROV847:0 "Tututepec" #
+ PROV854:0 "Xalisco" # Tepic
+ PROV2648:0 "Yopitzinco" #
+ PROV4581:0 "Yohualtepec" #SanJuanIhualtepec
+ PROV4582:0 "Teotitlán" #
+ PROV2628:0 "Tepeacac" #Tepeaca
+ PROV2644:0 "Cholollan" #Puebla/Cholula
+ PROV4583:0 "Xocotlan" #Xocotitlan
+ PROV4641:0 "Xilotepec" #
+ PROV2642:0 "Metztitlán" #
+ PROV2645:0 "Tetellan" #
+ PROV2657:0 "Caxitlán" #Colima
+ PROV2624:0 "Tzintzuntzan" #
+ PROV2643:0 "Apatzingán" #
+ PROV4575:0 "Churumuco" #
+ PROV4574:0 "Xacona" #
+ PROV2622:0 "Zinapécuaro" #
+ PROV4579:0 "Sayollan" #Sayula
+ PROV4573:0 "Acámbaro" #
+ PROV2621:0 "Chapallan" #
+ PROV2617:0 "Colotlán" #
+ PROV4640:0 "Tecpatitlán" #
+ PROV4642:0 "Tequisquiapan" #San Luis Potosi
+ PROV4643:0 "Xiconaque" # Aguascalientes
+ PROV4645:0 "Ayahualican" # Lagos de Moreno
+ PROV4580:0 "Tecoman" #
+ PROV2615:0 "Tuririapundaro" #
+ PROV4576:0 "Amazocotlan" #
+ PROV855:0 "Copala" #
+ PROV856:0 "Zacatec" #
+ PROV860:0 "Piaxtla" #
+ PROV4647:0 "Tzacaymuta" #
+ PROV4678:0 "Qaraqorum" #
+ PROV5061:0 "Cajeme" #
+ PROV4964:0 "Guaymas" #
+ PROV4649:0 "Navojova" #
+ PROV859:0 "Mochim" #
+ PROV864:0 "Polacme" #San Francisco de Conchos
+ PROV2619:0 "Mayrán" #
+ PROV2614:0 "Janambre" #
+ PROV861:0 "Coahuiltec" #Monclova
+ PROV862:0 "Eudeve" #
+ PROV4606:0 "Alsate" #Muzquiz
+ PROV4648:0 "Tamazollan" #
+ PROV4650:0 "Bacadeguatzi" #
+ PROV4646:0 "Yepáchi" #
+ PROV2618:0 "Chichitame" #
+ PROV5063:0 "Colhuacan" #Culiacán
+ PROV4578:0 "Centicpac" #Tecuala
+ PROV2626:0 "Atlacomulco"
+ PROV851:0 "Zacatollan"
+
+#Agonizes new stuff
+ PROV476:0 "Tengizkul"
+ PROV472:0 "Mugodzhar"
+ PROV477:0 "Balkhash"
+ PROV479:0 "Kokshetau"
+ PROV1263:0 "Qobda"
+ PROV1265:0 "Tobyl"
+ PROV1266:0 "Zaufim"
+ PROV1268:0 "Yavlutura"
+ PROV1269:0 "Tetsha"
+ PROV1270:0 "Vagay"
+ PROV1271:0 "Uy"
+ PROV1272:0 "Tyukala"
+ PROV1274:0 "Sary-Su"
+ PROV1308:0 "Dorzhinkit"
+ PROV1309:0 "Salair Ridge"
+ PROV1311:0 "Kant"
+ PROV1312:0 "Sultanpur"
+ PROV1315:0 "Rohtas"
+ PROV1317:0 "Ahraura"
+ PROV1319:0 "Saryesik Atyrau"
+ PROV1966:0 "Siläbe"
+ PROV1969:0 "Kumkent"
+ PROV2351:0 "Barsuki"
+ PROV2352:0 "Aralkum"
+ PROV2354:0 "Esildala"
+ PROV2355:0 "Shar"
+ PROV2359:0 "Ulytau"
+ PROV2360:0 "Chingiztau"
+ PROV2361:0 "Betpaqdala"
+ PROV2369:0 "Jaqsu"
+ PROV2434:0 "Kulunda"
+ PROV2444:0 "Tungurdak"
+ PROV4469:0 "Bikramganj"
+ PROV4685:0 "Qaraghandy"
+ PROV4687:0 "Aksu"
+ PROV2356:0 "Sayram"
+
+
+ PROV_ADJ1263:0 "Qobda"
+ PROV_ADJ1268:0 "Yavlutura"
+ PROV_ADJ1269:0 "Tetsha"
+ PROV_ADJ1270:0 "Vagay"
+ PROV_ADJ1271:0 "Uy"
+ PROV_ADJ1272:0 "Tyukala"
+ PROV_ADJ1274:0 "Sary-Su"
+ PROV_ADJ1308:0 "Dorzhinkit"
+ PROV_ADJ1309:0 "Salair Ridge"
+ PROV_ADJ1311:0 "Kant"
+ PROV_ADJ1319:0 "Saryesik Atyrau"
+ PROV_ADJ472:0 "Mugodzhar"
+ PROV_ADJ2356:0 "Sayram"
+ PROV_ADJ4469:0 "Bikramganj"

@@ -1,0 +1,1099 @@
+﻿l_chinese:
+
+ #重新组织格式截至11.5 -
+ # 注意主文件夹包含所有新的本地化。替换原版内容的条目位于replace子文件夹。
+ #
+ #(此文件) bt_core_content - 包含所有Draiocht的核心内容，包括未列出的所有内容。
+ #bt_countries - 包含所有Draiocht的标签和国家理念，包括 - 1) 标签   2) 国家理念
+ #bt_provinces - 包含所有省份名称，包括形容词（仍然不完整）
+ #bt_regional_names - 包含所有Draiocht的区域本地化，包括 - 1) 区域   2) 贸易节点   3) 殖民区域   4) 区域   5) 殖民国家名称
+ #others_work_in_bt - 包含所有非Draiocht编写的本地化，包括来自BT的HR的工作、Dub的所有工作以及许多贡献者的工作
+
+ #组织这个不幸庞大的文件 -
+ #3) 新的附属类型
+ #4) 文化
+ #5) 自定义工具提示
+ #6) 修饰符
+ #7) 触发修饰符
+ #8) 意见修饰符本地化
+ #9) 政府相关内容
+ #10) 事件
+ #11) 决策
+ #12) 任务
+ #13) 交互
+ #14) 临时内容和错误修复
+
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ # 3 - 新的附属类型
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ viceroyalty_bt:0 "副王国"
+ viceroyalty_bt_title:0 "副王国"
+ viceroyalty_bt_title_plural:0 "副王国"
+ viceroyalty_bt_long_desc:0 "副王国是一种稳定的个人联盟，两个国家名义上由同一政府统治，但由一位副王或直辖领地的总督直接向主要合作伙伴的政府报告，负责较小合作伙伴的日常治理。与其他个人联盟一样，较小的合作伙伴必须跟随其宗主国参战，无法进行某些外交行动，但反过来也无法被继承或合并。"
+ viceroyalty_bt_is_our:0 "$NAME|Y$ 被我们统治为副王国。"
+ viceroyalty_bt_no_overlord_dow:0 "您不能对您的国家的副王国宣战。"
+ papal_subject_bt:0 "自治教皇国"
+ papal_subject_bt_title:0 "自治教皇国"
+ papal_subject_bt_title_plural:0 "自治教皇国"
+ papal_subject_bt_long_desc:0 "自治教皇国是名义上属于圣彼得的属地，因此在教会的世俗领土中被视为一部分。然而，12和13世纪见证了教皇世俗权力的逐渐削弱，数十位地方统治者通过各种手段掌握了权力。尽管这些土地大多数仍名义上在教皇的统治之下，并承认圣父在某种程度上的世俗权威，但它们在所有事务中实际上都像独立国家一样行事。\n\n（自治教皇国可以通过特殊的教皇外交行动转变为普通的附庸国）"
+ papal_subject_bt_is_our:0 "$NAME|Y$ 是一个自治教皇国。"
+ papal_subject_bt_no_overlord_dow:0 "您不能对一个自治教皇国宣战。"
+ default_II:0 "错误，请报告给Draiocht ST1"
+ default_II_title:0 "错误，请报告给Draiocht ST2"
+ default_II_title_plural:0 "错误，请报告给Draiocht ST3"
+ default_II_long_desc:0 "错误，请报告给Draiocht ST4"
+ default_II_is_our:0 "错误，请报告给Draiocht ST5"
+ default_II_no_overlord_dow:0 "错误，请报告给Draiocht ST6"
+
+
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ # 4 - 文化
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ #旧世界
+ defunct_cultures:0 "失落的文化"
+ brythonic:0 "布立吞文化"
+ gotlander:0 "古特尼斯文化"          #根据Siny'arin的建议从Gotlander更改。
+ unified_celtic_group:0 "凯尔特文化"
+ celtic_irish_culture:0 "爱尔兰文化"
+ celtic_highland_scottish_culture:0 "苏格兰高地文化"
+ celtic_welsh_culture:0 "威尔士文化"
+ celtic_breton_culture:0 "布列塔尼文化"
+ celtic_cornish_culture:0 "康沃尔文化"
+ celtic_manx_culture:0 "马恩岛文化"
+ gallgaidheil:0 "高地盖尔文化"   #这种拼写有很多种，暂时采用MI标准复数主格名词，意即诺斯人盖尔
+ faroese:0 "法罗文化"
+ cappadocian:0 "卡帕多西亚文化"
+ cypriot:0 "塞浦路斯文化"
+ griko:0 "格里克文化"
+ berber_group:0 "柏柏尔文化"
+ shilha:0 "希尔哈文化"
+ riffian:0 "里非安文化"
+ maures:0 "摩尔文化"
+ tunisian:0 "伊夫里基文化"
+ miao_g:0 "苗族"
+ guanche:0 "古纳切文化"
+ turkish_g:0 "奥古兹文化"
+ syriac_culture:0 "叙利亚文化"
+ laz_culture:0 "拉兹文化"
+ cilician:0 "基利基亚文化"
+ #hejazi_arabic:0 "赫贾兹文化"          #在1.23中被原版的hejazi_culture取代
+ #khaliji_arabic:0 "哈利吉文化"           #在1.23中被原版的gulf_arabic取代
+ #mehri_culture:0 "梅赫里文化"           #在1.23中被原版的mahri_culture取代
+ romanch_culture:0 "罗曼什文化"
+ andalusi_culture:0 "安达卢斯文化"
+ egyptian_group:0 "埃及文化"
+ coptic_culture:0 "科普特文化"
+ saharan_group:0 "撒哈拉文化"
+ fur_culture:0 "毛皮文化"
+ tungur_culture:0 "图恩古尔文化"
+ libyan_berber_culture:0 "纳夫西文化"
+ luo_culture:0 "卢奥文化"
+ berta_culture:0 "贝尔塔文化"
+ tegali_culture:0 "特加利文化"
+ kabylian:0 "卡比利亚文化"
+ fezzan_arabic:0 "费赞文化"
+ khoisan_group:0 "科伊桑文化"          #被证伪的群体，但算了。
+ san_culture:0 "桑文化"
+ kama_culture:0 "纳马文化"
+ tshu_khwe_culture:0 "图舒·克维文化"
+ kwadi_culture:0 "夸迪文化"
+ juu_culture:0 "朱文化"
+ tswana_culture:0 "茨瓦纳文化"
+ tsonga_culture:0 "宗加文化"
+ ovambo_culture:0 "奥万博文化"
+ kavango_culture:0 "卡万戈文化"
+ afrikaner_culture:0 "南非人文化"
+ corsican_culture:0 "科西嘉文化"
+ friulian_culture:0 "弗留利文化"
+ ladin_culture:0 "拉丁文化"
+ yotvingian_culture:0 "约特维希文化"
+ aromanian_culture:0 "阿罗曼文化"
+ polabian_culture:0 "波兰文化"
+ kashubian_culture:0 "卡舒比文化"
+ dalmatian_culture:0 "达尔马提亚文化"
+ papuan_group:0 "巴布亚文化"
+ australian_group:0 "澳大利亚文化"
+ taiwanese_group:0 "台湾文化"
+ formosan_culture:0 "福尔摩沙文化"
+ kra_dai_culture_group:0 "泰国文化"
+ #新世界
+ plateau_penutian:0 "高原佩努提安文化"
+ tsimshianic:0 "奇姆申文化"
+ eskaleut:0 "因纽特文化"
+ yupik:0 "尤匹克文化"
+ wakashan:0 "瓦卡什文化"
+ dorset:0 "多塞特文化"
+ tuniit:0 "图宁特文化"
+ chimakuan:0 "奇马夸文化"
+ quileute:0 "基韦特文化"
+ salish_group:0 "萨利申文化"
+ interior_salish:0 "萨利申文化"
+ nuxalk:0 "纳克萨尔文化"
+ ktunaxa:0 "库滕纳文化"
+ hokan:0 "霍坎文化"
+ washoe:0 "瓦肖文化"
+ shastan:0 "沙斯坦文化"
+ pomoan:0 "波莫文化"
+ salinan:0 "萨利南文化"
+ yuman:0 "尤曼文化"
+ chumash_group:0 "楚马沙文化"
+ chumash:0 "楚马沙文化"
+ beothuk_group:0 "贝阿图克文化"
+ beothuk:0 "贝阿图克文化"
+ dakelh:0 "达凯赫文化"
+ umpqua:0 "安普夸文化"
+ eyak:0 "埃亚克文化"
+ hupa:0 "胡帕文化"
+ kutchin:0 "格维琴文化"
+ koyukon:0 "科尤孔文化"
+ tanana:0 "塔纳纳文化"
+ slavey:0 "斯拉维文化"
+ tlingit:0 "特林吉特文化"
+ #waikuri_group:0 "怀库里文化"         #已删除（与楚马沙合并）
+ waikuri:0 "怀库里文化"
+ wiyot:0 "维约特文化"
+ denaina:0 "德纳伊纳文化"
+ takic:0 "塔基克文化"
+ lakota:0 "拉科塔文化"
+ laurentian:0 "洛伦蒂安文化"
+ septrional_creoles:0 "北方克里奥尔文化"
+ metis:0 "梅蒂斯文化"
+ bungi:0 "邦吉文化"
+ anglo_metis:0 "盎格鲁-梅蒂斯文化"
+ canadien:0 "加拿大文化"
+ seri:0 "塞里文化"
+ keres:0 "凯雷斯文化"
+ hopi:0 "霍皮文化"
+ zuni:0 "祖尼文化"
+ cahita:0 "卡希塔文化"
+ corachol:0 "科拉乔尔文化"
+ southern_uto_aztecan:0 "阿兹特克文化"
+ maiduan:0 "迈杜安文化"
+ utian:0 "尤提安文化"
+ arawakan_g:0 "阿拉瓦坎文化"
+ shebaya:0 "谢巴亚文化"
+ineri:0 "伊格内里文化"           #这个文化可以归入阿拉瓦坎或喀里班.... 算了，无法赢得所有。
+ cariban_g:0 "喀里班文化"
+ karina:0 "卡里纳文化"
+ yao_carib:0 "姚卡里布文化"
+ macoris:0 "马科里斯文化"
+ ciguayo:0 "西瓜约文化"
+ guanahatabey:0 "瓜纳哈塔贝文化"
+ warao:0 "瓦劳文化"
+ waikeri:0 "怀克里文化"
+ tutchone:0 "图奇文化"
+ sahtu:0 "萨图文化"
+ hawaiian:0 "夏威夷文化"
+ maori_culture:0 "毛利文化"
+ crow_culture:0 "克劳文化"
+ mandan_culture:0 "曼丹文化"
+ arikara:0 "阿里卡拉文化"            #萨尼什
+ dhegihan:0 "德赫吉汉文化"
+ clatskanie:0 "克拉茨卡尼亚文化"
+ mosan_culture_group:0 "海达文化"          #见文化文件中的说明。
+ tillamook:0 "蒂拉穆克文化"
+ halkomelem:0 "哈科梅伦文化"
+ shuswap:0 "舒斯瓦普文化"
+ tsamosan:0 "萨莫萨文化"
+ cayuse:0 "卡尤斯文化"
+ siuslaw:0 "西尤斯劳文化"
+ coosan:0 "库桑文化"
+ klamath_culture:0 "克拉马斯文化"
+ yuki_wappo:0 "尤基-瓦波文化"
+ wintuan:0 "温图安文化"
+ tubatulabal:0 "图巴图拉巴尔文化"
+ mono_culture:0 "单一文化"
+ timbisha:0 "廷比沙文化"
+ kawaiisu:0 "卡瓦伊苏文化"
+ paiute_culture:0 "派尤特文化" #北方
+ ute_culture:0 "尤特文化"
+ wakashan_group:0 "瓦卡申文化"
+ ktunaxa_group:0 "库滕纳文化"
+ pacific_algonquian_group:0 "太平洋阿尔冈昆文化"
+ esselen:0 "埃塞伦文化"
+ jumano_group:0 "莫戈隆文化"
+ suma_culture:0 "苏马文化"
+ nez_perce_culture:0 "内兹-佩尔斯文化"
+ cochimi:0 "科希米文化"
+
+
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ # 5 - 自定义工具提示
+ #################################################################################
+ #################################################################################
+ #################################################################################
+
+ ###########################
+ #国家成立的工具提示，通常是x个省份的总览。请注意，霸权的那些（90%或更多）都在最后一起。
+ ###########################
+
+ #欧洲国家成立工具提示
+ ireland_provincial_kingdom_hegemony_tooltip_a:0 "拥有康诺特的3个传统省份中的2个作为核心"
+ ireland_provincial_kingdom_hegemony_tooltip_b:0 "拥有穆斯特的5个传统省份中的4个作为核心"
+ ireland_provincial_kingdom_hegemony_tooltip_c:0 "拥有伦斯特的4个传统省份中的3个作为核心"
+ ireland_provincial_kingdom_hegemony_tooltip_d:0 "拥有乌尔斯特的5个传统省份中的4个作为核心"
+ celtic_nation_required_provinces_tooltip_a:0 "拥有爱尔兰的17个传统省份中的9个作为核心"
+ celtic_nation_required_provinces_tooltip_b:0 "拥有苏格兰的17个传统省份中的9个作为核心"
+ celtic_nation_required_provinces_tooltip_c:0 "拥有威尔士的6个传统省份中的3个作为核心"
+ celtic_nation_required_provinces_tooltip_d:0 "拥有康沃尔的2个传统省份中的1个作为核心"
+ celtic_nation_required_provinces_tooltip_e:0 "拥有布列塔尼的6个传统省份中的3个作为核心"
+ two_thirds_of_ireland_tooltip:0 "拥有爱尔兰的17个传统省份中的12个作为核心"
+ three_quarters_of_ireland_tooltip:0 "拥有爱尔兰的17个传统省份中的13个作为核心"
+ two_thirds_of_scotland_tooltip:0 "拥有苏格兰的17个传统省份中的12个作为核心"
+ three_quarters_of_scotland_tooltip:0 "拥有苏格兰的17个传统省份中的13个作为核心"
+ two_thirds_of_england_tooltip:0 "拥有英格兰的24个传统省份中的16个作为核心"
+ two_thirds_of_britain_tooltip:0 "拥有至少33个英国的49个省份作为核心"
+ three_quarters_of_britain_tooltip:0 "拥有至少37个英国的49个省份作为核心"
+ two_thirds_of_france_tooltip:0 "拥有至少50个法国的75个省份作为核心"
+ three_quarters_of_france_tooltip:0 "拥有至少57个法国的75个省份作为核心"
+ half_of_greece_tooltip:0 "拥有至少23个希腊的55个省份作为核心"
+ bt_no_other_surviving_pomeranian_minors:0 "波美拉尼亚公国的分支仍然存在。"
+ two_thirds_of_pomerania_tooltip:0 "拥有波美拉尼亚的14个省份中的10个作为核心"
+ bt_reunifies_duchy_of_pomerania:0 "重新统一波美拉尼亚公国。"
+
+
+ #中东工具提示
+ half_of_yemen_tooltip:0 "在下也门和/或上也门拥有5个省份作为核心"
+ half_of_najd_tooltip:0 "在纳吉德和/或阿尔-雅马马拥有6个省份作为核心"
+ half_of_greater_armenia_tooltip:0 "在亚美尼亚和/或瓦斯普拉坎拥有6个省份作为核心"
+
+ #东欧
+ two_thirds_of_poland_tooltip:0 "在波兰的36个省份中拥有至少24个作为核心"
+
+ #霸权工具提示（通常是一个地区的90%）
+ hegemony_over_britain_tooltip:0 "至少45个英国的49个省份由自己或附属国作为核心"
+ hegemony_over_ireland_tooltip:0 "至少16个爱尔兰的17个省份由自己或附属国作为核心"
+ hegemony_over_france_tooltip:0 "至少68个法国的75个省份由自己或附属国作为核心"
+ hegemony_over_iberia_tooltip:0 "至少47个伊比利亚的63个省份由自己或附属国作为核心"
+ hegemony_over_italy_tooltip:0 "至少86个意大利的114个省份由自己或附属国作为核心"
+
+ ##################################################
+ #任务工作的本地化
+ ##################################################
+ #对原版任务的补充或澄清
+ bt_southern_russia_perm_claims:0 "对南俄罗斯授予永久声索"
+ bt_northern_russia_perm_claims:0 "对北俄罗斯授予永久声索"
+ bt_greece_perm_claims:0 "对希腊授予永久声索"
+ bt_wild_fields_perm_claims:0 "对荒野地区授予永久声索"
+ bt_novgorod_perm_claims:0 "对诺夫哥罗德拥有的附近土地授予永久声索"
+ bt_venice_perm_claims:0 "对威尼斯拥有的附近土地授予永久声索"
+ bt_mission_tooltip_hispaniola_colonisation:0 "§Y[Root.GetName]§!或其附属国在 Hispaniola 殖民地拥有至少 5 个省份。"
+ bt_mission_tooltip_cuba_colonisation:0 "§Y[Root.GetName]§!或其附属国在古巴殖民地拥有至少5个省份。"
+ bt_mission_tooltip_bahamas_colonisation:0 "§Y[Root.GetName]§!或其附属国在巴哈马殖民地拥有至少5个省份。"
+ bt_mission_tooltip_northern_italy_minus_lombardy_perm_claims:0 "授予对大部分北意大利的永久声索。"
+ bt_mission_tooltip_northern_italy_conquest_minus_lombardy:0 "§Y[Root.GetName]§! 拥有北意大利的突出省份。"
+
+ ###########################
+ #所有其他工具提示，通常是为了缩短、清理或使复杂代码对友好的用户界面可读
+ ###########################
+ #机构改革
+ tooltip_development_8_post_1500:0 "1500年后8个开发省份"
+ tooltip_development_5_post_1550:0 "1550年后5个开发省份"
+ tooltip_development_8_post_1550:0 "1550年后8个开发省份"
+ tooltip_northern_italian_renaissance:0 "意大利北部的省份"
+ tooltip_all_italian_renaissance:0 "意大利本土的省份"
+ tooltip_flanders_renaissance:0 "弗兰德斯的省份"
+ tooltip_has_colonial_subject_in_new_world_bt_addon_a:0 "拥有殖民附庸国的国家的首都"
+ tooltip_has_colonial_subject_in_new_world_bt_addon_b:0 "拥有殖民附庸国的国家的重要港口（至少10个贸易权力）"
+ tooltip_has_colonial_subject_in_new_world_bt_addon_c:0 "拥有殖民附庸国的国家的本土核心"
+ tooltip_colonial_overlord_new_world_i_bt_addon_a:0 "殖民宗主国已接受§Y殖民主义§"
+ tooltip_colonialism_exploration_small_bonus_bt_addon_a:0 "发现新世界土地的国家的重要港口（至少10个贸易权力）"
+ tooltip_any_neighbor_has_embraced_global_trade_bt_addon_a:0 "邻近的无人省份已拥有§Y全球贸易§!"
+ tooltip_bt_add_new_instituiton_details_a:0 "位于意大利北部"
+ tooltip_bt_add_new_instituiton_details_b:0 "开发至少20且为首都"
+ tooltip_bt_add_new_instituiton_details_c:0 "位于旧世界"
+ tooltip_bt_add_new_instituiton_details_d:0 "沿海且开发至少24或为贸易中心"
+ tooltip_bt_add_new_instituiton_details_e:0 "已发现新世界的任何省份"
+ tooltip_bt_add_new_instituiton_details_f:0 "为贸易中心或首都"
+ tooltip_bt_add_new_instituiton_details_g:0 "欧洲开发至少24"
+ tooltip_bt_add_new_instituiton_details_h:0 "开发至少48"
+ tooltip_bt_add_new_instituiton_details_i:0 "开发至少40"            #未使用，经过一些测试和考虑后删除
+ tooltip_bt_add_new_instituiton_details_j:0 "已建造工厂并拥有§Y印刷机§!"
+ tooltip_bt_add_new_instituiton_details_k:0 "拥有自然科学家的雇主"
+ tooltip_bt_add_new_instituiton_details_l:0 "拥有哲学家的雇主"
+ tooltip_bt_add_new_instituiton_details_m:0 "拥有完成创新思想集团的雇主"
+ tooltip_bt_add_new_instituiton_details_n:0 "统治者是启蒙时代的典范（所有技能均为5）"
+ tooltip_bt_add_new_instituiton_details_o:0 "位于欧洲的首都，开发至少32"
+ tooltip_bt_add_new_instituiton_details_p:0 "开发至少24"
+ tooltip_bt_add_new_instituiton_details_q:0 "开发至少32"
+ tooltip_bt_add_new_instituiton_details_r:0 "开发至少40"
+ tooltip_bt_add_new_instituiton_details_s:0 "[Root.GetName] 至少拥有5个贸易权力"         #最终未使用
+ tooltip_bt_add_new_instituiton_details_t:0 "[Root.GetName] 至少拥有10个贸易权力"         #最终未使用
+ tooltip_bt_add_new_instituiton_details_u:0 "[Root.GetName] 至少拥有20个贸易权力"         #最终未使用
+ tooltip_bt_add_new_instituiton_details_v:0 "[Root.GetName] 至少拥有40个贸易权力"         #最终未使用
+ tooltip_bt_add_new_instituiton_details_w:0 "[Root.GetName] 至少拥有60个贸易权力"         #最终未使用
+ tooltip_bt_add_new_instituiton_details_x:0 "是贸易中心并拥有§Y印刷机§!"
+ tooltip_bt_add_new_instituiton_details_y:0 "已建造工厂并拥有§Y全球贸易§!"
+ tooltip_bt_add_new_instituiton_details_z:0 "拥有完成人文主义思想集团的雇主"
+ tooltip_bt_add_new_instituiton_details_aa:0 "1550年后开发程度很高的省份（24或以上）"           #最终未使用，仅保留开发强度增加30及以上
+ tooltip_bt_add_new_instituiton_details_ab:0 "1600年后开发程度非常高的省份（32或以上）"
+ tooltip_bt_add_new_instituiton_details_ac:0 "西方大国的本土核心"
+ tooltip_bt_add_new_instituiton_details_ad:0 "由独立的殖民国家拥有"
+ tooltip_bt_add_new_instituiton_details_ae:0 "拥有哲学家或自然科学家的雇主"
+ tooltip_bt_add_new_instituiton_details_af:0 "拥有熟练的哲学家或自然科学家的雇主"
+ tooltip_bt_add_new_instituiton_details_ag:0 "拥有天赋异禀的哲学家或自然科学家的雇主"
+ tooltip_bt_add_new_instituiton_details_ah:0 "拥有宽容的品质"
+ tooltip_bt_add_new_instituiton_details_ai:0 "拥有学者的品质"
+ tooltip_bt_add_new_instituiton_details_aj:0 "是贸易中心"
+ tooltip_bt_add_new_instituiton_details_ak:0 "是沿海首都"
+ tooltip_bt_add_new_instituiton_details_al:0 "位于首都地区"
+ tooltip_bt_add_new_instituiton_details_am:0 "位于德国"
+ tooltip_bt_add_new_instituiton_details_an:0 "开发至少32，且在1700年后位于亚洲"
+ tooltip_bt_add_new_instituiton_details_ao:0 "是贸易中心并拥有§Y殖民主义§!"
+ tooltip_bt_add_new_instituiton_details_ap:0 "开发至少24在欧洲"
+ tooltip_bt_add_new_instituiton_details_aq:0 "开发至少16"
+ tooltip_bt_add_new_instituiton_details_ar:0 "开发至少24"
+ #通用工具提示，顺便提一下。请注意，经过机构改革的开发水平在开发翻倍的地区实际上更接近x1.4，而不是完整的x2，因此在省级上，14更接近于10的原版，28更接近于20的原版。
+ bt_tooltip_lightly_developed_province:0 "轻度开发省份（至少8）"
+ bt_tooltip_developed_province:0 "开发省份（至少16）"
+ bt_tooltip_well_developed_province:0 "良好开发省份（至少24）"
+ bt_tooltip_very_well_developed_province:0 "非常良好开发省份（至少32）"
+ bt_tooltip_extremely_well_developed_province:0 "极其开发省份（至少40）"
+
+ #所有其他
+ emilia_in_hre_tooltip_btpl:0 "艾米利亚地区在帝国或皇帝的附庸国中。"
+ permanent_claim_on_all_gaelic_lands_tooltip:0 "[Root.GetName]对所有爱尔兰和北方不列颠的土地获得永久声索"
+ permanent_claim_on_all_celtic_lands_tooltip:0 "[Root.GetName]对所有爱尔兰、苏格兰、曼岛、威尔士、康沃尔和布列塔尼的土地获得永久声索。"
+ temp_claim_on_all_britain_tooltip:0 "[Root.GetName]对所有英格兰的土地获得声索。"
+ merges_celtic_cultures_tooltip:0 "统一盖尔人和布立吞人。"
+ merges_celtic_cultures_tooltip_b:0 "$PROVINCECULTURE$文化在[Root.GetName]转移到凯尔特文化组"
+ merges_celtic_cultures_tooltip_c:0 "在[Root.GetName]中，主要和/或接受的布立吞人和盖尔人文化转移到凯尔特文化组"
+ tooltip_bt_marcharid_of_brittany_is_alive:0 "Marc'harid de Dreux还活着"
+ tooltip_bt_close_relative_tanist:0 "将选择一位近亲作为坦尼斯特。这个候选人将是普通的，但拥有强大的主张。"
+ tooltip_bt_cousin_tanist:0 "将选择一位特别能干的表亲作为坦尼斯特。这个候选人将拥有更高的能力，但主张较弱。"
+ tooltip_bt_keep_current_tanist:0 "[Root.Heir.GetName]将继续担任坦尼斯特。"
+ tooltip_bt_female_tanist:0 "将选择一位真正杰出的女性亲属作为坦尼斯特。她将拥有极高的能力，但主张非常弱。"
+ tooltip_bt_abolition_of_tanistry_succession:0 "[Root.GetName]废除了坦尼斯特继承制，转而采用更具大陆特色的继承法。"
+ tooltip_bt_female_removed_from_succession:0 "[Root.GetName]的新女性继承人将被剥夺继承权，因为她不符合登基资格。"
+ tooltip_bt_starts_tanistry_succession:0 "[Root.GetName]将采用传统的坦尼斯特继承法"
+ annex_all_britain_and_ireland_tooltip:0 "任何由附属国拥有的英国或爱尔兰土地将被立即吞并。"
+ bt_bunch_o_vassals_tooltip:0 "是三个或更多需要外交关系名额的附属国的宗主"
+ bt_really_a_bunch_o_vassals_tooltip:0 "是五个或更多需要外交关系名额的附属国的宗主"
+
+
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ # 6 - 修饰符
+ #################################################################################
+ #################################################################################
+ #################################################################################
+
+ ###########################
+ #河口
+ ###########################
+ #旧世界
+ severn_estuary_modifier:0 "塞文河口"
+ desc_severn_estuary_modifier:0 "控制塞文河的重要河口加强了我们对该地区贸易的控制。"
+ shannon_estuary_modifier:0 "香农河口"
+ desc_shannon_estuary_modifier:0 "控制香农河的重要河口加强了我们对该地区贸易的控制。"
+ meuse_estuary_modifier:0 "默兹河口"
+ desc_meuse_estuary_modifier:0 "控制默兹河的重要河口加强了我们对该地区贸易的控制。"
+ guadalquivir_estuary_modifier:0 "瓜达尔基维尔河口"
+ desc_guadalquivir_estuary_modifier:0 "控制瓜达尔基维尔河的重要河口加强了我们对该地区贸易的控制。"
+ dnieper_estuary_modifier:0 "第聂伯河口"
+ desc_dnieper_estuary_modifier:0 "控制第聂伯河的重要河口加强了我们对该地区贸易的控制。"
+ orontes_estuary_modifier:0 "奥伦特斯河口"
+ desc_orontes_estuary_modifier:0 "控制奥伦特斯河的重要河口加强了我们对该地区贸易的控制。"
+ northern_dvina_estuary_modifier:0 "北德维纳河口"
+ desc_northern_dvina_estuary_modifier:0 "控制北德维纳河的重要河口加强了我们对该地区贸易的控制。"
+ pechora_estuary_modifier:0 "佩乔拉河口"
+ desc_pechora_estuary_modifier:0 "控制佩乔拉河的重要河口加强了我们对该地区贸易的控制。"
+
+ #新世界
+ fraiser_estuary_modifier:0 "弗雷泽河口"
+ desc_fraiser_estuary_modifier:0 "控制弗雷泽河的重要河口加强了我们对该地区贸易的控制。"
+ colorado_estuary_modifier:0 "科罗拉多河口"
+ desc_colorado_estuary_modifier:0 "控制科罗拉多河的重要河口加强了我们对该地区贸易的控制。"
+ yukon_estuary_modifier:0 "育空河口"
+ desc_yukon_estuary_modifier:0 "控制育空河的重要河口加强了我们对该地区贸易的控制。"
+ copper_river_estuary_modifier:0 "铜河口"
+ desc_copper_river_estuary_modifier:0 "控制铜河的重要河口加强了我们对该地区贸易的控制。"
+ mackenzie_estuary_modifier:0 "麦肯齐河口"
+ desc_mackenzie_estuary_modifier:0 "控制麦肯齐河的重要河口加强了我们对该地区贸易的控制。"
+ klamath_estuary_modifier:0 "克拉马斯河口"
+ desc_klamath_estuary_modifier:0 "控制克拉马斯河的重要河口加强了我们对该地区贸易的控制。"
+ st_john_estuary_modifier:0 "圣约翰河口"
+ desc_st_john_estuary_modifier:0 "控制圣约翰河的重要河口加强了我们对该地区贸易的控制。"
+ moose_river_estuary_modifier:0 "驼鹿河口"
+ desc_moose_river_estuary_modifier:0 "控制驼鹿河的重要河口加强了我们对该地区贸易的控制。"
+ orange_estuary_modifier:0 "橙河口"
+ desc_orange_estuary_modifier:0 "控制橙河的重要河口加强了我们对该地区贸易的控制。"
+ limpopo_estuary_modifier:0 "林波波河口"
+ desc_limpopo_estuary_modifier:0 "控制林波波河的重要河口加强了我们对该地区贸易的控制。"
+ breede_estuary_modifier:0 "布雷德河口"
+ desc_breede_estuary_modifier:0 "控制布雷德河的重要河口加强了我们对该地区贸易的控制。"
+ tugela_estuary_modifier:0 "图格拉河口"
+ desc_tugela_estuary_modifier:0 "控制图格拉河的重要河口加强了我们对该地区贸易的控制。"
+
+ ###########################
+ #贸易修饰符和特性
+ ###########################
+ #贸易中心。自达摩（1.26）以来失效，但我可能会在12.0中对其进行一些处理
+ grand_center_of_trade_modifier:0 "大贸易中心"
+ desc_grand_center_of_trade_modifier:0 "作为大贸易中心的这个省份的重要性将有助于主导该地区的贸易。"
+
+
+ #特性 - 旧世界
+ bt_forests_of_cadore:0 "卡多雷森林"
+ desc_bt_forests_of_cadore:0 "东阿尔卑斯山 rugged 和森林茂密的卡多雷地区以其优质木材而闻名，几乎单靠其供应威尼斯海军数百年的高质量船只木材。"
+ btpl_oasis:0 "大绿洲"
+ desc_btpl_oasis:0 "一个特别大且稳定的绿洲位于这个省份，为干旱、贫瘠的景观提供了水和灌溉。这对当地人口是个福音，并且使农业和基础设施的发展变得容易得多。"
+ strait_of_hormuz_toll:0 "霍尔木兹海峡通行费"
+ desc_strait_of_hormuz_toll:0 "霍尔木兹岛是所有进出波斯湾贸易的自然停靠点，控制这个战略要地的国家将在该地区的贸易中发挥重要影响。"
+ btpl_nile_river_in_arid_desert_province:0 "上尼罗河"
+ desc_btpl_nile_river_in_arid_desert_province:0 "这个省份位于极其干旱的撒哈拉沙漠中，通常穿越这里会面临严重挑战，但由于其沿尼罗河的位置，极大地方便了旅行、开发和沿着这条伟大河流的补给线。"
+ bt_weaker_spice_islands_modifier:0 "香料群岛"         #从香料_islands_modifier的原版复制粘贴
+ desc_bt_weaker_spice_islands_modifier:0 "这是香料出口的主要集散地，也是世界上很大一部分肉豆蔻、丁香和其他香料出口的发源地。"         #从香料_islands_modifier的原版复制粘贴
+ curonian_strait_toll:0 "库尔斯海峡通行费"
+ desc_curonian_strait_toll:0 "库尔斯潟湖与波罗的海其他地区之间仅由一条狭窄的陆地带——库尔斯沙嘴分隔，潟湖沿岸的许多城市和城镇的唯一出口就是库尔斯海峡，这条海峡宽度仅几百米。控制这个自然 chokepoint 将确保我们在区域贸易中的持续相关性。"
+
+
+ #特性 - 新世界
+ grand_banks_of_newfoundland:0 "纽芬兰大银行"
+ desc_grand_banks_of_newfoundland:0 "纽芬兰沿海水域拥有世界上最丰富的渔场之一。从15世纪到早期现代时期，巴斯克、葡萄牙、法国、西班牙、英国和荷兰的船只在该地区捕捞丰富的鳕鱼，以供应欧洲的大部分鱼类需求。到19世纪，纽芬兰的渔业提供的鱼类比世界上任何其他地区都要多。"
+ san_francisco_bay_modifier:0 "旧金山湾"
+ desc_san_francisco_bay_modifier:0 "旧金山湾是东太平洋最大的自然港口和河口系统。由包括萨克拉门托河、圣华金河、纳帕河、瓜达卢佩河等多条主要河流注入，它深邃、稳定且保护良好。作为一个自然贸易中心，这个湾区在商业中心或战略港口方面具有无限潜力。"
+ #暂时删除金门，因为图标看起来有点繁忙。
+ #golden_gate_strait_modifier:0 "金门"
+ #desc_golden_gate_strait_modifier:0 "金门是一个自然海峡，宽度不足一公里，分隔旧金山半岛和马林半岛，形成通往保护良好的旧金山湾的自然门户。因其显而易见的作为与东方贸易中心的潜力而被命名为“金门”，这个名字后来在某种稀有矿物在海湾彼岸的山脉和丘陵中被发现时显得尤为预言性。"
+
+ ###########################
+ #其他修饰符
+ ###########################
+  #欧洲
+ irish_fealty_negotiations_ongoing:0 "要求爱尔兰效忠"
+ desc_irish_fealty_negotiations_ongoing:0 "正在进行与爱尔兰一位古老英格兰领主的正式效忠谈判。"
+ humiliated_by_former_vassal:0 "被前附庸国羞辱"
+ desc_humiliated_by_former_vassal:0 "爱尔兰的前附庸国竟然无耻到拒绝承认他们对英格兰王座的效忠，并宣布独立，而不幸的是我们当时无法惩罚这一侮辱。"
+ irish_catholicism_not_allowed:0 "爱尔兰天主教被压制"
+ desc_irish_catholicism_not_allowed:0 "这个省份的爱尔兰天主教徒口径被迫接受宗教改革，导致了极大的不安。"
+ irish_catholicism_allowed:0 "爱尔兰天主教被宽容"
+ desc_irish_catholicism_allowed:0 "国家政府决定不强迫这个省份的爱尔兰天主教徒接受宗教改革，以免激起叛乱。尽管如此，改革进程可能会继续，但会极其缓慢。"
+ reformation_takes_hold_in_ireland:0 "宗教改革被宽容"
+ desc_reformation_takes_hold_in_ireland:0 "尽管最初遇到了一些困难，但宗教改革在这个省份扎根，爱尔兰人已抛弃了他们的天主教信仰。与新教欧洲建立的新贸易联系甚至在一定程度上促进了当地经济。"
+ huzzah_for_devolution:0 "释放爱尔兰"
+ desc_huzzah_for_devolution:0 "这个国家在征服爱尔兰后将其作为独立国家释放，建立了个人联盟。这一宽宏大量的举动加强了该国的外交声誉，并在与我们有往来的所有国家中建立了信任。"
+ culture_shift_tension_bt:0 "文化转变引发的不安"
+ desc_culture_shift_tension_bt:0 "这个省份的主要文化最近发生了变化，导致剩余人口的不安。"
+ religious_shift_tension_bt:0 "宗教转变引发的不安"
+ desc_religious_shift_tension_bt:0 "这个国家最近改变了主要宗教，导致其他宗教省份的不安，但在新国家宗教省份中却引发了欢欣鼓舞。"
+ bt_tanistry_waiting_on_heir:0 "等待继承人"
+ desc_bt_tanistry_waiting_on_heir:0 "统治政府决定不任命坦尼斯特，而是等待继承人的出生，这导致了广泛的不安，因为民众对王国未来的担忧加剧。"
+ bt_tanistry_underaged_heir:0 "未成年坦尼斯特"
+ desc_bt_tanistry_underaged_heir:0 "王国的坦尼斯特尚未达到成年年龄，民众对国王过早去世后可能缺乏强有力的领导感到不满。"
+ bt_tanistry_female_heir:0 "女性坦尼斯特"
+ desc_bt_tanistry_female_heir:0 "在一项前所未有且颇具争议的决定中，国王决定任命一位年轻女性为坦尼斯特，这在传统主义者和迷信者中引发了极大的不安，他们对王国的未来感到担忧。"
+ bt_uncertainty_about_a_high_queen:0 "对女王的担忧"
+ desc_bt_uncertainty_about_a_high_queen:0 "随着女王统治国家的前景浮现，恐惧和不确定性席卷王国。"
+ bt_abolished_tanistry:0 "最近废除的坦尼斯特制度"
+ desc_bt_abolished_tanistry:0 "在一个普遍不受欢迎的决定中，这个国家的政府废除了坦尼斯特继承制度，选择了更具大陆特色的世袭君主制。"
+ btpl_clearing_the_inlet:0 "清理黄金水道"
+ desc_btpl_clearing_the_inlet:0 "这个国家正在全力以赴地清理黄金水道，并保持北海贸易的地方主导地位。"
+ btpl_stabilising_the_economy:0 "稳定经济"
+ desc_btpl_stabilising_the_economy:0 "这个国家正在全力以赴地补偿因安特卫普最近的不稳定而受到伤害的个人，防止商人群体大规模迁离安特卫普，维持该市的经济主导地位。"
+ btpl_investing_in_antwerp:0 "对安特卫普的投资"
+ desc_btpl_investing_in_antwerp:0 "安特卫普市的市民正在接受来自国家政府的可观补偿和激励，以防止商人迁移并鼓励该市的贸易和商业发展。"
+ bt_guelph_nation:0 "吉尔夫国家"
+ desc_bt_guelph_nation:0 "在皇帝与教皇之间长期存在的对意大利城市国家控制权的争夺中，这个国家传统上支持教皇。吉尔夫家族通常是富裕且在意大利商界中占有重要地位的家庭，他们对德意志皇帝干预意大利事务感到不满，并视教皇为抵制皇帝侵扰的关键。"
+ #bt_white_guelph_nation:0 "白吉尔夫国家"            #目前没有将白吉尔夫修饰符用于任何地方。
+ #desc_bt_white_guelph_nation:0 "在皇帝与教皇之间长期存在的对意大利城市国家控制权的争夺中，这个国家传统上支持教皇，但由于教皇国在13世纪末的专制政策，这部分吉尔夫开始抵制教皇的控制，寻求法国等其他盟友以抵御教皇和皇帝的双重压力。"
+ bt_ghibelline_nation:0 "吉贝利国家"
+ desc_bt_ghibelline_nation:0 "在皇帝与教皇之间长期存在的对意大利城市国家控制权的争夺中，这个国家传统上支持皇帝。吉贝利家族通常是受益于分散的帝国统治的土地贵族，他们担心更直接的教皇权威会恶化自己的境况，因此支持帝国对教皇国扩张的主张。"
+ bt_traitorous_nation:0 "叛国者国家"
+ desc_bt_traitorous_nation:0 "这个国家最近在吉尔夫-吉贝利的争夺中易手，因此任何理智的国家都对信任其言辞表示怀疑。"
+ bt_apathetic_guelph_or_ghibellines:0 "冷漠国家"
+ desc_bt_apathetic_guelph_or_ghibellines:0 "这个国家试图将自己从吉尔夫-吉贝利的争夺中抽身，并试图在不让人民成为这场缓慢蔓延的内战的牺牲品的情况下，团结人民。在冲突仍在继续、两边的强硬派都在试图挑起事端的情况下，尽管这是一个值得赞赏的目标，但这个国家发现自己很难在冲突中保持距离。"
+ bt_emperors_approval:0 "皇帝的赞许"
+ desc_bt_emperors_approval:0 "神圣罗马皇帝在公开场合赞扬我们的国家，提高了我们在整个帝国的声望和威望！"
+ #触发的省级修饰符
+ bt_guelph_province_in_guelph_state:0 "吉尔夫省"
+ desc_bt_guelph_province_in_guelph_state:0 "在皇帝与教皇之间长期存在的对意大利城市国家控制权的争夺中，这个省份传统上支持教皇，这让它的吉尔夫统治者感到高兴。动乱可能较少，更多的年轻人倾向于为吉尔夫事业自愿参军。"
+ bt_guelph_province_in_ghibelline_state:0 "吉尔夫省"
+ desc_bt_guelph_province_in_ghibelline_state:0 "在皇帝与教皇之间长期存在的对意大利城市国家控制权的争夺中，这个省份传统上支持教皇，这让它的吉贝利统治者感到不满。动乱可能较多，当地年轻人往往抵制为吉贝利政府而战。"
+ bt_ghibelline_province_in_ghibelline_state:0 "吉贝利省"
+ desc_bt_ghibelline_province_in_ghibelline_state:0 "在皇帝与教皇之间长期存在的对意大利城市国家控制权的争夺中，这个省份传统上支持皇帝，这让它的吉贝利统治者感到高兴。动乱可能较少，更多的年轻人倾向于为吉贝利事业自愿参军。"
+ bt_ghibelline_province_in_guelph_state:0 "吉贝利省"
+ desc_bt_ghibelline_province_in_guelph_state:0 "在皇帝与教皇之间长期存在的对意大利城市国家控制权的争夺中，这个省份传统上支持皇帝，这让它的吉尔夫统治者感到不满。动乱可能较多，当地年轻人往往抵制为吉尔夫政府而战。"
+
+
+ #旧世界 - 非欧洲
+ btpl_funj_momentum:0 "丰吉势头"
+ desc_btpl_funj_momentum:0 "在被希卢克人向北推挤后，我们本可以就此放弃，任由打击摧毁我们……相反，我们选择利用这一势头向北推进，征服更大的土地！"
+ btpl_abdullahs_coffers:0 "阿卜杜拉的金库"
+ desc_btpl_abdullahs_coffers:0 "在将雄心壮志转向内陆之前，聚集了相当可观财富的阿卜杜拉·贾马（Abdallah Jamma）利用其在红海的贸易活动积累了可观的财富，因此当他将注意力转向征服阿罗迪亚时，他已经做好了充分的准备，拥有了个人资源。"
+ btpl_spread_of_islam_in_alodia:0 "阿罗迪亚的皈依"
+ desc_btpl_spread_of_islam_in_alodia:0 "由来自红海的富有阿拉伯商人阿卜杜拉·贾马（Abdallah Jamma）倡导，伊斯兰教在上尼罗河的前基督教居民中迅速传播。"
+ btpl_funj_militarisation:0 "丰吉军事化"
+ desc_btpl_funj_militarisation:0 "利用被希卢克人向北推挤的势头，我们的社会正在军事化，准备全面战争以征服北方的土地，即阿罗迪亚这个岌岌可危的国家。"
+ btpl_funj_demilitarisation:0 "丰吉非军事化"
+ desc_btpl_funj_demilitarisation:0 "在被希卢克人向北推挤后，选择了不同的发展方向，我们的社会正在非军事化，试图利用这个新起点建立一个繁荣的乌托邦。"
+ bt_recently_granted_dhimmi_provinces:0 "与迪米的互动"          #不应出现，翻译最小关注
+ desc_bt_recently_granted_dhimmi_provinces:0 "这个国家最近将土地授予了迪米。"          #不应出现，翻译最小关注
+ #触发的省级修饰符
+ bt_conquest_of_the_great_fire:0 "大火"
+ desc_bt_conquest_of_the_great_fire:0 "大火神庙是前穆斯林波斯传统的重要开幕场所，也是琐罗亚斯德教的最神圣场所。夺回这些地方对恢复琐罗亚斯德教作为主要宗教至关重要！"   #这很糟糕，但无论如何... 我当时没有灵感   Draiocht
+
+ #新世界
+ mettling_government:0 "禁止当地婚姻"
+ desc_mettling_government:0 "政府最近禁止欧洲定居者与当地女性结婚。这一决定激怒了当地居民。"
+ take_colonial_land_by_force:0 "征服授权"
+ desc_take_colonial_land_by_force:0 "控制该省的殖民政府宣布其有意在必要时通过武力夺取该地区。这极大地激怒了当地居民，但也增强了殖民者的信心，加快了殖民地的增长。"
+ encourage_trade_with_natives:0 "与土著贸易"
+ desc_encourage_trade_with_natives:0 "通过努力，地方人口与我们的殖民者之间建立了繁荣的贸易，促进了我们殖民地的贸易和生产。"
+ paranoid_defenses_at_colony:0 "殖民地高度警戒"
+ desc_paranoid_defenses_at_colony:0 "该殖民地的政府非常担心当地部落的入侵，已下令进入高度警戒状态，进行定期侦察巡逻、修建临时围墙、隐藏补给和普遍的民兵训练。任何入侵该地区的企图都可能比预期的要耗时和艰苦得多。"
+ allied_natives_founded_colony:0 "盟友土著的殖民地"
+ desc_allied_natives_founded_colony:0 "这个定居点是由在殖民强国的保护下成立的土著人口建立的，而不是由殖民强国本身建立的。因此，这里的居民期望获得高度的自治和独立，但也对旧世界的政治和首都的事务关心较少。"
+ bt_spanish_colonial_enthusiasm:0 "殖民热情"
+ desc_bt_spanish_colonial_enthusiasm:0 "大批雄心勃勃的人们对移居殖民地充满了兴趣。"
+ bt_daring_navigator:0 "一位大胆的探险家"
+ desc_bt_daring_navigator:0 "这个国家正在雇佣一位雄心勃勃、敢于冒险的探险家，他决心比任何人都走得更远，发现遥远海岸的新土地。"
+
+
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ # 7 - 触发修饰符
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ bt_triggered_modifier_a_big_family:0 "分权"
+ desc_bt_triggered_modifier_a_big_family:0 "这个政体在某种程度上是分权的，统治着多个自治的附属国。这种分散的统治有其优缺点，但我们的经验使得维持这些不同国家的统一变得更加容易。"
+ bt_triggered_modifier_hegemoniacle:0 "霸权"
+ desc_bt_triggered_modifier_hegemoniacle:0 "这个政体是高度分散的，统治着大量的自治附属国。这种分散的统治有其优缺点，但我们的经验使得维持这些不同国家的统一变得更加容易。"
+ bt_triggered_modifier_complex_administration:0 "复杂的行政管理"
+ desc_bt_triggered_modifier_complex_administration:0 "我们治理着一个特别复杂的地区，我们的官僚机构正在迎接挑战，证明自己能够以出乎意料的效率整合和联系起我们广袤的土地。"
+ bt_iberian_crowns:0 "阿拉贡王冠"
+ desc_bt_iberian_crowns:0 "随着中世纪晚期的推移，以及在收复失地运动后的阿拉贡王冠演变为一种复合君主制，实际上是多个不同的事实独立国家归属于同一统治者。大多数情况下，这种高度自治和最小的强制整合对大多数人来说并不冒犯，这个制度相对稳定，以至于阿拉贡这个相对贫穷和农村的微型国家能够统治近十个其他王国的联盟。"
+
+
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ # 8 - 意见修饰符本地化
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ bt_declared_for_guelphs:0 "吉尔夫国"
+ bt_declared_for_guelphs_unhappy:0 "吉尔夫国"
+ bt_declared_for_ghibellines:0 "吉贝利国"
+ bt_declared_for_ghibellines_unhappy:0 "吉贝利国"
+ bt_betrayed_guelph_or_ghibellines:0 "叛国者国家"
+ bt_is_papal_subject:0 "教皇的附属国"
+ bt_temporal_authority_enforced:0 "世俗权威被强制执行"
+ bt_temporal_authority_enforced_on_other:0 "世俗权威被强制执行"
+ bt_emperor_is_pleased:0 "皇帝满意"
+ bt_pope_is_pleased:0 "教皇的祝福"
+ bt_loyal_subject:0 "忠于事业"
+
+
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ # 9 - 政府相关内容  （注意这包括新的政府类型、它们的名称和描述，以及各种政府类型下的特殊领导者名称等）
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ puppet_kingdom_of_ireland_legacy:0 "附属王国"
+ puppet_kingdom_of_ireland_legacy_desc:0 "副王国通常是由代理人统治的附属政府。母国的代表保护母国的利益，母国的移民精英往往占据大多数政府职位，而当地人口则往往没有什么代表权。这种类型的政府非常不受欢迎，但很少有人会对它们的生产力和征税能力提出异议。好吧，除了那些缴纳税款的人......"
+ transitional_government_ireland_legacy:0 "过渡政府"
+ transitional_government_ireland_legacy_desc:0 "过渡政府在一个过渡中的社会中履行行政职责，通常是刚刚从外国势力独立出来的国家，或者正在经历革命的国家。虽然这个政府可能是国家与纯粹的无政府状态之间的唯一屏障，但它通常也不比无政府状态好。军阀和寡头争夺权力，爱国者和革命者密谋将国家带向新方向，而忠诚者和保守派则试图将国家带回到以前的结构中。值得庆幸的是，这种混乱往往是短暂的，因为其中一个派系通常会在几年内获胜，国家会恢复到更稳定的政府形式。"
+ BTLORDLIEUTENANT:0 "总督"
+ BTLORDLIEUTENANTFEMALE:0 "女总督"
+ BTHEIRAPPARENT:0 "王位继承人"
+ BTTRANSITIONALKING:0 "过渡统治者"
+ lithuanian_grand_duchy_legacy:0 "大公国"         #复制自原版立陶宛大公国改革本地化
+ lithuanian_grand_duchy_legacy_desc:0 "我们的地区从来没有多少国王，而是我们的公爵联合起来，带领我们境内的各个民族走向伟大。"         #复制自原版立陶宛大公国改革本地化
+ KAISER:0 "皇帝"          #Dub的德国小癖好，归功于Dub
+ KAISERIN:0 "女皇"          #Dub的德国小癖好，归功于Dub
+
+ #新改革系统政府相关内容
+ tanistry_reform:0 "坦尼斯特制"
+ tanistry_reform_desc:0 "坦尼斯特制是爱尔兰和不列颠的传统继承制度。在这个制度下，坦尼斯特由德尔夫因（Dearbhfhine）即前国王的后代中通过普选产生，候选人必须是成年且没有任何身体或精神缺陷的王室成员。与大陆大多数的长子继承制不同，兄弟、叔叔或侄子通常是第一顺位继承人；而且与大陆大多数的选举君主制不同，只有曾经统治的国王的直系后代才有资格。这一制度非常稳定，通常能确保选择出有能力的国王，但也偶尔会导致表亲之间的内战。"
+ irish_clann_reform:0 "克兰"
+ irish_clann_reform_desc:0 "克兰是盖尔爱尔兰的主要地方政治和社会单位。虽然其世袭制度非常稳定，但其权力结构对于早期现代欧洲来说过于薄弱和分散，而其主要由农村人口组成的社会也迅速无法在现代化的欧洲竞争。"
+ provincial_kingdom_reform:0 "省级王国"
+ provincial_kingdom_reform_desc:0 "Ríthe Ruireach，或称为大国王，是爱尔兰古代五个省份之一的有影响力的地方国王。历史上仅次于大国王，实际上大多数大国王都是由这些地方国王中产生的，这些地方国王曾是盖尔爱尔兰中最有权势的人。尽管他们的影响力很大，但他们往往缺乏较大欧洲国家的权力结构和中央集权，尽管不及当地的克兰酋长。"
+ norman_lordship_reform:0 "诺曼领主制"
+ norman_lordship_reform_desc:0 "诺曼领主制是安格鲁-诺曼人在1172年征服爱尔兰后设立的职位，他们将忠诚的安格鲁-诺曼领主作为对军事服务的奖励安置，以确保对爱尔兰的持续控制。名义上是英格兰君主的附庸，但这些领主国很快变得事实上的独立，并且与他们的盖尔邻居分享的东西要比与他们遥远的英格兰表亲多得多。"
+ anglo_irish_monarchy_reform:0 "盎格鲁-爱尔兰君主制"
+ anglo_irish_monarchy_reform_desc:0 "一种基于英格兰威斯敏斯特议会传统的宪法或代表制君主制，议会由统治君主定期召集。它基于《大宪章》中规定的特权，并适应当地经济。"
+ puppet_kingdom_reform:0 "副王国"
+ puppet_kingdom_reform_desc:0 "副王国通常是由代理人统治的附属政府。母国的代表保护母国的利益，母国的移民精英往往占据大多数政府职位，而当地人口则往往没有什么代表权。这种类型的政府非常不受欢迎，但很少有人会对它们的生产力和征税能力提出异议。好吧，除了那些缴纳税款的人......"
+ transitional_government_reform:0 "过渡政府"
+ transitional_government_reform_desc:0 "过渡政府在一个过渡中的社会中履行行政职责，通常是刚刚从外国势力独立出来的国家，或者正在经历革命的国家。虽然这个政府可能是国家与纯粹的无政府状态之间的唯一屏障，但它通常也不比无政府状态好。军阀和寡头争夺权力，爱国者和革命者密谋将国家带向新方向，而忠诚者和保守派则试图将国家带回到以前的结构中。值得庆幸的是，这种混乱往往是短暂的，因为其中一个派系通常会在几年内获胜，国家会恢复到更稳定的政府形式。"
+
+
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ # 10 - 事件
+ #################################################################################
+ #################################################################################
+ #################################################################################
+
+ #新细节到BtP内容
+ btpIRE.EVTNAME2:0 "附庸国违抗王座"
+ btpIRE.EVTDESC2:0 "我们的前附庸国，数年前由我们的王座授予其地位和头衔，如今却拒绝承认我们的统治，宣称自己是我们土地的独立统治者！更糟糕的是，有传言称我们在爱尔兰的部分领地可能会与这些篡位者联合，导致我们在爱尔兰的领地陷入内战！"
+ btpIRE.EVTOPTA2:0 "立刻收回我们的土地！"
+ btpIRE.EVTOPTB2:0 "对于这种侮辱，我们暂时无能为力……"
+ btpIRE.EVTNAME3:0 "一个独立的政府"
+ btpIRE.EVTDESC3:0 "我们的政府现在独立于英国控制，面临许多独特的挑战。它必须进行改革和重组，失去了代表外国利益的前提后，重新评估其优先事项。只有时间才能证明这一变革会带来什么，但无论结果如何，爱尔兰现在都是自由的！"
+ btpIRE.EVTOPTA3:0 "重要的一步。"
+ btpIRE.EVTNAME4:0 "爱尔兰的未来"
+ btpIRE.EVTDESC4:0 "经过五年的动荡岁月，政治辩论，法律分析和热情演讲，过渡政府正准备就我们美丽国家的未来做出最终决定。\n\n我们是应该回归古老的盖尔高王制度，还是应该保留前英国宗主国的传统，只不过这次让爱尔兰受益，而不是伦敦？"
+ btpIRE.EVTOPTA4:0 "我们前任统治者的想法是正确的，但这次爱尔兰应该受益！"
+ btpIRE.EVTOPTB4:0 "一个自由的爱尔兰国家首先是爱尔兰人！回归古老的传统。"
+ btpIRE.EVTOPTC4:0 "必须妥协！我们是爱尔兰人，但我们也是现代人！"
+ #超越Typus和BTPL欧洲的内容
+ BtPLegacyMisc.EVTNAME1:0 "法罗文化的出现"
+ BtPLegacyMisc.EVTDESC1:0 "一种独特而不同的语言和文化从古西斯诺尔斯语演变而来，称为法罗语和诺恩语。虽然最初与挪威语仍然可以互相理解，但随着挪威越来越受到丹麦和东诺尔斯的影响，而北方群岛的居民则保持了更古老的传统，甚至借鉴了附近盖尔文化的元素，法罗语逐渐与挪威语产生了差异。"
+ BtPLegacyMisc.EVTOPTA1:0 "令人担忧的消息。"
+ BtPLegacyMisc.EVTNAME2:0 "凯尔特团结"
+ BtPLegacyMisc.EVTDESC2:0 "[Root.GetName]的$PROVINCECULTURE$人口开始认识到他们所有的凯尔特兄弟，无论是盖尔人还是布立吞人，都是同宗。"
+ BtPLegacyMisc.EVTOPTA2:0 "很好。"
+ BtPLegacyMisc.EVTNAME3:0 "凯尔特团结"
+ BtPLegacyMisc.EVTDESC3:0 "[Root.GetName]的政府意识到他们的盖尔人或布立吞人现在是更大凯尔特社区的一部分。"
+ BtPLegacyMisc.EVTOPTA3:0 "有趣。"
+ BtPLegacyMisc.EVTNAME4:0 "独特的诺斯-盖尔文化消退"
+ BtPLegacyMisc.EVTDESC4:0 "高地盖尔人，因其血统为诺斯人但文化为盖尔人而得名，曾经是与其本土邻居截然不同的民族。随着时间的推移，定义他们的传统和特征逐渐消退，与他们的盖尔盟友融合。到独立的诺斯-盖尔王国在不列颠的灭亡以及对岛屿领主的吞并时，这些诺斯-盖尔人正迅速变得与他们的高地苏格兰亲属无异。"
+ BtPLegacyMisc.EVTOPTA4:0 "这应该有助于经济。"
+ BtPLegacyMisc.EVTNAME7:0 "西班牙摩尔人的命运"
+ BtPLegacyMisc.EVTDESC7:0 "由于愚蠢的信仰决策，[From.GetName]导致他们土地上仍然生活的许多摩尔人离开。"
+ BtPLegacyMisc.EVTOPTB7:0 "不，关闭我们的边界。这些难民看起来像是麻烦制造者。"
+ BtPLegacyMisc.EVTNAME8:0 "萨莱共和国的崛起"
+ BtPLegacyMisc.EVTDESC8:0 "瓦迪·萨拉沿海河口的不安分子口头宣布要建立一个共和国，资金来自对欧洲贸易路线非常成功的海盗活动。我们可以选择允许这个小共和国存在，并试图对其进行某种控制，或者禁止它，冒着公开叛乱的风险。"
+ BtPLegacyMisc.EVTOPTA8:0 "我们现在没有资源去对抗一个新敌人。"
+ BtPLegacyMisc.EVTOPTB8:0 "这个国家必须团结在一起！"
+ #贸易杂项
+ BtPLegacy_european_trade.EVTNAME1:0 "布鲁日黄金时代的结束"
+ BtPLegacy_european_trade.EVTDESC1:0 "自12世纪以来，布鲁日一直是北海最富裕、最重要的港口。然而，通往北海的主要航道——黄金水道——在1500年左右开始被淤泥填满，导致布鲁日作为低 Countries 贸易中心的重要性逐渐下降，越来越多的贸易转向安特卫普。"
+ BtPLegacy_european_trade.EVTOPTA1:0 "不！不惜一切代价清理航道！"
+ BtPLegacy_european_trade.EVTOPTB1:0 "无能为力。"
+ BtPLegacy_european_trade.EVTOPTC1:0 "命令将港口和商业迁至更靠近海洋的斯卢伊斯。"
+ BtPLegacy_european_trade.EVTNAME2:0 "安特卫普的崛起"
+ BtPLegacy_european_trade.EVTDESC2:0 "当黄金水道被淤泥填满，贸易转移离开布鲁日时，曾经是北海最富裕城市之一的安特卫普迅速崛起，成为北海最富裕的港口，甚至可能是世界上最富裕的港口。"
+ BtPLegacy_european_trade.EVTOPTA2:0 "太好了！"
+ BtPLegacy_european_trade.EVTNAME3:0 "安特卫普的衰落"
+ BtPLegacy_european_trade.EVTDESC3:0 "安特卫普，到了16世纪末成为世界上最富有的城市之一，由于其财富和相对缺乏保护而成为了一个很好的目标。1576年，对薪水不满的士兵洗劫并掠夺了这座城市，导致大规模移民潮涌向北方，主要是阿姆斯特丹。在此之后，安特卫普再也无法恢复到以前的繁荣和财富。"
+ BtPLegacy_european_trade.EVTOPTA3:0 "不！不惜一切代价保护城市并赔偿所有人！"
+ BtPLegacy_european_trade.EVTOPTB3:0 "无能为力。"
+ BtPLegacy_european_trade.EVTNAME4:0 "阿姆斯特丹的崛起"
+ BtPLegacy_european_trade.EVTDESC4:0 "当安特卫普被西班牙的愤怒洗劫时，许多熟练的工匠、富有的商人和有影响力的家庭纷纷北逃，主要是前往阿姆斯特丹。这一突如其来的移民潮导致阿姆斯特丹迅速崛起为一个主要的世界强国，并促成了所谓的“荷兰奇迹”，即低地国家在短短50或60年内从次要附属国转变为主要世界强国。"
+ BtPLegacy_european_trade.EVTOPTA4:0 "太好了！"
+ BtPLegacy_european_trade.EVTNAME5:0 "阿姆斯特丹的黄金时代"
+ BtPLegacy_european_trade.EVTDESC5:0 "荷兰的黄金时代使阿姆斯特丹发展成为17世纪中叶世界上最富裕的城市。作为全球贸易网络的中心，阿姆斯特丹的人口从15世纪初的不到5000人激增至17世纪的近250,000人。"
+ BtPLegacy_european_trade.EVTOPTA5:0 "好消息！"
+ BtPLegacy_european_trade.EVTNAME6:0 "[Root.GetName]的黄金时代结束"
+ BtPLegacy_european_trade.EVTDESC6:0 "不再处于一个庞大、以其命名的贸易帝国的中心，[Root.GetName]省正在失去一些影响力。尽管仍然是一个重要的商业中心和贸易港口，但许多投机者和挑剔的工匠正纷纷迁移，以寻求其他地方的财富，而该港口不再对当地贸易拥有压倒性的主导地位。"
+ BtPLegacy_european_trade.EVTOPTA6:0 "商业的本质就是如此。"
+ BtPLegacy_european_trade.EVTNAME7:0 "[Root.GetName]的黄金时代结束"
+ BtPLegacy_european_trade.EVTDESC7:0 "不再处于一个庞大、以其命名的贸易帝国的中心，[Root.GetName]省正在失去一些影响力。尽管仍然是一个重要的商业中心和贸易港口，但许多投机者和挑剔的工匠正纷纷迁移，以寻求其他地方的财富，而该港口不再对当地贸易拥有压倒性的主导地位。"
+ BtPLegacy_european_trade.EVTOPTA7:0 "商业的本质就是如此。"
+ BtPLegacy_european_trade.EVTNAME8:0 "[Root.GetName]的黄金时代结束"
+ BtPLegacy_european_trade.EVTDESC8:0 "不再处于一个庞大、以其命名的贸易帝国的中心，[Root.GetName]省正在失去一些影响力。尽管仍然是一个重要的商业中心和贸易港口，但许多投机者和挑剔的工匠正纷纷迁移，以寻求其他地方的财富，而该港口不再对当地贸易拥有压倒性的主导地位。"
+ BtPLegacy_european_trade.EVTOPTA8:0 "商业的本质就是如此。"
+ BtPLegacy_european_trade.EVTNAME9:0 "[Root.GetName]的黄金时代结束"
+ BtPLegacy_european_trade.EVTDESC9:0 "不再处于一个庞大、以其命名的贸易帝国的中心，[Root.GetName]省正在失去一些影响力。尽管仍然是一个重要的商业中心和贸易港口，但许多投机者和挑剔的工匠正纷纷迁移，以寻求其他地方的财富，而该港口不再对当地贸易拥有压倒性的主导地位。"
+ BtPLegacy_european_trade.EVTOPTA9:0 "商业的本质就是如此。"
+ BtPLegacy_european_trade.EVTNAME10:0 "[Root.GetName]的黄金时代"
+ BtPLegacy_european_trade.EVTDESC10:0 "伟大的[Root.GetName]省正进入一个贸易和发展的黄金时代。作为一个极其富有的贸易帝国的中心，该港口繁荣发展，成为该地区主要的贸易目的地，以至于对当地贸易的压倒性主导地位远超任何妒忌的竞争对手。"
+ BtPLegacy_european_trade.EVTOPTA10:0 "这是个好消息！"
+ #爱尔兰稍微特殊的宗教事件
+ BtPLegacyIrishReligious.EVTNAME1:0 "爱尔兰天主教的顽强"
+ BtPLegacyIrishReligious.EVTDESC1:0 "爱尔兰的盖尔人整体上在宗教改革面前顽强地维护天主教传统，尽管面临来自新教统治阶级的巨大压力，以及一系列旨在强迫接受新教和爱尔兰教会的惩罚性法律。英格兰、英国和盎格鲁-爱尔兰人对盖尔人的改宗持续不断，导致从一开始就爆发了许多叛乱。然而，偶尔也会达成协议，允许爱尔兰人在承诺效忠都柏林或伦敦的情况下保持天主教信仰。"
+ BtPLegacyIrishReligious.EVTOPTA1:0 "我们必须团结国家！强迫盖尔人接受宗教改革。"
+ BtPLegacyIrishReligious.EVTOPTB1:0 "我们不能在这个问题上施加压力。我们必须首先确保我们臣民的忠诚。"
+ BtPLegacyIrishReligious.EVTNAME2:0 "统治阶级的进步"
+ BtPLegacyIrishReligious.EVTDESC2:0 "[Root.GetName]的天主教徒统治阶级正在逐渐被新教徒所取代。"
+ BtPLegacyIrishReligious.EVTOPTA2:0 "有趣的消息。"
+ BtPLegacyIrishReligious.EVTNAME3:0 "爱尔兰天主教的顽强"
+ BtPLegacyIrishReligious.EVTDESC3:0 "爱尔兰的盖尔人整体上在宗教改革面前顽强地维护天主教传统。与欧洲大多数其他改革派和新教运动不同，爱尔兰教会拒绝使用当地语言，而是用英语传播材料。再加上爱尔兰人对英格兰外交政策的失望，这造成了宗教改革被视为征服爱尔兰和削弱盖尔人影响力的又一次尝试。 然而，来自大陆的天主教盟友的支持和培训也是一个重要因素，他们担心宗教统一的英国会带来严重后果。\n\n因此，我们得知宗教改革在[Root.GetName]扎根，令我们感到非常惊讶。我们该怎么办？"
+ BtPLegacyIrishReligious.EVTOPTA3:0 "请求我们的天主教兄弟的支持，并资助神父们拯救这些灵魂！"
+ BtPLegacyIrishReligious.EVTOPTB3:0 "让这些异教徒随心所欲地信仰他们的宗教，他们的联系甚至可能促进当地经济。"
+ BtPLegacyIrishReligious.EVTNAME4:0 "爱尔兰天主教的顽强"
+ BtPLegacyIrishReligious.EVTDESC4:0 "爱尔兰的盖尔人整体上在宗教改革面前顽强地维护天主教传统，尽管面临来自新教统治阶级的巨大压力，以及一系列旨在强迫接受新教和爱尔兰教会的惩罚性法律。一个重要的抵抗因素是来自大陆天主教盟友的盖尔神父的支持和教会培训，他们担心英国宗教统一的后果。\n\n因此，我们得知大陆的天主教盟友派神父来[Root.GetName]，希望将当地人口带回天主教信仰。我们该怎么办？"
+ BtPLegacyIrishReligious.EVTOPTA4:0 "对抗这些试图使盖尔人脱离天主教的努力是无尽的斗争吗？！让他们去吧。"
+ BtPLegacyIrishReligious.EVTOPTB4:0 "我们不能动摇我们的信仰。无论必须做什么，都要向盖尔人展示真相。"
+ #凯尔特风味！
+ BeyondTypusCelticFlavour.EVTNAME1:0 "坦尼斯特的选择"
+ BeyondTypusCelticFlavour.EVTDESC1:0 "是时候从可用的王室成员中选出新的坦尼斯特了，所有德尔夫因（Dearbhfhine）即前国王的后代都将参与投票，以便在国王去世时，坦尼斯特能够立即继位，确保王位的继承，维持王国的连续领导。"
+ BeyondTypusCelticFlavour.EVTOPTA1:0 "从国王的兄弟、叔叔和侄子中选择一位合适的坦尼斯特。"
+ BeyondTypusCelticFlavour.EVTOPTB1:0 "从国王的表亲和堂兄弟中选择最有能力的坦尼斯特。"
+ BeyondTypusCelticFlavour.EVTOPTC1:0 "从国王的表亲和堂兄弟中选择最有能力的坦尼斯特。"    #这是女性可能的版本，不是错误。
+ BeyondTypusCelticFlavour.EVTOPTD1:0 "拒绝选择坦尼斯特，等待国王诞下王室继承人。"
+ BeyondTypusCelticFlavour.EVTOPTE1:0 "任命年轻的[Root.Heir.GetName]为坦尼斯特，尽管他尚未成年。"
+ BeyondTypusCelticFlavour.EVTOPTF1:0 "任命年轻的[Root.Heir.GetName]为坦尼斯特，尽管她尚未成年且为女性。"
+ BeyondTypusCelticFlavour.EVTOPTG1:0 "[Root.Heir.GetName]将成为一位出色的坦尼斯特"
+ BeyondTypusCelticFlavour.EVTOPTH1:0 "她可能是个女人，但[Root.Heir.GetName]是有能力的。"
+ BeyondTypusCelticFlavour.EVTOPTI1:0 "让我们废除这个过时的坦尼斯特制度吧！"
+ BeyondTypusCelticFlavour.EVTNAME2:0 "继承人诞生！"
+ BeyondTypusCelticFlavour.EVTDESC2:0 "新的男性继承人现在在[Root.GetName]的王位继承名单上！继承权得到保障，王位安全，缓解了农民和贵族的担忧。"
+ BeyondTypusCelticFlavour.EVTOPTA2:0 "好消息！"
+ BeyondTypusCelticFlavour.EVTOPTB2:0 "愿[Root.Heir.GetName]在王位上的位置得到保障！"
+ BeyondTypusCelticFlavour.EVTNAME3:0 "一位... 女性继承人？"
+ BeyondTypusCelticFlavour.EVTDESC3:0 "一位新的继承人出现在[Root.GetName]的王位继承名单上，但令所有人惊讶的是，这位继承人是一位年轻女性！国王的角色是作为王国的管理者，并在就职仪式上与王国的女性化身仪式上结婚，将其生育力赋予她和通过她赋予土地。由于女性无法履行这一角色，因此女性通常没有资格继承王位。人们对[Root.Heir.GetName]的即位感到恐慌，预言王国将因缺乏象征性丈夫而衰退和死亡。预言者宣称，首先是庄稼，其次是牲畜，最后是人民，将随着土地的荒芜和空虚而枯萎和死亡。王室顾问建议为女孩的继承权预留一小笔款项，并剥夺她的王位继承权。"
+ BeyondTypusCelticFlavour.EVTOPTA3:0 "[Root.Heir.GetName]将成为一位出色的统治者，毫无可担忧之处。"
+ BeyondTypusCelticFlavour.EVTOPTB3:0 "[Root.Heir.GetName]终将统治，不论这些懦夫怎么说！"
+ BeyondTypusCelticFlavour.EVTOPTC3:0 "女性无法履行高王的职责...."
+ BeyondTypusCelticFlavour.EVTNAME4:0 "继承人成年"
+ BeyondTypusCelticFlavour.EVTDESC4:0 "年轻的[Root.Heir.GetName]终于成年，能够履行[Root.Heir.GetHerHim]的职责，以防国王去世。终于有了一位能干的成年坦尼斯特，将安抚民众，消除因缺乏强有力的领导而产生的不安。"
+ BeyondTypusCelticFlavour.EVTOPTA4:0 "这应该能平息反对者的声音。"
+ BeyondTypusCelticFlavour.EVTNAME5:0 "强大的女性候选人"
+ BeyondTypusCelticFlavour.EVTDESC5:0 "在一个非常不寻常和意想不到的事件中，一位坚强而能干的年轻女性获得了一些德尔夫因的支持，并被许多人视为坦尼斯特的候选人，因此有资格继承王位，尽管通常她的性别会排除她的考虑。她的对手警告反对让女性担任这一职务，因为国王会仪式性地与王国结婚，他的生育力将确保收成和牲畜的成功。她的支持者则驳斥这是迷信，并引用古代来源和法律来支持女性的继承权。我们是鼓励这个女孩的野心，还是选择一个不那么有争议的候选人？"
+ BeyondTypusCelticFlavour.EVTOPTA5:0 "国王的一个男性表亲将是一个不错的选择。"
+ BeyondTypusCelticFlavour.EVTOPTB5:0 "为了能被考虑，这位年轻女性一定是值得的！"
+ BeyondTypusCelticFlavour.EVTNAME6:0 "女王登基"
+ BeyondTypusCelticFlavour.EVTDESC6:0 "[Root.Monarch.GetName]今天在盛大的加冕典礼上成为了[Root.GetName]的女王，唤起了所有古老传统的骄傲。尽管表面上看起来一切正常，但王国的许多人对未来感到恐惧，对我们的繁荣持续表示怀疑。王室法院只是在等待年轻女王犯错误的机会，我们甚至收到消息称，随着人们迷信的加剧，王国各地都出现了小规模骚乱。如果女王要证明这些怀疑者是错误的，她在未来的岁月中将不得不承受许多考验。"
+ BeyondTypusCelticFlavour.EVTOPTA6:0 "她将不得不证明自己..."
+ BeyondTypusCelticFlavour.EVTNAME7:0 "女王已证明其能力"
+ BeyondTypusCelticFlavour.EVTDESC7:0 "在王位上度过了20年后，女王统治下的王国没有枯萎和死亡。小牛继续出生，庄稼继续成熟，人民没有陷入绝望和无助的瘫痪中。即使是最坚定的传统主义者也不得不承认，[Root.Monarch.GetName]的统治消除了对女性统治者的所有疑虑。未来，女性坦尼斯特可能会面临更少的阻力。"
+ BeyondTypusCelticFlavour.EVTOPTA7:0 "她确实证明了自己！"
+ BeyondTypusCelticFlavour.EVTNAME8:0 "坦尼斯特之死"
+ BeyondTypusCelticFlavour.EVTDESC8:0 "在我们前坦尼斯特的悲惨去世后，我们面临着施加压力以任命替代者的要求，以便在国王意外去世时，我们的王国永远不会缺乏强有力的领导。德尔夫因已经召开会议，王室成员也已提出候选人，现在只需在新的坦尼斯特上投票即可，他将在国王去世时立即接管王国。"
+ BeyondTypusCelticFlavour.EVTOPTA1:0 "从国王的兄弟、叔叔和侄子中选择一位合适的坦尼斯特。"
+ BeyondTypusCelticFlavour.EVTOPTB1:0 "从国王的表亲和堂兄弟中选择最有能力的坦尼斯特。"
+ BeyondTypusCelticFlavour.EVTOPTC1:0 "从国王的表亲和堂兄弟中选择最有能力的坦尼斯特。"    #这是女性可能的版本，不是错误。
+ BeyondTypusCelticFlavour.EVTOPTD1:0 "拒绝选择坦尼斯特，等待国王诞下王室继承人。"
+ BeyondTypusCelticFlavour.EVTOPTE1:0 "任命年轻的[Root.Heir.GetName]为坦尼斯特，尽管他尚未成年。"
+ BeyondTypusCelticFlavour.EVTOPTF1:0 "任命年轻的[Root.Heir.GetName]为坦尼斯特，尽管她尚未成年且为女性。"
+ BeyondTypusCelticFlavour.EVTOPTG1:0 "[Root.Heir.GetName]将成为一位出色的坦尼斯特"
+ BeyondTypusCelticFlavour.EVTOPTH1:0 "她可能是个女人，但[Root.Heir.GetName]是有能力的。"
+ BeyondTypusCelticFlavour.EVTOPTI1:0 "让我们废除这个过时的坦尼斯特制度吧！"
+ #非洲事件
+ BtPLegacyUpperNileEvents.EVTNAME1:0 "来自希卢克的压力"
+ BtPLegacyUpperNileEvents.EVTDESC1:0 "历史上，我们的家园一直是苏丹的北部地区，即位于白尼罗河上游的广阔且几乎无法穿越的沼泽地带。然而，最近，我们的南方邻居希卢克人却越来越多地侵入我们的领土。面对一场我们可能无法赢得的战争，许多贵族建议我们向北撤退，放弃苏丹，转而占领近年来一直处于衰退中的阿罗迪亚周边地区，即蓝尼罗河和白尼罗河的交汇处。"
+ BtPLegacyUpperNileEvents.EVTOPTA1:0 "允许我们向北推进，并利用这一势头扩张。"
+ BtPLegacyUpperNileEvents.EVTOPTB1:0 "抵抗希卢克人的侵袭！"
+ BtPLegacyUpperNileEvents.EVTNAME2:0 "征服之子阿卜杜拉·贾马"
+ BtPLegacyUpperNileEvents.EVTDESC2:0 "偶尔，一些没有王室血统或合法主张的富有或雄心勃勃的个人能够聚集一支武装力量，试图开辟自己的小王国。这样的人中，有一个名叫阿卜杜拉的，他通过红海贸易积累了相当可观的财富，并利用这笔新获得的财富聚集了一支相当可观的军队，现已威胁到我们的主权！凭借他的财富和影响力，他成功地获得了相当大的民众支持，准备在我们抵抗时洗劫我们的古都索巴。"
+ BtPLegacyUpperNileEvents.EVTOPTA2:0 "这是我们的国家，我们绝不会在没有斗争的情况下屈服！"
+ BtPLegacyUpperNileEvents.EVTOPTB2:0 "无能为力... 向这个篡位者让步。"
+ BtPLegacyUpperNileEvents.EVTNAME3:0 "丰吉的崛起"
+ BtPLegacyUpperNileEvents.EVTDESC3:0 "在希卢克人向北推挤后，我们将压力转化为向北的动力，现在正专注于在白尼罗河和蓝尼罗河的交汇处建立一个权力基础。为了实现这一目标，我们必须击败阿罗迪亚地区的现有统治者！"
+ BtPLegacyUpperNileEvents.EVTOPTA3:0 "充分利用这一势头！"
+ BtPLegacyUpperNileEvents.EVTOPTB3:0 "我们不需要扩张也能伟大，专注于经济发展。"
+ #意大利风味事件
+ BtPLegacyItalianFlavour.EVTNAME1:0 "[Root.GetName]被吉尔夫人赢得"
+ BtPLegacyItalianFlavour.EVTDESC1:0 "AAAAA"
+ BtPLegacyItalianFlavour.EVTOPTA1:0 "AAAAA"
+ BtPLegacyItalianFlavour.EVTNAME2:0 "[Root.GetName]被吉贝利人赢得"
+ BtPLegacyItalianFlavour.EVTDESC2:0 "AAAAA"
+ BtPLegacyItalianFlavour.EVTOPTA2:0 "AAAAA"
+ BtPLegacyItalianFlavour.EVTNAME3:0 "[Root.GetName] 放弃了吉尔夫的忠诚"
+ BtPLegacyItalianFlavour.EVTDESC3:0 "AAAAA"
+ BtPLegacyItalianFlavour.EVTOPTA3:0 "AAAAA"
+ BtPLegacyItalianFlavour.EVTNAME4:0 "[Root.GetName] 放弃了吉贝利的忠诚"
+ BtPLegacyItalianFlavour.EVTDESC4:0 "AAAAA"
+ BtPLegacyItalianFlavour.EVTOPTA4:0 "AAAAA"
+ BtPLegacyItalianFlavour.EVTNAME5:0 "讨好教皇的恩宠"
+ BtPLegacyItalianFlavour.EVTDESC5:0 "我们国家长期以来一直是圣座的忠实仆人，终于引起了教皇本人的注意！教皇对我们的忠诚感到高兴，他的特使向我们保证，未来在事务上我们将得到他的支持。"
+ BtPLegacyItalianFlavour.EVTOPTA5:0 "忠诚是有回报的！"
+ BtPLegacyItalianFlavour.EVTNAME6:0 "讨好帝国的恩宠"
+ BtPLegacyItalianFlavour.EVTDESC6:0 "我们国家长期以来一直是神圣罗马帝国的忠实成员，终于引起了皇帝本人的注意！皇帝对我们的忠诚感到高兴，确认了我们的权利，并在公开场合对我们赞不绝口。"
+ BtPLegacyItalianFlavour.EVTOPTA6:0 "忠诚是有回报的！"
+ BtPLegacyItalianFlavour.EVTNAME7:0 "超越小争吵"
+ BtPLegacyItalianFlavour.EVTDESC7:0 "我们国家曾经深陷于教皇派吉尔夫和亲外派吉贝利之间的长期争执中，但现在终于超越了这种敌对关系。作为我们自己权力的象征，我们足够强大，可以与教皇国和皇帝平起平坐，作为潜在的盟友或对手，而不再是他们代理人战争的棋子。"
+ BtPLegacyItalianFlavour.EVTOPTA7:0 "教皇赐予他的祝福。"
+ BtPLegacyItalianFlavour.EVTOPTB7:0 "皇帝为我们的成长感到自豪。"
+ BtPLegacyItalianFlavour.EVTOPTC7:0 "我们走了很远！"
+ BtPLegacyItalianFlavour.EVTNAME8:0 "超越小争吵"
+ BtPLegacyItalianFlavour.EVTDESC8:0 "我们国家曾经深陷于教皇派吉尔夫和亲外派吉贝利之间的长期争执中，但现在终于超越了这种敌对关系。作为我们自己权力的象征，我们足够强大，可以与教皇国和皇帝平起平坐，作为潜在的盟友或对手，而不再是他们代理人战争的棋子。"
+ BtPLegacyItalianFlavour.EVTOPTA8:0 "我们走了很远！"
+ BtPLegacyItalianFlavour.EVTNAME17:0 "圣彼得的领土统一"
+ BtPLegacyItalianFlavour.EVTDESC17:0 "我们强大的国家从教皇的掌控中夺回了自治教皇国的控制权！虽然它们的自治权几乎到了独立的地步，可能曾经适合圣座，但如果我们的国家要成功，就必须进行中央集权！只需付出一些努力，我们就能将这些小国统一为一个单一的附属实体，或者至少在它们之间建立更牢固的控制。"
+ BtPLegacyItalianFlavour.EVTOPTA17:0 "我们将为教皇的土地进行重新组织！"
+ BtPLegacyItalianFlavour.EVTOPTB17:0 "我们最好的选择是建立更清晰的控制！"
+ #中东和安纳托利亚的内容，以及新的君士坦丁堡决策
+ BtPLegacyHellasAnatolia.EVTNAME1:0 "君士坦丁堡恢复！"
+ BtPLegacyHellasAnatolia.EVTDESC1:0 "由于阿拉伯苏丹、土耳其贝伊、拉丁十字军和我们自己内部的卑鄙机会主义者的持续袭击、攻击和破坏，我们伟大的城市和首都君士坦丁堡已沦为昔日辉煌的影子。 然而，现在我们已经稳定了该地区，并收复了首都周围的乡村，它正在慢慢恢复。难民正在返回，工匠和商人开始再次光顾这座城市，普通民众也开始感到安全。"
+ BtPLegacyHellasAnatolia.EVTOPTA1:0 "好消息！"
+ #殖民主义事件
+ BtPLegacyColonial.EVTNAME1:0 "贝阿图克"
+ BtPLegacyColonial.EVTDESC1:0 "贝阿图克人是纽芬兰的原住民，早在16世纪欧洲人大量抵达之前就已经在这里生活了数百年。与北美许多其他文化不同，贝阿图克人基本上避免与欧洲人接触，并在越来越多的外来者出现在他们海岸时向内陆撤退。失去了通往大海和鱼类这一主要食物来源的通道，贝阿图克人逐渐饿死，并于1829年被宣布灭绝。"
+ #选项A变为多个特定个性的选项
+ BtPLegacyColonial.EVTOPTB1:0 "他们避开我们，让我们也避开他们。"
+ BtPLegacyColonial.EVTOPTC1:0 "屠杀任何接近我们殖民地的野蛮人，强行夺取土地。"
+ BtPLegacyColonial.EVTOPTD1:0 "努力建立贸易关系。"
+ BtPLegacyColonial.EVTOPTE1:0 "欢迎这些陌生人，积极将他们纳入我们的殖民地。"
+ BtPLegacyColonial.EVTOPTF1:0 "让我们将真信仰带给这些野蛮人，拯救他们的灵魂。"
+ BtPLegacyColonial.EVTOPTG1:0 "送一份毯子作为礼物，但不告知这些毯子曾属于瘟疫受害者。"
+ BtPLegacyColonial.EVTOPTH1:0 "试图传达我们的善意，并向这些陌生人发送食物和礼物。"
+ BtPLegacyColonial.EVTOPTI1:0 "利用他们的弱点，偷取我们喜欢的任何东西。"
+ BtPLegacyColonial.EVTOPTJ1:0 "避免冲突，但确保我们的殖民地得到适当保护，以防任何入侵。"
+ BtPLegacyColonial.EVTOPTK1:0 "说服这些土著人服从我们的权威，并代表我们建立一个新殖民地。"
+ BtPLegacyColonial.EVTOPTL1:0 "试图说服这些土著人服从我们的权威，加入我们的殖民地。"
+ #探险者事件
+ BtPLegacyColonial.EVTNAME2:0 "约翰·卡博特"
+ BtPLegacyColonial.EVTDESC2:0 "受到克里斯托弗·哥伦布及其船员带回的奇幻故事的启发，许多经验丰富的海员涌向伊比利亚，寻求资金和支持，以发起类似的探险。今天，一位名叫兹万·查博托的威尼斯商人以其丰富的经验向[Root.Monarch.GetTitle]提出了代表[Root.GetName]发起新世界探险的提议，以偿还他在威尼斯的巨额债务。我们是否应该赞助他的计划，偿还他的债务？"
+ BtPLegacyColonial.EVTOPTA2:0 "我们不需要这个破产的老债务人。把他送走。"
+ BtPLegacyColonial.EVTOPTB2:0 "像这样经验丰富的老海狗可能会很有用！"
+ BtPLegacyColonial.EVTNAME3:0 "约翰·卡博特"
+ BtPLegacyColonial.EVTDESC3:0 "受到克里斯托弗·哥伦布及其船员带回的奇幻故事的启发，许多经验丰富的海员涌向伊比利亚，寻求资金和支持，以发起类似的探险。今天，一位名叫兹万·查博托的威尼斯商人以其丰富的经验向[Root.Monarch.GetTitle]提出了代表[Root.GetName]发起新世界探险的提议，以偿还他在威尼斯的巨额债务。我们是否应该赞助他的计划，偿还他的债务？"
+ BtPLegacyColonial.EVTOPTA3:0 "我们不需要这个破产的老债务人。把他送走。"
+ BtPLegacyColonial.EVTOPTB3:0 "像这样经验丰富的老海狗可能会很有用！"
+ BtPLegacyColonial.EVTNAME4:0 "约翰·卡博特"
+ BtPLegacyColonial.EVTDESC4:0 "受到克里斯托弗·哥伦布及其船员带回的奇幻故事的启发，许多经验丰富的海员涌向伊比利亚，寻求资金和支持，以发起类似的探险，但并非所有人都对此表示热情。今天，一位名叫兹万·查博托的威尼斯商人以其丰富的经验向[Root.Monarch.GetTitle]提出了代表[Root.GetName]发起新世界探险的提议，希望能偿还他在威尼斯的巨额债务，因为他几年前作为无力偿还的债务人匆忙逃离了故乡。我们是否应该支持他的计划，偿还他的债务，以换取他的海上经验和在我们的竞争对手之前发现新海岸的机会？"
+ BtPLegacyColonial.EVTOPTA4:0 "我们不需要这个破产的老债务人。把他送走。"
+ BtPLegacyColonial.EVTOPTB4:0 "像这样经验丰富的老海狗可能会很有用！"
+ BtPLegacyColonial.EVTNAME5:0 "塞巴斯蒂安·卡博特"
+ BtPLegacyColonial.EVTDESC5:0 "今天，一位名叫塞巴斯蒂安·查博托的老练海员，著名探险家兹万·查博托的儿子，向[Root.Monarch.GetTitle]提出了代表[Root.GetName]发起新世界探险的提议。他在与父亲一起航行多年中积累了丰富的经验，将成为一名出色的船长，但他也要求一笔不小的资金来资助他的探险计划。"
+ BtPLegacyColonial.EVTOPTA5:0 "他的血统对我们来说无关紧要，我们不需要他的才能。把他送走。"
+ BtPLegacyColonial.EVTOPTB5:0 "愿他像他父亲一样对我们有用！"
+ BtPLegacyColonial.EVTNAME6:0 "塞巴斯蒂安·卡博特"
+ BtPLegacyColonial.EVTDESC6:0 "今天，一位名叫塞巴斯蒂安·查博托的老练海员，著名探险家兹万·查博托的儿子，来到了[Root.GetName]。由于被曾赞助他父亲探险的国家拒之门外，他现在向[Root.Monarch.GetTitle]请求资金，以便在新世界发起探险。他在与父亲一起航行多年中积累了丰富的经验，将成为一名出色的船长，但他也要求一笔不小的资金来资助他的探险计划。"
+ BtPLegacyColonial.EVTOPTA6:0 "他的血统对我们来说无关紧要，我们不需要他的才能。把他送走。"
+ BtPLegacyColonial.EVTOPTB6:0 "我们怎么能拒绝这样的遗产呢？让我们全力支持这次探险。"
+ BtPLegacyColonial.EVTNAME7:0 "雅克·卡地亚"
+ BtPLegacyColonial.EVTDESC7:0 "今天，一位名叫雅克兹·卡地亚的人被介绍给了[Root.Monarch.GetTitle]。作为一名经验丰富的水手，他被誉为代表[Root.GetName]在新世界发起探险的最佳人选，并表示愿意在获得资金的情况下这样做。我们是否应该赞助他的探险？"
+ BtPLegacyColonial.EVTOPTA7:0 "我们不需要他的服务。[Root.GetName]有很多优秀的水手。"
+ BtPLegacyColonial.EVTOPTB7:0 "一个有前途的提议！立刻与他接洽。"
+ BtPLegacyColonial.EVTNAME8:0 "雅克·卡地亚"
+ BtPLegacyColonial.EVTDESC8:0 "今天，一位名叫雅克兹·卡地亚的人被介绍给了[Root.Monarch.GetTitle]。作为一名经验丰富的水手，他被誉为代表[Root.GetName]在新世界发起探险的最佳人选，并愿意在获得[Root.Monarch.GetTitle]的资金支持下这样做。我们是否应该赞助他的探险？"
+ BtPLegacyColonial.EVTOPTA8:0 "我们不需要他的服务。[Root.GetName]有很多优秀的水手。"
+ BtPLegacyColonial.EVTOPTB8:0 "一个有前途的提议！立刻与他接洽。"
+ #梅蒂斯事件
+ BtPLegacyMetis.EVTNAME1:0 "梅蒂斯"
+ BtPLegacyMetis.EVTDESC1:0 "抵达法属加拿大的早期探险者和殖民者大多是来自低微家庭的年轻人，他们希望获得比在故乡法国更好的机会。自17世纪以来，许多法国猎人和旅行者开始娶阿尔冈昆女性为妻，形成了“按当地习俗结婚”（mariages à la façon du pays）的婚姻。这些联姻的结果是产生了一种全新的独特文化和语言，既不同于任何一方的文化。这种新兴的混血人种在法语中被称为“梅蒂斯”（Métis），意为混血人。"
+ BtPLegacyMetis.EVTOPTA1:0 "我们无权评判。"
+ BtPLegacyMetis.EVTOPTB1:0 "我们必须制止这一切！"
+ BtPLegacyMetis.EVTNAME2:0 "盎格鲁梅蒂斯"
+ BtPLegacyMetis.EVTDESC2:0 "与之前的法国人一样，早期的英国探险者和殖民者有时也会娶阿尔冈昆或德内女性为妻。这些联姻的结果是产生了一种全新的独特文化和语言，既不同于任何一方的文化。通常被称为盎格鲁梅蒂斯（Anglo-Métis），这些人也常被称为“乡土出生”（countryborn）。"
+ BtPLegacyMetis.EVTOPTA2:0 "我们无权评判。"
+ BtPLegacyMetis.EVTOPTB2:0 "我们必须制止这一切！"
+ BtPLegacyMetis.EVTNAME3:0 "邦吉"
+ BtPLegacyMetis.EVTDESC3:0 "许多苏格兰探险者和定居者是最早抵达英属加拿大的，他们有时会娶阿尔冈昆或德内女性为妻。这些联姻的结果是产生了一种全新的独特文化和语言，既不同于任何一方的文化。通常被称为邦吉（Bungi），这个名字来源于克里语中的“bangii”，意为“一点点”，这些人也常被称为“乡土出生”（countryborn）。"
+ BtPLegacyMetis.EVTOPTA3:0 "我们无权评判。"
+ BtPLegacyMetis.EVTOPTB3:0 "我们必须制止这一切！"
+ #殖民事件
+ BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1:0 "一位潜在的殖民者"
+ BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1:0 "今天，一位勇敢的年轻人，出身卑微但雄心勃勃，来到首都，希望[Root.Owner.Monarch.GetTitle]能在新世界为他和一小群追随者授予土地。随着我们在新世界的雄心壮志广为人知，以及对那些没有出生在财富和地位中的人的机会的普遍缺乏，他希望能在海外的无人领土上获得土地。\n这位开拓者和他的追随者们甚至积攒了一小笔资金，足以支付他们自己的旅费并开始新的生活，只等待您的许可来扩展我们的边界！"
+ BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1:0 "太好了，允许这群人立即出发！"
+ BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1:0 "我们无法支持这个简单的梦想。把他送走！"
+ #加拿大文化事件
+ BeyondTypusColonialCultures.EVTNAME1:0 "加拿大文化"
+ BeyondTypusColonialCultures.EVTDESC1:0 "早期抵达加拿大的法国定居者主要来自法国的北部和西部，但一旦来到新世界，殖民者们很快就建立了自己的文化和传统。在阿尔冈昆和赫伦土著的影响下，加上他们在寒冷的新家园中生存的严酷现实，这些定居者开始自称为“加拿大人”。"
+ BeyondTypusColonialCultures.EVTOPTA1:0 "一个引人入胜的发展。"
+ BeyondTypusColonialCultures.EVTNAME2:0 "南非人文化"
+ BeyondTypusColonialCultures.EVTDESC2:0 "开普殖民地的早期定居者大多来自低地国家，讲荷兰语，但在面对他们所处的新现实时，迅速建立了自己的文化和传统。被称为布尔人（Boers，农民）、市民（Burghers）或简单的南非人（Afrikaners），这一群体成为了一个全新的民族，并在这片遥远的土地上扎根。"
+ BeyondTypusColonialCultures.EVTOPTA2:0 "一个引人入胜的发展。"
+
+
+ #杂项事件和对原版的补充
+ EVTOPTB2001.btpl:0 "我们不能让这种情况继续下去！"
+
+
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ # 11 - 决策
+ #################################################################################
+ #################################################################################
+ #################################################################################
+
+ ###########################
+ #新国家成立决策
+ ###########################
+ #欧洲
+ tir_na_ngael_nation_title:0 "建立提尔·纳·盖尔"
+ tir_na_ngael_nation_desc:0 "凯尔特人民继续在莫伊尔海峡两岸保持紧密联系，但由于地理原因和日耳曼ic势力的压迫，盖尔人逐渐疏远。然而，现在我们终于有机会在真正的提尔·纳·盖尔下，统一所有盖尔人于同一位高王之下！"
+ albion_nation_title:0 "建立英尼斯·伊·凯德恩"
+ albion_nation_desc:0 "自从撒克逊人入侵并夺走我们的祖传家园以来，我们就一直梦想着收复整个不列颠岛。我们的古老传说讲述了亚瑟王的归来，带领我们战胜撒克逊人，但我们不能指望传说来拯救我们，为了所有不列颠人的荣耀，让我们建立英尼斯·伊·凯德恩，强大的岛屿，夺回我们美丽的岛屿及其以外的所有土地！"
+ btpl_scottish_nation_title:0 "建立苏格兰"
+ btpl_scottish_nation_desc:0 "数百年的入侵和移民并没有削弱我们的国家，反而让我们变得更加强大。我们可能位于欧洲的边缘，但我们绝不是无关紧要的，最重要的是，我们在勇敢的苏格兰的统治下是自由的！"
+ united_kingdom_nation_title:0 "建立联合王国"
+ united_kingdom_nation_desc:0 "我们已经在整个不列颠群岛建立了牢固的霸权，但自治的有时叛逆的附属国使我们的计划受挫，而不必要的地方政府则分散了我们的税收并使行政管理复杂化。我们应该将我们各个王国最终统一为一个强大而统一的国家！"
+ #非欧洲旧世界
+ btpl_kabylia_nation_title:0 "建立卡比利亚"
+ btpl_kabylia_nation_desc:0 "统一卡比利亚富饶的丘陵是建立强大柏柏尔国家在马格里布的第一步！"
+ #暂时删除
+ #bt_yemen_formation_title:0 "形成也门"
+ #bt_yemen_formation_desc:0 "我们在阿拉伯东南部的山区取得了霸权，现在可以理直气壮地称自己为也门，所有也门人民的主要国家。"          #糟糕的占位符本地化
+ #bt_armenia_formation_title:0 "形成亚美尼亚"
+ #bt_armenia_formation_desc:0 "亚美尼亚是一个古老的王国，曾经在高加索、两河流域和安纳托利亚的广阔地区扩展。亚美尼亚人曾被迫迁移和边缘化，但我们现在准备迈出恢复亚美尼亚人应有的尊严的第一步。我们现在拥有足够的“大亚美尼亚”地区，可以称我们的国家为‘亚美尼亚’！"         #这很糟糕，但我当时没有特别有创意
+ bt_najd_formation_title:0 "形成纳吉德"
+ bt_najd_formation_desc:0 "我们在阿拉伯中部的干旱沙漠中取得了霸权，现在可以理直气壮地称自己为纳吉德，贝都因人的主要国家。"          #糟糕的占位符本地化
+ bt_sennar_formation_title:0 "形成塞纳尔"
+ bt_sennar_formation_desc:0 "我们新获得的塞纳尔市迅速成为我们的事实首都，我们的贵族中也迅速传播着邻近地区的伊斯兰教。我们应该正式确认这些变化，成立塞纳尔苏丹国！"          #糟糕的占位符本地化
+ #新世界
+
+
+ ###########################
+ #其他决策
+ ###########################
+ #欧洲
+ #新细节到BtP内容
+ embrace_irish_traditions_title:0 "接受爱尔兰文化"
+ embrace_irish_traditions_desc:0 "几百年前，我们的祖先被安格鲁-诺曼贵族安置在这里，旨在代表英格兰的利益并遏制地方势力，但爱尔兰已经成为我们的家园。盖尔传统依然存在，爱尔兰语是我们听到的最常用的语言，我们最亲密的盟友和朋友是盖尔人，而不是某个遥远的英格兰宗主。我们应该正式确认这一点！"
+ create_the_kingdom_of_ireland_as_england_title:0 "创建爱尔兰王国"
+ create_the_kingdom_of_ireland_as_england_desc:0 "我们已经在爱尔兰建立了主导地位，但由于这一吞并行为而面临其他欧洲国家的愤怒，而这一边疆的叛逆性质使得有效治理变得困难。理想的解决方案可能是创建一个新的爱尔兰副王国，类似于以前的封建制度，但组织更为严密，可以代替我们统治，保护我们的利益，同时使我们远离直接治理。"
+ cede_stragglers_to_koi_as_ruler_title:0 "将爱尔兰领土割让给我们的附庸国"
+ cede_stragglers_to_koi_as_ruler_desc:0 "我们拥有的土地名义上属于爱尔兰，我们的附庸国。我们可以将这片土地赠予他们，以示善意。"
+ #超越Typus和BTPL决策
+ #sweads_and_geats_one_big_happy_family_title:0 "统一瑞典文化"         #在11.5中删除
+ #sweads_and_geats_one_big_happy_family_desc:0 "瑞典的两个主要民族，北方的瑞典人和南方的吉特人，已经在瑞典的旗帜下生活了多年，尽管偶尔会有摩擦，但这两个群体在很大程度上相互接受，并将彼此视为亲人。是时候正式宣布瑞典人和吉特人是同一个民族，为瑞典的荣耀而团结起来！"         #在11.5中删除
+ recognise_marcharid_of_brittany_title:0 "承认年轻的布列塔尼的Marc'harid为继承人"
+ recognise_marcharid_of_brittany_desc:0 "历史上，女性有能力继承布列塔尼公国，我们的王室历史中自豪地记录着珍妮、阿丽斯、贝尔塔和哈维兹的名字，但根据结束布列塔尼继承战争的格兰德条约，我们主要遵循萨利克继承法，禁止女性继承，除非整个血脉中没有幸存的男性。不幸的是，法兰西的婴儿王子在1440年去世，他的简单的兄弟皮尔也没有子嗣。德鲁克家族的蒙福尔特分支正面临灭绝，一些人认为，承认法兰西的长女Marc'harid为公国的继承人，可能是明智之举。她是一位能干的年轻女性，她的祖父是苏格兰国王，这可能促进与他们的良好关系。不幸的是，法国会将此视为对条约的违反，并对我们非常不满，公国内部的一些派系甚至可能将此视为对法律的违反。"
+ #bt_enforce_temporal_authority_title:0 "强制执行世俗权威"
+ #bt_enforce_temporal_authority_desc:0 "教皇国由许多实际上独立的统治者组成，他们几乎不承认教皇的权威，也没有为整个圣彼得国贡献任何东西。我们应该开始慢慢地将这些小国重新纳入统一而强大的国家，通过明确教皇的世俗权威以及精神权威，巩固圣彼得国！"
+ bt_declare_for_the_guelphs_title:0 "宣告效忠于吉尔夫事业"
+ bt_declare_for_the_guelphs_desc:0 "是时候在漫长的意大利控制权争夺战中选边站了！我们应该向罗马的圣父宣告我们的效忠，他是意大利灵魂和身体的合法领导者。"
+ bt_declare_for_the_ghibellines_title:0 "宣告效忠于吉贝利事业"
+ bt_declare_for_the_ghibellines_desc:0 "是时候在漫长的意大利控制权争夺战中选边站了！我们应该向皇帝宣告我们的效忠，教皇虽然是罗马教会的首脑，但皇帝才是合法的罗马皇帝。"
+ bt_betray_the_guelphs_title:0 "背叛吉尔夫"
+ bt_betray_the_guelphs_desc:0 "虽然这可能看起来是亵渎，但很明显，我们在吉尔夫-吉贝利争夺战中的位置并不在教皇一方。让我们背叛这个专制的圣座，宣告我们对神圣罗马皇帝的效忠！"
+ bt_betray_the_ghibellines_title:0 "背叛吉贝利"
+ bt_betray_the_ghibellines_desc:0 "虽然这可能看起来像是叛国，但很明显，我们在吉尔夫-吉贝利争夺战中的位置并不在皇帝一方。让我们背叛这个外国王座，宣告我们对圣父的效忠！"
+ bt_abandon_guelph_ghibelline_dispute_title:0 "退出吉尔夫-吉贝利争夺战"
+ bt_abandon_guelph_ghibelline_dispute_desc:0 "这场缓慢的内战已经拖得够久了！我们应该结束这场持续不断的斗争，承认我们前进的唯一道路不是在腐败的教会或贪婪的外国国王的统治下，而是团结起来反对两者！"
+ bt_ai_ottoman_nudging_dhimmi_title:0 "与迪米的互动"          #不应出现，翻译最小关注
+ bt_ai_ottoman_nudging_dhimmi_desc:0 "这个国家正在与其迪米地产进行互动。"          #不应出现，翻译最小关注
+
+ #拜占庭的内容 - 都很糟糕，需要重做。
+ restore_constantinople_decision_title:0 "恢复君士坦丁堡"
+ restore_constantinople_decision_desc:0 "伟大的君士坦丁堡市民已背弃真信仰，基督教最伟大的教堂之一——圣索非亚大教堂已被改为清真寺。这实在是太过分了！作为前罗马帝国首都的居民，这些市民必须为整个基督教世界树立榜样，我们必须让这些偏离正道的臣民回归基督教的怀抱，并将圣索非亚大教堂恢复为教堂！"
+ restore_theme_graecia_title:0 "恢复希腊主题"
+ restore_theme_graecia_desc:0 "现在我们已经恢复了主题制度，我们可以着手收回和重组主题。我们首要的任务之一必须是在我们的核心领土——伯罗奔尼撒、希腊、伊庇鲁斯、马其顿和色拉斯恢复和重组我们的力量。"
+ restore_theme_west_anatolia_title:0 "恢复西安纳托利亚主题"
+ restore_theme_west_anatolia_desc:0 "现在我们已经恢复了主题制度，我们可以着手收回和重组主题。我们首要的任务之一必须是在我们位于小亚细亚西部和马尔马拉海东岸的核心领土上恢复和重组我们的力量。"
+ restore_theme_illyria_title:0 "恢复伊利里亚主题"
+ restore_theme_illyria_desc:0 "现在我们已经恢复了主题制度，我们可以着手收回和重组主题。我们现在可以开始在伊利里亚进行重组和集结我们的力量。"
+ restore_theme_bulgaria_title:0 "恢复保加利亚主题"
+ restore_theme_bulgaria_desc:0 "现在我们已经恢复了主题制度，我们可以着手收回和重组主题。我们现在可以开始在保加利亚进行重组和集结我们的力量。"
+ restore_theme_anatolia_title:0 "恢复安纳托利亚主题"
+ restore_theme_anatolia_desc:0 "现在我们已经恢复了主题制度，我们可以着手收回和重组主题。我们现在可以开始在安纳托利亚进行重组和集结我们的力量。"
+ restore_theme_magna_graecia_title:0 "恢复大希腊主题"
+ restore_theme_magna_graecia_desc:0 "现在我们已经恢复了主题制度，我们可以着手收回和重组主题。我们现在可以开始在大希腊地区进行重组和集结我们的力量。"
+ restore_theme_cyprus_title:0 "恢复塞浦路斯主题"
+ restore_theme_cyprus_desc:0 "现在我们已经恢复了主题制度，我们可以着手收回和重组主题。我们现在可以开始在塞浦路斯进行重组和集结我们的力量。"
+ restore_theme_crimea_title:0 "恢复克里米亚主题"
+ restore_theme_crimea_desc:0 "现在我们已经恢复了主题制度，我们可以着手收回和重组主题。我们现在可以开始在克里米亚进行重组和集结我们的力量。"
+ restore_theme_eastern_borderlands_title:0 "恢复东部边境的主题"
+ restore_theme_eastern_borderlands_desc:0 "现在我们已经恢复了主题制度，我们可以着手收回和重组主题。我们现在可以开始在我们旧的边界沿线，亚美尼亚小地区进行重组和集结我们的力量。"
+
+
+ #旧世界 - 非欧洲
+ move_trade_to_mogador_title:0 "将贸易转移至摩戈达尔"
+ move_trade_to_mogador_desc:0 "古老的萨非贸易港已不再适合我们的目的，进出我们众多半自治港口的贸易在很大程度上不受我们控制，更重要的是，无法进入我们的税收征管范围。解决方案是在我们控制之下建立一个新的贸易中心，并使其垄断所有对外贸易。让我们聘请最优秀的建筑师和工人来建造一个美丽、宏伟的新港口！"
+
+ #新世界
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ btpl_unite_britain_title:0 "统一不列颠"
+ btpl_unite_britain_desc:0 "一千多年来，至少从罗马人修建哈德良长城并将不列颠岛分为南北两部分起，这两部分就一直在为统治这座虽小但富饶的岛屿而争斗。近一千五百年后，该岛仍然被两个主要势力分割。现在是我们团结起来，彻底统一这座岛屿的时候了。统治不列颠！"
+ btpl_vassalize_england_title:0 "使英格兰成为附庸"
+ btpl_vassalize_england_desc:0 "英格兰王国一直是个棘手的问题，他们倾向于与荷兰结盟，并在南部边境制造麻烦，这越来越令人头疼。我们必须确保英格兰的领主们采取更亲苏格兰的路线。"
+ byzantium_holds_the_line_title:0 "扭转局势"
+ byzantium_holds_the_line_desc:0 "几代人以来，土耳其人一直在向西推进。尽管罗马人偶尔会取得胜利，但苏丹和贝伊们的攻势却势不可挡，将我们曾经伟大的帝国逼到了首都的城门之下。现在是时候站稳脚跟，扭转局势了！如果我们想避免注定的毁灭，就必须在这里坚守防线，击退土耳其人的进攻，稳定首都地区，否则一切都将失去。"
+ recover_thrace_btpl_title:0 "收复色雷斯"
+ recover_thrace_btpl_desc:0 "君士坦丁堡已经沦陷，一切似乎都已失去。第二罗马最后的希望就是收复色雷斯和首都。"
+ recover_aegean_islands_btpl_title:0 "收复爱琴海诸岛"
+ recover_aegean_islands_btpl_desc:0 "如同一只伟大的凤凰，罗马从阿拉伯人、土耳其人、法兰克人等带来的废墟中重生。现在，我们必须将注意力转向收复我们在爱琴海诸岛失去的土地。"
+ wayward_trebizond_btpl_title:0 "重新并入特拉布宗"
+ wayward_trebizond_btpl_desc:0 "在第四次十字军东征期间君士坦丁堡沦陷后，特拉布宗成为了拜占庭帝国的后继国家。即使在1261年尼西亚帝国重新征服君士坦丁堡之后，特拉布宗仍然坚持自己对皇位的合法主张。现在终于到了重新并入这个离经叛道的后继国家的时候了。"
+ wayward_cappadocia_btpl_title:0 "重新并入卡帕多西亚"
+ wayward_cappadocia_btpl_desc:0 "罗马帝国东部地区落入伊斯兰苏丹之手后，一个新的希腊后继国家——卡帕多西亚崛起。现在真正的罗马帝国再次复兴，是时候将我们东部内陆地区的这些同族重新并入了。"
+ #Colonial Missions - 1.25 breaks these, but leaving them to restore later
+ bt_establish_newfoundland_colony_title:0 "在纽芬兰建立殖民地"
+ bt_establish_newfoundland_colony_desc:0 "纽芬兰周边的水域盛产鳕鱼，我们的渔民经常前往其海岸，开发海洋的丰富资源。我们应该更进一步，在那些寒冷多岩石的海岸上建立永久定居点。"
+ bt_establish_hudson_bay_colony_title:0 "在哈德逊湾建立殖民地"
+ bt_establish_hudson_bay_colony_desc:0 "哈德逊湾周边的土地寒冷刺骨，环境恶劣、阴暗且寒冷得让人麻木，但这里的皮毛资源也非常丰富！我们应该在该地区建立一个定居点，以便控制北方的皮毛贸易。"
+ bt_establish_greenland_colony_title:0 "在格陵兰建立殖民地"
+ bt_establish_greenland_colony_desc:0 "几个世纪前，红发埃里克在新大陆的格陵兰建立了第一个欧洲定居点。这个定居点最终可能失败了，但捕鲸和狩猎活动潜在收益丰厚，值得我们再次尝试。因此，让我们追随红发埃里克的脚步，在这片冰川之地上建立一个新的定居点！"
+ bt_establish_acadia_colony_title:0 "在阿卡迪亚建立殖民地"
+ bt_establish_acadia_colony_desc:0 "阿卡迪亚半岛和圣约翰河流域渔业资源丰富，土地肥沃，森林中木材充足，这些资源正等待我们去开发！我们应该立即在这些遥远的海岸上建立一个新的定居点。"
+ bt_establish_florida_colony_title:0 "在佛罗里达建立殖民地"
+ bt_establish_florida_colony_desc:0 "沼泽遍布的佛罗里达半岛将是我国领土的一个重要战略补充。让我们立即在那里建立一个新的定居点。"
+ bt_establish_cuba_colony_title:0 "在古巴建立殖民地"
+ bt_establish_cuba_colony_desc:0 "古巴岛面积较大，但人口相对稀少，它将是我们领土的一个很好的补充。让我们在这个热带天堂建立一个新的港口城市。"
+ bt_establish_hispaniola_colony_title:0 "在伊斯帕尼奥拉岛建立殖民地"
+ bt_establish_hispaniola_colony_desc:0 "极为富有的伊斯帕尼奥拉岛正等待我们去占领！我们的探险家报告说，那里的人民非常友好随和，但实力较弱。我们应该在这个富有的岛屿上建立一个新的定居点，抓住这个唾手可得的机会。"
+ bt_establish_bahamas_colony_title:0 "在巴哈马建立殖民地"
+ bt_establish_bahamas_colony_desc:0 "卢卡亚群岛中的数百个小岛大多太小，无法进行高效的农业生产，但这并不意味着它们对我们的领土没有用处！让我们在这些海盗的避风港之一建立一个永久定居点。"
+ bt_establish_northwest_territories_colony_title:0 "在西北地区建立殖民地"
+ bt_establish_northwest_territories_colony_desc:0 "关于西北地区，实在没什么好说的，它就在那里……也许这就足够了。我们将在这片冰冻的内陆地区定居！"
+ bt_establish_cascadian_colony_title:0 "在卡斯卡迪亚建立殖民地"
+ bt_establish_cascadian_colony_desc:0 "卡斯卡迪亚拥有丰富的雨林、盛产鲑鱼的河流以及温和的气候，这使其有可能成为北美洲最富有的地区之一。我们应该利用这些自然资源，在竞争对手之前在这里建立一个定居点！"
+ bt_establish_alaska_colony_title:0 "在阿拉斯加建立殖民地"
+ bt_establish_alaska_colony_desc:0 "崎岖寒冷的阿拉斯加土地正等待我们去占领，那里丰富的水獭皮毛和随处可见的矿产预示着巨大的财富！我们应该立即在这片午夜太阳之地建立一个定居点。"
+ bt_establish_louisiana_colony_title:0 "在路易斯安那建立殖民地"
+ bt_establish_louisiana_colony_desc:0 "密西西比河大流域的面积估计是法国的五倍！我们应该在该地区建立一个新的殖民地，以宣示我们对这片广阔领土的所有权。"
+ bt_establish_california_colony_title:0 "在加利福尼亚建立殖民地"
+ bt_establish_california_colony_desc:0 "从沿海温暖肥沃的山丘和山谷，到科罗拉多河流域贫瘠但矿产丰富的沙漠，加利福尼亚是一个值得夺取的宝地！我们应该立即宣称对该地区的所有权，并建立一个永久定居点。"
+ bt_establish_mexico_colony_title:0 "在墨西哥建立殖民地"
+ bt_establish_mexico_colony_desc:0 "墨西哥内陆山区资源丰富，热带海岸地区可能是整个新大陆最富有的地方，我们应该立即建立一个永久定居点，为自己夺取这份财富！"
+ bt_establish_colombia_colony_title:0 "在哥伦比亚建立殖民地"
+ bt_establish_colombia_colony_desc:0 "虽然尚未发现直接通往亚洲的水路，但我们找到了次优选择！巴拿马地峡及周边海岸是美洲最狭窄的地方，在该地区建立一个永久定居点肯定对贸易有好处。"
+ bt_establish_peru_colony_title:0 "在秘鲁建立殖民地"
+ bt_establish_peru_colony_desc:0 "我们听说有一片土地，那里有高得难以形容的山脉、干旱的沙漠，还有用金银建造在山腰上的伟大城市。为了获取这份财富，我们应该在该地区建立一个新的定居点！"
+ bt_establish_la_plata_colony_title:0 "在拉普拉塔建立殖民地"
+ bt_establish_la_plata_colony_desc:0 "拉普拉塔河流域比大多数邻国更干燥、更贫瘠，但控制南美洲的南部海岸将是一个重要的战略胜利。我们应该宣称对该地区的所有权，并建立一个新的殖民地！"
+ bt_establish_brazil_colony_title:0 "在巴西建立殖民地"
+ bt_establish_brazil_colony_desc:0 "巴西看似无边无际的雨林、稀树草原、沼泽和灌木丛将是建立新殖民地的绝佳地点。让我们在这片广袤的土地上建立永久据点！"
+ bt_establish_australia_colony_title:0 "在澳大利亚建立殖民地"
+ bt_establish_australia_colony_desc:0 "我们收到消息，南半球有一个干旱的小大陆。谁知道这个神秘的大陆可能蕴藏着什么宝藏呢？我们应该去一探究竟！"
+ bt_establish_australia_colony_title:0 "在波利尼西亚建立殖民地"
+ bt_establish_australia_colony_desc:0 "在南太平洋发现了数百个大小各异的岛屿。这些偏远的岛屿似乎不太可能有什么有价值的东西，但也许我们应该在竞争对手之前尝试宣称对它们的所有权？"
+
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ # 14 - Temporary content & bugfixes
+ #################################################################################
+ #################################################################################
+ #################################################################################
+
+ bt_enforce_temporal_authority_action:0 "执行世俗权力"
+ bt_enforce_temporal_authority_action_title:0 "执行世俗权力"
+ bt_enforce_temporal_authority_action_desc:0 "为了对您的自治教皇国执行世俗权力，双方都不能处于战争状态，必须共享边界，且该自治国对您的好感度至少达到 §Y+175§!。然而，这样做会激怒该自治国，因为它会对自主权的减少感到不满，其他自治教皇国也会对此举持怀疑和敌意的态度。\n\n执行世俗权力将产生以下效果：\n -[From.GetName] 成为 [Root.GetName] 的普通 §Y附庸国§!\n -[From.GetName] 与 [Root.GetName] 的信任度降低 §Y-5§!\n -[From.GetName] 对 [Root.GetName] 的好感度降低 §Y-60§!\n -所有其他自治教皇国与 [Root.GetName] 的信任度降低 §Y-3§!\n -所有其他自治教皇国对 [Root.GetName] 的好感度降低 §Y-30§!"
+ bt_enforce_temporal_authority_action_tooltip:0 "教皇国可以对自治附属国执行世俗权力，使其成为普通附庸国"
+
+
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ # 14 - Temporary content & bugfixes
+ #################################################################################
+ #################################################################################
+ #################################################################################
+
+ #Various Fixes to missing vanilla localizations
+ ALLREADY_IN_WAR_WITH:0 "已与目标处于战争状态"
+
+ #Temp bugfix, no need to translate
+ reevaluate_priorities_title:0 "重新评估目标"
+ reevaluate_priorities_desc:0 "长期以来，我们的野心因顾问们的短视和懒惰而受到限制。现在，我们可以超越他们的小疏忽，实现我们真正的潜力！"
+
+ BtPLegacyMisc.EVTNAME98:0 "法理头衔被放弃"
+ BtPLegacyMisc.EVTDESC98:0 "大人，长久以来，小小的达勒姆法理主教区一直被视为英格兰王室的封臣，这给我们的外交系统带来了压力，还占用了我们外交官的精力。这种情况终于结束了，该头衔最终并入了英格兰。"
+ BtPLegacyMisc.EVTOPTA98:0 "好消息！"
+ BtPLegacyMisc.EVTNAME99:0 "不再生产纸张！"
+ BtPLegacyMisc.EVTDESC99:0 "大人，[Root.GetName] 的工匠、商人和手艺人传来消息，他们将不再生产纸张，因为纸张毫无用处，转而将生产精美的衣物。"
+ BtPLegacyMisc.EVTOPTA99:0 "哦……好吧。"
+
+ BT_fra_carib_colony.tooltip_2:0 "§Y[Root.GetName]§! 或其附庸国在西班牙岛殖民地至少拥有 §Y5§! 个完全殖民的省份"
+ BT_fra_carib_colony.tooltip_3:0 "§Y[Root.GetName]§! 或其附庸国在古巴殖民地至少拥有 §Y5§! 个完全殖民的省份"
+ BT_fra_carib_colony.tooltip_4:0 "§Y[Root.GetName]§! 或其附庸国在巴哈马殖民地至少拥有 §Y5§! 个完全殖民的省份"

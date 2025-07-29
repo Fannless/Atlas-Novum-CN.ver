@@ -1,0 +1,2479 @@
+﻿l_english:
+ #Basic
+ basic.back: "返回"
+ basic.exit: "退出"
+ basic.select: "选择"
+ basic.revert: "恢复"
+
+ #Settings
+ AN_settings.0.t: "Atlas Novum\n£empty_menu_window£"
+ AN_settings.0.d: ""
+ AN_settings.0.a: "自定义规则集"
+ AN_settings.0.b: "替代历史"
+ AN_settings.0.c: "开始"
+
+ AN_settings.1.t: "自定义规则集\n£empty_menu_window£"
+ AN_settings.1.d: "占位符"
+ AN_settings.1.a: "幸运/命定事件"
+ AN_settings.1.b: "历史/传奇/幻想奇观"
+
+ AN_settings.2.t: "替代历史\n£empty_menu_window£"
+ AN_settings.2.desc: "以下选项中的任何一个都是互斥的。"
+ AN_settings.2.a: "区域移除"
+ AN_settings.2.b: "自定义设置"
+
+ AN_settings.21.t: "区域移除\n£empty_menu_window£"
+ AN_settings.21.desc: "以下选项中的任何一个都是互斥的。"
+ AN_settings.21.a: "Tabula Rasa（无欧亚非）"
+ AN_settings.21.b: "Seiuncta Beringia（无美洲）"
+ AN_settings.21.c: "Anahuac Inhospitalis（无中美洲）"
+ AN_settings.21.d1: "Invia Darien（无南美洲）"
+ AN_settings.21.e: "Nul Insulae（无大洋洲）"
+ AN_settings.21.f: "Exculta Populo（无部落/部族）"
+
+ AN_settings.22.t: "替代美洲\n£empty_menu_window£"
+ AN_settings.22.d: "以下选项中的任何一个都是互斥的。"
+ AN_settings.22.a: "Absit Roma"
+ AN_settings.22.b: "新锡安"
+ AN_settings.22.c: "夏威夷努伊"
+ AN_settings.22.d1: "维兰迪克的坚持"
+ AN_settings.22.e: "Ard Majhulah"
+ AN_settings.22.f: "郑和的第八次航行"
+ AN_settings.22.g: "第三次奥德赛"
+ AN_settings.22.h: "日落入侵"
+ AN_settings.22.i: "冥界觉醒"
+
+
+ #Depreciated for now - pending deletion/adaption
+ AN_settings.3.t: "模组手册"
+ AN_settings.3.d: "你是Atlas Novum的新手吗？别担心，这里包含了新机制的解释。"
+ AN_settings.3.a: "机制"
+ AN_settings.3.b: "附庸"
+ AN_settings.3.c: "可形成国家"
+ AN_settings.3.d1: "任务"
+ AN_settings.3.e: "决策和事件"
+ AN_settings.3.f: "年龄锁定殖民化"
+
+ AN_settings.10.t: "机制"
+ AN_settings.10.d: "Atlas Novum带来了许多新机制。"
+ AN_settings.10.a: "发展"
+ AN_settings.10.b: "疾病"
+ AN_settings.10.c: "建筑"
+ AN_settings.10.d1: "殖民区域销售"
+ AN_settings.10.e: "年龄锁定殖民化"
+
+ AN_settings.101.t: "发展"
+ AN_settings.101.d: "发展已被重新设计为财富、基础设施和人口。财富和基础设施可以手动升级；财富和人口会被动增长或减少。\n\n每个省份都有一个财富进度和人口进度，范围在0到100之间。当进度达到100时，该类型增长1；当进度达到0时，该类型减少。财富增长由省份的贸易价值和基础设施决定，除以当地物流成本。人口增长由地形和基础设施决定，减去消费（人口乘以当地物流成本）。\n\n每年都会检查一个省份是否有饥荒发生或升级的可能性。负的人口进度和超过当地承载能力会使省份面临饥荒风险。如果发生饥荒，它总是以轻微饥荒开始，带来一个不太严重但可生存的修正和小幅减少发展。然而，如果饥荒再次发生，轻微饥荒将升级，增加更严重的修正，并进一步减少发展。"
+ AN_settings.102.t: "疾病"
+ AN_settings.102.d: "拥挤的空间、家畜和繁忙的贸易，尤其是战争或饥荒导致社会秩序崩溃时，会让疾病滋生。在游戏中，13种主要疾病将出现，分为三大类。一些疾病，如斑疹伤寒，会在城市地区和人口密集的地方徘徊，偶尔爆发成局部但毁灭性的疫情。其他疾病，如霍乱，也可能达到流行病状态，从受饥荒和战争影响的地区传播开来，每次传播到相邻省份的概率为50%。来自世界交汇点的设定事件，传染病的最终形式是一次性触发，横扫美洲和大洋洲的原住民人口，从此不再出现。"
+ AN_settings.103.t: "建筑"
+ AN_settings.103.d: "建筑已被大幅修改。当达到一定人口和经济门槛时，可以建造城市基础设施，某些建筑只能在城市中建造。基础设施建筑增加了一个省份可以拥有的基础设施数量，这对于发展生产和贸易基础以及增加财富和人口至关重要。足够的基础设施建筑还可能允许您更换目标省份的贸易商品。此外，某些建筑——特别是海军和行政建筑——只能由城市支持，而许多建筑（通常是军事或信仰相关的）只能存在于腹地。最后，还有国家独有的建筑，为相对集中的帝国提供了大量的固定奖励。"
+ AN_settings.104.t: "殖民区域销售"
+ AN_settings.104.d: "殖民区域可以通过外交界面购买，但外交行动只能由人类玩家进行。"
+ AN_settings.105.t: "年龄锁定殖民化"
+ AN_settings.105.d: "从发现时代开始，某些省份不再能够殖民。现在，为了更好地代表欧洲列强由于疾病和气候等各种因素采取的历史扩张，某些省份只有在达到宗教改革时代、专制时代或革命时代后才会开放殖民化。"
+
+ AN_settings.11.t: "附庸"
+ AN_settings.11.d: "Atlas Novum引入了三种新类型的附庸：封地、领地和联邦；同时还修订了对贡国、附庸和边疆的若干机制。"
+ AN_settings.11.a: "封地"
+ AN_settings.11.b: "领地"
+ AN_settings.11.c: "联邦"
+ AN_settings.11.d1: "贡国、附庸和边疆"
+
+ AN_settings.111.t: "封地"
+ AN_settings.111.d: "封地是与您的国家同属一个文化组和宗教组的小型封建附庸。您必须接受封建主义，信奉非异教宗教，并且属于西方、东方、安纳托利亚、穆斯林、印度、中国、印度支那、马来或高美洲技术组。这里有两个主要例外。神圣罗马帝国将像一个大家族一样运作，只要双方都是成员（排除选举人、自由城市和皇帝），就不受文化组的限制。穆斯林国家将能够使任何其他邻近的穆斯林国家成为封地，或者使一个同属一个文化组（但宗教不同）的国家成为封地。"
+ AN_settings.112.t: "领地"
+ AN_settings.112.d: "领地是特殊的附庸，旨在代表各种王国、领地、发达的殖民地、联邦和共治国。换句话说，领地可以被视为您帝国的终极附庸。通常作为完成一系列任务的奖励，领地接管该地区的日常管理，同时提供出色的经济利益，并在极端情况下保持异常忠诚。 "
+ AN_settings.113.t: "联邦"
+ AN_settings.113.d: "联邦是高度忠诚的共同体，正式与您的国家共享权力。在游戏机制中，联邦是一种附庸类型，极大地增强了联邦的权力，而牺牲了对更典型的中央集权实体的好处。实际上，联邦几乎总是非常小的实体，因共同独立而联合在一起。它们形成的条件仅限于特定事件和宣战理由，例如瑞士或阿拉贡的情况。"
+ AN_settings.114.t: "贡国、附庸和边疆"
+ AN_settings.114.d: "作为商人王国或曼达拉，或是塔普，可能会对邻近和附近的国家施加贡国地位。附庸的吞并有几种罕见的条件，并将在参与时显示在吞并工具提示中。边疆现在可以增长到您总发展水平的33%，并且拥有更强的军事奖励。然而，它们也可能被对手大规模转移。边疆也可以强加给与两个敌对大国接壤的小国。因此，边疆的价值更高，但也更容易被撬走。"
+
+
+ AN_settings.12.t: "可形成国家"
+ AN_settings.12.d: "可形成国家分为两种不同类型：中期和后期。"
+ AN_settings.12.a: "中期可形成国家"
+ AN_settings.12.b: "后期可形成国家"
+
+ AN_settings.121.t: "中期可形成国家"
+ AN_settings.121.d: "通常在宗教改革时代可用，中期可形成决策不仅改变国家标签，还整合所有附属封地。"
+ AN_settings.122.t: "后期可形成国家"
+ AN_settings.122.d: "在革命时代可用，后期可形成决策不仅再次改变国家标签，还整合所有附属领地。"
+
+
+ AN_settings.13.t: "任务"
+ AN_settings.13.d: "任务通常分为几类。这些类别通过目标区分，同类任务在奖励上往往相似。"
+ AN_settings.13.a: "征服"
+ AN_settings.13.b: "控制"
+ AN_settings.13.c: "发现"
+ AN_settings.13.d1: "殖民"
+ AN_settings.13.e: "内部"
+ AN_settings.13.f: "顶点"
+
+ AN_settings.131.t: "征服"
+ AN_settings.131.d: "征服任务是一种标准任务类型，要求国家占领特定省份、地区或区域。这通常是通过直接征服或征服拥有必要省份的国家来完成的。"
+ AN_settings.132.t: "控制"
+ AN_settings.132.d: "控制任务是一种特殊任务类型，要求国家在战争中获得控制权或对特定省份的直接拥有权。如果接受，将没收受控土地。当目标省份被玩家占有时，控制任务会转变为征服任务。"
+ AN_settings.133.t: "发现"
+ AN_settings.133.d: "发现任务是一种标准任务类型，要求国家在世界地图上发现某些省份。这些任务通常会奖励前往相关地区的前哨基地和领土要求。"
+ AN_settings.134.t: "殖民"
+ AN_settings.134.d: "殖民任务是一种标准任务类型，要求国家在一个殖民区域内殖民一定数量的省份。这些任务通常会奖励对其余殖民区域的领土要求和核心地区。"
+ AN_settings.135.t: "内部"
+ AN_settings.135.d: "内部任务是一种特殊任务类型，因情况而异。有时它们要求完成灾难、开发特定省份或地区、建造建筑或单位，或以其他方式实现国内目标。"
+ AN_settings.136.t: "顶点"
+ AN_settings.136.d: "顶点任务是一种特殊任务类型，通常出现在子树的末尾。这些任务会奖励强大的奖励给那些能够实现它们的人。"
+
+
+ AN_settings.14.t: "决策和事件"
+ AN_settings.14.d: "Atlas Novum：欧洲带来了大量独特的决策和事件。"
+ AN_settings.14.a: "政府改革"
+ AN_settings.14.b: "贸易商品"
+
+ AN_settings.141.t: "政府改革"
+ AN_settings.141.d: "新增了一些政府改革。一般来说，主要国家拥有独特的政府类型，通常启用独特的机制、决策或等级制度。 \n\n伊比利亚国家现在拥有伊比利亚王国、伊比利亚王冠和伊比利亚君主独特的改革。 \n\n法国国家现在拥有法国公国、法国王冠和法国君主独特的改革。"
+ AN_settings.142.t: "贸易商品"
+ AN_settings.142.d: "贸易商品的许多方面已被调整，包括它们在未殖民省份中的生成率、与盐和银等贵重资源相关的特殊决策，以及重新平衡的省份和交易修正。"
+
+
+ #Census
+ census.1.t: "[Root.GetName] 人口普查\n£census_menu_window£"
+ census.1.desc: "§w财富增长                                             [Root.AN_wealth_progress.GetValue]§!\n[ttt_BarM2]\n                                                                   §w[Root.AN_wealth_growth.GetValue]§!\n\n\n§w人口增长                                        [Root.AN_pop_progress.GetValue]§!\n[ttt_BarM1]\n                                                                   §w[Root.AN_pop_growth.GetValue]§!\n\n\n                   §w承载能力§!  = §T[Root.AN_prov_pop_cap.GetValue]§!\n                   §w基础设施限制§! = §T[Root.AN_prov_infrastructure_cap.GetValue]§!\n                   §w移民吸引力§! = §T[Root.AN_migration_factor.GetValue]§!  §w增长§! = §T[Root.AN_migration_growth.GetValue]§!  §w进度§! = §T[Root.AN_migration_progress.GetValue]§!\n                   §w总和E:§! §T[Root.AN_sum_E.GetValue]§! §w总和I:§! §T[Root.AN_sum_I.GetValue]§! §w文明:§! §T[Root.AN_civ_stat.GetValue]§!"
+
+ census.1.edicts: "£option_edicts_button£"
+ census.1.resources: "£option_resources_button£"
+ census.1.projects: "£option_projects_button£"
+ census.1.forestry: "£option_forestry_button£"
+ census.1.demography: "£option_demography_button£"
+ #census.5.d: "§O[Root.AN_wealth_production.GetValue]§! / §R[Root.AN_logistics.GetValue]§!                 §G[Root.AN_pop_production.GetValue]§! - §R[Root.AN_consumption.GetValue]§!"
+ census.1.exit: "£option_close_menu_button£"
+
+ census_edicts_tooltip: "§Y打开法令菜单§!"
+ census_resources_tooltip: "§Y打开资源菜单§!"
+ census_projects_tooltip: "§Y打开项目菜单§!"
+ census_forestry_tooltip: "§Y打开林业菜单§!"
+ census_demography_tooltip: "§Y打开人口统计菜单§!"
+ census_close_tooltop: "§Y关闭人口普查菜单§!"
+
+
+ census.100.t: "[Root.GetName] 法令\n£empty_menu_window£"
+ census.100.d: "管理本省地方行政管理的政策。" #maybe eventually have a custom localize depending on province/town/city/metropolis desc
+ census.100.a: "鼓励移民"
+ census.100.ab: "停止鼓励移民"
+ census.100.b: "发布检疫令"
+ census.100.bb: "解除检疫"
+
+ census.200.t: "[Root.GetName] 林业\n£empty_menu_window£" #EVENTUALLY RESOURCES? AKA TRADE GOOD MANAGEMENT
+ census.200.d: "在本省进行有关森林管理的地方倡议。" #maybe eventually have a custom localize depending on province/town/city/metropolis desc
+ census.200.a1: "砍伐北方森林"
+ census.200.a2: "砍伐阔叶林"
+ census.200.a3: "砍伐针叶林"
+ census.200.a4: "砍伐毒林"
+ census.200.a5: "砍伐月桂林"
+ census.200.a6: "砍伐雨林"
+ census.200.b1: "种植北方森林"
+ census.200.b2: "种植阔叶林"
+ census.200.b3: "种植针叶林"
+ census.200.b4: "种植毒林"
+ census.200.b5: "种植月桂林"
+ census.200.b6: "种植雨林"
+
+ census.300.t: "[Root.GetName] 项目\n£empty_menu_window£"
+ census.300.d: "资助本省的基础设施项目。" #maybe eventually have a custom localize depending on province/town/city/metropolis desc
+ census.300.a: "挖掘灌溉系统"
+ census.300.b: "挖掘水井"
+ census.300.c: "建造梯田"
+ census.300.d1: "补贴伐木营"
+ census.300.e: "修建堤坝"
+ census.300.f: "建造防波堤"
+ census.300.g: "建造大坝"
+ census.300.h: "建造风车"
+ census.300.i: "建立驿站"
+ census.300.j: "加固松散的坡面"
+ census.300.k: "建造花园"
+ census.300.l: "建立[Root.Owner.GetManorType]"
+ census.300.m: "勘测路线"
+ census.300.n: "建造灯塔"
+ census.300.o: "排干沼泽地"
+ census.300.p: "淹没沼泽地"
+ census.300.q: "排干湿地"
+ census.300.r: "淹没湿地"
+ census.300.s: "补贴伐木营"
+ census.300.t1: "建立狩猎保护区"
+ census.300.u: "建立狩猎小屋"
+ census.300.v: "实施污水管理"
+ census.300.w: "建立围场"
+
+ census.400.t: "[Root.GetName] 资源\n£empty_menu_window£"
+
+ census.500.t: "[Root.GetName] 人口统计\n£empty_menu_window£"
+ census.500.d: "§w目标文化:§! §y[Root.GetTargetCulture]§!\n§w[Root.Culture.GetName]-[Root.GetMinorityCulture] 文化进度                                             [Root.AN_majority_progress.GetValue]§!\n[ttt_BarM3]\n\n"
+
+ census.500.a: "管理主要政策"
+ census.500.b1: "管理次要政策"
+ census.500.b2: "§g管理次要政策§!"
+ census.500.c1: "管理第二次要政策"
+ census.500.c2: "§g管理第二次要政策§!"
+
+ census.501.t: "主要政策\n£empty_menu_window£"
+ census.501.d: ""
+ AN_culture_matrix.integrate_maj: "整合主要文化"
+ AN_culture_matrix.protect_maj: "保护主要文化"
+ AN_culture_matrix.expel_maj: "驱逐主要文化"
+
+ AN_culture_matrix.end_integrate_maj: "结束主要整合"
+ AN_culture_matrix.end_protect_maj: "结束主要保护"
+ AN_culture_matrix.end_expel_maj: "结束主要驱逐"
+
+ census.502.t: "次要政策\n£empty_menu_window£"
+ census.502.d: ""
+ AN_culture_matrix.integrate_min: "整合次要文化"
+ AN_culture_matrix.protect_min: "保护次要文化"
+ AN_culture_matrix.expel_min: "驱逐次要文化"
+
+ AN_culture_matrix.end_integrate_min: "结束次要整合"
+ AN_culture_matrix.end_protect_min: "结束次要保护"
+ AN_culture_matrix.end_expel_min: "结束次要驱逐"
+
+ census.503.t: "第二次要政策\n£empty_menu_window£"
+ census.503.d: ""
+ AN_culture_matrix.integrate_sec: "整合第二次要文化"
+ AN_culture_matrix.protect_sec: "保护第二次要文化"
+ AN_culture_matrix.expel_sec: "驱逐第二次要文化"
+
+ AN_culture_matrix.end_integrate_sec: "结束第二次要整合"
+ AN_culture_matrix.end_protect_sec: "结束第二次要保护"
+ AN_culture_matrix.end_expel_sec: "结束第二次要驱逐"
+
+ census.5011.t: "整合主要文化\n£empty_menu_window£"
+ census.5011.d: ""
+ AN_culture_matrix.integrate_maj_prov: "省级整合"
+ AN_culture_matrix.integrate_maj_area: "区域整合"
+ AN_culture_matrix.integrate_maj_region: "区域整合"
+ AN_culture_matrix.integrate_maj_global: "全球整合"
+
+ census.5012.t: "保护主要文化\n£empty_menu_window£"
+ census.5012.d: ""
+ AN_culture_matrix.protect_maj_prov: "省级保护"
+ AN_culture_matrix.protect_maj_area: "区域保护"
+ AN_culture_matrix.protect_maj_region: "区域保护"
+ AN_culture_matrix.protect_maj_global: "全球保护"
+
+ census.5013.t: "驱逐主要文化\n£empty_menu_window£"
+ census.5013.d: ""
+ AN_culture_matrix.expel_maj_prov: "省级驱逐"
+ AN_culture_matrix.expel_maj_area: "区域驱逐"
+ AN_culture_matrix.expel_maj_region: "区域驱逐"
+ AN_culture_matrix.expel_maj_global: "全球驱逐"
+
+ census.5021.t: "整合次要文化\n£empty_menu_window£"
+ census.5021.d: ""
+ AN_culture_matrix.integrate_min_prov: "省级整合"
+ AN_culture_matrix.integrate_min_area: "区域整合"
+ AN_culture_matrix.integrate_min_region: "区域整合"
+ AN_culture_matrix.integrate_min_global: "全球整合"
+
+ census.5022.t: "保护次要文化\n£empty_menu_window£"
+ census.5022.d: ""
+ AN_culture_matrix.protect_min_prov: "省级保护"
+ AN_culture_matrix.protect_min_area: "区域保护"
+ AN_culture_matrix.protect_min_region: "区域保护"
+ AN_culture_matrix.protect_min_global: "全球保护"
+
+ census.5023.t: "驱逐次要文化\n£empty_menu_window£"
+ census.5023.d: ""
+ AN_culture_matrix.expel_min_prov: "省级驱逐"
+ AN_culture_matrix.expel_min_area: "区域驱逐"
+ AN_culture_matrix.expel_min_region: "区域驱逐"
+ AN_culture_matrix.expel_min_global: "全球驱逐"
+
+ census.5031.t: "整合第二次要文化\n£empty_menu_window£"
+ census.5031.d: ""
+ AN_culture_matrix.integrate_sec_prov: "省级整合"
+ AN_culture_matrix.integrate_sec_area: "区域整合"
+ AN_culture_matrix.integrate_sec_region: "区域整合"
+ AN_culture_matrix.integrate_sec_global: "全球整合"
+
+ census.5032.t: "保护第二次要文化\n£empty_menu_window£"
+ census.5032.d: ""
+ AN_culture_matrix.protect_sec_prov: "省级保护"
+ AN_culture_matrix.protect_sec_area: "区域保护"
+ AN_culture_matrix.protect_sec_region: "区域保护"
+ AN_culture_matrix.protect_sec_global: "全球保护"
+
+ census.5033.t: "驱逐第二次要文化\n£empty_menu_window£"
+ census.5033.d: ""
+ AN_culture_matrix.expel_sec_prov: "省级驱逐"
+ AN_culture_matrix.expel_sec_area: "区域驱逐"
+ AN_culture_matrix.expel_sec_region: "区域驱逐"
+ AN_culture_matrix.expel_sec_global: "全球驱逐"
+
+ AN_MANAGE_MAJORITY_CULTURE: "§Y打开 [Root.Culture.GetName] 政策§!"
+ AN_MANAGE_MINORITY_CULTURE: "§Y打开 [Root.GetMinorityCulture] 政策§!"
+ AN_MANAGE_SECONDARY_CULTURE: "§Y打开 [Root.GetSecondaryCulture] 政策§!"
+ AN_MINORITY_MUST_BE_PRESENT_TO_MANAGE: "§R没有文化少数群体在场.§!"
+ AN_SECONDARY_MUST_BE_PRESENT_TO_MANAGE: "§R没有次要文化少数群体在场.§!"
+
+ #CULTURE REWORK
+
+
+ AN_culture_matrix.1.t: "文化政策\n£empty_menu_window£"
+ AN_culture_matrix.1.d: "§wALPHA§!"
+
+ AN_culture_matrix.5.t: "[Root.Culture.GetName] 政策\n£empty_menu_window£"
+ AN_culture_matrix.5.d: "§w目标文化:§! §Y[Root.GetTargetCulture]§!\n§w[Root.Culture.GetName] <insert_type> Progress                                             [Root.AN_majority_progress.GetValue]§!\n[ttt_BarM3]"
+
+ AN_culture_matrix.6.t: "[Root.GetMinorityCulture] 政策\n£empty_menu_window£"
+ AN_culture_matrix.6.d: "§w目标文化:§! §Y[Root.GetTargetCulture]§!\n§w[Root.GetMinorityCulture] <insert_type> Progress                                             [Root.AN_minority_progress.GetValue]§!\n[ttt_BarM4]"
+
+
+ AN_culture_matrix.integrate_maj: "整合 [Root.Culture.GetName]"
+ AN_culture_matrix.accept_maj: "接受 [Root.Culture.GetName]"
+ AN_culture_matrix.assimilate_maj: "同化 [Root.Culture.GetName]"
+ AN_culture_matrix.suppress_maj: "压制 [Root.Culture.GetName]"
+ AN_culture_matrix.expel_maj: "驱逐 [Root.Culture.GetName]"
+
+ AN_culture_matrix.integrate_min: "整合 [Root.GetMinorityCulture]"
+ AN_culture_matrix.accept_min: "接受 [Root.GetMinorityCulture]"
+ AN_culture_matrix.assimilate_min: "同化 [Root.GetMinorityCulture]"
+ AN_culture_matrix.suppress_min: "压制 [Root.GetMinorityCulture]"
+ AN_culture_matrix.expel_min: "驱逐 [Root.GetMinorityCulture]"
+
+
+# GOVERNMENT
+#PRIMITIVE COUNCIL CHIEF SELECTION
+ IR_govt_native.1.t: "首领选举"
+ IR_govt_native.1.d: "现在是时候决定我们的[Root.Monarch.GetTitle]了，因为$MONARCH$的职位已经结束。委员会聚集在一起进行这个过程，几位显著的候选人脱颖而出。"
+
+ IR_govt_native.1.a: "高效的组织者。"
+ IR_gain_random_adm_advisor:0 "获得一个随机的免费行政顾问。"
+ IR_govt_native.1.b: "精明的谈判者。"
+ IR_gain_random_dip_advisor:0 "获得一个随机的免费外交顾问。"
+ IR_govt_native.1.c: "受人尊敬的战士。"
+ IR_gain_random_mil_advisor:0 "获得一个随机的免费军事顾问。"
+ IR_govt_native.1.e: "伟大而有魅力的领导者。" #great man
+ IR_govt_native.1.f: "一个威权主义者。"
+ IR_govt_native.1.g: "一个平等主义者。"
+
+
+#TRIBAL COUNCIL CHIEF SELECTION
+ IR_govt_tribal.1.t: "部落选举"
+ IR_govt_tribal.1.d: "现在是时候决定我们的[Root.Monarch.GetTitle]了，因为$MONARCH$的职位已经结束。委员会聚集在一起进行这个过程，几位显著的候选人脱颖而出。"
+ IR_govt_tribal.1.d1: "现在是时候决定我们的[Root.Monarch.GetTitle]了，因为$MONARCH$的职位已经结束。委员会聚集在一起进行这个过程，几位显著的候选人脱颖而出。"
+ IR_govt_tribal.1.d2: "现在是时候决定我们的[Root.Monarch.GetTitle]了，因为$MONARCH$的职位已经结束。委员会聚集在一起进行这个过程，几位显著的候选人脱颖而出。"
+ IR_govt_tribal.1.a: "仁慈的立法者。"
+ IR_govt_tribal.1.b: "富有魅力的谈判者。"
+ IR_govt_tribal.1.c: "鼓舞人心的领导者。"
+ IR_govt_tribal.1.e: "智慧的导师。"
+ IR_govt_tribal.1.f: "圣贤的使者。"
+ IR_govt_tribal.1.g: "古老的宗师。"
+ IR_govt_tribal.1.h: "一个行政人员"
+ IR_govt_tribal.1.i: "一个外交人员"
+ IR_govt_tribal.1.j: "一个军事人员"
+
+ IR_govt_tribal.2.t: "独裁继承"
+ IR_govt_tribal.2.d: ""
+ IR_govt_tribal.2.d1: ""
+
+ IR_govt_tribal.3.t: "联邦领导人集会"
+ IR_govt_tribal.3.d: ""
+ IR_govt_tribal.3.a: "和平的领导者。"
+ IR_govt_tribal.3.b: "战争的领导者。"
+
+
+ #NEW FOR BASE ELECTIONS
+ elections.720.i: "一个财政候选人。"
+ elections.720.j: "一个商业候选人。"
+ elections.720.df: "由于$MONARCH$的去世，到了开始选举新[Root.Monarch.GetTitle]的时候了。5个新阿尔贝尔吉家族和23个老阿尔贝尔吉家族从内部挑选了一位合适的候选人。新阿尔贝尔吉家族提出了一位具有财政才能的候选人，而老阿尔贝尔吉家族则提出了一位具有商业背景的候选人。"
+ elections.721.df: "由于$MONARCH$的去世，我们被迫提前举行选举。5个新阿尔贝尔吉家族和23个老阿尔贝尔吉家族从内部挑选了一位合适的候选人。新阿尔贝尔吉家族提出了一位具有财政才能的候选人，而老阿尔贝尔吉家族则提出了一位具有商业背景的候选人。"
+
+
+ #Climate
+ AN_climate_change_plus.tooltip: "由于§Y气候变化§!，省级§Y承载能力§! 全球增加§G1§!."
+ AN_climate_change_plus2.tooltip: "由于§Y气候变化§!，省级§Y承载能力§! 全球增加§G2§!."
+ AN_climate_change_minus.tooltip: "由于§Y气候变化§!，省级§Y承载能力§! 全球减少§R1§!."
+ AN_climate_change_minus2.tooltip: "由于§Y气候变化§!，省级§Y承载能力§! 全球减少§R2§!."
+ AN_climate_change_minus3.tooltip: "由于§Y气候变化§!，省级§Y承载能力§! 全球减少§R3§!."
+
+ AN_climate.1.t: "巴尔达尔邦加火山爆发"
+ AN_climate.1.d: "来自遥远而冰冷的层状火山巴尔达尔邦加的火山灰云席卷北海和欧亚大陆。尽管气候已经逐渐变冷，但这次大规模的喷发无疑会将全球推入火山冬季。"
+ AN_climate.1.a: "我们还能做什么呢，除了适应？"
+
+ AN_climate.2.t: "气候变化"
+ AN_climate.2.d: "寒冷暂时从1520年退去，持续到1600年"
+ AN_climate.2.a: "我们还能做什么呢，除了适应？"
+
+ AN_climate.3.t: "气候变化"
+ AN_climate.3.d: "严寒时期开始"
+ AN_climate.3.a: "我们还能做什么呢，除了适应？"
+
+ AN_climate.4.t: "气候变化"
+ AN_climate.4.d: "博斯普鲁斯海峡结冰"
+ AN_climate.4.a: "我们还能做什么呢，除了适应？"
+
+ AN_climate.5.t: "气候变化"
+ AN_climate.5.d: "寒冷条件恶化，海冰扩展足够大，以至于格林兰的因纽特人登陆苏格兰"
+ AN_climate.5.a: "我们还能做什么呢，除了适应？"
+
+ AN_climate.6.t: "气候变化"
+ AN_climate.6.d: "东亚大干旱加剧了中国30年的耕地流失"
+ AN_climate.6.a: "我们还能做什么呢，除了适应？"
+
+ AN_climate.7.t: "气候变化"
+ AN_climate.7.d: "寒冷暂时缓解"
+ AN_climate.7.a: "我们还能做什么呢，除了适应？"
+
+ AN_climate.8.t: "气候变化"
+ AN_climate.8.d: "拉基和浅间火山喷发，1783年北半球火山冬季"
+ AN_climate.8.a: "我们还能做什么呢，除了适应？"
+
+ AN_climate.9.t: "气候变化"
+ AN_climate.9.d: "大厄尔尼诺，特大干旱"
+ AN_climate.9.a: "我们还能做什么呢，除了适应？"
+
+ AN_climate.10.t: "气候变化"
+ AN_climate.10.d: "坦博拉火山喷发，“没有夏天的年份”"
+ AN_climate.10.a: "我们还能做什么呢，除了适应？"
+
+ AN_climate.11.t: "气候变化"
+ AN_climate.11.d: "坦博拉的影响开始减弱"
+ AN_climate.11.a: "我们还能做什么呢，除了适应？"
+
+ AN_climate.12.t: "气候变化"
+ AN_climate.12.d: "太阳活动逐渐恢复"
+ AN_climate.12.a: "我们还能做什么呢，除了适应？"
+
+ AN_climate.13.t: "气候变化"
+ AN_climate.13.d: "恢复正常"
+ AN_climate.13.a: "我们还能做什么呢，除了适应？"
+
+ AN_climate.14.t: "气候变化"
+ AN_climate.14.d: "恢复正常"
+ AN_climate.14.a: "我们还能做什么呢，除了适应？"
+
+ AN_climate.15.t: "库瓦火山喷发"
+ AN_climate.15.d: "大爆炸，美拉尼西亚消失"
+ AN_climate.15.a: "我们还能做什么呢，除了适应？"
+
+ #Institutions
+
+ AN_institution_events.10.t: "金融发展"
+ AN_institution_events.10.d: "随着黑死病的灾难及其对欧洲社会政治秩序的影响，劳动力短缺推动了工资的上涨，农业生产能够轻松支持较低的人口。民众的购买力增强，推动了商人-工匠阶级的崛起。来自商人银行的贷款和投资已成为各国领导人财务规划的核心。\n对金属货币的信任恢复，使得稳定、普遍接受的硬币得以铸造，用于进行日益复杂的交易。银行和经纪公司提供了进行高风险远程和高成本海外贸易所需的安全保障。现代金融将成为欧洲主导的最强大引擎——中央银行、证券交易所和公司主权。无论未来如何，它无疑都将需要金融机构。"
+ AN_institution_events.10.a: "这改变了一切..."
+ AN_institution_events.10.tt: "§Y拥抱§! §Y金融§! 机构将对§Y技术§! 的未来进步至关重要。"
+
+
+ AN_institution_events.11.d: ""
+ AN_institution_events.12.d: ""
+
+ AN_institution_events.20.t: "学习的重生"
+ AN_institution_events.20.d: "自14世纪以来，意大利半岛的富人和权贵们一直在资助愿意探索古希腊和罗马文献中知识的艺术家和学者。起源于佛罗伦萨的人文主义运动，正在意大利北部传播，重新点燃了人们对哲学、治国、学习和表达的兴趣。这场文艺复兴的基础是人文主义，源于罗马的人性观念；重新发现古希腊哲学——例如普罗泰戈拉斯的哲学，他观察到“人是万物的尺度”。这种新思维正在艺术、建筑、政治、科学和文学中表现出来。\n文艺复兴的传播尤其缓慢而不均匀。尽管如此，它终将成为成熟的运动，并渗透到我们社会的各个方面..."
+ AN_institution_events.20.a: "这改变了一切..."
+ AN_institution_events.20.tt: "§Y拥抱§! §YRenaissance§! 机构将对§Y技术§! 的未来进步至关重要。"
+
+
+ AN_institution_events.21.d: ""
+ AN_institution_events.22.d: ""
+
+ AN_institution_events.30.t: "古腾堡圣经"
+ AN_institution_events.30.d: "今天，在[Root.GetName]发生了一件奇怪的事情。由当地放债人资助的巨额贷款，机器由约翰内斯·古腾堡（Johannes Gutenberg）设计。古腾堡曾在施特拉斯堡担任专业的金匠，利用冶金和机械知识的结合，制作了多种印刷创新。这种“可移动活字”的印刷机使得印刷材料的大规模生产在经济上变得可行。\n事实上，古腾堡的第一本出版书籍几乎立即售罄。这本装帧精美的福音书每页42行，书籍的买家远至英格兰、瑞典和匈牙利。已知的至少有一些副本以30弗罗林的价格售出，约合文员三年的工资。然而，即便是这个价格，对于需要一个年头才能完成的手稿圣经来说，仍然便宜得多。\n印刷文学的生产成本现在具有竞争力。谁知道接下来会印刷什么？真是大众媒体的时代来临了！"
+ AN_institution_events.30.a: "这改变了一切..."
+ AN_institution_events.30.tt: "§Y拥抱§! §Y大众媒体§! 机构将对§Y技术§! 的未来进步至关重要。"
+
+
+ AN_institution_events.31.d: "今天，在[Root.GetName]发生了一件奇怪的事情。由当地放债人资助的巨额贷款，机器由约翰内斯·古腾堡（Johannes Gutenberg）设计。古腾堡曾在施特拉斯堡担任专业的金匠，利用冶金和机械知识的结合，制作了多种印刷创新。这种“可移动活字”的印刷机使得印刷材料的大规模生产在经济上变得可行。\n事实上，古腾堡的第一本出版书籍几乎立即售罄。\n\n真是大众媒体的时代来临了！"
+ AN_institution_events.32.d: ""
+
+ AN_institution_events.40.t: "殖民主义的诞生"
+ AN_institution_events.40.d: "随着新世界的发现和成功绕过好望角的航行，欧洲的视野迅速扩大。全球的广阔和多样性被真正认识到，当时的先锋海军强国迅速采取行动，利用跨大洲的海洋机会。在地方政权薄弱、内部可以分化的地区，进取的征服者宣称拥有帝国，并为在这一广阔新边疆的定居铺平道路。在主要地方势力依然强大的土地上，外交和恭敬将赢得可观的利润和跨洲的影响力。\n发现的时代已经成熟为殖民主义；愿最聪明的帝国占领海洋！"
+ AN_institution_events.40.a: "这改变了一切..."
+ AN_institution_events.40.tt: "§Y拥抱§! §Y殖民主义§! 机构将对§Y技术§! 的未来进步至关重要。"
+
+
+ AN_institution_events.41.d: ""
+ AN_institution_events.42.d: ""
+
+ AN_institution_events.50.t: "科学革命"
+ AN_institution_events.50.d: "始于文艺复兴时期的学者们（如马基雅维利和达芬奇）对中世纪真理判断方法的怀疑，质疑长期以来的世俗假设的趋势日益增长。迟早，这将不可避免地与既定权威发生冲突。\n通过出版《天体运行论》，哥白尼证明了地球在天体中的传统中心位置并不符合观察到的证据。然而，这样做却引发了神职人员和学者之间的愤怒。对人类在宇宙中位置的这种根本挑战只是个开始。一个关于验证真理的正式过程正在形成；随着它的出现，科学的新时代也在到来！"
+ AN_institution_events.50.a: "这改变了一切..."
+ AN_institution_events.50.tt: "§Y拥抱§! §Y经验主义§! 机构将对§Y技术§! 的未来进步至关重要。"
+
+
+ AN_institution_events.51.d: ""
+ AN_institution_events.52.d: ""
+
+ AN_institution_events.60.t: "全球贸易"
+ AN_institution_events.60.d: "随着大量的金属、香料和其他战利品从海外殖民地运回，经济世界发生了变化。作物、牲畜和人民在旧世界和新世界之间交流，彻底改变了全球的饮食和营养。由于流行病摧毁了美洲土著人口，获取非洲奴隶以替代本地劳动力变得势在必行。安第斯山脉的银子现在远销中国，欧洲的铁器在西非出售，摩鹿加群岛的香料通过亚历山大港和里斯本以大宗交易。 \n世界各地的港口，货币和文化的交流前所未有。全球贸易的准入门槛降低，催生了新兴的“投资者”阶级——那些渴望获得财政机会的人。历史上几乎每个人都通过经济交流联系在一起。"
+ AN_institution_events.60.a: "这改变了一切..."
+ AN_institution_events.60.tt: "§Y拥抱§! §Y全球贸易§! 机构将对§Y技术§! 的未来进步至关重要。"
+
+
+ AN_institution_events.61.d: ""
+ AN_institution_events.62.d: ""
+
+ AN_institution_events.70.t: "国家主权论"
+ AN_institution_events.70.d: "随着战争的成本、频率和破坏性不断增加，组织和筹款的重担迫使统治者们发展出更强大的国家机构。然而，中央集权的加深却不断与旧有特权和漏洞发生冲突，这些特权和漏洞曾赋予不忠诚城镇以特权，或使土地贵族对外部势力产生依赖。然而，旧秩序终于让位于疲惫不堪的国家，欧洲各国寻求确保内部异议不会为其他国家干涉其事务提供机会。\n为此，在[Root.GetName]，来自欧洲各国的代表起草了一份关于国家主权的新条约。该条约宣告了一种新的国际组织体系的诞生。每个被承认的国家将从现在开始对其国内政策负责。国家机构必须成为对外关系的主要接口，放弃统治者个人的争斗。国家的主权将至高无上！"
+ AN_institution_events.70.a: "这改变了一切..."
+ AN_institution_events.70.tt: "§Y拥抱§! §Y国家主权§! 机构将对§Y技术§! 的未来进步至关重要。"
+
+
+ AN_institution_events.71.d: ""
+ AN_institution_events.72.d: ""
+
+ AN_institution_events.80.t: "启蒙时代"
+ AN_institution_events.80.d: "理性主义和个人自由在这个时代的伟大思想家中获得了越来越多的关注和普及。在书信、出版物和咖啡馆的讨论中，统治者、学者、哲学家和文学家们讨论着宽容的优点、科学的发现以及人性的基本性质。从大学和开明君主的宫廷出发，探险队被派往测量、编目、称重和绘制全球地图。我们可能很快就能理解支配我们周围宇宙的法则。然而，许多人批评调节我们社会的法律，与建立之间的摩擦似乎是不可避免的。正是在这一思想的伟大繁荣中，追求自由、进步、宽容、兄弟情谊、宪政政府和政教分离的理想变得不可遏制。\n敢于知道。"
+ AN_institution_events.80.a: "这改变了一切..."
+ AN_institution_events.80.tt: "§Y拥抱§! §Y启蒙时代§! 机构将对§Y技术§! 的未来进步至关重要。"
+
+
+ AN_institution_events.81.d: ""
+ AN_institution_events.82.d: ""
+
+ AN_institution_events.90.t: "国富论"
+ AN_institution_events.90.d: "在过去的几个世纪里，技术创新使得纺织和冶金等特定行业的产出有限增加。通过在城市边缘建立制造厂，商人资本家绕过了行会法，鼓励经济专业化的模式。\n由亚当·斯密和大卫·休谟领导的一组经济理论家对传统的重商主义理论提出了挑战——例如，认为世界的财富是恒定的，任何财富的增加都必须是从他人那里夺取的信念。企业巨头开始取代商人成为资本主义体系中的主导因素，他们是导致工匠和行会衰退的新兴力量。这些富有的个人能够促进获取原材料的渠道，并组织以前无法实现的大规模劳动力。对巨头阶级的资本融资本身就是对老旧的粗暴方法的巨大改进。毫无疑问，这种新的生产和组织模式将彻底改变文明！"
+ AN_institution_events.90.a: "这改变了一切..."
+ AN_institution_events.90.tt: "§Y拥抱§! §Y资本主义§! 机构将对§Y技术§! 的未来进步至关重要。"
+
+
+ AN_institution_events.91.d: ""
+ AN_institution_events.92.d: ""
+
+ AN_institution_events.100.t: "民族主义的出现"
+ AN_institution_events.100.d: "革命的火焰催生了一种新的政治观念——“民族”的概念，以及个人在其中的地位。民族主义抛弃了对政治合法性的神圣授权，拥抱了悠久的团结传统，将单一民族和文化视为“民族”。民族主义认为，每个民族都应该自我治理，摆脱外部干涉；民族是政治的自然和理想基础。它旨在建立和维护基于文化、民族、地理位置、语言、政治、宗教、传统和共同历史的凝聚力强的国家认同。结合自由主义在世界舞台上的曙光，这一运动激励激进分子呼吁对世界秩序进行多项变革。从统一分裂的民族、为那些自认为是民族的群体争取自治和解放，到重新点燃对新世界殖民地自由的斗争。启蒙运动所创造的公共话语达到了顶峰，人民自己掌控了定义自己身份的权力。"
+ AN_institution_events.100.a: "这改变了一切..."
+ AN_institution_events.100.tt: "§Y拥抱§! §YNationalism§! 机构将对§Y技术§! 的未来进步至关重要。"
+
+
+ AN_institution_events.101.d: ""
+ AN_institution_events.102.d: ""
+
+ AN_institution_events.110.t: "工业革命"
+ AN_institution_events.110.d: "全球化将资本主义体系传播到了世界各地。一系列松散连接的市场体系形成了相对统一的全球体系，反过来又加剧了经济创新和发展进程。工业化使得物品的廉价生产成为可能，利用规模经济同时降低成本并维持消费阶层。快速的人口增长导致对商品的持续需求。越来越多的人涌入城市，家庭工业和制造业转向工厂工作。土地贵族的最后挣扎被中产阶级企业的胜利喧嚣淹没。随着大规模生产和城市化，社会发生了巨大的变化，消费者的选择大幅增加。曾几何时，工人们用金属盘子和木制器具就餐，而现在普通工人则用瓷器和金属器具就餐。消费者开始要求各种各样的家居用品和家具——例如金属刀叉、地毯、镜子、炉灶、锅、平底锅以及令人眼花缭乱的各种家具。大众消费的时代来临了！" #not revised
+ AN_institution_events.110.a: "这改变了一切..."
+ AN_institution_events.110.tt: "§Y拥抱§! §Y工业主义§! 机构将对§Y技术§! 的未来进步至关重要。"
+
+
+ AN_institution_events.111.d: ""
+ AN_institution_events.112.d: ""
+
+ # DISEASE AND FAMINE
+ # FOR REFERENCE
+ #desc_measles:0 "麻疹的症状包括皮肤上出现红色皮疹和高烧。高度传染性的病毒。"
+ #desc_plague:0 "鼠疫的症状包括黑色和肿胀的淋巴结——称为肿块——以及发烧和呕吐。由老鼠身上的跳蚤传播的细菌感染。"
+ #desc_yellow_fever:0 "黄热病的症状包括失控的出血和肝衰竭，导致皮肤变黄。由蚊子传播的热带病毒。"
+ #desc_smallpox:0 "天花的症状包括覆盖全身的充满液体的斑点，以及发烧、严重的瘙痒和偶尔的失明。高度传染性的病毒。"
+ #desc_typhus:0 "伤寒的症状包括突然发烧、黑色皮疹、对光敏感和谵妄。通过跳蚤、螨虫和蜱虫等寄生虫传播的细菌感染。"
+ #desc_influenza:0 "流感的症状包括高烧、流鼻涕、喉咙痛、关节疼痛、头痛、咳嗽和疲劳。高度传染性的病毒。"
+ #desc_salmonella:0 "沙门氏菌感染的症状包括腹泻、腹部痉挛、发烧和脱水。主要通过食用被污染的食物传播的细菌感染。"
+ #desc_cholera:0 "霍乱的症状包括剧烈腹泻和严重脱水，可能在数小时内导致死亡。眼睛凹陷、皮肤发冷发蓝也可能出现。通过不安全的食物和被人类粪便污染的水传播的细菌感染。"
+ #desc_malaria:0 "疟疾的症状包括发烧、疲劳、肝衰竭、癫痫发作和偶尔的昏迷。由热带蚊子传播的寄生虫感染。"
+ #desc_dengue:0 "登革热的症状包括发烧、呕吐、脱水、头痛、关节疼痛和失控的出血。由蚊子传播的热带病毒。"
+
+ AN_disease.x.a: "不幸的是，我们无能为力。"
+ AN_disease.x.b: "对[Root.GetName]进行检疫！"
+
+ AN_disease.1.t: "麻疹疫情在[Root.GetName]"
+ AN_disease.1.d: "有传言说一种高度传染性的病毒正在[Root.GetName]传播。其特征是皮肤上出现红色皮疹和高烧，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+
+ AN_disease.2.t: "鼠疫疫情在[Root.GetName]"
+ AN_disease.2.d: "有传言说一种传染性细菌感染正在[Root.GetName]传播。其特征是黑色和肿胀的淋巴结——称为肿块——以及发烧和呕吐，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+
+ AN_disease.3.t: "黄热病疫情在[Root.GetName]"
+ AN_disease.3.d: "有传言说一种由蚊子传播的病毒正在[Root.GetName]传播。其特征是失控的出血和肝衰竭，导致皮肤变黄，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+
+ AN_disease.4.t: "天花疫情在[Root.GetName]"
+ AN_disease.4.d: "有传言说一种高度传染性的病毒正在[Root.GetName]传播。其特征是全身出现充满液体的斑点，伴随发烧、严重瘙痒和偶尔失明，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+
+ AN_disease.5.t: "伤寒疫情在[Root.GetName]"
+ AN_disease.5.d: "有传言说一种由寄生虫传播的细菌感染正在[Root.GetName]传播。其特征是突然发烧、黑色皮疹、对光敏感和谵妄，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+
+ AN_disease.6.t: "流感疫情在[Root.GetName]"
+ AN_disease.6.d: "有传言说一种高度传染性的病毒正在[Root.GetName]传播。其特征是高烧、流鼻涕、喉咙痛、关节疼痛、头痛、咳嗽和疲劳，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+
+ AN_disease.7.t: "沙门氏菌疫情在[Root.GetName]"
+ AN_disease.7.d: "有传言说一种反复发作的感染正在[Root.GetName]传播。其特征是腹泻、腹部痉挛、发烧和脱水，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+
+ AN_disease.11.t: "麻疹疫情在[Root.GetName]"
+ AN_disease.11.d: "有传言说一种高度传染性的病毒正在[Root.GetName]传播。其特征是皮肤上出现红色皮疹和高烧，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+
+ AN_disease.12.t: "鼠疫疫情在[Root.GetName]"
+ AN_disease.12.d: "有传言说一种传染性细菌感染正在[Root.GetName]传播。其特征是黑色和肿胀的淋巴结——称为肿块——以及发烧和呕吐，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+
+ AN_disease.13.t: "黄热病疫情在[Root.GetName]"
+ AN_disease.13.d: "有传言说一种由蚊子传播的病毒正在[Root.GetName]传播。其特征是失控的出血和肝衰竭，导致皮肤变黄，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+
+ AN_disease.14.t: "天花疫情在[Root.GetName]"
+ AN_disease.14.d: "有传言说一种高度传染性的病毒正在[Root.GetName]传播。其特征是全身出现充满液体的斑点，伴随发烧、严重瘙痒和偶尔失明，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+
+ AN_disease.15.t: "伤寒疫情在[Root.GetName]"
+ AN_disease.15.d: "有传言说一种由寄生虫传播的细菌感染正在[Root.GetName]传播。其特征是突然发烧、黑色皮疹、对光敏感和谵妄，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+
+ AN_disease.16.t: "流感疫情在[Root.GetName]"
+ AN_disease.16.d: "有传言说一种高度传染性的病毒正在[Root.GetName]传播。其特征是高烧、流鼻涕、喉咙痛、关节疼痛、头痛、咳嗽和疲劳，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+
+ AN_disease.17.t: "沙门氏菌疫情在[Root.GetName]"
+ AN_disease.17.d: "有传言说一种反复发作的感染正在[Root.GetName]传播。其特征是腹泻、腹部痉挛、发烧和脱水，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+
+ AN_disease.18.t: "霍乱疫情在[Root.GetName]"
+ AN_disease.18.d: "有传言说一种迅速复发的感染正在[Root.GetName]传播。其特征是剧烈腹泻和严重脱水，可能在数小时内导致死亡，眼睛凹陷、皮肤发冷发蓝也可能出现。通过不安全的食物和被人类粪便污染的水传播的细菌感染。"
+ AN_disease.18.a: "我们还能做什么呢，除了适应？"
+
+ AN_disease.19.t: "疟疾疫情在[Root.GetName]"
+ AN_disease.19.d: "有传言说一种高度传染性的蚊子传播寄生虫正在[Root.GetName]传播。其特征是发烧、疲劳、肝衰竭、癫痫发作和偶尔昏迷，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+ AN_disease.19.a: "我们还能做什么呢，除了适应？"
+
+ AN_disease.20.t: "登革热疫情在[Root.GetName]"
+ AN_disease.20.d: "有传言说一种高度传染性的蚊子传播病毒正在[Root.GetName]传播。其特征是发烧、呕吐、脱水、头痛、关节疼痛和失控的出血，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+ AN_disease.20.a: "我们还能做什么呢，除了适应？"
+
+ AN_disease.21.t: "美洲天花疫情在[Root.GetName]"
+ AN_disease.21.d: "有传言说一种灾难性的疾病正在[Root.GetName]传播。包括麻疹、鼠疫、天花、伤寒、流感、沙门氏菌和疟疾在内的多种疾病，由于当地人口几乎没有自然免疫力，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+ AN_disease.21.a: "我们还能做什么呢，除了适应？"
+
+ AN_disease.22.t: "太平洋天花疫情在[Root.GetName]"
+ AN_disease.22.d: "有传言说一种灾难性的疾病正在[Root.GetName]传播。包括麻疹、鼠疫、天花、伤寒、流感、沙门氏菌和疟疾在内的多种疾病，由于当地人口几乎没有自然免疫力，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+ AN_disease.22.a: "我们还能做什么呢，除了适应？"
+
+ AN_disease.23.t: "大痘疫情在[Root.GetName]"
+ AN_disease.23.d: "有传言说一种性传播疾病在[Root.GetName]迅速传播。由于症状和死亡原因差异很大，许多病例可能被忽视，给当地居民带来了巨大的痛苦。我们是应该对该省进行检疫以试图遏制传播，还是让疾病按其应有的方式发展？"
+ AN_disease.23.a: "我们还能做什么呢，除了适应？"
+
+ ##########
+
+ famine.1.t: "饥荒在[Root.GetName]"
+ famine.1.d: "由于全省粮食短缺，[Root.GetName]的人民正在挨饿。要么是超出土地支持的人口承载能力，要么是粮食生产持续不足，反正就是没有足够的食物供每个人享用。此外，省内富有的居民已经开始出售他们的财物，以换取微薄的食物。"
+ famine.1.a: "饥饿的折磨不是人所能忍受的..."
+ famine.1.b: "这场饥荒变得更糟了。"
+
+
+ famine.2.t: "饥荒恢复在[Root.GetName]"
+ famine.2.d: "<LOCALIZATION PENDING>"
+ famine.2.a: "从饥荒中恢复需要时间..."
+
+ #Raze
+ AN_raze.1.t: "[raze_target.GetName] 被占领"
+ AN_raze.1.desc: "Lorem Ipsum"
+ AN_raze.1.a: "和平占领"
+ AN_raze.1.b: "掠夺它！"
+ AN_raze.1.c: "洗劫它！"
+
+ #Straits
+ #Palk Strait
+ #Palk Strait
+ IR_strait.1.t: "拉玛桥的毁灭"
+ IR_strait.1.d: "自古以来，兰卡通过一座名为拉玛塞图的脆弱陆桥与印度相连。正如古老的《罗摩衍那》文本中所描述的，拉玛在猿人军队的帮助下建造了这座桥，以拯救他的妻子西塔免受罗刹王的囚禁。\n\n尽管它看起来一直很坚固，但最近的一场飓风摧毁了它，形成了新的帕尔克海峡——将锡兰与亚洲分开。"
+ IR_strait.1.a: "不可思议。"
+ IR_strait.1.b: "加固它！"
+
+ IR_strait.2.t: "在锡兰建一条运河？"
+ IR_strait.2.d: "尽管在几个世纪以来，它一直受到飓风和洪水的威胁，但拉玛塞图始终保持着印度和兰卡之间的联系。然而，我们朝廷中有些人贪婪地盯上了过往商船，认为在桥上修建一条运河将使曼纳尔成为一个战略和商业枢纽。然而，建造这条运河的费用无疑是巨大的..."
+ IR_strait.2.a: "我们必须立即开始建设！"
+ IR_strait.2.b: "相反，庆祝拉玛塞图的传奇。"
+
+
+ IR_strait.1_tooltip: "§YPalk Strait§! 被创建 - 连接曼纳尔湾和科罗曼德尔海岸。"
+ IR_strait.2_tooltip: "§YRama Setu§! 被加固 - 防止海峡的形成。"
+ IR_strait.3_tooltip: "§YPalk Strait§! 在§YRama Setu§! 上建造 - 连接曼纳尔湾和科罗曼德尔海岸。"
+
+
+ palk_strait_title: "帕尔克海峡"
+ palk_strait: "帕尔克海峡"
+ great_project_palk_strait: "帕尔克海峡"
+
+
+#old desc for hidden events
+
+ colony_cleanup.t: "殖民地扩展到新土地"
+ colony_cleanup.d: "我们的殖民地正在扩展到一个不属于它的新殖民区域。我们可以合并这些新省份以创建一个新殖民地，或者允许它们保留这些省份并扩大..."
+ colony_cleanup.a: "合并这些省份以创建一个新殖民地。"
+ colony_cleanup.b: "允许殖民地保留这些省份。"
+
+
+ soft_wasteland.2.t: "适合殖民的孤立土地"
+ soft_wasteland.2.d: "由于军事和医疗技术的进步，曾经对我们来说不可能探索和殖民的土地已经有效地向我们开放！"
+ soft_wasteland.2.a: "探索这些未知的土地！"
+
+ soft_wasteland.3.t: "适合殖民的偏远土地"
+ soft_wasteland.3.d: "由于军事和医疗技术的进步，曾经对我们来说不可能探索和殖民的土地已经有效地向我们开放！"
+ soft_wasteland.3.a: "探索这些未知的土地！"
+
+ soft_wasteland.4.t: "适合殖民的荒凉土地"
+ soft_wasteland.4.d: "由于军事和医疗技术的进步，曾经对我们来说不可能探索和殖民的土地已经有效地向我们开放！"
+ soft_wasteland.4.a: "探索这些未知的土地！"
+
+ #colony buysell
+ colony_buysell.10.t: "出售殖民资产的提议"
+ colony_buysell.10.d: "[From.GetName] 提出了购买我们部分殖民资产的提议。我们应该出售它们吗？如果出售，我们要价多少？"
+ colony_buysell.10.a: "以微不足道的价格出售这些省份。 "
+ colony_buysell.10.b: "以低廉的价格出售这些省份。"
+ colony_buysell.10.c: "以适中的价格出售这些省份。"
+ colony_buysell.10.d1: "以高价出售这些省份。"
+ colony_buysell.10.e: "以过高的价格出售这些省份。"
+ colony_buysell.10.f: "我们对出售不感兴趣。"
+
+ colony_buysell.12.t: "[From.GetName] 提出了微不足道的价格"
+ colony_buysell.12.d: "[From.GetName] 提出了以微不足道的价格出售其殖民资产的提议。"
+ colony_buysell.12.a: "支付微不足道的价格。"
+ colony_buysell.12.b: "拒绝该提议。"
+
+ colony_buysell.13.t: "[From.GetName] 提出了低廉的价格"
+ colony_buysell.13.d: "[From.GetName] 提出了以低廉的价格出售其殖民资产的提议。"
+ colony_buysell.13.a: "支付低廉的价格。"
+ colony_buysell.13.b: "拒绝该提议。"
+
+ colony_buysell.14.t: "[From.GetName] 提出了适中的价格"
+ colony_buysell.14.d: "[From.GetName] 提出了以适中的价格出售其殖民资产的提议。"
+ colony_buysell.14.a: "支付适中的价格。"
+ colony_buysell.14.b: "拒绝该提议。"
+
+ colony_buysell.15.t: "[From.GetName] 提出了高价"
+ colony_buysell.15.d: "[From.GetName] 提出了以高价出售其殖民资产的提议。"
+ colony_buysell.15.a: "支付高价。"
+ colony_buysell.15.b: "拒绝该提议。"
+
+ colony_buysell.16.t: "[From.GetName] 提出了过高的价格"
+ colony_buysell.16.d: "[From.GetName] 提出了以过高的价格出售其殖民资产的提议。"
+ colony_buysell.16.a: "支付过高的价格。"
+ colony_buysell.16.b: "拒绝该提议。"
+
+ colony_buysell.17.t: "[From.GetName] 接受我们的交易"
+ colony_buysell.17.d: "[From.GetName] 已接受我们对其殖民资产的报价，并已接管其新领土。"
+ colony_buysell.17.a: "金钱比这些省份更有价值。"
+
+
+ colony_buysell.18.t: "[From.GetName] 拒绝我们的交易"
+ colony_buysell.18.d: "[From.GetName] 拒绝了我们对其殖民资产的报价。"
+ colony_buysell.18.a: "令人失望。"
+
+
+ colony_buysell.back: "返回"
+ colony_buysell.exit: "退出"
+ colony_buysell.yes1: "请求一个合适的价格来购买殖民地。"
+
+
+ colony_buysell.300.t: "殖民地收购"
+ colony_buysell.300.d: "您想购买哪些殖民资产？"
+ colony_buysell.300.a: "北美"
+ colony_buysell.300.b: "南美"
+ colony_buysell.300.c: "大洋洲"
+ # colony_buysell.300.d1: "非洲"
+ # colony_buysell.300.e: "亚洲"
+ colony_buysell.301.t: "北美殖民地"
+ colony_buysell.301.d: "您想在北美购买哪些殖民资产？"
+ colony_buysell.301.a: "阿拉斯加"
+ colony_buysell.301.b: "育空"
+ colony_buysell.301.c: "哈德逊湾"
+ colony_buysell.301.d1: "格林兰"
+ colony_buysell.301.e: "哥伦比亚"
+ colony_buysell.301.f: "阿尔伯塔"
+ colony_buysell.301.g: "温尼伯"
+ colony_buysell.301.h: "安大略"
+ colony_buysell.301.i: "魁北克"
+ colony_buysell.301.j: "纽芬兰"
+ colony_buysell.301.k: "俄勒冈"
+ colony_buysell.301.l: "达科他"
+ colony_buysell.301.m: "俄亥俄"
+ colony_buysell.301.n: "阿卡迪亚"
+ colony_buysell.301.o: "新英格兰"
+ colony_buysell.301.p: "新阿姆斯特丹"
+ colony_buysell.301.q: "宾夕法尼亚"
+ colony_buysell.301.r: "新瑞典"
+ colony_buysell.301.s: "马里兰"
+ colony_buysell.301.t: "弗吉尼亚"
+ colony_buysell.301.u: "卡罗来纳"
+ colony_buysell.301.v: "乔治亚"
+ colony_buysell.301.w: "佛罗里达"
+ colony_buysell.301.x: "路易斯安那"
+ colony_buysell.301.y: "德克萨斯"
+ colony_buysell.301.z: "加利福尼亚"
+ colony_buysell.301.a1: "德萨雷特"
+ colony_buysell.301.b1: "亚利桑那"
+ colony_buysell.301.c1: "科阿韦拉"
+ colony_buysell.301.d2: "杜兰戈"
+ colony_buysell.301.e1: "墨西哥"
+ colony_buysell.301.f1: "哈利斯科"
+ colony_buysell.301.g1: "尤卡坦"
+ colony_buysell.301.h1: "危地马拉"
+ colony_buysell.301.i1: "古巴"
+ colony_buysell.301.j1: "海地"
+ colony_buysell.301.k1: "密西西比"
+ colony_buysell.301.l1: "坎伯兰"
+ #south america
+ colony_buysell.302.t: "南美洲殖民地"
+ colony_buysell.302.d: "您想在南美购买哪些殖民资产？"
+ colony_buysell.302.a: "哥伦比亚"
+ colony_buysell.302.b: "圭亚那"
+ colony_buysell.302.c: "秘鲁"
+ colony_buysell.302.d1: "亚马逊"
+ colony_buysell.302.e: "伯南布哥"
+ colony_buysell.302.f: "巴伊亚"
+ colony_buysell.302.g: "里约热内卢"
+ colony_buysell.302.h: "中巴西利亚高原"
+ colony_buysell.302.i: "圣文森特"
+ colony_buysell.302.j: "里约格朗德"
+ colony_buysell.302.k: "乌拉圭"
+ colony_buysell.302.l: "玻利维亚"
+ colony_buysell.302.m: "智利"
+ colony_buysell.302.n: "巴拉圭"
+ colony_buysell.302.o: "拉普拉塔"
+ colony_buysell.302.p: "马拉尼昂"
+ colony_buysell.302.q: "巴塔哥尼亚"
+ #oceania
+ colony_buysell.303.t: "大洋洲殖民地"
+ colony_buysell.303.d: "您想在大洋洲购买哪些殖民资产？"
+ colony_buysell.303.a: "澳大利亚"
+ colony_buysell.303.b: "新西兰"
+ #North America
+ colony_buysell.310.t: "购买阿拉斯加？"
+ colony_buysell.310.d: "您想确认将阿拉斯加的殖民地作为您想购买的资产吗？"
+ colony_buysell.311.t: "购买育空？"
+ colony_buysell.311.d: "您想确认将育空的殖民地作为您想购买的资产吗？"
+ colony_buysell.312.t: "购买哈德逊湾？"
+ colony_buysell.312.d: "您想确认将哈德逊湾的殖民地作为您想购买的资产吗？"
+ colony_buysell.313.t: "购买格林兰？"
+ colony_buysell.313.d: "您想确认将格林兰的殖民地作为您想购买的资产吗？"
+ colony_buysell.314.t: "购买哥伦比亚？"
+ colony_buysell.314.d: "您想确认将哥伦比亚的殖民地作为您想购买的资产吗？"
+ colony_buysell.315.t: "购买阿尔伯塔？"
+ colony_buysell.315.d: "您想确认将阿尔伯塔的殖民地作为您想购买的资产吗？"
+ colony_buysell.316.t: "购买温尼伯？"
+ colony_buysell.316.d: "您想确认将温尼伯的殖民地作为您想购买的资产吗？"
+ colony_buysell.317.t: "购买安大略？"
+ colony_buysell.317.d: "您想确认将安大略的殖民地作为您想购买的资产吗？"
+ colony_buysell.318.t: "购买魁北克？"
+ colony_buysell.318.d: "您想确认将魁北克的殖民地作为您想购买的资产吗？"
+ colony_buysell.319.t: "购买纽芬兰？"
+ colony_buysell.319.d: "您想确认将纽芬兰的殖民地作为您想购买的资产吗？"
+ colony_buysell.320.t: "购买俄勒冈？"
+ colony_buysell.320.d: "您想确认将俄勒冈的殖民地作为您想购买的资产吗？"
+ colony_buysell.321.t: "购买达科他？"
+ colony_buysell.321.d: "您想确认将达科他的殖民地作为您想购买的资产吗？"
+ colony_buysell.322.t: "购买俄亥俄？"
+ colony_buysell.322.d: "您想确认将俄亥俄的殖民地作为您想购买的资产吗？"
+ colony_buysell.323.t: "购买阿卡迪亚？"
+ colony_buysell.323.d: "您想确认将阿卡迪亚的殖民地作为您想购买的资产吗？"
+ colony_buysell.324.t: "购买新英格兰？"
+ colony_buysell.324.d: "您想确认将新英格兰的殖民地作为您想购买的资产吗？"
+ colony_buysell.325.t: "购买新阿姆斯特丹？"
+ colony_buysell.325.d: "您想确认将新阿姆斯特丹的殖民地作为您想购买的资产吗？"
+ colony_buysell.326.t: "购买宾夕法尼亚？"
+ colony_buysell.326.d: "您想确认将宾夕法尼亚的殖民地作为您想购买的资产吗？"
+ colony_buysell.327.t: "购买新瑞典？"
+ colony_buysell.327.d: "您想确认将新瑞典的殖民地作为您想购买的资产吗？"
+ colony_buysell.328.t: "购买马里兰？"
+ colony_buysell.328.d: "您想确认将马里兰的殖民地作为您想购买的资产吗？"
+ colony_buysell.329.t: "购买弗吉尼亚？"
+ colony_buysell.329.d: "您想确认将弗吉尼亚的殖民地作为您想购买的资产吗？"
+ colony_buysell.330.t: "购买卡罗来纳？"
+ colony_buysell.330.d: "您想确认将卡罗来纳的殖民地作为您想购买的资产吗？"
+ colony_buysell.331.t: "购买乔治亚？"
+ colony_buysell.331.d: "您想确认将乔治亚的殖民地作为您想购买的资产吗？"
+ colony_buysell.332.t: "购买佛罗里达？"
+ colony_buysell.332.d: "您想确认将佛罗里达的殖民地作为您想购买的资产吗？"
+ colony_buysell.333.t: "购买路易斯安那？"
+ colony_buysell.333.d: "您想确认将路易斯安那的殖民地作为您想购买的资产吗？"
+ colony_buysell.334.t: "购买德克萨斯？"
+ colony_buysell.334.d: "您想确认将德克萨斯的殖民地作为您想购买的资产吗？"
+ colony_buysell.335.t: "购买加利福尼亚？"
+ colony_buysell.335.d: "您想确认将加利福尼亚的殖民地作为您想购买的资产吗？"
+ colony_buysell.336.t: "购买德萨雷特？"
+ colony_buysell.336.d: "您想确认将德萨雷特的殖民地作为您想购买的资产吗？"
+ colony_buysell.337.t: "购买亚利桑那？"
+ colony_buysell.337.d: "您想确认将亚利桑那的殖民地作为您想购买的资产吗？"
+ colony_buysell.338.t: "购买科阿韦拉？"
+ colony_buysell.338.d: "您想确认将科阿韦拉的殖民地作为您想购买的资产吗？"
+ colony_buysell.339.t: "购买杜兰戈？"
+ colony_buysell.339.d: "您想确认将杜兰戈的殖民地作为您想购买的资产吗？"
+ colony_buysell.340.t: "购买墨西哥？"
+ colony_buysell.340.d: "您想确认将墨西哥的殖民地作为您想购买的资产吗？"
+ colony_buysell.341.t: "购买哈利斯科？"
+ colony_buysell.341.d: "您想确认将哈利斯科的殖民地作为您想购买的资产吗？"
+ colony_buysell.342.t: "购买尤卡坦？"
+ colony_buysell.342.d: "您想确认将尤卡坦的殖民地作为您想购买的资产吗？"
+ colony_buysell.343.t: "购买危地马拉？"
+ colony_buysell.343.d: "您想确认将危地马拉的殖民地作为您想购买的资产吗？"
+ colony_buysell.344.t: "购买古巴？"
+ colony_buysell.344.d: "您想确认将古巴的殖民地作为您想购买的资产吗？"
+ colony_buysell.345.t: "购买海地？"
+ colony_buysell.345.d: "您想确认将海地的殖民地作为您想购买的资产吗？"
+ colony_buysell.346.t: "购买密西西比？"
+ colony_buysell.346.d: "您想确认将密西西比的殖民地作为您想购买的资产吗？"
+ colony_buysell.347.t: "购买坎伯兰？"
+ colony_buysell.347.d: "您想确认将坎伯兰的殖民地作为您想购买的资产吗？"
+
+#south America
+ colony_buysell.350.t: "购买哥伦比亚？"
+ colony_buysell.350.d: "您想确认将哥伦比亚的殖民地作为您想购买的资产吗？"
+ colony_buysell.351.t: "购买圭亚那？"
+ colony_buysell.351.d: "您想确认将圭亚那的殖民地作为您想购买的资产吗？"
+ colony_buysell.352.t: "购买秘鲁？"
+ colony_buysell.352.d: "您想确认将秘鲁的殖民地作为您想购买的资产吗？"
+ colony_buysell.353.t: "购买亚马逊？"
+ colony_buysell.353.d: "您想确认将亚马逊的殖民地作为您想购买的资产吗？"
+ colony_buysell.354.t: "购买伯南布哥？"
+ colony_buysell.354.d: "您想确认将伯南布哥的殖民地作为您想购买的资产吗？"
+ colony_buysell.355.t: "购买巴伊亚？"
+ colony_buysell.355.d: "您想确认将巴伊亚的殖民地作为您想购买的资产吗？"
+ colony_buysell.356.t: "购买里约热内卢？"
+ colony_buysell.356.d: "您想确认将里约热内卢的殖民地作为您想购买的资产吗？"
+ colony_buysell.357.t: "购买中巴西利亚高原？"
+ colony_buysell.357.d: "您想确认将中巴西利亚高原的殖民地作为您想购买的资产吗？"
+ colony_buysell.358.t: "购买圣文森特？"
+ colony_buysell.358.d: "您想确认将圣文森特的殖民地作为您想购买的资产吗？"
+ colony_buysell.359.t: "购买里约格朗德？"
+ colony_buysell.359.d: "您想确认将里约格朗德的殖民地作为您想购买的资产吗？"
+ colony_buysell.360.t: "购买乌拉圭？"
+ colony_buysell.360.d: "您想确认将乌拉圭的殖民地作为您想购买的资产吗？"
+ colony_buysell.361.t: "购买玻利维亚？"
+ colony_buysell.361.d: "您想确认将玻利维亚的殖民地作为您想购买的资产吗？"
+ colony_buysell.362.t: "购买智利？"
+ colony_buysell.362.d: "您想确认将智利的殖民地作为您想购买的资产吗？"
+ colony_buysell.363.t: "购买巴拉圭？"
+ colony_buysell.363.d: "您想确认将巴拉圭的殖民地作为您想购买的资产吗？"
+ colony_buysell.364.t: "购买拉普拉塔？"
+ colony_buysell.364.d: "您想确认将拉普拉塔的殖民地作为您想购买的资产吗？"
+ colony_buysell.365.t: "购买马拉尼昂？"
+ colony_buysell.365.d: "您想确认将马拉尼昂的殖民地作为您想购买的资产吗？"
+ colony_buysell.366.t: "购买巴塔哥尼亚？"
+ colony_buysell.366.d: "您想确认将巴塔哥尼亚的殖民地作为您想购买的资产吗？"
+
+ #trade goods trade - needs desc
+ IR_trade_goods.1.t: "谷物贸易"
+ IR_trade_goods.1.d: "部分由于边境市场的整合，谷物的种植在我们国家及其以外地区变得可行。"
+ IR_trade_goods.1.a: "谷物现在跨越大陆进行贸易。"
+
+
+ IR_trade_goods.2.t: "糖贸易"
+ IR_trade_goods.2.d: "由于边境市场的整合，糖的种植在我们国家及其以外地区变得可行。"
+ IR_trade_goods.2.a: "糖现在跨越大陆进行贸易。"
+
+
+ IR_trade_goods.3.t: "茶叶贸易"
+ IR_trade_goods.3.d: "由于边境市场的整合，茶叶的种植在我们国家及其以外地区变得可行。"
+ IR_trade_goods.3.a: "茶叶现在跨越大陆进行贸易。"
+
+
+ IR_trade_goods.4.t: "中国贸易"
+ IR_trade_goods.4.d: "由于边境市场的整合，中国的生产在我们国家及其以外地区变得可行。"
+ IR_trade_goods.4.a: "中国现在跨越大陆进行贸易。"
+
+
+ IR_trade_goods.5.t: "咖啡贸易"
+ IR_trade_goods.5.d: "由于边境市场的整合，咖啡的种植在我们国家及其以外地区变得可行。"
+ IR_trade_goods.5.a: "咖啡现在跨越大陆进行贸易。"
+
+
+ IR_trade_goods.6.t: "烟草贸易"
+ IR_trade_goods.6.d: "由于边境市场的整合，烟草的种植在我们国家及其以外地区变得可行。"
+ IR_trade_goods.6.a: "烟草现在跨越大陆进行贸易。"
+
+
+ IR_trade_goods.7.t: "可可贸易"
+ IR_trade_goods.7.d: "由于边境市场的整合，可可的种植在我们国家及其以外地区变得可行。"
+ IR_trade_goods.7.a: "可可现在跨越大陆进行贸易。"
+
+
+ IR_trade_goods.8.t: "丝绸贸易"
+ IR_trade_goods.8.d: "由于边境市场的整合，丝绸的生产在我们国家及其以外地区变得可行。"
+ IR_trade_goods.8.a: "丝绸现在跨越大陆进行贸易。"
+
+
+ IR_trade_goods.9.t: "大米贸易"
+ IR_trade_goods.9.d: "由于边境市场的整合，大米的种植在我们国家及其以外地区变得可行。"
+ IR_trade_goods.9.a: "大米现在跨越大陆进行贸易。"
+
+
+ IR_trade_goods.10.t: "土豆贸易"
+ IR_trade_goods.10.d: "由于边境市场的整合，土豆的种植在我们国家及其以外地区变得可行。"
+ IR_trade_goods.10.a: "土豆现在跨越大陆进行贸易。"
+
+
+ IR_trade_goods.11.t: "玉米贸易"
+ IR_trade_goods.11.d: "由于边境市场的整合，玉米的种植在我们国家及其以外地区变得可行。"
+ IR_trade_goods.11.a: "玉米现在跨越大陆进行贸易。"
+
+
+ IR_trade_goods.12.t: "小米贸易"
+ IR_trade_goods.12.d: "由于边境市场的整合，小米的种植在我们国家及其以外地区变得可行。"
+ IR_trade_goods.12.a: "小米现在跨越大陆进行贸易。"
+
+
+#province buysell
+
+ province_buysell.1.t: "购买法属南方？"
+ province_buysell.1.d: "尽管葡萄牙正在尝试殖民巴西，但法国在其面前建立了一个小型殖民地。我们在征服这片土地之前，最好先提出购买请求。"
+ province_buysell.1.a: "提议购买法属南方。"
+ province_buysell.1.b: "这不值得付出努力。"
+
+
+ province_buysell.2.t: "葡萄牙提出购买法属南方"
+ province_buysell.2.d: "葡萄牙人提出购买我们的巴西殖民地法属南方的提议，我们是否同意？"
+ province_buysell.2.a: "同意出售。"
+ province_buysell.2.b: "拒绝出售。"
+
+
+ province_buysell.3.t: "获得里约热内卢"
+ province_buysell.3.d: "法国同意了我们的条件，准备将殖民地移交给我们。"
+ province_buysell.3.a: "接管该地区的控制权。"
+
+
+ province_buysell.4.t: "法国拒绝出售"
+ province_buysell.4.d: "法国出于某种原因拒绝了我们的提议。"
+ province_buysell.4.a: "我们将通过武力夺取它。"
+
+
+ # notification of seizure
+
+ IR_seize.1.t: "被[From.GetName]没收"
+ IR_seize.1.d: "来自[From.GetName]的特使提出了一项协议，要求没收他们现在控制的土地。然而，立即结束这场冲突可能是更明智的选择。"
+ IR_seize.1.a: "如果这就是和平的代价。"
+ #IR_seize.1.b: "The [From.GetAdjective] administration is collapses!"
+ IR_seize.1.c: "永不！继续战斗！"
+
+ IR_seize.2.t: "The [From.GetAdjective] Response"
+ IR_seize.2.d1: "[From.GetName] 同意。"
+ #IR_seize.2.d2: "[From.GetName] 拒绝。"
+ IR_seize.2.d3: "[From.GetName] 崩溃。"
+ IR_seize.2.a: "暂时的和平！"
+ IR_seize.2.b: "一个权力真空即将形成..."
+ IR_seize.2.c: "我们的事实控制赋予我们在和平谈判中的合法性。"
+
+
+ orion_seize.1.t: "外国人占领土地"
+ orion_seize.1.d: "凭借更先进的武器，一股外国势力强行吞并了我们的一个省份。尽管他们已经开始在我们的土地上建设，但我们可以利用这个机会研究他们的技术，为下一次冲突做准备..."
+ orion_seize.1.a: "我们必须找到他们军事力量的秘密，并将他们驱逐。"
+
+ #muscovite civil war - unused
+
+ muscovite_civil_war:0 "莫斯科公国内战"
+ desc_muscovite_civil_war:0 "自1389年以来，瓦西里二世的王位继承权一直存在争议。虽然最初是盟友，但国外的弱点可能会激励德米特里·谢苗卡煽动全面内战的回归。"
+
+ muscovite_civil_war.0.t: "莫斯科的王位危机"
+ muscovite_civil_war.0.d: "1389年，莫斯科大公德米特里·顿斯科伊去世，其子瓦西里一世成为大公。然而，顿斯科伊遗嘱中规定，如果瓦西里夭折，则由瓦西里的兄弟兀鲁克·德米特里耶维奇继承王位。尽管兀鲁克在瓦西里一世统治期间并未构成直接威胁，但随着瓦西里二世的统治开始于1433年，问题开始出现。兀鲁克发起入侵，进入莫斯科并自称大公。但在他突然去世后，瓦西里二世重新控制了莫斯科，并与德米特里·谢苗卡（兀鲁克之子）结盟。加之新成立的喀山汗国的威胁，莫斯科的未来岌岌可危..."
+ muscovite_civil_war.0.a: "莫斯科的动荡时期..."
+
+ muscovite_civil_war.0.tt: "莫斯科必须为冲突做好准备。"
+
+
+ muscovite_civil_war.1.t: "喀山汗国的问题"
+ muscovite_civil_war.1.d: "自喀山汗国成立以来，我们一直渴望收复曾经在鞑靼人统治下的土地。其中一个我们有理由声称的地区是卡西莫夫，目前由莫斯科控制，因为大多数居民仍与我们信仰相同。随着莫斯科内战的爆发，重新夺回这些土地的机会再次出现，因为瓦西里二世的统治变得脆弱。"
+ muscovite_civil_war.1.a: "要求他们割让卡西莫夫！"
+ muscovite_civil_war.1.b: "我们还有更紧迫的事务..."
+ muscovite_civil_war.1.tt: "如果莫斯科拒绝我们的要求，我们将宣战。"
+
+
+ muscovite_civil_war.2.t: "喀山要求卡西莫夫"
+ muscovite_civil_war.2.d: "昨天，我们收到了喀山可汗的信，要求我们将“喀山汗国”的领土割让给他们。他们还警告我们，如果不遵守，他们将以战争回应。我们该怎么办，$MONARCHTITLE$？"
+ muscovite_civil_war.2.a: "拒绝割让土地！"
+ muscovite_civil_war.2.b: "同意他们的要求。"
+
+
+ muscovite_civil_war.3.t: "喀山同意和平"
+ muscovite_civil_war.3.d: "我们静静等待喀山可汗不可避免的宣战，随着紧张局势再次升级。然而，在一次外交上的意外举动中，可汗誓言不攻击我们——至少现在不会。至于这是否与他们可能面临的其他冲突有关，仍然是个谜，但这一发展将使莫斯科更好地集中精力于内部稳定。"
+ muscovite_civil_war.3.a: "让这成为所有希望利用我们弱点的国家的教训。"
+
+
+ muscovite_civil_war.4.t: "莫斯科拒绝我们的要求"
+ muscovite_civil_war.4.d: "令我们愤怒的是，莫斯科公然拒绝了我们要求将卡西莫夫割让给我们的要求。不可避免地，我们必须遵守我们的承诺，宣战。"
+ muscovite_civil_war.4.a: "他们知道会发生什么..."
+
+ muscovite_civil_war.5.t: "莫斯科接受我们的要求"
+ muscovite_civil_war.5.d: "尽管我们认为莫斯科会为卡西莫夫而战，但我们没想到他们会屈服于我们的要求。因此，我们收回了属于鞑靼人的卡西莫夫领土。然而，我们现在面临着如何处理新征服领土的任务，我们的儿子卡西姆汗渴望拥有这个新汗国，同时保持对我们的宗主国身份。"
+ muscovite_civil_war.5.a: "允许卡西姆汗国控制该地区。"
+ muscovite_civil_war.5.b: "为可汗本人夺取领土！"
+
+ muscovite_civil_war.6.t: "瓦西里二世被喀山俘获"
+ muscovite_civil_war.6.d: "在喀山的鞑靼军队发动的突然袭击中，瓦西里二世被俘。鞑靼人还俘获了几位莫斯科贵族，这有效地摧毁了莫斯科军队的士气。在瓦西里二世缺席的情况下，摄政时期的阴影笼罩着莫斯科。\n     \n瓦西里二世的前盟友德米特里·谢苗卡向仍在莫斯科土地上的贵族提议，由他作为摄政王统治，直到瓦西里二世归来，理由是他是由兀鲁克·德米特里耶维奇后裔的合法继承人。然而，现有贵族在支持瓦西里二世和德米特里·谢苗卡之间意见分歧。瓦西里二世的某些支持者认为，这可能对现有的继承顺序产生不利影响，并可能导致德米特里·谢苗卡的有效政变。"
+ muscovite_civil_war.6.a: "选举德米特里·谢苗卡为摄政王"
+ muscovite_civil_war.6.b: "专注于赎回合法国王！"
+
+ muscovite_civil_war.7.t: "瓦西里二世的赎金"
+ muscovite_civil_war.7.d: "在意外被俘后，我们面临着一个选择，要么以巨额赎金释放瓦西里二世，要么让他在鞑靼人的监狱中度过余生。但是，如果我们没有足够的资金支付赎金，情况可能会变得复杂，特别是如果我们准备陷入赤字的话..."
+ muscovite_civil_war.7.a: "提议赎回瓦西里二世！"
+ muscovite_civil_war.7.a.tt: "我们将向喀山可汗提供§Y200§!金币以赎回瓦西里二世。"
+ muscovite_civil_war.7.b: "呃，留下他吧。"
+ muscovite_civil_war.7.b.tt: "我们将没有机会释放瓦西里二世。"
+
+ muscovite_civil_war.8.t: "盲目的愤怒"
+ muscovite_civil_war.8.d: "经过与喀山汗国的广泛谈判，瓦西里二世的安全返回已最终安排妥当。随后，摄政王德米特里·谢苗卡命令将瓦西里带到他面前，剥夺了他的王位，并将他流放到沃洛格达。"
+ muscovite_civil_war.8.a: "希望瓦西里不会举起武器。"
+
+ muscovite_civil_war.9.t: "德米特里·谢苗卡叛乱"
+ muscovite_civil_war.9.d: "德米特里·谢苗卡利用莫斯科内部的不稳定局势，发起了针对我们统治的叛乱，声称自己拥有莫斯科王位！他设法在我们国家内聚集了支持者，并率领一支大军向首都进发，整个公国面临被吞并的风险。"
+ muscovite_civil_war.9.a: "有其父必有其子..."
+
+ muscovite_civil_war.10.t: "内战的蔓延"
+ muscovite_civil_war.10.d: "莫斯科[Root.GetName]的显赫贵族已加入叛乱，并举起武器反对我们。"
+
+ muscovite_civil_war.11.t: "喀山与莫斯科的和平"
+ muscovite_civil_war.11.d: "在瓦西里与谢苗卡之间的冲突结束后，莫斯科、喀山和卡西莫夫的控制权已得到确认，关于卡西莫夫的领土争议也已解决。"
+ muscovite_civil_war.11.a: "莫斯科战胜鞑靼人！"
+ muscovite_civil_war.11.b: "喀山为卡西莫夫赢得了领土！"
+ muscovite_civil_war.11.c: "喀山将卡西莫夫的领土据为己有！"
+
+ muscovite_civil_war.12.t: "瓦西里试图夺回王位"
+ muscovite_civil_war.12.d: "在被俘、赎回、羞辱、失明和被迫放弃王位后，沃洛格达的地方神职人员解除对瓦西里王子的誓言，他举起军队试图夺回自己应得的王位。"
+ muscovite_civil_war.12.a: "合法国王！处理掉这个冒名顶替者！"
+ muscovite_civil_war.12.b: "反对这个盲目而年迈的傻瓜。"
+
+
+ muscovite_civil_war.100.t: "莫斯科王位继承问题解决"
+ muscovite_civil_war.100.d: "随着瓦西里和谢苗卡之间的敌对行动结束，王位继承问题再次明确，王国终于恢复了和平。现在，莫斯科的继承权不再受到质疑，新国王统一了莫斯科公国。"
+ muscovite_civil_war.100.a: "瓦西里二世的血脉得以延续！"
+ muscovite_civil_war.100.b: "德米特里·谢苗卡的血脉得以延续！"
+
+
+ #Castile
+ IR_flavor_SPA.1.t: "一次必要的再婚"
+ IR_flavor_SPA.1.d: "在过去的四天里，玛丽亚女王和她的妹妹埃莱奥诺拉女王都经历了剧烈的头痛、紫色风疹的出现，然后是迅速的死亡。由于死亡的可疑性质和时机，许多人指责国王的宠臣阿尔瓦罗·德·卢纳下毒。\n\n然而，除了对嫉妒的朝臣的传言外，关于这些无稽之谈的证据很少。因此，德·卢纳对[Root.Monarch.GetName]的操控仍在继续，他建议与年轻的葡萄牙贵族联姻..."
+ IR_flavor_SPA.1.a: "与葡萄牙的伊莎贝拉·德·阿维斯结婚！"
+
+ IR_flavor_SPA.2.t: "惊人的背叛"
+ IR_flavor_SPA.2.d: "阿尔瓦罗·德·卢纳一直是[Root.Monarch.GetName]的可信赖顾问。当玛丽亚女王在可疑情况下去世时，国王挥手拒绝了对毒药的指控，继续听从德·卢纳的建议，与伊莎贝拉·德·阿维斯再婚。\n\n伊莎贝拉开始对[Root.Monarch.GetName]的决策施加越来越多的影响，从而取代了德·卢纳的政治影响力。因此，当伊莎贝拉开始表达对德·卢纳可能毒害她的恐惧时，德·卢纳的嫌疑加重。\n\n国王的会计师阿隆索·佩雷斯·德·维韦罗代表伊莎贝拉故意侮辱德·卢纳，后者选择无视他。在复活节前夕，德·卢纳和佩雷斯在布尔戈斯的城堡中，德·卢纳发现信中安排他在下次委员会会议上被谋杀。然而，德·卢纳要求佩雷斯说出第一封信的写信人，结果被告知是国王，但第二封信是佩雷斯的笔迹。德·卢纳于是将佩雷斯从窗户扔了出去，塔楼的一个支柱砸碎了他的头骨，难道这样的行为不该受到惩罚吗！？"
+ IR_flavor_SPA.2.a: "判处阿尔瓦罗·德·卢纳死刑。"
+
+ IR_flavor_SPA.3.t: "阿尔瓦罗·德·卢纳的终结"
+ IR_flavor_SPA.3.d: "由于他被指控的多项罪行，德·卢纳被带到了巴利亚多利德的一个公共广场。经过简易审判，这位前任的权臣跪在了行刑者面前，等待着他的处决。"
+ IR_flavor_SPA.3.a: "砍下他的头！"
+
+ IR_flavor_SPA.4.t: "阿维拉的闹剧"
+ IR_flavor_SPA.4.d: "对国王[Root.Monarch.GetName]和贝尔特朗·德·拉·库瓦的待遇不满，维伦纳侯爵向国王提出了最后通牒。未能达成协议，志同道合的卡斯蒂利亚贵族们决定举行一次象征性的剥夺国王权威的仪式。\n\n在阿维拉的公共广场上，贵族们建造了一个代表[Root.Monarch.GetName]的木制雕像。雕像穿着丧服，戴着国王的皇冠、权杖和宝剑。经过一次公开的弥撒仪式，维伦纳侯爵宣读了一份对国王的指控，包括对穆斯林困境的同情、同性恋以及不是乔安娜公主父亲的指控——使她失去王位继承权。\n\n在演讲结束后，托莱多大主教摘下了皇冠，普拉森西亚伯爵拿走了宝剑，本内文特伯爵拿走了权杖，最后普拉森西亚伯爵的兄弟撕毁了雕像，高呼：“打倒，贱人！”\n\n阴谋者们随后带来了年仅十一岁的阿方索十二世王子，并将其命名为国王，以此作为对贵族联盟的利用。"
+ IR_flavor_SPA.4.a: "多么狡诈的叛徒！"
+
+ IR_flavor_SPA.5.t: "王室的登基"
+ IR_flavor_SPA.5.d: "尽管恩里克最近与他的第一任妻子离婚，但由于他父亲的去世和随之而来的加冕为王，他需要再婚。长期以来的盟友葡萄牙愿意提供乔安娜·德·阿维斯的手，这一提议得到了科尔特斯的迅速支持。因此，恩里克四世和乔安娜共同登基，成为面临贵族重大冲突的王冠统治者。"
+ IR_flavor_SPA.5.a: "愿他们长寿！"
+
+ IR_flavor_SPA.6.t: "维伦纳侯爵"
+ IR_flavor_SPA.6.d: "随着德·卢纳的被消除，新的重要人物开始在卡斯蒂利亚的朝廷中崭露头角。此外，随着王位的转移，[Root.Monarch.GetName]越来越依赖于胡安·帕切科和佩德罗·希龙的建议，并考虑将他们放在更适合他们行政能力的位置上。"
+ IR_flavor_SPA.6.a: "授予帕切科维伦纳的称号"
+
+ IR_flavor_SPA.7.t: "库埃利亚科尔特斯会议"
+ IR_flavor_SPA.7.d: "在最近的科尔特斯会议上，为了避免看起来在穆斯林面前软弱，[Root.Monarch.GetName]呼吁重新征服格拉纳达。是否继续进行这一事业，取决于科尔特斯的意愿。卡斯蒂利亚是否应继续对抗穆斯林的残余势力？"
+ IR_flavor_SPA.7.a: "继续征服！"
+ IR_flavor_SPA.7.b: "试图命令格拉纳达割让直布罗陀"
+
+ IR_flavor_SPA.8.t: "贝尔特朗·德·拉·库瓦"
+ IR_flavor_SPA.8.d: "在帕切科和希龙被任命为政府官员后，[Root.Monarch.GetName]希望通过贵族中的有才华的成员来扩大政府的规模，以此来弥补之前的分裂。最主要的候选人是来自韦尔马的年轻贵族贝尔特朗·德·拉·库瓦。他的许多才能甚至得到了女王的认可。"
+ IR_flavor_SPA.8.a: "任命贝尔特朗·德·拉·库瓦为圣地亚哥骑士团的大宗师"
+
+ IR_flavor_SPA.9.t: "贵族联盟"
+ IR_flavor_SPA.9.d: "尽管参与国家管理的各个贵族相对有才华，但维伦纳侯爵胡安·潘切科对国王恩里克四世所赐予贝尔特朗的礼遇开始感到愤恨。实际上，他开始采取越来越激烈的行动，例如没收已故德·卢纳的资产，以试图取代贝尔特朗日益增长的影响力。\n\n这些行为使更广泛的贵族感到疏远，他们决定组成贵族联盟以反对我们的统治。"
+ IR_flavor_SPA.9.a: "这个贵族联盟可不妙..."
+
+ IR_flavor_SPA.10.t: "贵族联盟寻求阿拉贡的支持"
+ IR_flavor_SPA.10.d: "厌倦了国王[Root.Monarch.GetName]和他的首席大臣维伦纳侯爵对王国的明显管理不善，许多下层贵族聚集在一起，试图反对他们的统治。意识到这可能导致冲突，他们寻求外部仲裁者阿拉贡的支持。"
+ IR_flavor_SPA.10.a: "援助贵族联盟！"
+ IR_flavor_SPA.10.b: "这与我们无关。"
+
+
+ IR_flavor_SPA.11.t: "纳瓦拉的埃莱奥诺拉"
+ IR_flavor_SPA.11.d: "随着她兄弟和姐妹的王位继承权被剥夺，埃莱奥诺拉成为了下一任特拉斯塔马拉王朝的摄政王。她与丈夫住在福瓦，突然间，她的父亲去世，使得她实际上控制了大量的比利牛斯山脉领土。"
+ IR_flavor_SPA.11.a: "统一纳瓦拉和福瓦的王国"
+
+ IR_flavor_SPA.12.t: "与埃莱奥诺拉结盟？"
+ IR_flavor_SPA.12.d: "纳瓦拉的埃莱奥诺拉已经成为潘普洛纳的主要政治人物，实际上将纳瓦拉和福瓦的王国统一在一起。尽管这不符合其他地区大国的利益，但与这个新的比利牛斯山脉参与者结盟可能是有利的，也许最终在法国立足..."
+ IR_flavor_SPA.12.a: "向埃莱奥诺拉提供庇护。"
+ IR_flavor_SPA.12.b: "纳瓦拉的道路是它自己的。"
+
+
+ IR_flavor_SPA.13.t: "巴塞罗那的头衔"
+ IR_flavor_SPA.13.d: "在最近的加泰罗尼亚科尔特斯会议上，新任巴塞罗那伯爵已被决定。科尔特斯对此事的介入并不常见，但他们裁定将这一头衔授予附近的一位主要贵族..."
+ IR_flavor_SPA.13.a: "[CAS.Monarch.GetName] of Castile"
+ IR_flavor_SPA.13.b: "[ARA.Monarch.GetName] of Aragon"
+
+ IR_flavor_SPA.14.t: "贿赂和雇佣军"
+ IR_flavor_SPA.14.d: "随着巴塞罗那伯爵头衔的悬而未决，这是一个前所未有的机会。尽管科尔特斯可能反应冷淡，但他们往往会对金钱和强硬手段如贿赂和雇佣军做出反应... "
+ IR_flavor_SPA.14.a: "不惜一切代价争夺这个头衔！"
+ IR_flavor_SPA.14.b: "谁，我？"
+
+ IR_flavor_SPA.15.t: "科尔特斯决定伯爵"
+ IR_flavor_SPA.15.d: "毫无疑问，通过不道德的手段，科尔特斯已经决定了谁应该被授予巴塞罗那伯爵的头衔。尽管已经有人指责投票受到金钱和强硬手段的影响。 "
+ IR_flavor_SPA.15.b: "[CAS.Monarch.GetName] of Castile"
+ IR_flavor_SPA.15.a: "[ARA.Monarch.GetName] of Aragon"
+
+ IR_flavor_SPA.16.t: "财政枯竭"
+ IR_flavor_SPA.16.d: "由于为了保住巴塞罗那头衔而产生的开支，国库的资金比政府预期的要少得多。这使得王室处于脆弱的境地，任何对[Root.Monarch.GetName]不满的派系都可能利用这一点。"
+ IR_flavor_SPA.16.a: "至少我们可以保住加泰罗尼亚。"
+ IR_flavor_SPA.16.b: "真是个糟糕的局面！"
+
+ IR_flavor_SPA.17.t: "贝尔特朗·德·拉·库瓦被罢免"
+ IR_flavor_SPA.17.d: "尽管贝尔特朗有许多才能，但无法忍受的关于乔安娜公主父亲身份的谣言无法被容忍。因此，有必要将贝尔特朗·德·拉·库瓦驱逐出朝廷，另寻合适的职位。尽管贝尔特朗与[Root.Monarch.GetName]关系密切，但王室的声誉应该放在首位。"
+ IR_flavor_SPA.17.a: "为了王国的稳定！"
+
+ IR_flavor_SPA.18.t: "布尔戈斯的代表"
+ IR_flavor_SPA.18.d: "贵族联盟提出了一个离谱而大胆的要求！真正的继承人乔安娜实际上是你那位被驱逐的顾问贝尔特朗·德·拉·库瓦的私生女。称她为乔安娜“拉·贝尔特拉涅哈”，联盟要求将她从继承权中剔除，以便让她的表亲伊莎贝拉继承王位。"
+ IR_flavor_SPA.18.a: "唯一的选择就是将乔安娜从继承权中剔除..."
+
+ IR_flavor_SPA.19.t: "提议与伊莎贝拉结婚"
+ IR_flavor_SPA.19.d: "随着伊莎贝拉被指定为新继承人，重要的是她能找到一个合适的配偶。附近有许多王国，通过婚姻结成联盟。向西，葡萄牙通过向南探索非洲的财富而不断壮大。向北，法国继续其中央集权的道路，仍然是世界上最富有的王国之一。我们应该向谁提出婚姻提议？"
+ IR_flavor_SPA.19.a: "向葡萄牙提出提议。"
+ IR_flavor_SPA.19.b: "向法国提出提议。"
+
+
+ IR_flavor_SPA.20.t: "一个痛苦的拒绝"
+ IR_flavor_SPA.20.d: "伊莎贝拉在一场相当戏剧化的场景中，决定拒绝由王朝安排的与外国的联姻。尽管这对两个王国之间的关系没有产生实质性的影响，但求婚者的感情显然受到了伤害。如果伊莎贝拉要成为一个合格的女王，她必须与一个来自战略上有利的王朝结婚。"
+ IR_flavor_SPA.20.a: "啊，好吧。也许其他人会更顺利。"
+
+ IR_flavor_SPA.21.t: "卡斯蒂利亚王位继承战争"
+ IR_flavor_SPA.21.d: "乔安娜于1462年出生，是卡斯提尔国王亨利四世的独生女，被称为阿斯图里亚斯公主，作为王位的假定继承人。流传着她并非亨利国王亲生女儿，而是亨利妻子葡萄牙的琼安娜的情人贝尔特朗·德·拉·库瓦的私生女的谣言。乔安娜因此被戏称为“拉·贝尔特拉涅哈”，以嘲讽她的父亲。贵族的压力迫使国王在1464年剥夺了她的头衔，并将其授予他的同父异母兄弟阿方索。1465年，一群贵族在阿维拉集会，推翻了亨利国王，将阿方索取代为国王。尽管亨利国王恢复了王位，但王位的继承权在乔安娜和他的异母妹妹伊莎贝拉之间仍然存在争议。通过《吉桑多公牛条约》解决了这一争议，该条约赋予伊莎贝拉继承权，但限制了她的婚姻选择。伊莎贝拉于1469年秘密与费尔南多结婚，时年17岁，违反了亨利四世的意愿。逐渐地，这对夫妇获得了越来越多的支持，并于1472年从教皇西克斯四世那里获得了对他们婚姻的认可。亨利四世于1474年12月去世，两个王位的候选人都被各自的支持者宣布为卡斯蒂利亚女王。"
+ IR_flavor_SPA.21.a: "篡位者！开战！"
+
+ IR_flavor_SPA.22.t: "拉·贝尔特拉涅哈的提议"
+ IR_flavor_SPA.22.d: "1475年5月10日，葡萄牙国王阿方索五世入侵卡斯蒂利亚，并在普拉森西亚与乔安娜结婚，15天后使她成为葡萄牙王后，但这场运动最终失败。1478年，乔安娜和阿方索五世的婚姻因近亲繁殖而被教皇西克斯四世宣布无效，结束了她作为葡萄牙王后的任期。她还被迫放弃了卡斯蒂利亚王后的头衔。"
+ IR_flavor_SPA.22.a: "与乔安娜结婚，支持她对卡斯蒂利亚的主张！"
+ IR_flavor_SPA.22.b: "家族间的争斗与我们无关。"
+
+
+ IR_flavor_SPA.23.t: "阿尔卡塞瓦斯条约"
+ IR_flavor_SPA.23.d: "1479年9月4日，卡斯蒂利亚和阿拉贡的天主教君主与葡萄牙的阿方索五世及其子约翰王子签署了阿尔卡塞瓦斯条约。它结束了卡斯蒂利亚继承战争，该战争以卡斯蒂利亚在陆地上的胜利和葡萄牙在海上的胜利告终。阿尔卡塞瓦斯签署的四项和平条约反映了这一结果：伊莎贝拉被承认为卡斯蒂利亚女王，而葡萄牙则在大西洋上获得了霸权。"
+ IR_flavor_SPA.23.a: "[LON.GetName] 被归还！"
+
+ IR_flavor_SPA.24.t: "里昂条约"
+ IR_flavor_SPA.24.d: "随着阿方索五世和乔安娜王后的胜利，西班牙的疆域得到了进一步的扩展。为了巩固这次胜利，阿方索五世与乔安娜的儿子费尔南多在里昂签署了一项条约，规定了新征服领土的分配和未来的统治安排。"
+ IR_flavor_SPA.24.a: "新征服的领土归我们所有。"
+
+
+ IR_flavor_SPA.25.t: "卡斯蒂利亚王位继承问题决定！"
+ IR_flavor_SPA.25.d: "卡斯蒂利亚王位继承战争是从1475年到1479年为争夺卡斯蒂利亚王位而进行的军事冲突，支持乔安娜“拉·贝尔特拉涅哈”的势力与亨利四世的异母妹妹伊莎贝拉的支持者之间展开。最终，伊莎贝拉获胜，成为卡斯蒂利亚女王。"
+ IR_flavor_SPA.25.a: "葡萄牙胜利！"
+ IR_flavor_SPA.25.a: "卡斯蒂利亚胜利..."
+
+
+ IR_flavor_SPA.26.t: "哈布斯堡的继承人"
+ IR_flavor_SPA.26.d: "在1504年，伊莎贝拉一世去世，费尔南德二世试图在她去世后维持对卡斯蒂利亚的控制，但卡斯蒂利亚的科尔特斯大选（西班牙王室法庭）选择了伊莎贝拉的女儿乔安娜为女王。她的丈夫菲利普一世是神圣罗马皇帝马克西米利安一世和布尔根地的玛丽的哈布斯堡之子。不久之后，乔安娜开始精神失常，尽管她的精神疾病程度仍有争议。1506年，菲利普一世根据权利宣称为国王，但他在同年晚些时候死于神秘的情况下，可能是被他的岳父费尔南德二世下毒。由于他们的长子查理只有六岁，科尔特斯勉强允许乔安娜的父亲费尔南德二世作为乔安娜和查理的摄政王统治国家。"
+ IR_flavor_SPA.26.a: "会发生什么呢？"
+ IR_flavor_SPA.26.b: "最好还是和我们现有的王朝保持联系..."
+
+ IR_flavor_SPA.27.t: "巨人的遗产"
+ IR_flavor_SPA.27.d: "费尔迪南德的死导致年轻查理继承王位，成为卡斯蒂利亚和阿拉贡的国王，实际上建立了西班牙王国。查理的西班牙遗产包括当时西班牙在新世界和地中海周围的所有殖民地。随着他在弗兰德斯长大，查理于1519年继承了他在德国的哈布斯堡领土，并于同年当选为神圣罗马皇帝。"
+ IR_flavor_SPA.27.a: "[Root.Monarch.GetName] 被加冕为[Root.GetName]、[HAB.GetName]和神圣罗马帝国的国王"
+
+ #28-29
+
+ IR_flavor_SPA.30.t: "卡斯蒂利亚要求直布罗陀"
+ IR_flavor_SPA.30.d: "由[From.Monarch.GetName]召集的科尔特斯会议导致正式要求割让直布罗陀和马贝拉。这是一个明显的举动，旨在切断[Root.GetName]与其余伊斯兰世界的联系。长期以来，摩洛哥和突尼斯的支持军队通过直布罗陀海峡增援我们在内华达山脉的阵地。因此，这一要求将使我们自愿屈从于卡斯蒂利亚的基督教王冠。\n另一方面， acceding to the demands of the Castilians would afford us valuable time in which to better defend our position. Additionally, the North African powers that have historically supported our independence have found themselves increasingly dependent on the economy of Iberia. A prospect of receiving aid looks unlikely, so coming to an alternative agreement with the Christians could be advantageous..."
+ IR_flavor_SPA.30.a: "同意将直布罗陀和周边地区割让，换取一个价格..."
+ IR_flavor_SPA.30.b: "如果他们想要，就让他们通过武力来获得吧！"
+
+ IR_flavor_SPA.31.t: "格拉纳达的回应"
+ IR_flavor_SPA.31.d: "科尔特斯的召开使得与穆斯林的冲突再次成为王国的首要任务。为了避免与格拉纳达发生代价高昂的冲突，[Root.Monarch.GetName]建议采取外交手段，利用杠杆作用获得相关领土。事实上，格拉纳达的决定可能会影响国王在位期间的合法性。"
+ IR_flavor_SPA.31.a: "格拉纳达割让直布罗陀和马贝拉的头衔。"
+ IR_flavor_SPA.31.b: "一切都好...直布罗陀必须通过武力夺回！"
+
+ IR_flavor_SPA.32.t: "来自[KNI.GetName]的强固要塞请求"
+ IR_flavor_SPA.32.d: "罗德岛骑士团，这个古老而著名的十字军骑士团，请求[Root.Monarch.GetName]将一座战略要塞的控制权割让给他们。如果我们同意，我们将获得在整个基督教世界中的声望和支持，但将其置于我们直接控制之下可能更有用。"
+ IR_flavor_SPA.32.a: "割让要塞。这是我们对基督教世界的责任。"
+ IR_flavor_SPA.32.b: "我们完全有能力自己在北非进行十字军东征。"
+
+
+ IR_flavor_SPA.33.t: "特诺奇提特兰的沦陷"
+ IR_flavor_SPA.33.d: "特诺奇提特兰的沦陷是西班牙征服阿兹特克帝国的决定性事件。它发生在1521年，经过了对当地派系的广泛操控和对既有分歧的利用，西班牙征服者埃尔南·科尔特斯得以实现，他得到了土著盟友的支持，以及他的翻译和伴侣马林切的帮助。"
+ IR_flavor_SPA.33.a: "我们别无选择，只能接受外国的统治。"
+ IR_flavor_SPA.33.b: "我们决不屈服！"
+
+ IR_flavor_SPA.34.t: "库斯科的沦陷"
+ IR_flavor_SPA.34.d: "库斯科战役是1533年11月发生在西班牙征服者和印加人之间的战斗。继在1533年7月26日处决印加皇帝阿塔瓦尔帕之后，弗朗西斯科·皮萨罗率领他的军队向库斯科进发，作为印加帝国的首都，库斯科的沦陷标志着印加帝国的终结。尽管印加军队在库斯科城外与西班牙军队展开了激战，但最终还是被迫撤退。次日，皮萨罗率军进入库斯科，并加冕曼科·印加·尤潘基为印加皇帝，帮助皮萨罗将库斯科的奎兹奎兹击退。奎兹奎兹最终被自己的追随者杀死，结束了印加帝国的统治。三年后，曼科·印加·尤潘基试图以10万印加人的军队夺回库斯科，但最终在长达十个月的围攻后失败。"
+ IR_flavor_SPA.34.a: "我们别无选择，只能接受外国的统治。"
+ IR_flavor_SPA.34.b: "我们决不屈服！"
+
+ IR_flavor_SPA.35.t: "[From.GetName] 接受了[Root.GetAdjective]的统治"
+ IR_flavor_SPA.35.d: "看来一切都对我们不利，抵抗这些外国人很可能导致我们的人民被杀、被灭绝和被奴役，我们的生活方式被抹去。为了防止这种情况的发生，唯一的办法就是屈从于外国人的意志，保全我们的人民。"
+ IR_flavor_SPA.35.a: "接受[From.GetName]的统治"
+
+ IR_flavor_SPA.36.t: "[From.GetName] 拒绝屈服"
+ IR_flavor_SPA.36.d: "这些外国人怎么敢来到我们的土地上，向我们索取一切？他们怎么敢侮辱我们，要求我们放弃我们的神明。赠送黄金和外交手段已不再适用！我们不再允许这些外国人随心所欲地进入我们的土地，我们要把他们赶回大海！"
+ IR_flavor_SPA.36.a: "那就让他们通过战争屈服吧！"
+ IR_flavor_SPA.36.b: "这不值得..."
+
+
+ #37-39
+
+ IR_flavor_SPA.40.t: "公社的崛起"
+ IR_flavor_SPA.40.d: "由于查理斯王子在位期间奢侈的宫廷生活，导致财政枯竭。为了通过科尔特斯通过更多税收来弥补这些开支，他贿赂了腐败的官员，以确保这些税收的通过，尽管遭到了广泛的反对。\n一群神职人员传播了一份抗议声明，要求拒绝新的税收，拒绝外国势力的干预，如果查理斯无法实现这些目标，那么公社就应该采取行动。\n\n随着科尔特斯意图否决这些新税收，查理斯解散了科尔特斯，并启程前往奥地利。他最后将乌特勒支的阿德里安留作摄政王，留下一个随时可能爆发的局势。"
+ IR_flavor_SPA.40.a: "这可不妙。"
+ IR_flavor_SPA.40.b: "快，撤回请求增税。"
+
+
+ IR_flavor_SPA.41.t: "托尔德西利亚斯会议"
+ IR_flavor_SPA.41.d: "十三个城市在托尔德西利亚斯召开会议，以协调日益增长的公社权力。布尔戈斯、索里亚、塞沃吉亚、阿维拉、巴利亚多利德、莱昂、萨拉曼卡、萨莫拉、托罗、托莱多、昆卡、瓜达拉哈拉，以及查理斯的母亲疯王后乔安娜都在场。\n\n很明显，必须指定一个新的主权者作为总会议的首脑。难道不是查理斯的卡斯蒂利亚母亲，或者是他的卡斯蒂利亚兄弟费尔南德吗？"
+ IR_flavor_SPA.41.a: "宣布疯王后乔安娜为女王"
+ IR_flavor_SPA.41.b: "宣布费尔南德"
+
+ IR_flavor_SPA.42.t: "公社战争"
+ IR_flavor_SPA.42.d: "公社起义是1520年至1521年间，卡斯蒂利亚公民反对查理一世及其政府的暴动。起义达到高潮时，叛军控制了卡斯蒂利亚的核心地区，统治着巴利亚多利德、托尔德西利亚斯和托莱多等城市。起义发生在亨利四世于1504年去世后，卡斯蒂利亚王国的政治不稳定背景下。乔安娜的父亲费尔南德二世于1516年去世，乔安娜的儿子查理斯在两国的王位上被宣布为国王。查理斯在荷兰长大，对卡斯蒂利亚缺乏了解。他在1517年10月抵达西班牙，随行人员中有许多弗拉芒贵族和神职人员。这些因素导致新国王与卡斯蒂利亚社会精英之间产生了不信任，他们意识到自己的权力和地位受到威胁。1521年4月23日，在经过近一年的叛乱后，皇帝的支持者在比利亚拉尔战役中对公社军队造成了毁灭性打击。次日，叛乱首领胡安·洛佩斯·德·帕迪利亚、胡安·布拉沃和弗朗西斯科·马尔多纳多被斩首。公社军队土崩瓦解。只有托莱多城在玛丽亚·帕切科的领导下继续反抗，直到1521年10月投降。"
+ IR_flavor_SPA.42.a: "我们必须制止这场叛乱！"
+
+ IR_flavor_SPA.43.t: "托莱多条约"
+ IR_flavor_SPA.43.d: "查理五世，神圣罗马皇帝与法国的弗朗西斯一世签署了托莱多条约，双方同意不再与英格兰结盟。该条约是在亨利八世与罗马教廷决裂及教皇保罗三世的斡旋下达成的。"
+ IR_flavor_SPA.43.a: "西班牙回来了！"
+
+ IR_flavor_SPA.44.t: "巴塞罗那条约"
+ IR_flavor_SPA.44.d: "巴塞罗那条约于1493年1月19日由法国和阿拉贡王国签署。根据协议，法国将罗西永和塞尔达涅归还给阿拉贡王国。作为回报，阿拉贡王国承诺在法国入侵意大利期间保持中立。这两个地区在本世纪早些时候被指定为阿拉贡国王向法国国王借款30万克朗的抵押品，并在未能偿还贷款时被法国占领。通过1493年巴塞罗那条约归还这两个地区的动机，是查理八世希望在他计划中的意大利入侵之前安抚潜在敌人。"
+ IR_flavor_SPA.44.a: "哈布斯堡家族暂时放弃对王位的主张，至少目前是这样。"
+
+ IR_flavor_SPA.45.t: "哈布斯堡伊比利亚的命运"
+ IR_flavor_SPA.45.d: "战争似乎即将结束，战斗十分激烈，许多人失去了生命，然而，冲突的明显赢家却浮出水面！"
+ IR_flavor_SPA.45.a: "查理斯胜利！"
+ IR_flavor_SPA.45.b: "公社胜利..."
+
+ IR_flavor_SPA.46.t: "公社的崛起"
+ IR_flavor_SPA.46.d: "随着公社的崛起，我们的君主制面临着巨大的风险，西班牙及其未来的命运岌岌可危，我们必须决定是支持我们的君主，反对潮流，还是顺应潮流，支持公社。"
+ IR_flavor_SPA.46.a: "支持查理斯·冯·哈布斯堡！"
+ IR_flavor_SPA.46.b: "支持公社！"
+
+
+ #OTTOMANS
+ AN_flavor_TUR.1.t: "贝伊的背叛！"
+ AN_flavor_TUR.1.d: ""
+ AN_flavor_TUR.1.a: "向贝伊们发出最后通牒！"
+
+ AN_flavor_TUR.2.t: "一个[Tur.GetAdjective]的最后通牒" #?
+ AN_flavor_TUR.2.d: ""
+ AN_flavor_TUR.2.a: "宣告我们的效忠！"
+ AN_flavor_TUR.2.b: "抗议我们的清白和正当独立。"
+ AN_flavor_TUR.2.c: "[TUR.Monarch.GetName] 是我们合法的 [TUR.Monarch.GetTitle]！"
+
+ AN_flavor_TUR.3.t: "奥斯曼帝国要求拉斯基亚"
+ AN_flavor_TUR.3.d: ""
+ AN_flavor_TUR.3.a: "如果这能平息奥斯曼帝国，那就这样吧。"
+ AN_flavor_TUR.3.b: "与其放弃我们的兄弟，不如战斗！"
+
+ AN_flavor_TUR.4.t: "拉斯基亚的割让"
+ AN_flavor_TUR.4.d: ""
+ AN_flavor_TUR.4.a: "对两国来说都是明智的选择。"
+ AN_flavor_TUR.4.b: "也许是时候完全征服塞尔维亚了..."
+
+ AN_flavor_TUR.5.t: ""
+ AN_flavor_TUR.5.d: ""
+ AN_flavor_TUR.5.a: ""
+ AN_flavor_TUR.5.b: ""
+
+ AN_flavor_TUR.6.t: ""
+ AN_flavor_TUR.6.d: ""
+ AN_flavor_TUR.6.a: ""
+ AN_flavor_TUR.6.b: ""
+
+ AN_flavor_TUR.7.t: ""
+ AN_flavor_TUR.7.d: ""
+ AN_flavor_TUR.7.a: ""
+ AN_flavor_TUR.7.b: ""
+
+ AN_flavor_TUR.8.t: ""
+ AN_flavor_TUR.8.d: ""
+ AN_flavor_TUR.8.a: ""
+ AN_flavor_TUR.8.b: ""
+
+ AN_flavor_TUR.9.t: ""
+ AN_flavor_TUR.9.d: ""
+ AN_flavor_TUR.9.a: ""
+ AN_flavor_TUR.9.b: ""
+
+ AN_flavor_TUR.10.t: "弗拉德·特佩斯夺取多瑙河要塞！"
+ AN_flavor_TUR.10.d: "在一次突袭中，瓦拉几亚的统治者弗拉德·特佩斯夺取了我们沿多瑙河的河岸要塞。吉尔吉乌，作为我们施加对瓦拉几亚统治的主要手段，沦陷于弗拉德的狡诈之中。特佩斯骑兵的急速冲锋让守军毫无防备，几个小时内便攻陷了要塞。其他附近的堡垒也传来了类似的消息。\n\n多瑙河的道路上，满是被钉死的土耳其守军的尸体，这让他获得了一个新头衔“刺客”。尽管他的举动大胆，但弗拉德的残忍必须以百倍的代价回报！"
+ AN_flavor_TUR.10.a: "准备战争！我们必须夺回多瑙河！"
+ AN_flavor_TUR.10.b: "静观其变..."
+
+ AN_flavor_TUR.11.t: ""
+ AN_flavor_TUR.11.d: ""
+ AN_flavor_TUR.11.a: ""
+ AN_flavor_TUR.11.b: ""
+
+ AN_flavor_TUR.12.t: ""
+ AN_flavor_TUR.12.d: ""
+ AN_flavor_TUR.12.a: ""
+ AN_flavor_TUR.12.b: ""
+
+ AN_flavor_TUR.13.t: ""
+ AN_flavor_TUR.13.d: ""
+ AN_flavor_TUR.13.a: ""
+ AN_flavor_TUR.13.b: ""
+
+ AN_flavor_TUR.14.t: ""
+ AN_flavor_TUR.14.d: ""
+ AN_flavor_TUR.14.a: ""
+ AN_flavor_TUR.14.b: ""
+
+ AN_flavor_TUR.15.t: ""
+ AN_flavor_TUR.15.d: ""
+ AN_flavor_TUR.15.a: ""
+ AN_flavor_TUR.15.b: ""
+
+ AN_flavor_TUR.16.t: ""
+ AN_flavor_TUR.16.d: ""
+ AN_flavor_TUR.16.a: ""
+ AN_flavor_TUR.16.b: ""
+
+ AN_flavor_TUR.17.t: ""
+ AN_flavor_TUR.17.d: ""
+ AN_flavor_TUR.17.a: ""
+ AN_flavor_TUR.17.b: ""
+
+ AN_flavor_TUR.18.t: ""
+ AN_flavor_TUR.18.d: ""
+ AN_flavor_TUR.18.a: ""
+ AN_flavor_TUR.18.b: ""
+
+ AN_flavor_TUR.19.t: ""
+ AN_flavor_TUR.19.d: ""
+ AN_flavor_TUR.19.a: ""
+ AN_flavor_TUR.19.b: ""
+
+
+ AN_flavor_TUR.22.t: "阿尔瓦尼德的桑贾克？"
+ AN_flavor_TUR.22.d: "尽管在我们进入该地区时正式建立，但阿尔巴尼亚的边境情况一直在频繁变化。山口和山麓地区充斥着继续以斯坎德贝格的模式进行斗争的强盗和游击队。实际上，尽管我们已完全占领这些土地，但当地人显然打算用鲜血为每一个被占领的山丘和征税付出代价。因此，随着其他边境的召唤，朝廷中的许多人希望将阿尔巴尼亚问题解决。有些人建议采取更微妙和更具自主性的方式，而另一些人则主张对叛乱的阿尔巴尼亚进行更大规模的报复。"
+ AN_flavor_TUR.22.a: "自治是确保安全的代价。"
+ AN_flavor_TUR.22.b: "我们将把任何抵抗都踩在脚下！"
+
+ AN_flavor_TUR.23.t: "土耳其的统治"
+ AN_flavor_TUR.23.d: "尽管我们努力阻止奥斯曼帝国进一步进入阿尔巴尼亚，但显然，士兵们的进一步独立只是一种虚构。托斯克里亚已被遗弃给土耳其人，剩余的驻军疲惫不堪，补给严重不足。简而言之，我们继续战斗的能力受到严重限制。然而，无论是错误还是狡猾的操控，奥斯曼帝国给予了相当大的自治权，以换取对苏尔坦的服从。"
+ AN_flavor_TUR.23.a: "这总比完全灭绝要好。"
+
+ #Sweden
+ IR_flavor_SWE.50.t: "哥德堡的建立"
+ IR_flavor_SWE.50.d: "<缺失本地化>"
+ IR_flavor_SWE.50.a: "一个位于喀尔喀特的港口！"
+
+ IR_flavor_SWE.51.t: "基鲁纳的建立"
+ IR_flavor_SWE.51.d: "<缺失本地化>"
+ IR_flavor_SWE.51.a: "铁矿石必须流动！"
+
+ #Hungary
+ IR_flavor_HUN.1.t: "为瓦尔纳复仇"
+ IR_flavor_HUN.1.d: "随着瓦尔纳的十字军以奥斯曼帝国的决定性胜利告终，我们的邻国认为我们软弱无能。"
+ IR_flavor_HUN.1.a: "组建一支入侵部队以展示我们的实力。"
+ IR_flavor_HUN.1.b: "我们无法承受与奥斯曼帝国的战争。"
+ IR_flavor_HUN.1.c: "" #?
+ IR_flavor_HUN.1.d1: "" #?
+
+ IR_flavor_HUN.2.t: "匈牙利放弃巴尔干"
+ IR_flavor_HUN.2.d: "匈牙利不再能够在巴尔干半岛上施加影响，因为他们将重心放在内部问题上。"
+ IR_flavor_HUN.2.a: "空"
+ IR_flavor_HUN.2.b: "空"
+
+ IR_flavor_HUN.3.t: "公国会议"
+ IR_flavor_HUN.3.desc: "由于瓦尔纳战役的惨败，国王阿尔伯特和瓦迪斯瓦夫王的去世，匈牙利面临着分裂的危险。为了重建国家的统一，约翰·胡尼亚迪召开了一次会议。"
+ IR_flavor_HUN.3.a: "选举约翰·胡尼亚迪为摄政王。"
+ IR_flavor_HUN.3.b: "选举一位地方贵族统治我们的国家。"
+ IR_flavor_HUN.3.c: "维持现有的摄政委员会。"
+
+ IR_flavor_HUN.4.t: "对拉迪斯劳斯的压力"
+ IR_flavor_HUN.4.desc: "随着约翰·胡尼亚迪担任摄政王，他越来越施加压力，要求斯蒂利亚将拉迪斯劳斯交给匈牙利贵族，以便他能成为合法的国王。"
+ IR_flavor_HUN.4.a: "现在不是时候。"
+ IR_flavor_HUN.4.b: "是时候强迫他们服从我们的要求。任何后果都是可以接受的。"
+ IR_flavor_HUN.4.c: "也许我们可以贿赂弗雷德里克三世释放拉迪斯劳斯。"
+ IR_flavor_HUN.4.d: "拉迪斯劳斯不再是我们的关切，我们必须开辟自己的道路。"
+
+
+ IR_flavor_HUN.5.t: "拉迪斯劳斯的摄政王"
+ IR_flavor_HUN.5.d: "作为匈牙利的摄政王，约翰·胡尼亚迪正受到奥地利贵族的挑战，他们质疑哈布斯堡王朝的继承权。奥地利贵族提议选举一位来自切尔耶的贵族作为摄政王。"
+ IR_flavor_HUN.5.a: "约翰·胡尼亚迪仍然是更好的选择。"
+ IR_flavor_HUN.5.b: "屈从于奥地利贵族的要求。"
+
+
+ #Serbia
+
+
+ #Albania
+
+ ## NAVARRA LOCALIZATION Events
+
+ IR_flavor_NAV.1.t: "圣塞巴斯蒂安港"
+ IR_flavor_NAV.1.d: "为了支持纳瓦拉和其商船队，我们应该发展法属南方的圣塞巴斯蒂安港。"
+ IR_flavor_NAV.1.a: "向卡斯蒂利亚提出购买该港口的请求。"
+ IR_flavor_NAV.1.b: "这项事业不值得追求。"
+
+ IR_flavor_NAV.2.a_tooltip: "关于圣塞巴斯蒂安的租约？"
+ IR_flavor_NAV.2.t: "请求圣塞巴斯蒂安"
+ IR_flavor_NAV.2.d: "纳瓦拉请求使用圣塞巴斯蒂安港。他们愿意为此支付每年50金币。"
+ IR_flavor_NAV.2.a: "接受报价。"
+ IR_flavor_NAV.2.b: "拒绝报价。"
+
+ IR_flavor_NAV.3.t: "圣塞巴斯蒂安的年度问题"
+ IR_flavor_NAV.3.d: "我们每年都要从卡斯蒂利亚租用圣塞巴斯蒂安港。我们现在必须做出决定。"
+ IR_flavor_NAV.3.a: "继续租用，支付50金币。"
+ IR_flavor_NAV.3.c: "结束租约。暂时。"
+ IR_flavor_NAV.3.b: "拒绝付款，继续控制该港口。"
+
+ IR_flavor_NAV.4.t:0 "阿方索国王的去世"
+ IR_flavor_NAV.4.d:0 "伟大的阿方索去世，阿拉贡国王胡安二世继位。由于他与纳瓦拉的联系，胡安二世被认为是纳瓦拉的合法国王。"
+ IR_flavor_NAV.4.a:0 "国王的去世令人悲痛。"
+ IR_flavor_NAV.4.b:0 "我们必须支持胡安二世。"
+ IR_flavor_NAV.4.c:0 "我们应该支持查理斯。"
+
+ IR_flavor_NAV.5.t:0 "阿方索国王的去世"
+ IR_flavor_NAV.5.d:0 "伟大的阿方索去世，阿拉贡国王胡安二世继位。由于他与纳瓦拉的联系，胡安二世被认为是纳瓦拉的合法国王。"
+ IR_flavor_NAV.5.a:0 "国王的去世令人悲痛。"
+
+ IR_flavor_NAV.6.t:0 "加泰罗尼亚的低语"
+ IR_flavor_NAV.6.d:0 "胡安二世的统治引发了加泰罗尼亚的贵族们的不满，他们认为胡安二世的统治削弱了他们的权力。"
+ IR_flavor_NAV.6.a:0 "我们必须支持加泰罗尼亚的贵族。"
+ IR_flavor_NAV.6.b:0 "我们应该支持胡安二世。"
+
+ IR_flavor_NAV.7.t:0 "寻求外国援助？"
+ IR_flavor_NAV.7.d:0 "情况并没有按计划进行，我们的支持者人数不够。也许是时候寻求外部势力的帮助了。"
+ IR_flavor_NAV.7.a:0 "向雷内王子提供纳瓦拉王冠。"
+ IR_flavor_NAV.7.b:0 "我们将自己解决这个问题！"
+ IR_flavor_NAV.7.c:0 "也许是时候我们屈服了..."
+
+ IR_flavor_NAV.8.t:0 "加泰罗尼亚向外求助"
+ IR_flavor_NAV.8.d:0 "加泰罗尼亚的贵族们反抗胡安二世的统治，寻求恢复他们的权利。"
+ IR_flavor_NAV.8.a:0 "我们必须支持加泰罗尼亚的贵族。"
+ IR_flavor_NAV.8.b:0 "这与我们无关。"
+
+ IR_flavor_NAV.9.t:0 "阿方索的继承问题"
+ IR_flavor_NAV.9.d:0 "随着胡安二世的去世，纳瓦拉的王位继承问题再次浮出水面。胡安二世的女儿埃莱娜被认为是合法继承人，但她的表兄费尔南多也对王位提出了要求。"
+ IR_flavor_NAV.9.a:0 "支持埃莱娜继承王位。"
+ IR_flavor_NAV.9.b:0 "支持费尔南多继承王位。"
+ IR_flavor_NAV.9.c:0 "王位应归阿拉贡国王所有。"
+ IR_flavor_NAV.9.e:0 "如果纳瓦拉要生存下去，阿拉贡必须屈服！"
+
+ IR_flavor_NAV.10.t:0 "纳瓦拉的继承人。"
+ IR_flavor_NAV.10.d:0 "胡安二世与布兰卡的婚姻没有留下合法的男性继承人，导致纳瓦拉王位继承问题复杂化。"
+ IR_flavor_NAV.10.a:0 "支持费尔南多继承王位。"
+ IR_flavor_NAV.10.b:0 "支持查理斯继承王位。"
+
+ IR_flavor_NAV.11.t:0 "查理斯四世的失败"
+ IR_flavor_NAV.11.d:0 "查理斯四世因反抗胡安二世而失败，纳瓦拉的王位继承问题再度引发争议。"
+ IR_flavor_NAV.11.a:0 "胜利！"
+
+ IR_flavor_NAV.12.t:0 "查理斯四世的胜利"
+ IR_flavor_NAV.12.d:0 "查理斯四世成功推翻胡安二世，重新获得纳瓦拉王位。"
+ IR_flavor_NAV.12.a:0 "胜利！"
+
+ IR_flavor_NAV.13.t:0 "对加泰罗尼亚的承诺"
+ IR_flavor_NAV.13.d:0 "随着加泰罗尼亚贵族的反抗，我们在纳瓦拉的统治面临挑战。"
+ IR_flavor_NAV.13.a:0 "与加泰罗尼亚达成协议。"
+ IR_flavor_NAV.13.b:0 "继续支持加泰罗尼亚的贵族。"
+
+ IR_flavor_NAV.14.t:0 "镇压加泰罗尼亚叛乱"
+ IR_flavor_NAV.14.d:0 "加泰罗尼亚的贵族叛乱已被镇压，我们必须尽快恢复秩序。"
+ IR_flavor_NAV.14.a:0 "安抚加泰罗尼亚，给予自治权。"
+ IR_flavor_NAV.14.b:0 "不予以特殊待遇！"
+
+ IR_flavor_NAV.15.t:0 "阿方斯继承权的问题"
+ IR_flavor_NAV.15.d:0 "尽管拉迪斯劳斯国王没有合法子嗣，但阿拉贡国王的王位继承似乎是安全的，因为国王的兄弟胡安·德·阿拉贡被确认是王位的继承人。胡安与纳瓦拉的布兰卡王后结婚，后者在1441年春去世。根据婚姻协议，纳瓦拉在布兰卡去世后应由其长子卡洛斯继承王位。然而，胡安成功地确保了王位的继承，现在以纳瓦拉国王的身份统治。"
+ IR_flavor_NAV.15.a:0 "让我们希望继承顺利进行。"
+
+ IR_flavor_NAV.16.t:0 "雷内成为加泰罗尼亚国王！"
+ IR_flavor_NAV.16.d:0 "我们的敌人被击败，阿拉贡将加泰罗尼亚的王冠拱手让给我们。上帝显然站在我们这一边，雷内的王国只会继续走向伟大！"
+ IR_flavor_NAV.16.a:0 "愿乔安国王万岁！"
+
+ IR_flavor_NAV.17.t:0 "埃莱奥诺拉的继承"
+ IR_flavor_NAV.17.d:0 "纳瓦拉保持了暂时的独立。埃莱奥诺拉和她的丈夫加斯顿育有三子。长子加斯顿四世被指定为其父的遗产和纳瓦拉王国的继承人。然而，他在继承王位之前就去世了，乔安娜的女儿凯瑟琳可能会成为继承人。她的叔叔纳瓦拉的约翰，纳尔博讷的子爵，可能会对此表示反对，许多博蒙特家族的人认为阿拉贡的费尔南多会是更好的选择。"
+ IR_flavor_NAV.17.a:0 "纳瓦拉必须继续前进！"
+
+ IR_flavor_NAV.18.t:0 "埃莱奥诺拉的去世"
+ IR_flavor_NAV.18.d:0 "伟大的女王埃莱奥诺拉去世，但她并没有让我们失去希望。她的孙子弗朗西斯尚未成年，但在他母亲玛格达莱娜·德·瓦卢瓦的精心照料下，他将有时间成长为纳瓦拉所需的国王！"
+ IR_flavor_NAV.18.a:0 "愿弗朗西斯·菲比乌斯万岁"
+
+ IR_flavor_NAV.19.t:0 "弗朗西斯·菲比乌斯的悲剧"
+ IR_flavor_NAV.19.d:0 "我们的年轻国王弗朗西斯在吹笛子时被发现死亡。很可能是被那些可恶的博蒙特家族下的毒！\n\n纳瓦拉被包围在狼群中，我们不能坐视不理。是时候让凯瑟琳登基为女王，让玛格达莱娜担任摄政，直到她成年吗？还是该把王位交给阿拉贡的费尔南多？\n\n我们必须在局势失控之前消除这个威胁。"
+ IR_flavor_NAV.19.a:0 "愿凯瑟琳，纳瓦拉的真正女王，万岁！"
+ IR_flavor_NAV.19.b:0 "够了，我们必须把王位给费尔南多。"
+
+ IR_flavor_NAV.20.t:0 "凯瑟琳的婚姻"
+ IR_flavor_NAV.20.d:0 "是时候为我们加冕的凯瑟琳找到合适的配偶了。然而，在这个充满掠夺者的世界里，我们必须小心翼翼。博蒙特家族希望她嫁给阿斯图里亚斯的约翰王子，费尔南多和阿拉贡的伊莎贝拉则是另一个选择。我们应该选择哪个婚姻提议，还是另寻他法？"
+ IR_flavor_NAV.20.a:0 "将凯瑟琳嫁给阿尔布雷特的约翰。"
+ IR_flavor_NAV.20.b:0 "将凯瑟琳嫁给阿斯图里亚斯的约翰王子。"
+ IR_flavor_NAV.20.c:0 "另寻他法。"
+
+ IR_flavor_NAV.21.t:0 "伊比利亚的继承"
+ IR_flavor_NAV.21.d:0 "随着阿斯图里亚斯的约翰王子与纳瓦拉的凯瑟琳结婚，两个王国的王位继承问题得到了解决。乔安娜的血脉得以延续，纳瓦拉和阿拉贡的联合似乎是命中注定的。"
+ IR_flavor_NAV.21.a:0 "愿她安息。"
+
+ IR_flavor_NAV.22.t:0 "博蒙特家族的叛乱"
+ IR_flavor_NAV.22.d:0 "博蒙特家族不再愿意进行政治和外交游戏。得到卡斯蒂利亚的支持，他们叛乱反对凯瑟琳和约翰的加冕。博蒙特的莱里尼伯爵占领了几座要塞，必须加以处理。阿拉贡的费尔南多告诉我们不要接受贝阿恩的援助。如果我们不迅速采取行动，卡斯蒂利亚可能会干预，我们将面临真正的危机..."
+ IR_flavor_NAV.22.a:0 "接受贝阿恩的援助，镇压博蒙特家族，是时候结束这一切了"
+ IR_flavor_NAV.22.b:0 "与博蒙特家族达成协议，稍后再解决这个问题..."
+
+ IR_flavor_NAV.23.t:0 "纳瓦拉的终结？"
+ IR_flavor_NAV.23.d:0 "我们为保持纳瓦拉的独立而战斗了很久，也许我们所做的一切都是徒劳的。在卡斯蒂利亚和阿拉贡的联军压倒性入侵下，纳瓦拉几乎被吞并。潘普洛纳抵挡住了敌军的进攻，但现在他们被迫投降。这可能是结束。我们面临着一个选择，如果我们将伊比利亚土地割让给卡斯蒂利亚-阿拉贡，并将剩余的王国作为封地献给法国，或许还有一线生机。我们该怎么办？"
+ IR_flavor_NAV.23.a:0 "这是结束，向卡斯蒂利亚和法国投降。"
+ IR_flavor_NAV.23.b:0 "继续战斗！继续战斗！"
+
+ IR_flavor_NAV.24.t:0 "对抗外来入侵的保护"
+ IR_flavor_NAV.25.d:0 "纳瓦拉仍然面临来自强大邻国的威胁。阿拉贡国王费尔南多一直在觊觎我们的土地。法国国王也试图迫使我们放弃伊比利亚以外的领土，特别是福瓦和比戈尔。也许与贝阿恩结成同盟是明智之举。"
+ IR_flavor_NAV.25.a:0 "置之不理，我们不想惹恼法国或其他大国"
+ IR_flavor_NAV.25.b:0 "与贝阿恩结成联邦，让我们与加斯科涅的兄弟们建立永久的防御联盟。" #(纳瓦拉获得贝阿恩作为联邦附庸)
+
+ IR_flavor_NAV.26.t:0 "普罗旺斯干预加泰罗尼亚的利益！"
+ IR_flavor_NAV.26.d:0 "加泰罗尼亚的伪王已去世，但他们并没有屈服于合法统治者，而是将加泰罗尼亚的王冠拱手让给普罗旺斯和阿让的雷内。这个傻瓜接受了他们的提议，并为了被称为加泰罗尼亚国王而向我们宣战。我们不能屈服！"
+ IR_flavor_NAV.26.a:0 "愿乔安国王万岁！加泰罗尼亚必将复兴！"
+
+ IR_flavor_NAV.27.t:0 "普罗旺斯干预加泰罗尼亚的利益！"
+ IR_flavor_NAV.27.d:0 "加泰罗尼亚的伪王已去世，但他们并没有屈服于合法统治者，而是将加泰罗尼亚的王冠拱手让给普罗旺斯和阿让的雷内。这个傻瓜接受了他们的提议，并为了被称为加泰罗尼亚国王而向我们宣战。我们不能屈服！"
+ IR_flavor_NAV.27.a:0 "愿乔安国王万岁！加泰罗尼亚必将复兴！"
+
+ #RANDOM NAV DECISION
+
+ IR_navarra_port_title: "圣塞巴斯蒂安港"
+ IR_navarra_port_desc: "请求卡斯蒂利亚允许使用圣塞巴斯蒂安港"
+
+ #Habsburg-Austrian-CentralEurope Stuff
+
+ IR_flavor_HAB.1.t: "拉迪斯劳斯·波斯图穆斯之死"
+ IR_flavor_HAB.1.d: "1457年，拉迪斯劳斯·波斯图穆斯在布拉格意外去世。拉迪斯劳斯的死导致奥地利、匈牙利和波希米亚的个人联盟破裂。"
+ IR_flavor_HAB.1.a: "真是个悲剧。"
+ #IR_flavor_misc.5.b: "He will have to take it by force!"
+
+ IR_flavor_HAB.2.t: "提洛尔的贵族反对"
+ IR_flavor_HAB.2.d: "1490年，提洛尔的贵族反对迫使进一步奥地利大公西吉斯蒙德将统治权移交给奥地利继承人马克西米利安一世。"
+ IR_flavor_HAB.2.a: "将大公职位让给马克西米利安一世"
+ IR_flavor_HAB.2.b: "反对贵族！"
+
+ IR_flavor_HAB.3.t: "要求割让拉迪斯劳斯"
+ IR_flavor_HAB.3.d: "到1450年代，奥地利的贵族对弗雷德里克对拉迪斯劳斯的摄政感到不满。他打算在拉迪斯劳斯成年之前继续担任摄政，这激怒了他们。他们现在向弗雷德里克提出了最后通牒。"
+ IR_flavor_HAB.3.a: "我们不会被贵族威胁！"
+ IR_flavor_HAB.3.b: "我们将结束摄政。"
+
+ IR_flavor_HAB.4.t: "拉迪斯劳斯摄政的结束"
+ IR_flavor_HAB.4.d: "贵族叛军控制了奥地利和维也纳，导致内奥地利公爵失去了对拉迪斯劳斯的控制。尽管他尚未成年，但拉迪斯劳斯的顾问决定由切尔耶的乌尔里希二世暂时担任他的摄政。匈牙利人则宣布拉迪斯劳斯·波斯图穆斯为匈牙利国王。"
+ IR_flavor_HAB.4.a: "这对我们在斯蒂利亚的利益构成威胁。"
+
+ IR_flavor_HAB.5.t: "拉迪斯劳斯摄政的结束"
+ IR_flavor_HAB.5.d: "最近的事件导致拉迪斯劳斯·波斯图穆斯摆脱了弗雷德里克三世的摄政。作为结果，匈牙利人选举他为国王，奥地利本土现在独立于斯蒂利亚。"
+ IR_flavor_HAB.5.a: "这是一个重大的转折。"
+
+ IR_flavor_HAB.7.t: "来自匈牙利的贿赂企图"
+ IR_flavor_HAB.7.d: "匈牙利人向我们表示，如果我们释放拉迪斯劳斯·波斯图穆斯，他们愿意向我们支付一笔钱。"
+ IR_flavor_HAB.7.a: "这对我们的国库大有裨益"
+ IR_flavor_HAB.7.b: "这种贿赂是对我们的侮辱。"
+
+ IR_flavor_HAB.8.t: "对拉迪斯劳斯的匈牙利施压"
+ IR_flavor_HAB.8.d: "随着匈牙利人选举约翰·胡尼亚迪为摄政，直到拉迪斯劳斯成年，他们要求我们结束对这个年轻王子的摄政。"
+ IR_flavor_HAB.8.a: "我们不会被这些匈牙利人施压！"
+ IR_flavor_HAB.8.b: "很好。"
+
+ IR_flavor_HAB.9.t: "对拉迪斯劳斯的匈牙利施压"
+ IR_flavor_HAB.9.d: "随着匈牙利人选举约翰·胡尼亚迪为摄政，直到拉迪斯劳斯成年，他们要求我们结束对这个年轻王子的摄政。"
+ IR_flavor_HAB.9.a: "我们不会被这些匈牙利人施压！"
+ IR_flavor_HAB.9.b: "很好。"
+
+ IR_flavor_HAB.10.t: "拉迪斯劳斯摄政的结束"
+ IR_flavor_HAB.10.d: "最近的事件导致拉迪斯劳斯·波斯图穆斯摆脱了对弗雷德里克的摄政。在拉迪斯劳斯的统治下，匈牙利和奥地利的关系得到了改善。"
+ IR_flavor_HAB.10.a: "这改变了一切。"
+
+ IR_flavor_HAB.20.t: "年龄检查拉迪斯劳斯"
+ IR_flavor_HAB.20.d: "年龄检查描述"
+ IR_flavor_HAB.20.a: "A"
+ IR_flavor_HAB.20.b: "B"
+ IR_flavor_HAB.20.c: "C"
+ IR_flavor_HAB.20.d: "D"
+
+ IR_flavor_HAB.30.t: "开创我们的命运"
+ IR_flavor_HAB.30.d: "随着哈布斯堡王朝在我们国家的消亡，我们与他们的国家之间的联系变得微不足道。我们必须开辟自己的道路。"
+ IR_flavor_HAB.30.a: "太棒了"
+
+ ned_support_rebels.effect: "获得协助我们荷兰兄弟争取独立的决策权限。"
+
+ IR_flavor_NED.1.t: "协助荷兰解放"
+ IR_flavor_NED.1.desc: "我们的一些荷兰兄弟国家正受到他们宗主国的压迫。我们必须给予他们希望，帮助他们摆脱枷锁。"
+ IR_flavor_NED.1.a: "向荷兰派遣特使。"
+ IR_flavor_NED.1.b: "向布拉班特派遣特使。"
+ IR_flavor_NED.1.c: "向弗兰德斯派遣特使。"
+ IR_flavor_NED.1.d: "重新考虑帮助。"
+
+ IR_flavor_NED.2.t: "协助荷兰叛军"
+ IR_flavor_NED.2.desc: "来自远方的势力正在以不公正的方式统治低国家，并压迫其公民。我们必须向他们提供援助，帮助他们与压迫者作斗争。"
+ IR_flavor_NED.2.a: "向叛军提供黄金。"
+ IR_flavor_NED.2.b: "派遣士兵协助叛军。"
+ IR_flavor_NED.2.c: "派遣水手协助叛军。"
+ IR_flavor_NED.2.d: "重新考虑帮助。"
+
+ IR_flavor_NED.3.t: "荷兰叛军已起义"
+ IR_flavor_NED.3.desc: "我们收到消息，外国势力已协助叛军在我们国家内起义。"
+ IR_flavor_NED.3.a: "这将不被容忍！"
+
+ IR_flavor_LowCountries.1.t: "弗拉芒国家"
+ IR_flavor_LowCountries.1.desc: "随着大部分弗拉芒土地的统一，我们必须决定是继续作为一个国家存在，还是改革为一个联合的弗拉芒国家"
+ IR_flavor_LowCountries.1.a: "@FLA 成为一个联合的弗拉芒国家"
+ IR_flavor_LowCountries.1.b: "保持现状"
+
+ #MINORS
+
+ #Tuscany
+ IR_TUS.1.t: "圣斯蒂芬骑士团的成立"
+ IR_TUS.1.d: "在建立托斯卡纳大公国后，[Root.Monarch.GetName]寻求将托斯卡纳纳入更大规模的对抗奥斯曼帝国及其巴巴里海盗爪牙的斗争中。为什么？为了帮助整个基督教世界而战，同时保护托斯卡纳自己的利益。这也有助于为我们新国家创造更大的团结和声望。您怎么看，我的主？"
+ IR_TUS.1.a: "现在不是一个好时机。"
+ IR_TUS.1.b: "将骑士团安置在比萨。 （托斯卡纳获得一支雇佣军）"
+ IR_TUS.1.c: "将骑士团的领地授予厄尔巴岛。"
+ IR_TUS.1.e: "我全力支持。"
+
+ #Naples (and Taranto)
+ IR_flavor_NAP.10.t: "贾纳通尼奥·奥尔西尼的去世"
+ IR_flavor_NAP.10.d: "贾纳通尼奥·奥尔西尼是那不勒斯最有权势的男爵领主，曾被授予塔兰托亲王、巴里公爵等头衔。随着他突然去世，塔兰托的未来岌岌可危。那不勒斯的官僚机构可能会干预，但也许这是一个开创新未来的好时机？"
+ IR_flavor_NAP.10.a: "允许那不勒斯合法没收塔兰托"
+ IR_flavor_NAP.10.b: "与威尼斯贸易联盟重新结盟"
+ IR_flavor_NAP.10.c: "转让给基法利亚"
+
+ IR_flavor_NAP.11.t: "塔兰托的没收"
+ IR_flavor_NAP.11.d: "贾纳通尼奥·奥尔西尼去世后，他没有留下男性继承人，现在是收回整个亲王领地的最佳时机。我们可以重新assert对整个南意大利的控制，并获得对进入亚得里亚海贸易路线的关键地缘政治杠杆。然而，这可能会引发与威尼斯的冲突。"
+ IR_flavor_NAP.11.a: "所以，贾纳通尼奥！"
+
+ IR_flavor_NAP.12.t: "塔兰托加入联盟"
+ IR_flavor_NAP.12.d: "随着贾纳通尼奥·奥尔西尼的去世和那不勒斯贵族的注意力被其他事务占据，塔兰托向威尼斯寻求商业保护。尽管这可能引发那不勒斯的敌对反应，但塔兰托将使我们几乎完全控制亚得里亚海的海峡。"
+ IR_flavor_NAP.12.a: "你的贸易就是我们的贸易。"
+
+
+ IR_flavor_NAP.13.t: "塔兰托的继承"
+ IR_flavor_NAP.13.d: "贾纳通尼奥·奥尔西尼的侄女伊莎贝拉·克莱蒙特是那不勒斯王位的下一个继承人，因为她的父亲没有留下男性继承人。然而，也许让其他统治者登基会更符合我们的地缘政治利益，比如基法利亚的统治者。实际上，这样做将使我们在亚得里亚海和埃皮鲁斯海岸的贸易中获得很大杠杆。"
+ IR_flavor_NAP.13.a: "用另一个宗主国来取代一个宗主国，嗯？"
+
+ IR_flavor_NAP.14.t: "萨莱诺的继承"
+ IR_flavor_NAP.14.d: "随着贾纳通尼奥·奥尔西尼的去世，马尔西科伯爵、特里卡里科伯爵、吉伦特伯爵、圣塞维里诺伯爵、迪亚诺伯爵、拉乌里亚伯爵、圣安杰洛·阿·法萨内拉伯爵和马格利亚诺伯爵等圣塞维里诺王朝的继承权问题浮出水面。看来我们的博弈终于得到了回报。"
+ IR_flavor_NAP.14.a: "如此显赫的地位，我们将继续崛起！"
+
+ #Wallachia
+ IR_flavor_WAL.1.t: "夺回多瑙河"
+ IR_flavor_WAL.1.d: ""
+ IR_flavor_WAL.1.a: "在多瑙河截断奥斯曼帝国！"
+ IR_flavor_WAL.1.b: "我们不应该挑起奥斯曼帝国的愤怒！"
+
+ IR_flavor_WAL.2.t: "贵族叛徒？"
+ IR_flavor_WAL.2.d: ""
+ IR_flavor_WAL.2.a: "处决并钉死这些叛徒，号召其他人抵抗土耳其的威胁！"
+ IR_flavor_WAL.2.b: "再想想，维护贵族的地位可能会很有用。"
+
+ IR_flavor_WAL.3.t: "加强多瑙河防御"
+ IR_flavor_WAL.3.d: ""
+ IR_flavor_WAL.3.a: "在吉尔吉乌和布拉伊拉建立防御工事将大大增强我们的防御能力。"
+ IR_flavor_WAL.3.b: "在预期战斗时，不宜进行大胆的开支..."
+
+ #South East Asia
+ #Patani
+ flavor_pat.1.t:0 "赛义德·谢赫的提议"
+ flavor_pat.1.d:0 "最近，[Root.Monarch.GetTitle][Root.Monarch.GetName]因患上严重的AN_disease而病重，作为结果，[Root.Monarch.GetTitle]的皮肤开始出现裂纹。到目前为止，还没有人能治愈[Root.Monarch.GetHerHis]的AN_disease，但一位名叫赛义德·谢赫的穆斯林商人接受了这个挑战，治愈[Root.Monarch.GetName]，前提是如果[Root.Monarch.GetName]康复，国王和他的朝廷都要皈依伊斯兰教。"
+ flavor_pat.1.a:0 "我们接受他的提议"
+ flavor_pat.1.b:0 "国王宁愿死去！"
+
+ #Mong Mao
+ flavor_mma.1.t:0 "鲁川-平缅战役"
+ flavor_mma.1.d:0 "自明朝建立以来，中国对云南地区的影响一直很微弱。来自云贵边境的各种强盗集团对云南进行了不断的袭击，而蒙毛这个大国则是这些攻击的主要来源。明朝为惩罚蒙毛的侵略而发起了一系列军事行动，但大多数惩罚性战役都让蒙毛相对完好无损，明朝付出了沉重的代价。"
+ flavor_mma.1.a:0 "他们的强盗行为到此为止！"
+ flavor_mma.1.b:0 "我们无法承受更多的伤亡"
+
+ flavor_mma.2.t:0 "蒙毛的覆灭"
+ flavor_mma.2.d:0 "在我们试图找到并处决蒙毛的[MM.Monarch.GetName]的过程中，我们的军队占领了蒙毛的首都。我们对蒙毛的搜索没有成功，据信[MM.Monarch.GetName]已经逃离了这个城市。既然他们已经投降，我们可以削弱他们的实力，或者继续战争以捕获[MM.Monarch.GetName]。"
+ flavor_mma.2.a:0 "我们胜利了！"
+ flavor_mma.2.b:0 "我们还没有结束这场战争！"
+
+ 
+
+ #####################
+ #
+ #IR Flavor Land
+ IR_flavor_LAND.1.t: "初始化"
+ IR_flavor_LAND.1.desc: "创造一个机会"
+ IR_flavor_LAND.1.a: "关闭"
+
+ IR_flavor_LAND.2.t: "最近的事件"
+ IR_flavor_LAND.2.desc: "我们的一位贵族因最近一系列事件惹恼了其他贵族。他被指控谋杀，因为他的一个农奴显然对另一位贵族的农场造成了损害。贵族们决定，惟一合适的惩罚就是流亡。那位贵族请求其他人和他一起踏上旅程。"
+ IR_flavor_LAND.2.a: "帮助被流放的贵族"
+ IR_flavor_LAND.2.b: "我们对他的遭遇不感兴趣。"
+
+
+ IR_flavor_LAND.3.t: "发现定居点"
+ IR_flavor_LAND.3.desc: "令人难以置信的是，被流放的贵族发现了格林兰定居点。我们与格林兰的定居者已经有几十年没有联系了。"
+ IR_flavor_LAND.3.a: "加入定居点"
+ IR_flavor_LAND.3.b: "问候，兄弟们"
+
+ IR_flavor_LAND.4.t: "没有流亡者的消息"
+ IR_flavor_LAND.4.desc: "已经过去一年多了，我们没有收到被流放的贵族的消息。他可能已经死了，如果没有的话，也是在某个遥远的地方藏匿。"
+ IR_flavor_LAND.4.a: "好 riddance"
+
+ IR_flavor_LAND.5.t: "随机数生成器"
+ IR_flavor_LAND.5.desc: "设置未来"
+ IR_flavor_LAND.5.a: "关闭"
+
+ IR_flavor_LAND.6.t: "一系列不幸的灾难"
+ IR_flavor_LAND.6.desc: "最近一切都不顺利。由于缺乏外部联系，我们的定居点已经衰退了很长时间。几乎没有木材可以替换霜冻对我们住所造成的损害。庄稼普遍歉收，如果我们不采取措施，毫无疑问，我们将在这里灭绝。"
+ IR_flavor_LAND.6.a: "尝试向我们在格林兰的兄弟们发起远征"
+ IR_flavor_LAND.6.b: "与格林兰人合作"
+ IR_flavor_LAND.6.c: "向西航行，前往传说中的格林兰土地"
+
+
+  #####OLD STRINGS NEED UPDATING
+
+ flavor_brapru.0.t: "普鲁士公国"
+ flavor_brapru.0.d: "尽管在十三年战争后吞并了东普鲁士，但当地的王朝环境再次允许普鲁士公国由阿尔伯特·冯·霍亨索伦统治。"
+ flavor_brapru.0.a: "令人失望。"
+
+
+ flavor_eng.10000.t: "为卡莱逆转局势"
+ flavor_eng.10000.d: "在勃艮第的约翰一世被刺杀后，人们普遍认为这是查理七世的命令。因此，勃艮第人与我们结盟。然而，仅仅16年后，在阿拉斯，他们背叛了这个信任，再次成为法国的盟友。现在他们再次向我们提出建议：他们将再次支持我们的主张，并授予我们在低地国家的贸易特权。作为回报，他们要求我们授予他们与查理斯目前拥有的特权相同的特权，并将卡莱割让给他们。"
+ flavor_eng.10000.a: "是的，我们已经分开太久了。"
+ flavor_eng.10000.b: "不，这些条款太荒谬了。"
+
+
+ #IR_marriages
+
+ IR_marriages.1.t: "伊比利亚婚礼"
+ IR_marriages.1.d: "阿拉贡国王费尔南德与卡斯蒂利亚的伊莎贝拉公主于1469年10月在巴利亚多利德成婚。这是一场出于政治 opportunism，而非浪漫的婚姻。阿拉贡的宫廷梦想着重返卡斯蒂利亚，而伊莎贝拉则需要帮助以获得王位继承权。这场婚姻开启了一段黑暗而动荡的生活，费尔南德在卡斯蒂利亚和阿拉贡的战线上奋战，以便在贵族寡头统治下确立自己的权威，随着危险的加剧而在两个王国之间转移支持基础。尽管这段婚姻是出于政治考虑，但费尔南德对伊莎贝拉的爱是诚挚的。许多人认为费尔南德是他王国的救世主，是统一的带来者。其他人则因他压迫人民而痛恨他。马基雅维利将他视为文艺复兴王子的典型特征。"
+ IR_marriages.1.a: "让我们将他们的王朝与我们绑定！"
+ IR_marriages.1.b: "不，让我们与当地贵族结婚。"
+
+ IR_marriages.2.t: "瓦迪斯瓦夫三世的继承人"
+ IR_marriages.2.d: "瓦尔纳战役的惨败导致瓦迪斯瓦夫三世国王去世，波兰和匈牙利的王位继承问题浮出水面。"
+ IR_marriages.2.a: "我们需要一个雅盖隆王朝的继承人！"
+ IR_marriages.2.b: "让我们任命一位当地贵族作为统治者。"
+
+ IR_marriages.3.t: "萨布莱条约"
+ IR_marriages.3.d: "几个世纪以来，布列塔尼人一直在法兰西王国的边缘徘徊。如今，随着法国的敌人环绕四周，布列塔尼被纳入友好控制变得至关重要。尽管内部对此有反对声音，但教皇已提议验证任何婚姻，以及随之而来的对公国的权利要求。通过与布列塔尼的安妮结婚，我们可以最终实现布列塔尼与法国的统一。"
+ IR_marriages.3.a: "让我们将他们的王朝与我们绑定！"
+ IR_marriages.3.b: "不，让我们与当地贵族结婚。"
+
+
+ #AN_explorers
+
+ AN_explorers.1.t: "克里斯托弗·哥伦布"
+ AN_explorers.1.d: "探险家克里斯托弗·哥伦布曾两次尝试说服葡萄牙国王[From.Monarch.GetName]资助一次探险，寻找通往东方的西方航线。在第二次被拒绝后，哥伦布将精力转向了[Root.GetAdjective]王国。在意大利投资者的支持下，哥伦布希望说服国王[Root.Monarch.GetName]同意这次探险。"
+ AN_explorers.1.a: "雇佣哥伦布！"
+ AN_explorers.1.b: "拒绝他的提议。"
+
+ AN_explorers.2.t: "费迪南德·麦哲伦"
+ AN_explorers.2.d: "探险家费迪南德·麦哲伦请求[From.Monarch.GetName]资助一次探险，试图实现哥伦布的梦想，寻找通往东方的西方航线。尽管他需要几艘装备精良的船只，但麦哲伦相信他的努力会说服国王[Root.Monarch.GetName]同意资助这次探险。"
+ AN_explorers.2.a: "雇佣麦哲伦！"
+ AN_explorers.2.b: "拒绝他的提议。"
+
+ AN_explorers.3.t: "雅克·卡地亚"
+ AN_explorers.3.d: "探险家雅克·卡地亚请求[From.Monarch.GetName]资助一次探险，试图寻找美洲的西北航道。尽管他需要几艘装备精良的船只，但卡地亚相信他的努力会说服国王[Root.Monarch.GetName]同意资助这次探险。"
+ AN_explorers.3.a: "雇佣卡地亚！"
+ AN_explorers.3.b: "拒绝他的提议。"
+
+ AN_explorers.4.t: "塞缪尔·德·尚普兰"
+ AN_explorers.4.d: "探险家塞缪尔·德·尚普兰请求[From.Monarch.GetName]资助一次探险，试图通过圣劳伦斯河寻找美洲的西北航道。尽管他需要几艘装备精良的船只，但尚普兰相信他的努力会说服国王[Root.Monarch.GetName]同意资助这次探险。"
+ AN_explorers.4.a: "雇佣尚普兰！"
+ AN_explorers.4.b: "拒绝他的提议。"
+
+
+ #IR conversion
+ IR_religion_convert_islam.1.t: "瓦利萨尔的道路"
+ IR_religion_convert_islam.1.d: "自从一个多世纪前贾马尔丁·阿尔·阿克巴尔·阿尔·侯赛因的到来，南苏拉威西的人民就开始逐渐皈依逊尼派。通过与哈马赫拉的伊斯兰苏丹国进行的国际贸易，展示了皈依的经济利益，也许是时候考虑一条类似的道路了。\n面对日益增长的逊尼派穆斯林的压力，[Root.Monarch.GetName]试图确定伊斯兰教在我们社会中的角色..."
+ IR_religion_convert_islam.1.a: "皈依伊斯兰教，采用苏丹的称号！"
+ IR_religion_convert_islam.1.b: "我们不需要外来的神秘主义。"
+
+ IR_religion_convert_islam.2.t: "一个伊斯兰的卡里夫？"
+ IR_religion_convert_islam.2.d: "随着哈马赫拉的伊斯兰贸易商的到来，我们富含香料的小岛的贸易与更广阔的世界联系在一起。通过扩展哈马赫拉香料的贸易，我们的香料小岛有望获得巨大的发展，但这取决于与外国的关系。实际上，随同来自马六甲的商人的伊玛目们倡导皈依，出于宗教和经济原因。如果我们皈依，采纳逊尼派的传统，并实施伊斯兰法律，我们可能会与整个伊斯兰世界展开贸易。"
+ IR_religion_convert_islam.2.a: "皈依伊斯兰教，采用苏丹的称号！"
+ IR_religion_convert_islam.2.b: "我们不需要外来的神秘主义。"
+
+ IR_religion_convert_islam.3.t: "米南杜的苏丹"
+ IR_religion_convert_islam.3.d: "随着穆罕默德·卡蓬苏丹与当地公主的婚姻，棉兰老岛的人民在日常生活中越来越倾向于伊斯兰教。也许是时候与苏禄的伊斯兰贸易商建立持久的伙伴关系，加入伊斯兰兄弟会？"
+ IR_religion_convert_islam.3.a: "皈依伊斯兰教，采用苏丹的称号！"
+ IR_religion_convert_islam.3.b: "拒绝像卡蓬苏丹那样的人！"
+
+ IR_religion_convert_islam.4.t: "逊尼派王子"
+ IR_religion_convert_islam.4.d: "一位来自达哈王国的王室成员，因其对逊尼派伊斯兰教在我们王国中角色的激进看法而受到迫害，开始聚集随从和士兵。尽管[Root.Monarch.GetName]可能不喜欢，但这个更具同情心的人物在民众中获得了广泛支持，使得最终皈依伊斯兰教似乎不可避免..."
+ IR_religion_convert_islam.4.a: "皈依伊斯兰教，让这位王子重新回到我们的怀抱！"
+ IR_religion_convert_islam.4.b: "处决这个叛逆的激进分子..."
+
+ IR_religion_convert_islam.5.t: "一个逊尼派的加伦坦？"
+ IR_religion_convert_islam.5.d: "随着整个地区伊斯兰教的兴起，逊尼派宫廷、神职人员和伊玛目的影响力开始对我们国家的稳定构成威胁...或者是机遇。也许接受这一变化，采纳越来越受到民众支持的宗教习俗，以巩固我们在穆斯林王国中的地位，是更明智的选择？"
+ IR_religion_convert_islam.5.a: "皈依伊斯兰教，采用苏丹的称号！"
+ IR_religion_convert_islam.5.b: "我们绝不会背离唯一真主的信仰！"
+
+ IR_religion_convert_islam.6.t: "吉尔巴特的崛起"
+ IR_religion_convert_islam.6.d: "曾经是一个小型印度教渔村的吉尔巴特，现在已大不相同。如今，作为一个繁荣的逊尼派港口，吉尔巴特成为了一个不可小觑的力量。其地方领袖是[Root.Monarch.GetName]的雄心勃勃的孙子，他已向我们发出信件，拒绝支付贡品。这对我们来说是一个重大挑战，因为伊斯兰教在我们国家日益增长的影响力威胁着我们的利益，或者是一个机遇。我们是应该屈服于吉尔巴特的权威，还是应该镇压这个叛乱的地方势力？"
+ IR_religion_convert_islam.6.a: "接受吉尔巴特的权威！"
+ IR_religion_convert_islam.6.b: "让他们自行其是..."
+ IR_religion_convert_islam.6.c: "我们必须强制征收应付的贡品！"
+
+ IR_religion_convert_islam.6.t: "万丹的崛起"
+ IR_religion_convert_islam.6.d: "一位在阿拉伯受过教育的乌拉玛，对我们[Root.GetName]的现状感到越来越沮丧。随着爪哇的逊尼派势力崛起，许多人响应乌拉玛的号召，提供军队和物资来对抗我们的国家。为了确保我们朝廷和国家的延续，皈依逊尼派伊斯兰教似乎是不可避免的，除非我们准备进行一场漫长而血腥的斗争..."
+ IR_religion_convert_islam.6.a: "接受万丹的权威！"
+ IR_religion_convert_islam.6.b: "让他们自行其是..."
+ IR_religion_convert_islam.6.c: "我们必须强制征收应付的贡品！"
+
+#Great Works
+ great_work.1.t: "自负与偏见"
+ great_work.1.d: "《自负与偏见》是简·奥斯汀于1813年首次出版的一部浪漫小说。故事描绘了女主角伊丽莎白·班纳特的情感发展，她认识到匆忙判断的错误，并开始欣赏表面与本质之间的区别。小说的幽默在于对英国摄政时期的举止、教育、婚姻和金钱的描绘。"
+ great_work.1.a: "优秀"
+ great_work.2.t: "新工具"
+ great_work.2.d: "《新工具》，全名《新科学工具》，是弗朗西斯·培根于1620年用拉丁文写的哲学著作。书名是对亚里士多德的《工具》一书的引用，后者是他关于逻辑和三段论的论文。"
+ great_work.2.a: "优秀"
+ great_work.3.t: "海拉斯与菲洛诺斯的三次对话"
+ great_work.3.d: "《海拉斯与菲洛诺斯的三次对话》，简称《三次对话》，是乔治·伯克利于1713年撰写的一本关于形而上学和唯心主义的书。书中以对话的形式回应了伯克利在出版《人类知识原则论》后遭遇的批评。书中讨论的三个重要概念是感知相对性、可想象性/主观性论证以及伯克利的现象学。"
+ great_work.3.a: "优秀"
+ great_work.4.t: "怀疑的炼金术士"
+ great_work.4.d: "《怀疑的炼金术士：或化学与物理的怀疑论与悖论》是罗伯特·波义耳于1661年在伦敦出版的一本书。以对话的形式，怀疑的炼金术士提出了波义耳的假说，即物质由运动中的原子和原子簇组成，每种现象都是粒子碰撞运动的结果。"
+ great_work.4.a: "优秀"
+ great_work.5.t: "自然史：一般与特别"
+ great_work.5.d: "《自然史：一般与特别》是由布丰伯爵于1749年至1804年间撰写的36卷大型百科全书，之后由他的同事们在他去世后继续撰写，共8卷。书中涵盖了当时对“自然科学”的所有知识，包括现在所称的材料科学、物理学、化学和技术，以及动物的自然历史。"
+ great_work.5.a: "优秀"
+ great_work.6.t: "朝圣者的进步"
+ great_work.6.d: "《从这个世界到那个世界的朝圣者的进步》是约翰·班扬于1678年撰写的基督教寓言。它被认为是宗教英语文学中最重要的作品之一，已被翻译成200多种语言，并且从未停过印刷。它也被认为是用英语写的第一部小说。"
+ great_work.6.a: "优秀"
+ great_work.7.t: "基督教信仰的教义"
+ great_work.7.d: "《基督教信仰的教义》（拉丁文：Institutio Christianae Religionis）是约翰·加尔文的标志性新教系统神学著作。该书旨在为那些对神学有一定了解的人介绍新教信条，涵盖了从教会和圣礼的教义到单靠信仰称义和基督教自由的广泛主题。它对加尔文认为不正统的教义，特别是罗马天主教，进行了激烈的攻击。"
+ great_work.7.a: "优秀"
+ great_work.8.t: "三篇论文"
+ great_work.8.d: "《三篇论文》是英国科学家亨利·卡文迪许发布的一系列重要论文。这些论文强调了他最重要的发现——氢气，或他所称的“可燃空气”。"
+ great_work.8.a: "优秀"
+ great_work.9.t: "论战争"
+ great_work.9.d: "《论战争》是普鲁士将军卡尔·冯·克劳塞维茨关于战争和军事战略的著作，主要是在拿破仑战争后撰写的。他的10卷作品集包含了他大多数较大历史和理论著作，尽管没有包括他与普鲁士国家的重要政治、军事、知识和文化领袖的简短文章和信件。《论战争》由前三卷组成，代表了他对政治军事分析和战略的理论探索。这是有史以来最重要的政治军事分析和战略著作之一，并且仍然具有争议性，对战略思维产生影响。"
+ great_work.9.a: "优秀"
+ great_work.10.t: "论天体的运动"
+ great_work.10.d: "《天体运行论》（De revolutionibus orbium coelestium）是文艺复兴时期天文学家尼古拉斯·哥白尼的开创性著作。该书于1543年首次印刷于神圣罗马帝国的纽伦堡，提出了与托勒密的地心说相对立的日心说宇宙模型。"
+ great_work.10.a: "优秀"
+
+ #dynasties
+ #Base Options
+ IR_dynasty_events.1.b: "加冕我们王朝的一个旁系成员"
+ IR_dynasty_events_noble.1.c: "当地贵族会更好"
+
+ # POR
+ ir_dynastic.1.t: "若望四世"
+ ir_dynastic_events.1.d: "若望四世是葡萄牙和亚速尔群岛的国王，统治时间从1640年到他去世。他是凯瑟琳·布拉干萨的孙子，后者在1580年宣称葡萄牙王冠，引发了对葡萄牙王位的争夺。若望四世被称为复兴者（João o Restaurador）。在1656年去世前夕，葡萄牙帝国达到了其领土顶峰，遍布全球。他是葡萄牙摆脱西班牙统治的重要力量。"
+ IR_dynasty_events.1.a: "愿布拉干萨家族长存"
+ # SPA
+ ir_dynastic.2.t: "菲利普五世"
+ ir_dynastic_events.2.d: "菲利普五世是西班牙国王，统治时间从1700年11月1日到1724年1月15日，之后因其子路易斯的去世而复位，直至1746年7月9日去世。在他成为国王之前，菲利普在法国王室中占据着崇高的地位，是路易十四的孙子。由于他的父亲路易大王太子和哥哥路易·杜克·德·布尔戈涅无法被排除在继承法国王位之外，西班牙王位在1700年空缺时，路易十四的外甥菲利普被指定为继承人。这一安排引发了西班牙王位继承战争，持续了14年，直到乌特勒支条约禁止法国和西班牙王位的统一。"
+ IR_dynasty_events.2.a: "愿波旁家族长存"
+ # FRA
+ ir_dynastic.3.t: "亨利四世"
+ ir_dynastic_events.3.d: "亨利四世，也被称为亨利大帝，是纳瓦拉国王（以亨利三世的名义）和法国国王（1589年至1610年）的统治者。他是波旁王朝的第一位国王，波旁王朝是卡佩王朝的旁支。他于1610年被狂热的天主教徒弗朗索瓦·拉瓦亚克刺杀，随后由他的儿子路易十三继位。他在位期间，亨利四世成功地结束了法国宗教战争，并通过颁布南特敕令来实现宗教宽容，从而为法国的经济复苏和中央集权奠定了基础。"
+ IR_dynasty_events.3.a: "愿波旁家族长存"
+ # Bonaparte
+ ir_dynastic.4.t: "拿破仑一世"
+ ir_dynastic_events.4.d: "拿破仑·波拿巴是法国的政治家和军事领袖，他在法国大革命期间崭露头角，并在拿破仑战争期间领导法国与多个联盟国作战。他在1804年至1814年以及1815年短暂复辟期间担任法国皇帝。在他的统治下，法国建立了一个庞大的帝国，统治着大部分欧洲，直至1815年最终崩溃。他被认为是历史上最伟大的指挥官之一，他的战争和战役至今仍在军事学校中被研究。拿破仑的政治和文化遗产作为一个备受赞誉和争议的领导者，至今仍在延续。"
+ IR_dynasty_events.4.a: "愿波拿巴家族长存"
+ # ENG/GBR
+ ir_dynastic.5.t: "亨利六世"
+ ir_dynastic_events.5.d: "亨利六世是苏格兰国王（亨利六世）和英格兰及爱尔兰国王（詹姆斯一世）的统治者，统治时间从1567年7月24日到1625年。他是玛丽·斯图亚特的儿子，也是英格兰和爱尔兰国王亨利七世的曾曾孙。亨利六世在位期间，英格兰经历了都铎王朝的兴起和宗教改革的开始。他的统治见证了王权与议会之间权力平衡的微妙变化。"
+ IR_dynasty_events.5.a: "愿斯图亚特家族长存"
+ ir_dynastic.6.t: "乔治一世"
+ ir_dynastic_events.6.d: "乔治一世是大不列颠和爱尔兰国王，统治时间从1714年8月1日到他去世。他还是神圣罗马帝国的布伦瑞克-吕讷堡公爵。乔治出生于汉诺威，继承了父亲和叔叔的布伦瑞克-吕讷堡公国。随着欧洲战争的爆发，他的德意志领土在他生前得到了扩展。1708年，乔治被确认是汉诺威的选帝侯。54岁时，乔治一世继承了已故的伊丽莎白一世的英国和爱尔兰王位。尽管有50多位罗马天主教徒在继承伊丽莎白一世的王位时比乔治更接近，但《继承法案》1701禁止天主教徒继承英国王位；乔治是伊丽莎白一世最近的亲属。由于雅各布派试图推翻乔治并将安妮的天主教异母兄弟詹姆斯·弗朗西斯·爱德华·斯图亚特扶植为王，乔治的登基引发了雅各布派的反抗。乔治在位期间，君主的权力减弱，英国开始过渡到现代内阁政府制度，由首相领导。"
+ IR_dynasty_events.6.a: "愿汉诺威家族长存"
+ # Russia
+ ir_dynastic.7.t: "米哈伊尔一世"
+ ir_dynastic_events.7.d: "米哈伊尔一世是俄罗斯罗曼诺夫王朝的第一位沙皇，1613年由俄罗斯土地代表大会（zemskiy sobor）选举为俄罗斯沙皇。他是费奥多尔·尼基季奇·罗曼诺夫（后来的菲拉雷特大主教）和克谢尼亚（后来的玛尔塔大修道院院长）的儿子。他还是通过其曾姑姑阿纳斯塔西娅·罗曼诺夫娜（父系祖父的姐妹）和与伊凡四世的婚姻而成为弗拉基米尔大公的费奥多尔一世的侄子。米哈伊尔的即位标志着动荡时代的结束。在位期间，俄罗斯在哥萨克人和斯特罗甘诺夫家族的帮助下征服了大部分西伯利亚地区。到米哈伊尔去世时，俄罗斯的疆域已扩展至太平洋沿岸。"
+ IR_dynasty_events.7.a: "愿罗曼诺夫家族长存"
+ # Sweden
+ ir_dynastic.8.t: "古斯塔夫一世"
+ ir_dynastic_events.8.d: "古斯塔夫一世，出生于瓦萨贵族家族的古斯塔夫·埃里克松，曾于1523年至1560年担任瑞典国王，曾于1521年在对抗丹麦国王克里斯蒂安二世的瑞典解放战争中自我认定为摄政王。古斯塔夫的当选于1523年6月6日成为国王，并于11天后凯旋进入斯德哥尔摩，标志着瑞典最终脱离卡尔马联盟。作为国王，古斯塔夫是一位神秘的管理者，具有与其前任相当的残酷，镇压了随后的叛乱（在达拉纳发生过三次——曾是他王位的支持者的地区——在韦斯特哥特兰和斯莫兰各发生过一次）。他致力于提高税收和推动瑞典宗教改革，取代地方地主、贵族和神职人员的特权，任命中央集权的省长和主教。他的统治持续了37年，是瑞典历史上最长的统治之一（后来被古斯塔夫五世和卡尔十六世·古斯塔夫超越），见证了与丹麦的决裂以及与罗马天主教会的决裂，教会的资产被国有化，瑞典国教会在他的个人控制之下成立。"
+ IR_dynasty_events.8.a: "愿瓦萨家族长存"
+
+ ir_dynastic.9.t: "查理十世·古斯塔夫"
+ ir_dynastic_events.9.d: "查理十世·古斯塔夫，亦称卡尔·古斯塔夫，是瑞典国王，统治时间从1654年至其去世。他是约翰·卡西米尔，布伦瑞克-吕讷堡的伯爵和瑞典的凯瑟琳·霍尔斯坦-戈托尔普的儿子。他与霍尔斯坦-戈托尔普的赫德维格·埃莱奥诺拉结婚，育有继承人查理十一世。查理十世·古斯塔夫是继克里斯托弗·巴伐利亚（1441-1448）之后第二位也是最后一位瑞典的维特尔斯巴赫王朝国王，他也是瑞典卡罗林时代的第一位国王，该时期在其子查理十一世统治末期达到顶峰。他在第二次北方战争中领导瑞典，扩大了瑞典帝国。由于他的继承人查理六世年仅六岁，科尔特斯勉强允许乔安娜的父亲费尔南德二世作为乔安娜和查理的摄政王统治国家。"
+ IR_dynasty_events.9.a: "愿普法尔茨-吕讷堡家族长存"
+ ir_dynastic.10.t: "查理斯·弗雷德里克一世"
+ ir_dynastic_events.10.d: "查理斯·弗雷德里克一世是瑞典的王配，曾于1718年至1720年担任摄政王，之后于1720年至去世期间担任瑞典国王（以查理斯一世的名义），同时于1730年成为黑森-卡塞尔的土地格雷夫。继承了已故绝对主义者查理十二世的王位后，他的统治见证了王权的削弱，英国开始过渡到现代内阁政府制度，由首相领导。查理斯一世在位期间，财政陷入困境，导致1741-1743年与俄罗斯的战争失败。"
+ IR_dynasty_events.10.a: "愿黑森-卡塞尔家族长存"
+
+ ir_dynastic.11.t: "阿道夫·弗雷德里克"
+ ir_dynastic_events.11.d: "阿道夫·弗雷德里克是瑞典国王，统治时间从1751年至去世。他是霍尔斯坦-戈托尔普的克里斯蒂安·奥古斯特王子和巴登-杜尔拉赫的阿尔贝蒂娜·弗雷德里卡的儿子。作为霍尔斯坦-戈托尔普王朝的第一位国王，阿道夫·弗雷德里克是一位软弱的君主，在1741-1743年与俄罗斯的战争失败后，名义上成为王位继承人。除了少数几次得到支持的恢复绝对主义的尝试外，他基本上是一个宪法上的傀儡，直到他于1772年在一次军事政变中被推翻。"
+ IR_dynasty_events.11.a: "愿霍尔斯坦-戈托尔普家族长存"
+ # DAN
+ ir_dynastic.12.t: "克里斯蒂安一世"
+ ir_dynastic_events.12.d: "克里斯蒂安一世是卡尔玛联盟下的斯堪的纳维亚君主。他是丹麦国王（1448-1481）、挪威国王（1450-1481）和瑞典国王（1457-1464）。从1460年到1481年，他还是布伦瑞克-吕讷堡公爵（在丹麦境内）和霍尔斯坦伯爵（在神圣罗马帝国境内）。他是奥尔登堡王朝的第一位丹麦君主。在克里斯托弗·巴伐利亚（1416-1448）去世后，瑞典选举查尔斯八世为国王，意图在瑞典国王的统治下重建联盟。查尔斯在随后的年份里被选为挪威国王。然而，霍尔斯坦的伯爵们使得丹麦枢密院任命克里斯蒂安为丹麦国王。他的继位使瑞典短暂地重新加入卡尔玛联盟。1463年，瑞典脱离联盟，克里斯蒂安的征服尝试以他在1471年与瑞典摄政斯特恩·斯图尔的战斗失利而告终。"
+ IR_dynasty_events.12.a: "愿奥尔登堡家族长存"
+ # NED
+ ir_dynastic.13: "威廉·奥兰治"
+ ir_dynastic_events.13.d: "威廉一世，奥兰治亲王，也被称为威廉沉默或威廉缄默，是荷兰反抗西班牙哈布斯堡统治的主要领导者，触发了八十年战争（1568-1648），并导致了荷兰共和国在1581年的正式独立。他出生于拿骚-迪伦堡的霍亨佐伦家族。1544年，他成为奥兰治亲王，从而创立了奥兰治-拿骚王朝，并成为荷兰王室的祖先。在荷兰，他也被称为祖国之父（荷兰语：Vader des Vaderlands）。作为一位富有的贵族，威廉最初作为西班牙国王的宫廷成员服务于哈布斯堡王朝。由于不满权力从地方议会转移到中央集权，以及对荷兰新教徒的迫害，威廉转而支持荷兰起义，并与西班牙决裂。作为反叛者中最有影响力和政治能力的人物，他领导荷兰取得了几次反对西班牙的胜利。1580年，威廉被西班牙国王宣告为亡命之徒，1584年在代尔夫特被巴尔塔萨·热拉尔德刺杀。"
+ IR_dynasty_events.13.a: "他将是我们的国王"
+ IR_dynasty_events_dutch.13.b: "维持现状"
+ IR_dynasty_events_noble.13.c: "任命他为斯大德尔"
+
+ #Historic Generals/ministers/admirals
+
+ #Dutch
+ ir_men_ned.1.t: "米歇尔·德·吕特"
+ ir_men_ned.1.d: "米歇尔·阿德里安斯佐恩·德·吕特是荷兰的一位海军上将。他是历史上最优秀的海军指挥官之一，因在17世纪的英荷战争中表现出色而闻名。他与英法作战，并多次获得重大胜利，其中最著名的可能是对梅德韦的袭击。虔诚的德·吕特深受水手和士兵的爱戴；这个绰号来源于他：Bestevaêr（荷兰语中“祖父”的古语）。"
+ ir_men_ned.2.t: "科尔内利斯·德·维特"
+ ir_men_ned.2.d: "科尔内利斯·德·维特是荷兰旧有的贵族家庭德·维特家的成员。他于1623年6月15日出生在荷兰的多德雷赫特。1650年，他成为多德雷赫特的市长，并成为荷兰和西弗里斯兰的地方议会成员。此后，他被任命为普滕的鲁瓦尔德（官方职务，结合了警察局长和检察官的职能）和比埃兰的法尔夫。 他与弟弟约翰·德·维特（荷兰的“大养老金领取者”）关系密切，并在其整个职业生涯中给予他极大的支持。 1677年，他作为荷兰代表团的副手，随米哈伊尔·德·吕特参加了著名的梅德韦袭击。 科尔内利斯·德·维特在1672年和1673年两次担任海军上将，并在1672年和1674年两次担任海军大臣。 他以冷静和勇气著称。 他在1672年和1673年两次担任海军上将，并在1672年和1674年两次担任海军大臣。 他以冷静和勇气著称。"
+ ir_men_ned.3.t: "雅各布斯·阿米纽斯"
+ ir_men_ned.3.d: "雅各布斯·阿米纽斯是荷兰宗教改革时期的神学家，他的观点成为阿米念主义和荷兰再宗教改革运动的基础。他于1603年起担任莱顿大学的神学教授，并撰写了许多关于神学的书籍和论文。阿米纽斯的教义挑战了加尔文主义的标准，特别是对预定论的看法，引发了广泛的讨论和争议。"
+ ir_men_ned.4.t: "雅各布·阿尔米纽斯"
+ ir_men_ned.4.d: "雅各布·阿尔米纽斯是荷兰的一位神学家和宗教改革者，他的教义成为阿米念主义的基础。阿尔米纽斯主张普遍救赎和自由意志，反对加尔文主义的预定论。他的观点在荷兰和其他地方引发了激烈的争论，并导致了与加尔文主义者的分裂。"
+ ir_men_ned.5.t: "亨利·卡文迪许"
+ ir_men_ned.5.d: "亨利·卡文迪许是英国化学家和物理学家，以发现氢气而闻名。他的实验室工作和对气体性质的研究奠定了现代化学的基础。卡文迪许的研究包括对气体的研究，尤其是可燃气体，并且他是第一个识别和命名氢气的人。他的发现对后来的化学家产生了深远的影响。"
+ ir_men_ned.6.t: "弗雷德里克·德·霍特曼"
+ ir_men_ned.6.d: "弗雷德里克·德·霍特曼是荷兰东印度公司的官员，曾于十七世纪初两度担任荷兰东印度公司总督。他是雅加达的创始人，雅加达是荷兰东印度公司的首都。因其在荷兰东印度公司中的主导作用，德·霍特曼被视为荷兰国家的英雄。他在1618年曾说过一句名言：“不要绝望，不要怜悯敌人，因为上帝与我们同在”，这句话体现了他的单-minded残忍，以及他对其事业神圣性质的坚定信念。由于其自称的神圣授权被广泛认为是过度的，尤其是在印尼独立后，德·霍特曼的历史形象受到更为严厉的审视。"
+ ir_men_ned.7.t: "阿德里安·布洛克"
+ ir_men_ned.7.d: "阿德里安·布洛克是荷兰的一位私人商人、私掠者和船长，以探索从新泽西到马萨诸塞州的沿海和河谷地区而闻名。他在1611年至1614年间进行了四次航行，追随亨利·哈德逊于1609年的探险之后，开辟了荷兰在美洲的殖民地。他可能为罗德岛命名，并与当地美洲原住民建立了早期贸易关系。他的探险为后来的殖民者提供了重要的地理和人文知识。"
+
+ #base
+ ir_admiral.1.a: "任命他为海军上将"
+ ir_general.1.a: "任命他为将军"
+ ir_admiral.1.a: "他将担任部长职务"
+ ir_explorer.1.a: "任命他为探险家"
+ ir_conquistador.1.a: "任命他为征服者"
+ ir_men.prestige.1.a: "太棒了"
+
+
+ #Balance of Power - Procyon
+
+ taungu_rise.1_title: "堂古帝国的崛起"
+ taungu_rise.1_desc: "在塔宾舒韦提国王的统治下，堂古帝国即将征服缅甸，尽管这位君主后来因狩猎事故过早去世。他的妹夫征服了印度支那，建立了历史上最大的东南亚帝国。然而，他的帝国在他死后立即发生叛乱，导致帝国崩溃。虽然后来得以恢复，但再也无法恢复往日的辉煌。"
+ taungu_rise.1_a: "我们将统一东印度！"
+ taungu_empire: "堂古帝国的崛起"
+
+ mughal_form.1_title: "莫卧儿帝国的崛起"
+ mughal_form.1_desc: "扎希尔·乌丁·穆罕默德，这位来自费尔干纳的军阀，在帕尼帕特战役中对我们造成了决定性的失败。他即将在我们未加固的情况下围攻我们的首都。"
+ mughal_form.1_a: "向入侵者投降。"
+ mughal_form.1_b: "我们将战斗到底！"
+
+ aq_rise.1_title: "阿克奎尤鲁的崛起"
+ aq_rise.1_desc: "阿克奎尤鲁长期以来无法扩张，因为他们受到对手卡拉·奎尤鲁或“黑羊土耳其人的”威胁。然而，随着乌祖恩·哈桑的统治，这种情况发生了变化。他在1467年击败了对手，阿克奎尤鲁占领了美索不达米亚的全部地区，并征服了波斯的部分地区。然而，一系列的继承危机使帝国分裂，最终被萨法维帝国吞并。"
+ aq_rise.1_a: "复仇是甜美的.."
+ aq_rise.1_b: "让我们不要过度扩张。"
+ aq_expansion: "阿克奎尤鲁的崛起"
+
+ #Generic Events - Unsorted IR
+ IR_generic.1.t: "主力港口丧失！"
+ IR_generic.1.desc: "随着卡莱的失去，我们失去了在欧洲大陆的主要港口。这将严重损害该省。"
+ IR_generic.1.a: "我们无能为力。"
+ #future new option? Invest in a new one? We must retake the stapleport?
+
+ IR_generic.4.t: "失去优势"
+ IR_generic.4.desc: "我们曾在军事传统上领先于对手，但他们现在已经追上我们了！"
+ IR_generic.4.a: "真可惜！"
+
+ IR_generic.5.t: "失去优势"
+ IR_generic.5.desc: "我们曾在行政能力上领先于对手，但他们现在已经追上我们了！"
+ IR_generic.5.a: "真可惜！"
+
+ IR_generic.6.t: "WIP：错误修正临时措施"
+ IR_generic.6.d: "不幸的是，一些机制因新特性而被破坏，这是一个临时修复，以确保神圣罗马帝国正常运作。"
+ IR_generic.6.a: "继续。"
+
+ #IR Cheats
+
+ IR_cheat.1.t: "即时日本国家"
+ IR_cheat.1.d: "在日本地区创建日本，以便进行开发测试"
+ IR_cheat.1.a: "创建日本 - 警告：延迟"
+ IR_cheat.1.b: "返回。"
+
+ IR_cheat.1.t: "即时地区/区域吞并"
+ IR_cheat.1.d: "将一个地区或区域的所有土地吞并到当前标签及其首都的地区/区域。警告：延迟"
+ IR_cheat.1.a: "吞并地区 - 警告：延迟"
+ IR_cheat.1.b: "返回"
+ IR_cheat.1.c: "吞并区域 - 警告：延迟"
+
+ #IR_cheat.2.t: "TestLoc"
+ #IR_cheat.2.d: "TestCustomLoc"
+ #IR_cheat.2.a: "[Culture.CantonNaming] [Root.CantonNaming] [Root.Culture.CantonNaming]"
+ #IR_cheat.2.b: "[Root.testSwiss] [Root.GetName] is[Root.GetIfPapalController] Papal Controller."
+
+ IR_cheat.2.t: "测试位置"
+ IR_cheat.2.d: "测试自定义位置"
+ IR_cheat.2.a: "[Culture.CantonNaming] [Root.CantonNaming] [Root.Culture.CantonNaming] [TAG.CantonNaming]"
+ IR_cheat.2.b: "[Root.testSwiss] [Root.testSwiss] [TAG.GetName] [TAG.GovernmentName]"
+
+ IR_cheat.3.t: "即时国家"
+ IR_cheat.3.desc: "在各地区创建国家，以便进行开发测试。这会给你带来很大的性能损失（即延迟）。"
+ IR_cheat.3.a: "创建荷兰 - 警告：延迟"
+ IR_cheat.3.b: "创建法国 - 警告：延迟"
+ IR_cheat.3.c: "创建西班牙 - 警告：延迟"
+ IR_cheat.3.e: "创建德国 - 警告：延迟"
+ IR_cheat.3.d: "返回。"
+
+ IR_cheat.5.t: "国家修饰符测试"
+ IR_cheat.5.d: "空"
+ IR_cheat.5.a: "添加国家修饰符：IR_england_monarchy"
+ IR_cheat.5.b: "返回。"
+ IR_cheat.5.c: "移除国家修饰符：IR_england_monarchy"
+
+ IR_cheat.6.t: "BT-附属国"
+ IR_cheat.6.d: "继承所有封地和非BT附属国。"
+ IR_cheat.6.a: "继承一切。"
+ IR_cheat.6.b: "返回。"
+
+ IR_cheat.7.t: "神圣罗马帝国宗教测试"
+ IR_cheat.7.desc: "测试我是否可以移除神圣罗马帝国的宗教和平锁定"
+ IR_cheat.7.a: "set_hre_religion_treaty = yes"
+ IR_cheat.7.b: "set_hre_religion_treaty = no"
+ IR_cheat.7.c: "set_hre_religion_locked = yes"
+ IR_cheat.7.d: "set_hre_religion_locked = no"
+
+ #IR Flavor Germany
+
+ IR_flavor_SAX.1.t: "萨克逊内战"
+ IR_flavor_SAX.1.d: "萨克逊内战是弗雷德里克二世和威廉三世之间为争夺统治权而进行的战争，持续时间从1446年到1451年。由于弗雷德里克二世和威廉三世之间对某些家族土地的划分产生争议，阿尔滕堡的划分最终导致了两兄弟之间的紧张局势加剧，以及对谁统治哪些地区的无法达成一致。在调解失败后，战争爆发。"
+ IR_flavor_SAX.1.a: "给予威廉他应得的继承权。"
+ IR_flavor_SAX.1.b: "威廉将不得不通过武力来获得。"
+ IR_flavor_SAX.1.c: "改为扮演[THU.GetName]。"
+
+ IR_flavor_SAX.2.t: "在瑙姆堡的条约"
+ IR_flavor_SAX.2.d: "随着萨克逊内战的持续，双方都遭受了重创。现在是时候结束这场战争了。"
+ IR_flavor_SAX.2.a: "在瑙姆堡签署条约"
+ IR_flavor_SAX.2.b: "继续战斗"
+
+ IR_flavor_SAX.3.t: "波希米亚的援助"
+ IR_flavor_SAX.3.d: "由于弗雷德里克二世在战争中占据了上风，我们必须决定是否请求波希米亚的援助。"
+ IR_flavor_SAX.3.a: "寻求波希米亚的援助"
+ IR_flavor_SAX.3.b: "我们没有足够的资金。"
+
+ IR_flavor_SAX.5.t: "去世的[Root.GetAdjective]统治者"
+ IR_flavor_SAX.5.d: "我们的统治者去世了。根据我们家族的权利，继承权归我们的兄弟所有。"
+ IR_flavor_SAX.5.a: "没有国王能永远统治。"
+
+ IR_flavor_SAX.6.t: "莱比锡条约"
+ IR_flavor_SAX.6.d: "随着萨克森土地的重新统一，我们的兄弟请求将这份新继承权的一部分授予他。"
+ IR_flavor_SAX.6.a: "将他刚刚重新获得的部分土地授予他。"
+ IR_flavor_SAX.6.c: "扮演[MEI.GetName]国家。"
+
+ #Schmalkaldic Wars and things
+ #Not sure what to do, as it was a rather involved war.
+ #Treaty of Naumburg https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Saxony_after_the_Treaty_of_Naumburg_-_DE.png/1920px-Saxony_after_the_Treaty_of_Naumburg_-_DE.png
+ #Creating events for the Ernestine Duchies
+
+ IR_flavor_BAV.1.t: "英戈尔施塔特分支的去世"
+ IR_flavor_BAV.1.d: "英戈尔施塔特的路德维希七世与他的儿子路德维希之间的斗争结束，路德维希被囚禁，直到1445年去世。路德维希没有其他儿子，他在1447年去世，土地被巴伐利亚-兰茨胡特公爵吞并。"
+ IR_flavor_BAV.1.a: "愿他安息。"
+
+ #IR Flavor Random
+
+ IR_flavor_misc.1.t: "费特基普和斯基尔林格的纷争"
+ IR_flavor_misc.1.d: "一个世纪以来，弗里斯兰人一直在这两个群体之间发生分歧。"
+ IR_flavor_misc.1.a: "让他们自己解决。"
+ IR_flavor_misc.1.b: "我们必须在事态失控之前结束这一切！"
+
+ IR_flavor_misc.2.t: "派系暴力升级！"
+ IR_flavor_misc.2.d: "越来越多的公民选择站在这个无谓争论的一方。我们必须选择一方，以免他们中的一个人通过武力掌控一切！"
+ IR_flavor_misc.2.a: "支持费特基普。"
+ IR_flavor_misc.2.b: "支持斯基尔林格。"
+
+ IR_flavor_misc.3.t: "分割继承的遗产"
+ IR_flavor_misc.3.d: "在中世纪，分割继承是大多数封建王国的默认继承方式。这导致了国家的分裂，许多人选择将继承权改为长子继承制。只有少数王国没有采用这种方式。我们的一位国王的儿子声称了他的继承权。我们必须决定该怎么做。"
+ IR_flavor_misc.3.a: "在两个继承者之间分割王国"
+ IR_flavor_misc.3.b: "我们必须正式实施长子继承制。"
+
+ IR_flavor_misc.5.t: "来自东弗里西亚的请求"
+ IR_flavor_misc.5.d: "东弗里西亚最近在一位地方酋长的统治下团结起来，他现在请求我们承认他为东弗里西亚的真正伯爵。"
+ IR_flavor_misc.5.a: "授予他请求。"
+ IR_flavor_misc.5.b: "我们不会对一个外来的酋长屈服。"
+
+ IR_flavor_misc.9.t: "霍兰的统治"
+ IR_flavor_misc.9.d: "在霍兰的霍克斯和卡贝尔乔斯的扭曲中，荷兰城市成功获得了很大的自治权，并被授予了一个名义上的州长，以代表他们的宗主国统治该地区。现在，霍兰郡再次请求一个州长来代表我们统治。"
+ IR_flavor_misc.9.a: "授予他们一个自己的州长，由他作为我们在霍兰的忠实代表统治。"
+ IR_flavor_misc.9.b: "保持霍兰与勃艮第其他继承领土的统一。"
+
+ IR_flavor_misc.13.t: "农民起义"
+ IR_flavor_misc.13.d: "农民们即将起义，要求更多的权利！"
+ IR_flavor_misc.13.a: "我们必须给予他们更多的权利，以避免他们的起义。"
+ IR_flavor_misc.13.b: "无视他们的要求。"
+
+ IR_flavor_misc.14.t: "对伦内贝格的背叛"
+ IR_flavor_misc.14.d: "1579年，荷兰北部省份在乌特勒支联盟中团结起来。但在1580年，格罗宁根、弗里斯兰、德伦特和上奥弗伊塞尔的州长决定站在西班牙一边，未能加入乌特勒支联盟。"
+ IR_flavor_misc.14.a: "叛徒！我们必须确保东部省份的安全。"
+
+ IR_flavor_misc.21.t:0 "梅因的投降"
+ IR_flavor_misc.21.d:0 "作为接受1444年图尔条约的交换，梅因郡被承诺归法国所有。然而，直到现在，这一承诺仍未实现。没有一个英国总督愿意成为将梅因拱手让给法国的人。在[Root.Capital.GetCapitalName]，显赫的贵族们都在声称我们的谈判代表威廉·德·拉·波尔没有授权做出这样的让步。自条约签署以来，法国特使一再试图提醒我们这一点，如今法国国王[ FRA.Monarch.GetName]终于亲自出现在勒芒的城墙上，要求该市投降。\n除非我们将梅因割让给法国，否则我们很可能面临战争的迅速恢复。"
+ IR_flavor_misc.21.a:1 "我们必须履行我们的义务，即使这让我们痛苦。"
+ IR_flavor_misc.21.a.tt:1 "法国很可能会因为我们违反休战而宣战，我们将被视为侵略者。"
+ IR_flavor_misc.21.b:1 "我们绝不会将一寸领土拱手让给法国！"
+
+ IR_flavor_misc.22.t:0 "梅因的投降"
+ IR_flavor_misc.22.d:0 "作为接受1444年图尔条约的交换，梅因郡被承诺归法国所有。然而，直到现在，这一承诺仍未实现。英国方面一再回避这个问题，越来越明显的是，许多英国人认为条约不再有效。为了迫使问题解决，国王[Root.Monarch.GetName]亲自来到梅因的城下，要求该市投降。\n尽管我们没有足够的军队来抵御法国的进攻，但梅因的地方指挥官似乎并不打算开城投降，尽管他们的部队不足以抵挡攻击。"
+ IR_flavor_misc.22.a:0 "是时候教他们如何打仗了。"
+ IR_flavor_misc.22.b:0 "让我们退让。"
+
+ IR_flavor_misc.23.t:0 "梅因的投降"
+ IR_flavor_misc.23.d:0 "作为接受1444年图尔条约的交换，梅因郡被承诺归法国所有。然而，这一承诺的落实花费了相当长的时间。随着[Root.Monarch.GetName]的到来，这个问题似乎得到了解决，梅因终于在我们的控制之下。"
+ IR_flavor_misc.23.a:0 "太好了！"
+
+ IR_flavor_misc.24.t: "干预梅因的投降"
+ IR_flavor_misc.24.d: "在与法国的条约中，我们同意将梅因地区割让给法国。随着我们最近的行动，我们干预了这一条约的执行，法国开始提出抗议。"
+ IR_flavor_misc.24.a: "我们必须选择该怎么做。"
+
+
+ IR_generic.2.t: "改革派的思想流派"
+ IR_generic.2.desc: "随着我们最近皈依改革宗信仰，我们选择了最适合我们国家的思想流派。"
+ IR_generic.2.a: "我们将致力于这一学派。"
+
+ IR_generic.6.t: "通往世界的港口"
+ IR_generic.6.desc: "随着我们最近的扩张，我们获得了一个港口。我们现在可以建造船只了。"
+ IR_generic.6.a: "我们必须利用这个机会。"
+
+ IR_flavor_ENG.1.t: "亨利六世的婚姻"
+ IR_flavor_ENG.1.desc: "根据图尔条约，英格兰和法国决定让亨利六世与安茹的玛格丽特结婚。是时候让这桩婚事成行了。"
+ IR_flavor_ENG.1.a: "与安茹的玛格丽特成婚"
+ IR_flavor_ENG.1.b: "我们将与当地人结婚"
+
+ IR_flavor_elective.1.t: "在$COUNTRY$的选举"
+ IR_flavor_elective.1.desc: "$COUNTRY$历史上一直是选举君主制。我们的贵族们要求选举未来的统治者。"
+ IR_flavor_elective.1.a: "我们必须维持现有的摄政委员会"
+ IR_flavor_elective.1.b: "我们必须为年轻的继承人找到合适的摄政王"
+ IR_flavor_elective.1.c: "我们必须寻找新的君主来统治我们"
+ IR_flavor_elective.1.d: "我们必须向周边国家寻找强有力的统治者"
+ IR_flavor_elective.1.e: "我们必须让我们的女王摄政，照顾我们的年轻继承人"
+
+ IR_flavor_elective.2.t: "摄政王巩固权力"
+ IR_flavor_elective.2.desc: "我们的摄政王最近巩固了更多的权力，并试图确立自己为国王。"
+ IR_flavor_elective.2.a: "我们不能允许如此公然无视合法继承人的行为"
+ IR_flavor_elective.2.b: "我们现在需要一位强有力的统治者，不能依赖尚未成年的王子。"
+
+ IR_flavor_elective.3.t: "选举君主制"
+ IR_flavor_elective.3.desc: "贵族们越来越多地表达了恢复我们古老传统的要求，即选举我们的国王。"
+ IR_flavor_elective.3.a: "我们必须接受这是我们的传统"
+ IR_flavor_elective.3.b: "选举君主制在过去只会削弱我们的国家"
+
+ invitation_to_confederation.tooltip: "邀请我们地区的所有国家加入我们的联邦"
+ #IR_flavor_misc.25.ngermany.t: "邀请加入北德联邦"
+ #IR_flavor_misc.25.sgermany.t: "邀请加入南德联邦"
+ IR_flavor_misc.25.t: "邀请加入德意志联邦"
+ IR_flavor_misc.25.ngermany.desc: "邀请加入北德联邦"
+ IR_flavor_misc.25.sgermany.desc: "邀请加入南德联邦"
+ IR_flavor_misc.25.a: "成为联邦的一部分"
+ IR_flavor_misc.25.b: "作为军事强国加入联邦"
+ IR_flavor_misc.25.c: "与联邦建立联盟"
+ IR_flavor_misc.25.x: "拒绝邀请"
+
+ IR_flavor_misc.32.t: "英法王冠的联合"
+ IR_flavor_misc.32.desc: "随着联合王冠法案的通过，我们必须为自己选择一个合适的名字，以向世界宣告！"
+ IR_flavor_misc.32.a: "宣布自己为安茹维尼亚"
+ IR_flavor_misc.32.b: "宣布自己为安茹帝国"
+ IR_flavor_misc.32.c: "我们将被称为大诺曼底"
+ IR_flavor_misc.32.d: "我们的名字是英法联盟"
+ IR_flavor_misc.32.e: "Domainae Angevine et rectores Orbis Terrarum"
+
+ IR_flavor_NED_missions.1.t: "购买卡莱"
+ IR_flavor_NED_missions.1.desc: "购买卡莱"
+ IR_flavor_NED_missions.1.a: "提出购买卡莱的请求"
+ IR_flavor_NED_missions.1.b: "通过武力夺取卡莱"
+
+ IR_flavor_NED_missions.2.t: "弗兰德斯希望购买卡莱"
+ IR_flavor_NED_missions.2.desc: "弗兰德斯希望购买卡莱"
+ IR_flavor_NED_missions.2.a: "将卡莱割让给弗兰德斯"
+ IR_flavor_NED_missions.2.b: "拒绝报价"
+
+ IR_flavor_NED_missions.3.t: "黄金水道"
+ IR_flavor_NED_missions.3.desc: "如果玩家不维护黄金水道，布鲁日的贸易提升将消失，并转移到安特卫普"
+ IR_flavor_NED_missions.3.a: "令人担忧的消息"
+
+ IR_flavor_NED_missions.4.t: "失去黄金水道"
+ IR_flavor_NED_missions.4.desc: "由于弗兰德斯无法维护黄金水道，他们在安特卫普的贸易对手抓住机会，将大量贸易从布鲁日转移到他们不断壮大的城市。"
+ IR_flavor_NED_missions.4.a: "这真是个灾难！"
+
+ IR_flavor_NED_missions.5.t: "从布鲁塞尔控制弗兰德斯"
+ IR_flavor_NED_missions.5.desc: "随着布鲁塞尔宫殿的建立，勃艮第公爵将能够比起源于勃艮第的更好地控制低地国家。"
+ IR_flavor_NED_missions.5.a: "我们必须请求更好地控制弗兰德斯，以处理他们的行政事务。"
+
+ IR_flavor_NED_missions.500.t: "布拉班特请求控制弗兰德斯"
+ IR_flavor_NED_missions.500.desc: "随着布拉班特在我们国家中变得越来越重要，他们提出了控制弗兰德斯的补偿。"
+ IR_flavor_NED_missions.500.a: "接受他们的提议"
+ IR_flavor_NED_missions.500.a: "我们没有必要减少对该地区的控制"
+
+ IR_flavor_NED_missions.6.t: "从布鲁塞尔控制荷兰"
+ IR_flavor_NED_missions.6.desc: "随着我们对低地国家的控制不断扩大，我们必须请求对荷兰的管理权。"
+ IR_flavor_NED_missions.6.a: "为荷兰的控制提供补偿"
+
+ IR_flavor_NED_missions.600.t: "布拉班特请求控制荷兰"
+ IR_flavor_NED_missions.600.desc: "随着布拉班特在我们国家中变得越来越重要，他们提出了控制荷兰的补偿。"
+ IR_flavor_NED_missions.600.a: "接受他们的提议"
+ IR_flavor_NED_missions.600.a: "这是荒谬的。"
+
+ IR_flavor_NED_missions.7.t: "布拉班特成为主要合作伙伴"
+ IR_flavor_NED_missions.7.desc: "随着每天的推移，勃艮第在这个联盟中的地位显然是次要的。我们必须巩固这种事实上的情况。"
+ IR_flavor_NED_missions.7.a: "向勃艮第提出要求。"
+
+ IR_flavor_NED_missions.700.t: "布拉班特成为主要合作伙伴"
+ IR_flavor_NED_missions.700.desc: "随着每天的推移，布拉班特在这个联盟中的地位显然是领先的。我们必须找到解决方案。"
+ IR_flavor_NED_missions.700.a: "成为布拉班特的次要合作伙伴"
+ IR_flavor_NED_missions.700.a: "各自分道扬镳"
+
+ IR_flavor_NED_missions.8.t: "大弗里西亚的统治者"
+ IR_flavor_NED_missions.8.desc: "随着大弗里西亚的重新建立，我们必须决定如何统治我们的国家。"
+ IR_flavor_NED_missions.8.a: "我们必须回到辉煌的日子，当我们还是一个王国时，我们必须加冕一位统治者。"
+ IR_flavor_NED_missions.8.b: "我们的人民构成了我们的国家，我们必须恢复弗里西亚的自由。"
+ IR_flavor_NED_missions.8.c: "我们必须保持现有的政府"
+
+ IR_flavor_NED_missions.800.t: "加冕仪式"
+ IR_flavor_NED_missions.800.desc: "随着王国的重新建立，我们必须为新统治者加冕。"
+ IR_flavor_NED_missions.800.a: "我们必须找到一个有资格继承我们祖先王朝的声称者。"
+ IR_flavor_NED_missions.800.b: "我们必须找到一位合适的贵族来领导我们。"
+ IR_flavor_NED_missions.800.c: "我们将加冕我们目前的统治者为国王，他是带我们重返荣耀的人。"
+ IR_flavor_NED_missions.800.b: "我们目前的统治者将作为我们找到的年轻王子的摄政王。"
+
+ IR_flavor_Swiss.1.t: "旧苏黎世战争"
+ IR_flavor_Swiss.1.desc: "旧苏黎世战争是为了图根堡伯爵的继承而进行的战争。冲突自1440年以来一直在蔓延，现在是时候彻底解决这个问题了。"
+ IR_flavor_Swiss.1.a: "强迫苏黎世屈服。"
+ IR_flavor_Swiss.1.b: "我们无法承担继续这场战争的后果。"
+
+ IR_flavor_Swiss.2.t: "旧苏黎世战争的结束"
+ IR_flavor_Swiss.2.desc: "由于冲突自1440年以来一直在蔓延，双方都疲惫不堪，现在是时候结束这个问题了。"
+ IR_flavor_Swiss.2.a: "寻找合适的条约"
+ IR_flavor_Swiss.2.b: "继续这场战争。"
+
+ IR_flavor_bishops.1.t: "下一个主教"
+ IR_flavor_bishops.1.desc: "虽然我们已经有了主教的继任者，但我们可以选择选举一位外国主教作为我们的新主教。"
+ IR_flavor_bishops.1.a: "我们将保留现任继任者。"
+ IR_flavor_bishops.1.b: "与首选主教建立临时联盟。"
+
+ IR_flavor_bishops.2.t: "联盟的重建"
+ IR_flavor_bishops.2.desc: "随着最后一位主教的去世，我们的联盟已经破裂。我们现在必须决定是作为附属国继续存在，还是走自己的道路。"
+ IR_flavor_bishops.2.a: "我们将独立自主。"
+ IR_flavor_bishops.2.b: "我们将重建我们的联盟。"
+
+ #Old/Unused
+ #italian_wars
+ italian_wars.0.t: "[From.GetName]加入[This.GetName]的联盟"
+ italian_wars.0.d: "在[This.GetName]的外交努力下，[From.GetName]决定成为[This.GetName]联盟的成员。"
+ italian_wars.0.a: "[From.GetName]是联盟的欢迎成员。"
+
+ italian_wars.1.t: "那不勒斯的逝去"
+ italian_wars.1.d: "由于阿方索五世的去世，我们失去了与那不勒斯的联盟。那不勒斯王国与我们决裂，我们可以选择放任他们离去，保持良好关系，或试图强行维持对他们的统治。"
+ italian_wars.1.a: "这对两个王国来说都是好事。"
+ italian_wars.1.b: "对王位提出异议！"
+
+ italian_wars.2.t: "[Root.GetName]寻求对抗对手的援助"
+ italian_wars.2.d: "[IW_trigger_1.GetName]长期以来一直受到意大利对手的威胁，也许是时候寻找一个强大的盟友来帮助我们实现野心了。我们应该向哪个对手请求援助？"
+ italian_wars.2.a: "威尼斯"
+ italian_wars.2.b: "米兰"
+ italian_wars.2.c: "热那亚"
+ italian_wars.2.d1: "萨沃伊"
+ italian_wars.2.e: "佛罗伦萨"
+ italian_wars.2.f: "教皇国"
+ italian_Wars.2.g: "那不勒斯"
+
+ italian_wars.3.t: "[Root.GetName]干预意大利事务"
+ italian_wars.3.d: "[IW_trigger_1.GetName]对抗[IW_rival_1.GetName]的联盟表示了兴趣，并希望在我们扩张进入意大利时获得支持。尽管这可能会使意大利卷入战争，但胜利者将获得荣耀和财富！我们应该尝试扩张到哪个意大利国家？"
+ italian_wars.3.a: "威尼斯"
+ italian_wars.3.b: "米兰"
+ italian_wars.3.c: "热那亚"
+ italian_wars.3.d1: "萨沃伊"
+ italian_wars.3.e: "佛罗伦萨"
+ italian_wars.3.f: "教皇国"
+ italian_Wars.3.g: "那不勒斯"
+ italian_Wars.3.h: "撤回我们的支持提议。"
+
+ italian_wars.101.t: "[IW_outsider_1.GetName]对抗[IW_rival_1.GetName]的支持"
+ italian_wars.101.d: "来自[IW_outsider_1.GetName]的使者今天抵达，承诺支持我们对抗我们的对手，以换取我们对[IW_target_1.GetName]的援助。尽管他们的王朝要求似乎微不足道，但用钢铁和火药支持它无疑会消除所有争议。如果我们要战胜[IW_rival_1.GetName]，我们必须同意在意大利进行联合军事行动。"
+ italian_wars.101.a: "我们必须反击[IW_rival_1.GetName]。同意援助[IW_outsider_1.GetName]！"
+
+ italian_wars.102.t: "[IW_outsider_1.GetAdjective]对[IW_target_1.GetName]的要求？"
+ italian_wars.102.d: "[IW_trigger_1.GetName]已同意在征服[IW_target_1.GetName]时提供援助。随着[IW_trigger_1.GetAdjective]的军事支持得到保障，时机已成熟，我们可以向[IW_target_1.GetName]发起进攻。"
+ italian_wars.102.a: "为[IW_target_1.GetName]宣战！"
+
+ italian_wars.103.t: "[IW_target_1.Capital.GetName]投降"
+ italian_wars.103.d: "在围攻[IW_target_1.Capital.GetName]后，该国已向[IW_outsider_1.GetAdjective]的统治投降，而不是面临毁灭。"
+ italian_wars.103.a: "强制[IW_target_1.GetName]成为附庸。"
+
+ italian_wars.104.t: "意大利联盟"
+ italian_wars.104.d: "面对[IW_outsider_1.GetAdjective]的统治，意大利各大势力之间长期存在的边界分歧得以解决。在一项具有里程碑意义的协议中，指控[IW_outsider_1.GetName]在意大利半岛上煽动不必要的侵略；各大势力同意联合对抗[IW_outsider_1.GetName]，将其驱逐出境。"
+ italian_wars.104.a: "我们必须将[IW_outsider_1.GetAdjective]赶出意大利！"
+ italian_wars.104.b: "拒绝条约！"
+
+ italian_wars.105.t: "[IW_rival_1.GetName]的联盟团结起来对抗[IW_outsider_1.GetName]"
+ italian_wars.105.d: "形势急剧变化，[IW_rival_1.GetName]在意大利建立了一个联盟，试图将我们从意大利的立足点驱逐出去。如果我们要维持对领土的控制，就必须打败这个所谓的联盟。"
+ italian_wars.105.a: "我们将打败这个[IW_rival_1.GetName]的联盟！"
+ italian_wars.105.b: "不，这太冒险了。"
+
+ italian_wars.150.t: "在意大利战争中[Root.GetName]的联盟胜利"
+ italian_wars.150.d: "在击败了那些威胁我们在意大利影响力的势力后，我们现在可以享受成功战役的成果。现在。"
+ italian_wars.150.a: "扩大我们在意大利的影响力。"
+
+
+ italian_wars.7.t: "卢多维科·斯福尔扎的回归"
+ italian_wars.7.d: "卢多维科·斯福尔扎，米兰公爵，回到发现米兰被傀儡统治的局面。他决心驱逐所有外国势力，斯福尔扎使威尼斯和法国都感到不安。"
+ italian_wars.7.a: "斯福尔扎将带领我们走向胜利！"
+ italian_wars.7.b: "解除斯福尔扎的职务。"
+
+ italian_wars.8.t: "米兰被卢多维科·斯福尔扎夺回"
+ italian_wars.8.d: "自从被斯福尔扎夺回以来，米兰再次成为北意大利的一个不稳定因素。考虑到威尼斯对米兰也感到沮丧，我们应该建立同盟，瓜分米兰。"
+ italian_wars.8.a: "与威尼斯结盟，解除斯福尔扎的权力！"
+
+ italian_wars.9.t: "斯福尔扎投降"
+ italian_wars.9.d: "米兰人已向我们投降，斯福尔扎再次被我们控制。我们必须巩固我们在北意大利的控制，强化我们新的立场，并鼓励新的盟友威尼斯也这样做。"
+ italian_wars.9.a: "将他软禁，并分割米兰。"
+
+ italian_wars.10.t: "那不勒斯的问题"
+ italian_wars.10.d: "法国和威尼斯强行驱逐了斯福尔扎，随后这两个强国几乎征服了整个北意大利。然而，那不勒斯的忠诚问题仍然悬而未决。也许我们应该威胁进行干预，以强制执行那不勒斯的南北分治。"
+ italian_wars.10.a: "向那不勒斯提出提议。"
+
+ italian_wars.11.t: "威胁干预那不勒斯"
+ italian_wars.11.d: "在北意大利持续扩张的背景下，那不勒斯面临着被征服的危险。我们收到了来自[From.GetName]的提议，将北方的那不勒斯割让给法国，南方的那不勒斯割让给卡斯蒂利亚。该提议认为，这是确保意大利稳定和竞争力的最佳途径。"
+ italian_wars.11.a: "现在不是战争的时候。同意分割那不勒斯。"
+ italian_wars.11.b: "如果他们想要那不勒斯，就得通过武力夺取！"
+
+ italian_wars.12.t: "格拉纳达条约"
+ italian_wars.12.d: "随着与两个强国的紧张局势升级，卡斯蒂利亚和法国寻求避免冲突，至少是暂时的，以换取关于那不勒斯的领土协议。"
+ italian_wars.12.a: "卡斯蒂利亚和法国分割那不勒斯"
+
+
+ #Chocolate Hab Hun Events
+
+ #Chocolate_railroad.1.name: "拉迪斯劳斯·波斯图穆斯，匈牙利和奥地利的统治者"
+ #Chocolate_railroad.1.desc: "拉迪斯劳斯·波斯图穆斯，作为阿尔伯特国王的儿子，有很好的机会成为国王，但他是在父亲去世后出生的。通过一系列幸运的机遇，我们再次能够在哈布斯堡统治者的统治下统一匈牙利和奥地利。虽然情况并不理想，但我们必须抓住这个机会。"
+ #Chocolate_railroad.1.a: "我们不再需要奥地利的土地。"
+ #Chocolate_railroad.1.b: "我们不会放弃一寸土地。"
+
+ AN_habsburg.1.name: "结束斯蒂利亚对拉迪斯劳斯的控制"
+ AN_habsburg.1.desc: "拉迪斯劳斯·波斯图穆斯，作为阿尔伯特国王的儿子，有很好的机会成为国王。然而，他被他的摄政王，斯蒂利亚大公弗雷德里克三世控制。我们必须要求将他归还给匈牙利。"
+ AN_habsburg.1.a: "解放拉迪斯劳斯"
+ AN_habsburg.1.b: "为了让他们满意，给予斯蒂利亚所有的奥地利。"
+
+ AN_habsburg.2.t: "奥地利的背叛"
+ AN_habsburg.2.desc: "随着我们侄子拉迪斯劳斯·波斯图穆斯在匈牙利被选为国王，他将奥地利本土占为己有。面临失去奥地利的风险，我们必须采取行动。"
+ AN_habsburg.2.a: "我们不能允许这种情况发生。"
+
+ AN_habsburg.3.t: "拉迪斯劳斯·波斯图穆斯，匈牙利和奥地利的统治者"
+ AN_habsburg.3.desc: "拉迪斯劳斯·波斯图穆斯，作为阿尔伯特国王的儿子，有很好的机会成为国王，但他是在父亲去世后出生的。通过一系列幸运的机遇，我们再次能够在哈布斯堡统治者的统治下统一匈牙利和奥地利。随着他成年，他可以被加冕为国王。"
+ AN_habsburg.3.a: "加冕拉迪斯劳斯为国王"
+ AN_habsburg.3.b: "保留约翰·胡尼亚迪的职务"
+ AN_habsburg.3.c: ""
+
+ AN_habsburg.4.t: "贵族之间的不安"
+ AN_habsburg.4.desc: "贵族们对我们的处境感到不安。他们更希望一位有能力的统治者掌控大权。附近的哈布斯堡统治者可能会成为更合适的统治者。他应该继承王位，保卫这些土地。"
+ AN_habsburg.4.a: "我们必须接受他们的愿望。"
+ AN_habsburg.4.b: "我们对一些随机的贵族毫不关心。"
+
+ AN_habsburg.5.t: "胡尼亚迪的孩子们"
+ AN_habsburg.5.desc: "拉迪斯劳斯加冕为王后，麻烦还没有结束。胡尼亚迪的孩子们仍然受到欢迎，最好是摆脱他们。"
+ AN_habsburg.5.a: "监禁这些孩子"
+ AN_habsburg.5.b: "我们没有必要监禁他们。"
+
+ AN_habsburg.500.t: "米哈伊尔·斯基拉吉在崛起"
+ AN_habsburg.500.desc: "随着米哈伊尔·斯基拉吉的崛起，时间不多了，要么拉迪斯劳斯逃跑，要么他有机会被捕并被处决。"
+ AN_habsburg.500.a: "逃往布拉格！"
+ AN_habsburg.500.b: "留下来战斗！"
+
+ AN_habsburg.6.t: "拉迪斯劳斯之死"
+ AN_habsburg.6.desc: "年轻的拉迪斯劳斯去世，他的顾问乔治·波德布拉迪被选为新国王。"
+ AN_habsburg.6.a: "光荣！"
+
+ AN_habsburg.8.t: "年轻的拉迪斯劳斯"
+ AN_habsburg.8.desc: "拉迪斯劳斯·波斯图穆斯，阿尔布雷特二世国王的儿子，最近被加冕为奥地利和匈牙利的统治者。他的继承权问题尚未解决，我们必须现在就做出决定。"
+ AN_habsburg.8.a: "选举拉迪斯劳斯为波希米亚国王。"
+ AN_habsburg.8.b: "乔治·波德布拉迪是更合适的统治者"
+ AN_habsburg.8.c: "维持现状"
+
+ AN_habsburg.7.t: "拉迪斯劳斯之死"
+ AN_habsburg.7.desc: "年轻的拉迪斯劳斯去世，他的兄弟阿尔布雷特接管了上奥地利。他声称对下奥地利也有权利。这可能导致非常棘手的局面。"
+ AN_habsburg.7.a: "我们需要一些时间来权衡我们的选择。"
+
+ AN_habsburg.700.t: "阿尔布雷特对奥地利的要求"
+ AN_habsburg.700.desc: "在拉迪斯劳斯去世后，阿尔布雷特声称拥有大部分奥地利的权利。我们必须决定是否采取行动，收回这些土地，重新统一奥地利。"
+ AN_habsburg.700.a: "我们需要强迫阿尔布雷特交出奥地利。"
+ AN_habsburg.700.b: "我们现在无法承受战争。"
+
+ AN_habsburg.701.t: "维也纳之围"
+ AN_habsburg.701.desc: "随着我们军队最终在维也纳的围攻中获胜，我们可以迫使弗雷德里希结束这场战争。"
+ AN_habsburg.701.a: "这是一个合理的和平协议。"
+ AN_habsburg.701.b: "我们必须继续战争，以争取更有利的和平协议。"
+
+ AN_habsburg.702.t: "阿尔布雷特之死"
+ AN_habsburg.702.desc: "我们收到消息，阿尔布雷特去世了。我们是他去世的主要受益者，将继承他的大部分领土。"
+ AN_habsburg.702.a: "我们将不再与他打交道。"
+
+ AN_habsburg.9.t: "马克西米利安的出生！"
+ AN_habsburg.9.desc: "弗雷德里希得知他的妻子为他生下了一个儿子，欣喜若狂。"
+ AN_habsburg.9.a: "我们将给他起名为马克西米利安！"
+ AN_habsburg.9.b: "我们的兄弟阿尔布雷特是更好的继承人。"
+
+ AN_habsburg.10.t: "与葡萄牙的王室婚姻"
+ AN_habsburg.10.desc: "弗雷德里希尚未结婚。这引发了紧张局势，因为没有婚姻，他就无法拥有合法的继承人。葡萄牙王国向我们提出了与阿方萨的女儿埃莱诺尔结婚的提议。"
+ AN_habsburg.10.a: "埃莱诺尔将是完美的妻子。"
+ AN_habsburg.10.b: "我们不应该与葡萄牙绑定。"
+
+ #Minor Tag Flavor
+ AN_solluba_heritage.1.t: "索卢巴遗产。"
+ AN_solluba_heritage.1.desc: "周围的阿拉伯贝都因人对索卢巴人怀有轻蔑的态度已经持续了几代人。许多人甚至拒绝承认我们是真正的阿拉伯人或穆斯林。学者们对他们的起源进行了研究，但他们的真实血统仍然是一个谜。归根结底，索卢巴人的真正身份是我们自己选择的。"
+ AN_solluba_heritage1.a: "我们是阿拉伯人，信奉真主和他的先知！"
+ AN_solluba_heritage1.b: "我们将拥抱我们的波斯血统！"
+ AN_solluba_heritage1.c: "我们都已在圣洁的十字架下受洗！"
+ AN_solluba_heritage1.d: "我们将回归沙漠中的古老教堂！"
+ #
+ flavor_hun.1.e: "选举一位地方贵族"
+ contendersrisingup_tt:0 "§R这可能会激怒胡尼亚迪的家族成员"

@@ -1,0 +1,305 @@
+﻿l_english:
+
+ #########################################
+ # Written by Vasileia                   #
+ # for use in Imperialism: Reinvigorated #
+ #########################################
+
+ ###阿列维派###
+ alevi:0 "阿列维派"
+ alevi_religion_desc:1 "阿列维派代表了起源于苏菲派伊斯兰教神秘主义的各种类似融合信仰。"
+ alevi_rebels_title:0 "宗教"
+ alevi_rebels_name:0 "$RELIGION$ 狂热者"
+ alevi_rebels_desc:0 "宗教狂热者倾向于在被不同信仰国家控制的省份中起义。他们寻求传播自己的信仰并打击所有不信者。"
+ alevi_rebels_army:0 "$RELIGION$ 军队"
+ alevi_rebels_demand:0 "皈依 $COUNTRYNAME$"
+ alevi_rebels_demand_desc:0 "他们希望分离我们的国家"
+
+ ##阿列维派学派##
+ qizilbashi_school:0 "奇兹尔巴什"
+ qizilbashi_school_desc:0 "奇兹尔巴什阿列维派指的是安纳托利亚和亚美尼亚高地社区中许多不同的阿列维民间信仰和传统。这些信仰经常与主要是库尔德和土库曼社区的伊斯兰前传统融合，甚至受到其他融入其中的邻近宗教的影响，如基督教，因此本质上是分散的。奇兹尔巴什-阿列维派中一个受欢迎的圣人是皮尔·苏丹·阿布达尔，他是一位诗人，曾激励农民反抗专制的奥斯曼统治。"
+ bektashi_school:0 "贝克塔什"
+ bektashi_school_desc:0 "贝克塔什派最受13世纪阿列维圣人哈吉·贝克塔什·维利的影响，但最初是由巴利姆·苏丹作为苏菲托钵僧团建立的，这个贝克塔什教团在巴尔干周边地区迅速崛起，并与奥斯曼帝国的禁卫军密切关联。"
+ yarsani_school:0 "亚尔萨尼"
+ yarsani_school_desc:0 "亚尔桑人遵循14世纪库尔德宗教人物苏丹·萨哈克的神秘教义，这些教义记录在亚尔萨尼圣书《萨兰贾姆》中。亚尔萨尼信仰除了与什叶派-苏菲派的联系外，还与雅兹迪教、琐罗亚斯德教甚至一些基督教信仰有许多相似之处。"
+
+ ##阿列维派学派修正##
+ qizilbashi_scholar_modifier:0 "奇兹尔巴什阿列维学者"
+ desc_qizilbashi_scholar_modifier:0 "我们目前正在接待奇兹尔巴什阿列维学者，以进一步推进我们国家的神学讨论。"
+ bektashi_scholar_modifier:0 "贝克塔什学者"
+ desc_bektashi_scholar_modifier:0 "我们目前正在接待贝克塔什学者，以进一步推进我们国家的神学讨论。"
+ yarsani_scholar_modifier:0 "亚尔萨尼学者"
+ desc_yarsani_scholar_modifier:0 "我们目前正在接待亚尔萨尼学者，以进一步推进我们国家的神学讨论。"
+
+ # # #
+
+ ###阿拉维派###
+ alawite:0 "阿拉维派"
+ alawite_religion_desc:1 "阿拉维派属于一个起源于什叶派伊斯兰教的秘密神秘信仰。除了古兰经外，阿拉维信仰的各个方面包括通过阿里和约书亚显现的上帝的不同表现、轮回转世，以及所有生命都是被逐出天堂的星星，现在必须通过连续善良和虔诚的生活重新获得自己的位置。"
+ alawite_rebels_title:0 "宗教"
+ alawite_rebels_name:0 "$RELIGION$ 狂热者"
+ alawite_rebels_desc:0 "宗教狂热者倾向于在被不同信仰国家控制的省份中起义。他们寻求传播自己的信仰并打击所有不信者。"
+ alawite_rebels_army:0 "$RELIGION$ 军队"
+ alawite_rebels_demand:0 "皈依 $COUNTRYNAME$"
+ alawite_rebels_demand_desc:0 "他们希望分离我们的国家"
+
+ ##阿拉维派方面##
+ followers_of_ali_aspect: "阿里的追随者"
+ desc_followers_of_ali_aspect: "作为阿拉维派，我们都是伊玛目阿里·本·阿布·塔利布的骄傲追随者。"
+ #
+ manifestations_of_god_aspect: "上帝的显现"
+ desc_manifestations_of_god_aspect: "上帝至少以三位一体的形式出现了七次。最后的显现是以穆罕默德、阿里和萨利曼·法里西的形式。"
+ #
+ philosophical_thought_aspect: "哲学思想"
+ desc_philosophical_thought_aspect: "我们高度重视柏拉图、亚里士多德和苏格拉底等伟大哲学家的教义。"
+ #
+ pillars_of_islam_aspect: "伊斯兰支柱"
+ desc_pillars_of_islam_aspect: "遵循伊斯兰支柱在阿拉维信仰中具有重要意义。"
+ #
+ taqiyya_aspect: "塔基亚"
+ desc_taqiyya_aspect: "为了与邻居共存并在这个敌对环境中生存，我们必须隐藏一些信仰和文化。"
+ #
+ reincarnation_aspect: "轮回转世"
+ desc_reincarnation_aspect: "阿拉维派认为他们原本是星星或神圣之光，因不服从而被逐出天堂，必须在返回天堂之前经历轮回转世，在阿拉维信仰中，人们可能因罪孽而转世为非阿拉维派甚至动物。"
+ #
+ mass_aspect: "基督教弥撒"
+ desc_mass_aspect: "我们的一些传统和节日与基督徒相似，让我们通过一起庆祝主显节和圣诞节来改善我们的关系。这个方面给予所有§Y基督教§!国家§G+10§!改善关系，并在我们所有§Y基督教§!省份§G-1.5§!减少动乱。"
+ mass_aspect_tooltip: "§G+10§与所有现有基督教国家的关系和§G-1.5§我们所有基督教省份的动乱"
+ #
+ fortified_coasts_aspect: "设防沿海地区"
+ desc_fortified_coasts_aspect: "由于我们面临的迫害，我们适应了。我们的定居点主要在黎凡特的山地沿海地区。易于设防和防御。"
+ #
+ unite_tribes_aspect: "阿拉维部落统一"
+ desc_unite_tribes_aspect: "阿拉维派分为四个部落联盟。我们应该放下分歧，将我们的军队联合起来对抗敌人。"
+ #
+ feast_days_aspect: "节日"
+ desc_feast_days_aspect: "我们举行盛大的节日，在那里我们庆祝对真主的赞美，并通过支付天课来帮助穷人。"
+
+ ##阿拉维部落学派和学派修正##
+ haddadin_school:0 "哈达丁"
+ haddadin_school_desc:0 "代表阿拉维哈达丁部落"
+ haddadin_scholar_modifier:0 "哈达丁部落成员"
+ desc_haddadin_scholar_modifier:0 "我们目前正在与我们国家的哈达丁部落成员合作。"
+ kalbiyya_school:0 "卡尔比耶"
+ kalbiyya_school_desc:0 "代表阿拉维卡尔比耶部落"
+ kalbiyya_scholar_modifier:0 "卡尔比耶部落成员"
+ desc_kalbiyya_scholar_modifier:0 "我们目前正在与我们国家的卡尔比耶部落成员合作。"
+ khayatin_school:0 "哈亚廷"
+ khayatin_school_desc:0 "代表阿拉维哈亚廷部落"
+ khayatin_scholar_modifier:0 "哈亚廷部落成员"
+ desc_khayatin_scholar_modifier:0 "我们目前正在与我们国家的哈亚廷部落成员合作。"
+ matawira_school:0 "马塔维拉"
+ matawira_school_desc:0 "代表阿拉维马塔维拉部落"
+ matawira_scholar_modifier:0 "马塔维拉部落成员"
+ desc_matawira_scholar_modifier:0 "我们目前正在与我们国家的马塔维拉部落成员合作。"
+
+ ###选择马德哈布（伊斯兰学派）事件阿列维派和阿拉维派本地化###
+ muslim_school_events.20.i:0 "我们将作为奇兹尔巴什-阿列维派实践我们的民间传统。"
+ muslim_school_events.20.j:0 "我们通过贝克塔什教团遵循哈吉·贝克塔什·维利和巴利姆·苏丹的方式。"
+ muslim_school_events.20.k:0 "我们是亚尔桑人，遵循苏丹·萨哈克的方式。"
+ muslim_school_events.20.l:0 "我们遵循沙巴克人的信仰。"
+ muslim_school_events.20.m:0 "哈达丁部落代表我们。"
+ muslim_school_events.20.n:0 "卡尔比耶部落代表我们。"
+ muslim_school_events.20.o:0 "马塔维拉部落代表我们。"
+ muslim_school_events.20.p:0 "哈亚廷部落代表我们。"
+ muslim_school_events.20.desc.alevi:0 "阿列维宗教由几个松散联系的相似但不同的信仰体系组成，以学派为代表。作为一个年轻的阿列维国家，我们必须决定遵循哪些信仰。"
+ muslim_school_events.20.desc.alawite:0  "许多阿拉维派选择认同自己的部落，这些不同的部落分为四个伟大的部落联盟或氏族，所有这些都有与阿拉维信仰相关的独特身份，并作为不同的学派代表。作为一个年轻的阿拉维国家，我们必须决定向哪个部落效忠。"
+
+ # # #
+
+ ###德鲁兹派###
+ druze:0 "德鲁兹派"
+ druze_religion_desc:1 "来自德鲁兹山，德鲁兹信仰遵循伊斯玛仪派的许多原则，但也包括专注于存在真理的神秘神学中的诺斯替信仰。"
+ druze_rebels_title:0 "宗教"
+ druze_rebels_name:0 "$RELIGION$ 狂热者"
+ druze_rebels_desc:0 "宗教狂热者倾向于在被不同信仰国家控制的省份中起义。他们寻求传播自己的信仰并打击所有不信者。"
+ druze_rebels_army:0 "$RELIGION$ 军队"
+ druze_rebels_demand:0 "皈依 $COUNTRYNAME$"
+ druze_rebels_demand_desc:0 "他们希望分离我们的国家"
+
+ ##德鲁兹学派和学派修正##
+ theophany_school:0 "塔贾利"
+ theophany_school_desc:0 "我们可以专注于德鲁兹精神信仰的核心，也称为塔贾利（神显）。它指的是达到高度纯净境界的神秘主义者所体验的上帝之光的显现。根据德鲁兹经文，法蒂玛哈里发哈基姆·比·阿姆尔·阿拉体验了神显。"
+ theophany_scholar_modifier:0 "神显学者"
+ pythagorean_school:0 "毕达哥拉斯"
+ pythagorean_school_desc:0 "毕达哥拉斯学派专注于希腊哲学家毕达哥拉斯及其追随者所持有的教义和信仰"
+ pythagorean_scholar_modifier:0 "毕达哥拉斯哲学家"
+ platonic_school:0 "柏拉图"
+ platonic_school_desc:0 "柏拉图学派使我们的信仰更符合源自柏拉图及其追随者的神秘教义和哲学。"
+ platonic_scholar_modifier:0 "柏拉图哲学家"
+ aristotelian_school:0 "亚里士多德"
+ aristotelian_school_desc:0 "亚里士多德学派使我们的信仰更符合源自亚里士多德及其追随者的教义和信仰。"
+ aristotelian_scholar_modifier:0 "亚里士多德学者"
+ batiniyya_school:0 "巴蒂尼耶"
+ batiniyya_school_desc:0 "巴蒂尼耶专注使我们的信仰更符合伊斯兰教的神秘主义方面"
+ batiniyya_scholar_modifier:0 "巴蒂尼耶学者"
+ taqiyya_school:0 "塔基亚"
+ taqiyya_school_desc:0 "我们可以使用塔基亚来融入并使自己更符合伊斯兰社会的其余部分。"
+ taqiyya_scholar_modifier:0 "塔基亚学者"
+ western_christian_school:0 "拉丁"
+ western_christian_school_desc:0 "我们可以使自己更接近西方基督教中发现的哲学和教义"
+ western_christian_scholar_modifier:0 "拉丁学者"
+ eastern_christian_school:0 "东正教"
+ eastern_christian_school_desc:0 "我们可以通过我们的神学相似性和对东正教哲学的专注，与东方的东正教徒找到团结。"
+ eastern_christian_scholar_modifier:0 "东正教学者"
+ gnostic_school:0 "诺斯替"
+ gnostic_school_desc:0 "我们可以更深入地研究诺斯替灵性以获得灵性知识。"
+ gnostic_scholar_modifier:0 "诺斯替学者"
+ judaic_school:0 "犹太"
+ judaic_school_desc:0 "我们可以使自己更接近犹太哲学中发现的哲学和教义"
+ judaic_scholar_modifier:0 "犹太学者"
+ buddhist_school:0 "佛教"
+ buddhist_school_desc:0 "我们可以使自己更接近佛教的哲学和教义。"
+ buddhist_scholar_modifier:0 "佛教学者"
+ dharmic_school:0 "达摩"
+ dharmic_school_desc:0 "我们可以使自己更接近达摩信仰中发现的哲学和教义。"
+ dharmic_scholar_modifier:0 "达摩学者"
+ no_school_school:0 "无学派"
+ no_school_school_desc:0 "未选择学派"
+ no_school_scholar_modifier:0 "无学派学者"
+ #WIP
+
+ ## 德鲁兹事件 ##
+ IR_druze.1.t:0 "德鲁兹思想学派"
+ IR_druze.1.desc:0 "德鲁兹信仰融合了构成德鲁兹神学的各种不同哲学和信仰的元素。作为德鲁兹统治者，我们可以选择专注于哪种德鲁兹哲学或思想学派。这些持续到统治者的一生或直到事件改变它。每个德鲁兹国家开始时都有三个学派；塔贾利、毕达哥拉斯和柏拉图。额外的学派通过拥有或与其它宗教省份接壤来解锁。"
+ IR_druze.1.a: "塔贾利"
+ IR_theophany_option_tooltip: "塔贾利指的是达到高度纯净境界的神秘主义者所体验的上帝之光的显现。根据德鲁兹经文，法蒂玛哈里发哈基姆·比·阿姆尔·阿拉体验了神显。"
+ IR_druze.1.b: "毕达哥拉斯"
+ IR_pythagorean_option_tooltip: "毕达哥拉斯学派专注于希腊哲学家毕达哥拉斯及其追随者所持有的教义和信仰"
+ IR_druze.1.c: "柏拉图"
+ IR_platonic_option_tooltip: "柏拉图学派使我们的信仰更符合源自柏拉图及其追随者的神秘教义和哲学。"
+ IR_druze.1.d: "亚里士多德"
+ IR_aristotelian_option_tooltip: "亚里士多德学派使我们的信仰更符合源自亚里士多德及其追随者的神秘教义和哲学。"
+ IR_druze.1.e: "巴蒂尼耶"
+ IR_druze.1.f: "塔基亚"
+ IR_druze.1.g: "诺斯替"
+ IR_druze.1.h: "拉丁"
+ IR_druze.1.i: "东正教"
+ IR_druze.1.j: "犹太"
+ IR_druze.1.k: "佛教"
+ IR_druze.1.l: "达摩"
+ IR_druze.1.m: "返回"
+
+ IR_druze_unlock.1.t: "如果你看到这个事件，这是一个错误.."
+ IR_druze_unlock.1.d: "请在帝国主义：重振Discord中报告这个问题"
+ IR_druze_unlock.1.a: "好的。"
+
+ IR_druze_unlock.2.t: "如果你看到这个事件，这是一个错误.."
+ IR_druze_unlock.2.d: "请在帝国主义：重振Discord中报告这个问题"
+ IR_druze_unlock.2.a: "好的。"
+
+ IR_druze_unlock.3.t:0 "内在知识"
+ IR_druze_unlock.3.d:0 "巴廷意味着隐藏或内在知识，指的是伊斯兰教的神秘方面，这在某些信仰如阿拉维派、阿列维派的信仰中很突出，但也包括德鲁兹教义主要来源的伊斯玛仪派。我们现在可以访问巴蒂尼耶学派，更专注于对德鲁兹信仰如此重要的这种内在知识和神秘主义。"
+ IR_druze_unlock.3.a:0 "有趣..."
+
+ IR_druze_unlock.4.t:0 "塔基亚"
+ IR_druze_unlock.4.d:0 "伊斯兰教中的塔基亚是一种自卫实践，在这种实践中，人们在压迫面前隐藏自己的宗教信仰。虽然作为德鲁兹派，我们被认为是阿赫勒·基塔布或'有经之人'，但我们经常不被这样对待，并因我们的信仰而面临迫害。因此，为了保护自己并与邻国建立更好的关系，我们的人民隐藏一些信仰并更多地融入伊斯兰主流可能是有用的。"
+ IR_druze_unlock.4.a:0 "有趣..."
+
+ IR_druze_unlock.5.t:0 "诺斯替主义"
+ IR_druze_unlock.5.d:0 "德鲁兹教有许多神秘和诺斯替元素，这使我们与各种其他类似信仰联系在一起，如据说起源于黎凡特并尊崇施洗约翰为宗教关键人物的曼达安派，洗礼是他们核心信仰的一部分，从用曼达语写成的古代经文获得知识也是如此。除此之外还有琐罗亚斯德教徒，'阿胡拉·马兹达'或'智慧之主'的追随者。琐罗亚斯德教有善恶二元宇宙观和预测善最终战胜恶的末世论。我们可以专注于诺斯替对我们信仰的影响，并努力改善与其他诺斯替宗教的关系.."
+ IR_druze_unlock.5.a:0 "有趣..."
+
+ IR_druze_unlock.6.t:0 "拉丁基督教"
+ IR_druze_unlock.6.d:0 "我们周围的许多基督徒，如马龙派和天主教梅尔基特派，虽然本身不是拉丁教会的一部分，但与圣座完全共融。此外，多年来，许多拉丁城邦已经扩大了他们在东地中海周围的贸易网络..我们可以专注于西方哲学传统，加强与西方基督徒的关系.."
+ IR_druze_unlock.6.a:0 "有趣..."
+
+ IR_druze_unlock.7.t:0 "东方基督教"
+ IR_druze_unlock.7.d:0 "几个世纪以来，基督教，特别是东正教，在黎凡特产生了巨大影响。我们与东方教会如梅尔基特派、希腊东正教鲁姆、马龙派、亚美尼亚人等等有着悠久的共存和和谐历史..我们都尊崇耶稣、施洗约翰、圣乔治和其他重要人物，因此通过与东方基督徒加强关系可以获得很多好处。"
+ IR_druze_unlock.7.a:0 "有趣..."
+
+ IR_druze_unlock.8.t:0 "犹太教"
+ IR_druze_unlock.8.d:0 "犹太人民就像德鲁兹派一样，在历史上大部分时间都是受迫害的少数群体。希伯来圣经中的许多人物，如亚当、亚伯、塞特、以挪士、挪亚、闪、亚兰，特别是施洗约翰，在德鲁兹信仰中被认为是重要的先知，是历史上不同时期出现的七位先知之一。在犹太经文中，叶忒罗是摩西的岳父，对我们德鲁兹派来说，米甸的叶忒罗被认为是精神创始人、主要先知和我们人民的祖先。我们可以更专注于犹太学派，使我们的人民更紧密地团结在一起。"
+ IR_druze_unlock.8.a:0 "有趣..."
+
+ IR_druze_unlock.9.t:0 "八正道"
+ IR_druze_unlock.9.d:0 "我们偶然遇到了'佛陀'教义的追随者。许多佛教思想和哲学与我们的重叠。他们也相信可以通过觉悟逃脱的轮回。据说佛陀达到了那种精神觉悟，就像我们的创始人哈里发哈基姆·比·阿姆尔·阿拉通过他的消失所做的那样..根据他的追随者，这种精神觉悟是通过遵循佛教实践'八正道'的一部分来实现的"
+ IR_druze_unlock.9.a:0 "有趣..."
+
+ IR_druze_unlock.10.t:0 "达摩"
+ IR_druze_unlock.10.d:0 "我们遇到了永恒之道桑塔纳·达摩的信徒。他们重视美德和道德生活、稳定和摆脱无知。虽然实现方式有所不同，但轮回转世是德鲁兹信仰和达摩信仰的首要信条。他们相信生命是生死轮回大循环的一部分。对我们来说，天堂是灵魂逃脱轮回循环并与造物主重聚时获得的终极幸福，在达摩信仰中，这可以通过被称为'业力'的善行来实现..."
+ IR_druze_unlock.10.a:0 "有趣..."
+
+ IR_druze_unlock.11.t: "塔贾利"
+ IR_druze_unlock.11.d: "塔贾利或神显指的是达到高度纯净境界的神秘主义者所体验的上帝之光的显现。根据德鲁兹经文，法蒂玛哈里发哈基姆·比·阿姆尔·阿拉体验了神显。"
+ IR_druze_unlock.11.a: "有趣..."
+
+ IR_druze_unlock.12.t: "毕达哥拉斯哲学"
+ IR_druze_unlock.12.d: "毕达哥拉斯学派专注于源自希腊哲学家毕达哥拉斯及其追随者的神学和哲学。毕达哥拉斯学派相信灵魂被埋葬在身体中，身体在今生充当灵魂的坟墓。人类能获得的最高奖励是灵魂逃脱轮回循环。数学可以解释人类感性世界的事实对毕达哥拉斯哲学产生了深远影响。毕达哥拉斯主义成为建立现实基本本质的追求。毕达哥拉斯哲学家推进了不可动摇的信念，即所有事物的本质都是数字，宇宙由和谐维持。"
+ IR_druze_unlock.12.a: "有趣..."
+
+ IR_druze_unlock.13.t: "柏拉图哲学"
+ IR_druze_unlock.13.d: "柏拉图学派基于源自柏拉图及其追随者的哲学和神学，如普罗提诺所倡导的新柏拉图主义，它支撑着三大亚伯拉罕宗教中的神秘传统。" #WIP
+ IR_druze_unlock.13.a: "有趣..."
+
+ IR_druze_unlock.14.t: "亚里士多德哲学"
+ IR_druze_unlock.14.d: "亚里士多德学派使我们的信仰更符合源自亚里士多德及其追随者的神秘教义和哲学。" #WIP
+ IR_druze_unlock.14.a: "有趣..."
+
+ ##德鲁兹决定##
+ IR_pick_druze_school_title:0 "选择德鲁兹思想学派"
+ IR_pick_druze_school_desc:0 "选择学派的事件触发"
+
+ # # #
+
+ ###雅兹迪派###
+ yazidi:0 "雅兹迪派"
+ yazidi_religion_desc:1 "雅兹迪人相信上帝创造了世界并将其置于七位天使的保护之下，其中最重要的是孔雀天使塔乌斯·梅莱克。孔雀天使最初从上帝的恩典中堕落，但他悔恨的泪水熄灭了他监狱的火焰，他与上帝重聚。同样，我们都寻求在漫长的生命轮回结束后与上帝重聚。"
+ yazidi_rebels_title:0 "宗教"
+ yazidi_rebels_name:0 "$RELIGION$ 狂热者"
+ yazidi_rebels_desc:0 "宗教狂热者倾向于在被不同信仰国家控制的省份中起义。他们寻求传播自己的信仰并打击所有不信者。"
+ yazidi_rebels_army:0 "$RELIGION$ 军队"
+ yazidi_rebels_demand:0 "皈依 $COUNTRYNAME$"
+ yazidi_rebels_demand_desc:0 "他们希望分离我们的国家"
+
+ #雅兹迪神祇#
+ tawuse_melek:0 "塔乌斯·梅莱克"
+ tawuse_melek_desc:0 "塔乌斯·梅莱克，孔雀天使，是地球的管家，七位大天使中最伟大的，也是上帝的调解者。因此人们通过塔乌斯·梅莱克向上帝祈祷。谢赫·阿迪和苏丹·埃齐是雅兹迪宗教中的重要人物，因为他们被认为是塔乌斯·梅莱克的化身。"
+
+ esrafil:0 "伊斯拉菲尔"
+ esrafil_desc:0 "胡达（上帝）指派梅莱克·伊斯拉菲尔来说服人们对他承诺。"
+
+ derdayil:0 "德尔达伊尔"
+ derdayil_desc:0 "梅莱克·德尔达伊尔负责地球和天空的平衡相互作用，被称为梅拉。"
+
+ shemqayil:0 "舍姆卡伊尔"
+ shemqayil_desc:0 "梅莱克·舍姆卡伊尔，也被称为舍姆塞丁，是太阳天使，也是上帝的另一个显现，负责通过为人类和自然带来阳光来生存。因此他受到高度尊崇。"
+
+ mikayil:0 "米卡伊尔"
+ mikayil_desc:0 "梅莱克·米卡伊尔，由费赫雷丁体现，负责所有人的团结，是所有圣人的守护神。"
+
+ cibrayil:0 "吉卜拉伊尔"
+ cibrayil_desc:0 "梅莱克·吉卜拉伊尔是上帝的使者，在雅兹迪人的来世和轮回转世中发挥作用"
+
+ ezrayil:0 "伊兹拉伊尔"
+ ezrayil_desc:0 "梅莱克·伊兹拉伊尔，被称为刀的主人，因为他在死后将灵魂与身体分离。"
+
+ # # #
+
+ ###曼达安教###
+ mandaean:0 "曼达安教"
+ mandaean_religion_desc:1 "曼达安教是一种一神论信仰，具有强烈的二元宇宙观，属于最古老的仍然存在的明确诺斯替宗教之一。其信徒曼达安人尊崇亚当、亚伯、塞特、以挪士、挪亚、闪、亚兰，特别是施洗约翰。"
+ mandaean_rebels_title:0 "宗教"
+ mandaean_rebels_name:0 "$RELIGION$ 狂热者"
+ mandaean_rebels_desc:0 "宗教狂热者倾向于在被不同信仰国家控制的省份中起义。他们寻求传播自己的信仰并打击所有不信者。"
+ mandaean_rebels_army:0 "$RELIGION$ 军队"
+ mandaean_rebels_demand:0 "皈依 $COUNTRYNAME$"
+ mandaean_rebels_demand_desc:0 "他们希望分离我们的国家"
+
+ SECTARIST: "宗派主义"
+ YAZDANIST: "耶兹达尼"
+ ELCESAITE: "埃尔凯赛特"
+
+ ###使徒教会###
+ apostolic:0 "使徒教会"
+ apostolic_religion_desc:1 "由使徒巴多罗买和达太创立，圣格列高利·启蒙者作为第一任领袖，亚美尼亚使徒教会在该地区迅速获得追随者，并引导亚美尼亚王国成为世界上第一个采用基督教作为官方宗教的国家。"
+
+ #圣地#
+ HOLY_SITE_11039_DESC:0 "瓦加尔沙帕特的埃奇米阿津大教堂据说由圣格列高利·启蒙者和圣提里达特大帝建立，尽管经历了几个世纪的外国占领，它仍然是亚美尼亚使徒教会最重要的圣地之一。"
+
+
+ ###雅各派/叙利亚派###
+ syriac:0 "叙利亚派"
+ syriac_religion_desc:1 "叙利亚东正教会"
+
+ #HOLY_SITE_4292_DESC:0 ""

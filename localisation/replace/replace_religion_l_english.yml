@@ -1,0 +1,6 @@
+﻿l_english:
+ RV_NO_DEITY_TITLE:0 "当前无宗教倾向。"
+ RV_NO_DEITY_DESC:0 "你的宗教允许你选择主要的宗教倾向。每种倾向都有其独特的效果，并将持续到你的君主改变为止。"
+ RV_PICK_DEITY_THIS:0 "追随 $NAME|Y$"
+ RV_PICK_DEITY:0 "选择宗教倾向"
+

@@ -1,0 +1,407 @@
+﻿l_english:
+ #Buildings
+ building_manufactory:0 "工业"
+ #core
+ INCOMEMANUFAC:0 "工业"
+ HAS_NO_MANUFACTORY:0 "没有工业！"
+ #EU4
+ BUILDING_BLOCKED_WRONG_MANU:0 "$NAME$ 是错误类型的工业。\n"
+ MACRO_WRONG_MANUFACTORY:0 "工业与$PROVINCE$省生产的商品不符。"
+ MACRO_MANUFACTORY_IN_GOLD_PROVINCES:0 "无法在金银省份建设工业。"
+ MACRO_ALREADY_MANUFACTORY:1 "$PROVINCE$ 已有$NUM$个工业。"
+ #Ledge
+ LEDGER_MANUFATORY:0 "工业"
+ #manchu
+ has_manufactory_trigger_tooltip:0 "拥有任何§Y工业§!"
+ #rule brittania
+ MACRO_BUILD_MANUFACTORY_TITLE:0 "建设工业"
+ MACRO_BUILDING_LIST_WINDOW_MANUFACTORIES_TITLE:0 "建设工业"
+ MACRO_BUILDING_GENERIC_MANUFACTORY_TITLE:0 "§Y工业§!\n"
+ #text
+ TIP_CONSTR_BUILD:0 "建设工业"
+ BUILD_MANUFACTORY:0 "建设工业"
+ MANUFACTORY:0 "工业"
+
+ #by religion _<religion>:0 ""
+ building_shrine:0 "神社"
+ building_shrine_christian:0 "修道院"
+ building_shrine_muslim:0 "尖塔"
+ building_shrine_dharmic:0 "回廊"
+ building_shrine_eastern:0 "佛塔"
+ building_shrine_baltic_pagan_reformed:0 "祭坛" #fire altar
+
+ building_monastery:0 "修道院"
+ building_monastery_muslim:0 "马德拉萨"
+ building_monastery_dharmic:0 "佛塔"
+ building_monastery_baltic_pagan_reformed:0 "圣地" #sanctuary in Lithuanian
+
+ building_temple_dharmic:0 "寺庙塔"
+ building_temple_eastern:0 "佛塔"
+ building_temple_baltic_pagan_reformed:0 "圣林" #Sacred Grove
+
+ building_cathedral_dharmic:0 "寺庙"
+ building_cathedral_eastern:0 "宝塔"
+ building_cathedral_pagan:0 "金字塔"
+ building_cathedral_jewish_group:0 "犹太教堂"
+ building_cathedral_zoroastrian_group:0 "火庙"
+ building_cathedral_baltic_pagan_reformed:0 "阿尔卡" #Romuva principle sites
+ 
+ #building_palisade_muslim:0 "哈吉兹"
+ #building_walls_muslim:0 "哈伊特"
+ #building_ramparts_muslim:0 "阿斯瓦尔"
+ #building_battlements_muslim:0 "马埃拉卡"
+
+ #
+ building_village:0 "村庄"
+ building_town:0 "城镇"
+ building_city:0 "城市"
+ building_metropolis:0 "大都会"
+ #
+ building_palisade:0 "栅栏"
+ building_walls:0 "城墙"
+ building_ramparts:0 "壁垒"
+ building_battlements:0 "城垛"
+ #
+ building_watchtowers:0 "瞭望塔"
+ building_barbican:0 "瓮城"
+ building_ravelins:0 "棱堡"
+ building_battery:0 "炮台"
+ #
+ building_colonial_fort:0 "殖民要塞"
+ #
+ building_trade_depot:0 "贸易货栈"
+ building_counting_house:0 "会计室" #could also be Comptroller
+ building_bank:0 "银行"
+ #
+ building_jetty:0 "码头"
+ building_dockyard:0 "船坞"
+ building_harbor:0 "港口"
+ #
+ building_cottage:0 "小屋"
+ building_new_manufactory:0 "制造厂"
+ building_factory:0 "工厂"
+ #
+ building_studio:0 "工作室"
+ building_artisanate:0 "工匠坊"
+ building_theatre:0 "剧院"
+ building_museum:0 "博物馆"
+ #
+ building_school:0 "学校"
+ building_academy:0 "学院"
+ #
+ building_encampment:0 "营地"
+ building_magazine:0 "军械库"
+ #
+ building_shipwright:0 "造船厂"
+ #
+ building_clinic:0 "诊所"
+ building_infirmary:0 "医务室"
+ building_hospital:0 "医院"
+ #
+ building_constabulary:0 "警察局"
+ building_library:0 "图书馆"
+ building_zoo:0 "动物园"
+ #
+ building_observatory:0 "天文台"
+ building_prison:0 "监狱"
+ #
+ building_quarry:0 "采石场"
+ building_orchard:0 "果园"
+ building_fishery:0 "渔业"
+ building_pasture:0 "牧场"
+ building_mine:0 "矿山"
+ building_lodge:0 "小屋"
+ #
+ building_postmaster_general:0 "邮政总局"
+ building_national_court:0 "国家法院"
+ building_foreign_office:0 "外交部"
+ building_national_mint:0 "造币厂"
+
+ #
+
+ building_farm_estate:0 "农场"
+ building_fishery:0 "渔业"
+ building_plantations:0 "种植园"
+ building_mills:0 "磨坊"
+ building_weapons:0 "武器厂"
+ building_textile:0 "纺织厂"
+ building_tradecompany:0 "贸易站"
+ building_furnace:0 "熔炉"
+
+ building_orchard:0 "果园"
+ building_pasture:0 "牧场"
+ building_mine:0 "矿山"
+ building_quarry:0 "采石场"
+ building_lodge:0 "小屋"
+ building_kiln:0 "窑"
+
+ building_brewery:0 "啤酒厂"
+ building_distillery:0 "蒸馏厂"
+ building_yard:0 "造船厂"
+ building_guild:0 "行会"
+ building_printingpress:0 "印刷厂"
+ building_assembly:0 "装配厂"
+ building_nitrary:0 "硝石厂"
+ building_refinery:0 "精炼厂"
+ #
+ building_fort_15th:0 "城堡"
+ building_fort_16th:0 "要塞"
+ building_fort_17th:0 "堡垒"
+ building_fort_18th:0 "卫城"
+ #
+ building_wharf:0 "码头"
+ building_dock:0 "船坞"
+ building_regimental_camp:0 "军团营地"
+ building_impressment_offices:0 "征兵处"
+ building_conscription_center:0 "兵工厂"
+ building_soldier_households:0 "军需库"
+ building_grand_shipyard:0 "大船厂"
+ building_training_fields:0 "药房"
+ building_town_hall:0 "市政厅"
+ building_state_house:0 "州政府"
+
+ #DESC
+ building_farm_estate_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+1§!\n承载力: §G+4§!"
+ building_fishery_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+1§!\n承载力: §G+4§!"
+ building_plantations_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+3§!\n承载力: §G+2§!"
+ building_mills_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+4§!\n承载力: §G+1§!"
+ building_weapons_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+5§!"
+ building_textile_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+5§!"
+ building_tradecompany_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+5§!"
+ building_furnace_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+5§!"
+
+ building_orchard_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+2§!\n承载力: §G+3§!"
+ building_pasture_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+1§!\n承载力: §G+4§!"
+ building_mine_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+3§!\n承载力: §G+2§!"
+ building_quarry_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+3§!\n承载力: §G+2§!"
+ building_lodge_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+1§!\n承载力: §G+4§!"
+
+ building_brewery_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+4§!\n承载力: §G+1§!"
+ building_distillery_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+5§!"
+ building_yard_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+5§!"
+ building_guild_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+5§!"
+ building_printingpress_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+5§!"
+ building_assembly_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+5§!"
+ building_nitrary_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+5§!"
+ building_refinery_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+5§!"
+ building_kiln_desc:0 "类型: §T工业§!\n--------------\n文明度: §O+5§!"
+
+
+ building_village_desc:0 "类型: §T城市§!\n需要: §Y5§! 人口和 §O15§! 文明度\n--------------\n承载力: §G+4§!\n基础设施限制: §G+4§!"
+ building_town_desc:0 "类型: §T城市§!\n需要: §Y10§! 人口和 §O30§! 文明度\n--------------\n承载力: §G+8§!\n基础设施限制: §G+8§!"
+ building_city_desc:0 "类型: §T城市§!\n需要: §Y25§! 人口和 §O45§! 文明度\n--------------\n承载力: §G+12§!\n基础设施限制: §G+12§!"
+ building_metropolis_desc:0 "类型: §T城市§!\n需要 §Y50§! 人口和 §O60§! 文明度\n--------------\n承载力: §G+16§!\n基础设施限制: §G+16§!"
+
+ #
+ building_fort_15th_desc:0 "类型: §T防御工事§!\n--------------\n文明度: §O+1§!"
+ building_fort_16th_desc:0 "类型: §T防御工事§!\n--------------\n文明度: §O+2§!"
+ building_fort_17th_desc:0 "类型: §T防御工事§!\n--------------\n文明度: §O+3§!"
+ building_fort_18th_desc:0 "类型: §T防御工事§!\n--------------\n文明度: §O+4§!"
+ 
+ building_palisade_desc:0 "类型: §TWalls§!\n--------------\n"
+ building_walls_desc:0 "类型: §TWalls§!\n--------------\n"
+ building_ramparts_desc:0 "类型: §TWalls§!\n--------------\n"
+ building_battlements_desc:0 "类型: §TWalls§!\n--------------\n"
+ #
+ building_watchtowers_desc:0 "类型: §TDefensive§!\n--------------\n"
+ building_barbican_desc:0 "类型: §TDefensive§!\n--------------\n"
+ building_ravelins_desc:0 "类型: §TDefensive§!\n--------------\n"
+ building_battery_desc:0 "类型: §TDefensive§!\n--------------\n"
+ #
+ building_colonial_fort_desc:0 "类型: §TFortification§!\n--------------\n"
+ #
+ building_shrine_desc:0 "类型: §T宗教§!\n--------------\n文明度: §O+1§!"
+ building_monastery_desc:0 "类型: §T宗教§!\n--------------\n文明度: §O+2§!"
+ building_temple_desc:0 "类型: §T宗教§!\n--------------\n文明度: §O+3§!"
+ building_cathedral_desc:0 "类型: §T宗教§!\n--------------\n文明度: §O+4§!"
+ #
+ building_marketplace_desc:0 "类型: §T商业§!\n需要村庄、城镇、城市、大都会或1级及以上贸易中心。\n--------------\n文明度: §O+1§!"
+ building_trade_depot_desc:0 "类型: §T商业§!\n需要城镇、城市、大都会或2级及以上贸易中心。\n--------------\n文明度: §O+2§!"
+ building_counting_house_desc:0 "类型: §T商业§!\n需要城市、大都会或3级及以上贸易中心。\n--------------\n文明度: §O+3§!"
+ building_bank_desc:0 "类型: §T商业§!\n需要大都会或4级及以上贸易中心。\n--------------\n文明度: §O+4§!"
+ #
+ building_jetty_desc:0 "类型: §T商业§!\n必须位于沿海地区。需要村庄、城镇、城市、大都会或1级及以上贸易中心。\n--------------\n文明度: §O+1§!"
+ building_wharf_desc:0 "类型: §T商业§!\n必须位于沿海地区。需要城镇、城市、大都会或2级及以上贸易中心。\n--------------\n文明度: §O+2§!"
+ building_dock_desc:0 "类型: §T商业§!\n必须位于沿海地区。需要城市、大都会或3级及以上贸易中心。\n--------------\n文明度: §O+3§!"
+ building_impressment_offices_desc:0 "类型: §T商业§!\n必须位于沿海地区。需要大都会或4级及以上贸易中心。\n--------------\n文明度: §O+4§!"
+ #
+ building_cottage_desc:0 "类型: §T工匠§!\n需要村庄、城镇、城市或大都会。\n--------------\n文明度: §O+2§!"
+ building_workshop_desc:0 "类型: §T工匠§!\n需要城镇、城市或大都会。\n--------------\n文明度: §O+4§!"
+ building_new_manufactory_desc:0 "类型: §T工匠§!\n需要城市或大都会。\n--------------\n文明度: §O+6§!"
+ building_factory_desc:0 "类型: §T工匠§!\n需要大都会。\n--------------\n文明度: §O+8§!"
+ #
+ building_studio_desc:0 "类型: §T文化§!\n需要村庄、城镇、城市或大都会。\n--------------\n文明度: §O+2§!"
+ building_artisanate_desc:0 "类型: §T文化§!\n需要城镇、城市或大都会。\n--------------\n文明度: §O+4§!"
+ building_theatre_desc:0 "类型: §T文化§!\n需要城市或大都会。\n--------------\n文明度: §O+6§!"
+ building_museum_desc:0 "类型: §T文化§!\n需要大都会。\n--------------\n文明度: §O+8§!"
+ #
+ building_school_desc:0 "类型: §T教育§!\n需要村庄、城镇、城市或大都会。\n--------------\n文明度: §O+2§!"
+ building_college_desc:0 "类型: §T教育§!\n需要城镇、城市或大都会。\n--------------\n文明度: §O+4§!"
+ building_university_desc:0 "类型: §T教育§!\n需要城市或大都会。\n--------------\n文明度: §O+6§!"
+ building_academy_desc:0 "类型: §T教育§!\n需要大都会。\n--------------\n文明度: §O+8§!"
+ #
+ building_regimental_camp_desc:0 "类型: §T军事§!\n需要村庄、城镇、城市或大都会。\n--------------\n文明度: §O+1§!"
+ building_barracks_desc:0 "类型: §T军事§!\n需要城镇、城市或大都会。\n--------------\n文明度: §O+2§!"
+ building_conscription_center_desc:0 "类型: §T军事§!\n需要城市或大都会。\n--------------\n文明度: §O+3§!"
+ building_soldier_households_desc:0 "类型: §T军事§!\n需要大都会。\n--------------\n文明度: §O+4§!"
+ #
+ building_shipwright_desc:0 "类型: §T海军§!\n必须位于沿海地区。需要村庄、城镇、城市或大都会。\n--------------\n文明度: §O+1§!"
+ building_shipyard_desc:0 "类型: §T海军§!\n必须位于沿海地区。需要城镇、城市或大都会。\n--------------\n文明度: §O+2§!"
+ building_drydock_desc:0 "类型: §T海军§!\n必须位于沿海地区。需要城市或大都会。\n--------------\n文明度: §O+3§!"
+ building_grand_shipyard_desc:0 "类型: §T海军§!\n必须位于沿海地区。需要大都会。\n--------------\n文明度: §O+4§!"
+ #
+ building_training_fields_desc:0 "类型: §T医疗§!\n需要村庄、城镇、城市或大都会。\n--------------\n文明度: §O+3§!\n承载力: §G+2§!"
+ building_clinic_desc:0 "类型: §T医疗§!\n需要城镇、城市或大都会。\n--------------\n文明度: §O+6§!\n承载力: §G+4§!"
+ building_infirmary_desc:0 "类型: §T医疗§!\n需要城市或大都会。\n--------------\n文明度: §O+9§!\n承载力: §G+6§!"
+ building_hospital_desc:0 "类型: §T医疗§!\n需要大都会。\n--------------\n文明度: §O+12§!\n承载力: §G+8§!"
+ #
+ building_constabulary_desc:0 "类型: §T民用§!\n需要村庄、城镇、城市或大都会。\n--------------\n文明度: §O+3§!"
+ building_courthouse_desc:0 "类型: §T民用§!\n需要城镇、城市或大都会。\n--------------\n文明度: §O+6§!"
+ building_town_hall_desc:0 "类型: §T民用§!\n需要城市或大都会。\n--------------\n文明度: §O+9§!"
+ building_state_house_desc:0 "类型: §T民用§!\n需要大都会。\n--------------\n文明度: §O+12§!"
+ #
+ building_customs_house_desc:0 "类型: §T区域独特§!\n位于岛屿或海外地区。必须位于一个州内。该区域内不能有其他海关。\n--------------\n文明度: §O+4§!"
+ building_library_desc:0 "类型: §T区域独特§!\n需要城镇、城市或大都会。该区域内不能有其他图书馆。\n--------------\n文明度: §O+10§!"
+ building_prison_desc:0 "类型: §T区域独特§!\n位于岛屿或海外地区。必须位于一个州内。该区域内不能有其他监狱。\n--------------\n文明度: §O+4§!"
+
+
+ #
+ building_postmaster_general_desc:0 "类型: §T国家独特§!\n需要城镇、城市或大都会。\n--------------\n文明度: §O+5§!"
+ building_national_court_desc:0 "类型: §T国家独特§!\n需要城镇、城市或大都会。\n--------------\n文明度: §O+5§!"
+ building_foreign_office_desc:0 "类型: §T国家独特§!\n需要城镇、城市或大都会。\n--------------\n文明度: §O+5§!"
+ building_national_mint_desc:0 "类型: §T国家独特§!\n需要城镇、城市或大都会。\n--------------\n文明度: §O+5§!"
+ building_war_college_desc:0 "类型: §T国家独特§!\n需要城镇、城市或大都会。\n--------------\n文明度: §O+5§!"
+ building_admiralty_desc:0 "类型: §T国家独特§!\n需要城镇、城市或大都会。\n--------------\n文明度: §O+5§!"
+ building_stock_exchange_desc:0 "类型: §T国家独特§!\n需要城镇、城市或大都会。\n--------------\n文明度: §O+5§!"
+ 
+ #
+ 
+ building_native_village:0 "村庄"
+ building_native_palisade:0 "栅栏"
+ building_native_shrine:0 "神龛"
+ building_native_encampment:0 "营地"
+ building_native_lodge:0 "小屋"
+ building_native_trade_post:0 "贸易站"
+ building_native_fields:0 "田地"
+ 
+ building_native_village_desc:0 ""
+ building_native_palisade_desc:0 ""
+ building_native_shrine_desc:0 ""
+ building_native_encampment_desc:0 ""
+ building_native_lodge_desc:0 ""
+ building_native_trade_post_desc:0 ""
+ building_native_fields_desc:0 ""
+ 
+
+ # 
+ building_native_village_christian:0 "村庄"
+ building_native_palisade_christian:0 "城堡"
+ building_native_shrine_christian:0 "教堂"
+ building_native_encampment_christian:0 "兵营"
+ building_native_lodge_christian:0 "客栈"
+ building_native_trade_post_christian:0 "市场"
+ building_native_fields_christian:0 "农场"
+ 
+ building_native_village_muslim:0 "村庄"
+ building_native_palisade_muslim:0 "城堡（Qasr）"
+ building_native_shrine_muslim:0 "清真寺"
+ building_native_encampment_muslim:0 "营地（Amsar）"
+ building_native_lodge_muslim:0 "商队客栈"
+ building_native_trade_post_muslim:0 "集市"
+ building_native_fields_muslim:0 "农场"
+ 
+ building_native_village_eastern:0 "村庄"
+ building_native_palisade_eastern:0 "栅栏"
+ building_native_shrine_eastern:0 "神龛"
+ building_native_encampment_eastern:0 "营地"
+ building_native_lodge_eastern:0 "小屋"
+ building_native_trade_post_eastern:0 "贸易站"
+ building_native_fields_eastern:0 "田地"
+ 
+ building_native_village_dharmic:0 "村庄"
+ building_native_palisade_dharmic:0 "栅栏"
+ building_native_shrine_dharmic:0 "神龛"
+ building_native_encampment_dharmic:0 "营地"
+ building_native_lodge_dharmic:0 "小屋"
+ building_native_trade_post_dharmic:0 "贸易站"
+ building_native_fields_dharmic:0 "田地"
+ 
+ building_native_village_pagan:0 "村庄"
+ building_native_palisade_pagan:0 "栅栏"
+ building_native_shrine_pagan:0 "神龛"
+ building_native_encampment_pagan:0 "营地"
+ building_native_lodge_pagan:0 "小屋"
+ building_native_trade_post_pagan:0 "贸易站"
+ building_native_fields_pagan:0 "田地"
+ 
+ building_native_village_caucus_pagan:0 "村庄"
+ building_native_palisade_caucus_pagan:0 "栅栏"
+ building_native_shrine_caucus_pagan:0 "神龛"
+ building_native_encampment_caucus_pagan:0 "营地"
+ building_native_lodge_caucus_pagan:0 "小屋"
+ building_native_trade_post_caucus_pagan:0 "贸易站"
+ building_native_fields_caucus_pagan:0 "田地"
+  
+ building_native_village_asian_pagan:0 "村庄"
+ building_native_palisade_asian_pagan:0 "栅栏"
+ building_native_shrine_asian_pagan:0 "神龛"
+ building_native_encampment_asian_pagan:0 "营地"
+ building_native_lodge_asian_pagan:0 "小屋"
+ building_native_trade_post_asian_pagan:0 "贸易站"
+ building_native_fields_asian_pagan:0 "田地"
+ 
+ building_native_village_african_pagan:0 "村庄"
+ building_native_palisade_african_pagan:0 "栅栏"
+ building_native_shrine_african_pagan:0 "神龛"
+ building_native_encampment_african_pagan:0 "营地"
+ building_native_lodge_african_pagan:0 "小屋"
+ building_native_trade_post_african_pagan:0 "贸易站"
+ building_native_fields_african_pagan:0 "田地"
+ 
+ building_native_village_oceanic_pagan:0 "村庄"
+ building_native_palisade_oceanic_pagan:0 "栅栏"
+ building_native_shrine_oceanic_pagan:0 "神龛"
+ building_native_encampment_oceanic_pagan:0 "营地"
+ building_native_lodge_oceanic_pagan:0 "小屋"
+ building_native_trade_post_oceanic_pagan:0 "贸易站"
+ building_native_fields_oceanic_pagan:0 "田地"
+ 
+ building_native_village_american_pagan:0 "村庄"
+ building_native_palisade_american_pagan:0 "栅栏"
+ building_native_shrine_american_pagan:0 "神龛"
+ building_native_encampment_american_pagan:0 "营地"
+ building_native_lodge_american_pagan:0 "小屋"
+ building_native_trade_post_american_pagan:0 "贸易站"
+ building_native_fields_american_pagan:0 "田地"
+ 
+ building_native_village_tribal_beliefs:0 "村庄"
+ building_native_palisade_tribal_beliefs:0 "栅栏"
+ building_native_shrine_tribal_beliefs:0 "神龛"
+ building_native_encampment_tribal_beliefs:0 "营地"
+ building_native_lodge_tribal_beliefs:0 "小屋"
+ building_native_trade_post_tribal_beliefs:0 "贸易站"
+ building_native_fields_tribal_beliefs:0 "田地"
+ 
+ building_native_village_jewish_group:0 "村庄"
+ building_native_palisade_jewish_group:0 "马萨达城堡"
+ building_native_shrine_jewish_group:0 "犹太教堂"
+ building_native_encampment_jewish_group:0 "兵营"
+ building_native_lodge_jewish_group:0 "客栈"
+ building_native_trade_post_jewish_group:0 "市场"
+ building_native_fields_jewish_group:0 "农场"
+ 
+ building_native_village_zoroastrian_group:0 "村庄"
+ building_native_palisade_zoroastrian_group:0 "栅栏"
+ building_native_shrine_zoroastrian_group:0 "神龛"
+ building_native_encampment_zoroastrian_group:0 "营地"
+ building_native_lodge_zoroastrian_group:0 "小屋"
+ building_native_trade_post_zoroastrian_group:0 "贸易站"
+ building_native_fields_zoroastrian_group:0 "田地"
+ 
+ building_native_village_chthonic_religion_group:0 "村庄"
+ building_native_palisade_chthonic_religion_group:0 "栅栏"
+ building_native_shrine_chthonic_religion_group:0 "神龛"
+ building_native_encampment_chthonic_religion_group:0 "营地"
+ building_native_lodge_chthonic_religion_group:0 "小屋"
+ building_native_trade_post_chthonic_religion_group:0 "贸易站"
+ building_native_fields_chthonic_religion_group:0 "田地"

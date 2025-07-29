@@ -1,0 +1,18 @@
+﻿l_chinese:
+ maj_survive_civil_war:0 "稳定国家"
+ maj_survive_civil_war_title:0 "稳定国家"
+ maj_survive_civil_war_desc:0 "自帕瑞格雷格战争以来，我们的国家逐渐崩溃，我们的权威变得脆弱。几乎任何事情都可能导致我们的灭亡。如果我们想要重新崛起，我们必须熬过敌人，并稳定我们的国家。"
+
+ maj_conquer_sunda:0 "征服巽他"
+ maj_conquer_sunda_title:0 "征服巽他"
+ maj_conquer_sunda_desc:0 "随着国家更加完整，我们现在可以着眼于恢复我们的帝国。巽他王国长期以来一直抵制我们统一爪哇的尝试，为此，他们将付出沉重代价。"
+
+ maj_settle_lesser_sunda_islands:0 "定居努沙登加拉"
+ maj_settle_lesser_sunda_islands_title:0 "定居努沙登加拉"
+ maj_settle_lesser_sunda_islands_desc:0 "努沙登加拉，或称小巽他群岛，长期以来一直是努山塔拉的一个孤立部分。现在是时候有人将它们纳入版图了。"
+
+ maj_convert_java:0 "转化爪哇"
+ maj_convert_java_title:0 "转化爪哇"
+ maj_convert_java_desc:0 "尽管爪哇岛已经在我们的统治下统一，各种宗教少数群体仍然威胁着和平。我们必须为爪哇带来宗教上的统一！"
+
+ maj_survive_civil_war.tooltip:0 "完成满者伯夷内战灾难，或在未触发灾难的情况下进入宗教改革时代。"
