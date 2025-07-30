@@ -1,0 +1,791 @@
+﻿l_english:
+ #BTP European changes
+ PROV3:0 "卡尔马"                 #1.19 斯堪的纳维亚大修 - 已移除
+ PROV4:0 "韦斯特曼兰"                 #1.19 斯堪的纳维亚大修 - 已移除
+ PROV6:0 "马尔默"
+ PROV12:0 "哥本哈根"
+ PROV15:0 "里伯"
+ PROV17:0 " Vestfold"                 #1.19 斯堪的纳维亚大修 - 已移除
+ PROV19:0 "穆斯塔萨里"
+ PROV22:0 "海德马克"
+ PROV26:0 "哈尔姆斯塔德"
+ PROV28:0 "卡亚"
+ PROV29:0 "瓦纳亚"
+ PROV32:0 "科雷拉"                 #1.19 斯堪的纳维亚大修 - 已移除
+ PROV34:0 "科波里耶"
+ PROV35:0 "萨列马岛"
+ #PROV54:0 "费尔登"
+ PROV90:0 "布鲁日"
+ PROV92:0 "布鲁塞尔"
+ PROV97:0 "阿姆斯特丹"
+ PROV99:0 "阿纳姆"
+ PROV122:0 "塔兰托"
+ PROV127:0 "加利拉"
+ #PROV136:0 "扎达尔"
+ PROV139:0 "莫斯塔尔"
+ PROV140:0 "拉斯瓦"
+ PROV141:0 "舒马迪亚"
+ PROV143:0 "培拉特"
+ PROV145:0 "拉科尼亚"
+ PROV152:0 "别洛瓦尔"
+ PROV160:0 "克拉约瓦"
+ PROV163:0 "伊拉克利翁"
+ PROV166:0 "瓦尔登施泰特"
+ PROV167:0 "鲁昂"
+ PROV168:0 "卡昂"
+ PROV169:0 "圣布里厄"          #自1.25版本起替换3067
+ PROV177:0 "勒芒"
+ PROV186:0 "兰斯"
+ PROV189:0 "南锡"
+ PROV192:0 "第戎"
+ PROV193:0 "贝桑松"
+ PROV194:0 "佩里戈尔"
+ PROV200:0 "蒙彼利埃"
+ PROV204:0 "格勒诺布尔"
+ PROV206:0 "拉科鲁尼亚"
+ PROV234:0 "韦塞克斯"
+ PROV237:0 "牛津"
+ PROV239:0 "格洛斯特"
+ PROV241:0 "格拉摩根"
+ PROV242:0 "圭内斯"
+ PROV243:0 "林肯"
+ PROV244:0 "兰开斯特"
+ PROV245:0 "利兹"          #自1.25版本起替换3023。原为约克
+ PROV249:0 "艾尔"
+ PROV251:0 "阿伯丁"
+ PROV253:0 "外赫布里底群岛"
+ PROV261:0 "哈利奇"
+ PROV265:0 "布尔诺"
+ PROV268:0 "博托沙尼"
+ PROV313:0 "阿尔汉格尔斯克"
+ PROV316:0 "尼科米底亚"
+ PROV317:0 "普鲁萨"
+ PROV318:0 "伊斯米尔"
+ PROV319:0 "莫戈拉"
+ PROV321:0 "利马索尔"
+ PROV322:0 "多里莱乌姆"
+ PROV323:0 "科尼亚"
+ PROV324:0 "拉兰达"            #原为5136
+ PROV325:0 "蒂莫尼翁"
+ PROV326:0 "安卡拉"
+ PROV327:0 "阿达纳"
+ PROV328:0 "锡诺普"
+ PROV329:0 "塞巴斯蒂亚"
+ PROV330:0 "特拉布宗"
+ PROV331:0 "卡林"
+ PROV332:0 "马拉什"
+ PROV333:0 "马略卡岛"
+ PROV336:0 "特莱姆森"
+ PROV337:0 "奥兰"
+ PROV338:0 "阿尔及尔"
+ PROV339:0 "布日伊"
+ PROV340:0 "君士坦丁"
+ PROV341:0 "突尼斯"
+ PROV342:0 "塞拉"
+ PROV345:0 "萨菲"
+ PROV347:0 "坦坦"
+ PROV348:0 "马扎甘"
+ #PROV349:0 "菲吉格"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ #PROV350:0 "拉古瓦特"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ #PROV351:0 "比斯克拉"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ PROV352:0 "加夫萨"
+ PROV353:0 "梅迪宁"
+ PROV354:0 "的黎波里"
+ #PROV355:0 "苏尔特"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ PROV356:0 "贝雷尼斯"
+ PROV357:0 "德尔纳"
+ PROV358:0 "亚历山大"
+ PROV359:0 "法尤姆"
+ PROV360:0 "凯内"         #或格萨，或凯夫特
+ PROV361:0 "开罗"
+ PROV362:0 "罗塞塔"
+ PROV363:0 "佩卢西乌姆"         #编造的“现代”版佩卢西乌姆
+ PROV364:0 "阿里什"
+ PROV365:0 "西奈"
+ PROV366:0 "拉斯帕尔马斯"
+ PROV372:0 "蒂龙"
+ PROV373:0 "都柏林"
+ PROV374:0 "威克洛"
+ PROV375:0 "托蒙德"          #自1.25版本起替换3012。原为科克
+ PROV376:0 "戈尔韦"
+ PROV377:0 "阿勒颇"
+ PROV378:0 "的黎波里"
+ PROV379:0 "朱迪亚"
+ PROV380:0 "卡拉克"
+ PROV381:0 "豪兰"
+ PROV382:0 "大马士革"
+ PROV383:0 "塔布克"           #原为5230
+ PROV384:0 "麦地那"         #或亚斯里布
+ PROV385:0 "麦加"
+ PROV386:0 "阿西尔"
+ PROV387:0 "穆哈"
+ PROV388:0 "亚丁"
+ PROV389:0 "穆卡拉"
+ PROV390:0 "萨那"
+ PROV391:0 "奈季兰"
+ PROV392:0 "阿尔阿里德"
+ PROV393:0 "贾巴尔沙马尔"
+ PROV394:0 "盖提夫"
+ PROV395:0 "卡塔尔"
+ PROV396:0 "阿瓦尔"
+ PROV397:0 "阿布扎比"
+ PROV398:0 "沙迦"
+ PROV399:0 "苏哈尔"
+ PROV400:0 "马斯喀特"
+ PROV401:0 "佐法尔"
+ PROV402:0 "马赫拉"
+ PROV403:0 "尼兹瓦"
+ PROV404:0 "利瓦"
+ PROV405:0 "巴尔米拉"         #原为5182
+ PROV407:0 "拉卡"         #原为405
+ PROV418:0 "阿米达"
+ PROV467:0 "尤里平"
+ PROV473:0 "尤里平"
+ PROV482:0 "巴哈马"
+ PROV483:0 "卡亚伊科"       #特克斯和凯科斯群岛
+ PROV484:0 "哈瓦那内克斯"
+ PROV485:0 "瓜穆哈亚" #1.28 Arg
+ PROV486:0 "巴亚基蒂里"
+ PROV487:0 "牙买加"
+ PROV488:0 "亚瓜纳"                #资料存在冲突，一些称亚瓜纳，一些称瓜瓦……但后者听起来像水果玩笑
+ PROV489:0 "瓜里科"
+ PROV490:0 "希盖伊"
+ PROV491:0 "库拉索"          #找不到库拉索岛的土著名称，所以两个都用博奈……不太理想，但比葡萄牙名好
+ PROV493:0 "托尔托拉岛"            #实际上是荷兰名的英语化形式……但我找不到这些岛屿的任何土著名称，而且它们在1505年左右之后似乎无人居住，直到荷兰人登陆……所以暂时用这个
+ PROV494:0 "利穆伊加"       #圣基茨岛（跳过尼维斯岛，因为名称太长）
+ PROV495:0 "瓦拉迪和瓦奥莫尼"       #安提瓜和巴布达
+ PROV496:0 "卡鲁克拉"       #瓜德罗普岛
+ PROV497:0 "瓦伊图库布利"           #多米尼克
+ PROV498:0 "茹阿纳卡埃拉"           #马提尼克岛
+ PROV499:0 "埃瓦诺拉"          #圣卢西亚岛
+ PROV500:0 "海鲁恩"            #圣文森特岛
+ PROV501:0 "伊希罗甘奈姆"          #巴巴多斯岛
+ PROV502:0 "伊耶雷"
+ PROV738:0 "西拉雅"
+ PROV756:0 "基里穆雷"          #感谢Arga
+ PROV763:0 "瓜纳帕拉"          #感谢Arga
+ PROV766:0 "皮拉蒂宁加"          #感谢Arga
+ PROV767:0 "吕克"
+ PROV770:0 "克雷瓦"
+ PROV774:0 "杰奈纳"
+ PROV789:0 "斯威士兰"
+
+ PROV833:0 "格拉夫-雷内特"           #错误 - 格拉夫雷内特，命名存在问题。
+
+ PROV1079:0 "科捷利尼奇"
+ PROV1099:0 "索科特拉岛"
+ PROV1104:0 "卡夸托考"
+ PROV1105:0 "西西米乌特"
+ PROV1106:0 "托克劳"           #完整名称为Te Tai Tokerau（北区）
+ PROV1107:0 "特乌波科奥泰伊卡"
+ PROV1108:0 "特莫阿纳阿托伊"
+ PROV1109:0 "奥塔哥"
+ PROV1110:0 "阿加迪尔"
+ PROV1174:0 "乔卡豪布"
+ PROV1175:0 "加里普"
+ PROV1176:0 "'哈纳米'"
+ PROV1177:0 "戈林哈伊夸"
+ PROV1178:0 "维多利亚西"           #错误 - 维多利亚西，命名存在问题。
+ PROV1179:0 "赫塞夸"
+ PROV1180:0 "姆塔塔"
+ PROV1181:0 "乌姆贡贡德洛武"
+ PROV1182:0 "马普托"
+ #PROV1216:0 "努巴"          #或特卡利
+ PROV1217:0 "拉特乔尔"
+ #PROV1219:0 "达朱"          #或马拉赫
+ #PROV1220:0 "拜尤达"
+# PROV1221:0 "科尔多凡"
+ PROV1222:0 "德韦姆"
+ PROV1225:0 "卡萨拉"
+ #PROV1226:0 "加达迈"
+ PROV1228:0 "栋古拉"
+# PROV1229:0 "阿马拉尔"
+ PROV1230:0 "马萨瓦"
+ PROV1231:0 "阿斯旺"
+ PROV1232:0 "苏阿金"
+ PROV1233:0 "哈尔加"
+ PROV1234:0 "伊卜林"
+ PROV1247:0 "阿雅克肖"
+ PROV1253:0 "伦盖尔马韦西湖"
+ PROV1261:0 "拉多加湖"
+ PROV1262:0 "奥涅加湖"
+ #PROV1263:0 "穆尔曼西海"
+ #PROV1264:0 "挪威东北海岸"
+ #PROV1265:0 "挪威西北海岸"
+# PROV1266:0 "挪威南海岸"
+ #PROV1269:0 "南湾"
+ #PROV1270:0 "沃什湾"
+ #PROV1274:0 "兰兹角"
+# PROV1275:0 "布列塔尼海岸"
+ #PROV1279:0 "瓦登海"
+ #PROV1299:0 "彭特兰湾"
+ #PROV1300:0 "撒丁海"
+# PROV1329:0 "曼德海峡"
+ #PROV1380:0 "麦夸里海岭"
+ #PROV1412:0 "北豪勋爵岛"
+ #PROV1413:0 "北大西洋东部"
+ #PROV1414:0 "索雷尔盆地"
+ #PROV1415:0 "迪库迪克海崖"
+ #PROV1416:0 "北澳大利亚湾"
+ #PROV1421:0 "塔斯马尼亚南海岸"
+ #PROV1425:0 "海峡"
+ #PROV1426:0 "希库朗伊海沟"
+ #PROV1427:0 "南塔斯曼海"
+ #PROV1435:0 "马里亚纳群岛"
+ #PROV1473:0 "挪威海南部"
+ #PROV1474:0 "扬马延海"
+ #PROV1475:0 "埃亚峡湾"
+ #PROV1478:0 "罗卡尔"
+ #PROV1479:0 "东北大西洋"
+ #PROV1483:0 "拉布拉多海"
+ #PROV1484:0 "戴维斯海峡"
+ #PROV1485:0 "西哈得孙海峡"
+ #PROV1487:0 "哈得孙湾西南部"
+ #PROV1488:0 "哈得孙湾东北部"
+ #PROV1494:0 "萨布尔岛浅滩"
+ #PROV1495:0 "大浅滩"
+ #PROV1496:0 "拉布拉多近岸"
+ #PROV1497:0 "西北大西洋"
+# PROV1560:0 "库克湾"
+ #PROV1561:0 "阿拉斯加湾"
+ #PROV1569:0 "北马尾藻海"
+ #PROV1604:0 "南大西洋中脊"
+ #PROV1605:0 "特里斯坦-达库尼亚群岛"
+ #PROV1610:0 "风暴角"
+ #PROV1624:0 "苏门答腊西海盆"
+ #PROV1632:0 "阿姆斯特丹岛和圣保罗岛"
+ #PROV1635:0 "东澳大利亚南极海盆"
+ #PROV1644:0 "科科斯群岛"
+ #PROV1666:0 "约翰斯顿环礁"
+# PROV1678:0 "楚科奇海西部"
+ #PROV1690:0 "劳尔岛"
+ #PROV1723:0 "对跖点断裂带"
+ PROV1742:0 "林堡"
+ PROV1766:0 "新布尔多"
+ PROV1767:0 "韦罗切"
+ PROV1771:0 "利托梅日采"
+ PROV1773:0 "埃利斯"
+ PROV1775:0 "基尔"
+ PROV1776:0 "凯姆"
+ PROV1783:0 "桑尼科夫"
+ #PROV1801:0 "巴罗策兰"
+ PROV1805:0 "翁加瓦"
+ PROV1806:0 "瓦萨加马克"
+ PROV1808:0 "马哈瓜杜卡"
+ PROV1809:0 "努穆努"           #科曼奇人
+ PROV1810:0 "德格希坦"
+ PROV1811:0 "萨伊西"
+ PROV1812:0 "卢塞尔克"
+ PROV1813:0 "奥帕斯奎亚克"
+ PROV1814:0 "麦肯齐山脉"
+ PROV1827:0 "齐卡"
+ PROV1831:0 "奥诺戈斯特"
+ PROV1846:0 "科蒂奥拉"
+ PROV1848:0 "尼科波利斯"
+ PROV1849:0 "埃梅萨"
+ PROV1854:0 "雅法"
+ PROV1855:0 "加利利"
+ PROV1861:0 "德比"
+ PROV1873:0 "雷蒂亚"
+ PROV1881:0 "马利乌哈纳"
+ PROV1882:0 "安纳巴"
+ PROV1883:0 "奈西湖"
+ PROV1884:0 "塞马湖"
+ PROV1885:0 "派延奈湖"
+ PROV1891:0 "安纳托利亚湖泊"
+ PROV1893:0 "乌尔米耶湖"
+ PROV1905:0 "米斯塔西尼湖"
+ PROV1906:0 "萨雷卡梅什湖"
+ PROV1908:0 "米希卡莫湖"
+ PROV1910:0 "布西亚湾"
+ PROV1911:0 "维多利亚海峡"
+ PROV1912:0 "驯鹿湖"
+ PROV1913:0 "刘易斯与克拉克山脉"
+ PROV1916:0 "杜博恩特湖"
+ PROV1917:0 "波弗特海西部"
+ PROV1918:0 "阿拉湖"
+ PROV1919:0 "东西伯利亚海"
+ PROV1920:0 "楚科奇海东部"
+ PROV1921:0 "丘吉尔湖"
+ PROV1923:0 "大熊湖"
+ #PROV1929:0 "挪威西海岸"
+ #PROV1954:0 "潘切沃"
+ PROV1972:0 "马尔米日"
+ PROV1984:0 "奥尔堡"
+
+ PROV2154:0 "凯当格朗"
+ PROV2296:0 "达达尼尔海峡"
+ PROV2297:0 "马格尼西亚"
+ PROV2298:0 "阿塔利亚"
+ PROV2299:0 "阿马斯特里斯"
+ PROV2300:0 "新凯撒里亚"
+ PROV2301:0 "凯撒利亚"
+ PROV2302:0 "塞利努斯"
+ PROV2303:0 "马拉蒂亚"
+ PROV2304:0 "西米索"
+ PROV2305:0 "塞莱泽内"
+ PROV2306:0 "塔拉乌尼蒂斯"
+ PROV2308:0 "埃德萨"           #原为407
+ PROV2313:0 "安条克"
+ PROV2314:0 "拉赫巴"
+ PROV2315:0 "苏伊士"
+ PROV2316:0 "坦塔"
+ PROV2317:0 "明亚"
+ PROV2318:0 "法拉夫拉"
+ PROV2319:0 "阿斯尤特"
+ PROV2320:0 "拉斯加里卜"
+ PROV2321:0 "库赛尔"
+ PROV2322:0 "法拉什"
+ #PROV2323:0 "穆拉特"
+ PROV2324:0 "哈莱卜"
+ PROV2325:0 "马里纳"
+ PROV2326:0 "托布鲁克"
+ PROV2327:0 "马格纳"
+ PROV2328:0 "泰马"
+ PROV2329:0 "延布"
+ PROV2330:0 "哈维拉"
+ PROV2331:0 "吉达"
+ PROV2332:0 "特鲁巴"
+ PROV2333:0 "西拉"
+ PROV2335:0 "达瓦西尔"
+ PROV2336:0 "沃什姆"
+ PROV2337:0 "卡西姆"
+ PROV2338:0 "巴廷"
+ PROV2339:0 "亚布林"
+ PROV2340:0 "格拉内"
+ PROV2341:0 "苏尔"
+ PROV2342:0 "武斯塔"         #现代名称，不太理想，但在这个时期其含义也合乎逻辑，且英文中没有相关信息
+ PROV2343:0 "哈德拉毛"
+ PROV2344:0 "马里卜"
+ PROV2345:0 "萨达"
+ PROV2346:0 "吉赞"
+ PROV2347:0 "胡富夫"
+ PROV2405:0 "奥尔海伊"
+ PROV2408:0 "利佩茨克"
+ PROV2409:0 "卡缅斯克"
+ PROV2412:0 "库图尔-奥格利"
+ PROV2425:0 "瓦兰代伊"
+ PROV2448:0 "塞卜哈"
+ #PROV2449:0 "朱夫拉"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ #PROV2450:0 "杰比尔"
+ #PROV2451:0 "图巴克特"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ #PROV2452:0 "祖瓦拉"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ #PROV2453:0 "斯法克斯"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ PROV2454:0 "凯鲁万"
+ #PROV2455:0 "比塞大"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ #PROV2456:0 "图古尔特"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ #PROV2457:0 "姆扎卜"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ #PROV2458:0 "霍德纳"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ #PROV2459:0 "蒂泰里"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ PROV2460:0 "塔梅格鲁特"
+ PROV2461:0 "穆斯塔加奈姆"
+ PROV2462:0 "提亚雷特"
+ PROV2463:0 "纳马"
+ #PROV2465:0 "乌季达"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ PROV2466:0 "德拉"
+ PROV2468:0 "赫尼夫拉"
+ PROV2469:0 "安法"
+ PROV2470:0 "莫加多尔"
+ PROV2471:0 "荒凉群岛"
+ #PROV2472:0 "瓦尔格拉"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ #PROV2473:0 "苏塞"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ PROV2474:0 "穆尔祖克"
+
+ PROV2738:0 "瓦卡图"
+ PROV2740:0 "北婆罗洲高地"
+ PROV2752:0 "松恩"                 #1.19 斯堪的纳维亚大修
+ PROV2670:0 "多伦多"
+ PROV2671:0 "瓦索克辛"
+ PROV2766:0 "安塞巴"
+ PROV2797:0 "申迪"
+ PROV2798:0 "索巴"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ PROV2799:0 "森纳尔"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ PROV2800:0 "科斯蒂"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ #PROV2801:0 "艾因法拉赫"
+ PROV2802:0 "代因"         #名称不佳，需要更换
+ PROV2811:0 "马拉科阿"         #感谢Arga
+# PROV2852:0 "塔夸雷姆博蒂"         #感谢Arga
+ PROV2856:0 "曼冈"         #错误 - 班图语名称出现在可能是桑人（科伊桑人）的土地上
+ PROV2864:0 "卡卡马斯 "
+ PROV2880:0 "格里夸敦"          #错误 - 格里夸敦，命名存在问题。
+ PROV2887:0 "梅延比佩"         #感谢Arga   卡里霍族名称，卡里霍族是图皮族的一个分支，在游戏中未被代表，居住在此地
+ PROV2930:0 "图帕尤斯"         #感谢Arga
+ PROV2934:0 "马瑙斯"         #感谢Arga   部落酋长国名称
+ #PROV2994:0 "沃尔加斯特"
+ #PROV2954:0 "杰尔巴岛"            #实际上与原版相同，但在此添加以防止与原版产生变化
+ PROV2963:0 "克拉伊纳"
+ PROV2986:0 "卡利亚里"
+ #PROV2991:0 "土伦"
+ PROV2999:0 "霍尔木兹"
+ PROV3002:0 "维索科"
+ PROV3194:0 "索利"
+ PROV4033:0 "加达里夫"
+ PROV4154:0 "比利牛斯山脉"
+ PROV4156:0 "西高加索山脉"
+ PROV4157:0 "多菲内阿尔卑斯山脉"
+ PROV4159:0 "东雷蒂亚阿尔卑斯山脉"
+ PROV4160:0 "贝尔尼纳阿尔卑斯山脉"
+ PROV4161:0 "彭宁阿尔卑斯山脉"
+ PROV4162:0 "伯尔尼阿尔卑斯山脉"
+
+ #1.16 补丁新增变更
+ PROV4110:0 "凯斯内斯"         #原为3017
+ PROV4111:0 "奥尼斯"         #原为3079
+ PROV4112:0 "凯尔西"         #原为3082
+ PROV4113:0 "伊伊"         #原为3126
+ PROV4114:0 "拉皮"         #原为3125
+ PROV4115:0 "戈梅利"         #原为3236
+ PROV4116:0 "奥卡"         #原为3269
+ PROV4117:0 "乌格利奇"         #原为3274
+ PROV4118:0 "科克"           #自1.25版本起替换375，而375之前替换了3012。原为德斯蒙德。再之前为3011
+ PROV4119:0 "斯莱戈"         #原为3013
+ PROV4120:0 "基尔代尔"           #原为3008
+ PROV4121:0 "安特里姆"            #新增
+ PROV4122:0 "瓦加"         #原为3283
+ PROV4123:0 "上萨塔昆塔"         #原为3129
+ PROV4124:0 "伊洛曼茨"         #原为3131
+ PROV4125:0 "赫维什"         #原为3147
+ #PROV4126:0 "基什孔"         #原为3149 已移除
+ PROV4127:0 "贝斯泰尔采"         #原为3153
+ PROV4128:0 "布拉索夫"         #原为3155
+ PROV4129:0 "乌斯季维姆"
+ #PROV4130:0 "萨默塞特"         #自1.25版本起替换3031，原为德文郡。再之前为3032
+ PROV4141:0 "迪特马申"           #原为3136
+ PROV4142:0 "奥胡斯"
+ PROV4143:0 "东福尔"                 #1.19 斯堪的纳维亚大修
+ PROV4144:0 "布劳特贝格"         #原为3116
+ PROV4145:0 "阿格德尔"                 #1.19 斯堪的纳维亚大修
+#PROV4146:0 "尤通黑门山脉"                 #原版更具体（也更古老）的是朗菲耶拉山脉。不过，荒地和海洋省份使用现代名称已有先例，所以采用山脉的现代通用名称   -根据deserk的建议删除
+ PROV4147:0 "罗斯托夫"         #原为3275
+ PROV4148:0 "大卢基"         #原为3272
+#PROV4149:0 "里伯"         #原为3133，实际上与原版相同，但在此添加以防止与原版产生变化
+ PROV4150:0 "埃武拉"         #原为3107
+ PROV4152:0 "凯努"         #原为4113
+ PROV4163:0 "艾尔夫斯堡"                 #1.19 斯堪的纳维亚大修
+ PROV4165:0 "奥胡斯"
+ PROV4166:0 "克鲁努贝里"                 #1.19 斯堪的纳维亚大修
+ PROV4168:0 "中阿特拉斯山脉"
+# PROV4173:0 "苏博蒂察"         #原为3189 #已移除
+ PROV4174:0 "都拉斯"         #原为3181
+ #PROV4175:0 "阿莱西奥"         #原为3182
+ PROV4176:0 "布拉尼切沃"         #原为3186
+
+ #1.21 变更
+ PROV4236:0 "特伦钦"                 #原为3145
+ PROV4237:0 "奥洛穆茨"         #原为3144
+ PROV4238:0 "莱尼采"         #原为3140
+ PROV4239:0 "贝尔格莱德"         #原为3188 - 在11.5版本再次更改
+ PROV4240:0 "费耶尔"         #原为3150
+
+ #1.22 变更
+ PROV4241:0 "瓦尔米耶拉"         #原为3228
+ PROV4242:0 "博里索夫"         #原为3234
+ PROV4247:0 "伊斯科罗斯滕"         #原为3240
+ PROV4251:0 "莫扎伊斯克"
+ PROV4253:0 "沃洛乔克"
+ PROV4256:0 "乌索尔斯克"
+ PROV4263:0 "翁日扎"
+ PROV4264:0 "库尔米什"
+
+ #1.23 变更
+ PROV4268:0 "艾拉"          #原为5202
+ PROV4269:0 "杜巴"          #原为383
+ PROV4270:0 "马安"          #原为5204
+ PROV4271:0 "马雷"          #原为5159
+ PROV4272:0 "焦夫"          #原为5253
+ PROV4273:0 "加扎拉"          #原为5260
+ PROV4274:0 "苏代尔"          #原为5252
+ PROV4275:0 "胡赖斯"            #名称不佳，但找不到更好的，原为5257
+ PROV4276:0 "奥泰拜"          #原为5254
+ PROV4277:0 "塔伊夫"          #原为5234
+ PROV4278:0 "昆富达"          #原为5237
+ PROV4279:0 "荷台达"          #原为5238
+ PROV4280:0 "塔伊兹"          #原为5259
+ PROV4281:0 "扎马尔"          #原为5240
+ PROV4282:0 "比舍"          #原为5236
+ PROV4283:0 "米尔巴特"          #原为5258
+ PROV4284:0 "塞穆德"          #原为5242
+ PROV4285:0 "艾因"          #原为5247
+ PROV4286:0 "富查伊拉"          #原为5248
+ PROV4287:0 "伊卜拉"          #原为5245
+ PROV4292:0 "梅里达"          #原为5295
+ PROV4295:0 "塞法"          #原为5292
+ PROV4297:0 "贝卡"          #原为5179
+ PROV4298:0 "汉塔布"          #原为5183
+ PROV4299:0 "沙马基"          #原为3258
+ PROV4301:0 "哥里"          #原为3252
+ PROV4302:0 "阿拉什克尔茨"          #原为5291
+ PROV4303:0 "陶"          #原为3249
+ PROV4304:0 "霍伊"          #原为3255
+ PROV4305:0 "舍基"          #原为3259
+ PROV4306:0 "拉基亚"          #原为3260
+ PROV4307:0 "科洛尼亚"          #原为324
+ PROV4308:0 "劳迪基亚"          #原为5132
+ PROV4309:0 "特拉勒斯"          #原为5160
+ PROV4310:0 "哈普特"          #原为5148
+ PROV4311:0 "科蒂亚伊翁"          #原为5133
+ PROV4312:0 "克劳迪奥波利斯"          #原为5149
+ PROV4313:0 "甘格拉"          #原为5166
+ PROV4314:0 "科基西亚"          #编造的科奇萨尔的拉丁化版本。我能找到的第一个有名称的主要土耳其定居点，原为5153
+ PROV4315:0 "查尔迪亚"          #原为5169
+ PROV4316:0 "菲尔贝斯"           #或扎加齐格。原为5262
+ PROV4317:0 "特门霍尔"          #原为5263
+ PROV4318:0 "布西里斯"          #原为5265
+ PROV4319:0 "底比斯"          #原为5269
+ PROV4320:0 "蒂斯"         #或托勒密，或凯米斯，或帕诺波利斯，或吉尔贾，原为5268
+ PROV4321:0 "阿蒂亚"          #原为5270
+ PROV4322:0 "阿巴布达"              #或布莱米耶亚，原为5276
+ PROV4323:0 "达赫拉"          #原为5275
+ PROV4340:0 "连科兰"          #原为3257
+
+ #1.25 变更
+ PROV4361:0 "塞尔扣克"          #原为3021
+ PROV4362:0 "邓弗里斯"          #原为3020
+ PROV4363:0 "阿盖尔"          #原为3018
+ PROV4364:0 "内赫布里底群岛"          #原为5099
+ PROV4365:0 "马恩岛"          #原为3016
+ PROV4366:0 "波伊斯"          #原为3033
+ PROV4367:0 "约克"          #原为245，而245之前替换了3023
+ PROV4368:0 "达勒姆"          #原为3022
+ PROV4369:0 "迪菲德"          #原为3035
+ PROV4370:0 "剑桥"          #原为3027
+ #PROV4371:0 "萨塞克斯"          #原为3029
+ PROV4372:0 "沃里克"          #原为3025
+ #PROV4373:0 "德文"          #原为4130，而4130之前替换了3031
+ PROV4374:0 "多塞特"          #原为3030
+ PROV4375:0 "切斯特"          #原为3024
+ PROV4376:0 "莱斯特"          #原为3026
+ PROV4377:0 "奥蒙德"          #原为3010
+ PROV4378:0 "德斯蒙德"          #原为4118，而4118之前替换了375，375之前替换了3012
+ PROV4379:0 "奥法利"          #原为3007
+ PROV4380:0 "蒂尔康奈尔"          #原为3004
+ #PROV4381:0 "上艾瑟尔"          #原为3059
+ #PROV4382:0 "周边地区"          #原为3057
+ #PROV4383:0 "海牙"          #原为3062
+ PROV4384:0 "雷恩"          #原为169，而169之前替换了3067
+ PROV4385:0 "瑟堡"          #原为3074
+ PROV4386:0 "丰特奈"          #原为3091
+ PROV4387:0 "昂古莫瓦"          #原为3080
+ PROV4388:0 "沙特尔"          #原为3072
+ PROV4389:0 "图赖讷"          #原为3076
+ PROV4390:0 "特鲁瓦"          #原为3093
+ PROV4391:0 "韦莱"          #原为3086
+ PROV4392:0 "马孔"          #原为3078
+ #Change Notes
+ #1.19 Changes
+ #3008 --> 4120
+ #3011 --> 4118
+ #3013 --> 4119
+
+ #3017 --> 4110
+ #3032 --> 4130
+ #3079 --> 4111
+ #3082 --> 4112
+ #3125 --> 4114
+ #3126 --> 4113
+ #3129 --> 4123
+ #3131 --> 4124
+ #3147 --> 4125
+ #3149 --> 4126
+ #3153 --> 4127
+ #3155 --> 4128
+ #3236 --> 4115
+ #3269 --> 4116
+ #3274 --> 4117
+ #3283 --> 4122
+ #3286 --> 4129
+
+ #3107 --> 4150
+ #3116 --> 4144
+ #3127 --> Removed
+ #3130 --> Removed
+ #3132 --> 4142
+ #3133 --> 4149
+ #3136 --> 4141
+ #3181 --> 4174
+ #3182 --> 4175
+ #3186 --> 4176
+ #3189 --> 4173
+ #3272 --> 4148
+ #3275 --> 4147
+
+ #1.21 Changes
+ #3188 --> 4239 (Syrmia to Belgrade)
+ #3150 --> 4240 (Fejér to Fejer)
+ #3145 --> 4236 (Trencín to Trencin)
+ #3144 --> 4237 (Olomouc to Olomouc)
+ #3140 --> 4238 (Lehnice to Liegnitz)
+
+ #1.23 Changes
+ #####Anatolia#####
+ #5132 --> 4308 (Denizli to Denizli) -same thing
+ #5160 --> 4309 (Aydin to Aydin) -same thing
+ #5133 --> 4311 (Kutahya to Karahisar) -keeping BT version as is. IMHO it is better
+ #5149 --> 4312 (Boli to Sultanonu) -keeping BT version as is. IMHO it is better
+ #5166 --> 4313 (Cankiri to Kangiri) -same thing
+ #5153 --> 4314 (Kochisar to Kirshehir) -keeping BT version as is. IMHO it is better
+ #5136 --> 324 (Karaman to Karaman) -reorganizing IDs based on vanilla changes
+ #324 --> 4307 (Aksaray to Aksaray) -reorganizing IDs based on vanilla changes
+ #5169 --> 4315 (Gumushane to Tokat) -keeping BT version as is. IMHO it is better
+ #
+ #####Levant#####
+ #5183 --> 4298 ('Aintab to Ayntab) -same thing
+ #5179 --> 4297 (Wadi I Biqa to Homs) -Take another look at this. Homs/Hims is already in BT as 1849, which is vanilla Hama. Perhaps redo this to include both Hama, Homs, and the mountain province? <----------
+ #5159 --> 4271 (Idlib to Suwayda) -Take another look at this. I might add Suwayda later, as it is a good idea if we wanted a Druze province. <----------
+ #5182 --> 405 (Tadmor to Tadmor) -reorganizing IDs based on vanilla changes
+ #405 --> 407 (Ar-Raqqah to Ar-Raqqah) -reorganizing IDs based on vanilla changes
+ #5204 --> 4270 (Petra to Azraq) -Take another look at this. I might add Azraq later, as it is a good idea if it wouldn't make things too dense. <----------
+ #5202 --> 4268 (Aqaba to Aqabah) -same thing
+ #
+ #####Egypt#####
+ #5262 --> 4316 (El-Sharqia to Sharqiya) -same thing
+ #5263 --> 4317 (Damanhur to Bahirya) -same thing
+ #5265 --> 4318 (Atfihia to Atfih) -same thing
+ #5268 --> 4320 (Girga to Girga) -same thing
+ #5269 --> 4319 (Luxor to Isna) -same gist, but different capital... take another look at this but keeping old BT version for now. <----------
+ #5275 -- > 4323 (Dakhla to Farafreh) -same gist, same difference.
+ #5270 --> 4321 (Eastern Desert --> Eastern Desert) -same thing, note vanilla is now wasteland while BT remains colonizable. It is a borderland wasteland, but the Nubian desert is more wasteland-esque than this, and Paradox has it inhabited by Beja, so sticking with BT's setup.
+ #5276 --> 4322 (Eastern Desert --> Eastern Desert) -same thing, note vanilla is now wasteland while BT remains colonizable. It is a borderland wasteland, but the Nubian desert is more wasteland-esque than this, and Paradox has it inhabited by Beja, so sticking with BT's setup.
+ #
+ #####Armenia#####
+ #407 --> 2308 (Urfa to Urfa) -reorganizing IDs based on vanilla changes
+ #5295 --> 4292 (Mardin to Mardin) -same thing
+ #2308 --> 5295 (Mardin to Cizre) -reorganizing IDs based on vanilla changes
+ #5148 --> 4310 (Kharput to Divrigi) -keeping BT version as is. IMHO it is better
+ #5292 --> 4295 (Hesn Kayfa to Hisn Kayfa) -same thing
+ #5294 --> 4296 (Siirt to Bitlis) -same gist, but different details. take another look at this but keeping old BT version for now. <----------
+ #3255 --> 4304 (Khoy to Khoy) -same thing
+ #5291 --> 4302 (Karakalisa to Bayazid) -I have no idea. Keeping Current for now, but look into this. <----------
+ #3249 --> 4303 (Tao to Tao) -same thing
+ #3252 --> 4301 (Gori to Kartli) -same gist, whatever is fine for now.
+ #3259 --> 4305 (Sheki to Shaki) -same thing
+ #3258 --> 4299 (Shamaki to Shamaki) -same thing
+ #3257 --> 4340 (Talysh to Astara) -I have no idea. Keeping Current for now, but look into this. <----------
+ #3260 --> 4306 (Lakia to Lakia) -same thing
+ #
+ #####Arabia#####
+ #5230 --> 383 (Tabuk to Tabuk) -reorganizing IDs based on vanilla changes
+ #383 --> 4269 (Duba to Al Wajh) -I have no idea. Keeping Current for now, but look into this. <----------
+ #5234 --> 4277 (Taif to Taif) -same thing
+ #5237 --> 4278 (Al Qunfudhah to Qunfudhah) -same thing
+ #5253 --> 4272 (Al Gawf to Al Jawf) -same thing
+ #5260 --> 4273 (Al Ghazala to Al Kariatan) -I have no idea. Keeping Current for now, but look into this. <----------
+ #5254 --> 4276 (Otaibah to Jabal Tubaiq)
+ #5252 --> 4274 (Sudair to Sudayr) -same thing
+ #5257 --> 4275 (Khurais to Al Yamamah) -This place is an absolute mess in both vanilla and BT. Whatever will have to do.
+ #5248 --> 4286 (Al Fugaira to Ash Sharqiyah) -same gist I think, whatever is fine for now.
+ #5247 --> 4285 (Al Ayn to Baraimi) -keeping BT version as is. Might bear some looking into eventually, but I'm tentatively thinking I prefer my version
+ #5245 --> 4287 (Ibra to Ibra) -same thing
+ #5236 --> 4282 (Qa'lat Bisah to Sahda) - Vanilla province moved a bit as vanilla Ahqaf already replaced in BT to be Sahda. In any case I'm happy enough with this for now.
+ #5258 --> 4283 (Mirbat to Shihr) -Moving around the south coast and Yemen quite a bit so hard to make 1-to-1 comparisons, but I'll try to take another look at all of these as well. In the meantime, I think I prefer BT's setup.
+ #5242 --> 4284 (Thamud to Al Ghaydah) -Moving around the south coast and Yemen quite a bit so hard to make 1-to-1 comparisons, but I'll try to take another look at all of these as well. In the meantime, I think I prefer BT's setup.
+ #5238 --> 4279 (Al Hudaydah to Zabid) -I have no idea. Keeping Current for now, but look into this. <----------
+ #5259 --> 4280 (Ta'izz to Taiz) -same thing
+ #5240 --> 4281 (Dhamar to Damar) -same thing
+ #
+ #####Other#####
+ #5506 --> 1329 (Red sea overhaul) -Vanilla now has BT's setup, so going vanilla. Note these are sea provinces <---
+ #1329 --> 4333 (Red sea overhaul) -Vanilla now has BT's setup, so going vanilla. Note these are sea provinces <---
+ #
+
+ #1.25 Changes
+ #####Ireland#####
+ #375 --> 4118
+ #3004 --> 4380
+ #3007 --> 4379
+ #3010 --> 4377
+ #3012 --> 375
+ #4118 --> 4378
+
+ #####England#####
+ #245 --> 4367
+ #3022 --> 4368
+ #3023 --> 245
+ #3024 --> 4375
+ #3025 --> 4372
+ #3026 --> 4376
+ #3027 --> 4370
+ #3029 --> 4371
+ #3030 --> 4374
+ #3031 --> 4130
+ #4130 --> 4373
+
+ #####Scotland#####
+ #3016 --> 4365
+ #3018 --> 4363
+ #3020 --> 4362
+ #3021 --> 4361
+ #5099 --> 4364
+
+ #####Wales#####
+ #3033 --> 4366
+ #3035 --> 4369
+
+ #####France#####
+ #169 --> 4384
+ #3067 --> 169
+ #3072 --> 4388
+ #3074 --> 4385
+ #3076 --> 4389
+ #3078 --> 4386
+ #3080 --> 4387
+ #3086 --> 4391
+ #3091 --> 4392
+ #3093 --> 4390
+ #4390 --> 185
+
+ #####HRE#####
+ #3057 --> 4382
+ #3059 --> 4381
+ #3062 --> 4383
+
+ #1.27 Changes
+ #####Poland, Lithuania, and Romania#####
+ #2963 --> 4528
+ #3158 --> 4529
+ #3161 --> 4531
+ #3162 --> 4532
+ #3218 --> 2963
+ #3219 --> 4526
+ #3222 --> 4538
+ #3232 --> 4536
+ #3233 --> 4537
+ #3235 --> 4545
+
+
+ #1.28 Changes
+ ##### Iberia  #####
+ # 3097 --> 4546
+ # 3096 --> 4547
+ # 3098 --> 4548
+ # 3300 --> 4549
+ # 3094 --> 4550
+ # 3298 --> 4551
+ # 3299 --> 4552
+ # 3101 --> 4553
+ # 3102 --> 4554
+ # 3103 --> 4555
+ # 3105 --> 4556
+ # 3095 --> 4557
+ # 5098 --> 4559
+ # 5095 --> 4560
+
+ ##### North Africa  #####
+ # 5319 --> 4562        (note 5319 is repurposed into Setif)
+ # 5308 --> 4567
+
+ ##### Caribbean  #####
+ # 5564 --> 4618
+ # 5562 --> 4619
+ # 5566 --> 4620
+ # 5568 --> 4621
+ # 5570 --> 4622
+ # 5571 --> 4623
+ # 5569 --> 4624
+
+ ##### California  #####
+ # 5831 --> 4630
+ # 5829 --> 4631
+ # 5828 --> 4632
+ # 5842 --> 4634
+ # 5062 --> 4649
