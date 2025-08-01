@@ -556,7 +556,7 @@ bitmapfonts = {
 		J = { 0 168 107 }	#Jade, used for Mercs without Army Professionalism cost
 
 		#Atlas Novum
-		w = { 254 254 254 }		# White
+		w = { 254 254 254 } 	# White
 		y = { 255 189 1 }		# Alt Yellow bugfix
 		#p = { 104 75 148 }		# Byz Purple
 	}
@@ -565,20 +565,20 @@ bitmapfonts = {
 		name = "ToolTip_Font"
 		path = "gfx/fonts/zh-hans-14"
 		color = 0xffffffff
-
-		
 	}
-	
+
 	bitmapfont = {
 		name = "ToolTip_Font_Big"
 		path = "gfx/fonts/zh-hans-14"
 		color = 0xffffffff
-	}	
+	}
 
 	bitmapfont = {
 		name = "tahoma_60"
-		color = 0xff333333
 		path = "gfx/fonts/zh-hans-map"
+		color = 0xff333333
+		#path = "gfx/fonts/tahoma_60"
+		#color = 0xff333333
 	}
 
 	bitmapfont = {
@@ -586,19 +586,19 @@ bitmapfonts = {
 		path = "gfx/fonts/zh-hans-16"
 		color = 0xffffffff
 	}
-	
+
 	bitmapfont = {
 		name = "standard_22"
 		path = "gfx/fonts/zh-hans-18"
 		color = 0xffffffff
 	}
-	
+
 	bitmapfont = {
 		name = "mapfont_small"
 		path = "gfx/fonts/zh-hans-18"
-		color = 0xff000000	
+		color = 0xff000000
 	}
-	
+
 	bitmapfont = {
 		name = "AnimatedMapText"
 		path = "gfx/fonts/zh-hans-18"
@@ -611,7 +611,7 @@ bitmapfonts = {
 		path = "gfx/fonts/zh-hans-18"
 		color = 0xffffffff
 	}
-	
+
 	bitmapfont = {
 		name = "Main_24"
 		path = "gfx/fonts/zh-hans-24"
@@ -654,7 +654,6 @@ bitmapfonts = {
 		color = 0xff000000
 	}
 
-
 	bitmapfont = {
 		name = "Main_14"
 		path = "gfx/fonts/zh-hans-14"
@@ -665,7 +664,6 @@ bitmapfonts = {
 		path = "gfx/fonts/zh-hans-14"
 		color = 0xff000000
 	}
-
 
 	bitmapfont = {
 		name = "Main_14_grey"
@@ -705,7 +703,6 @@ bitmapfonts = {
 		color = 0xffaaffff
 	}
 
-
 	bitmapfont = {
 		name = "garamond_14"
 		path = "gfx/fonts/zh-hans-14"
@@ -735,10 +732,16 @@ bitmapfonts = {
 		color = 0xff000000
 	}
 
+##	bitmapfont = {
+##		name = "messagelog"
+##		path = "gfx/fonts/garamond_14_bold"
+##		color = 0xffffff99
+##	}
+
 	bitmapfont = {
 		name = "vic_18_black"
 		path = "gfx/fonts/zh-hans-16"
-		color = 0xff000000	
+		color = 0xff000000
 
 		textcolors = {
 			G = { 24 112 26 }
@@ -746,12 +749,12 @@ bitmapfonts = {
 			Y = { 0 0 0 }
 		}
 	}
-	
+
 	bitmapfont = {
 		name = "vic_18"
 		path = "gfx/fonts/zh-hans-16"
 		color = 0xffffffff
-				
+
 		textcolors = {
 			G = { 44 171 50 }
 			R = { 181 61 61 }
@@ -762,30 +765,30 @@ bitmapfonts = {
 		name = "vic_18s"
 		path = "gfx/fonts/zh-hans-16"
 		color = 0xffffffff
-				
+
 		textcolors = {
 			G = { 44 171 50 }
 			R = { 181 61 61 }
 			Y = { 219 203 71 }
 		}
 	}
-	
+
 	bitmapfont = {
 		name = "vic_18_grey"
 		path = "gfx/fonts/zh-hans-16"
 		color = 0xffffffff
-				
+
 		textcolors = {
 			G = { 44 171 50 }
 			R = { 181 61 61 }
 			Y = { 219 203 71 }
 		}
 	}
-	
+
 	bitmapfont = {
 		name = "vic_22_black"
 		path = "gfx/fonts/zh-hans-18"
-		color = 0xff000000	
+		color = 0xff000000
 
 		textcolors = {
 			G = { 24 112 26 }
@@ -793,12 +796,12 @@ bitmapfonts = {
 			Y = { 0 0 0 }
 		}
 	}
-	
+
 	bitmapfont = {
 		name = "vic_22"
 		path = "gfx/fonts/zh-hans-18"
 		color = 0xffffffff
-				
+
 		textcolors = {
 			G = { 44 171 50 }
 			R = { 181 61 61 }
@@ -809,18 +812,18 @@ bitmapfonts = {
 		name = "vic_22s"
 		path = "gfx/fonts/zh-hans-18"
 		color = 0xffffffff
-				
+
 		textcolors = {
 			G = { 44 171 50 }
 			R = { 181 61 61 }
 			Y = { 219 203 71 }
 		}
 	}
-	
+
 	bitmapfont = {
 		name = "vic_29_black"
 		path = "gfx/fonts/zh-hans-24"
-		color = 0xff000000	
+		color = 0xff000000
 
 		textcolors = {
 			G = { 24 112 26 }
@@ -828,24 +831,24 @@ bitmapfonts = {
 			Y = { 0 0 0 }
 		}
 	}
-	
+
 	bitmapfont = {
 		name = "vic_29"
 		path = "gfx/fonts/zh-hans-24"
 		color = 0xffffffff
-				
+
 		textcolors = {
 			G = { 44 171 50 }
 			R = { 181 61 61 }
 			Y = { 219 203 71 }
 		}
 	}
-	
+
 	bitmapfont = {
 		name = "vic_29s"
 		path = "gfx/fonts/zh-hans-24"
 		color = 0xffffffff
-		
+
 		textcolors = {
 			G = { 44 171 50 }
 			R = { 181 61 61 }
@@ -864,12 +867,12 @@ bitmapfonts = {
 			Y = { 0 0 0 }
 		}
 	}
-	
+
 	bitmapfont = {
 		name = "vic_36"
 		path = "gfx/fonts/zh-hans-24"
 		color = 0xffffffff
-				
+
 		textcolors = {
 			G = { 44 171 50 }
 			R = { 181 61 61 }
@@ -880,8 +883,7 @@ bitmapfonts = {
 		name = "vic_36s"
 		path = "gfx/fonts/zh-hans-24"
 		color = 0xffffffff
-		
-		
+
 		textcolors = {
 			G = { 44 171 50 }
 			R = { 181 61 61 }
@@ -905,16 +907,15 @@ bitmapfonts = {
 		name = "FPS_Font"
 		path = "gfx/fonts/zh-hans-14"
 		color = 0xffffffff
-		
+
 		textcolors = {
 			G = { 44 171 50 }
 			R = { 181 61 61 }
 			Y = { 219 203 71 }
 		}
-	}	
+	}
 
 }
-
 
 # Null Types
 
@@ -924,7 +925,7 @@ spriteTypes = {
 		name = "GFX_nullobject"
 		texturefile = "gfx/interface/placeholder.dds"
 	}
-	
+
 }
 
 bitmapfonts = {
@@ -933,7 +934,7 @@ bitmapfonts = {
 		name = "null_font"
 		path = "gfx/fonts/zh-hans-14"
 		color = 0xffffffff
-				
+
 		textcolors = {
 			G = { 44 171 50 }
 			R = { 181 61 61 }
@@ -942,7 +943,5 @@ bitmapfonts = {
 			T = { 255 255 255 }
 		}
 	}
-	
+
 }
-
-
