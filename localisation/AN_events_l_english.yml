@@ -6,7 +6,7 @@
  basic.revert: "恢复"
 
  #Settings
- AN_settings.0.t: "新地图集\n£empty_menu_window£"
+ AN_settings.0.t: "Atlas Novum\n£empty_menu_window£"
  AN_settings.0.d: ""
  AN_settings.0.a: "自定义规则集"
  AN_settings.0.b: "另类历史"
@@ -46,7 +46,7 @@
 
  #Depreciated for now - pending deletion/adaption
  AN_settings.3.t: "模组手册"
- AN_settings.3.d: "你是《新地图集》的新手吗？别担心，这里有对新机制的解释。"
+ AN_settings.3.d: "你是《Atlas Novum》的新手吗？别担心，这里有对新机制的解释。"
  AN_settings.3.a: "机制"
  AN_settings.3.b: "附庸国"
  AN_settings.3.c: "可成立国家"
@@ -55,7 +55,7 @@
  AN_settings.3.f: "时代锁定殖民"
 
  AN_settings.10.t: "机制"
- AN_settings.10.d: "《新地图集》带来了许多新机制。"
+ AN_settings.10.d: "《Atlas Novum》带来了许多新机制。"
  AN_settings.10.a: "发展"
  AN_settings.10.b: "疾病"
  AN_settings.10.c: "建筑"
@@ -74,7 +74,7 @@
  AN_settings.105.d: "一些省份从大航海时代开始就不再能够被殖民。现在，为了更好地体现欧洲列强由于疾病和气候等多种因素而进行的历史扩张，某些省份只有在达到宗教改革时代、专制主义时代或革命时代后才可以被殖民。"
 
  AN_settings.11.t: "附庸国"
- AN_settings.11.d: "《新地图集》带来了三种新的附庸国类型：封邑、领地和邦联；同时也修改了朝贡国、附庸国和边境领的一些机制。"
+ AN_settings.11.d: "《Atlas Novum》带来了三种新的附庸国类型：封邑、领地和邦联；同时也修改了朝贡国、附庸国和边境领的一些机制。"
  AN_settings.11.a: "封邑"
  AN_settings.11.b: "领地"
  AN_settings.11.c: "邦联"
@@ -122,7 +122,7 @@
  AN_settings.136.d: "顶点任务是一种特殊的任务类型，通常出现在子任务树的末尾。这些任务会给能够完成它们的玩家奖励强大的加成。"
 
  AN_settings.14.t: "决策和事件"
- AN_settings.14.d: "《新地图集： Europa》带来了大量独特的决策和事件。"
+ AN_settings.14.d: "《Atlas Novum： Europa》带来了大量独特的决策和事件。"
  AN_settings.14.a: "政府改革"
  AN_settings.14.b: "贸易商品"
 
@@ -1070,7 +1070,7 @@
  muscovite_civil_war.100.b: "德米特里·舍米亚卡的血脉获胜！"
 
  #Castile
-l_chinese:
+l_english:
   #卡斯蒂利亚
   IR_flavor_SPA.1.t: "必要的再婚"
   IR_flavor_SPA.1.d: "在过去四天里，玛丽亚女王和她的姐姐埃莉诺女王先后经历了剧烈的头痛、紫色疱疹，随后迅速死亡。由于死亡的时机和性质令人生疑，许多人指控国王最信任的顾问阿尔瓦罗·德·卢纳下毒。\n\n然而，除了嫉妒的朝臣的谣言之外，几乎没有证据，[Root.Monarch.GetName]驳回了这些离奇的指控。因此，德·卢纳继续操纵[Root.Monarch.GetName]，建议他与一位年轻的葡萄牙贵族再婚……"
