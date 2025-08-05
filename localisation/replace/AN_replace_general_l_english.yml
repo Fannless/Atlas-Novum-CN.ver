@@ -62,7 +62,7 @@
  moscow_trade:0 "扎列西耶"
  sevilla:0 "西班牙"
  #irish_sea:0 "爱尔兰海"
-# barcelona:0 "埃布罗"
+ # barcelona:0 "埃布罗"
  danube:0 "多瑙河"
  rio_grande:0 "布拉沃"
  namibia_trade:0 "卡拉哈里"
@@ -588,9 +588,6 @@
  milletDESC:0 "类型: §T食物§!\n类别: §Y未成熟的未精炼商品§! \n财富增长: §R-20%§! \n人口增长: §G+30%§!\n-------------- \n撒哈拉以南非洲和南亚的很大一部分地区几千年来一直依赖各种小米作为稳定的作物。虽然小米可能不如小麦、大米或玉米那么为人所知，但它非常适合热带气候，是缺乏其他选择地区的丰富热量来源。"
  palm:0 "棕榈"
  palmDESC:0 "类型: §T实用品§!\n类别: §Y未成熟的未精炼商品§! \n财富增长: §G+20%§! \n人口增长: §R-20%§!\n-------------- \n手心出汗
-膝盖发软，双臂沉重
-呕吐物已经溅到毛衣上
-妈妈做的意大利面"
  pelagic_fish:0 "中上层鱼类"
  pelagic_fishDESC:0 "类型: §T食物§!\n类别: §Y未成熟的未精炼商品§! \n财富增长: §R-10%§! \n人口增长: §G+20%§!\n-------------- \n中上层鱼类生活在开阔的海洋中，而不是海底或沿海地区，对海洋社区至关重要。金枪鱼、鲭鱼、鲱鱼和沙丁鱼等物种因其丰富的数量和营养价值而被广泛捕捞。这些鱼对粮食安全至关重要，提供了丰富的蛋白质和必需营养素。"
  potatoes:0 "土豆"
@@ -679,9 +676,7 @@
  silk:0 "丝绸"
  silkDESC:0 "类型: §T奢侈品§!\n类别: §Y成熟的未精炼商品§! \n财富增长: §G+30%§! \n人口增长: §Y0%§!\n-------------- \n"
  slaves:0 "奴隶"
- slavesDESC:0 "类型: §T实用品§!\n类别: §Y成熟的未精炼商品§! \n财富增长: §G+10%§! \n人口增长: §R-50%§!\n-------------- \n奴隶制及其商品化在不同文化和大陆之间差异很大。但一旦大西洋三角贸易兴起，就带来了全新的市场和前所未有的对廉价劳动力的稳定需求。不断扩张的殖民地种植园不断需要来自撒哈拉以南非洲的新奴隶。
-
-“如果生产蔗糖的植物不是由奴隶劳作，蔗糖将会过于昂贵。”"
+ slavesDESC:0 "类型: §T实用品§!\n类别: §Y成熟的未精炼商品§! \n财富增长: §G+10%§! \n人口增长: §R-50%§!\n-------------- \n奴隶制及其商品化在不同文化和大陆之间差异很大。但一旦大西洋三角贸易兴起，就带来了全新的市场和前所未有的对廉价劳动力的稳定需求。不断扩张的殖民地种植园不断需要来自撒哈拉以南非洲的新奴隶。“如果生产蔗糖的植物不是由奴隶劳作，蔗糖将会过于昂贵。”"
  legumes:0 "豆类" #豆子
  legumesDESC:0 "类型: §T食物§!\n类别: §Y成熟的未精炼商品§! \n财富增长: §Y0%§! \n人口增长: §G+20%§!\n-------------- \n豆类是一个植物家族，包括大豆、扁豆、豌豆和鹰嘴豆，数千年来一直是人类农业和饮食的基石。豆类起源于世界不同地区，因其丰富的营养价值，特别是高蛋白和高纤维含量而受到赞誉。这些植物具有通过与细菌共生在土壤中固氮的独特能力，提高了土壤肥力，减少了对化肥的需求。因此，豆类不仅对人类营养至关重要，而且对可持续农业实践也很重要。它们在烹饪中的多功能性使其在全球各种美食中都占有一席之地。"
  sugar:0 "糖"
@@ -992,7 +987,7 @@
  #Clear cause annoying
  DEVELOP_ESTATE:0 ""
  #HAS_EMBRACED_INSTITUTION:0 ""
-# EMBRACING_INSTITUTION:0 ""
+ # EMBRACING_INSTITUTION:0 ""
  PP_DEVELOPMENT:0 "§Y发展水平§!\n这是财富、基础设施和人口基础值的总和。当前的发展水平有以下效果:\n$EFFECT$"
 
  #parliament dev stuff
@@ -1307,19 +1302,19 @@
  trinitarian_order:0 "三位一体会"
  trinitarian_order_desc:0 ""
  #
- servite_order:0 "Servites"
+ servite_order:0 "圣仆会"
  servite_order_desc:0 ""
  #
- minimi_order:0 "Minims"
+ minimi_order:0 "小修士会"
  minimi_order_desc:0 ""
  #
- mercedarian_order:0 "Mercedarians"
+ mercedarian_order:0 "救赎主会"
  mercedarian_order_desc:0 ""
  #
  capuchin_order:0 "嘉布遣会"
  capuchin_order_desc:0 ""
  #
- fatebenefratelli_order:0 "Fatebenefratelli"
+ fatebenefratelli_order:0 "命运兄弟会"
  fatebenefratelli_order_desc:0 ""
  #
  bridgettine_order:0 "布里奇特会"
@@ -1327,24 +1322,23 @@
 
 #	CLERICS REGULAR
 
- barbanite_order:0 "Barbanites"
+ barbanite_order:0 "巴尔巴尼特修会"
  barbanite_order_desc:0 ""
  #
- camilian_order:0 "Camilians"
+ camilian_order:0 "卡米利安修会"
  camilian_order_desc:0 ""
  #
- theatine_order:0 "Theatines"
+ theatine_order:0 "忒亚廷修会"
  theatine_order_desc:0 ""
  #
- somascan_order:0 "Somascans"
+ somascan_order:0 "索马斯坎修会"
  somascan_order_desc:0 ""
  #
- leonardite_order:0 "Leonardites"
+ leonardite_order:0 "伦纳迪特修会"
  leonardite_order_desc:0 ""
  #
- caracciolini_order:0 "Caracciolini"
+ caracciolini_order:0 "卡拉乔利尼修会"
  caracciolini_order_desc:0 ""
-
 
  ##################
  ###Religion
