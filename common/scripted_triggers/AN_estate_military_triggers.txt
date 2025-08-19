@@ -1,0 +1,3235 @@
+###Military
+estate_military_funding_0 = {
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: IV-VI"
+			OR = {
+				has_reform = prov_div_reform
+				has_reform = fed_div_reform
+				has_reform = unitary_reform	
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_0
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_army_org_0
+			has_estate_privilege = estate_military_army_org_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �贵族阶层��Y军事权威�: I-II"
+		OR = {
+			has_estate_privilege = estate_nobles_mil_auth_0
+			has_estate_privilege = estate_nobles_mil_auth_1
+		}
+	}
+}	
+estate_military_funding_1 = {  
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: V-VI"
+			OR = {
+				has_reform = fed_div_reform
+				has_reform = unitary_reform	
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_0
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_army_org_0
+			has_estate_privilege = estate_military_army_org_1
+		}
+	}
+}	
+estate_military_funding_2 = {
+	NOT = { has_reform = unitary_reform }
+	OR = {
+		has_estate_privilege = estate_bureaucracy_central_admin_2
+		AND = {
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+			NOT = { has_estate_privilege = estate_military_wages_0 }
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_service_0 }
+}	
+estate_military_funding_3 = {
+	has_institution = bureaucracy
+	OR = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �官僚阶层� �Y中央行政机构�: III-IV"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_2
+				has_estate_privilege = estate_bureaucracy_central_admin_3
+			}
+		}
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �宫廷阶层��Y顾问机构�: IV-V�up�"
+				OR = {
+					has_estate_privilege = estate_court_advisors_5
+					has_estate_privilege = estate_court_advisors_6
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �宫廷阶层��Y宫廷等级制度�: III-IV"
+				OR = {
+					has_estate_privilege = estate_court_hierarchy_2
+					has_estate_privilege = estate_court_hierarchy_3
+				}
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y中央行政机构�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_leg_app_0 }
+	NOT = { has_estate_privilege = estate_military_service_0 }
+	NOT = { has_estate_privilege = estate_military_army_org_0 }
+	NOT = { has_estate_privilege = estate_military_hierarchy_0 }
+	NOT = { has_estate_privilege = estate_military_wages_0 }
+}	
+estate_military_funding_4 = {
+	has_institution = bureaucracy
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_leg_app_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y招募与服役�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_service_0
+				has_estate_privilege = estate_military_service_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军队组织�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_army_org_0
+				has_estate_privilege = estate_military_army_org_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事监督�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_oversight_0
+				has_estate_privilege = estate_military_oversight_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y官员薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+}	
+estate_military_funding_5 = {
+	has_institution = bureaucracy
+	NOT = { has_reform = no_div_reform }
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y税收征收�: VI-VII"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_rev_collect_5
+			has_estate_privilege = estate_bureaucracy_rev_collect_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_army_org_3
+			has_estate_privilege = estate_military_army_org_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事等级制度�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_hierarchy_3
+			has_estate_privilege = estate_military_hierarchy_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_leg_app_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y招募与服役�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_service_0
+				has_estate_privilege = estate_military_service_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y招募与服役�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_service_0
+				has_estate_privilege = estate_military_service_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y动员�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_mobil_0
+				has_estate_privilege = estate_military_mobil_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_readiness_0 }
+}	
+ 
+#
+estate_military_service_0 = {
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: IV-VI"
+			OR = {
+				has_reform = prov_div_reform
+				has_reform = fed_div_reform
+				has_reform = unitary_reform	
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事等级制度�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_hierarchy_0
+			has_estate_privilege = estate_military_hierarchy_1
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族阶层��Y军事权威�: III-VI"
+			OR = {
+				has_estate_privilege = estate_nobles_mil_auth_2
+				has_estate_privilege = estate_nobles_mil_auth_3
+				has_estate_privilege = estate_nobles_mil_auth_4
+				has_estate_privilege = estate_nobles_mil_auth_5
+			}
+		}
+	}
+}	
+estate_military_service_1 = {
+	NOT = { has_reform = unitary_reform }
+	NOT = { has_estate_privilege = estate_military_army_org_0 }
+	NOT = { has_estate_privilege = estate_nobles_mil_auth_0 }
+}	
+estate_military_service_2 = {
+	has_institution = bureaucracy
+	OR = {
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �官僚阶层� �Y中央行政机构�: III-IV"
+				OR = {
+					has_estate_privilege = estate_bureaucracy_central_admin_2
+					has_estate_privilege = estate_bureaucracy_central_admin_3
+				}
+			}
+			has_estate_privilege = estate_military_army_org_2
+		}
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �宫廷阶层��Y顾问机构�: IV-V�up�"
+				OR = {
+					has_estate_privilege = estate_court_advisors_5
+					has_estate_privilege = estate_court_advisors_6
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �宫廷阶层��Y宫廷等级制度�: III-IV"
+				OR = {
+					has_estate_privilege = estate_court_hierarchy_2
+					has_estate_privilege = estate_court_hierarchy_3
+				}
+			}
+			OR = {
+				has_estate_privilege = estate_military_funding_2
+				has_estate_privilege = estate_military_army_org_2
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y中央行政机构�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_leg_app_0 }
+	NOT = { has_estate_privilege = estate_military_army_org_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事等级制度�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_hierarchy_0
+				has_estate_privilege = estate_military_hierarchy_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_wages_0 }
+	NOT = { has_estate_privilege = estate_nobles_mil_auth_0 }
+}	
+estate_military_service_3 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事等级制度�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_hierarchy_2
+			has_estate_privilege = estate_military_hierarchy_3
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军队组织�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_army_org_0
+				has_estate_privilege = estate_military_army_org_1
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族阶层��Y军事权威�: I-II"
+			OR = {
+				has_estate_privilege = estate_nobles_mil_auth_0
+				has_estate_privilege = estate_nobles_mil_auth_1
+			}
+		}
+	}
+}	
+estate_military_service_4 = {
+	has_institution = bureaucracy
+	NOT = { has_reform = no_div_reform }
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_funding_4
+			has_estate_privilege = estate_military_funding_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_army_org_3
+			has_estate_privilege = estate_military_army_org_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事等级制度�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_hierarchy_3
+			has_estate_privilege = estate_military_hierarchy_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队战备�: IV-VI"
+		OR = {
+			has_estate_privilege = estate_military_readiness_3
+			has_estate_privilege = estate_military_readiness_4
+			has_estate_privilege = estate_military_readiness_5
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军队战备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_readiness_0
+				has_estate_privilege = estate_military_readiness_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族阶层��Y军事权威�: I-III"
+			OR = {
+				has_estate_privilege = estate_nobles_mil_auth_0
+				has_estate_privilege = estate_nobles_mil_auth_1
+				has_estate_privilege = estate_nobles_mil_auth_2
+			}
+		}
+	}
+}	
+
+#
+estate_military_army_org_0 = {
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: IV-VI"
+			OR = {
+				has_reform = prov_div_reform
+				has_reform = fed_div_reform
+				has_reform = unitary_reform	
+			}
+		}
+	}
+	has_estate_privilege = estate_military_hierarchy_0
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族阶层��Y军事权威�: III-VI"
+			OR = {
+				has_estate_privilege = estate_nobles_mil_auth_2
+				has_estate_privilege = estate_nobles_mil_auth_3
+				has_estate_privilege = estate_nobles_mil_auth_4
+				has_estate_privilege = estate_nobles_mil_auth_5
+			}
+		}
+	}
+}	
+estate_military_army_org_1 = {
+	NOT = { has_reform = unitary_reform	}
+	NOT = { has_estate_privilege = estate_nobles_mil_auth_0 }
+}	
+    
+estate_military_army_org_2 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y官僚等级制度�: II-III"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_hierarchy_1
+			has_estate_privilege = estate_bureaucracy_hierarchy_2
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �贵族阶层��Y军事权威�: I-II"
+			OR = {
+				has_estate_privilege = estate_nobles_mil_auth_0
+				has_estate_privilege = estate_nobles_mil_auth_1
+			}
+		}
+	}
+}	
+estate_military_army_org_3 = {
+	NOT = { has_reform = no_div_reform }
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y招募与服役�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_service_0
+				has_estate_privilege = estate_military_service_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事等级制度�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_hierarchy_0
+				has_estate_privilege = estate_military_hierarchy_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_oversight_0 }
+	NOT = { has_estate_privilege = estate_military_commission_0 }
+	NOT = { has_estate_privilege = estate_military_wages_0 }
+	NOT = { has_estate_privilege = estate_military_readiness_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族阶层��Y军事权威�: I-III"
+			OR = {
+				has_estate_privilege = estate_nobles_mil_auth_0
+				has_estate_privilege = estate_nobles_mil_auth_1
+				has_estate_privilege = estate_nobles_mil_auth_2
+			}
+		}
+	}
+}	
+estate_military_army_org_4 = {
+	NOT = { has_reform = no_div_reform }
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_funding_4
+			has_estate_privilege = estate_military_funding_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y招募与服役�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_service_3
+			has_estate_privilege = estate_military_service_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事等级制度�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_hierarchy_3
+			has_estate_privilege = estate_military_hierarchy_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军官教育�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_officer_ed_0
+				has_estate_privilege = estate_military_officer_ed_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_commission_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y动员�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_mobil_0
+				has_estate_privilege = estate_military_mobil_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军队战备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_readiness_0
+				has_estate_privilege = estate_military_readiness_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族阶层��Y军事权威�: I-III"
+			OR = {
+				has_estate_privilege = estate_nobles_mil_auth_0
+				has_estate_privilege = estate_nobles_mil_auth_1
+				has_estate_privilege = estate_nobles_mil_auth_2
+			}
+		}
+	}
+}	
+  
+#
+estate_military_navy_org_0 = {
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: V-VI"
+			OR = {
+				has_reform = fed_div_reform
+				has_reform = unitary_reform
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "没有任何沿海省份"
+			any_owned_province = {
+				has_port = yes
+			}
+		}
+	}		 
+}	
+estate_military_navy_org_1 = {
+	NOT = { has_reform = has_reform = unitary_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y海军征用�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_navy_req_0
+			has_estate_privilege = estate_military_navy_req_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商船队�: II-III"
+		OR = {
+			has_estate_privilege = estate_burghers_marine_1
+			has_estate_privilege = estate_burghers_marine_2
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y私掠�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_privateer_0
+				has_estate_privilege = estate_burghers_privateer_1
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "有任何沿海省份"
+		any_owned_province = {
+			has_port = yes
+		}
+	}
+}	
+estate_military_navy_org_2 = {
+	OR = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �宫廷阶层��Y顾问机构�: IV-V"
+			OR = {
+				has_estate_privilege = estate_court_advisors_3
+				has_estate_privilege = estate_court_advisors_4
+				has_estate_privilege = estate_court_advisors_5
+				has_estate_privilege = estate_court_advisors_6
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �官僚阶层� �Y中央行政机构�: III-IV"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_2
+				has_estate_privilege = estate_bureaucracy_central_admin_3
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y海军征用�: II-IV"
+		OR = {
+			has_estate_privilege = estate_military_navy_req_1
+			has_estate_privilege = estate_military_navy_req_2
+			has_estate_privilege = estate_military_navy_req_3
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_central_admin_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+			}
+		}
+	}
+	navy_size = 50
+	custom_trigger_tooltip = {
+		tooltip = "有任何沿海省份"
+		any_owned_province = {
+			has_port = yes
+		}
+	}
+}	
+estate_military_navy_org_3 = {
+	NOT = { has_reform = no_div_reform }
+	NOT = { has_reform = subsist_econ_reform }
+	OR = {
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �官僚阶层� �Y中央行政机构�: IV-V"
+				OR = {
+					has_estate_privilege = estate_bureaucracy_central_admin_3
+					has_estate_privilege = estate_bureaucracy_central_admin_4
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y军事等级制度�: IV-V"
+				OR = {
+					has_estate_privilege = estate_military_hierarchy_3
+					has_estate_privilege = estate_military_hierarchy_4
+				}
+			}
+		}
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �官僚阶层� �Y中央行政机构�: III-IV"
+				OR = {
+					has_estate_privilege = estate_bureaucracy_central_admin_2
+					has_estate_privilege = estate_bureaucracy_central_admin_3
+				}
+			}
+			NOT = { 
+				custom_trigger_tooltip = {
+					tooltip = "未授予 �军事阶层��Y动员�: I-II"
+					OR = {
+						has_estate_privilege = estate_military_mobil_0
+						has_estate_privilege = estate_military_mobil_1
+					}
+				}
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_funding_4
+			has_estate_privilege = estate_military_funding_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y海军征用�: IV-VI"
+		OR = {
+			has_estate_privilege = estate_military_navy_req_3
+			has_estate_privilege = estate_military_navy_req_4
+			has_estate_privilege = estate_military_navy_req_5
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事等级制度�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_hierarchy_0
+				has_estate_privilege = estate_military_hierarchy_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军官教育�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_officer_ed_0
+				has_estate_privilege = estate_military_officer_ed_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y海军招募�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_naval_recruit_0
+				has_estate_privilege = estate_military_naval_recruit_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+			}
+		}
+	}
+	navy_size = 50
+	custom_trigger_tooltip = {
+		tooltip = "有任何沿海省份"
+		any_owned_province = {
+			has_port = yes
+		}
+	}
+}	
+estate_military_navy_org_4 = {
+	NOT = { has_reform = no_div_reform }
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_funding_4
+			has_estate_privilege = estate_military_funding_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y海军征用�: V-VI"
+		OR = {
+			has_estate_privilege = estate_military_navy_req_4
+			has_estate_privilege = estate_military_navy_req_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事等级制度�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_hierarchy_3
+			has_estate_privilege = estate_military_hierarchy_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军官教育�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_officer_ed_3
+			has_estate_privilege = estate_military_officer_ed_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军衔买卖�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_commission_2
+			has_estate_privilege = estate_military_commission_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事薪资�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_wages_3
+			has_estate_privilege = estate_military_wages_4
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事纪律�: I-III"
+			OR = {
+				has_estate_privilege = estate_military_discipline_0
+				has_estate_privilege = estate_military_discipline_1
+				has_estate_privilege = estate_military_discipline_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y动员�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_mobil_0
+				has_estate_privilege = estate_military_mobil_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y海军招募�: I-III"
+			OR = {
+				has_estate_privilege = estate_military_naval_recruit_0
+				has_estate_privilege = estate_military_naval_recruit_1
+				has_estate_privilege = estate_military_naval_recruit_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y私掠�: IV-VI"
+			OR = {
+				has_estate_privilege = estate_burghers_privateer_3
+				has_estate_privilege = estate_burghers_privateer_4
+				has_estate_privilege = estate_burghers_privateer_5
+			}
+		}
+	}
+	navy_size = 50
+	custom_trigger_tooltip = {
+		tooltip = "有任何沿海省份"
+		any_owned_province = {
+			has_port = yes
+		}
+	}
+}	
+    
+#
+estate_military_navy_req_0 = {
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: V-VI"
+			OR = {
+				has_reform = fed_div_reform
+				has_reform = unitary_reform
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_funding_0
+			has_estate_privilege = estate_military_funding_1
+			has_estate_privilege = estate_military_funding_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y海军组织�: II-III"
+		OR = {
+			has_estate_privilege = estate_military_navy_org_1
+			has_estate_privilege = estate_military_navy_org_2
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_marine_0 }
+	NOT = { navy_size = 50 }
+}	
+estate_military_navy_req_1 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: I-III"
+		OR = {
+			has_estate_privilege = estate_military_funding_0
+			has_estate_privilege = estate_military_funding_1
+			has_estate_privilege = estate_military_funding_2
+			has_estate_privilege = estate_military_funding_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y海军组织�: II-III"
+		OR = {
+			has_estate_privilege = estate_military_navy_org_1
+			has_estate_privilege = estate_military_navy_org_2
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_central_admin_0 }
+	NOT = { has_estate_privilege = estate_burghers_marine_0 }
+	custom_trigger_tooltip = {
+		tooltip = "有任何沿海省份"
+		any_owned_province = {
+			has_port = yes
+		}
+	}
+}	
+estate_military_navy_req_2 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y海军组织�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_navy_org_2
+			has_estate_privilege = estate_military_navy_org_3
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y中央行政机构�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_hierarchy_0 }
+	NOT = { has_estate_privilege = estate_military_oversight_0 }
+	NOT = { has_estate_privilege = estate_military_officer_ed_0 }
+	NOT = { has_estate_privilege = estate_military_naval_recruit_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "有任何沿海省份"
+		any_owned_province = {
+			has_port = yes
+		}
+	}
+}	
+estate_military_navy_req_3 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y海军组织�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_navy_org_2
+			has_estate_privilege = estate_military_navy_org_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y中央行政机构�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_officer_ed_0 }
+	NOT = { has_estate_privilege = estate_military_wages_0 }
+	NOT = { has_estate_privilege = estate_military_naval_recruit_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "有任何沿海省份"
+		any_owned_province = {
+			has_port = yes
+		}
+	}
+}	
+estate_military_navy_req_4 = {
+	NOT = { has_reform = no_div_reform }
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_funding_4
+			has_estate_privilege = estate_military_funding_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y海军组织�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_navy_org_3
+			has_estate_privilege = estate_military_navy_org_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事等级制度�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_hierarchy_3
+			has_estate_privilege = estate_military_hierarchy_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军官教育�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_officer_ed_0
+				has_estate_privilege = estate_military_officer_ed_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_commission_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y海军招募�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_naval_recruit_0
+				has_estate_privilege = estate_military_naval_recruit_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "有任何沿海省份"
+		any_owned_province = {
+			has_port = yes
+		}
+	}
+}	
+estate_military_navy_req_5 = {
+	NOT = { has_reform = no_div_reform }
+	NOT = { has_reform = subsist_econ_reform }
+	has_estate_privilege = estate_bureaucracy_central_admin_4
+	has_estate_privilege = estate_military_funding_5
+	has_estate_privilege = estate_military_navy_org_4
+	has_estate_privilege = estate_military_hierarchy_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军官教育�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_officer_ed_3
+			has_estate_privilege = estate_military_officer_ed_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y官职售卖�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_commission_2
+			has_estate_privilege = estate_military_commission_3
+		}
+	}
+	has_estate_privilege = estate_military_wages_4
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y地方行政机构�: I-III"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_local_admin_0
+				has_estate_privilege = estate_bureaucracy_local_admin_1
+				has_estate_privilege = estate_bureaucracy_local_admin_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y海军招募�: I-III"
+			OR = {
+				has_estate_privilege = estate_military_naval_recruit_0
+				has_estate_privilege = estate_military_naval_recruit_1
+				has_estate_privilege = estate_military_naval_recruit_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I-III"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+				has_estate_privilege = estate_burghers_marine_2
+			}
+		}
+	}
+	navy_size = 50
+	custom_trigger_tooltip = {
+		tooltip = "有任何沿海省份"
+		any_owned_province = {
+			has_port = yes
+		}
+	}
+}	
+
+####Privs
+###Mil Hier
+estate_military_hierarchy_0 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: I"
+		OR = {
+			has_estate_privilege = estate_military_funding_0
+			has_estate_privilege = estate_military_funding_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_army_org_0
+			has_estate_privilege = estate_military_army_org_1
+		}
+	}
+}	
+estate_military_hierarchy_1 = {
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_service_0 }
+	NOT = { has_estate_privilege = estate_military_army_org_0 }
+}	
+estate_military_hierarchy_2 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_2
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+		}
+	}
+	OR = {
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y军队组织�: III-IV"
+				OR = {
+					has_estate_privilege = estate_military_army_org_2
+					has_estate_privilege = estate_military_army_org_3
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y海军组织�: III-IV"
+				OR = {
+					has_estate_privilege = estate_military_navy_org_2
+					has_estate_privilege = estate_military_navy_org_3
+				}
+			}
+		}
+		AND = {
+			has_estate_privilege = estate_military_army_org_1
+			NOT = { has_estate_privilege = estate_court_hierarchy_0 }
+			NOT = {
+				custom_trigger_tooltip = {
+					tooltip = "未授予 �宫廷阶层��Y宫廷特权�: I-II"
+					OR = {
+						has_estate_privilege = estate_court_prerog_0
+						has_estate_privilege = estate_court_prerog_1
+					}
+				}
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+	NOT = { has_estate_privilege = estate_military_service_0 }
+	NOT = { has_estate_privilege = estate_military_wages_0 }
+	NOT = { has_estate_privilege = estate_nobles_mil_auth_0 }
+}	
+estate_military_hierarchy_3 = {
+	OR = {
+		has_estate_privilege = estate_military_army_org_3
+		AND = {
+			has_estate_privilege = estate_military_army_org_2
+			has_estate_privilege = estate_military_navy_org_3
+			navy_size = 50
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y招募与服役�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_service_0
+				has_estate_privilege = estate_military_service_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_officer_ed_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事纪律�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_discipline_0
+				has_estate_privilege = estate_military_discipline_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_commission_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+}	
+estate_military_hierarchy_4 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军官教育�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_officer_ed_3
+			has_estate_privilege = estate_military_officer_ed_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事薪资�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_wages_3
+			has_estate_privilege = estate_military_wages_4
+		}
+	}
+	OR = {
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y资金与装备�: IV-V"
+				OR = {
+					has_estate_privilege = estate_military_funding_4
+					has_estate_privilege = estate_military_funding_5
+				}
+			}
+			has_estate_privilege = estate_military_army_org_4
+		}			
+		AND = {
+			has_estate_privilege = estate_military_army_org_3
+			has_estate_privilege = estate_military_navy_org_4
+			navy_size = 50
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y招募与服役�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_service_0
+				has_estate_privilege = estate_military_service_1
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事纪律�: I-III"
+			OR = {
+				has_estate_privilege = estate_military_discipline_0
+				has_estate_privilege = estate_military_discipline_1
+				has_estate_privilege = estate_military_discipline_2
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y官职售卖�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_commission_0
+				has_estate_privilege = estate_military_commission_1
+			}
+		}
+	}
+}	
+
+#
+estate_military_oversight_0 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: I"
+		OR = {
+			has_estate_privilege = estate_military_funding_0
+			has_estate_privilege = estate_military_funding_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y招募与服役�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_service_0
+			has_estate_privilege = estate_military_service_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_army_org_0
+			has_estate_privilege = estate_military_army_org_1
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事等级制度�: IV-V"
+			OR = {
+				has_estate_privilege = estate_military_hierarchy_3
+				has_estate_privilege = estate_military_hierarchy_4
+			}
+		}
+	}
+}	
+estate_military_oversight_1 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: II-III"
+		OR = {
+			has_estate_privilege = estate_military_funding_2
+			has_estate_privilege = estate_military_funding_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y招募与服役�: II-III"
+		OR = {
+			has_estate_privilege = estate_military_service_1
+			has_estate_privilege = estate_military_service_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: II-III"
+		OR = {
+			has_estate_privilege = estate_military_army_org_1
+			has_estate_privilege = estate_military_army_org_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事等级制度�: II-III"
+		OR = {
+			has_estate_privilege = estate_military_hierarchy_1
+			has_estate_privilege = estate_military_hierarchy_2
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_central_admin_0 }
+	NOT = { has_estate_privilege = estate_military_wages_0 }
+	NOT = { has_estate_privilege = estate_nobles_mil_auth_0 }
+}	
+estate_military_oversight_2 = {
+	OR = {
+		AND = {
+			has_estate_privilege = estate_military_army_org_3
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = "已授予 �官僚阶层� �Y官僚监督�: III-IV"
+					OR = {
+						has_estate_privilege = estate_bureaucracy_oversight_2
+						has_estate_privilege = estate_bureaucracy_oversight_3
+					}
+				}
+				has_estate_privilege = estate_military_hierarchy_3
+			}
+		}
+		AND = {
+			has_estate_privilege = estate_military_army_org_2
+			has_estate_privilege = estate_military_navy_org_3
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y海军征用�: IV-V"
+				OR = {
+					has_estate_privilege = estate_military_navy_req_3
+					has_estate_privilege = estate_military_navy_req_4
+				}
+			}
+			OR = {
+				has_estate_privilege = estate_bureaucracy_oversight_3
+				custom_trigger_tooltip = {
+					tooltip = "已授予 �军事阶层��Y军事等级制度�: III-IV"
+					OR = {
+						has_estate_privilege = estate_military_hierarchy_2
+						has_estate_privilege = estate_military_hierarchy_3
+					}
+				}					
+			}
+			navy_size = 50
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y中央行政机构�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y招募与服役�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_service_0
+				has_estate_privilege = estate_military_service_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事等级制度�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_hierarchy_0
+				has_estate_privilege = estate_military_hierarchy_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_officer_ed_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事纪律�: I-III"
+			OR = {
+				has_estate_privilege = estate_military_discipline_0
+				has_estate_privilege = estate_military_discipline_1
+				has_estate_privilege = estate_military_discipline_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_commission_0 }
+	NOT = { has_estate_privilege = estate_military_wages_0 }
+}	
+estate_military_oversight_3 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_funding_4
+			has_estate_privilege = estate_military_funding_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y招募与服役�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_service_3
+			has_estate_privilege = estate_military_service_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_army_org_3
+			has_estate_privilege = estate_military_army_org_4
+		}
+	}
+	has_estate_privilege = estate_military_hierarchy_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事纪律�: IV-VI"
+		OR = {
+			has_estate_privilege = estate_military_discipline_3
+			has_estate_privilege = estate_military_discipline_4
+			has_estate_privilege = estate_military_discipline_5
+		}
+	}
+	has_estate_privilege = estate_military_commission_3
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军官薪资�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_wages_3
+			has_estate_privilege = estate_military_wages_4
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y中央行政机构�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军官教育�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_officer_ed_0
+				has_estate_privilege = estate_military_officer_ed_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_mobil_0 }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军队战备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_readiness_0
+				has_estate_privilege = estate_military_readiness_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_forts_0 }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族阶层��Y军事权威�: I-IV"
+			OR = {
+				has_estate_privilege = estate_nobles_mil_auth_0
+				has_estate_privilege = estate_nobles_mil_auth_1
+				has_estate_privilege = estate_nobles_mil_auth_2
+				has_estate_privilege = estate_nobles_mil_auth_3
+			}
+		}
+	}
+}	
+
+#
+estate_military_officer_ed_0 = {
+	OR = {
+		has_estate_privilege = estate_military_hierarchy_0
+		has_estate_privilege = estate_military_oversight_0
+	}
+}	
+estate_military_officer_ed_1 = {
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_service_0 }
+	NOT = { has_estate_privilege = estate_military_army_org_0 }
+	NOT = { has_estate_privilege = estate_military_hierarchy_0 }
+}	
+estate_military_officer_ed_2 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事等级制度�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_hierarchy_2
+			has_estate_privilege = estate_military_hierarchy_3
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_service_0 }
+	NOT = { has_estate_privilege = estate_military_army_org_0 }
+	NOT = { has_estate_privilege = estate_military_wages_0 }
+}	
+estate_military_officer_ed_3 = {
+	has_institution = empiricism
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事等级制度�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_hierarchy_2
+			has_estate_privilege = estate_military_hierarchy_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	OR = {
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y招募与服役�: IV-V"
+				OR = {
+					has_estate_privilege = estate_military_service_3
+					has_estate_privilege = estate_military_service_4
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y军队组织�: IV-V"
+				OR = {
+					has_estate_privilege = estate_military_army_org_3
+					has_estate_privilege = estate_military_army_org_4
+				}
+			}
+		}
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y招募与服役�: III-V"
+				OR = {
+					has_estate_privilege = estate_military_service_2
+					has_estate_privilege = estate_military_service_3
+					has_estate_privilege = estate_military_service_4
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y军队组织�: III-V"
+				OR = {
+					has_estate_privilege = estate_military_army_org_2
+					has_estate_privilege = estate_military_army_org_3
+					has_estate_privilege = estate_military_army_org_4
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y海军组织�: IV-V"
+				OR = {
+					has_estate_privilege = estate_military_navy_org_3
+					has_estate_privilege = estate_military_navy_org_4
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y军事纪律�: IV-VI"
+				OR = {
+					has_estate_privilege = estate_military_discipline_3
+					has_estate_privilege = estate_military_discipline_4
+					has_estate_privilege = estate_military_discipline_5
+				}
+			}
+			navy_size = 50
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y招募与考核�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_recruit_0
+				has_estate_privilege = estate_bureaucracy_recruit_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_commission_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军官薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+}	
+estate_military_officer_ed_4 = { 
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y招募与考核�: V-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_recruit_4
+			has_estate_privilege = estate_bureaucracy_recruit_5
+		}
+	}
+	has_estate_privilege = estate_military_hierarchy_4
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y官职买卖�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_commission_0
+				has_estate_privilege = estate_military_commission_1
+			}
+		}
+	}
+}	
+
+#
+estate_military_discipline_0 = {
+	has_estate_privilege = estate_military_oversight_0
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �官僚阶层� �Y司法供给�: VI-VII"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_5
+				has_estate_privilege = estate_bureaucracy_prov_justice_6
+			}
+		}
+	}
+}	
+estate_military_discipline_1 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_oversight_0
+			has_estate_privilege = estate_military_oversight_1
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_prov_justice_6 }
+}	
+estate_military_discipline_2 = {
+	has_estate_privilege = estate_military_oversight_1
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �官僚阶层� �Y司法供给�: I; VII"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_6
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_wages_0 }
+}	
+estate_military_discipline_3 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: II-III"
+		OR = {
+			has_estate_privilege = estate_military_oversight_1
+			has_estate_privilege = estate_military_oversight_2
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y司法供给�: I; VII"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_6
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军队组织�: I; V"
+			OR = {
+				has_estate_privilege = estate_military_army_org_0
+				has_estate_privilege = estate_military_army_org_4
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_wages_0 }
+	NOT = { has_estate_privilege = estate_military_readiness_0 }
+}	
+estate_military_discipline_4 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	OR = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �军事阶层��Y军队组织�: IV-V"
+			OR = {
+				has_estate_privilege = estate_military_army_org_3
+				has_estate_privilege = estate_military_army_org_4
+			}
+		}
+		AND = {
+			has_estate_privilege = estate_military_army_org_2
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y海军组织�: IV-V"
+				OR = {
+					has_estate_privilege = estate_military_navy_org_3
+					has_estate_privilege = estate_military_navy_org_4
+				}
+			}
+			navy_size = 50
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y司法供给�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事等级制度�: I-III"
+			OR = {
+				has_estate_privilege = estate_military_hierarchy_0
+				has_estate_privilege = estate_military_hierarchy_1
+				has_estate_privilege = estate_military_hierarchy_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_readiness_0 }
+}	
+estate_military_discipline_5 = {
+	has_estate_privilege = estate_military_army_org_4
+	has_estate_privilege = estate_military_hierarchy_4
+	has_estate_privilege = estate_military_oversight_3
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y司法供给�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军官薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_readiness_0 }
+}	
+
+#
+estate_military_commission_0 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_funding_0
+			has_estate_privilege = estate_military_funding_1
+			has_estate_privilege = estate_military_funding_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_oversight_0
+			has_estate_privilege = estate_military_oversight_1
+		}
+	}
+}	
+estate_military_commission_1 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: II-III"
+		OR = {
+			has_estate_privilege = estate_military_oversight_1
+			has_estate_privilege = estate_military_oversight_2
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军队组织�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_army_org_0
+				has_estate_privilege = estate_military_army_org_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_hierarchy_0 }
+}	
+estate_military_commission_2 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_office_0 }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军队组织�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_army_org_0
+				has_estate_privilege = estate_military_army_org_1
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事等级制度�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_hierarchy_0
+				has_estate_privilege = estate_military_hierarchy_1
+			}
+		}
+	}
+}	
+estate_military_commission_3 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_army_org_3
+			has_estate_privilege = estate_military_army_org_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事等级制度�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_hierarchy_3
+			has_estate_privilege = estate_military_hierarchy_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y制度监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_office_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �军事阶层��Y军官教育�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_officer_ed_0
+				has_estate_privilege = estate_military_officer_ed_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �军事阶层��Y军事薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+}	
+
+#
+estate_military_wages_0 = {  
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_funding_0
+			has_estate_privilege = estate_military_funding_1
+			has_estate_privilege = estate_military_funding_2
+		}
+	}
+	has_estate_privilege = estate_military_oversight_0
+}	
+estate_military_wages_1 = {
+	NOT = { has_estate_privilege = estate_military_funding_0 }
+}	
+estate_military_wages_2 = {
+	has_institution = bureaucracy
+	OR = {
+		has_estate_privilege = estate_military_funding_3
+		has_estate_privilege = estate_military_service_2
+	}
+	has_estate_privilege = estate_military_hierarchy_2
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_oversight_0 }
+}	
+estate_military_wages_3 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_funding_4
+			has_estate_privilege = estate_military_funding_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_army_org_3
+			has_estate_privilege = estate_military_army_org_4
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y招募与服役�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_service_0
+				has_estate_privilege = estate_military_service_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事监督�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_oversight_0
+				has_estate_privilege = estate_military_oversight_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_commission_0 }
+	NOT = { has_estate_privilege = estate_military_mobil_0 }
+}	
+estate_military_wages_4 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事等级制度�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_hierarchy_3
+			has_estate_privilege = estate_military_hierarchy_4
+		}
+	}
+	OR = {
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y资金与装备�: IV-V"
+				OR = {
+					has_estate_privilege = estate_military_funding_4
+					has_estate_privilege = estate_military_funding_5
+				}
+			}
+			has_estate_privilege = estate_military_army_org_4
+		}
+		AND = {
+			has_estate_privilege = estate_military_funding_4
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y军队组织�: IV-V"
+				OR = {
+					has_estate_privilege = estate_military_army_org_3
+					has_estate_privilege = estate_military_army_org_4
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y海军组织�: IV-V"
+				OR = {
+					has_estate_privilege = estate_military_navy_org_3
+					has_estate_privilege = estate_military_navy_org_4
+				}
+			}
+			navy_size = 50
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y招募与服役�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_service_0
+				has_estate_privilege = estate_military_service_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事监督�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_oversight_0
+				has_estate_privilege = estate_military_oversight_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_mobil_0 }
+	NOT = { has_estate_privilege = estate_military_readiness_0 }
+}	
+
+#
+estate_military_mobil_0 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_funding_0
+			has_estate_privilege = estate_military_funding_1
+			has_estate_privilege = estate_military_funding_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y招募与服役�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_service_0
+			has_estate_privilege = estate_military_service_1
+		}
+	}
+}	
+estate_military_mobil_1 = {
+	NOT = { has_estate_privilege = estate_military_service_0 }
+	NOT = { has_estate_privilege = estate_military_army_org_0 }
+	NOT = { has_estate_privilege = estate_military_readiness_0 }
+}	
+estate_military_mobil_2 = {
+	OR = {
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y资金与装备�: III-IV"
+				OR = {
+					has_estate_privilege = estate_military_funding_3
+					has_estate_privilege = estate_military_funding_4
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y军队组织�: III-IV"
+				OR = {
+					has_estate_privilege = estate_military_army_org_2
+					has_estate_privilege = estate_military_army_org_3
+				}
+			}
+		}
+		AND = {
+			has_estate_privilege = estate_military_navy_org_3
+			has_estate_privilege = estate_military_navy_req_2
+			navy_size = 50
+		}
+		AND = {
+			has_estate_privilege = estate_military_navy_org_2
+			has_estate_privilege = estate_military_navy_req_3
+			navy_size = 50
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_service_0 }
+	NOT = { has_estate_privilege = estate_military_army_org_0 }
+	NOT = { has_estate_privilege = estate_military_oversight_0 }
+	NOT = { has_estate_privilege = estate_military_readiness_0 }
+}	
+estate_military_mobil_3 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_army_org_3
+			has_estate_privilege = estate_military_army_org_4
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y招募与服役�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_service_0
+				has_estate_privilege = estate_military_service_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_oversight_0 }
+	NOT = { has_estate_privilege = estate_military_readiness_0 }
+}	
+estate_military_mobil_4 = {
+	has_institution = empiricism
+	has_estate_privilege = estate_bureaucracy_central_admin_4
+	has_estate_privilege = estate_military_funding_5
+	has_estate_privilege = estate_military_service_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队战备�: V-VI"
+		OR = {
+			has_estate_privilege = estate_military_readiness_4
+			has_estate_privilege = estate_military_readiness_5
+		}
+	}
+}
+
+#
+estate_military_readiness_0 = {
+	NOT = { has_reform = industrial_cap_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: I"
+		OR = {
+			has_estate_privilege = estate_military_funding_0
+			has_estate_privilege = estate_military_funding_1
+		}
+	}
+	has_estate_privilege = estate_military_service_0
+	has_estate_privilege = estate_military_army_org_0
+}	
+estate_military_readiness_1 = {
+	has_estate_privilege = estate_military_army_org_1
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y中央行政机构�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_wages_0 }
+}	
+estate_military_readiness_2 = {
+	has_institution = bureaucracy
+	has_estate_privilege = estate_military_service_2
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_army_org_2
+			has_estate_privilege = estate_military_army_org_3
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y中央行政机构�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_mobil_0 }
+}	
+estate_military_readiness_3 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_funding_4
+			has_estate_privilege = estate_military_funding_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_army_org_3
+			has_estate_privilege = estate_military_army_org_4
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �军事阶层��Y招募与服役�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_service_0
+				has_estate_privilege = estate_military_service_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �军事阶层��Y军事薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �军事阶层��Y动员�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_mobil_0
+				has_estate_privilege = estate_military_mobil_1
+			}
+		}
+	}
+}	
+estate_military_readiness_4 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_funding_4
+			has_estate_privilege = estate_military_funding_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y招募与服役�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_service_3
+			has_estate_privilege = estate_military_service_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_army_org_3
+			has_estate_privilege = estate_military_army_org_4
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �军事阶层��Y军事监督�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_oversight_0
+				has_estate_privilege = estate_military_oversight_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �军事阶层��Y军事薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+}	
+estate_military_readiness_5 = {
+	has_institution = state_sovereignty
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y行政区划�: V-VI"
+		OR = {
+			has_reform = fed_div_reform
+			has_reform = unitary_reform	
+		}
+	}
+	NOT = { has_reform = subsist_econ_reform }
+	has_estate_privilege = estate_bureaucracy_central_admin_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y地方行政�: V-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_4
+			has_estate_privilege = estate_bureaucracy_local_admin_5
+			has_estate_privilege = estate_bureaucracy_local_admin_6
+			has_estate_privilege = estate_bureaucracy_local_admin_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_funding_4
+			has_estate_privilege = estate_military_funding_5
+		}
+	}
+	has_estate_privilege = estate_military_service_4
+	has_estate_privilege = estate_military_army_org_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军官教育�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_officer_ed_3				
+			has_estate_privilege = estate_military_officer_ed_4				
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y动员�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_mobil_3			
+			has_estate_privilege = estate_military_mobil_4			
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事监督�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_oversight_0
+				has_estate_privilege = estate_military_oversight_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事薪资�: I-III"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+				has_estate_privilege = estate_military_wages_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_nobles_tenancy_0 }
+}	
+
+#
+estate_military_forts_0 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_funding_0
+			has_estate_privilege = estate_military_funding_1
+			has_estate_privilege = estate_military_funding_2
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族阶层��Y军事权威�: IV-VI"
+			OR = {
+				has_estate_privilege = estate_nobles_mil_auth_3
+				has_estate_privilege = estate_nobles_mil_auth_4
+				has_estate_privilege = estate_nobles_mil_auth_5
+			}
+		}
+	}
+}	
+estate_military_forts_1 = {
+	has_institution = bureaucracy
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_army_org_0 }
+	NOT = { has_estate_privilege = estate_military_hierarchy_0 }
+	NOT = { has_estate_privilege = estate_military_wages_0 }
+}	
+estate_military_forts_2 = { 
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军官教育�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_officer_ed_3
+			has_estate_privilege = estate_military_officer_ed_4
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_service_0 }
+	NOT = { has_estate_privilege = estate_military_army_org_0 }
+	NOT = { has_estate_privilege = estate_military_hierarchy_0 }
+	NOT = { has_estate_privilege = estate_military_oversight_0 }
+	NOT = { has_estate_privilege = estate_military_wages_0 }
+	NOT = { has_estate_privilege = estate_military_readiness_0 }
+}	
+estate_military_forts_3 = {
+	has_institution = empiricism
+	has_estate_privilege = estate_bureaucracy_hierarchy_2
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y招募与考核�: IV-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_recruit_3
+			has_estate_privilege = estate_bureaucracy_recruit_4
+			has_estate_privilege = estate_bureaucracy_recruit_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_army_org_3
+			has_estate_privilege = estate_military_army_org_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事等级制度�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_hierarchy_3
+			has_estate_privilege = estate_military_hierarchy_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军官教育�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_officer_ed_3
+			has_estate_privilege = estate_military_officer_ed_4
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y招募与服役�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_service_0
+				has_estate_privilege = estate_military_service_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_commission_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y动员�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_mobil_0
+				has_estate_privilege = estate_military_mobil_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_readiness_0 }
+}	
+estate_military_forts_4 = {
+	has_institution = empiricism
+	NOT = { has_reform = subsist_econ_reform }
+	has_estate_privilege = estate_bureaucracy_central_admin_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y招募与考核�: IV-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_recruit_3
+			has_estate_privilege = estate_bureaucracy_recruit_4
+			has_estate_privilege = estate_bureaucracy_recruit_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_funding_4
+			has_estate_privilege = estate_military_funding_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y招募与服役�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_service_3
+			has_estate_privilege = estate_military_service_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队组织�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_army_org_3
+			has_estate_privilege = estate_military_army_org_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事等级制度�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_hierarchy_3
+			has_estate_privilege = estate_military_hierarchy_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军官教育�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_officer_ed_3
+			has_estate_privilege = estate_military_officer_ed_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y官职售卖�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_commission_2
+			has_estate_privilege = estate_military_commission_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事薪资�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_wages_3
+			has_estate_privilege = estate_military_wages_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y动员�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_mobil_3
+			has_estate_privilege = estate_military_mobil_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军队战备�: IV-VI"
+		OR = {
+			has_estate_privilege = estate_military_readiness_3
+			has_estate_privilege = estate_military_readiness_4
+			has_estate_privilege = estate_military_readiness_5
+		}
+	}
+}	
+
+#
+estate_military_naval_recruit_0 = {
+	NOT = { has_reform = industrial_cap_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y海军组织�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_navy_org_0
+			has_estate_privilege = estate_military_navy_org_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y海军征用�: I-II"
+		OR = {
+			has_estate_privilege = estate_military_navy_req_0
+			has_estate_privilege = estate_military_navy_req_1
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: IV-VI"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_3
+				has_estate_privilege = estate_burghers_marine_4
+				has_estate_privilege = estate_burghers_marine_5
+				has_estate_privilege = estate_burghers_marine_6
+			}
+		}
+	}
+	NOT = { navy_size = 50 }
+}	
+estate_military_naval_recruit_1 = {
+	OR = {
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y海军组织�: II-III"
+				OR = {
+					has_estate_privilege = estate_military_navy_org_1
+					has_estate_privilege = estate_military_navy_org_2
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y海军征用�: II-III"
+				OR = {
+					has_estate_privilege = estate_military_navy_req_1
+					has_estate_privilege = estate_military_navy_req_2
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y军事等级制度�: II-IV"
+				OR = {
+					has_estate_privilege = estate_military_hierarchy_1
+					has_estate_privilege = estate_military_hierarchy_2
+					has_estate_privilege = estate_military_hierarchy_3
+				}
+			}
+		}
+		AND = {
+			has_estate_privilege = estate_military_navy_req_0
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �军事阶层��Y军事等级制度�: III-IV"
+				OR = {
+					has_estate_privilege = estate_military_hierarchy_2
+					has_estate_privilege = estate_military_hierarchy_3
+				}
+			}
+			NOT = {
+				custom_trigger_tooltip = {
+					tooltip = "已授予 �市民阶层��Y商船队�: I-II"
+					OR = {
+						has_estate_privilege = estate_burghers_marine_0
+						has_estate_privilege = estate_burghers_marine_1
+					}
+				}
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_navy_org_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: V-VI"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_4
+				has_estate_privilege = estate_burghers_marine_5
+				has_estate_privilege = estate_burghers_marine_6
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "有任何沿海省份"
+		any_owned_province = {
+			has_port = yes
+		}
+	}
+}	
+estate_military_naval_recruit_2 = {
+	has_institution = bureaucracy
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y中央行政机构�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y海军组织�: I; V"
+			OR = {
+				has_estate_privilege = estate_military_navy_org_0
+				has_estate_privilege = estate_military_navy_org_4
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y海军征用�: I; V"
+			OR = {
+				has_estate_privilege = estate_military_navy_req_0
+				has_estate_privilege = estate_military_navy_req_5
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "有任何沿海省份"
+		any_owned_province = {
+			has_port = yes
+		}
+	}
+}	
+estate_military_naval_recruit_3 = {
+	has_institution = bureaucracy
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y中央行政机构�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y海军组织�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_navy_org_0
+				has_estate_privilege = estate_military_navy_org_1
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y海军征用�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_navy_req_0
+				has_estate_privilege = estate_military_navy_req_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_oversight_0 }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y官员薪资�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_wages_0
+				has_estate_privilege = estate_military_wages_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "有任何沿海省份"
+		any_owned_province = {
+			has_port = yes
+		}
+	}
+}	
+estate_military_naval_recruit_4 = {
+	has_institution = bureaucracy
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_funding_4
+			has_estate_privilege = estate_military_funding_5
+		}
+	}
+	has_estate_privilege = estate_military_navy_org_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y官员薪资�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_wages_3
+			has_estate_privilege = estate_military_wages_4
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_commission_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I-III"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+				has_estate_privilege = estate_burghers_marine_2
+			}
+		}
+	}
+	navy_size = 50
+	custom_trigger_tooltip = {
+		tooltip = "有任何沿海省份"
+		any_owned_province = {
+			has_port = yes
+		}
+	}
+}	
+estate_military_naval_recruit_5 = {
+	has_institution = bureaucracy
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚阶层� �Y中央行政机构�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y资金与装备�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_funding_0
+				has_estate_privilege = estate_military_funding_1
+				has_estate_privilege = estate_military_funding_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y海军组织�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_navy_org_0
+				has_estate_privilege = estate_military_navy_org_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y海军征用�: I-II"
+			OR = {
+				has_estate_privilege = estate_military_navy_req_0
+				has_estate_privilege = estate_military_navy_req_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "有任何沿海省份"
+		any_owned_province = {
+			has_port = yes
+		}
+	}
+}	
+estate_military_naval_recruit_6 = {
+	has_institution = state_sovereignty
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y行政区划�: V-VI"
+		OR = {
+			has_reform = fed_div_reform
+			has_reform = unitary_reform	
+		}
+	}
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚阶层� �Y中央行政机构�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y资金与装备�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_funding_4
+			has_estate_privilege = estate_military_funding_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y招募与服役�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_service_3
+			has_estate_privilege = estate_military_service_4
+		}
+	}
+	has_estate_privilege = estate_military_navy_org_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y官员薪资�: IV-V"
+		OR = {
+			has_estate_privilege = estate_military_wages_3
+			has_estate_privilege = estate_military_wages_4
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_commission_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I-III"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+				has_estate_privilege = estate_burghers_marine_2
+			}
+		}
+	}
+	navy_size = 50
+	custom_trigger_tooltip = {
+		tooltip = "有任何沿海省份"
+		any_owned_province = {
+			has_port = yes
+		}
+	}
+}

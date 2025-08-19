@@ -1,0 +1,3024 @@
+### Rev Collect
+estate_bureaucracy_rev_collect_0 = {
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: I-III"
+		OR = {
+			has_reform = subsist_econ_reform
+			has_reform = traditional_econ_reform
+			has_reform = feudal_tenure_econ_reform
+		}
+	}	
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y税收与贡赋�: I-II"
+		OR = {
+			has_estate_privilege = estate_court_crown_revenue_0
+			has_estate_privilege = estate_court_crown_revenue_1
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_central_admin_0
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_0		
+			has_estate_privilege = estate_bureaucracy_local_admin_1
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_hierarchy_0	
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族��Y贵族义务�: I-II�up�"
+			OR = {
+				has_estate_privilege = estate_nobles_oblig_0
+				has_estate_privilege = estate_nobles_oblig_1
+			}
+		}			
+	}
+}	
+estate_bureaucracy_rev_collect_1 = {
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: I-III"
+		OR = {
+			has_reform = subsist_econ_reform
+			has_reform = traditional_econ_reform
+			has_reform = feudal_tenure_econ_reform
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷权威�: III-VI"
+		OR = {
+			has_estate_privilege = estate_court_regal_auth_4
+			has_estate_privilege = estate_court_regal_auth_5
+			has_estate_privilege = estate_court_regal_auth_6
+			has_estate_privilege = estate_court_regal_auth_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y税收与贡赋�: I-II"
+		OR = {
+			has_estate_privilege = estate_court_crown_revenue_0
+			has_estate_privilege = estate_court_crown_revenue_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y任命权�: II-VII"
+		OR = {
+			has_estate_privilege = estate_court_appoint_1
+			has_estate_privilege = estate_court_appoint_2
+			has_estate_privilege = estate_court_appoint_3
+			has_estate_privilege = estate_court_appoint_4
+			has_estate_privilege = estate_court_appoint_5
+			has_estate_privilege = estate_court_appoint_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_0
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+		}
+	}	
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: I-III"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_0		
+			has_estate_privilege = estate_bureaucracy_local_admin_1
+			has_estate_privilege = estate_bureaucracy_local_admin_2
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_hierarchy_0
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族��Y贵族义务�: I-II�up�"
+			OR = {
+				has_estate_privilege = estate_nobles_oblig_0
+				has_estate_privilege = estate_nobles_oblig_1
+			}
+		}			
+	}	
+}	
+estate_bureaucracy_rev_collect_2 = { 
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: II-VI"
+		OR = {
+			has_reform = traditional_econ_reform
+			has_reform = feudal_tenure_econ_reform
+			has_reform = mercantilist_econ_reform
+			has_reform = laissez_faire_econ_reform
+			has_reform = industrial_cap_econ_reform
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y公民社会�: VII-IIX"
+			OR = {
+				has_reform = petit_bourgeoisie_reform				
+				has_reform = majority_participation_reform
+			}
+		}			
+	}		
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷权威�: III-VI"
+		OR = {
+			has_estate_privilege = estate_court_regal_auth_4
+			has_estate_privilege = estate_court_regal_auth_5
+			has_estate_privilege = estate_court_regal_auth_6
+			has_estate_privilege = estate_court_regal_auth_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y税收与贡赋�: II-VI"
+		OR = {
+			has_estate_privilege = estate_court_crown_revenue_1
+			has_estate_privilege = estate_court_crown_revenue_2
+			has_estate_privilege = estate_court_crown_revenue_3
+			has_estate_privilege = estate_court_crown_revenue_4
+			has_estate_privilege = estate_court_crown_revenue_5
+			has_estate_privilege = estate_court_crown_revenue_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y任命权�: III-VII"
+		OR = {
+			has_estate_privilege = estate_court_appoint_2
+			has_estate_privilege = estate_court_appoint_3
+			has_estate_privilege = estate_court_appoint_4
+			has_estate_privilege = estate_court_appoint_5
+			has_estate_privilege = estate_court_appoint_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: II-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+			has_estate_privilege = estate_bureaucracy_central_admin_2
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}	
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: I-III"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_0		
+			has_estate_privilege = estate_bureaucracy_local_admin_1
+			has_estate_privilege = estate_bureaucracy_local_admin_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚等级制度�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_hierarchy_0
+			has_estate_privilege = estate_bureaucracy_hierarchy_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚监督�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_0
+			has_estate_privilege = estate_bureaucracy_oversight_1
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族��Y贵族义务�: I-II�up�"
+			OR = {
+				has_estate_privilege = estate_nobles_oblig_0
+				has_estate_privilege = estate_nobles_oblig_1
+			}
+		}			
+	}
+}	
+estate_bureaucracy_rev_collect_3 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: II-VI"
+		OR = {
+			has_reform = traditional_econ_reform
+			has_reform = feudal_tenure_econ_reform
+			has_reform = mercantilist_econ_reform
+			has_reform = laissez_faire_econ_reform
+			has_reform = industrial_cap_econ_reform
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y公民社会�: VII-IIX"
+			OR = {
+				has_reform = petit_bourgeoisie_reform				
+				has_reform = majority_participation_reform
+			}
+		}			
+	}		
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷权威�: III-VI"
+		OR = {
+			has_estate_privilege = estate_court_regal_auth_4
+			has_estate_privilege = estate_court_regal_auth_5
+			has_estate_privilege = estate_court_regal_auth_6
+			has_estate_privilege = estate_court_regal_auth_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y税收与贡赋�: III-VI"
+		OR = {
+			has_estate_privilege = estate_court_crown_revenue_2
+			has_estate_privilege = estate_court_crown_revenue_3
+			has_estate_privilege = estate_court_crown_revenue_4
+			has_estate_privilege = estate_court_crown_revenue_5
+			has_estate_privilege = estate_court_crown_revenue_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y任命权�: IV-VII"
+		OR = {
+			has_estate_privilege = estate_court_appoint_3
+			has_estate_privilege = estate_court_appoint_4
+			has_estate_privilege = estate_court_appoint_5
+			has_estate_privilege = estate_court_appoint_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: III-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_2
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}	
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: III-VI"
+		OR = {						
+			has_estate_privilege = estate_bureaucracy_local_admin_2
+			has_estate_privilege = estate_bureaucracy_local_admin_3
+			has_estate_privilege = estate_bureaucracy_local_admin_4
+			has_estate_privilege = estate_bureaucracy_local_admin_5
+			has_estate_privilege = estate_bureaucracy_local_admin_6
+			has_estate_privilege = estate_bureaucracy_local_admin_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚等级制度�: II-III"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_hierarchy_1
+			has_estate_privilege = estate_bureaucracy_hierarchy_2
+		}
+	}	
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚监督�: II-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_1
+			has_estate_privilege = estate_bureaucracy_oversight_2
+			has_estate_privilege = estate_bureaucracy_oversight_3
+		}
+	}
+}	
+estate_bureaucracy_rev_collect_4 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y行政区划�: II-V"
+		OR = {
+			has_reform = nonstandard_div_reform
+			has_reform = regionalism_reform
+			has_reform = prov_div_reform
+			has_reform = fed_div_reform
+		}
+	}		
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: II-VI"
+		OR = {
+			has_reform = traditional_econ_reform
+			has_reform = feudal_tenure_econ_reform
+			has_reform = mercantilist_econ_reform
+			has_reform = laissez_faire_econ_reform
+			has_reform = industrial_cap_econ_reform
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷权威�: IV-VI"
+		OR = {
+			has_estate_privilege = estate_court_regal_auth_5
+			has_estate_privilege = estate_court_regal_auth_6
+			has_estate_privilege = estate_court_regal_auth_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y税收与贡赋�: IV-VI"
+		OR = {
+			has_estate_privilege = estate_court_crown_revenue_3
+			has_estate_privilege = estate_court_crown_revenue_4
+			has_estate_privilege = estate_court_crown_revenue_5
+			has_estate_privilege = estate_court_crown_revenue_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y任命权�: IV-VII"
+		OR = {
+			has_estate_privilege = estate_court_appoint_3
+			has_estate_privilege = estate_court_appoint_4
+			has_estate_privilege = estate_court_appoint_5
+			has_estate_privilege = estate_court_appoint_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: III-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_2
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}	
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: IV-VI"
+		OR = {						
+			has_estate_privilege = estate_bureaucracy_local_admin_3
+			has_estate_privilege = estate_bureaucracy_local_admin_4
+			has_estate_privilege = estate_bureaucracy_local_admin_5
+			has_estate_privilege = estate_bureaucracy_local_admin_6
+			has_estate_privilege = estate_bureaucracy_local_admin_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y立法机构�: II-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_leg_app_1
+			has_estate_privilege = estate_bureaucracy_leg_app_2
+			has_estate_privilege = estate_bureaucracy_leg_app_3
+			has_estate_privilege = estate_bureaucracy_leg_app_4
+			has_estate_privilege = estate_bureaucracy_leg_app_5
+			has_estate_privilege = estate_bureaucracy_leg_app_6
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_hierarchy_2
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚监督�: II-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_1
+			has_estate_privilege = estate_bureaucracy_oversight_2
+			has_estate_privilege = estate_bureaucracy_oversight_3
+		}
+	}
+}	
+estate_bureaucracy_rev_collect_5 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y行政区划�: IV-VI"
+		OR = {
+			has_reform = prov_div_reform
+			has_reform = fed_div_reform
+			has_reform = unitary_reform	
+		}
+	}	
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: II-VI"
+		OR = {
+			has_reform = traditional_econ_reform
+			has_reform = feudal_tenure_econ_reform
+			has_reform = mercantilist_econ_reform
+			has_reform = laissez_faire_econ_reform
+			has_reform = industrial_cap_econ_reform
+		}
+	}
+	NOT = { has_reform = patchwork_realm_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷权威�: IV-VI"
+		OR = {
+			has_estate_privilege = estate_court_regal_auth_5
+			has_estate_privilege = estate_court_regal_auth_6
+			has_estate_privilege = estate_court_regal_auth_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y税收与贡赋�: V-VI"
+		OR = {
+			has_estate_privilege = estate_court_crown_revenue_4
+			has_estate_privilege = estate_court_crown_revenue_5
+			has_estate_privilege = estate_court_crown_revenue_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y咨询机构�: III-V"
+		OR = {
+			has_estate_privilege = estate_court_advisors_2
+			has_estate_privilege = estate_court_advisors_3
+			has_estate_privilege = estate_court_advisors_4
+			has_estate_privilege = estate_court_advisors_5
+			has_estate_privilege = estate_court_advisors_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y任命权�: IV-VII"
+		OR = {
+			has_estate_privilege = estate_court_appoint_3
+			has_estate_privilege = estate_court_appoint_4
+			has_estate_privilege = estate_court_appoint_5
+			has_estate_privilege = estate_court_appoint_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}	
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: V-VI"
+		OR = {						
+			has_estate_privilege = estate_bureaucracy_local_admin_4
+			has_estate_privilege = estate_bureaucracy_local_admin_5
+			has_estate_privilege = estate_bureaucracy_local_admin_6
+			has_estate_privilege = estate_bureaucracy_local_admin_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y立法机构�: III-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_leg_app_2
+			has_estate_privilege = estate_bureaucracy_leg_app_3
+			has_estate_privilege = estate_bureaucracy_leg_app_4
+			has_estate_privilege = estate_bureaucracy_leg_app_5
+			has_estate_privilege = estate_bureaucracy_leg_app_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y司法供给�: III-VII"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_prov_justice_2
+			has_estate_privilege = estate_bureaucracy_prov_justice_3
+			has_estate_privilege = estate_bureaucracy_prov_justice_4
+			has_estate_privilege = estate_bureaucracy_prov_justice_5
+			has_estate_privilege = estate_bureaucracy_prov_justice_6
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_hierarchy_2	
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚监督�: II-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_1
+			has_estate_privilege = estate_bureaucracy_oversight_2
+			has_estate_privilege = estate_bureaucracy_oversight_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚工资�: II-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_wages_1
+			has_estate_privilege = estate_bureaucracy_wages_2
+			has_estate_privilege = estate_bureaucracy_wages_3
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_urban_gov_3 }
+}	
+estate_bureaucracy_rev_collect_6 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y行政区划�: IV-VI"
+		OR = {
+			has_reform = prov_div_reform
+			has_reform = fed_div_reform
+			has_reform = unitary_reform	
+		}
+	}	
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: III-VI"
+		OR = {
+			has_reform = feudal_tenure_econ_reform
+			has_reform = mercantilist_econ_reform
+			has_reform = laissez_faire_econ_reform
+			has_reform = industrial_cap_econ_reform
+		}
+	}
+	NOT = { has_reform = patchwork_realm_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷权威�: IV-VI"
+		OR = {
+			has_estate_privilege = estate_court_regal_auth_5
+			has_estate_privilege = estate_court_regal_auth_6
+			has_estate_privilege = estate_court_regal_auth_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y税收与贡赋�: VI"
+		OR = {
+			has_estate_privilege = estate_court_crown_revenue_5
+			has_estate_privilege = estate_court_crown_revenue_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y咨询机构�: IV-V"
+		OR = {
+			has_estate_privilege = estate_court_advisors_3
+			has_estate_privilege = estate_court_advisors_4
+			has_estate_privilege = estate_court_advisors_5
+			has_estate_privilege = estate_court_advisors_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y任命权�: V-VII"
+		OR = {
+			has_estate_privilege = estate_court_appoint_4
+			has_estate_privilege = estate_court_appoint_5
+			has_estate_privilege = estate_court_appoint_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷� �Y铸币权�: II-III"
+		OR = {
+			has_estate_privilege = estate_court_mint_1
+			has_estate_privilege = estate_court_mint_2
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_central_admin_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: VI"
+		OR = {						
+			has_estate_privilege = estate_bureaucracy_local_admin_5
+			has_estate_privilege = estate_bureaucracy_local_admin_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y立法机构�: III-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_leg_app_2
+			has_estate_privilege = estate_bureaucracy_leg_app_3
+			has_estate_privilege = estate_bureaucracy_leg_app_4
+			has_estate_privilege = estate_bureaucracy_leg_app_5
+			has_estate_privilege = estate_bureaucracy_leg_app_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y司法供给�: III-VII"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_prov_justice_2
+			has_estate_privilege = estate_bureaucracy_prov_justice_3
+			has_estate_privilege = estate_bureaucracy_prov_justice_4
+			has_estate_privilege = estate_bureaucracy_prov_justice_5
+			has_estate_privilege = estate_bureaucracy_prov_justice_6
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_hierarchy_2
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_2
+			has_estate_privilege = estate_bureaucracy_oversight_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚工资�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_wages_2
+			has_estate_privilege = estate_bureaucracy_wages_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y公共银行�: II-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_banking_1
+			has_estate_privilege = estate_bureaucracy_banking_2
+			has_estate_privilege = estate_bureaucracy_banking_3
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �教会��Y神职人员财政�: I-II"
+			OR = {
+				has_estate_privilege = estate_church_finance_0
+				has_estate_privilege = estate_church_finance_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_nobles_rural_gov_0 }
+}	
+### Central Admin
+estate_bureaucracy_central_admin_0 = { 
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: IV-VI"
+			OR = {
+				has_reform = prov_div_reform
+				has_reform = fed_div_reform
+				has_reform = unitary_reform	
+			}
+		}	
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_0
+			has_estate_privilege = estate_bureaucracy_local_admin_1
+		}
+	}		
+	has_estate_privilege = estate_bureaucracy_hierarchy_0
+	has_estate_privilege = estate_bureaucracy_oversight_0
+}	
+estate_bureaucracy_central_admin_1 = {
+	NOT = { has_reform = unitary_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷权威�: III-VI"
+		OR = {
+			has_estate_privilege = estate_court_regal_auth_4
+			has_estate_privilege = estate_court_regal_auth_5
+			has_estate_privilege = estate_court_regal_auth_6
+			has_estate_privilege = estate_court_regal_auth_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y咨询机构�: II-V"
+		OR = {
+			has_estate_privilege = estate_court_advisors_1
+			has_estate_privilege = estate_court_advisors_2
+			has_estate_privilege = estate_court_advisors_3
+			has_estate_privilege = estate_court_advisors_4
+			has_estate_privilege = estate_court_advisors_5
+			has_estate_privilege = estate_court_advisors_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷等级制度�: II-IV"
+		OR = {
+			has_estate_privilege = estate_court_hierarchy_1
+			has_estate_privilege = estate_court_hierarchy_2
+			has_estate_privilege = estate_court_hierarchy_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷特权�: III-VII"
+		OR = {
+			has_estate_privilege = estate_court_prerog_2
+			has_estate_privilege = estate_court_prerog_3
+			has_estate_privilege = estate_court_prerog_4
+			has_estate_privilege = estate_court_prerog_5
+			has_estate_privilege = estate_court_prerog_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y任命权�: III-VII"
+		OR = {
+			has_estate_privilege = estate_court_appoint_2
+			has_estate_privilege = estate_court_appoint_3
+			has_estate_privilege = estate_court_appoint_4
+			has_estate_privilege = estate_court_appoint_5
+			has_estate_privilege = estate_court_appoint_6
+		}
+	}		
+}	
+estate_bureaucracy_central_admin_2 = {  
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷权威�: IV-VI"
+		OR = {
+			has_estate_privilege = estate_court_regal_auth_5
+			has_estate_privilege = estate_court_regal_auth_6
+			has_estate_privilege = estate_court_regal_auth_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y咨询机构�: II-V"
+		OR = {
+			has_estate_privilege = estate_court_advisors_1
+			has_estate_privilege = estate_court_advisors_2
+			has_estate_privilege = estate_court_advisors_3
+			has_estate_privilege = estate_court_advisors_4
+			has_estate_privilege = estate_court_advisors_5
+			has_estate_privilege = estate_court_advisors_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷等级制度�: II-IV"
+		OR = {
+			has_estate_privilege = estate_court_hierarchy_1
+			has_estate_privilege = estate_court_hierarchy_2
+			has_estate_privilege = estate_court_hierarchy_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷特权�: IV-VII"
+		OR = {
+			has_estate_privilege = estate_court_prerog_3
+			has_estate_privilege = estate_court_prerog_4
+			has_estate_privilege = estate_court_prerog_5
+			has_estate_privilege = estate_court_prerog_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y任命权�: IV-VII"
+		OR = {
+			has_estate_privilege = estate_court_appoint_3
+			has_estate_privilege = estate_court_appoint_4
+			has_estate_privilege = estate_court_appoint_5
+			has_estate_privilege = estate_court_appoint_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y税收征收�: II-VII"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_rev_collect_1
+			has_estate_privilege = estate_bureaucracy_rev_collect_2
+			has_estate_privilege = estate_bureaucracy_rev_collect_3
+			has_estate_privilege = estate_bureaucracy_rev_collect_4
+			has_estate_privilege = estate_bureaucracy_rev_collect_5
+			has_estate_privilege = estate_bureaucracy_rev_collect_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: II-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_1
+			has_estate_privilege = estate_bureaucracy_local_admin_2
+			has_estate_privilege = estate_bureaucracy_local_admin_3
+			has_estate_privilege = estate_bureaucracy_local_admin_4
+			has_estate_privilege = estate_bureaucracy_local_admin_5
+			has_estate_privilege = estate_bureaucracy_local_admin_6
+			has_estate_privilege = estate_bureaucracy_local_admin_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y立法机构�: II-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_leg_app_1
+			has_estate_privilege = estate_bureaucracy_leg_app_2
+			has_estate_privilege = estate_bureaucracy_leg_app_3
+			has_estate_privilege = estate_bureaucracy_leg_app_4
+			has_estate_privilege = estate_bureaucracy_leg_app_5
+			has_estate_privilege = estate_bureaucracy_leg_app_6
+		}
+	}	
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y司法供给�: II-VII"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_prov_justice_1
+			has_estate_privilege = estate_bureaucracy_prov_justice_2
+			has_estate_privilege = estate_bureaucracy_prov_justice_3
+			has_estate_privilege = estate_bureaucracy_prov_justice_4
+			has_estate_privilege = estate_bureaucracy_prov_justice_5
+			has_estate_privilege = estate_bureaucracy_prov_justice_6
+		}
+	}
+}	
+estate_bureaucracy_central_admin_3 = {
+	has_institution = bureaucracy
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: I-II"
+			OR = {
+				has_reform = no_div_reform
+				has_reform = nonstandard_div_reform
+			}
+		}
+	}
+	NOT = { has_reform = subsist_econ_reform }
+	OR = {
+		AND = {
+			has_estate_privilege = estate_bureaucracy_hierarchy_2
+			has_estate_privilege = estate_bureaucracy_oversight_1
+		}
+		AND = {		
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �宫廷��Y宫廷权威�: V-VI"
+				OR = {
+					has_estate_privilege = estate_court_regal_auth_6
+					has_estate_privilege = estate_court_regal_auth_7
+				}
+			}
+			#custom_trigger_tooltip = {
+			#	tooltip = "已授予 �宫廷��Y宫廷政治�: VI-IIX�up�"
+			#	OR = {
+			#		has_estate_privilege = estate_court_politics_5
+			#		has_estate_privilege = estate_court_politics_6
+			#		has_estate_privilege = estate_court_politics_7
+			#	}
+			#}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �宫廷��Y宫廷等级制度�: III-IV"
+				OR = {
+					has_estate_privilege = estate_court_hierarchy_2
+					has_estate_privilege = estate_court_hierarchy_3
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �宫廷��Y宫廷特权�: VI-VII"
+				OR = {
+					has_estate_privilege = estate_court_prerog_5
+					has_estate_privilege = estate_court_prerog_6
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �宫廷��Y任命权�: VI-VII"
+				OR = {
+					has_estate_privilege = estate_court_appoint_5
+					has_estate_privilege = estate_court_appoint_6
+				}
+			}				
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �官僚机构� �Y官僚等级制度�: II-III"
+				OR = {
+					has_estate_privilege = estate_bureaucracy_hierarchy_1					
+					has_estate_privilege = estate_bureaucracy_hierarchy_2					
+				}
+			}				
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �官僚机构� �Y官僚监督�: II-III"
+				OR = {
+					has_estate_privilege = estate_bureaucracy_oversight_1
+					has_estate_privilege = estate_bureaucracy_oversight_2
+				}
+			}				
+			NOT = { has_estate_privilege = estate_court_advisors_0 }
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_rev_collect_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �官僚机构� �Y地方行政�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_local_admin_0
+				has_estate_privilege = estate_bureaucracy_local_admin_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_leg_app_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_prov_justice_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_politicization_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_recruit_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_wages_0 }
+}	
+estate_bureaucracy_central_admin_4 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y行政区划�: IV-VI"
+		OR = {
+			has_reform = prov_div_reform					
+			has_reform = fed_div_reform
+			has_reform = unitary_reform
+		}
+	}
+	NOT = { has_reform = devolution_priv_reform }	
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y税收征收�: V-VII"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_rev_collect_4
+			has_estate_privilege = estate_bureaucracy_rev_collect_5
+			has_estate_privilege = estate_bureaucracy_rev_collect_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: V-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_4
+			has_estate_privilege = estate_bureaucracy_local_admin_5
+			has_estate_privilege = estate_bureaucracy_local_admin_6
+			has_estate_privilege = estate_bureaucracy_local_admin_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y立法机构�: IV-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_leg_app_3
+			has_estate_privilege = estate_bureaucracy_leg_app_4
+			has_estate_privilege = estate_bureaucracy_leg_app_5
+			has_estate_privilege = estate_bureaucracy_leg_app_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y司法供给�: V-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_prov_justice_4
+			has_estate_privilege = estate_bureaucracy_prov_justice_5
+		}
+	}		
+	has_estate_privilege = estate_bureaucracy_hierarchy_2
+	has_estate_privilege = estate_bureaucracy_oversight_2
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y招募与考核�: IV-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_recruit_3
+			has_estate_privilege = estate_bureaucracy_recruit_4
+			has_estate_privilege = estate_bureaucracy_recruit_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚工资�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_wages_2
+			has_estate_privilege = estate_bureaucracy_wages_3
+		}
+	}		
+	NOT = { has_estate_privilege = estate_court_crown_revenue_6 }
+	NOT = { has_estate_privilege = estate_bureaucracy_politicization_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_tenure_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_office_0 }
+	NOT = { has_estate_privilege = estate_church_temp_auth_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族��Y家族任命�: V-VI"
+			OR = {
+				has_estate_privilege = estate_nobles_appoint_4
+				has_estate_privilege = estate_nobles_appoint_5
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民��Y城市治理�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_finance_0 }
+}	
+
+### Local Admin
+estate_bureaucracy_local_admin_0 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_0
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �教会��Y世俗权威�: I-III"
+		OR = {
+			has_estate_privilege = estate_church_temp_auth_0
+			has_estate_privilege = estate_church_temp_auth_1
+			has_estate_privilege = estate_church_temp_auth_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �贵族��Y乡村治理�: I-II"
+		OR = {
+			has_estate_privilege = estate_nobles_rural_gov_0
+			has_estate_privilege = estate_nobles_rural_gov_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民��Y城市治理�: I-IV�up�"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_0
+			has_estate_privilege = estate_burghers_urban_gov_1
+			has_estate_privilege = estate_burghers_urban_gov_2
+			has_estate_privilege = estate_burghers_urban_gov_3
+		}
+	}		
+}	
+estate_bureaucracy_local_admin_1 = {
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: IV-VI"
+			OR = {
+				has_reform = prov_div_reform
+				has_reform = fed_div_reform
+				has_reform = unitary_reform	
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷权威�: III-VI"
+		OR = {
+			has_estate_privilege = estate_court_regal_auth_4
+			has_estate_privilege = estate_court_regal_auth_5
+			has_estate_privilege = estate_court_regal_auth_6
+			has_estate_privilege = estate_court_regal_auth_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: II-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+			has_estate_privilege = estate_bureaucracy_central_admin_2
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	#custom_trigger_tooltip = {
+	#	tooltip = "已授予 �官僚机构� �Y官僚等级制度�: II-III"
+	#	OR = {
+	#		has_estate_privilege = estate_bureaucracy_hierarchy_1
+	#		has_estate_privilege = estate_bureaucracy_hierarchy_2
+	#	}
+	#}				
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �宫廷��Y宫廷政治�: VII-IIX�down�"
+			OR = {
+				has_estate_privilege = estate_court_politics_8
+				has_estate_privilege = estate_court_politics_9
+			}
+		}
+	}
+}	
+estate_bureaucracy_local_admin_2 = {
+	has_institution = bureaucracy
+	has_estate_privilege = estate_bureaucracy_central_admin_2
+	custom_trigger_tooltip = {
+		tooltip = "已授予 教会 ｜ 神职人员等级制度 : III-V"
+		OR = {
+			has_estate_privilege = estate_church_hierarchy_2
+			has_estate_privilege = estate_church_hierarchy_3
+			has_estate_privilege = estate_church_hierarchy_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 贵族 ｜ 贵族等级制度 : III-V"
+		OR = {
+			has_estate_privilege = estate_nobles_hierarchy_2
+			has_estate_privilege = estate_nobles_hierarchy_3
+			has_estate_privilege = estate_nobles_hierarchy_4
+			has_estate_privilege = estate_nobles_hierarchy_5
+			has_estate_privilege = estate_nobles_hierarchy_6
+		}
+	}		
+	OR = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 市民 ｜ 专业行业 : III-V↑"
+			OR = {
+				has_estate_privilege = estate_burghers_prof_trade_2
+				has_estate_privilege = estate_burghers_prof_trade_3
+				has_estate_privilege = estate_burghers_prof_trade_4
+			}
+		}			
+		has_estate_privilege = estate_burghers_hierarchy_4
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_rev_collect_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_leg_app_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_prov_justice_0 }
+}	
+estate_bureaucracy_local_admin_3 = {
+	has_institution = bureaucracy
+	NOT = { has_reform = unitary_reform }
+	OR = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 官僚机构 ｜ 中央行政 : III-IV"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_2
+				has_estate_privilege = estate_bureaucracy_central_admin_3
+			}
+		}	
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 教会 ｜ 神职人员等级制度 : III-V"
+				OR = {
+					has_estate_privilege = estate_church_hierarchy_2
+					has_estate_privilege = estate_church_hierarchy_3
+					has_estate_privilege = estate_church_hierarchy_4
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 贵族 ｜ 贵族等级制度 : III-V"
+				OR = {
+					has_estate_privilege = estate_nobles_hierarchy_2
+					has_estate_privilege = estate_nobles_hierarchy_3
+					has_estate_privilege = estate_nobles_hierarchy_4
+					has_estate_privilege = estate_nobles_hierarchy_5
+					has_estate_privilege = estate_nobles_hierarchy_6
+				}
+			}				
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = "已授予 市民 ｜ 专业行业 : III-V↑"
+					OR = {
+						has_estate_privilege = estate_burghers_assembly_2
+						has_estate_privilege = estate_burghers_assembly_3
+						has_estate_privilege = estate_burghers_assembly_4
+					}
+				}
+				has_estate_privilege = estate_burghers_hierarchy_4
+			}
+			NOT = {
+				custom_trigger_tooltip = {
+					tooltip = "未授予 宫廷 ｜ 宫廷权威 : I-II↑"
+					OR = {
+						has_estate_privilege = estate_court_regal_auth_0
+						has_estate_privilege = estate_court_regal_auth_1
+					}
+				}
+				has_estate_privilege = estate_court_crown_revenue_0
+				#custom_trigger_tooltip = {
+				#	tooltip = "未授予 宫廷 ｜ 宫廷政治 : I-III"
+				#	OR = {
+				#		has_estate_privilege = estate_court_politics_0
+				#		has_estate_privilege = estate_court_politics_1
+				#		has_estate_privilege = estate_court_politics_2
+				#	}
+				#}
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 官僚机构 ｜ 税收征集 : I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_rev_collect_0
+				has_estate_privilege = estate_bureaucracy_rev_collect_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_central_admin_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_leg_app_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_prov_justice_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+}	
+estate_bureaucracy_local_admin_4 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 ｜ 行政区划 : IV-V"
+		OR = {
+			has_reform = prov_div_reform
+			has_reform = fed_div_reform
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 官僚机构 ｜ 税收征集 : IV-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_rev_collect_3
+			has_estate_privilege = estate_bureaucracy_rev_collect_4
+			has_estate_privilege = estate_bureaucracy_rev_collect_5
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_central_admin_3
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 官僚机构 ｜ 司法供给 : I-II; V"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_1
+				has_estate_privilege = estate_bureaucracy_prov_justice_4
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 市民 ｜ 城市治理 : I-III↑"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_1
+				has_estate_privilege = estate_burghers_urban_gov_2
+			}
+		}
+	}
+}	
+estate_bureaucracy_local_admin_5 = {  
+	has_institution = bureaucracy
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 ｜ 行政区划 : I-II; VI"
+			OR = {
+				has_reform = no_div_reform
+				has_reform = nonstandard_div_reform
+				has_reform = unitary_reform
+			}
+		}
+	}
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 官僚机构 ｜ 中央行政 : IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_hierarchy_2
+	custom_trigger_tooltip = {
+		tooltip = "已授予 官僚机构 ｜ 官僚监督 : III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_2
+			has_estate_privilege = estate_bureaucracy_oversight_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 市民 ｜ 城市治理 : IV-VI"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_3
+			has_estate_privilege = estate_burghers_urban_gov_4
+			has_estate_privilege = estate_burghers_urban_gov_6
+			has_estate_privilege = estate_burghers_urban_gov_7
+			has_estate_privilege = estate_burghers_urban_gov_8
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 官僚机构 ｜ 司法供给 : I-II; V"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_1
+				has_estate_privilege = estate_bureaucracy_prov_justice_4
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 教会 ｜ 世俗权威 : I-II"
+			OR = {
+				has_estate_privilege = estate_church_temp_auth_0
+				has_estate_privilege = estate_church_temp_auth_1
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 贵族 ｜ 乡村治理 : I-III"
+			OR = {
+				has_estate_privilege = estate_nobles_rural_gov_0
+				has_estate_privilege = estate_nobles_rural_gov_1
+				has_estate_privilege = estate_nobles_rural_gov_2
+			}
+		}
+	}
+}	
+estate_bureaucracy_local_admin_6 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 ｜ 行政区划 : IV-VI"
+		OR = {
+			has_reform = prov_div_reform
+			has_reform = fed_div_reform
+			has_reform = unitary_reform
+		}
+	}
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 官僚机构 ｜ 税收征集 : IV-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_rev_collect_3
+			has_estate_privilege = estate_bureaucracy_rev_collect_4
+			has_estate_privilege = estate_bureaucracy_rev_collect_5
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_central_admin_3
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 官僚机构 ｜ 司法供给 : I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 市民 ｜ 城市治理 : I-IV↑"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_1
+				has_estate_privilege = estate_burghers_urban_gov_2
+				has_estate_privilege = estate_burghers_urban_gov_3
+			}
+		}
+	}
+}	
+estate_bureaucracy_local_admin_7 = {
+	has_institution = bureaucracy
+	has_reform = unitary_reform
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 ｜ 权力结构 : I-II"
+			OR = {
+				has_reform = devolution_priv_reform
+				has_reform = devolution_appoint_reform
+			}
+		}
+	}
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 官僚机构 ｜ 中央行政 : IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_hierarchy_2
+	custom_trigger_tooltip = {
+		tooltip = "已授予 官僚机构 ｜ 官僚监督 : III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_2
+			has_estate_privilege = estate_bureaucracy_oversight_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 市民 ｜ 城市治理 : IV-VI↓"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_6
+			has_estate_privilege = estate_burghers_urban_gov_7
+			has_estate_privilege = estate_burghers_urban_gov_8
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 官僚机构 ｜ 司法供给 : I-II; IV"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_1
+				has_estate_privilege = estate_bureaucracy_prov_justice_3
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 教会 ｜ 世俗权威 : I-II"
+			OR = {
+				has_estate_privilege = estate_church_temp_auth_0
+				has_estate_privilege = estate_church_temp_auth_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 教会 ｜ 神职人员财政 : I-II"
+			OR = {
+				has_estate_privilege = estate_church_finance_0
+				has_estate_privilege = estate_church_finance_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 贵族 ｜ 乡村治理 : I-III"
+			OR = {
+				has_estate_privilege = estate_nobles_rural_gov_0
+				has_estate_privilege = estate_nobles_rural_gov_1
+				has_estate_privilege = estate_nobles_rural_gov_2
+			}
+		}
+	}
+}	
+
+###Leg App
+estate_bureaucracy_leg_app_0 = {
+	if = {
+		limit = { government = monarchy }
+		NOT = {
+			custom_trigger_tooltip = {
+				tooltip = "未颁布 ｜ 合法性来源 : IV-VI"
+				OR = {
+					has_reform = investiture_reform
+					has_reform = consent_elite_reform
+					has_reform = consent_governed_reform
+				}
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 官僚机构 ｜ 中央行政 : I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_0
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+		}
+	}
+}	
+estate_bureaucracy_leg_app_1 = {
+	if = { 
+		limit = { government = monarchy }
+		custom_trigger_tooltip = {
+			tooltip = "已颁布 ｜ 主权 : III-V"
+			OR = {
+				has_reform = rule_might_reform
+				has_reform = rule_influence_reform
+				has_reform = rule_mandate_reform
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 宫廷 ｜ 宫廷权威 : III-VI"
+		OR = {
+			has_estate_privilege = estate_court_regal_auth_4
+			has_estate_privilege = estate_court_regal_auth_5
+			has_estate_privilege = estate_court_regal_auth_6
+			has_estate_privilege = estate_court_regal_auth_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 宫廷 ｜ 宫廷特权 : III-VII"
+		OR = {
+			has_estate_privilege = estate_court_prerog_2
+			has_estate_privilege = estate_court_prerog_3
+			has_estate_privilege = estate_court_prerog_4
+			has_estate_privilege = estate_court_prerog_5
+			has_estate_privilege = estate_court_prerog_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 宫廷 ｜ 任命权 : III-VII"
+		OR = {
+			has_estate_privilege = estate_court_appoint_2
+			has_estate_privilege = estate_court_appoint_3
+			has_estate_privilege = estate_court_appoint_4
+			has_estate_privilege = estate_court_appoint_5
+			has_estate_privilege = estate_court_appoint_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 官僚机构 ｜ 中央行政 : II-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+			has_estate_privilege = estate_bureaucracy_central_admin_2
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}				
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 宫廷 ｜ 宫廷政治 : VII-IIX↓"
+			OR = {
+				has_estate_privilege = estate_court_politics_8
+				has_estate_privilege = estate_court_politics_9
+			}
+		}
+	}
+}	
+estate_bureaucracy_leg_app_2 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 宫廷 ｜ 宫廷权威 : III-VI"
+		OR = {
+			has_estate_privilege = estate_court_regal_auth_4
+			has_estate_privilege = estate_court_regal_auth_5
+			has_estate_privilege = estate_court_regal_auth_6
+			has_estate_privilege = estate_court_regal_auth_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 官僚机构 ｜ 中央行政 : II-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+			has_estate_privilege = estate_bureaucracy_central_admin_2
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}	
+	custom_trigger_tooltip = {
+		tooltip = "已授予 官僚机构 ｜ 地方行政 : II-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_1
+			has_estate_privilege = estate_bureaucracy_local_admin_2
+			has_estate_privilege = estate_bureaucracy_local_admin_3
+			has_estate_privilege = estate_bureaucracy_local_admin_4
+			has_estate_privilege = estate_bureaucracy_local_admin_5
+			has_estate_privilege = estate_bureaucracy_local_admin_6
+			has_estate_privilege = estate_bureaucracy_local_admin_7
+		}
+	}
+}	
+estate_bureaucracy_leg_app_3 = {
+	if = {
+		limit = { government = monarchy }
+		NOT = { has_reform = rule_might_reform }
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 官僚机构 ｜ 中央行政 : I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+}	
+estate_bureaucracy_leg_app_4 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已授予 ｜ 权力结构 : III-IV"
+		OR = {
+			has_reform = representative_assembly_reform
+			has_reform = centralized_oligarchy_reform
+		}
+	}
+	if = {
+		limit = { government = monarchy }
+		NOT = {
+			custom_trigger_tooltip = {
+				tooltip = "未颁布 ｜ 主权 : I-II"
+				OR = {
+					has_reform = rule_privilege_reform
+					has_reform = rule_might_reform
+				}
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 官僚机构 ｜ 中央行政 : IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y地方行政�: I-III"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_local_admin_0
+				has_estate_privilege = estate_bureaucracy_local_admin_1
+				has_estate_privilege = estate_bureaucracy_local_admin_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_court_advisors_6 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �宫廷��Y宫廷特权�: IV-V"
+			OR = {
+				has_estate_privilege = estate_court_prerog_5
+				has_estate_privilege = estate_court_prerog_6
+			}
+		}
+	}
+	#NOT = { has_estate_privilege = estate_court_appoint_6 }
+	NOT = { has_estate_privilege = estate_bureaucracy_prov_justice_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_oversight_0 }
+	
+}	
+estate_bureaucracy_leg_app_5 = {
+	has_institution = bureaucracy
+	if = {
+		limit = { government = monarchy }
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �Y合法性来源�: V-VI"
+			OR = {
+				has_reform = consent_elite_reform				
+				has_reform = consent_governed_reform
+			}
+		}
+	}
+	has_reform = representative_assembly_reform
+	if = {
+		limit = { government = monarchy }
+		NOT = {
+			custom_trigger_tooltip = {
+				tooltip = "未颁布 �Y主权�: I-III"
+				OR = {
+					has_reform = rule_privilege_reform
+					has_reform = rule_might_reform
+					has_reform = rule_influence_reform
+				}
+			}
+		}
+	}		
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷特权�: I-III"
+		OR = {
+			has_estate_privilege = estate_court_prerog_0
+			has_estate_privilege = estate_court_prerog_1
+			has_estate_privilege = estate_court_prerog_2
+		}
+	}
+	#custom_trigger_tooltip = {
+	#	tooltip = "已授予 �宫廷��Y任命权�: I-III"
+	#	OR = {
+	#		has_estate_privilege = estate_court_appoint_0
+	#		has_estate_privilege = estate_court_appoint_1
+	#		has_estate_privilege = estate_court_appoint_2
+	#	}
+	#}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_hierarchy_2
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �宫廷��Y宫廷权威�: IV-VI"
+			OR = {
+				has_estate_privilege = estate_court_regal_auth_5
+				has_estate_privilege = estate_court_regal_auth_6
+				has_estate_privilege = estate_court_regal_auth_7
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_court_advisors_6 }
+	NOT = { has_estate_privilege = estate_court_fam_service_5 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y地方行政�: I-III"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_local_admin_0
+				has_estate_privilege = estate_bureaucracy_local_admin_1
+				has_estate_privilege = estate_bureaucracy_local_admin_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y司法供给�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_oversight_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_politicization_0 }
+	NOT = { has_estate_privilege = estate_church_temp_auth_0 }
+	#NOT = { has_estate_privilege = estate_nobles_appoint_5 }
+}	
+estate_bureaucracy_leg_app_6 = {
+	has_institution = bureaucracy
+	if = {
+		limit = { government = monarchy }
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �Y合法性来源�: V-VI"
+			OR = {
+				has_reform = consent_elite_reform				
+				has_reform = consent_governed_reform
+			}
+		}
+		NOT = {
+			custom_trigger_tooltip = {
+				tooltip = "未颁布 �Y主权�: I-II"
+				OR = {
+					has_reform = rule_privilege_reform
+					has_reform = rule_might_reform
+				}
+			}
+		}
+	}		
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y咨询机构�: IV-V�up�"
+		OR = {
+			has_estate_privilege = estate_court_advisors_5
+			has_estate_privilege = estate_court_advisors_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷等级制度�: III-IV"
+		OR = {
+			has_estate_privilege = estate_court_hierarchy_2
+			has_estate_privilege = estate_court_hierarchy_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	NOT = { has_estate_privilege = estate_court_regal_auth_7 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �宫廷��Y宫廷特权�: I-III; VII"
+			OR = {
+				has_estate_privilege = estate_court_prerog_0
+				has_estate_privilege = estate_court_prerog_1
+				has_estate_privilege = estate_court_prerog_2
+				has_estate_privilege = estate_court_prerog_6
+			}
+		}
+	}
+	#NOT = {
+	#	custom_trigger_tooltip = {
+	#		tooltip = "未授予 �宫廷��Y任命权�: I-III; VII"
+	#		OR = {
+	#			has_estate_privilege = estate_court_appoint_0
+	#			has_estate_privilege = estate_court_appoint_1
+	#			has_estate_privilege = estate_court_appoint_2
+	#			has_estate_privilege = estate_court_appoint_6
+	#		}
+	#	}
+	#}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y地方行政�: I-III"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_local_admin_0
+				has_estate_privilege = estate_bureaucracy_local_admin_1
+				has_estate_privilege = estate_bureaucracy_local_admin_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_prov_justice_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_oversight_0 }
+}
+
+###Prov Justice
+estate_bureaucracy_prov_justice_0 = {
+	NOT = { has_reform = representative_assembly_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_0
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_0
+			has_estate_privilege = estate_bureaucracy_local_admin_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚监督�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_0
+			has_estate_privilege = estate_bureaucracy_oversight_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �贵族��Y乡村治理�: I-II"
+		OR = {
+			has_estate_privilege = estate_nobles_rural_gov_0
+			has_estate_privilege = estate_nobles_rural_gov_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �贵族��Y贵族特权�: I-II"
+		OR = {
+			has_estate_privilege = estate_nobles_privs_0
+			has_estate_privilege = estate_nobles_privs_1
+		}
+	}
+}	
+estate_bureaucracy_prov_justice_1 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷特权�: II-VII"
+		OR = {
+			has_estate_privilege = estate_court_prerog_1
+			has_estate_privilege = estate_court_prerog_2
+			has_estate_privilege = estate_court_prerog_3
+			has_estate_privilege = estate_court_prerog_4
+			has_estate_privilege = estate_court_prerog_5
+			has_estate_privilege = estate_court_prerog_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: II-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+			has_estate_privilege = estate_bureaucracy_central_admin_2
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: II-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_1
+			has_estate_privilege = estate_bureaucracy_local_admin_2
+			has_estate_privilege = estate_bureaucracy_local_admin_3
+			has_estate_privilege = estate_bureaucracy_local_admin_4
+			has_estate_privilege = estate_bureaucracy_local_admin_5
+			has_estate_privilege = estate_bureaucracy_local_admin_6
+			has_estate_privilege = estate_bureaucracy_local_admin_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �贵族��Y乡村治理�: I-II"
+		OR = {
+			has_estate_privilege = estate_nobles_rural_gov_0
+			has_estate_privilege = estate_nobles_rural_gov_1
+		}
+	}
+}	
+estate_bureaucracy_prov_justice_2 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_2
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_oversight_0 }
+	NOT = { has_estate_privilege = estate_nobles_privs_0 }
+}	
+estate_bureaucracy_prov_justice_3 = { 
+	has_institution = bureaucracy
+	NOT = { has_estate_privilege = estate_bureaucracy_central_admin_4 }
+	NOT = { has_estate_privilege = estate_bureaucracy_oversight_0 }
+}	
+estate_bureaucracy_prov_justice_4 = {
+	has_institution = bureaucracy
+	NOT = { has_reform = devolution_priv_reform }
+	OR = {
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �官僚机构� �Y中央行政�: IV-V"
+				OR = {
+					has_estate_privilege = estate_bureaucracy_central_admin_3
+					has_estate_privilege = estate_bureaucracy_central_admin_4
+				}
+			}
+			has_estate_privilege = estate_bureaucracy_hierarchy_2
+		}
+		AND = {
+			has_estate_privilege = estate_bureaucracy_central_admin_2
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �宫廷��Y任命权�: VI-VII"
+				OR = {
+					has_estate_privilege = estate_court_appoint_5
+					has_estate_privilege = estate_court_appoint_6
+				}
+			}
+			NOT = {
+				custom_trigger_tooltip = {
+					tooltip = "未授予 �宫廷��Y宫廷权威�: I-II�down�"
+					OR = {
+						has_estate_privilege = estate_court_regal_auth_2
+						has_estate_privilege = estate_court_regal_auth_3
+					}
+				}
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_oversight_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_office_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_wages_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �教会��Y世俗权威�: I-II"
+			OR = {
+				has_estate_privilege = estate_church_temp_auth_0
+				has_estate_privilege = estate_church_temp_auth_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族��Y贵族特权�: I-III"
+			OR = {
+				has_estate_privilege = estate_nobles_privs_0
+				has_estate_privilege = estate_nobles_privs_1
+				has_estate_privilege = estate_nobles_privs_2
+			}
+		}
+	}
+}	
+estate_bureaucracy_prov_justice_5 = {
+	has_institution = bureaucracy
+	NOT = { has_reform = political_absolutism_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y任命权�: III-V"
+		OR = {
+			has_estate_privilege = estate_court_appoint_2
+			has_estate_privilege = estate_court_appoint_3
+			has_estate_privilege = estate_court_appoint_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_hierarchy_2
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_2
+			has_estate_privilege = estate_bureaucracy_oversight_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚工资�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_wages_2
+			has_estate_privilege = estate_bureaucracy_wages_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �贵族��Y贵族特权�: IV-V"
+		OR = {
+			has_estate_privilege = estate_nobles_privs_3
+			has_estate_privilege = estate_nobles_privs_4
+		}
+	}
+	NOT = { has_estate_privilege = estate_court_regal_auth_7 }
+	NOT = { has_estate_privilege = estate_court_crown_revenue_5 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �宫廷��Y宫廷特权�: I; VII"
+			OR = {
+				has_estate_privilege = estate_court_prerog_0
+				has_estate_privilege = estate_court_prerog_6
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y立法机构�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_leg_app_0
+				has_estate_privilege = estate_bureaucracy_leg_app_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_politicization_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_office_0 }
+	NOT = { has_estate_privilege = estate_military_army_org_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �教会��Y世俗权威�: I-II"
+			OR = {
+				has_estate_privilege = estate_church_temp_auth_0
+				has_estate_privilege = estate_church_temp_auth_1
+			}
+		}
+	}
+}	
+estate_bureaucracy_prov_justice_6 = {
+	has_institution = enlightenment
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y行政区划�: IV-VI"
+		OR = {
+			has_reform = prov_div_reform
+			has_reform = fed_div_reform
+			has_reform = unitary_reform
+		}
+	}
+	if = {
+		limit = { government = monarchy }
+		NOT = { has_reform = rule_influence_reform }	
+	}
+	has_estate_privilege = estate_bureaucracy_central_admin_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_5
+			has_estate_privilege = estate_bureaucracy_local_admin_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y立法机构�: V-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_leg_app_4
+			has_estate_privilege = estate_bureaucracy_leg_app_5
+			has_estate_privilege = estate_bureaucracy_leg_app_6
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_hierarchy_2
+	has_estate_privilege = estate_bureaucracy_politicization_3
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事��Y军事纪律�: V-VI"
+		OR = {
+			has_estate_privilege = estate_military_discipline_4
+			has_estate_privilege = estate_military_discipline_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �教会��Y神职人员财政�: V-VI�down�"
+		OR = {
+			has_estate_privilege = estate_church_finance_6
+			has_estate_privilege = estate_church_finance_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �教会��Y神职人员义务�: III"
+		OR = {
+			has_estate_privilege = estate_church_oblig_2
+			has_estate_privilege = estate_church_oblig_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �教会��Y神职人员土地�: I-II"
+		OR = {
+			has_estate_privilege = estate_church_lands_0
+			has_estate_privilege = estate_church_lands_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �贵族��Y乡村治理�: V-VI"
+		OR = {
+			has_estate_privilege = estate_nobles_rural_gov_4
+			has_estate_privilege = estate_nobles_rural_gov_5
+		}
+	}
+	has_estate_privilege = estate_nobles_tenancy_4
+	has_estate_privilege = estate_nobles_privs_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民��Y商业法�: IV-V"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_6
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民��Y言论与集会�: IV-V�up�"
+		OR = {
+			has_estate_privilege = estate_burghers_assembly_3
+			has_estate_privilege = estate_burghers_assembly_4
+		}
+	}
+	has_estate_privilege = estate_burghers_slavery_0
+	has_estate_privilege = estate_burghers_privateer_0
+	NOT = { has_estate_privilege = estate_military_wages_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �教会��Y世俗权威�: I-III"
+			OR = {
+				has_estate_privilege = estate_church_temp_auth_0
+				has_estate_privilege = estate_church_temp_auth_1
+				has_estate_privilege = estate_church_temp_auth_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �教会��Y神职教育�: I; V-VI"
+			OR = {
+				has_estate_privilege = estate_church_ed_0
+				has_estate_privilege = estate_church_ed_4
+				has_estate_privilege = estate_church_ed_5
+			}
+		}
+	}
+}	
+
+####特权
+###官僚等级
+estate_bureaucracy_hierarchy_0 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_0
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+		}
+	}
+}	
+estate_bureaucracy_hierarchy_1 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y咨询机构�: II-V"
+		OR = {
+			has_estate_privilege = estate_court_advisors_1
+			has_estate_privilege = estate_court_advisors_2
+			has_estate_privilege = estate_court_advisors_3
+			has_estate_privilege = estate_court_advisors_4
+			has_estate_privilege = estate_court_advisors_5
+			has_estate_privilege = estate_court_advisors_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷等级制度�: II-IV"
+		OR = {
+			has_estate_privilege = estate_court_hierarchy_1
+			has_estate_privilege = estate_court_hierarchy_2
+			has_estate_privilege = estate_court_hierarchy_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y宫廷特权�: IV-VII"
+		OR = {
+			has_estate_privilege = estate_court_prerog_3
+			has_estate_privilege = estate_court_prerog_4
+			has_estate_privilege = estate_court_prerog_5
+			has_estate_privilege = estate_court_prerog_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y任命权�: IV-VII"
+		OR = {
+			has_estate_privilege = estate_court_appoint_3
+			has_estate_privilege = estate_court_appoint_4
+			has_estate_privilege = estate_court_appoint_5
+			has_estate_privilege = estate_court_appoint_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y税收征收�: II-VII"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_rev_collect_1
+			has_estate_privilege = estate_bureaucracy_rev_collect_2
+			has_estate_privilege = estate_bureaucracy_rev_collect_3
+			has_estate_privilege = estate_bureaucracy_rev_collect_4
+			has_estate_privilege = estate_bureaucracy_rev_collect_5
+			has_estate_privilege = estate_bureaucracy_rev_collect_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: II-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+			has_estate_privilege = estate_bureaucracy_central_admin_2
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚工资�: II-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_wages_1
+			has_estate_privilege = estate_bureaucracy_wages_2
+			has_estate_privilege = estate_bureaucracy_wages_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y招募与考核�: II-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_recruit_1
+			has_estate_privilege = estate_bureaucracy_recruit_2
+			has_estate_privilege = estate_bureaucracy_recruit_3
+			has_estate_privilege = estate_bureaucracy_recruit_4
+			has_estate_privilege = estate_bureaucracy_recruit_5
+		}
+	}
+}	
+estate_bureaucracy_hierarchy_2 = {
+	has_institution = bureaucracy
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �宫廷��Y宫廷特权�: I-II"
+			OR = {
+				has_estate_privilege = estate_court_prerog_0
+				has_estate_privilege = estate_court_prerog_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �宫廷��Y任命权�: I-II"
+			OR = {
+				has_estate_privilege = estate_court_appoint_0
+				has_estate_privilege = estate_court_appoint_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y中央行政�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y地方行政�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_local_admin_0
+				has_estate_privilege = estate_bureaucracy_local_admin_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_prov_justice_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_oversight_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_recruit_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_office_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_wages_0 }
+	NOT = { has_estate_privilege = estate_nobles_appoint_5 }
+	NOT = { has_estate_privilege = estate_burghers_urban_gov_0 }
+}	
+
+#官僚监督
+estate_bureaucracy_oversight_0 = {
+	has_estate_privilege = estate_bureaucracy_hierarchy_0
+}	
+estate_bureaucracy_oversight_1 = {
+	has_estate_privilege = estate_bureaucracy_central_admin_2
+	has_estate_privilege = estate_bureaucracy_hierarchy_1
+	OR = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �官僚机构� �Y地方行政�: III-IV"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_local_admin_2
+				has_estate_privilege = estate_bureaucracy_local_admin_3
+			}
+		}
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �宫廷��Y宫廷权威�: IV-VI"
+				OR = {
+					has_estate_privilege = estate_court_regal_auth_5
+					has_estate_privilege = estate_court_regal_auth_6
+					has_estate_privilege = estate_court_regal_auth_7
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �宫廷��Y宫廷等级制度�: III-IV"
+				OR = {
+					has_estate_privilege = estate_court_hierarchy_2
+					has_estate_privilege = estate_court_hierarchy_3
+				}
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_prov_justice_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_recruit_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_wages_0 }
+}	
+estate_bureaucracy_oversight_2 = { 
+	has_institution = bureaucracy
+	OR = {
+		AND = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �官僚机构� �Y司法供给�: V-VII"
+				OR = {
+					has_estate_privilege = estate_bureaucracy_prov_justice_4
+					has_estate_privilege = estate_bureaucracy_prov_justice_5
+					has_estate_privilege = estate_bureaucracy_prov_justice_6
+				}
+			}
+			has_estate_privilege = estate_bureaucracy_hierarchy_2
+		}
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �宫廷��Y宫廷权威�: IV-VI"
+				OR = {
+					has_estate_privilege = estate_court_regal_auth_5
+					has_estate_privilege = estate_court_regal_auth_6
+					has_estate_privilege = estate_court_regal_auth_7
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �宫廷��Y咨询机构�: IV-V�up�"
+				OR = {
+					has_estate_privilege = estate_court_advisors_5
+					has_estate_privilege = estate_court_advisors_6
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �宫廷��Y宫廷等级制度�: III-IV"
+				OR = {
+					has_estate_privilege = estate_court_hierarchy_2
+					has_estate_privilege = estate_court_hierarchy_3
+				}
+			}
+			has_estate_privilege = estate_bureaucracy_central_admin_2
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �官僚机构� �Y官僚等级制度�: II-III"
+				OR = {
+					has_estate_privilege = estate_bureaucracy_hierarchy_1
+					has_estate_privilege = estate_bureaucracy_hierarchy_2
+				}
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y地方行政�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_local_admin_0
+				has_estate_privilege = estate_bureaucracy_local_admin_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_leg_app_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_prov_justice_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_recruit_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_wages_0 }
+}	
+estate_bureaucracy_oversight_3 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y家族服务�: I-III"
+		OR = {
+			has_estate_privilege = estate_court_fam_service_0
+			has_estate_privilege = estate_court_fam_service_1
+			has_estate_privilege = estate_court_fam_service_2
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_central_admin_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_5
+			has_estate_privilege = estate_bureaucracy_local_admin_7
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_office_2
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事��Y军事监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �贵族��Y家族任命�: I-III"
+		OR = {
+			has_estate_privilege = estate_nobles_appoint_0
+			has_estate_privilege = estate_nobles_appoint_1
+			has_estate_privilege = estate_nobles_appoint_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �贵族��Y专业贸易�: IV-VI�down�"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_5
+			has_estate_privilege = estate_burghers_prof_trade_6
+			has_estate_privilege = estate_burghers_prof_trade_7
+		}
+	}
+	NOT = { has_estate_privilege = estate_court_prerog_6 }
+	NOT = { has_estate_privilege = estate_court_appoint_6 }
+	NOT = { has_estate_privilege = estate_bureaucracy_politicization_1 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y招募与考核�: I-III"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_recruit_0
+				has_estate_privilege = estate_bureaucracy_recruit_1
+				has_estate_privilege = estate_bureaucracy_recruit_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民��Y金融工具�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_finance_0
+				has_estate_privilege = estate_burghers_finance_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民��Y贸易特许状�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_charters_0
+				has_estate_privilege = estate_burghers_charters_1
+			}
+		}
+	}
+}	
+
+#政治化
+estate_bureaucracy_politicization_0 = {
+	has_estate_privilege = estate_bureaucracy_leg_app_0
+	has_estate_privilege = estate_bureaucracy_hierarchy_0
+	has_estate_privilege = estate_bureaucracy_oversight_0
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y中央行政�: IV-V"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_3
+				has_estate_privilege = estate_bureaucracy_central_admin_4
+			}
+		}
+	}
+}	
+estate_bureaucracy_politicization_1 = { 
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚等级制度�: II-III"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_hierarchy_1
+			has_estate_privilege = estate_bureaucracy_hierarchy_2
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_recruit_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_wages_0 }
+}	
+estate_bureaucracy_politicization_2 = {
+	has_estate_privilege = estate_bureaucracy_central_admin_3
+	has_estate_privilege = estate_bureaucracy_hierarchy_2
+	has_estate_privilege = estate_bureaucracy_oversight_2
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y招募与考核�: IV-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_recruit_3
+			has_estate_privilege = estate_bureaucracy_recruit_4
+			has_estate_privilege = estate_bureaucracy_recruit_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚工资�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_wages_2
+			has_estate_privilege = estate_bureaucracy_wages_3
+		}
+	}
+	NOT = { has_estate_privilege = estate_court_fam_service_5 }
+	NOT = { has_estate_privilege = estate_nobles_appoint_5 }
+}	
+estate_bureaucracy_politicization_3 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y家族服务�: I-II"
+		OR = {
+			has_estate_privilege = estate_court_fam_service_0
+			has_estate_privilege = estate_court_fam_service_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y立法机构�: V-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_leg_app_4
+			has_estate_privilege = estate_bureaucracy_leg_app_5
+			has_estate_privilege = estate_bureaucracy_leg_app_6
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_oversight_3
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �贵族��Y家族任命�: I-II"
+		OR = {
+			has_estate_privilege = estate_nobles_appoint_0
+			has_estate_privilege = estate_nobles_appoint_1
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �教会��Y世俗权威�: I-II"
+			OR = {
+				has_estate_privilege = estate_church_temp_auth_0
+				has_estate_privilege = estate_church_temp_auth_1
+			}
+		}
+	}
+}	
+
+#官僚招募
+estate_bureaucracy_recruit_0 = { 
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_0
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_hierarchy_0
+	has_estate_privilege = estate_bureaucracy_oversight_0
+}	
+estate_bureaucracy_recruit_1 = {  
+	NOT = { has_estate_privilege = estate_bureaucracy_central_admin_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_local_admin_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_leg_app_0 }
+}	
+    
+estate_bureaucracy_recruit_2 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚监督�: II-III"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_1
+			has_estate_privilege = estate_bureaucracy_oversight_2
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_politicization_0 }
+	NOT = { has_estate_privilege = estate_nobles_appoint_5 }
+}	
+estate_bureaucracy_recruit_3 = {
+	has_institution = bureaucracy
+	NOT = { has_reform = devolution_priv_reform }
+	has_estate_privilege = estate_bureaucracy_oversight_2
+	NOT = { has_estate_privilege = estate_court_fam_service_5 }
+	NOT = { has_estate_privilege = estate_bureaucracy_politicization_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_office_0 }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族��Y家族任命�: V-VI"
+			OR = {
+				has_estate_privilege = estate_nobles_appoint_4
+				has_estate_privilege = estate_nobles_appoint_5
+			}
+		}
+	}
+}	
+estate_bureaucracy_recruit_4 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_2
+			has_estate_privilege = estate_bureaucracy_oversight_3
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_office_2
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �宫廷��Y家族服务�: V-VI"
+			OR = {
+				has_estate_privilege = estate_court_fam_service_4
+				has_estate_privilege = estate_court_fam_service_5
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族��Y家族任命�: IV-VI"
+			OR = {
+				has_estate_privilege = estate_nobles_appoint_3
+				has_estate_privilege = estate_nobles_appoint_4
+				has_estate_privilege = estate_nobles_appoint_5
+			}
+		}
+	}
+}	
+estate_bureaucracy_recruit_5 = {
+	has_institution = bureaucracy
+	has_estate_privilege = estate_bureaucracy_central_admin_4
+	has_estate_privilege = estate_bureaucracy_politicization_3
+}	
+
+#官僚任期
+estate_bureaucracy_tenure_0 = {
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_oversight_0 }
+}	
+estate_bureaucracy_tenure_1 = {
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_oversight_0 }
+}	
+estate_bureaucracy_tenure_2 = {
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y官僚监督�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_oversight_0
+				has_estate_privilege = estate_bureaucracy_oversight_1
+			}
+		}
+	}
+}	
+
+#官僚职位
+estate_bureaucracy_office_0 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚监督�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_0
+			has_estate_privilege = estate_bureaucracy_oversight_1
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y招募与考核�: IV-VI"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_recruit_3
+				has_estate_privilege = estate_bureaucracy_recruit_4
+				has_estate_privilege = estate_bureaucracy_recruit_5
+			}
+		}
+	}
+}	
+estate_bureaucracy_office_1 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚等级制度�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_hierarchy_0
+			has_estate_privilege = estate_bureaucracy_hierarchy_1
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_oversight_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_recruit_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_wages_0 }
+}	
+estate_bureaucracy_office_2 = { 
+	has_estate_privilege = estate_bureaucracy_hierarchy_2 
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_2
+			has_estate_privilege = estate_bureaucracy_oversight_3
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y招募与考核�: II-III"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_recruit_1
+				has_estate_privilege = estate_bureaucracy_recruit_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_wages_0 }
+}	
+
+#官僚工资
+estate_bureaucracy_wages_0 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y家族服务�: V-VI"
+		OR = {
+			has_estate_privilege = estate_court_fam_service_4
+			has_estate_privilege = estate_court_fam_service_5
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_hierarchy_0
+	has_estate_privilege = estate_bureaucracy_oversight_0
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �贵族��Y家族任命�: V-VI"
+		OR = {
+			has_estate_privilege = estate_nobles_appoint_4
+			has_estate_privilege = estate_nobles_appoint_5
+		}
+	}
+}	
+estate_bureaucracy_wages_1 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y税收征集�: II-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_rev_collect_1
+			has_estate_privilege = estate_bureaucracy_rev_collect_2
+			has_estate_privilege = estate_bureaucracy_rev_collect_3
+			has_estate_privilege = estate_bureaucracy_rev_collect_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: II-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_1
+			has_estate_privilege = estate_bureaucracy_local_admin_2
+			has_estate_privilege = estate_bureaucracy_local_admin_3
+		}
+	}
+}	
+estate_bureaucracy_wages_2 = {
+	has_institution = bureaucracy
+	OR = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �官僚机构� �Y税收征集�: V-VII"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_rev_collect_4
+				has_estate_privilege = estate_bureaucracy_rev_collect_5
+				has_estate_privilege = estate_bureaucracy_rev_collect_6
+			}
+		}
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �宫廷��Y宫廷特权�: IV-V"
+				OR = {
+					has_estate_privilege = estate_court_prerog_3
+					has_estate_privilege = estate_court_prerog_4
+				}
+			}
+			NOT = {
+				custom_trigger_tooltip = {
+					tooltip = "已授予 �宫廷��Y宫廷权威�: I-II"
+					OR = {
+						has_estate_privilege = estate_court_regal_auth_0
+						has_estate_privilege = estate_court_regal_auth_1
+						has_estate_privilege = estate_court_regal_auth_2
+						has_estate_privilege = estate_court_regal_auth_3
+					}
+				}
+			}
+			NOT = {
+				custom_trigger_tooltip = {
+					tooltip = "已授予 �宫廷��Y税收与贡赋�: I-II"
+					OR = {
+						has_estate_privilege = estate_court_crown_revenue_0
+						has_estate_privilege = estate_court_crown_revenue_1
+					}
+				}
+			}
+			NOT = { has_estate_privilege = estate_court_advisors_0 }
+			#NOT = {
+			#	custom_trigger_tooltip = {
+			#		tooltip = "已授予 �宫廷��Y宫廷政治�: I-II; VII-IIX�down�"
+			#		OR = {
+			#			has_estate_privilege = estate_court_politics_0
+			#			has_estate_privilege = estate_court_politics_1
+			#			has_estate_privilege = estate_court_politics_8
+			#			has_estate_privilege = estate_court_politics_9
+			#		}
+			#	}
+			#}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_leg_app_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_hierarchy_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_oversight_0 }
+}	
+estate_bureaucracy_wages_3 = {
+	has_institution = bureaucracy
+	has_estate_privilege = estate_bureaucracy_central_admin_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_5
+			has_estate_privilege = estate_bureaucracy_local_admin_7
+		}
+	}
+}	
+
+#经济监管
+estate_bureaucracy_econ_reg_0 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: I-III"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_0
+			has_estate_privilege = estate_bureaucracy_central_admin_1
+			has_estate_privilege = estate_bureaucracy_central_admin_2
+		}
+	}
+	OR = {
+		has_estate_privilege = estate_burghers_com_law_0
+		has_estate_privilege = estate_burghers_prof_trade_0
+		has_estate_privilege = estate_burghers_finance_0
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民��Y贸易特许状�: I-II"
+		OR = {
+			has_estate_privilege = estate_burghers_charters_0
+			has_estate_privilege = estate_burghers_charters_1
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_mint_2 }
+}	
+estate_bureaucracy_econ_reg_1 = { 
+	has_institution = bureaucracy
+	NOT = { has_estate_privilege = estate_bureaucracy_rev_collect_0 }
+	NOT = { has_estate_privilege = estate_burghers_urban_gov_0 }
+	NOT = { has_estate_privilege = estate_burghers_prof_trade_0 }
+	NOT = { has_estate_privilege = estate_burghers_finance_0 }
+	NOT = { has_estate_privilege = estate_burghers_charters_0 }
+}	
+estate_bureaucracy_econ_reg_2 = {
+	has_institution = global_trade
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: IV-VI"
+		OR = {
+			has_reform = mercantilist_econ_reform
+			has_reform = laissez_faire_econ_reform
+			has_reform = industrial_cap_econ_reform
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y公共银行�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_banking_2
+			has_estate_privilege = estate_bureaucracy_banking_3
+		}
+	}
+	NOT = { has_estate_privilege = estate_court_mint_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_mint_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民��Y商业法�: I-III"
+			OR = {
+				has_estate_privilege = estate_burghers_com_law_0
+				has_estate_privilege = estate_burghers_com_law_1
+				has_estate_privilege = estate_burghers_com_law_2
+				has_estate_privilege = estate_burghers_com_law_4
+				has_estate_privilege = estate_burghers_com_law_5
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_prof_trade_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民��Y金融工具�: I-III"
+			OR = {
+				has_estate_privilege = estate_burghers_finance_0
+				has_estate_privilege = estate_burghers_finance_1
+				has_estate_privilege = estate_burghers_finance_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_marine_1 }
+	NOT = { has_estate_privilege = estate_burghers_charters_0 }
+}	
+estate_bureaucracy_econ_reg_3 = {
+	has_institution = manufactories
+	has_reform = industrial_cap_econ_reform
+	has_estate_privilege = estate_bureaucracy_central_admin_4
+	OR = {
+		has_estate_privilege = estate_court_mint_2
+		has_estate_privilege = estate_bureaucracy_mint_2
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y公共银行�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_banking_2
+			has_estate_privilege = estate_bureaucracy_banking_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民��Y城市治理�: V-VI"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_4
+			has_estate_privilege = estate_burghers_urban_gov_7
+			has_estate_privilege = estate_burghers_urban_gov_8
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民��Y商业法�: IV-V"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_6
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民��Y专业贸易�: IV-VI�down�"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_5
+			has_estate_privilege = estate_burghers_prof_trade_6
+			has_estate_privilege = estate_burghers_prof_trade_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民��Y金融工具�: V-VI"
+		OR = {
+			has_estate_privilege = estate_burghers_finance_4
+			has_estate_privilege = estate_burghers_finance_5
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �贵族��Y乡村治理�: I-III"
+			OR = {
+				has_estate_privilege = estate_nobles_rural_gov_0
+				has_estate_privilege = estate_nobles_rural_gov_1
+				has_estate_privilege = estate_nobles_rural_gov_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_nobles_fish_game_4 }
+	NOT = { has_estate_privilege = estate_nobles_forestry_4 }
+	NOT = { has_estate_privilege = estate_nobles_processing_4 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �市民��Y商船队�: II-III"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_1
+				has_estate_privilege = estate_burghers_marine_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_hierarchy_4 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �市民��Y贸易特许状�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_charters_0
+				has_estate_privilege = estate_burghers_charters_1
+			}
+		}
+	}
+}	
+
+#官僚铸币
+estate_bureaucracy_mint_0 = { 
+	OR = {
+		AND = {
+			has_estate_privilege = estate_bureaucracy_central_admin_0
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = "已授予 �官僚机构� �Y地方行政�: III-VI�down�"
+					OR = {
+						has_estate_privilege = estate_bureaucracy_local_admin_2
+						has_estate_privilege = estate_bureaucracy_local_admin_3
+						has_estate_privilege = estate_bureaucracy_local_admin_4
+						has_estate_privilege = estate_bureaucracy_local_admin_5
+					}
+				}
+				AND = {
+					has_estate_privilege = estate_court_prerog_0
+					has_estate_privilege = estate_court_mint_0
+				}
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �宫廷��Y铸币权�: II-III"
+			OR = {
+				has_estate_privilege = estate_court_mint_1
+				has_estate_privilege = estate_court_mint_2
+			}
+		}
+	}
+}	
+estate_bureaucracy_mint_1 = {  
+	NOT = { has_estate_privilege = estate_bureaucracy_central_admin_0 }
+	NOT = { has_estate_privilege = estate_court_mint_2 }
+}	
+    
+estate_bureaucracy_mint_2 = {
+	NOT = { has_reform = subsist_econ_reform }
+	has_estate_privilege = estate_court_mint_0
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y中央行政�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+}	
+
+#官僚银行
+estate_bureaucracy_banking_0 = {
+	custom_trigger_tooltip = {
+		tooltip = "未授予 �官僚机构� �Y官僚监督�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_0
+			has_estate_privilege = estate_bureaucracy_oversight_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "未授予 �市民��Y商人银行�: I-II"
+		OR = {
+			has_estate_privilege = estate_burghers_banking_0
+			has_estate_privilege = estate_burghers_banking_1
+		}
+	}
+}	
+estate_bureaucracy_banking_1 = {
+	has_institution = finance
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y经济监管�: III-IV"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_econ_reg_2
+				has_estate_privilege = estate_bureaucracy_econ_reg_3
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_finance_0 }
+	NOT = { has_estate_privilege = estate_burghers_banking_0 }
+}	
+estate_bureaucracy_banking_2 = {
+	has_institution = finance
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_2
+			has_estate_privilege = estate_bureaucracy_oversight_3
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = {
+		OR = {
+			has_estate_privilege = estate_court_mint_0
+			has_estate_privilege = estate_bureaucracy_mint_0
+		}
+	}
+}	
+estate_bureaucracy_banking_3 = {
+	has_institution = finance
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: I-II"
+		OR = {
+			has_reform = subsist_econ_reform
+			has_reform = traditional_econ_reform
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_hierarchy_2
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚监督�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_oversight_2
+			has_estate_privilege = estate_bureaucracy_oversight_3
+		}
+	}
+	OR = {
+		has_estate_privilege = estate_court_mint_2
+		has_estate_privilege = estate_bureaucracy_mint_2
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民��Y商业法�: IV-V"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_6
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民��Y金融工具�: IV-VI"
+		OR = {
+			has_estate_privilege = estate_burghers_finance_3
+			has_estate_privilege = estate_burghers_finance_4
+			has_estate_privilege = estate_burghers_finance_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民��Y商业银行业务�: IV-V"
+		OR = {
+			has_estate_privilege = estate_burghers_banking_3
+			has_estate_privilege = estate_burghers_banking_4
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+}	

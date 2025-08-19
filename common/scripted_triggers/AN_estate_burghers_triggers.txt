@@ -1,0 +1,3194 @@
+###Burghers
+estate_burghers_urban_gov_0 = {
+	NOT = { has_reform = political_absolutism_reform }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: V - VI"
+			OR = {
+				has_reform = fed_div_reform
+				has_reform = unitary_reform
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y经济结构�: IV - VI"
+			OR = {
+				has_reform = mercantilist_econ_reform
+				has_reform = laissez_faire_econ_reform
+				has_reform = industrial_cap_econ_reform
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: I - II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_0
+			has_estate_privilege = estate_bureaucracy_local_admin_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: I - II"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_0
+			has_estate_privilege = estate_burghers_com_law_1
+			has_estate_privilege = estate_burghers_com_law_4
+		}
+	}
+}	
+estate_burghers_urban_gov_1 = {
+	NOT = { has_reform = political_absolutism_reform }
+	NOT = { has_reform = unitary_reform }
+	NOT = { has_reform = subsist_econ_reform }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y公民社会�: VII - IIX"
+			OR = {
+				has_reform = petit_bourgeoisie_reform
+				has_reform = majority_participation_reform
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_central_admin_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_local_admin_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_leg_app_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商法�: IV - V�down�"
+			OR = {
+				has_estate_privilege = estate_burghers_com_law_6
+				has_estate_privilege = estate_burghers_com_law_7
+			}
+		}
+	}
+}	
+estate_burghers_urban_gov_2 = {
+	has_institution = bureaucracy
+	NOT = { has_reform = political_absolutism_reform }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: I; VI"
+			OR = {
+				has_reform = no_div_reform
+				has_reform = unitary_reform
+			}
+		}
+	}
+	NOT = { has_reform = subsist_econ_reform }
+	NOT = { has_reform = total_absolutism_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: II - IV�up�"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_1
+			has_estate_privilege = estate_burghers_com_law_2
+			has_estate_privilege = estate_burghers_com_law_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: II - V�up�"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_1
+			has_estate_privilege = estate_burghers_prof_trade_2
+			has_estate_privilege = estate_burghers_prof_trade_3
+			has_estate_privilege = estate_burghers_prof_trade_4
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_local_admin_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_3 }
+}	
+estate_burghers_urban_gov_3 = {
+	has_institution = commercialism
+	NOT = { has_reform = political_absolutism_reform }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: I; VI"
+			OR = {
+				has_reform = no_div_reform
+				has_reform = unitary_reform
+			}
+		}
+	}
+	NOT = { has_reform = subsist_econ_reform }
+	NOT = { has_reform = total_absolutism_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: III - IV�up�"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_2
+			has_estate_privilege = estate_burghers_com_law_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: III - V�up�"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_2
+			has_estate_privilege = estate_burghers_prof_trade_3
+			has_estate_privilege = estate_burghers_prof_trade_4
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �官僚机构� �Y地方行政�: I - II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_local_admin_0
+				has_estate_privilege = estate_bureaucracy_local_admin_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_3 }
+}	
+estate_burghers_urban_gov_4 = {
+	has_institution = commercialism
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y公民社会�: V - VII"
+		OR = {
+			has_reform = plutocrat_elite_reform
+			has_reform = petit_bourgeoisie_reform
+			has_reform = majority_participation_reform
+		}
+	}
+	NOT = { has_reform = political_absolutism_reform }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: I - II; VI"
+			OR = {
+				has_reform = no_div_reform
+				has_reform = nonstandard_div_reform
+				has_reform = unitary_reform
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y经济结构�: I; III"
+			OR = {
+				has_reform = subsist_econ_reform
+				has_reform = feudal_tenure_econ_reform
+			}
+		}
+	}
+	NOT = { has_reform = total_absolutism_reform }
+	has_estate_privilege = estate_burghers_com_law_3
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: IV - V�up�"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_3
+			has_estate_privilege = estate_burghers_prof_trade_4
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �官僚机构� �Y地方行政�: I - III"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_local_admin_0
+				has_estate_privilege = estate_bureaucracy_local_admin_1
+				has_estate_privilege = estate_bureaucracy_local_admin_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_3 }
+}	
+estate_burghers_urban_gov_5 = {
+	has_institution = bureaucracy
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: I; VI"
+			OR = {
+				has_reform = no_div_reform
+				has_reform = unitary_reform
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_local_admin_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �市民阶层��Y商法�: I; V"
+			OR = {
+				has_estate_privilege = estate_burghers_com_law_0
+				has_estate_privilege = estate_burghers_com_law_4
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �市民阶层��Y专业贸易�: I - II; VI"
+			OR = {
+				has_estate_privilege = estate_burghers_prof_trade_0
+				has_estate_privilege = estate_burghers_prof_trade_1
+				has_estate_privilege = estate_burghers_prof_trade_7
+			}
+		}
+	}		
+}	
+estate_burghers_urban_gov_6 = {
+	has_institution = commercialism
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: I - II; VI"
+			OR = {
+				has_reform = no_div_reform
+				has_reform = nonstandard_div_reform
+				has_reform = unitary_reform
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: III - IV"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_2
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_5
+			has_estate_privilege = estate_burghers_com_law_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: IV - V"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_3
+			has_estate_privilege = estate_burghers_prof_trade_4
+			has_estate_privilege = estate_burghers_prof_trade_5
+			has_estate_privilege = estate_burghers_prof_trade_6
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �官僚机构� �Y地方行政�: I - III"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_local_admin_0
+				has_estate_privilege = estate_bureaucracy_local_admin_1
+				has_estate_privilege = estate_bureaucracy_local_admin_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+}	
+estate_burghers_urban_gov_7 = {
+	has_institution = commercialism
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y行政区划�: I - II; VI"
+		OR = {
+			has_reform = fed_div_reform
+			has_reform = unitary_reform
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y经济结构�: I; III"
+			OR = {
+				has_reform = subsist_econ_reform
+				has_reform = feudal_tenure_econ_reform
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: V - VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_4
+			has_estate_privilege = estate_bureaucracy_local_admin_5
+			has_estate_privilege = estate_bureaucracy_local_admin_6
+			has_estate_privilege = estate_bureaucracy_local_admin_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: IV"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: IV - V"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_3
+			has_estate_privilege = estate_burghers_prof_trade_4
+			has_estate_privilege = estate_burghers_prof_trade_5
+			has_estate_privilege = estate_burghers_prof_trade_6
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+}	
+estate_burghers_urban_gov_8 = {
+	has_institution = state_sovereignty
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y行政区划�: I - II; VI"
+		OR = {
+			has_reform = fed_div_reform
+			has_reform = unitary_reform
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y经济结构�: I; III"
+			OR = {
+				has_reform = subsist_econ_reform
+				has_reform = feudal_tenure_econ_reform
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y地方行政�: VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_local_admin_5
+			has_estate_privilege = estate_bureaucracy_local_admin_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: IV - V"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_6
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: V - VI"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_4
+			has_estate_privilege = estate_burghers_prof_trade_6
+			has_estate_privilege = estate_burghers_prof_trade_7
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �市民阶层��Y专业贸易�: I - III"
+			OR = {
+				has_estate_privilege = estate_burghers_assembly_0
+				has_estate_privilege = estate_burghers_assembly_1
+				has_estate_privilege = estate_burghers_assembly_2
+			}
+		}
+	}
+}	
+ 
+#
+estate_burghers_com_law_0 = {
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y经济结构�: IV - VI"
+			OR = {
+				has_reform = mercantilist_econ_reform
+				has_reform = laissez_faire_econ_reform
+				has_reform = industrial_cap_econ_reform
+			}
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_econ_reg_0
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: I - III"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_0
+			has_estate_privilege = estate_burghers_prof_trade_1
+			has_estate_privilege = estate_burghers_prof_trade_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y金融工具�: I - II"
+		OR = {
+			has_estate_privilege = estate_burghers_finance_0
+			has_estate_privilege = estate_burghers_finance_1
+		}
+	}
+}	
+estate_burghers_com_law_1 = { 
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: II - IV�up�"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_1
+			has_estate_privilege = estate_burghers_urban_gov_2
+			has_estate_privilege = estate_burghers_urban_gov_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: I - III"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_0
+			has_estate_privilege = estate_burghers_prof_trade_1
+			has_estate_privilege = estate_burghers_prof_trade_2
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_charters_4 } 
+}	
+estate_burghers_com_law_2 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: III - V�up�"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_2
+			has_estate_privilege = estate_burghers_urban_gov_3
+			has_estate_privilege = estate_burghers_urban_gov_4
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y专业贸易�: V - VI"
+			OR = {
+				has_estate_privilege = estate_burghers_prof_trade_4
+				has_estate_privilege = estate_burghers_prof_trade_6
+				has_estate_privilege = estate_burghers_prof_trade_7
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y贸易特许�: I; V�up�"
+			OR = {
+				has_estate_privilege = estate_burghers_charters_0
+				has_estate_privilege = estate_burghers_charters_4
+			}
+		}
+	}
+}	
+estate_burghers_com_law_3 = {
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: IV - VI�up�"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_3
+			has_estate_privilege = estate_burghers_urban_gov_4
+			has_estate_privilege = estate_burghers_urban_gov_8
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y中央行政�: I - II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y专业贸易�: I - II"
+			OR = {
+				has_estate_privilege = estate_burghers_prof_trade_0
+				has_estate_privilege = estate_burghers_prof_trade_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_finance_0 }
+	NOT = { has_estate_privilege = estate_burghers_banking_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y贸易特许�: I; V�up�"
+			OR = {
+				has_estate_privilege = estate_burghers_charters_0
+				has_estate_privilege = estate_burghers_charters_4
+			}
+		}
+	}
+}	
+estate_burghers_com_law_4 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: II - IV�down�"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_1
+			has_estate_privilege = estate_burghers_urban_gov_5
+			has_estate_privilege = estate_burghers_urban_gov_6
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_central_admin_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y贸易特许�: I; V�up�"
+			OR = {
+				has_estate_privilege = estate_burghers_charters_0
+				has_estate_privilege = estate_burghers_charters_4
+			}
+		}
+	}
+}	
+estate_burghers_com_law_5 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: III - V�down�"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_5
+			has_estate_privilege = estate_burghers_urban_gov_6
+			has_estate_privilege = estate_burghers_urban_gov_7
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y中央行政�: I - II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = { has_estate_privilege = estate_burghers_prof_trade_0 }
+	NOT = { has_estate_privilege = estate_burghers_finance_0 }
+	NOT = { has_estate_privilege = estate_burghers_marine_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y贸易特许�: I; V�up�"
+			OR = {
+				has_estate_privilege = estate_burghers_charters_0
+				has_estate_privilege = estate_burghers_charters_4
+			}
+		}
+	}
+}	
+estate_burghers_com_law_6 = {
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y行政区划�: IV - VI"
+		OR = {
+			has_reform = prov_div_reform
+			has_reform = fed_div_reform
+			has_reform = unitary_reform
+		}
+	}
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: IV - V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: IV - VI�down�"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_6
+			has_estate_privilege = estate_burghers_urban_gov_7
+			has_estate_privilege = estate_burghers_urban_gov_8
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y专业贸易�: I - II"
+			OR = {
+				has_estate_privilege = estate_burghers_prof_trade_0
+				has_estate_privilege = estate_burghers_prof_trade_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_finance_0 }
+	NOT = { has_estate_privilege = estate_burghers_marine_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y贸易特许�: I; V�up�"
+			OR = {
+				has_estate_privilege = estate_burghers_charters_0
+				has_estate_privilege = estate_burghers_charters_4
+			}
+		}
+	}
+}	
+estate_burghers_com_law_7 = {
+	has_institution = manufactories
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y行政区划�: IV - VI"
+		OR = {
+			has_reform = prov_div_reform
+			has_reform = fed_div_reform
+			has_reform = unitary_reform
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y经济结构�: I - III"
+			OR = {
+				has_reform = subsist_econ_reform
+				has_reform = traditional_econ_reform
+				has_reform = feudal_tenure_econ_reform
+			}
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_central_admin_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y经济监管�: III - IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_econ_reg_2
+			has_estate_privilege = estate_bureaucracy_econ_reg_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: V - VI"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_4
+			has_estate_privilege = estate_burghers_urban_gov_7
+			has_estate_privilege = estate_burghers_urban_gov_8
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y金融工具�: V - VI"
+		OR = {
+			has_estate_privilege = estate_burghers_finance_4
+			has_estate_privilege = estate_burghers_finance_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y贸易特许�: V"
+		OR = {
+			has_estate_privilege = estate_burghers_charters_4
+			has_estate_privilege = estate_burghers_charters_6
+		}
+	}
+}	
+ 
+#
+estate_burghers_prof_trade_0 = {
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y经济结构�: IV - VI"
+			OR = {
+				has_reform = mercantilist_econ_reform
+				has_reform = laissez_faire_econ_reform
+				has_reform = industrial_cap_econ_reform
+			}
+		}
+	}
+}	
+estate_burghers_prof_trade_1 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: I - II"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_0
+			has_estate_privilege = estate_burghers_urban_gov_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: II - III"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_1
+			has_estate_privilege = estate_burghers_com_law_2
+			has_estate_privilege = estate_burghers_com_law_4
+			has_estate_privilege = estate_burghers_com_law_5
+		}
+	}
+}	
+estate_burghers_prof_trade_2 = {
+	has_institution = feudalism
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: III - IV"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_2
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_5
+			has_estate_privilege = estate_burghers_com_law_6
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y城市治理�: I; VI"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_8
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_charters_0 }
+}	
+estate_burghers_prof_trade_3 = {
+	has_institution = commercialism
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: III - V�up�"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_2
+			has_estate_privilege = estate_burghers_urban_gov_3
+			has_estate_privilege = estate_burghers_urban_gov_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: III - IV"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_2
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_5
+			has_estate_privilege = estate_burghers_com_law_6
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_finance_0 }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商业等级制度�: I - II"
+			OR = {
+				has_estate_privilege = estate_burghers_hierarchy_0
+				has_estate_privilege = estate_burghers_hierarchy_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_charters_0 }
+}	
+estate_burghers_prof_trade_4 = {
+	has_institution = finance
+	NOT = { has_reform = subsist_econ_reform }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y公民社会�: I - IV"
+			OR = {
+				has_reform = tribal_elite_reform
+				has_reform = feudal_elite_reform
+				has_reform = religious_elite_reform
+				has_reform = caste_elite_reform
+			}
+		}
+	}
+	
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: IV - V"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_6
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商业等级制度�: IV - V"
+		OR = {
+			has_estate_privilege = estate_burghers_hierarchy_3
+			has_estate_privilege = estate_burghers_hierarchy_4
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y中央行政�: I - II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y城市治理�: I - III"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_1
+				has_estate_privilege = estate_burghers_urban_gov_2
+				has_estate_privilege = estate_burghers_urban_gov_5
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y金融工具�: I - II"
+			OR = {
+				has_estate_privilege = estate_burghers_finance_0
+				has_estate_privilege = estate_burghers_finance_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_banking_0 }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y继承保护�: I - II"
+			OR = {
+				has_estate_privilege = estate_burghers_inherit_0
+				has_estate_privilege = estate_burghers_inherit_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_charters_0 }
+}	
+estate_burghers_prof_trade_5 = {
+	has_institution = commercialism
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: IV - V"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_3
+			has_estate_privilege = estate_burghers_urban_gov_4
+			has_estate_privilege = estate_burghers_urban_gov_6
+			has_estate_privilege = estate_burghers_urban_gov_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: III - IV"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_2
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_5
+			has_estate_privilege = estate_burghers_com_law_6
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_central_admin_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = { has_estate_privilege = estate_burghers_finance_0 }
+	NOT = { has_estate_privilege = estate_burghers_charters_0 }
+}	
+estate_burghers_prof_trade_6 = {
+	has_institution = finance
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y行政区划�: IV - VI"
+		OR = {
+			has_reform = prov_div_reform
+			has_reform = fed_div_reform
+			has_reform = unitary_reform	
+		}
+	}
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: IV - V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: V - VI"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_4
+			has_estate_privilege = estate_burghers_urban_gov_7
+			has_estate_privilege = estate_burghers_urban_gov_8
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: IV - V"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_6
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y金融工具�: I - II"
+			OR = {
+				has_estate_privilege = estate_burghers_finance_0
+				has_estate_privilege = estate_burghers_finance_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_hierarchy_4 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y贸易特许�: I - II"
+			OR = {
+				has_estate_privilege = estate_burghers_charters_0
+				has_estate_privilege = estate_burghers_charters_1
+			}
+		}
+	}
+}	
+estate_burghers_prof_trade_7 = {
+	has_institution = state_sovereignty
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y行政区划�: IV - VI"
+		OR = {
+			has_reform = prov_div_reform
+			has_reform = fed_div_reform
+			has_reform = unitary_reform	
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y经济结构�: I - III"
+			OR = {
+				has_reform = subsist_econ_reform
+				has_reform = traditional_econ_reform
+				has_reform = feudal_tenure_econ_reform	
+			}
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_central_admin_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y经济监管�: III - IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_econ_reg_2
+			has_estate_privilege = estate_bureaucracy_econ_reg_3
+		}
+	}		
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: V - VI"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_4
+			has_estate_privilege = estate_burghers_urban_gov_7
+			has_estate_privilege = estate_burghers_urban_gov_8
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: IV - V"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_6
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y金融工具�: IV - VI"
+		OR = {
+			has_estate_privilege = estate_burghers_finance_3
+			has_estate_privilege = estate_burghers_finance_4
+			has_estate_privilege = estate_burghers_finance_5
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_banking_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y继承保护�: I - II"
+			OR = {
+				has_estate_privilege = estate_burghers_inherit_0
+				has_estate_privilege = estate_burghers_inherit_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y贸易特许�: I - III"
+			OR = {
+				has_estate_privilege = estate_burghers_charters_0
+				has_estate_privilege = estate_burghers_charters_1
+				has_estate_privilege = estate_burghers_charters_2
+			}
+		}
+	}
+}	
+ 
+#
+estate_burghers_finance_0 = {
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y经济结构�: IV - VI"
+			OR = {
+				has_reform = mercantilist_econ_reform
+				has_reform = laissez_faire_econ_reform
+				has_reform = industrial_cap_econ_reform	
+			}
+		}
+	}
+}	
+estate_burghers_finance_1 = {
+	has_institution = commercialism
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y经济结构�: I; VI"
+			OR = {
+				has_reform = subsist_econ_reform
+				has_reform = industrial_cap_econ_reform	
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: II - III"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_1
+			has_estate_privilege = estate_burghers_com_law_2
+			has_estate_privilege = estate_burghers_com_law_4
+			has_estate_privilege = estate_burghers_com_law_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: II - IV�up�"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_1
+			has_estate_privilege = estate_burghers_prof_trade_2
+			has_estate_privilege = estate_burghers_prof_trade_3
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y城市治理�: I; VI"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_8
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商人银行�: IV - V"
+			OR = {
+				has_estate_privilege = estate_burghers_banking_3
+				has_estate_privilege = estate_burghers_banking_4
+			}
+		}
+	}
+}	
+estate_burghers_finance_2 = {
+	has_institution = finance
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y经济结构�: I; VI"
+			OR = {
+				has_reform = subsist_econ_reform
+				has_reform = industrial_cap_econ_reform	
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: III-IV"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_2
+			has_estate_privilege = estate_burghers_prof_trade_3
+			has_estate_privilege = estate_burghers_prof_trade_5
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y城市治理�: I; VI"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_8
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商法�: I-II; V"
+			OR = {
+				has_estate_privilege = estate_burghers_com_law_0
+				has_estate_privilege = estate_burghers_com_law_1
+				has_estate_privilege = estate_burghers_com_law_4
+				has_estate_privilege = estate_burghers_com_law_7
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商业银行业务�: I; V"
+			OR = {
+				has_estate_privilege = estate_burghers_banking_0
+				has_estate_privilege = estate_burghers_banking_4
+			}
+		}
+	}
+}	
+estate_burghers_finance_3 = {
+	has_institution = global_trade
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: IV-VI"
+		OR = {
+			has_reform = mercantilist_econ_reform
+			has_reform = laissez_faire_econ_reform
+			has_reform = industrial_cap_econ_reform	
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: IV-V"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_6
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: V-VI"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_4
+			has_estate_privilege = estate_burghers_prof_trade_6
+			has_estate_privilege = estate_burghers_prof_trade_7
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_banking_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y城市治理�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商业银行业务�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_banking_0
+				has_estate_privilege = estate_burghers_banking_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_charters_0 }
+}	
+estate_burghers_finance_4 = {
+	has_institution = global_trade
+	has_institution = enlightenment
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: IV-VI"
+		OR = {
+			has_reform = mercantilist_econ_reform
+			has_reform = laissez_faire_econ_reform
+			has_reform = industrial_cap_econ_reform	
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: IV-V"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_6
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: V-VI"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_4
+			has_estate_privilege = estate_burghers_prof_trade_6
+			has_estate_privilege = estate_burghers_prof_trade_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "未授予 �市民阶层��Y商业银行业务�: IV-V"
+		OR = {
+			has_estate_privilege = estate_burghers_banking_3
+			has_estate_privilege = estate_burghers_banking_4
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_banking_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y城市治理�: I-III"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_1
+				has_estate_privilege = estate_burghers_urban_gov_2
+				has_estate_privilege = estate_burghers_urban_gov_5
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y继承保护�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_inherit_0
+				has_estate_privilege = estate_burghers_inherit_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y贸易特许�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_charters_0
+				has_estate_privilege = estate_burghers_charters_1
+			}
+		}
+	}
+}	
+estate_burghers_finance_5 = {
+	has_institution = manufactories
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: V-VI"
+		OR = {
+			has_reform = laissez_faire_econ_reform
+			has_reform = industrial_cap_econ_reform	
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y经济监管�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_econ_reg_2
+			has_estate_privilege = estate_bureaucracy_econ_reg_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y公共银行业务�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_banking_2
+			has_estate_privilege = estate_bureaucracy_banking_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: V-VI"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_4
+			has_estate_privilege = estate_burghers_urban_gov_7
+			has_estate_privilege = estate_burghers_urban_gov_8
+		}
+	}
+	has_estate_privilege = estate_burghers_com_law_7
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: V-VI"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_4
+			has_estate_privilege = estate_burghers_prof_trade_6
+			has_estate_privilege = estate_burghers_prof_trade_7
+		}
+	}
+	has_estate_privilege = estate_burghers_banking_4
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y继承保护�: IV-V"
+		OR = {
+			has_estate_privilege = estate_burghers_inherit_3
+			has_estate_privilege = estate_burghers_inherit_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y贸易特许�: VI"
+		OR = {
+			has_estate_privilege = estate_burghers_charters_4
+			has_estate_privilege = estate_burghers_charters_6
+		}
+	}
+}	
+
+#
+estate_burghers_marine_0 = { 
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "没有任何沿海省份"
+			any_owned_province = {
+				has_port = yes
+			}
+		}
+	}
+}	
+estate_burghers_marine_1 = {
+	NOT = { has_reform = industrial_cap_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: I-II"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_0
+			has_estate_privilege = estate_burghers_com_law_1
+			has_estate_privilege = estate_burghers_com_law_4
+		}
+	}
+	has_estate_privilege = estate_burghers_charters_0
+}	
+estate_burghers_marine_2 = {
+	NOT = { has_reform = industrial_cap_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: II-III"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_1
+			has_estate_privilege = estate_burghers_com_law_2
+			has_estate_privilege = estate_burghers_com_law_4
+			has_estate_privilege = estate_burghers_com_law_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y贸易特许�: II-III"
+		OR = {
+			has_estate_privilege = estate_burghers_charters_1
+			has_estate_privilege = estate_burghers_charters_2
+			has_estate_privilege = estate_burghers_charters_3
+			has_estate_privilege = estate_burghers_charters_5
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y城市治理�: I; VI"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_8
+			}
+		}
+	}
+}	
+estate_burghers_marine_3 = {
+	has_institution = commercialism
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y经济监管�: II-III"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_econ_reg_1
+			has_estate_privilege = estate_bureaucracy_econ_reg_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: III-IV"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_2
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_5
+			has_estate_privilege = estate_burghers_com_law_6
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y中央行政�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y城市治理�: I; VI"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_8
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_finance_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y贸易特许�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_charters_0
+				has_estate_privilege = estate_burghers_charters_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_privateer_5 }
+}	
+estate_burghers_marine_4 = {
+	has_institution = state_sovereignty
+	has_institution = global_trade
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: IV-VI"
+		OR = {
+			has_reform = mercantilist_econ_reform
+			has_reform = laissez_faire_econ_reform
+			has_reform = industrial_cap_econ_reform
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: IV-V�down�"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_6
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y贸易特许�: IV-V"
+		OR = {
+			has_estate_privilege = estate_burghers_charters_3
+			has_estate_privilege = estate_burghers_charters_4
+			has_estate_privilege = estate_burghers_charters_5
+			has_estate_privilege = estate_burghers_charters_6
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y城市治理�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y金融工具�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_finance_0
+				has_estate_privilege = estate_burghers_finance_1
+			}
+		}
+	}
+	
+	NOT = { has_estate_privilege = estate_burghers_banking_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y私掠活动�: V-VI"
+			OR = {
+				has_estate_privilege = estate_burghers_privateer_4
+				has_estate_privilege = estate_burghers_privateer_5
+			}
+		}
+	}
+}	
+estate_burghers_marine_5 = {
+	has_institution = global_trade
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: IV-VI"
+		OR = {
+			has_reform = mercantilist_econ_reform
+			has_reform = laissez_faire_econ_reform
+			has_reform = industrial_cap_econ_reform
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: IV-V�up�"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y贸易特许�: IV-V"
+		OR = {
+			has_estate_privilege = estate_burghers_charters_3
+			has_estate_privilege = estate_burghers_charters_4
+			has_estate_privilege = estate_burghers_charters_5
+			has_estate_privilege = estate_burghers_charters_6
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y城市治理�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y金融工具�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_finance_0
+				has_estate_privilege = estate_burghers_finance_1
+			}
+		}
+	}
+	
+	NOT = { has_estate_privilege = estate_burghers_banking_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y私掠活动�: V-VI"
+			OR = {
+				has_estate_privilege = estate_burghers_privateer_4
+				has_estate_privilege = estate_burghers_privateer_5
+			}
+		}
+	}
+}	
+estate_burghers_marine_6 = {
+	has_institution = global_trade
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: IV-VI"
+		OR = {
+			has_reform = mercantilist_econ_reform
+			has_reform = laissez_faire_econ_reform
+			has_reform = industrial_cap_econ_reform
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: V-VI"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_4
+			has_estate_privilege = estate_burghers_urban_gov_7
+			has_estate_privilege = estate_burghers_urban_gov_8
+		}
+	}
+	has_estate_privilege = estate_burghers_com_law_7
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: V-VI"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_4
+			has_estate_privilege = estate_burghers_prof_trade_6
+			has_estate_privilege = estate_burghers_prof_trade_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y金融工具�: V-VI"
+		OR = {
+			has_estate_privilege = estate_burghers_finance_4
+			has_estate_privilege = estate_burghers_finance_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商业银行业务�: IV-V"
+		OR = {
+			has_estate_privilege = estate_burghers_banking_3
+			has_estate_privilege = estate_burghers_banking_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y贸易特许�: V"
+		OR = {
+			has_estate_privilege = estate_burghers_charters_4
+			has_estate_privilege = estate_burghers_charters_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y私掠活动�: I-II"
+		OR = {
+			has_estate_privilege = estate_burghers_privateer_0
+			has_estate_privilege = estate_burghers_privateer_1
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+}	
+
+####Privs
+###
+estate_burghers_hierarchy_0 = {
+	NOT = { has_reform = plutocrat_elite_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: V; VII"
+		OR = {
+			has_reform = high_society_reform
+			has_reform = oligarchic_consolidation_reform
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: I-II�down�"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_0
+			has_estate_privilege = estate_burghers_com_law_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: I-II"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_0
+			has_estate_privilege = estate_burghers_prof_trade_1
+		}
+	}
+	has_estate_privilege = estate_burghers_finance_0		
+	has_estate_privilege = estate_burghers_hierarchy_1
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商人银行�: I-II"
+		OR = {
+			has_estate_privilege = estate_burghers_banking_0
+			has_estate_privilege = estate_burghers_banking_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y继承保护�: I-II"
+		OR = {
+			has_estate_privilege = estate_burghers_inherit_0
+			has_estate_privilege = estate_burghers_inherit_1
+		}
+	}
+}	
+estate_burghers_hierarchy_1 = {
+	NOT = { has_reform = plutocrat_elite_reform }
+	OR = {
+		AND = {
+			has_estate_privilege = estate_burghers_hierarchy_0
+			NOT = { has_estate_privilege = estate_burghers_com_law_0 }
+			NOT = { has_estate_privilege = estate_burghers_prof_trade_0 }
+		}
+		AND = {
+			has_estate_privilege = estate_burghers_hierarchy_2
+			OR = {
+				AND = {
+					has_estate_privilege = estate_bureaucracy_rev_collect_6
+					has_estate_privilege = estate_bureaucracy_politicization_3
+					has_estate_privilege = estate_bureaucracy_econ_reg_3
+					has_estate_privilege = estate_bureaucracy_banking_3
+					has_estate_privilege = estate_burghers_com_law_7
+					custom_trigger_tooltip = {
+						tooltip = "已授予 �市民阶层��Y专业贸易�: V-VI�down�"
+						OR = {
+							has_estate_privilege = estate_burghers_prof_trade_6
+							has_estate_privilege = estate_burghers_prof_trade_7
+						}
+					}
+					has_estate_privilege = estate_burghers_charters_4
+				}
+				AND = {
+					custom_trigger_tooltip = {
+						tooltip = "已授予 �市民阶层��Y商法�: II-IV�down�"
+						OR = {
+							has_estate_privilege = estate_burghers_com_law_4
+							has_estate_privilege = estate_burghers_com_law_5
+							has_estate_privilege = estate_burghers_com_law_6
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = "已授予 �市民阶层��Y专业贸易�: I-III"
+						OR = {
+							has_estate_privilege = estate_burghers_prof_trade_0
+							has_estate_privilege = estate_burghers_prof_trade_1
+							has_estate_privilege = estate_burghers_prof_trade_2
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = "已授予 �市民阶层��Y金融工具�: V-VI"
+						OR = {
+							has_estate_privilege = estate_burghers_finance_4
+							has_estate_privilege = estate_burghers_finance_5
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = "已授予 �市民阶层��Y继承保护�: IV-V"
+						OR = {
+							has_estate_privilege = estate_burghers_inherit_3
+							has_estate_privilege = estate_burghers_inherit_4
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = "已授予 �市民阶层��Y贸易特许�: IV-V"
+						OR = {
+							has_estate_privilege = estate_burghers_charters_3
+							has_estate_privilege = estate_burghers_charters_4
+							has_estate_privilege = estate_burghers_charters_5
+							has_estate_privilege = estate_burghers_charters_6
+						}
+					}
+				}
+			}
+		}
+	}
+}	
+estate_burghers_hierarchy_2 = {
+	OR = {
+		AND = {
+			has_estate_privilege = estate_burghers_hierarchy_1
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_prof_trade_3
+			has_estate_privilege = estate_burghers_finance_3
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �市民阶层��Y商人银行�: IV-V"
+				OR = {
+					has_estate_privilege = estate_burghers_banking_3
+					has_estate_privilege = estate_burghers_banking_4
+				}
+			}
+		}
+		AND = {
+			has_estate_privilege = estate_burghers_hierarchy_3
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �官僚机构� �Y税收征管�: VI-VII"
+				OR = {
+					has_estate_privilege = estate_bureaucracy_rev_collect_5
+					has_estate_privilege = estate_bureaucracy_rev_collect_6
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �官僚机构� �Y政治化�: III-IV"
+				OR = {
+					has_estate_privilege = estate_bureaucracy_politicization_2
+					has_estate_privilege = estate_bureaucracy_politicization_3
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �官僚机构� �Y经济监管�: III-IV"
+				OR = {
+					has_estate_privilege = estate_bureaucracy_econ_reg_2
+					has_estate_privilege = estate_bureaucracy_econ_reg_3
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �官僚机构� �Y公共银行�: III-IV"
+				OR = {
+					has_estate_privilege = estate_bureaucracy_banking_2
+					has_estate_privilege = estate_bureaucracy_banking_3
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �市民阶层��Y商法�: IV-V�down�"
+				OR = {
+					has_estate_privilege = estate_burghers_com_law_6
+					has_estate_privilege = estate_burghers_com_law_7
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �市民阶层��Y专业贸易�: IV-VI�down�"
+				OR = {
+					has_estate_privilege = estate_burghers_prof_trade_5
+					has_estate_privilege = estate_burghers_prof_trade_6
+					has_estate_privilege = estate_burghers_prof_trade_7
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �市民阶层��Y金融工具�: IV-VI"
+				OR = {
+					has_estate_privilege = estate_burghers_finance_3
+					has_estate_privilege = estate_burghers_finance_4
+					has_estate_privilege = estate_burghers_finance_5
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �市民阶层��Y继承保护�: IV-V"
+				OR = {
+					has_estate_privilege = estate_burghers_inherit_3
+					has_estate_privilege = estate_burghers_inherit_4
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �市民阶层��Y贸易特许�: IV-V"
+				OR = {
+					has_estate_privilege = estate_burghers_charters_3
+					has_estate_privilege = estate_burghers_charters_4
+					has_estate_privilege = estate_burghers_charters_5
+					has_estate_privilege = estate_burghers_charters_6
+				}
+			}
+		}
+	}
+}	
+estate_burghers_hierarchy_3 = {
+	NOT = { has_reform = subsist_econ_reform }
+	NOT = { has_reform = tribal_elite_reform }
+	OR = {
+		AND = {
+			has_estate_privilege = estate_burghers_hierarchy_2
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �市民阶层��Y商法�: IV-V�up�"
+				OR = {
+					has_estate_privilege = estate_burghers_com_law_3
+					has_estate_privilege = estate_burghers_com_law_7
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �市民阶层��Y专业贸易�: IV-VI�up�"
+				OR = {
+					has_estate_privilege = estate_burghers_prof_trade_3
+					has_estate_privilege = estate_burghers_prof_trade_4
+					has_estate_privilege = estate_burghers_prof_trade_7
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �市民阶层��Y金融工具�: IV-VI"
+				OR = {
+					has_estate_privilege = estate_burghers_finance_3
+					has_estate_privilege = estate_burghers_finance_4
+					has_estate_privilege = estate_burghers_finance_5
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �市民阶层��Y商人银行�: IV-V"
+				OR = {
+					has_estate_privilege = estate_burghers_banking_3
+					has_estate_privilege = estate_burghers_banking_4
+				}
+			}
+		}
+		AND = {
+			has_estate_privilege = estate_burghers_hierarchy_4
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �官僚机构� �Y税收征管�: V-VII"
+				OR = {
+					has_estate_privilege = estate_bureaucracy_rev_collect_4
+					has_estate_privilege = estate_bureaucracy_rev_collect_5
+					has_estate_privilege = estate_bureaucracy_rev_collect_6
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �官僚机构� �Y经济监管�: III-IV"
+				OR = {
+					has_estate_privilege = estate_bureaucracy_econ_reg_2
+					has_estate_privilege = estate_bureaucracy_econ_reg_3
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �市民阶层��Y商法�: IV-V"
+				OR = {
+					has_estate_privilege = estate_burghers_com_law_3
+					has_estate_privilege = estate_burghers_com_law_6
+					has_estate_privilege = estate_burghers_com_law_7
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "已授予 �市民阶层��Y金融工具�: IV-VI"
+				OR = {
+					has_estate_privilege = estate_burghers_finance_3
+					has_estate_privilege = estate_burghers_finance_4
+					has_estate_privilege = estate_burghers_finance_5
+				}
+			}
+		}
+	}
+}	
+estate_burghers_hierarchy_4 = {
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y公民社会�: V-IIX"
+		OR = {
+			has_reform = mixed_elite_reform
+			has_reform = plutocrat_elite_reform
+			has_reform = petit_bourgeoisie_reform
+			has_reform = majority_participation_reform	
+		}
+	}
+	NOT = { has_estate_privilege = subsist_econ_reform }
+	has_estate_privilege = estate_burghers_hierarchy_3
+	OR = {
+		has_estate_privilege = estate_burghers_com_law_7
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �市民阶层��Y专业贸易�: V-VI�up�"
+			OR = {
+				has_estate_privilege = estate_burghers_prof_trade_4
+				has_estate_privilege = estate_burghers_prof_trade_7
+			}
+		}
+		has_estate_privilege = estate_burghers_finance_5
+	}
+	NOT = { has_estate_privilege = estate_burghers_com_law_0 }
+	NOT = { has_estate_privilege = estate_burghers_prof_trade_0 }
+	NOT = { has_estate_privilege = estate_burghers_finance_0 }
+	NOT = { has_estate_privilege = estate_burghers_banking_0 }
+	NOT = { has_estate_privilege = estate_burghers_inherit_0 }
+}	
+
+#
+estate_burghers_banking_0 = {
+	NOT = { has_reform = industrial_cap_econ_reform }
+	has_estate_privilege = estate_bureaucracy_banking_0
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y金融工具�: I-II"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_0
+			has_estate_privilege = estate_burghers_prof_trade_1
+		}
+	}
+}	
+estate_burghers_banking_1 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y公共银行�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_banking_0
+			has_estate_privilege = estate_bureaucracy_banking_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: II-III"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_1
+			has_estate_privilege = estate_burghers_com_law_2
+			has_estate_privilege = estate_burghers_com_law_4
+			has_estate_privilege = estate_burghers_com_law_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: II-IV"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_1
+			has_estate_privilege = estate_burghers_prof_trade_2
+			has_estate_privilege = estate_burghers_prof_trade_3
+			has_estate_privilege = estate_burghers_prof_trade_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y金融工具�: I-III"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_0
+			has_estate_privilege = estate_burghers_prof_trade_1
+			has_estate_privilege = estate_burghers_prof_trade_2
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商人银行�: IV-V"
+			OR = {
+				has_estate_privilege = estate_burghers_banking_3
+				has_estate_privilege = estate_burghers_banking_4
+			}
+		}
+	}
+}	
+estate_burghers_banking_2 = {
+	has_institution = commercialism
+	NOT = { has_reform = subsist_econ_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y公共银行�: II-III"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_banking_1
+			has_estate_privilege = estate_bureaucracy_banking_2
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_banking_4 }
+	NOT = { has_estate_privilege = estate_burghers_inherit_0 }
+	NOT = { has_estate_privilege = estate_burghers_charters_0 }
+}	
+estate_burghers_banking_3 = {
+	has_institution = finance
+	NOT = { has_reform = subsist_econ_reform }
+	NOT = { has_estate_privilege = estate_bureaucracy_banking_0 }
+	NOT = { has_estate_privilege = estate_burghers_urban_gov_0 }
+	NOT = { has_estate_privilege = estate_burghers_com_law_0 }
+	NOT = { has_estate_privilege = estate_burghers_prof_trade_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y金融工具�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_finance_0
+				has_estate_privilege = estate_burghers_finance_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_hierarchy_0 }
+	NOT = { has_estate_privilege = estate_burghers_inherit_0 }
+	NOT = { has_estate_privilege = estate_burghers_charters_0 }
+}	
+estate_burghers_banking_4 = {
+	has_institution = finance
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y经济结构�: I-II"
+			OR = {
+				has_reform = subsist_econ_reform
+				has_reform = traditional_econ_reform
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_banking_0 }
+	NOT = { has_estate_privilege = estate_burghers_urban_gov_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商法�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_com_law_0
+				has_estate_privilege = estate_burghers_com_law_1
+				has_estate_privilege = estate_burghers_com_law_4
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y专业贸易�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_prof_trade_0
+				has_estate_privilege = estate_burghers_prof_trade_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y金融工具�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_finance_0
+				has_estate_privilege = estate_burghers_finance_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_hierarchy_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y继承保护�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_inherit_0
+				has_estate_privilege = estate_burghers_inherit_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_charters_0 }
+}	
+
+#
+estate_burghers_inherit_0 = {
+	NOT = { has_reform = centralized_oligarchy_reform }
+	NOT = { has_reform = industrial_cap_econ_reform }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y公民社会�: VI-VII"
+			OR = {
+				has_reform = plutocrat_elite_reform
+				has_reform = petit_bourgeoisie_reform
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y立法机构�: I-III"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_leg_app_0
+			has_estate_privilege = estate_bureaucracy_leg_app_1
+			has_estate_privilege = estate_bureaucracy_leg_app_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y司法供给�: I-III"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_prov_justice_0
+			has_estate_privilege = estate_bureaucracy_prov_justice_1
+			has_estate_privilege = estate_bureaucracy_prov_justice_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: I-III"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_0
+			has_estate_privilege = estate_burghers_prof_trade_1
+			has_estate_privilege = estate_burghers_prof_trade_2
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �市民阶层��Y商业等级制度�: IV-V"
+			OR = {
+				has_estate_privilege = estate_burghers_hierarchy_3
+				has_estate_privilege = estate_burghers_hierarchy_4
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "已授予 �市民阶层��Y商业银行业务�: IV-V"
+			OR = {
+				has_estate_privilege = estate_burghers_banking_3
+				has_estate_privilege = estate_burghers_banking_4
+			}
+		}
+	}
+}	
+estate_burghers_inherit_1 = {
+	NOT = { has_reform = centralized_oligarchy_reform }
+	NOT = { has_reform = industrial_cap_econ_reform }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y公民社会�: VI-VII"
+			OR = {
+				has_reform = plutocrat_elite_reform
+				has_reform = petit_bourgeoisie_reform
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y司法供给�: II-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_prov_justice_1
+			has_estate_privilege = estate_bureaucracy_prov_justice_2
+			has_estate_privilege = estate_bureaucracy_prov_justice_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y专业贸易�: II-III"
+		OR = {
+			has_estate_privilege = estate_burghers_prof_trade_1
+			has_estate_privilege = estate_burghers_prof_trade_2
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商法�: IV-V"
+			OR = {
+				has_estate_privilege = estate_burghers_com_law_3
+				has_estate_privilege = estate_burghers_com_law_6
+				has_estate_privilege = estate_burghers_com_law_7
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_hierarchy_4 }
+	NOT = { has_estate_privilege = estate_burghers_banking_4 }
+}	
+estate_burghers_inherit_2 = {
+	has_institution = bureaucracy
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: II-III"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_1
+			has_estate_privilege = estate_burghers_com_law_2
+			has_estate_privilege = estate_burghers_com_law_4
+			has_estate_privilege = estate_burghers_com_law_5
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y税收征收�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_rev_collect_0
+				has_estate_privilege = estate_bureaucracy_rev_collect_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_leg_app_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y司法供给�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y专业贸易�: II-III; VI"
+			OR = {
+				has_estate_privilege = estate_burghers_prof_trade_1
+				has_estate_privilege = estate_burghers_prof_trade_2
+				has_estate_privilege = estate_burghers_prof_trade_7
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_finance_0 }
+}	
+estate_burghers_inherit_3 = {
+	has_institution = finance
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y税收征收�: V-VII"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_rev_collect_4
+			has_estate_privilege = estate_bureaucracy_rev_collect_5
+			has_estate_privilege = estate_bureaucracy_rev_collect_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: IV-V"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_6
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y司法供给�: I-III"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_1
+				has_estate_privilege = estate_bureaucracy_prov_justice_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y专业贸易�: I-III"
+			OR = {
+				has_estate_privilege = estate_burghers_prof_trade_0
+				has_estate_privilege = estate_burghers_prof_trade_1
+				has_estate_privilege = estate_burghers_prof_trade_2
+			}
+		}
+	}
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y金融工具�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_finance_0
+				has_estate_privilege = estate_burghers_finance_1
+			}
+		}
+	}
+}	
+estate_burghers_inherit_4 = {
+	has_institution = state_sovereignty
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y行政区划�: V-VI"
+		OR = {
+			has_reform = fed_div_reform
+			has_reform = unitary_reform
+		}
+	}
+	NOT = { has_reform = subsist_econ_reform }
+	NOT = { has_reform = plutocrat_elite_reform }
+	NOT = { has_reform = oligarchic_consolidation_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y税收征收�: VI-VII"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_rev_collect_5
+			has_estate_privilege = estate_bureaucracy_rev_collect_6
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y司法供给�: V-VII"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_prov_justice_4
+			has_estate_privilege = estate_bureaucracy_prov_justice_5
+			has_estate_privilege = estate_bureaucracy_prov_justice_6
+		}
+	}
+	has_estate_privilege = estate_burghers_com_law_7
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+}	
+
+#
+estate_burghers_assembly_0 = {
+	if = {
+		limit = { government = monarchy }
+		NOT = { has_reform = rule_pop_sovereignty_reform }
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y公民社会�: VII-IIX"
+			OR = {
+				has_reform = petit_bourgeoisie_reform
+				has_reform = majority_participation_reform
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y立法机构�: I-II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_leg_app_0
+			has_estate_privilege = estate_bureaucracy_leg_app_1
+		}
+	}
+	has_estate_privilege = estate_burghers_inherit_0
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y城市治理�: III-IV�up�"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_2
+				has_estate_privilege = estate_burghers_urban_gov_3
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商法�: II-III�up�"
+			OR = {
+				has_estate_privilege = estate_burghers_com_law_1
+				has_estate_privilege = estate_burghers_com_law_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_prof_trade_2 }
+}	
+estate_burghers_assembly_1 = {
+	if = {
+		limit = { government = monarchy }
+		NOT = { has_reform = rule_pop_sovereignty_reform }
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y公民社会�: VII-IIX"
+			OR = {
+				has_reform = petit_bourgeoisie_reform
+				has_reform = majority_participation_reform
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y立法机构�: I-III"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_leg_app_0
+			has_estate_privilege = estate_bureaucracy_leg_app_1
+			has_estate_privilege = estate_bureaucracy_leg_app_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y司法供给�: II-III"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_prov_justice_1
+			has_estate_privilege = estate_bureaucracy_prov_justice_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: II-IV"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_1
+			has_estate_privilege = estate_burghers_urban_gov_2
+			has_estate_privilege = estate_burghers_urban_gov_3
+			has_estate_privilege = estate_burghers_urban_gov_5
+			has_estate_privilege = estate_burghers_urban_gov_6
+		}
+	}
+}	
+estate_burghers_assembly_2 = {
+	if = {
+		limit = { government = monarchy }
+		NOT = { has_reform = rule_pop_sovereignty_reform }
+	}
+	NOT = { has_reform = majority_participation_reform }
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y城市治理�: III-IV"
+		OR = {
+			has_estate_privilege = estate_burghers_urban_gov_2
+			has_estate_privilege = estate_burghers_urban_gov_3
+			has_estate_privilege = estate_burghers_urban_gov_5
+			has_estate_privilege = estate_burghers_urban_gov_6
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y立法机构�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_leg_app_0
+				has_estate_privilege = estate_bureaucracy_leg_app_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y司法供给�: I-II; VII"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_1
+				has_estate_privilege = estate_bureaucracy_prov_justice_6
+			}
+		}
+	}
+}	
+estate_burghers_assembly_3 = {
+	has_institution = printing_press
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y立法机构�: I-III"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_leg_app_0
+				has_estate_privilege = estate_bureaucracy_leg_app_1
+				has_estate_privilege = estate_bureaucracy_leg_app_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y司法供给�: I-III; VII"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_1
+				has_estate_privilege = estate_bureaucracy_prov_justice_2
+				has_estate_privilege = estate_bureaucracy_prov_justice_6
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_politicization_0 }
+	NOT = { has_estate_privilege = estate_church_ed_5 }
+	NOT = { has_estate_privilege = estate_church_proselytism_6 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族阶层��Y乡村治理�: I-II"
+			OR = {
+				has_estate_privilege = estate_nobles_rural_gov_0
+				has_estate_privilege = estate_nobles_rural_gov_1
+			}
+		}
+	}	
+	NOT = { has_estate_privilege = estate_nobles_tenancy_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y城市治理�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_1
+			}
+		}
+	}	
+}	
+estate_burghers_assembly_4 = {
+	has_institution = enlightenment
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y司法供给�: V-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_prov_justice_4
+			has_estate_privilege = estate_bureaucracy_prov_justice_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y官僚政治化�: III-IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_politicization_2
+			has_estate_privilege = estate_bureaucracy_politicization_3
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y立法机构�: I-III"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_leg_app_0
+				has_estate_privilege = estate_bureaucracy_leg_app_1
+				has_estate_privilege = estate_bureaucracy_leg_app_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_church_ed_5 }
+	NOT = { has_estate_privilege = estate_church_proselytism_6 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族阶层��Y乡村治理�: I-III"
+			OR = {
+				has_estate_privilege = estate_nobles_rural_gov_0
+				has_estate_privilege = estate_nobles_rural_gov_1
+				has_estate_privilege = estate_nobles_rural_gov_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族阶层��Y租佃权�: I-II"
+			OR = {
+				has_estate_privilege = estate_nobles_tenancy_0
+				has_estate_privilege = estate_nobles_tenancy_1
+			}
+		}
+	}		
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y城市治理�: I-II"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_1
+			}
+		}
+	}	
+}	
+estate_burghers_assembly_5 = {
+	has_institution = printing_press
+	if = {
+		limit = { government = monarchy }
+		NOT = { has_reform = rule_pop_sovereignty_reform }
+	}
+	NOT = { has_reform = majority_participation_reform }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y中央行政�: I-II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y立法机构�: I-III"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_leg_app_0
+				has_estate_privilege = estate_bureaucracy_leg_app_1
+				has_estate_privilege = estate_bureaucracy_leg_app_2
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y司法供给�: I-III; VII"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_1
+				has_estate_privilege = estate_bureaucracy_prov_justice_2
+				has_estate_privilege = estate_bureaucracy_prov_justice_6
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_politicization_3 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族阶层��Y乡村治理�: I-II"
+			OR = {
+				has_estate_privilege = estate_nobles_rural_gov_0
+				has_estate_privilege = estate_nobles_rural_gov_1
+			}
+		}
+	}	
+}	
+estate_burghers_assembly_6 = {
+	has_institution = enlightenment
+	if = {
+		limit = { government = monarchy }
+		NOT = { has_reform = rule_pop_sovereignty_reform }
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y公民社会�: VII-IIX"
+			OR = {
+				has_reform = petit_bourgeoisie_reform
+				has_reform = majority_participation_reform
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y中央行政�: IV-V"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_central_admin_3
+			has_estate_privilege = estate_bureaucracy_central_admin_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y司法供给�: V-VI"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_prov_justice_4
+			has_estate_privilege = estate_bureaucracy_prov_justice_5
+		}
+	}		
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y立法机构�: I-III"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_leg_app_0
+				has_estate_privilege = estate_bureaucracy_leg_app_1
+				has_estate_privilege = estate_bureaucracy_leg_app_2
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_politicization_3 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族阶层��Y乡村治理�: I-II"
+			OR = {
+				has_estate_privilege = estate_nobles_rural_gov_0
+				has_estate_privilege = estate_nobles_rural_gov_1
+			}
+		}
+	}
+}	
+
+#
+estate_burghers_patronage_0 = {
+	NOT = { has_estate_privilege = estate_bureaucracy_banking_3 }
+}	
+estate_burghers_patronage_1 = {
+}
+estate_burghers_patronage_2 = {
+}
+estate_burghers_patronage_3 = {
+}
+estate_burghers_patronage_4 = {
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+}	
+
+#
+estate_burghers_charters_0 = {
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y经济结构�: IV; VI"
+			OR = {
+				has_reform = mercantilist_econ_reform
+				has_reform = industrial_cap_econ_reform
+			}
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_econ_reg_0
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: I - II"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_0
+			has_estate_privilege = estate_burghers_com_law_1
+			has_estate_privilege = estate_burghers_com_law_4
+		}
+	}
+}	
+estate_burghers_charters_1 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y商业特许状�: I - II"
+		OR = {
+			has_estate_privilege = estate_court_charters_0
+			has_estate_privilege = estate_court_charters_1
+		}
+	}
+	has_estate_privilege = estate_bureaucracy_econ_reg_0
+	has_estate_privilege = estate_burghers_marine_1
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y城市治理�: I; VI"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_8
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商法�: I; V"
+			OR = {
+				has_estate_privilege = estate_burghers_com_law_0
+				has_estate_privilege = estate_burghers_com_law_7
+			}
+		}
+	}
+}	
+estate_burghers_charters_2 = {
+	has_institution = commercialism
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �宫廷��Y商业特许状�: II - III"
+		OR = {
+			has_estate_privilege = estate_court_charters_1
+			has_estate_privilege = estate_court_charters_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y经济监管�: I - II"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_econ_reg_0
+			has_estate_privilege = estate_bureaucracy_econ_reg_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商船队�: III - IV"
+		OR = {
+			has_estate_privilege = estate_burghers_marine_2
+			has_estate_privilege = estate_burghers_marine_3
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y城市治理�: I; VI"
+			OR = {
+				has_estate_privilege = estate_burghers_urban_gov_0
+				has_estate_privilege = estate_burghers_urban_gov_8
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商法�: I; V"
+			OR = {
+				has_estate_privilege = estate_burghers_com_law_0
+				has_estate_privilege = estate_burghers_com_law_7
+			}
+		}
+	}
+}	
+estate_burghers_charters_3 = {
+	has_institution = finance
+	NOT = { has_reform = subsist_econ_reform }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �宫廷��Y商业特许状�: I - II"
+			OR = {
+				has_estate_privilege = estate_court_charters_0
+				has_estate_privilege = estate_court_charters_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商法�: I - II"
+			OR = {
+				has_estate_privilege = estate_burghers_com_law_0
+				has_estate_privilege = estate_burghers_com_law_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_finance_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I - II"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+			}
+		}
+	}
+}	
+estate_burghers_charters_4 = {
+	has_institution = global_trade
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: IV; VI"
+		OR = {
+			has_reform = mercantilist_econ_reform
+			has_reform = industrial_cap_econ_reform
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: I - II"
+			OR = {
+				has_reform = no_div_reform
+				has_reform = nonstandard_div_reform
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y经济监管�: III - IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_econ_reg_2
+			has_estate_privilege = estate_bureaucracy_econ_reg_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y公共银行�: III - IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_banking_2
+			has_estate_privilege = estate_bureaucracy_banking_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: IV - V�down�"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_6
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y金融工具�: IV - VI"
+		OR = {
+			has_estate_privilege = estate_burghers_finance_3
+			has_estate_privilege = estate_burghers_finance_4
+			has_estate_privilege = estate_burghers_finance_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商船队�: V - VI�up�"
+		OR = {
+			has_estate_privilege = estate_burghers_marine_4
+			has_estate_privilege = estate_burghers_marine_6
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �宫廷��Y商业特许状�: I - II"
+			OR = {
+				has_estate_privilege = estate_court_charters_0
+				has_estate_privilege = estate_court_charters_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y专业贸易�: I - III"
+			OR = {
+				has_estate_privilege = estate_burghers_prof_trade_0
+				has_estate_privilege = estate_burghers_prof_trade_1
+				has_estate_privilege = estate_burghers_prof_trade_2
+			}
+		}
+	}
+}	
+estate_burghers_charters_5 = {
+	has_institution = finance
+	NOT = { has_reform = subsist_econ_reform }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �宫廷��Y商业特许状�: I - II"
+			OR = {
+				has_estate_privilege = estate_court_charters_0
+				has_estate_privilege = estate_court_charters_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商法�: I - II"
+			OR = {
+				has_estate_privilege = estate_burghers_com_law_0
+				has_estate_privilege = estate_burghers_com_law_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_finance_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I - II"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+			}
+		}
+	}
+}	
+estate_burghers_charters_6 = {
+	has_institution = global_trade
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y经济结构�: V - VI"
+		OR = {
+			has_reform = laissez_faire_econ_reform
+			has_reform = industrial_cap_econ_reform
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y行政区划�: I - II"
+			OR = {
+				has_reform = no_div_reform
+				has_reform = nonstandard_div_reform
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �官僚机构� �Y经济监管�: III - IV"
+		OR = {
+			has_estate_privilege = estate_bureaucracy_econ_reg_2
+			has_estate_privilege = estate_bureaucracy_econ_reg_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: IV - V�up�"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y金融工具�: IV - VI"
+		OR = {
+			has_estate_privilege = estate_burghers_finance_3
+			has_estate_privilege = estate_burghers_finance_4
+			has_estate_privilege = estate_burghers_finance_5
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商船队�: V - VI�down�"
+		OR = {
+			has_estate_privilege = estate_burghers_marine_5
+			has_estate_privilege = estate_burghers_marine_6
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �宫廷��Y商业特许状�: I - II; V�down�"
+			OR = {
+				has_estate_privilege = estate_court_charters_0
+				has_estate_privilege = estate_court_charters_1
+				has_estate_privilege = estate_court_charters_4
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_banking_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y专业贸易�: I - III"
+			OR = {
+				has_estate_privilege = estate_burghers_prof_trade_0
+				has_estate_privilege = estate_burghers_prof_trade_1
+				has_estate_privilege = estate_burghers_prof_trade_2
+			}
+		}
+	}
+}	
+
+#
+estate_burghers_slavery_0 = {
+	has_institution = enlightenment
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y中央行政�: I - II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_prov_justice_0 }
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = { has_estate_privilege = estate_burghers_charters_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y私掠船�: V - VI"
+			OR = {
+				has_estate_privilege = estate_burghers_privateer_4
+				has_estate_privilege = estate_burghers_privateer_5
+			}
+		}
+	}
+}	
+estate_burghers_slavery_1 = {
+	custom_trigger_tooltip = {
+		tooltip = "未授予 �市民阶层��Y商法�: IV - V"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_6
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y中央行政�: I - II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y司法供给�: I; VII"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_6
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = { has_estate_privilege = estate_burghers_charters_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y私掠船�: V - VI"
+			OR = {
+				has_estate_privilege = estate_burghers_privateer_4
+				has_estate_privilege = estate_burghers_privateer_5
+			}
+		}
+	}
+}	
+estate_burghers_slavery_2 = {
+	NOT = { has_reform = full_constitutionalism_reform }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商法�: IV - V"
+			OR = {
+				has_estate_privilege = estate_burghers_com_law_3
+				has_estate_privilege = estate_burghers_com_law_6
+				has_estate_privilege = estate_burghers_com_law_7
+			}
+		}
+	}
+}	
+estate_burghers_slavery_3 = {
+	NOT = { has_reform = full_constitutionalism_reform }
+	NOT = { has_estate_privilege = estate_bureaucracy_central_admin_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y司法供给�: I; VII"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_6
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_burghers_com_law_0 }
+}	
+estate_burghers_slavery_4 = {
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y改革与抱负�: III - IV"
+			OR = {
+				has_reform = principle_enlightment_reform
+				has_reform = full_constitutionalism_reform
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y中央行政�: IV - V"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_3
+				has_estate_privilege = estate_bureaucracy_central_admin_4
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_prov_justice_6 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �贵族阶层��Y租佃权�: IV - V"
+			OR = {
+				has_estate_privilege = estate_nobles_tenancy_3
+				has_estate_privilege = estate_nobles_tenancy_4
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商法�: IV - V"
+			OR = {
+				has_estate_privilege = estate_burghers_com_law_3
+				has_estate_privilege = estate_burghers_com_law_6
+				has_estate_privilege = estate_burghers_com_law_7
+			}
+		}
+	}
+}	
+estate_burghers_slavery_5 = {
+	has_institution = state_sovereignty
+	NOT = { 
+		custom_trigger_tooltip = {
+			tooltip = "未颁布 �Y改革与抱负�: III - IV"
+			OR = {
+				has_reform = principle_enlightment_reform
+				has_reform = full_constitutionalism_reform
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商法�: IV - V"
+		OR = {
+			has_estate_privilege = estate_burghers_com_law_3
+			has_estate_privilege = estate_burghers_com_law_6
+			has_estate_privilege = estate_burghers_com_law_7
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y中央行政�: I - II"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_central_admin_0
+				has_estate_privilege = estate_bureaucracy_central_admin_1
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y司法供给�: I - II; VII"
+			OR = {
+				has_estate_privilege = estate_bureaucracy_prov_justice_0
+				has_estate_privilege = estate_bureaucracy_prov_justice_1
+				has_estate_privilege = estate_bureaucracy_prov_justice_6
+			}
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_econ_reg_0 }
+	NOT = { has_estate_privilege = estate_burghers_charters_0 }
+}	
+
+#
+estate_burghers_privateer_0 = {
+	has_institution = state_sovereignty
+	custom_trigger_tooltip = {
+		tooltip = "已颁布 �Y行政区划�: IV - VI"
+		OR = {
+			has_reform = prov_div_reform
+			has_reform = fed_div_reform
+			has_reform = unitary_reform
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y海军组织�: IV - V"
+		OR = {
+			has_estate_privilege = estate_military_navy_org_3
+			has_estate_privilege = estate_military_navy_org_4
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III - IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事纪律�: IV - VI"
+		OR = {
+			has_estate_privilege = estate_military_discipline_3
+			has_estate_privilege = estate_military_discipline_4
+			has_estate_privilege = estate_military_discipline_5
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I - III"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+				has_estate_privilege = estate_burghers_marine_2
+			}
+		}
+	}
+}	
+estate_burghers_privateer_1 = {
+	has_estate_privilege = estate_military_navy_org_3
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: III - IV"
+		OR = {
+			has_estate_privilege = estate_military_oversight_2
+			has_estate_privilege = estate_military_oversight_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事纪律�: IV - VI"
+		OR = {
+			has_estate_privilege = estate_military_discipline_3
+			has_estate_privilege = estate_military_discipline_4
+			has_estate_privilege = estate_military_discipline_5
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �市民阶层��Y商船队�: I - III"
+			OR = {
+				has_estate_privilege = estate_burghers_marine_0
+				has_estate_privilege = estate_burghers_marine_1
+				has_estate_privilege = estate_burghers_marine_2
+			}
+		}
+	}
+}	
+estate_burghers_privateer_2 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y海军组织�: III - IV"
+		OR = {
+			has_estate_privilege = estate_military_navy_org_2
+			has_estate_privilege = estate_military_navy_org_3
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商船队�: IV - V"
+		OR = {
+			has_estate_privilege = estate_burghers_marine_4
+			has_estate_privilege = estate_burghers_marine_5
+			has_estate_privilege = estate_burghers_marine_6
+		}
+	}
+	NOT = { has_estate_privilege = estate_military_oversight_0 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事纪律�: I - II"
+			OR = {
+				has_estate_privilege = estate_military_discipline_0
+				has_estate_privilege = estate_military_discipline_1
+			}
+		}
+	}
+}	
+estate_burghers_privateer_3 = {	
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商船队�: III - IV"
+		OR = {
+			has_estate_privilege = estate_burghers_marine_3
+			has_estate_privilege = estate_burghers_marine_4
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y海军组织�: I; V"
+			OR = {
+				has_estate_privilege = estate_military_navy_org_0
+				has_estate_privilege = estate_military_navy_org_4
+			}
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事纪律�: I; VI"
+			OR = {
+				has_estate_privilege = estate_military_discipline_0
+				has_estate_privilege = estate_military_discipline_5
+			}
+		}
+	}
+}	
+estate_burghers_privateer_4 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y海军组织�: II - III"
+		OR = {
+			has_estate_privilege = estate_military_navy_org_1
+			has_estate_privilege = estate_military_navy_org_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商船队�: II - III"
+		OR = {
+			has_estate_privilege = estate_burghers_marine_2
+			has_estate_privilege = estate_burghers_marine_3
+		}
+	}
+	NOT = { has_estate_privilege = estate_bureaucracy_prov_justice_6 }
+	NOT = { has_estate_privilege = estate_military_oversight_3 }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �军事阶层��Y军事纪律�: V - VI"
+			OR = {
+				has_estate_privilege = estate_military_discipline_4
+				has_estate_privilege = estate_military_discipline_5
+			}
+		}
+	}
+}	
+estate_burghers_privateer_5 = {
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y海军组织�: II - III"
+		OR = {
+			has_estate_privilege = estate_military_navy_org_1
+			has_estate_privilege = estate_military_navy_org_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事监督�: I - II"
+		OR = {
+			has_estate_privilege = estate_military_oversight_0
+			has_estate_privilege = estate_military_oversight_1
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �军事阶层��Y军事纪律�: I - III"
+		OR = {
+			has_estate_privilege = estate_military_discipline_0
+			has_estate_privilege = estate_military_discipline_1
+			has_estate_privilege = estate_military_discipline_2
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = "已授予 �市民阶层��Y商船队�: II - III"
+		OR = {
+			has_estate_privilege = estate_burghers_marine_2
+			has_estate_privilege = estate_burghers_marine_3
+		}
+	}
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = "未授予 �官僚机构� �Y司法供给�: V - VII"
+			OR = {
+				has_estate_privilege = estate_military_discipline_4
+				has_estate_privilege = estate_bureaucracy_prov_justice_6
+			}
+		}
+	}
+}
